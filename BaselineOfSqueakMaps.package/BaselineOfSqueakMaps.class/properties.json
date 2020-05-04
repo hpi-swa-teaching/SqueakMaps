@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSqueakMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSqueakMaps",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
