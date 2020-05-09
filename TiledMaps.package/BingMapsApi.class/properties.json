@@ -1,0 +1,14 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BingMapsApi",
+	"pools" : [
+		 ],
+	"super" : "MapsApi",
+	"type" : "normal" }

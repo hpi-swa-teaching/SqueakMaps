@@ -1,0 +1,14 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "MapTileLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

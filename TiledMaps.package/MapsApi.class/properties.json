@@ -1,0 +1,15 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"apikey",
+		"layers" ],
+	"name" : "MapsApi",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

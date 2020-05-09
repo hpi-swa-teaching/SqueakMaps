@@ -1,0 +1,16 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"timeToLive",
+		"refreshTime" ],
+	"name" : "ExpiringValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

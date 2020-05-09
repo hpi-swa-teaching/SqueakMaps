@@ -1,0 +1,25 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tileLoader",
+		"center",
+		"zoom",
+		"tileSize",
+		"tileOffset",
+		"topLeftTile",
+		"bottomRightTile",
+		"lastMouse",
+		"worldBounds",
+		"pins",
+		"tileSource",
+		"geocoder" ],
+	"name" : "TiledMapMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

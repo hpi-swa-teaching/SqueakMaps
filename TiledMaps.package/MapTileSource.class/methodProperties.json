@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clampZoom:" : "tonyg 2/11/2018 16:34",
+		"isValidZoomLevel:" : "tonyg 2/10/2018 23:51",
+		"mapTileAt:zoom:" : "tonyg 2/10/2018 21:47",
+		"tileSize" : "tonyg 2/11/2018 10:49",
+		"urlForPosition:zoom:" : "tonyg 2/10/2018 21:46",
+		"zoomMax" : "tonyg 2/10/2018 23:43",
+		"zoomMin" : "tonyg 2/10/2018 23:43" } }
