@@ -1,0 +1,14 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ThunderforestMapsApi",
+	"pools" : [
+		 ],
+	"super" : "MapsApi",
+	"type" : "normal" }

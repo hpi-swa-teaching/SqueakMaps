@@ -1,0 +1,17 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"latLong",
+		"zoom",
+		"label",
+		"color" ],
+	"name" : "MapLocationMarker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

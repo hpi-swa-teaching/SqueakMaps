@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "tonyg 2/11/2018 00:24",
+		"reset" : "tonyg 2/11/2018 00:34",
+		"timeToLive" : "tonyg 2/11/2018 00:23",
+		"timeToLive:" : "tonyg 2/11/2018 00:23",
+		"valueIfExpired:" : "tonyg 2/11/2018 00:24" } }

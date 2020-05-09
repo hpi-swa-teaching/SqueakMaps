@@ -1,0 +1,14 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NominatimGeocoder",
+	"pools" : [
+		 ],
+	"super" : "Geocoder",
+	"type" : "normal" }

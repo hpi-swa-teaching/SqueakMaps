@@ -1,0 +1,14 @@
+{
+	"category" : "TiledMaps",
+	"classinstvars" : [
+		"Instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OpenStreetMapTileSource",
+	"pools" : [
+		 ],
+	"super" : "MapTileSource",
+	"type" : "normal" }
