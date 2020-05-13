@@ -1,0 +1,17 @@
+{
+	"category" : "Maps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gitRepository",
+		"fsGitRepository",
+		"squitRepository",
+		"master" ],
+	"name" : "MapTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
