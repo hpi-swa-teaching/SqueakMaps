@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"setUp" : "cs 5/13/2020 10:13",
+		"squeakMapsWindow" : "cs 5/13/2020 09:54",
+		"squeakMapsWindow:" : "cs 5/13/2020 09:54",
+		"tearDown" : "cs 5/13/2020 10:13",
+		"testsTextMorph" : "cs 5/13/2020 10:22" } }
