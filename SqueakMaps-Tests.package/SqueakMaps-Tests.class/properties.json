@@ -1,5 +1,5 @@
 {
-	"category" : "Maps-Tests",
+	"category" : "SqueakMaps-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "dn 5/13/2020 09:42",
 	"instvars" : [
 		"squeakMapsWindow" ],
-	"name" : "MapTests",
+	"name" : "SqueakMaps-Tests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
