@@ -7,8 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tiledMapMorph",
-		"searchBarMorph",
-		"searchButton" ],
+		"searchButton",
+		"api",
+		"apiKeyInputField",
+		"apiKeyButton",
+		"searchBar" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
