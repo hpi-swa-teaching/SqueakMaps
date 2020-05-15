@@ -6,10 +6,7 @@
 		 ],
 	"commentStamp" : "dn 5/13/2020 09:42",
 	"instvars" : [
-		"gitRepository",
-		"fsGitRepository",
-		"squitRepository",
-		"master" ],
+		"squeakMapsWindow" ],
 	"name" : "MapTests",
 	"pools" : [
 		 ],
