@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "dn 5/15/2020 10:59",
-		"initializeWindow" : "RS 5/8/2020 17:20",
+		"initialize" : "BCD 5/15/2020 11:19",
+		"initializeWindow" : "BCD 5/15/2020 11:15",
+		"searchBarMorph" : "BCD 5/15/2020 11:11",
+		"searchBarMorph:" : "BCD 5/15/2020 11:11",
+		"searchButton" : "BCD 5/15/2020 11:11",
+		"searchButton:" : "BCD 5/15/2020 11:11",
 		"tiledMapMorph" : "RS 5/8/2020 17:01",
 		"tiledMapMorph:" : "RS 5/8/2020 17:01" } }

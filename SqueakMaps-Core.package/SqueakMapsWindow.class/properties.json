@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tiledMapMorph" ],
+		"tiledMapMorph",
+		"searchBarMorph",
+		"searchButton" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
