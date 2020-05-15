@@ -1,0 +1,3 @@
+accessing
+defaultInputFieldColor
+	^ defaultInputFieldColor

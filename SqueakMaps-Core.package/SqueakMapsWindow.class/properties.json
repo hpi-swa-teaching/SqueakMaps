@@ -11,7 +11,10 @@
 		"api",
 		"apiKeyInputField",
 		"apiKeyButton",
-		"searchBar" ],
+		"searchBar",
+		"defaultButtonColor",
+		"defaultInputFieldColor",
+		"defaultInputFieldFont" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
