@@ -1,0 +1,1 @@
+Package includes all Test written for SqueakMaps
