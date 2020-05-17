@@ -1,4 +1,4 @@
-as yet unclassified
+build buttons and input fields
 buildApiButton
 	self apiKeyButton: (
 		SimpleButtonMorph new 

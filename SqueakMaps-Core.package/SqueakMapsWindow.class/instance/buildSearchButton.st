@@ -1,10 +1,10 @@
-as yet unclassified
+build buttons and input fields
 buildSearchButton
 	self searchButton: (
 		SimpleButtonMorph new 
 			color: self defaultButtonColor; 
 			label: 'go!'; 
 			target: [
-				self tiledMapMorph locate: self searchBar contents asString
+				self searchLocation
 			]; 
 			actionSelector: #value)

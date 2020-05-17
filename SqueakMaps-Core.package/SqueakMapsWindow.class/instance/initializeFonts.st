@@ -1,3 +1,0 @@
-initialization
-initializeFonts
-	^self

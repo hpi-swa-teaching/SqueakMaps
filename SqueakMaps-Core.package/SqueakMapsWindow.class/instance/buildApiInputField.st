@@ -1,5 +1,6 @@
-as yet unclassified
+build buttons and input fields
 buildApiInputField
 	self apiKeyInputField: (TextMorph new 
 		backgroundColor: self defaultInputFieldColor; 
-		contents: 'enter bing api key').
+		contents: '';
+		balloonText: 'enter bing api key').

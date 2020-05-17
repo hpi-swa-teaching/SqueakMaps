@@ -1,3 +1,3 @@
 accessing
 defaultInputFieldColor
-	^ defaultInputFieldColor
+	^ Color white
