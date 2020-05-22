@@ -1,3 +1,3 @@
-running
+as yet unclassified
 squeakMapsWindow
 	^ squeakMapsWindow
