@@ -6,7 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tiledMapMorph" ],
+		"tiledMapMorph",
+		"searchButton",
+		"api",
+		"apiKeyInputField",
+		"apiKeyButton",
+		"searchBar",
+		"defaultButtonColor",
+		"defaultInputFieldColor",
+		"defaultInputFieldFont" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],

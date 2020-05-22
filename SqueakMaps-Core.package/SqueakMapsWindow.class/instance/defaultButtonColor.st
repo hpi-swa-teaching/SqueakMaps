@@ -1,0 +1,3 @@
+accessing
+defaultButtonColor
+	^ Color gray
