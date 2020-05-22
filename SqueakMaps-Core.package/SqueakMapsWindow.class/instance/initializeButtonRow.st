@@ -3,5 +3,4 @@ initializeButtonRow
 	self 
 		buildSearchBar;
 		buildSearchButton;
-		buildApiInputField;
 		buildApiButton
