@@ -1,4 +1,5 @@
-as yet unclassified
+initilization
 tearDown
-	squeakMapsWindow delete.
+	self squeakMapsWindow delete.
+	self world delete.
 	super tearDown.

@@ -1,4 +1,5 @@
-as yet unclassified
+initilization
 setUp
 	super setUp.
-	squeakMapsWindow:= SqueakMapsWindow new.
+	self world: (PasteUpMorph newWorldForProject: nil).
+	self squeakMapsWindow: (SqueakMapsWindow new openInWorld: world)

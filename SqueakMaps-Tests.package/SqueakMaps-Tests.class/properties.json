@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "dn 5/13/2020 09:42",
 	"instvars" : [
-		"squeakMapsWindow" ],
+		"squeakMapsWindow",
+		"world" ],
 	"name" : "SqueakMaps-Tests",
 	"pools" : [
 		 ],

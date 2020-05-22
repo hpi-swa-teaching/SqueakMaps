@@ -5,4 +5,12 @@
 		"setUp" : "",
 		"squeakMapsWindow" : "",
 		"squeakMapsWindow:" : "",
-		"tearDown" : "" } }
+		"tearDown" : "",
+		"testApiInputFieldClass" : "",
+		"testApiKeyButtonClass" : "",
+		"testInvalidLocation" : "",
+		"testLocationSearching" : "",
+		"testSearchBarClass" : "",
+		"testSearchButtonClass" : "",
+		"world" : "",
+		"world:" : "" } }
