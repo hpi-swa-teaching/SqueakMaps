@@ -1,7 +1,9 @@
 select api
 setThunderforestAsApi
-	|thunderforestKey|
+
 	(SqueakMapsWindow thunderforestMapsApiKey isNil)
-		ifTrue: [thunderforestKey := UIManager default request: 'ThunderforestMapsApi Key eingeben'.
-				SqueakMapsWindow thunderforestMapsApiKey: thunderforestKey].
-	self tiledMapMorph tileSource: (ThunderforestMapsApi new apikey: SqueakMapsWindow thunderforestMapsApiKey asString) openCycleMapTileSource
+		ifTrue: [SqueakMapsWindow thunderforestMapsApiKey: (UIManager default request: 'ThunderforestMapsApi Key eingeben')].
+	(self thunderforestMapsApiKeyIsValid)
+		ifTrue: [self tiledMapMorph tileSource: (ThunderforestMapsApi new apikey: SqueakMapsWindow thunderforestMapsApiKey asString) openCycleMapTileSource];
+		ifFalse: [SqueakMapsWindow thunderforestMapsApiKey: (UIManager default request: 'Your entered ThunderforestMapsApiKey is not valid. Please re-enter').
+				self setThunderforestAsApi]

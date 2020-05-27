@@ -1,8 +1,6 @@
 select api
 setGoogleAsApi
 
-	|googleKey|
 	(SqueakMapsWindow googleApiKey isNil)
-		ifTrue: [googleKey := UIManager default request: 'GoogleApi Key eingeben'.
-				SqueakMapsWindow googleApiKey: googleKey].
+		ifTrue: [SqueakMapsWindow googleApiKey: (UIManager default request: 'GoogleApi Key eingeben')].
 	self tiledMapMorph tileSource: (GoogleMapsApi new apikey: SqueakMapsWindow googleApiKey asString) satelliteTileSource
