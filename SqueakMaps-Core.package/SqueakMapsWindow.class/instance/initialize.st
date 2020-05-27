@@ -7,5 +7,5 @@ initialize
 		tiledMapMorph: TiledMapMorph new;
 		api: BingMapsApi new;
 		initializeButtonRow;
-		initializeWindow;
-		openInWorld
+		initializeWindow.
+	
