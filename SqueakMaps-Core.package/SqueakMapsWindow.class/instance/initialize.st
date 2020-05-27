@@ -6,5 +6,4 @@ initialize
 		setLabel: 'SqueakMaps' asString;
 		tiledMapMorph: TiledMapMorph new;
 		initializeButtonRow;
-		initializeWindow;
-		openInWorld
+		initializeWindow
