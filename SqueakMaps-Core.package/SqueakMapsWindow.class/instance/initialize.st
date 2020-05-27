@@ -5,7 +5,6 @@ initialize
 		applyUserInterfaceTheme;
 		setLabel: 'SqueakMaps' asString;
 		tiledMapMorph: TiledMapMorph new;
-		api: BingMapsApi new;
 		initializeButtonRow;
 		initializeWindow;
 		openInWorld

@@ -3,7 +3,7 @@ buildApiButton
 	self apiKeyButton: (
 		SimpleButtonMorph new 
 			color: self defaultButtonColor; 
-			label: 'choose api key'; 
+			label: 'select api'; 
 			target: [self buildApiMenu
 			]; 
 			actionSelector: #value)

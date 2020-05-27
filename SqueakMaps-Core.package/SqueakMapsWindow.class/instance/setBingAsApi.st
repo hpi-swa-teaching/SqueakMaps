@@ -1,10 +1,11 @@
-build buttons and input fields
+select api
 setBingAsApi
 
-	|string|
-	(self bingApi isNil)
-	ifTrue: [string := UIManager default request: 'BingApi Key eingeben'.
-			string isEmpty ifTrue: [self setBingAsApi].
-			self bingApi: (BingMapsApi new apikey: string asString).
-		self api: self bingApi.
-		self tiledMapMorph tileSource: self api aerialWithLabelsOnDemandTileSource]
+	|bingKey |
+	(SqueakMapsWindow bingApiKey isNil)
+		ifTrue: [bingKey := UIManager default request: 'BingApi Key eingeben'.
+				SqueakMapsWindow bingApiKey: bingKey].
+	self tiledMapMorph
+			tileSource: (BingMapsApi new apikey: SqueakMapsWindow bingApiKey asString) aerialWithLabelsOnDemandTileSource;
+			zoomIn;
+			zoomOut

@@ -1,23 +1,22 @@
 {
 	"category" : "SqueakMaps-Core",
 	"classinstvars" : [
-		 ],
+		"googleApiKey",
+		"bingApiKey" ],
 	"classvars" : [
-		 ],
+		"BingApiKey",
+		"GoogleApiKey",
+		"ThunderforestMapsApiKey" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"tiledMapMorph",
 		"searchButton",
-		"api",
-		"bingApi",
-		"googleApi",
 		"apiKeyButton",
 		"searchBar",
 		"defaultButtonColor",
 		"defaultInputFieldColor",
 		"defaultInputFieldFont",
-		"apiMenu",
-		"openstreetmapsApi" ],
+		"apiMenu" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
