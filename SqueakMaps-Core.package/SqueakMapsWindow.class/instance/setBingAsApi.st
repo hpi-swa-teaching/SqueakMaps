@@ -8,5 +8,8 @@ setBingAsApi
 						tileSource: (BingMapsApi new apikey: SqueakMapsWindow bingApiKey asString) aerialWithLabelsOnDemandTileSource;
 						zoomIn;
 						zoomOut];
-		ifFalse: [SqueakMapsWindow bingApiKey: (UIManager default request: 'Your entered BingMapsApiKey is not valid. Please re-enter').
-				self setBingAsApi]
+		ifFalse: [
+			UIManager default inform: 'Invalid key, please try again'.
+			SqueakMapsWindow bingApiKey: nil]
+			"SqueakMapsWindow bingApiKey: (UIManager default request: 'Your entered BingMapsApiKey is not valid. Please re-enter').
+				self setBingAsApi]"
