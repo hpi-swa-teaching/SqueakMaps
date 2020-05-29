@@ -7,9 +7,7 @@ testInvalidLocation
 	self squeakMapsWindow searchButton doButtonAction.
 	
 	self squeakMapsWindow searchBar contents: 'textMorph'.
-	(self squeakMapsWindow searchButton doButtonAction) click.
-	"self assert: self squeakMapsWindow searchButton doButtonAction equals: self squeakMapsWindow tiledMapMorph."
-	self squeakMapsWindow owner 
+	[self squeakMapsWindow searchButton doButtonAction] valueSupplyingAnswer: {'No results found.'. #closeDialog}.
 
 	
 	

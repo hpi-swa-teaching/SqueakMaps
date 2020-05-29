@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"testApiButton" : "",
+		"testInvalidLocation" : "",
+		"testLocationSearching" : "" } }
