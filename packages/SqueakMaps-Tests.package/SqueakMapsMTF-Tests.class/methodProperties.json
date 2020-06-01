@@ -5,4 +5,5 @@
 		"setUp" : "",
 		"testApiButton" : "",
 		"testInvalidLocation" : "",
-		"testLocationSearching" : "" } }
+		"testLocationSearching" : "",
+		"testPlacePin" : "" } }
