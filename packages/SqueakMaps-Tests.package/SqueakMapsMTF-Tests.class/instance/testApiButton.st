@@ -1,7 +1,7 @@
 as yet unclassified
 testApiButton
-	| bingApiButton |
+	| apiMenu |
 	
 	apiButton click.
-	"bingApiButton := self subject findByLabel: 'Bing API'.
-	bingApiButton click"
+	"apiMenu := self subject findByName: 'MenuMorph'.
+	self assert: apiMenu notNil."

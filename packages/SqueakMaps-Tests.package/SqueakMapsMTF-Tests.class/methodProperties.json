@@ -4,6 +4,5 @@
 	"instance" : {
 		"setUp" : "",
 		"testApiButton" : "",
-		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
 		"testPlacePin" : "" } }
