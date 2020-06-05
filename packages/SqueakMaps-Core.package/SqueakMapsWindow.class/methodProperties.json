@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"bingApi" : "BCD 6/3/2020 10:58",
+		"bingApi:" : "BCD 6/3/2020 10:58",
 		"bingApiKey" : "RS 5/26/2020 11:01",
 		"bingApiKey:" : "RS 5/26/2020 11:01",
 		"googleApiKey" : "RS 5/26/2020 11:01",
@@ -25,6 +27,7 @@
 		"initialize" : "RS 5/27/2020 11:57",
 		"initializeButtonRow" : "dn 5/22/2020 12:42",
 		"initializeWindow" : "dn 5/22/2020 12:46",
+		"load:with:" : "BCD 6/5/2020 14:39",
 		"placePinAt:" : "MK 6/1/2020 11:40",
 		"searchBar" : "BCD 5/15/2020 11:29",
 		"searchBar:" : "BCD 5/15/2020 11:29",
