@@ -1,7 +1,7 @@
 build buttons and input fields
 buildSearchBar
-	self searchBar: (TextMorph new
-		backgroundColor: self defaultInputFieldColor;
-		contents: '';
-		balloonText: 'enter search location').
-	self searchBar crAction: (MessageSend receiver: self selector: #searchLocation)
+	self searchBar: (PluggableTextMorphPlus new
+						balloonText: 'Enter Search Location';
+						setText: '';
+						wrapFlag: true).
+	self searchBar textMorph crAction: (MessageSend receiver: self selector: #searchLocation)

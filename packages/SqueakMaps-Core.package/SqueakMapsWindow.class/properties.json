@@ -15,11 +15,9 @@
 		"apiKeyButton",
 		"searchBar",
 		"defaultButtonColor",
-		"defaultInputFieldColor",
-		"defaultInputFieldFont",
 		"apiMenu" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }

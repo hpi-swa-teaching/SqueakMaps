@@ -1,3 +1,0 @@
-accessing
-defaultInputFieldColor
-	^ Color white
