@@ -1,7 +1,6 @@
 build buttons and input fields
 buildApiMenu
 	self apiMenu: (MenuMorph new
-		color: self defaultButtonColor;
 		position: apiKeyButton position;
 		addTitle: 'Select API';
 		addLine;

@@ -1,3 +1,0 @@
-accessing
-defaultButtonColor
-	^ Color gray
