@@ -18,5 +18,5 @@
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
-	"super" : "PluggableSystemWindow",
+	"super" : "SystemWindow",
 	"type" : "normal" }

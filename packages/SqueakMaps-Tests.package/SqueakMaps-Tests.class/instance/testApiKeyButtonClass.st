@@ -1,3 +1,3 @@
 classTesting
 testApiKeyButtonClass
-	self assert: SimpleButtonMorph equals:  self squeakMapsWindow apiKeyButton class
+	self assert: PluggableButtonMorph equals:  self squeakMapsWindow apiKeyButton class

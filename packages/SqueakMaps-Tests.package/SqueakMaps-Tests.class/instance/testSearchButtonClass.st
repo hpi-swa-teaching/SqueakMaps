@@ -1,3 +1,3 @@
 classTesting
 testSearchButtonClass
-	self assert: SimpleButtonMorph equals:  self squeakMapsWindow searchButton class
+	self assert: PluggableButtonMorph equals:  self squeakMapsWindow searchButton class
