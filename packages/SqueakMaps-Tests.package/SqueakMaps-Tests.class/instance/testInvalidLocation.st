@@ -4,10 +4,10 @@ testInvalidLocation
 
 	
 	self squeakMapsWindow searchBar setText: 'berghain'.
-	self squeakMapsWindow searchButton doButtonAction.
+	self squeakMapsWindow searchButton performAction.
 	
 	self squeakMapsWindow searchBar setText: 'textMorph'.
-	[self squeakMapsWindow searchButton doButtonAction] valueSupplyingAnswer: {'No results found.'. #closeDialog}.
+	[self squeakMapsWindow searchButton performAction] valueSupplyingAnswer: {'No results found.'. #closeDialog}.
 
 	
 	
