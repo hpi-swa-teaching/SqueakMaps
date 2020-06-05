@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "",
 		"setUp" : "",
 		"squeakMapsWindow" : "",
 		"squeakMapsWindow:" : "",
