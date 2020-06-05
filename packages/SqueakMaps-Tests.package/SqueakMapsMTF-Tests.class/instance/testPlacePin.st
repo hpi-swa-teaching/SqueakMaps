@@ -1,4 +1,4 @@
-as yet unclassified
+acceptanceTests
 testPlacePin
 	| result latLongMunich |
 	

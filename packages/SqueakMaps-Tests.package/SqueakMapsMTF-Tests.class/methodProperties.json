@@ -4,5 +4,8 @@
 	"instance" : {
 		"setUp" : "",
 		"testApiButton" : "",
+		"testBingApiKeyIsValidWithInvalidKey" : "",
+		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
-		"testPlacePin" : "" } }
+		"testPlacePin" : "",
+		"testThunderforstMapsApiKeyIsValidWithInvalidKey" : "" } }
