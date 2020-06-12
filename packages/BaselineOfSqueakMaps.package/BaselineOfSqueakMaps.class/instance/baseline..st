@@ -3,9 +3,12 @@ baseline: spec
 	<baseline>
 	spec for: #'common'
 		do: [
+			spec baseline: 'Project11' with: [
+				spec
+					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
 				package: 'SqueakMaps-Core';
-				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core')];
+				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'Project11')];
 				yourself.
 			spec
 				group: 'default' with: #('SqueakMaps-Core');
