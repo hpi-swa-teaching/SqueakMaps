@@ -5,7 +5,7 @@ baseline: spec
 		do: [
 			spec baseline: 'MorphicTestingFramework' with: [
 				spec
-					repository: 'https://github.com/hpi-swa-teaching/Morphic-Testing-Framework.git:master/packages'].
+					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
 				package: 'SqueakMaps-Core';
 				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'MorphicTestingFramework')];
