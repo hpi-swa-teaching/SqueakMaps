@@ -4,6 +4,10 @@ baseline: spec
 	spec for: #'common'
 		do: [
 			spec
-				group: 'default' with: #(SqueakMaps-Core);
-				group: 'tests' with: #(SqueakMaps-Tests)];
+				package: 'SqueakMaps-Core';
+				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core')];
+				yourself.
+			spec
+				group: 'default' with: #('SqueakMaps-Core');
+				group: 'tests' with: #('SqueakMaps-Tests')];
 				yourself
