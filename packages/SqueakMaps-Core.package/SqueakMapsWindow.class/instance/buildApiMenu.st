@@ -21,9 +21,9 @@ buildApiMenu
 		addLine;
 		"Thunderforest API ist alles das SElbe"
 		add: 'Cycling [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi openCycleMapTileSource];
-		add: 'Landscape [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi openCycleMapTileSource];
-		add: 'Outdoor [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi openCycleMapTileSource];
-		add: 'Transportation [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi openCycleMapTileSource];
+		add: 'Landscape [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi landscapeTileSource];
+		add: 'Outdoor [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi outdoorsTileSource];
+		add: 'Transportation [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi transportTileSource];
 		addLine;
 		add: 'OpenStreetMaps' action: [self setOpenstreetmapsAsApi];
 		popUpEvent: self currentEvent in: self world)
