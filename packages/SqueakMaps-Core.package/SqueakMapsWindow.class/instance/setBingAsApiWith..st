@@ -6,8 +6,8 @@ die api behandlung ist immer gleich
 und eine setTiledSource: machen"
 
 
-	(SqueakMapsWindow bingApiKey isNil)
-		ifTrue: [SqueakMapsWindow bingApiKey: (UIManager default request: 'BingApi Key eingeben')].
+	(self keyIsSet: SqueakMapsWindow bingApiKey)
+		ifFalse: [SqueakMapsWindow bingApiKey: (UIManager default request: 'BingApi Key eingeben')].
 	(self bingApiKeyIsValid)
 		ifTrue: [self tiledMapMorph
 						tileSource: aTileSource;

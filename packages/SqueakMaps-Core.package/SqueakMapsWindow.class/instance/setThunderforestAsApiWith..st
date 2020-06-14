@@ -2,8 +2,8 @@ select api
 setThunderforestAsApiWith: aTileSource
 	
 	
-	(SqueakMapsWindow thunderforestMapsApiKey isNil)
-		ifTrue: [SqueakMapsWindow thunderforestMapsApiKey: 
+	(self keyIsSet: SqueakMapsWindow thunderforestMapsApiKey)
+		ifFalse: [SqueakMapsWindow thunderforestMapsApiKey: 
 			(UIManager default request: 'ThunderforestMapsApi Key eingeben')].
 		
 	(self thunderforestMapsApiKeyIsValid)
