@@ -1,0 +1,3 @@
+user theme adaption
+testUserInterfaceThemeAdaptationSearchBar
+	self testUserInterfaceThemeAdaptationFor: (squeakMapsWindow searchBar)

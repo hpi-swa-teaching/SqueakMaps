@@ -1,3 +1,3 @@
 classTesting
 testSearchBarClass
-	self assert: PluggableTextMorphPlus equals:  self squeakMapsWindow searchBar class
+	self assert: PluggableTextMorphPlus equals: self squeakMapsWindow searchBar class
