@@ -7,9 +7,13 @@ baseline: spec
 				spec
 					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 					
-			spec baseline: 'JSON' with: [
-				spec
-					repository: 'http://www.squeaksource.com/JSON'].
+			spec   
+				package: 'JSON'
+						with: [
+							spec
+								file: 'JSON-ul.35';
+								repository: 
+										'http://www.squeaksource.com/JSON' ].
 					
 			spec
 				package: 'SqueakMaps-Core';
