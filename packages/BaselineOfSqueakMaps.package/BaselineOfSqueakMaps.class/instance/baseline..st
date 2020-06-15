@@ -6,7 +6,8 @@ baseline: spec
 			spec baseline: 'MorphicTestingFramework' with: [
 				spec
 					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
-					'Widgets' with: [ spec repository: 'github://hpi-swa/widgets:master/repository' ].
+					
+			 		'Widgets' with: [ spec repository: 'github://hpi-swa/widgets:master/repository' ].
 					
 			spec   
 				package: 'JSON'
