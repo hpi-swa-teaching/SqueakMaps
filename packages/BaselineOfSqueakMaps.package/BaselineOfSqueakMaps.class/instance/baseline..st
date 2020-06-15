@@ -8,7 +8,8 @@ baseline: spec
 					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
 				package: 'SqueakMaps-Core';
-				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'MorphicTestingFramework')];
+				package: 'TiledMaps'
+				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'MorphicTestingFramework' 'TiledMaps')];
 				yourself.
 			spec
 				group: 'default' with: #('SqueakMaps-Core');
