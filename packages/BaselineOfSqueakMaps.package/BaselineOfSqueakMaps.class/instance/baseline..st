@@ -6,9 +6,11 @@ baseline: spec
 			spec baseline: 'MorphicTestingFramework' with: [
 				spec
 					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
+					
 			spec
 				package: 'SqueakMaps-Core';
 				package: 'TiledMaps';
+				package: 'JSON';
 				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'JSON' 'TiledMaps' 'MorphicTestingFramework')];
 				yourself.
 			spec
