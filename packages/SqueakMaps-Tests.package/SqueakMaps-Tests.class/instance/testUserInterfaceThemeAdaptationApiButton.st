@@ -1,3 +1,0 @@
-user theme adaption
-testUserInterfaceThemeAdaptationApiButton
-	self testUserInterfaceThemeAdaptationFor: (squeakMapsWindow apiKeyButton)

@@ -1,0 +1,3 @@
+user theme adaption
+testUserInterfaceThemeAdaptationApiMenuButton
+	self testUserInterfaceThemeAdaptationFor: (squeakMapsWindow apiMenuButton)

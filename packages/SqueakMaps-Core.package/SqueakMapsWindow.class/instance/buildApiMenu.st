@@ -7,7 +7,7 @@ load:with wird nicht mehr genutzt"
 buildApiMenu
 	
 	self apiMenu: (MenuMorph new
-		position: apiKeyButton position;
+		position: apiMenuButton position;
 		addTitle: 'Select API';
 		addLine;
 		add: 'Satellite with Labels [Bing]' action: [self setBingAsApiWith: self buildBingApi aerialWithLabelsOnDemandTileSource];

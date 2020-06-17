@@ -12,9 +12,9 @@
 	"instvars" : [
 		"tiledMapMorph",
 		"searchButton",
-		"apiKeyButton",
 		"searchBar",
-		"apiMenu" ],
+		"apiMenu",
+		"apiMenuButton" ],
 	"name" : "SqueakMapsWindow",
 	"pools" : [
 		 ],
