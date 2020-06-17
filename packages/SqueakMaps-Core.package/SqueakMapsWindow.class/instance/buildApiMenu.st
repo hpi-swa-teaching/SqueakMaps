@@ -19,7 +19,6 @@ buildApiMenu
 		add: 'Road [Bing]' action: [self setBingAsApiWith: self buildBingApi roadOnDemandTileSource];
 		add: 'City [Bing]' action: [self setBingAsApiWith: self buildBingApi roadTileSource];
 		addLine;
-		"Thunderforest API ist alles das SElbe"
 		add: 'Cycling [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi openCycleMapTileSource];
 		add: 'Landscape [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi landscapeTileSource];
 		add: 'Outdoor [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi outdoorsTileSource];
