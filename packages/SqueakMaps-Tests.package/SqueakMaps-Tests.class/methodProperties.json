@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"apiTests" : "" },
 	"instance" : {
 		"expectedFailures" : "",
 		"setUp" : "",

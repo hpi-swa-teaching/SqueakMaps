@@ -1,5 +1,8 @@
 {
 	"class" : {
+		"TEMPapiCalls" : "MK 6/18/2020 12:27",
+		"TEMPapiCallsDictionary" : "MK 6/18/2020 12:53",
+		"TEMPapiCallsPairs" : "MK 6/18/2020 12:58",
 		"bingApi" : "BCD 6/3/2020 10:58",
 		"bingApi:" : "BCD 6/3/2020 10:58",
 		"bingApiKey" : "RS 5/26/2020 11:01",
@@ -9,6 +12,8 @@
 		"thunderforestMapsApiKey" : "RS 5/27/2020 09:33",
 		"thunderforestMapsApiKey:" : "RS 5/27/2020 09:33" },
 	"instance" : {
+		"TEMPApiSelection" : "MK 6/18/2020 16:46",
+		"aerialWithLabelsTileSource" : "cs 6/3/2020 10:20",
 		"apiMenu" : "dn 5/22/2020 11:36",
 		"apiMenu:" : "dn 5/22/2020 11:36",
 		"apiMenuButton" : "RS 6/17/2020 10:47",
@@ -21,7 +26,7 @@
 		"buildSearchBar" : "RS 6/5/2020 14:54",
 		"buildSearchButton" : "RS 6/5/2020 15:13",
 		"buildThunderforestApi" : "RS 6/17/2020 09:48",
-		"initialize" : "RS 6/8/2020 11:44",
+		"initialize" : "MK 6/5/2020 16:25",
 		"initializeButtonRow" : "dn 5/22/2020 12:42",
 		"initializeWindow" : "RS 6/17/2020 10:46",
 		"keyIsSet:" : "RS 6/14/2020 16:04",
@@ -32,8 +37,10 @@
 		"searchButton" : "BCD 5/15/2020 11:11",
 		"searchButton:" : "BCD 5/15/2020 11:11",
 		"searchLocation" : "RS 6/5/2020 14:54",
+		"setBingAsApi" : "dn 5/29/2020 12:04",
 		"setBingAsApiWith:" : "RS 6/17/2020 09:55",
 		"setOpenstreetmapsAsApi" : "RS 5/27/2020 09:42",
+		"setThunderforestAsApi" : "dn 5/29/2020 12:06",
 		"setThunderforestAsApiWith:" : "RS 6/17/2020 09:52",
 		"thunderforestMapsApiKeyIsValid" : "RS 5/27/2020 11:46",
 		"tiledMapMorph" : "RS 5/8/2020 17:01",

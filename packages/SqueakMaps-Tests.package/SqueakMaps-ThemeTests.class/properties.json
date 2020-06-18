@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"squeakMapsWindow" ],
+	"name" : "SqueakMaps-ThemeTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
