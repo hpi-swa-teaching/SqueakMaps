@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"apiTests" : "" },
+	"instance" : {
+		"expectedFailures" : "",
+		"setUp" : "",
+		"squeakMapsWindow" : "",
+		"squeakMapsWindow:" : "",
+		"tearDown" : "",
+		"testApiKeyButtonClass" : "",
+		"testBingApiKeyIsValidWithInvalidKey" : "",
+		"testInvalidLocation" : "",
+		"testLocationSearching" : "",
+		"testOpenInWorld" : "",
+		"testPlacePin" : "",
+		"testSearchBarClass" : "",
+		"testSearchBarIsScrolling" : "",
+		"testSearchBarIsWrapping" : "",
+		"testSearchButtonClass" : "",
+		"testSetOpenstreetmapsAsApi" : "",
+		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "",
+		"testUserInterfaceThemeAdaptationApiMenuButton" : "",
+		"testUserInterfaceThemeAdaptationFor:" : "",
+		"testUserInterfaceThemeAdaptationSearchBar" : "",
+		"testUserInterfaceThemeAdaptationSearchButton" : "",
+		"testUserInterfaceThemeAdaptationWindow" : "" } }

@@ -1,0 +1,3 @@
+accessing
+defaultZoom
+	^10

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dn 5/13/2020 09:42",
+	"instvars" : [
+		"squeakMapsWindow" ],
+	"name" : "SMA-Tests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		"googleApiKey",
+		"bingApiKey",
+		"bingApi" ],
+	"classvars" : [
+		"BingApiKey",
+		"GoogleApiKey",
+		"ThunderforestMapsApiKey" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tiledMapMorph",
+		"searchButton",
+		"searchBar",
+		"apiMenu",
+		"apiMenuButton" ],
+	"name" : "SMAWindow",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }
