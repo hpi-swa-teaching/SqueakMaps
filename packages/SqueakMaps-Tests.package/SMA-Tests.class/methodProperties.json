@@ -18,9 +18,4 @@
 		"testSearchBarIsWrapping" : "",
 		"testSearchButtonClass" : "",
 		"testSetOpenstreetmapsAsApi" : "",
-		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "",
-		"testUserInterfaceThemeAdaptationApiMenuButton" : "",
-		"testUserInterfaceThemeAdaptationFor:" : "",
-		"testUserInterfaceThemeAdaptationSearchBar" : "",
-		"testUserInterfaceThemeAdaptationSearchButton" : "",
-		"testUserInterfaceThemeAdaptationWindow" : "" } }
+		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "" } }
