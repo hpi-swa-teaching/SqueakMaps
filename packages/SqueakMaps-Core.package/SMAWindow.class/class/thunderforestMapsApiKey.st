@@ -1,3 +1,3 @@
 accessing
 thunderforestMapsApiKey
-	^ ThunderforestMapsApiKey
+	^ ThunderforestMapsApiKey ifNil: [ThunderforestMapsApiKey := '' asString]
