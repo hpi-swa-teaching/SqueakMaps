@@ -1,5 +1,5 @@
 build buttons and input fields
-TEMPApiSelection
+apiSelection
 	
 	| apiCalls action |
 	apiCalls := Dictionary newFrom:  self TEMPapiCallsDictionary.

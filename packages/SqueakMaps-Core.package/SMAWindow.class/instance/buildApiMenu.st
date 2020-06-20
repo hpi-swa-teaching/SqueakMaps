@@ -6,7 +6,7 @@ load:with wird nicht mehr genutzt"
 
 buildApiMenu
 	
-	self apiMenu: (MenuMorph new
+	MenuMorph new
 		position: apiMenuButton position;
 		addTitle: 'Select API';
 		addLine;
@@ -25,4 +25,4 @@ buildApiMenu
 		add: 'Transportation [Thunderforest]' action: [self setThunderforestAsApiWith: self buildThunderforestApi transportTileSource];
 		addLine;
 		add: 'OpenStreetMaps' action: [self setOpenstreetmapsAsApi];
-		popUpEvent: self currentEvent in: self world)
+		popUpEvent: self currentEvent in: self world
