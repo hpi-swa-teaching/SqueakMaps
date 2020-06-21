@@ -1,8 +1,8 @@
-select api
-TEMPapiCallsDictionary
+accessing
+apiCalls
 
 	^ Dictionary new addAll:
-		{Association key: 'Satellite with Labels [Bing]'value:[self setBingAsApiWith: self buildBingApi aerialWithLabelsOnDemandTileSource]. 
+		{Association key:'Satellite with Labels [Bing]'value:[ self setBingAsApiWith: self buildBingApi aerialWithLabelsOnDemandTileSource]. 
 		Association key: 'Satellite [Bing]' value: [self setBingAsApiWith: self buildBingApi aerialTileSource]. 
 		Association key: 'SimpleMap dark [Bing]' value: [self setBingAsApiWith: self buildBingApi canvasDarkTileSource]. 
 		Association key: 'SimpleMap gray [Bing]'value: [self setBingAsApiWith: self buildBingApi canvasGrayTileSource]. 

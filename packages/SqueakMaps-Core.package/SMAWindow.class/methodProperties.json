@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"TEMPapiCallsDictionary" : "MK 6/18/2020 12:53",
+		"apiCalls" : "MK 6/20/2020 13:51",
 		"bingApi" : "BCD 6/3/2020 10:58",
 		"bingApi:" : "BCD 6/3/2020 10:58",
 		"bingApiKey" : "RS 5/26/2020 11:01",
@@ -10,13 +10,13 @@
 		"thunderforestMapsApiKey" : "RS 5/27/2020 09:33",
 		"thunderforestMapsApiKey:" : "RS 5/27/2020 09:33" },
 	"instance" : {
-		"TEMPapiCallsDictionary" : "MK 6/19/2020 16:49",
 		"aerialWithLabelsTileSource" : "MK 6/19/2020 15:56",
+		"apiCalls" : "MK 6/20/2020 13:51",
 		"apiMenu" : "dn 5/22/2020 11:36",
 		"apiMenu:" : "dn 5/22/2020 11:36",
 		"apiMenuButton" : "RS 6/17/2020 10:47",
 		"apiMenuButton:" : "RS 6/17/2020 10:47",
-		"apiSelection" : "MK 6/19/2020 17:21",
+		"apiSelection" : "MK 6/20/2020 13:51",
 		"applyUserInterfaceTheme" : "RS 6/14/2020 12:17",
 		"bingApiKeyIsValid" : "MK 6/19/2020 15:56",
 		"buildApiButton" : "MK 6/19/2020 17:22",
