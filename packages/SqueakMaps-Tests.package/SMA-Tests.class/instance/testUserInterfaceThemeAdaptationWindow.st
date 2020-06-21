@@ -1,3 +1,0 @@
-user theme adaption
-testUserInterfaceThemeAdaptationWindow
-	self testUserInterfaceThemeAdaptationFor: squeakMapsWindow

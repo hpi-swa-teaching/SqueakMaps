@@ -1,4 +1,4 @@
-testing
+searching
 testLocationSearching
 "open street maps"
 	self squeakMapsWindow searchBar setText: 'Gesundbrunnen'.

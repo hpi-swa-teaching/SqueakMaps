@@ -6,7 +6,6 @@
 		"bingApi" ],
 	"classvars" : [
 		"BingApiKey",
-		"GoogleApiKey",
 		"ThunderforestMapsApiKey" ],
 	"commentStamp" : "",
 	"instvars" : [
