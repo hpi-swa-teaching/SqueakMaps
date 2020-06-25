@@ -1,8 +1,8 @@
-testing
+opening
 testOpenInWorld
 
-| world |
-
+	| world |
 	world := (PasteUpMorph newWorldForProject: nil).
 	self squeakMapsWindow openInWorld: world.
-	world delete.
+	world submorphOfClass: SMAWindow.
+	self assert: (self squeakMapsWindow) equals: (world submorphOfClass: SMAWindow)

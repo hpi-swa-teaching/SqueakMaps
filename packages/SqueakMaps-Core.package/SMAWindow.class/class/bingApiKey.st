@@ -1,3 +1,3 @@
 accessing
 bingApiKey
-	^ BingApiKey
+	^ BingApiKey ifNil: [BingApiKey := '' asString].

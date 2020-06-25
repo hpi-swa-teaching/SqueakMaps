@@ -1,3 +1,0 @@
-user theme adaption
-testUserInterfaceThemeAdaptationSearchButton
-	self testUserInterfaceThemeAdaptationFor: (squeakMapsWindow searchButton)

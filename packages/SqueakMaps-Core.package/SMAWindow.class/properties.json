@@ -1,12 +1,10 @@
 {
 	"category" : "SqueakMaps-Core",
 	"classinstvars" : [
-		"googleApiKey",
 		"bingApiKey",
 		"bingApi" ],
 	"classvars" : [
 		"BingApiKey",
-		"GoogleApiKey",
 		"ThunderforestMapsApiKey" ],
 	"commentStamp" : "",
 	"instvars" : [
