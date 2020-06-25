@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "",
+		"testApiBing" : "",
 		"testApiButton" : "",
+		"testApiButtonThunderforest" : "",
 		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
 		"testPlacePin" : "",
