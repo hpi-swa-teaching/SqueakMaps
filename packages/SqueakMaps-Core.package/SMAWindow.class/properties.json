@@ -1,7 +1,6 @@
 {
 	"category" : "SqueakMaps-Core",
 	"classinstvars" : [
-		"googleApiKey",
 		"bingApiKey",
 		"bingApi" ],
 	"classvars" : [

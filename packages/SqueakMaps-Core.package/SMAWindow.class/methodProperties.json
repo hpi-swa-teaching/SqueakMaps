@@ -11,7 +11,6 @@
 		"thunderforestMapsApiKey:" : "RS 5/27/2020 09:33" },
 	"instance" : {
 		"TEMPApiSelection" : "MK 6/18/2020 16:46",
-		"aerialWithLabelsTileSource" : "MK 6/19/2020 15:56",
 		"apiMenu" : "dn 5/22/2020 11:36",
 		"apiMenu:" : "dn 5/22/2020 11:36",
 		"apiMenuButton" : "RS 6/17/2020 10:47",
@@ -40,8 +39,8 @@
 		"searchLocation" : "RS 6/5/2020 14:54",
 		"setBingAsApiWith:" : "RS 6/21/2020 19:07",
 		"setOpenstreetmapsAsApi" : "RS 6/21/2020 15:02",
-		"setThunderforestAsApiWith:" : "RS 6/21/2020 19:07",
-		"setTileSourceTo:" : "RS 6/21/2020 13:57",
+		"setThunderforestAsApiWith:" : "RS 6/25/2020 11:03",
+		"setTileSourceTo:" : "RS 6/25/2020 15:36",
 		"thunderforestMapsApiKeyIsValid" : "MK 6/19/2020 15:57",
 		"tiledMapMorph" : "RS 5/8/2020 17:01",
 		"tiledMapMorph:" : "RS 5/8/2020 17:01" } }
