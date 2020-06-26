@@ -1,9 +1,7 @@
 {
 	"category" : "SqueakMaps-Core",
 	"classinstvars" : [
-		"googleApiKey",
-		"bingApiKey",
-		"bingApi" ],
+		 ],
 	"classvars" : [
 		"BingApiKey",
 		"ThunderforestMapsApiKey" ],
@@ -12,8 +10,8 @@
 		"tiledMapMorph",
 		"searchButton",
 		"searchBar",
-		"apiMenu",
-		"apiMenuButton" ],
+		"apiMenuButton",
+		"apiKeyManagementButton" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],

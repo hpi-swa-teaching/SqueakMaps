@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"testApiButtonBing" : "",
+		"testApiButtonThunderforest" : "",
+		"testApiKeyManagementBing" : "",
+		"testApiKeyManagementThunderforest" : "",
+		"testInvalidLocation" : "",
+		"testLocationSearching" : "",
+		"testPlacePin" : "",
+		"testThunderforstMapsApiKeyIsValidWithInvalidKey" : "" } }

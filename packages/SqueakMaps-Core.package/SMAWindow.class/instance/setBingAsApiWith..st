@@ -1,6 +1,7 @@
 select api
-setBingAsApiWith: aTileSource
-
+setBingAsApiWith: aTileSourceSymbol
+	| tileSourceCreationMessage |
+	tileSourceCreationMessage := (Message selector: aTileSourceSymbol).
 	self bingApiKeyIsValid
-		ifTrue: [self setTileSourceTo: aTileSource];
-		ifFalse: [self requestBingApiKeyInput ifTrue: [self setTileSourceTo: aTileSource]]
+		ifTrue: [self setTileSourceTo: (tileSourceCreationMessage sendTo: (self buildBingApi))];
+		ifFalse: [self requestBingApiKeyInput ifTrue: [self setTileSourceTo: (tileSourceCreationMessage sendTo: (self buildBingApi))]]

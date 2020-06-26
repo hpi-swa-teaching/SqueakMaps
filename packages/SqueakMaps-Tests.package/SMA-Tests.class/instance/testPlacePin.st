@@ -7,5 +7,5 @@ testPlacePin
 	
 	mapPins :=  self squeakMapsWindow tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
 	self assert: mapPins notEmpty.
-	self assert: (MapTileLoader latLongToWorldPos: latLongMunich)  equals: self squeakMapsWindow tiledMapMorph center.
+	self assert: (MapTileLoader latLongToWorldPos: latLongMunich) equals: self squeakMapsWindow tiledMapMorph center.
 	self assert: self squeakMapsWindow tiledMapMorph zoom equals: self squeakMapsWindow defaultZoom
