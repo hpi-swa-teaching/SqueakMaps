@@ -10,4 +10,4 @@ testLocationSearching
 	
 	pinsGesundbrunnen :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latlongGesundbrunnen].
 	self assert: pinsGesundbrunnen notEmpty.
-	self assert: self subject tiledMapMorph center equals: (MapTileLoader latLongToWorldPos: latlongGesundbrunnen)"
+	self assert: (MapTileLoader latLongToWorldPos: latlongGesundbrunnen) equals: self subject tiledMapMorph center" 

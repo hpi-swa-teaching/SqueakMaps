@@ -8,6 +8,7 @@
 		"squeakMapsWindow:" : "",
 		"tearDown" : "",
 		"testApiKeyButtonClass" : "",
+		"testApiKeyManagementBing" : "",
 		"testBingApiKeyIsValidWithInvalidKey" : "",
 		"testBuildBingApi" : "",
 		"testBuildThunderforestApi" : "",
