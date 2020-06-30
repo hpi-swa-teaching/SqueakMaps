@@ -9,5 +9,4 @@
 		"testApiKeyManagementThunderforest" : "",
 		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
-		"testPlacePin" : "",
-		"testThunderforstMapsApiKeyIsValidWithInvalidKey" : "" } }
+		"testPlacePin" : "" } }
