@@ -3,7 +3,7 @@ testPlacePin
 	| munichPins latLongMunich |
 	
 	latLongMunich := 11.576124@48.137154.
-	self subject placePinAt: latLongMunich.
+	self subject placeCenteredPinAt: latLongMunich.
 	
 	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
 	

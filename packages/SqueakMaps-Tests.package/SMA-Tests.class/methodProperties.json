@@ -13,6 +13,7 @@
 		"testBuildBingApi" : "",
 		"testBuildThunderforestApi" : "",
 		"testClassInitialization" : "",
+		"testDoubleClickForPin" : "",
 		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
 		"testOpenInWorld" : "",

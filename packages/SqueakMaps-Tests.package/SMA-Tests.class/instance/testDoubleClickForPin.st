@@ -1,0 +1,2 @@
+api setting
+testDoubleClickForPin

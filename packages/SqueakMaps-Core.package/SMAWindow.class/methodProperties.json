@@ -27,7 +27,7 @@
 		"initialize" : "MK 6/5/2020 16:25",
 		"initializeButtonRow" : "RS 6/26/2020 16:27",
 		"initializeWindow" : "RS 6/26/2020 16:27",
-		"placePinAt:" : "MK 7/9/2020 11:26",
+		"placeCenteredPinAt:" : "MK 7/9/2020 14:55",
 		"refreshMap" : "RS 6/17/2020 09:43",
 		"requestApiSelection" : "MK 6/28/2020 13:01",
 		"requestBingApiKeyInput" : "MK 6/28/2020 12:45",
