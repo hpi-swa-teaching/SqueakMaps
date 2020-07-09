@@ -9,4 +9,4 @@ testPlacePin
 	
 	self assert: munichPins notEmpty.
 	self assert: (MapTileLoader latLongToWorldPos: latLongMunich)  equals: self subject tiledMapMorph center.
-	self assert: self subject defaultZoom equals: self subject tiledMapMorph zoom
+	self assert: self subject tiledMapMorph defaultZoom equals: self subject tiledMapMorph zoom

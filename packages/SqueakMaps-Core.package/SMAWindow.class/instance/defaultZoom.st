@@ -1,3 +1,0 @@
-accessing
-defaultZoom
-	^10
