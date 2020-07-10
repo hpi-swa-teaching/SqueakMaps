@@ -1,3 +1,3 @@
 accessing
 initialize
-	TheWorldMenu registerOpenCommand: {'Squeak Maps Window'. {self. #open}}
+	TheWorldMenu registerOpenCommand: {'Squeak Maps'. {self. #open}}
