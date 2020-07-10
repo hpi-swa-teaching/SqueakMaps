@@ -1,5 +1,5 @@
 select api
-bookmarkMenu
+pinManagementMenu
 
 	^ Dictionary newFrom:
 		{Association key: 'save a pin' value: [(self tiledMapMorph pins) ifNotEmpty: [self savePin]].
