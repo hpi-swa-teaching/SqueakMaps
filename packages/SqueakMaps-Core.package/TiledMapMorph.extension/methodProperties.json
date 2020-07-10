@@ -4,10 +4,12 @@
 	"instance" : {
 		"centerOnEvent:" : "MK 7/9/2020 11:49",
 		"defaultZoom" : "MK 7/9/2020 11:27",
-		"doubleClick:" : "MK 7/9/2020 15:50",
-		"pinOnEvent:" : "MK 7/9/2020 15:00",
+		"doubleClick:" : "MK 7/10/2020 15:01",
+		"getNameTo:With:" : "RS 7/10/2020 15:27",
+		"pinOnEvent:" : "RS 7/10/2020 15:31",
 		"pins" : "MK 6/1/2020 10:46",
 		"pins:" : "MK 6/1/2020 10:46",
+		"placeAutolabeledPinAt:" : "RS 7/10/2020 15:30",
 		"placeCenteredPinAt:" : "MK 7/9/2020 14:55",
 		"placePinAt:" : "MK 7/9/2020 15:01",
-		"placePinAt:labeled:" : "MK 7/9/2020 14:56" } }
+		"placePinAt:labeled:" : "MK 7/10/2020 14:27" } }

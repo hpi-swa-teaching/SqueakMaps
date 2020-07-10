@@ -5,7 +5,8 @@ placePinAt: aLatLong labeled: aLabel
 	pin := MapLocationMarker new.
 	pin 
 		latLong:  aLatLong;
-		label: aLabel.
+		label: aLabel;
+		zoom: self zoom.
 	self pins add: pin.
 	self
 		layoutChanged;

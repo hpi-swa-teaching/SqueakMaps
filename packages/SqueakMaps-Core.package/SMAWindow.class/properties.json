@@ -13,7 +13,7 @@
 		"searchBar",
 		"apiMenuButton",
 		"apiKeyManagementButton",
-		"savePinButton" ],
+		"pinManagementButton" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],
