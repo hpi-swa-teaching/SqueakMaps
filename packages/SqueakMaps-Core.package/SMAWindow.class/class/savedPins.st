@@ -1,3 +1,3 @@
 accessing
 savedPins
-	^ SavedPins ifNil: [SavedPins :=Dictionary new]
+	^ SavedPins ifNil: [SavedPins := OrderedCollection new]
