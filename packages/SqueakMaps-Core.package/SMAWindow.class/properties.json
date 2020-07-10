@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"BingApiKey",
+		"SavedPins",
 		"ThunderforestMapsApiKey" ],
 	"commentStamp" : "",
 	"instvars" : [
@@ -11,7 +12,8 @@
 		"searchButton",
 		"searchBar",
 		"apiMenuButton",
-		"apiKeyManagementButton" ],
+		"apiKeyManagementButton",
+		"savePinButton" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],

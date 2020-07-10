@@ -4,4 +4,5 @@ initializeButtonRow
 		buildSearchBar;
 		buildSearchButton;
 		buildApiKeyManagementButton;
-		buildApiButton
+		buildApiButton;
+		buildSavePinButton
