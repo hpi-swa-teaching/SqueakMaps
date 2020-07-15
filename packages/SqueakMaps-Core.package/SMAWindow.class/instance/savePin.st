@@ -5,4 +5,4 @@ savePin
 	index := self requestPinSelection.
 	(index > 0)
 		ifTrue: [	name := UIManager default request: 'please set the name of the chosen pin' initialAnswer: ((pinlist at: index) label).
-				SMAWindow savedPins add: (pinlist at: index)]
+				SMAWindow savedPins add: (Association new key: name value: (pinlist at: index))]

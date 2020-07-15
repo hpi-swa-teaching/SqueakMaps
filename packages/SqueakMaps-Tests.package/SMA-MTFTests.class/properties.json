@@ -8,7 +8,8 @@
 	"instvars" : [
 		"apiButton",
 		"searchButton",
-		"apiKeyManagementButton" ],
+		"apiKeyManagementButton",
+		"saveButton" ],
 	"name" : "SMA-MTFTests",
 	"pools" : [
 		 ],

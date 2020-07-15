@@ -9,4 +9,5 @@
 		"testApiKeyManagementThunderforest" : "",
 		"testInvalidLocation" : "",
 		"testLocationSearching" : "",
-		"testPlacePin" : "" } }
+		"testPlacePin" : "",
+		"testSaveButton" : "" } }
