@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "",
+		"tearDown" : "",
 		"testDoubleClick" : "" } }

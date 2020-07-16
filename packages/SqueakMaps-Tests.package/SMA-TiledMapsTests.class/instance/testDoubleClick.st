@@ -1,17 +1,19 @@
 as yet unclassified
 testDoubleClick
 
-	| latLongMunich munichPins |
+	| latLongMunich munichPins mouseEvent worldpos latlong |
 	
 	latLongMunich := 13.384846@52.5509201.
-	self subject center: (MapTileLoader latLongToWorldPos: latLongMunich).
+	tiledMapMorph zoom: 15.
+	tiledMapMorph center: (MapTileLoader latLongToWorldPos: latLongMunich).
+
+	mouseEvent := MouseButtonEvent new.
+	mouseEvent position: tiledMapMorph bounds center.
 	
-	self subject clickAtAbsolute: (self subject bottomRight - self subject topLeft) /2.
-	self subject clickAtAbsolute: (self subject bottomRight - self subject topLeft) /2.
-	
-	self subject doubleClick: nil.
-	
-	munichPins :=  self subject pins select: [:pin | pin latLong = latLongMunich].
+	tiledMapMorph doubleClick: mouseEvent.
+	worldpos := MapTileLoader latLongToWorldPos: latLongMunich.
+	latlong := MapTileLoader worldPosToLatLong: worldpos.
+	munichPins :=  tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
  	self assert: munichPins notEmpty
 	
 	

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"tiledMapMorph" ],
 	"name" : "SMA-TiledMapsTests",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

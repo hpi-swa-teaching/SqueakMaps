@@ -1,3 +1,3 @@
 as yet unclassified
 setUp
-	self wantsToTest: TiledMapMorph new
+	tiledMapMorph := (TiledMapMorph new fullBounds; yourself).
