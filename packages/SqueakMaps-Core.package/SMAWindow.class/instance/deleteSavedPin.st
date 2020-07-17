@@ -1,5 +1,5 @@
 select api
-deleteASavedPin
+deleteSavedPin
 
 	| index |
 	index := self requestPinSelectionFrom: SMAWindow savedPins.

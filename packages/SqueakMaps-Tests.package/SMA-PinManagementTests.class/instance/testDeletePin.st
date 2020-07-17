@@ -1,5 +1,5 @@
 as yet unclassified
-testRemoveAPin
+testDeletePin
 	| latLongMunich latLongBerlin berlinPins munichPins |
 	
 	latLongMunich := 11.576124@48.137154.
