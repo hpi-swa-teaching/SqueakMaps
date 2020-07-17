@@ -18,7 +18,7 @@ baseline: spec
 				package: 'TiledMaps'
 						with: [
 							spec
-								file: 'TiledMaps-tonyg.24.mcz';
+								file: 'TiledMaps-tonyg.24';
 								repository: 
 										
 										'http://www.squeaksource.com/TiledMaps' ].
