@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "",
+		"testDeleteASavedPin" : "",
 		"testRemoveAPin" : "",
 		"testRemoveAllPins" : "",
-		"testSaveAPin" : "" } }
+		"testSaveAPin" : "",
+		"testShowASavedPin" : "" } }

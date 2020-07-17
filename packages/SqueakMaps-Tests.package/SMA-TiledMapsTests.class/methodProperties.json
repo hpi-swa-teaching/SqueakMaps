@@ -4,4 +4,5 @@
 	"instance" : {
 		"setUp" : "",
 		"tearDown" : "",
-		"testDoubleClick" : "" } }
+		"testDoubleClick" : "",
+		"testGetNameTo" : "" } }
