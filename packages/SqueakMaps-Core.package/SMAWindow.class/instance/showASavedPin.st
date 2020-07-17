@@ -1,10 +1,11 @@
 select api
 showASavedPin
 
-	| pin |
+	| index pin|
 	
-	pin := self requestSavedPinSelection value.
-	(pin notNil)
-		ifTrue: [	self tiledMapMorph pins add: pin.
-				self tiledMapMorph center: (MapTileLoader latLongToWorldPos: pin value latLong) ]
+	index := self requestPinSelectionFrom: SMAWindow savedPins.
+	(index > 0)
+		ifTrue: [pin := (SMAWindow savedPins at: index).
+				self tiledMapMorph pins add: pin.
+				self tiledMapMorph center: (MapTileLoader latLongToWorldPos: pin value latLong)]
 			

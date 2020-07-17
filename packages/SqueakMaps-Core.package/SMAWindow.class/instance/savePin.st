@@ -1,8 +1,8 @@
 select api
 savePin
-	| pinlist index name |
+	| pinlist index |
 	pinlist := self tiledMapMorph pins asList.
-	index := self requestPinSelection.
+	index := self requestPinSelectionFrom: pinlist.
 	(index > 0)
-		ifTrue: [	name := UIManager default request: 'please set the name of the chosen pin' initialAnswer: ((pinlist at: index) label).
-				SMAWindow savedPins add: (Association new key: name value: (pinlist at: index))]
+		ifTrue: [	(pinlist at: index) label: (UIManager default request: 'please set the name of the chosen pin' initialAnswer: ((pinlist at: index) label)).
+				SMAWindow savedPins add: (pinlist at: index)]
