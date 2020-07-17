@@ -1,7 +1,7 @@
 as yet unclassified
 locate: queryString
-	| results j |
-	results := OrderedCollection new.
+	| results j | 
+	results := OrderedCollection new. 
 	j := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
 	j do: [:r |
 		results add: (MapLocationMarker new
