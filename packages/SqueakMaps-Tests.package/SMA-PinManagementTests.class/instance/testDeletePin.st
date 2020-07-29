@@ -11,4 +11,4 @@ testDeletePin
 	berlinPins := self subject tiledMapMorph pins select: [:pin | pin latLong = latLongBerlin].
 	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
 	self assert: berlinPins isEmpty.
-	self assert: munichPins notEmpty.
+	self assert: munichPins notEmpty

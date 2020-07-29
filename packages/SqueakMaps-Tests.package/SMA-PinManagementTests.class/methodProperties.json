@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"savedPinsBefore" : "",
+		"savedPinsBefore:" : "",
 		"setUp" : "",
+		"tearDown" : "",
 		"testDeleteAllPins" : "",
 		"testDeletePin" : "",
 		"testDeleteSavedPin" : "",
