@@ -3,8 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "",
-		"testApiButtonBing" : "",
-		"testApiButtonThunderforest" : "",
 		"testApiKeyManagementBing" : "",
 		"testApiKeyManagementThunderforest" : "",
 		"testInvalidLocation" : "",

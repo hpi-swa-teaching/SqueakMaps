@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown
-	SMAWindow savedPins: self savedPinsBefore.
+	SMAWindow savedPins: savedPinsBefore.
 	super tearDown
