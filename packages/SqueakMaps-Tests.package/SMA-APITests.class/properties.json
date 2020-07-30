@@ -11,7 +11,8 @@
 		"validThunderforestMapsKey",
 		"validBingMapsKey",
 		"ThunderforestMapsKeyBefore",
-		"BingMapsKeyBefore" ],
+		"BingMapsKeyBefore",
+		"tileSourceBefore" ],
 	"name" : "SMA-APITests",
 	"pools" : [
 		 ],

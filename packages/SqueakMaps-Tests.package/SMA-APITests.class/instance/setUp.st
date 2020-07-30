@@ -9,3 +9,5 @@ setUp
 	
 	BingMapsKeyBefore := SMAWindow bingApiKey.
 	ThunderforestMapsKeyBefore := SMAWindow thunderforestMapsApiKey.
+	
+	tileSourceBefore := self subject tiledMapMorph tileSource

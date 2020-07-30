@@ -7,4 +7,11 @@
 		"testApiButtonBing" : "",
 		"testApiButtonBingInvalidKey" : "",
 		"testApiButtonThunderforest" : "",
-		"testApiButtonThunderforestInvalidKey" : "" } }
+		"testApiButtonThunderforestInvalidKey" : "",
+		"testApiKeyManagementBing" : "",
+		"testApiKeyManagementThunderforest" : "",
+		"testBingApiKeyIsValidWithInvalidKey" : "",
+		"testBingApiKeyIsValidWithValidKey" : "",
+		"testSetOpenstreetmapsAsApi" : "",
+		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "",
+		"testThunderforestMapsApiKeyIsValidWithValidKey" : "" } }

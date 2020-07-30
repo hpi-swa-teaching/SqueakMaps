@@ -3,8 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "",
-		"testApiKeyManagementBing" : "",
-		"testApiKeyManagementThunderforest" : "",
 		"testInvalidLocation" : "",
-		"testLocationSearching" : "",
-		"testPlacePin" : "" } }
+		"testLocationSearching" : "" } }
