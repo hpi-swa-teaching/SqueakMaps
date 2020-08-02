@@ -3,5 +3,6 @@ buildSearchBar
 	self searchBar: (PluggableTextMorphPlus new
 						balloonText: 'Enter Search Location';
 						setText: '';
-						wrapFlag: true).
+						wrapFlag: true;
+						name: 'Search Bar').
 	self searchBar textMorph crAction: (MessageSend receiver: self selector: #searchLocation)

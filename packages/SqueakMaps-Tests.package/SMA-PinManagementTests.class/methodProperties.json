@@ -3,7 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "",
+		"tearDown" : "",
 		"testDeleteASavedPin" : "",
+		"testDeletePin" : "",
+		"testDeleteSavedPin" : "",
+		"testPlacePin" : "",
 		"testRemoveAPin" : "",
 		"testRemoveAllPins" : "",
 		"testSaveAPin" : "",

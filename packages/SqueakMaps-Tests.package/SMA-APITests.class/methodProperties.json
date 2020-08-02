@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"tearDown" : "",
+		"testApiButtonBing" : "",
+		"testApiButtonBingInvalidKey" : "",
+		"testApiButtonThunderforest" : "",
+		"testApiButtonThunderforestInvalidKey" : "",
+		"testApiKeyManagementBing" : "",
+		"testApiKeyManagementThunderforest" : "",
+		"testBingApiKeyIsValidWithInvalidKey" : "",
+		"testBingApiKeyIsValidWithValidKey" : "",
+		"testSetOpenstreetmapsAsApi" : "",
+		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "",
+		"testThunderforestMapsApiKeyIsValidWithValidKey" : "" } }

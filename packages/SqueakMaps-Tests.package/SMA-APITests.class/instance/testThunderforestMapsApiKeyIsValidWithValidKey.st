@@ -1,0 +1,4 @@
+as yet unclassified
+testThunderforestMapsApiKeyIsValidWithValidKey
+	SMAWindow thunderforestMapsApiKey: validThunderforestMapsKey.
+	self assert: true equals: self subject thunderforestMapsApiKeyIsValid

@@ -7,9 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"apiButton",
-		"searchButton",
-		"apiKeyManagementButton" ],
-	"name" : "SMA-MTFTests",
+		"apiKeyManagementButton",
+		"validThunderforestMapsKey",
+		"validBingMapsKey",
+		"ThunderforestMapsKeyBefore",
+		"BingMapsKeyBefore",
+		"tileSourceBefore" ],
+	"name" : "SMA-APITests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

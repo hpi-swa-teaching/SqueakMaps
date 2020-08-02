@@ -1,4 +1,4 @@
-acceptanceTests
+as yet unclassified
 testPlacePin
 	| munichPins latLongMunich |
 	
