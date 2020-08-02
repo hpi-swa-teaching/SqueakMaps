@@ -1,5 +1,5 @@
 as yet unclassified
-testDeleteSavedPin
+testDeleteASavedPin
 	| latLongMunich latLongBerlin savedPinsBefore munichMarker berlinMarker berlinPins munichPins |
 	
 	savedPinsBefore := SMAWindow savedPins.
