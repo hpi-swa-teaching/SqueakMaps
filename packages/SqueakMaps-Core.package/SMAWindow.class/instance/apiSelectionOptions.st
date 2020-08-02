@@ -1,5 +1,5 @@
 select api
-apiCalls
+apiSelectionOptions
 
 	^ Dictionary newFrom:
 		{Association key: 'Satellite with Labels [Bing]' value: [self setAsApi: #Bing with: #aerialWithLabelsOnDemandTileSource]. 

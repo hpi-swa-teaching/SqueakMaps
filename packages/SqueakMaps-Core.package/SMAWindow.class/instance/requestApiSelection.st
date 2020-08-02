@@ -1,5 +1,5 @@
-build buttons and input fields
+select api
 requestApiSelection
 
-	(UIManager default chooseFromLabeledValues: self apiCalls title: 'choose mapmode') value
+	(UIManager default chooseFromLabeledValues: self apiSelectionOptions title: 'choose mapmode') value
 

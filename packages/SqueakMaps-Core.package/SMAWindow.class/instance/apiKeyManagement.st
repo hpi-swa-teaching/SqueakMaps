@@ -1,5 +1,5 @@
-build buttons and input fields
+select api
 apiKeyManagement
 	
-	(UIManager default chooseFromLabeledValues: self apiKeys title: 'choose key to edit') value
+	(UIManager default chooseFromLabeledValues: self apiKeyManagementOptions title: 'choose key to edit') value
 

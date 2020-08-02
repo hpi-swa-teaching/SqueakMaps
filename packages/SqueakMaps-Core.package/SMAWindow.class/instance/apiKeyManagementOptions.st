@@ -1,5 +1,5 @@
 select api
-apiKeys
+apiKeyManagementOptions
 
 	^ Dictionary newFrom:
 		{Association key: 'Bing Maps' value: [self class bingApiKey: (UIManager default request: 'Your Bing Maps Api Key' initialAnswer: self class bingApiKey)]. 

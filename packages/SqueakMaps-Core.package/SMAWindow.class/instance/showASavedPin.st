@@ -1,4 +1,4 @@
-select api
+pin management
 showASavedPin
 
 	| index pin|

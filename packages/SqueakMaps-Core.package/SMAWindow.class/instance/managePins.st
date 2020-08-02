@@ -1,5 +1,5 @@
-build buttons and input fields
+pin management
 managePins
 	
-	(UIManager default chooseFromLabeledValues: self pinManagementMenu title: 'choose action to perform') value
+	(UIManager default chooseFromLabeledValues: self pinManagementOptions title: 'choose action to perform') value
 
