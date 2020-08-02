@@ -1,4 +1,4 @@
 select api
 buildBingApi
 
-	^ (BingMapsApi new apikey: SMAWindow bingApiKey)
+	^ (BingMapsApi new apikey: self class bingApiKey)

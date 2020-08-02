@@ -7,7 +7,6 @@
 		"squeakMapsWindow" : "",
 		"squeakMapsWindow:" : "",
 		"tearDown" : "",
-		"testApiKeyButtonClass" : "",
 		"testBuildBingApi" : "",
 		"testBuildThunderforestApi" : "",
 		"testClassInitialization" : "",
@@ -19,7 +18,5 @@
 		"testPlacePin" : "",
 		"testRefreshMapKeepsCenter" : "",
 		"testRefreshMapKeepsZoom" : "",
-		"testSearchBarClass" : "",
 		"testSearchBarIsScrolling" : "",
-		"testSearchBarIsWrapping" : "",
-		"testSearchButtonClass" : "" } }
+		"testSearchBarIsWrapping" : "" } }

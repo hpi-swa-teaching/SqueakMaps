@@ -2,5 +2,5 @@ select api
 apiKeys
 
 	^ Dictionary newFrom:
-		{Association key: 'Bing Maps' value: [SMAWindow bingApiKey: (UIManager default request: 'Your Bing Maps Api Key' initialAnswer: SMAWindow bingApiKey)]. 
-		Association key: 'Thunderforest Maps' value: [SMAWindow thunderforestMapsApiKey: (UIManager default request: 'Your Thunderforest Maps Api Key' initialAnswer: SMAWindow thunderforestMapsApiKey)]}
+		{Association key: 'Bing Maps' value: [self class bingApiKey: (UIManager default request: 'Your Bing Maps Api Key' initialAnswer: self class bingApiKey)]. 
+		Association key: 'Thunderforest Maps' value: [self class thunderforestMapsApiKey: (UIManager default request: 'Your Thunderforest Maps Api Key' initialAnswer: self class thunderforestMapsApiKey)]}

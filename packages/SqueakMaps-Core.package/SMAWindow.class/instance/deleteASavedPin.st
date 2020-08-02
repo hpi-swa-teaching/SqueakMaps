@@ -2,6 +2,6 @@ select api
 deleteASavedPin
 
 	| index |
-	index := self requestPinSelectionFrom: SMAWindow savedPins.
+	index := self requestPinSelectionFrom: self class savedPins.
 	(index > 0)
-		ifTrue: [	SMAWindow savedPins removeAt: index]
+		ifTrue: [	self class savedPins removeAt: index]

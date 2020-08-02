@@ -1,8 +1,8 @@
 as yet unclassified
 testDoubleClick
 
-	| latLongMunich munichPins mouseEvent worldpos latlong |
-	
+	| latLongMunich munichPins mouseEvent precision |
+	precision := 0.000001.
 	latLongMunich := 11.576124@48.137154.
 	tiledMapMorph center: (MapTileLoader latLongToWorldPos: latLongMunich).
 
@@ -10,11 +10,6 @@ testDoubleClick
 	mouseEvent position: tiledMapMorph bounds center.
 	
 	tiledMapMorph doubleClick: mouseEvent.
-	worldpos := MapTileLoader latLongToWorldPos: latLongMunich.
-	latlong := MapTileLoader worldPosToLatLong: worldpos.
-	self halt.
-	latlong roundTo: 0.00001@0.00001.
-	munichPins :=  tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
+	"Since floats are only stored with a limited accuracy in squeak, the rounding here is very weird and we have to round the x component of the pin LatLong"
+	munichPins :=  tiledMapMorph pins select: [:pin | ((pin latLong x asScaledDecimal roundTo: precision) @ (pin latLong y)) = latLongMunich].
  	self assert: munichPins notEmpty
-	
-	
