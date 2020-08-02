@@ -2,5 +2,5 @@ api setting
 testRefreshMapKeepsCenter
 	| centerBefore |
 	centerBefore := squeakMapsWindow tiledMapMorph center.
-	squeakMapsWindow refreshMap.
+	squeakMapsWindow tiledMapMorph refreshMap.
 	self assert: centerBefore equals: (squeakMapsWindow tiledMapMorph center)
