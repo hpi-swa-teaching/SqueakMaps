@@ -9,7 +9,7 @@
 		"apiButton",
 		"searchButton",
 		"apiKeyManagementButton" ],
-	"name" : "SMA-MTFTests",
+	"name" : "SMA-UITests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",
