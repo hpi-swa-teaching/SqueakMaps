@@ -1,4 +1,4 @@
-pinning
+pin management
 placeCenteredPinAt: aLatLong
 	
 	self tiledMapMorph 

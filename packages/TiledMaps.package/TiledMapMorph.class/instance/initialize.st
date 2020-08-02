@@ -5,7 +5,7 @@ initialize
 	tileLoader := MapTileLoader instance.
 	center := 0.5@0.5.
 	zoom := 0.
-	pins := Set new.
+	pins := OrderedCollection new.
 	tileSource := OpenStreetMapTileSource instance.
 	geocoder := NominatimGeocoder new.
 
