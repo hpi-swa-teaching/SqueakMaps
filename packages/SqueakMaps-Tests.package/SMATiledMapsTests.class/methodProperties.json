@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"tearDown" : "",
+		"testDoubleClick" : "",
+		"testGetNameTo" : "",
+		"testLocate" : "",
+		"testMouseWheelDown" : "",
+		"testMouseWheelUp" : "",
+		"testWorldPosToLatLong" : "" } }

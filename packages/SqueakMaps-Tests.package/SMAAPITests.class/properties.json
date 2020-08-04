@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"apiButton",
+		"apiKeyManagementButton",
+		"validThunderforestMapsKey",
+		"validBingMapsKey",
+		"ThunderforestMapsKeyBefore",
+		"BingMapsKeyBefore",
+		"tileSourceBefore" ],
+	"name" : "SMAAPITests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

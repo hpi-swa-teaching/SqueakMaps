@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "",
+		"squeakMapsWindow" : "",
+		"squeakMapsWindow:" : "",
+		"testAdaptationTo:" : "",
+		"testAdaptationTo:For:" : "",
+		"testAdaptationToCommunityTheme" : "",
+		"testAdaptationToMonokaiTheme" : "",
+		"testAdaptationToSolarizedTheme" : "",
+		"testAdaptationToSqueakTheme" : "",
+		"testAdaptationToTrimTheme" : "" } }

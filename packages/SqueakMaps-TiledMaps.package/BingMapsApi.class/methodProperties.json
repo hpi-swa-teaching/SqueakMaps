@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aerialTileSource" : "tonyg 2/11/2018 00:46",
+		"aerialWithLabelsOnDemandTileSource" : "tonyg 2/11/2018 00:46",
+		"aerialWithLabelsTileSource" : "tonyg 2/11/2018 00:46",
+		"canvasDarkTileSource" : "tonyg 2/11/2018 00:46",
+		"canvasGrayTileSource" : "tonyg 2/11/2018 00:46",
+		"canvasLightTileSource" : "tonyg 2/11/2018 00:46",
+		"geocoder" : "tonyg 2/11/2018 11:40",
+		"ordnanceSurveyTileSource" : "tonyg 2/11/2018 00:46",
+		"roadOnDemandTileSource" : "tonyg 2/11/2018 00:46",
+		"roadTileSource" : "tonyg 2/11/2018 00:46",
+		"tileSourceClass" : "tonyg 2/11/2018 01:15" } }
