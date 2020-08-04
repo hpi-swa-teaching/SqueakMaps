@@ -14,19 +14,12 @@ baseline: spec
 								file: 'JSON-ul.35';
 								repository: 
 										'http://www.squeaksource.com/JSON' ].
-			spec   
-				package: 'TiledMaps'
-						with: [
-							spec
-								file: 'TiledMaps-tonyg.24';
-								repository: 
-										
-										'http://www.squeaksource.com/TiledMaps' ].
 					
 			spec
 				package: 'SqueakMaps-Core';
-				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'JSON' 'TiledMaps' 'MorphicTestingFramework')];
+				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'JSON' 'SqueakMaps-TiledMaps' 'MorphicTestingFramework')];
+				package: 'SqeakMaps-TiledMaps';
 				yourself.
 			spec
-				group: 'default' with: #('SqueakMaps-Core');
+				group: 'default' with: #('SqueakMaps-Core' . 'SqeakMaps-TiledMaps');
 				group: 'tests' with: #('SqueakMaps-Tests')]
