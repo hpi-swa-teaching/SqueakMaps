@@ -13,7 +13,7 @@
 		"ThunderforestMapsKeyBefore",
 		"BingMapsKeyBefore",
 		"tileSourceBefore" ],
-	"name" : "SMAAPITests",
+	"name" : "SMA-APITests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

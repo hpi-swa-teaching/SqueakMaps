@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"apiButton",
-		"searchButton",
-		"apiKeyManagementButton" ],
-	"name" : "SMAUITests",
+		"pinManagementButton",
+		"savedPinsBefore" ],
+	"name" : "SMA-PinManagementTests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

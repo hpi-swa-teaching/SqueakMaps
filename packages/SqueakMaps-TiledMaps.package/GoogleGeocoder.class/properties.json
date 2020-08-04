@@ -1,14 +1,14 @@
 {
-	"category" : "SqueakMaps-Tests",
+	"category" : "SqueakMaps-TiledMaps",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tiledMapMorph" ],
-	"name" : "SMATiledMapsTests",
+		"api" ],
+	"name" : "GoogleGeocoder",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Geocoder",
 	"type" : "normal" }

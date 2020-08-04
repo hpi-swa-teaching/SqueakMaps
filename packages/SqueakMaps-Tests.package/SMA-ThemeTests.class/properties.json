@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pinManagementButton",
-		"savedPinsBefore" ],
-	"name" : "SMAPinManagementTests",
+		"squeakMapsWindow" ],
+	"name" : "SMA-ThemeTests",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
