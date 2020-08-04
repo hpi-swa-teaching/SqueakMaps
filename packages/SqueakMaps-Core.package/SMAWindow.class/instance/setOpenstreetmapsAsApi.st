@@ -1,4 +1,4 @@
 select api
 setOpenstreetmapsAsApi
 
-	self setTileSourceTo: OpenStreetMapTileSource instance
+	self tiledMapMorph tileSource: OpenStreetMapTileSource instance
