@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"geocoder" : "tonyg 2/13/2018 17:20",
-		"hybridTileSource" : "tonyg 2/11/2018 11:28",
-		"satelliteTileSource" : "tonyg 2/11/2018 11:29",
-		"streetmapTileSource" : "tonyg 2/11/2018 11:29",
-		"tileSourceClass" : "tonyg 2/11/2018 11:28" } }
