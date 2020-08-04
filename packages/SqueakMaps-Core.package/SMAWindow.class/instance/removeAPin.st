@@ -5,4 +5,4 @@ removeAPin
 	index := self requestPinSelectionFrom: pinlist.
 	(index > 0)
 		ifTrue: [	self tiledMapMorph pins remove: (pinlist at: index).
-				self refreshMap]
+				self tiledMapMorph refreshMap]
