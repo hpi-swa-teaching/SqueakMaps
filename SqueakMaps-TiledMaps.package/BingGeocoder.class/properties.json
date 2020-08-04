@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"api" ],
+	"name" : "BingGeocoder",
+	"pools" : [
+		 ],
+	"super" : "Geocoder",
+	"type" : "normal" }
