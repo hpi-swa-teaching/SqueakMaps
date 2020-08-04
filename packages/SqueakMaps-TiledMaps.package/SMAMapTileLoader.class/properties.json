@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "SMAMapTileLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

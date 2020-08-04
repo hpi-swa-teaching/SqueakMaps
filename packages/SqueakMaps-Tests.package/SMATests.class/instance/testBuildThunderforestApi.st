@@ -1,3 +1,3 @@
 api setting
 testBuildThunderforestApi
-	self assert: ThunderforestMapsApi equals: squeakMapsWindow buildThunderforestApi class.
+	self assert: SMAThunderforestMapsApi equals: squeakMapsWindow buildThunderforestApi class.

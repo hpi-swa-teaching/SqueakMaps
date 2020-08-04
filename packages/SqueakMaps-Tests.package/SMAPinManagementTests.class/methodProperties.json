@@ -4,9 +4,9 @@
 	"instance" : {
 		"setUp" : "",
 		"tearDown" : "",
-		"testDeleteASavedPin" : "",
-		"testPlacePin" : "",
+		"testDeleteASavedPin" : "cs 8/4/2020 14:38",
+		"testPlacePin" : "cs 8/4/2020 14:38",
 		"testRemoveAPin" : "",
 		"testRemoveAllPins" : "",
 		"testSaveAPin" : "",
-		"testShowASavedPin" : "" } }
+		"testShowASavedPin" : "cs 8/4/2020 14:38" } }

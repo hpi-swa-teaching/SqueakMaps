@@ -4,7 +4,7 @@ testDoubleClick
 	| latLongMunich munichPins mouseEvent precision |
 	precision := 0.000001.
 	latLongMunich := 11.576124@48.137154.
-	tiledMapMorph center: (MapTileLoader latLongToWorldPos: latLongMunich).
+	tiledMapMorph center: (SMAMapTileLoader latLongToWorldPos: latLongMunich).
 
 	mouseEvent := MouseButtonEvent new.
 	mouseEvent position: tiledMapMorph bounds center.

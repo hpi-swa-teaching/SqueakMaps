@@ -9,5 +9,5 @@ testInvalidLocation
 	self subject searchBar setText: 'textMorph'.
 	[searchButton click] valueSupplyingAnswer: {'No results found.'. #closeDialog}.
 	
-	self assert: self subject tiledMapMorph center equals: (MapTileLoader latLongToWorldPos: latLongBerghain)
+	self assert: self subject tiledMapMorph center equals: (SMAMapTileLoader latLongToWorldPos: latLongBerghain)
 	

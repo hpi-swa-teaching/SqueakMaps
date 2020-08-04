@@ -1,3 +1,3 @@
 api setting
 testBuildBingApi
-	self assert: BingMapsApi equals: squeakMapsWindow buildBingApi class.
+	self assert: SMABingMapsApi equals: squeakMapsWindow buildBingApi class.

@@ -3,6 +3,6 @@ placeCenteredPinAt: aLatLong
 	
 	self tiledMapMorph 
 		placeCenteredPinAt: aLatLong;
-		center: (MapTileLoader latLongToWorldPos: aLatLong).
+		center: (SMAMapTileLoader latLongToWorldPos: aLatLong).
 
 	

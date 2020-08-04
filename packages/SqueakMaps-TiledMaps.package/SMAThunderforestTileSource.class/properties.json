@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMAThunderforestTileSource",
+	"pools" : [
+		 ],
+	"super" : "SMAApiMapTileSource",
+	"type" : "normal" }

@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "",
+		"setUp" : "cs 8/4/2020 14:35",
 		"tearDown" : "",
-		"testApiButtonBing" : "",
+		"testApiButtonBing" : "cs 8/4/2020 14:35",
 		"testApiButtonBingInvalidKey" : "",
-		"testApiButtonThunderforest" : "",
+		"testApiButtonThunderforest" : "cs 8/4/2020 14:37",
 		"testApiButtonThunderforestInvalidKey" : "",
 		"testApiKeyManagementBing" : "",
 		"testApiKeyManagementThunderforest" : "",
 		"testBingApiKeyIsValidWithInvalidKey" : "",
 		"testBingApiKeyIsValidWithValidKey" : "",
-		"testSetOpenstreetmapsAsApi" : "",
+		"testSetOpenstreetmapsAsApi" : "cs 8/4/2020 14:37",
 		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "",
 		"testThunderforestMapsApiKeyIsValidWithValidKey" : "" } }

@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "",
+		"setUp" : "cs 8/4/2020 14:39",
 		"tearDown" : "",
-		"testDoubleClick" : "",
+		"testDoubleClick" : "cs 8/4/2020 14:39",
 		"testGetNameTo" : "",
-		"testLocate" : "",
-		"testWorldPosToLatLong" : "" } }
+		"testLocate" : "cs 8/4/2020 14:40",
+		"testWorldPosToLatLong" : "cs 8/4/2020 14:40" } }

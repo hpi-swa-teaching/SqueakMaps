@@ -8,5 +8,5 @@ testPlacePin
 	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
 	
 	self assert: munichPins notEmpty.
-	self assert: (MapTileLoader latLongToWorldPos: latLongMunich)  equals: self subject tiledMapMorph center.
+	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich)  equals: self subject tiledMapMorph center.
 	self assert: self subject tiledMapMorph defaultZoom equals: self subject tiledMapMorph zoom

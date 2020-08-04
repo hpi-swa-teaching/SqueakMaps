@@ -4,6 +4,6 @@ initialize
 	self
 		applyUserInterfaceTheme;
 		setLabel: 'SqueakMaps' asString;
-		tiledMapMorph: TiledMapMorph new;
+		tiledMapMorph: SMATiledMapMorph new;
 		initializeButtonRow;
 		initializeWindow

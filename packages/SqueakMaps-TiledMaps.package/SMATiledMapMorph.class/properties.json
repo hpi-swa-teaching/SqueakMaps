@@ -1,0 +1,25 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tileLoader",
+		"center",
+		"zoom",
+		"tileSize",
+		"tileOffset",
+		"topLeftTile",
+		"bottomRightTile",
+		"lastMouse",
+		"worldBounds",
+		"pins",
+		"tileSource",
+		"geocoder" ],
+	"name" : "SMATiledMapMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

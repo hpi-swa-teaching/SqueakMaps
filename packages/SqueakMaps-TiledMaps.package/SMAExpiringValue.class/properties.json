@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"timeToLive",
+		"refreshTime" ],
+	"name" : "SMAExpiringValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
