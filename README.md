@@ -23,10 +23,12 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-Be sure to have the following items installed in your image:
+Be sure to have the following installed:
 
-* [Squeak 5.0 or later](squeak-url)
+* [Squeak 5.3 or later](squeak-url)
 * [Metacello](metacello-url)
+
+Older versions of [Squeak](squeak-url) won't work due to this bug for which we handed a patch in.
 
 For development:
 
@@ -45,17 +47,20 @@ Metacello new
 
 **In order to use _Bing_ and Thunderforest you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url] and [Thunderforest][thunderforest-url]. _OpenStreetMaps_ can be used without a key.**
 
-To open up a new window simply run:
+To open up a new window in your image simply go to _Apps > Squeak Maps_,
+
+or run inside a **Workspace**:
 
 ```smalltalk
 SMAWindow new openInWorld.
 ```
 
+When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved inside the class variables of `SMAWindow`. You can change these using the `manage api keys` button.
+
 ## Contributing
 
 Browser Categories of interest are:
 
-* TiledMaps
 * SqueakMaps-Core
 * SqueakMaps-Tests
 * SqueakMaps-TiledMaps
@@ -85,7 +90,7 @@ Legacy project by [Tony Garnock-Jones][tony-jones-url].
 
 Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx) and [Patrick R (codeZeilen)](https://github.com/codeZeilen) for the support.
 
-## Development Team
+## Team
 
 * [RichSchulz](https://github.com/RichSchulz)
 * [Dale (C-8)](https://github.com/C-8)
