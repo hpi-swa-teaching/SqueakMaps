@@ -1,1 +1,1 @@
-A SMABingGeocoder is a SMAGeocoder provides access for location using the Bing API
+A SMABingGeocoder is a SMAGeocoder that provides usage of the Bing API

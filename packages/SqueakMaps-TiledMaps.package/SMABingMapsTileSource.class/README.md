@@ -1,0 +1,1 @@
+A SMABingMapsTileSource is a class which contains behavior and properties to use the BingMaps TileSource

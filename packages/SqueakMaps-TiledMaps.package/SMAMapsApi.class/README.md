@@ -1,0 +1,1 @@
+A SMAMapsApi which bundles the shared properties: apikey and tileSourceForLayer for the different API's

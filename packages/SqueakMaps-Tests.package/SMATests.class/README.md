@@ -1,1 +1,1 @@
-Package includes all Test written for SqueakMaps
+SMATests provides tests for SMASqueakMaps.
