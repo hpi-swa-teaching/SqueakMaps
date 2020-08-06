@@ -2,7 +2,7 @@
 placePinAt: aLatLong labeled: aLabel
 	| pin |
 	
-	pin := MapLocationMarker new.
+	pin := SMAMapLocationMarker new.
 	pin 
 		latLong:  aLatLong;
 		label: aLabel;

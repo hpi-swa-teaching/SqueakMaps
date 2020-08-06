@@ -2,7 +2,7 @@
 placeCenteredPinAt: aLatLong
 	self 
 		placePinAt: aLatLong;
-		center: (MapTileLoader latLongToWorldPos: aLatLong);
+		center: (SMAMapTileLoader latLongToWorldPos: aLatLong);
 		zoom: self defaultZoom;
 		layoutChanged;
 		changed.

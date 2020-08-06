@@ -2,11 +2,11 @@ initialization
 initialize
 	super initialize.
 
-	tileLoader := MapTileLoader instance.
+	tileLoader := SMAMapTileLoader new.
 	center := 0.5@0.5.
 	zoom := 0.
 	pins := OrderedCollection new.
-	tileSource := OpenStreetMapTileSource instance.
-	geocoder := NominatimGeocoder new.
+	tileSource := SMAOpenStreetMapTileSource new.
+	geocoder := SMANominatimGeocoder new.
 
 	self extent: 320@320.
