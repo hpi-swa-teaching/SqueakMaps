@@ -1,3 +1,3 @@
 as yet unclassified
-pointFromArray: anArray xIndex: xi yIndex: yi
-	^ (anArray at: xi) @ (anArray at: yi)
+pointFromArray: anArray xIndex: xIndex yIndex: yIndex
+	^ (anArray at: xIndex) @ (anArray at: yIndex)

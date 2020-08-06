@@ -1,6 +1,8 @@
 as yet unclassified
-offsetOf: pos zoom: zoom
-	| scaledPos loc |
-	scaledPos := pos * (1 bitShift: zoom).
-	loc := scaledPos truncated.
-	^ scaledPos - loc
+offsetOf: aPosition zoom: aZoom
+	
+	| scaledPosition loc |
+	
+	scaledPosition := aPosition * (1 bitShift: aZoom).
+	loc := scaledPosition truncated.
+	^ scaledPosition - loc

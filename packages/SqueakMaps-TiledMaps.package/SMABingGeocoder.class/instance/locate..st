@@ -1,13 +1,18 @@
 as yet unclassified
 locate: queryString
-	| results j |
+
+	| results json xIndex yIndex |
+
 	results := OrderedCollection new.
-	j := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
-	(j at: 'resourceSets') do: [:rset |
-		(rset at: 'resources') do: [:r |
+	json := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
+	xIndex := 2.
+	yIndex := 1.
+
+	(json at: 'resourceSets') do: [:ressourceSet |
+		(ressourceSet at: 'resources') do: [:ressource |
 			results add: (SMAMapLocationMarker new
-				label: (r at: 'name' ifAbsent: [queryString]);
-				latLong: (self pointFromArray: ((r at: 'point') at: 'coordinates') xIndex: 2 yIndex: 1);
-				zoom: (self resultZoom: r);
+				label: (ressource at: 'name' ifAbsent: [queryString]);
+				latLong: (self pointFromArray: ((ressource at: 'point') at: 'coordinates') xIndex: xIndex yIndex: yIndex);
+				zoom: (self resultZoom: ressource);
 				yourself) ]].
 	^ results

@@ -1,8 +1,10 @@
 as yet unclassified
-boundingBoxZoom: bb
+boundingBoxZoom: boundingBox
 
-	| highZoom |
-	highZoom := 19.
+	| highZoom rectangle |
 	
-	bb ifNil: [^ highZoom].
-	^ self zoomForRectangle: (((bb at: 3) asNumber @ (bb at: 1) asNumber) corner: ((bb at: 4) asNumber @ (bb at: 2) asNumber))
+	highZoom := 19.
+	rectangle := (((boundingBox at: 3) asNumber @ (boundingBox at: 1) asNumber) corner: ((boundingBox at: 4) asNumber @ (boundingBox at: 2) asNumber)).
+	
+	boundingBox ifNil: [^ highZoom].
+	^ self zoomForRectangle: rectangle
