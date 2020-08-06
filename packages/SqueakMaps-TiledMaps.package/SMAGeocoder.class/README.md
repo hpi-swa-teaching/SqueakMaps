@@ -1,0 +1,1 @@
+A SMAGeocoder provides a locate method for subclasses to modify

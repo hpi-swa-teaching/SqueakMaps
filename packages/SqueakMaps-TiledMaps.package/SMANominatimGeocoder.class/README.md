@@ -1,0 +1,1 @@
+A SMANominatimGeocoder is a SMAGeocoder provides access for location using the OpenStreetMaps API

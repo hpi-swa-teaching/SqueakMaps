@@ -1,0 +1,1 @@
+A SMAMapLocationMarker provides a positional marker on the map for a given location

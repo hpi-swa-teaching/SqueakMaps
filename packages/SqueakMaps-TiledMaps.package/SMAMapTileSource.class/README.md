@@ -1,0 +1,1 @@
+A SMAMapTileSource provides methods for retrieving map tiles using the respective API
