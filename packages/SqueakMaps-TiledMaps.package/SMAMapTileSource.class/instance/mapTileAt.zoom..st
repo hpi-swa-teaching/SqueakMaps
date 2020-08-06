@@ -1,7 +1,9 @@
 as yet unclassified
-mapTileAt: scaledPos zoom: zoom
-	| doc |
-	doc := (self urlForPosition: scaledPos zoom: zoom) retrieveContents.
-	^ (doc contentType = 'text/plain' and: [doc content beginsWith: 'error occured'])
+mapTileAt: aScaledPosition zoom: aZoom
+	
+	| document |
+	
+	document := (self urlForPosition: aScaledPosition zoom: aZoom) retrieveContents.
+	^ (document contentType = 'text/plain' and: [document content beginsWith: 'error occured'])
 		ifTrue: [nil]
-		ifFalse: [Form fromBinaryStream: doc contentStream]
+		ifFalse: [Form fromBinaryStream: document contentStream]

@@ -1,3 +1,4 @@
 as yet unclassified
 geocoder
-	^ BingGeocoder new api: self
+
+	^ SMABingGeocoder new api: self

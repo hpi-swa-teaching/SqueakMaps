@@ -1,8 +1,10 @@
 as yet unclassified
 imageryMetadata
-	| u j resourceSet |
+
+	| url json resourceSet |
+
 	^ imageryMetadata valueIfExpired: [
-		u := ('http://dev.virtualearth.net/REST/V1/Imagery/Metadata/', layer, '?output=json&include=ImageryProviders&key=', api apikey) asUrl.
-		j := Json readFrom: (u retrieveContents contentStream).
-		resourceSet := (j at: 'resourceSets') first.
+		url := ('http://dev.virtualearth.net/REST/V1/Imagery/Metadata/', layer, '?output=json&include=ImageryProviders&key=', api apikey) asUrl.
+		json := Json readFrom: (url retrieveContents contentStream).
+		resourceSet := (json at: 'resourceSets') first.
 		(resourceSet at: 'resources') first ]
