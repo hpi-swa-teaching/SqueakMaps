@@ -29,9 +29,9 @@ Be sure to have the following installed:
 * [Squeak 5.3 or later](squeak-url)
 * [Metacello](metacello-url)
 
-Older versions of [Squeak](squeak-url) won't work due to this bug for which we handed a patch in.
-
 For development:
+
+Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed a patch in.
 
 * [Morphic Testing Framework](mtf-url)
 
