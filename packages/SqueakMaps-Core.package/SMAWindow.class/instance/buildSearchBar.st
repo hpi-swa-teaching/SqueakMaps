@@ -1,5 +1,6 @@
 build buttons and input fields
 buildSearchBar
+
 	self searchBar: (PluggableTextMorphPlus new
 						balloonText: 'Enter Search Location';
 						setText: '';
