@@ -1,8 +1,11 @@
 as yet unclassified
-urlForPosition: scaledPos zoom: zoom
-	| s |
-	s := self imageryMetadata at: 'imageUrl'.
-	s := s copyReplaceAll: '{subdomain}' with: (self imageryMetadata at: 'imageUrlSubdomains') atRandom.
-	s := s copyReplaceAll: '{culture}' with: 'en-GB'.
-	s := s copyReplaceAll: '{quadkey}' with: (self quadkeyForX: scaledPos x y: scaledPos y zoom: zoom).
-	^ s asUrl
+urlForPosition: aScaledPosition zoom: aZoom
+
+	| position |
+
+	position := self imageryMetadata at: 'imageUrl'.
+	position := position copyReplaceAll: '{subdomain}' with: (self imageryMetadata at: 'imageUrlSubdomains') atRandom.
+	position := position copyReplaceAll: '{culture}' with: 'en-GB'.
+	position := position copyReplaceAll: '{quadkey}' with: (self quadkeyForX: aScaledPosition x y: aScaledPosition y zoom: aZoom).
+	
+	^ position asUrl

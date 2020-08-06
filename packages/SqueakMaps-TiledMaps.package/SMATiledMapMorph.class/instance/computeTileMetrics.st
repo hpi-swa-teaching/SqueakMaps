@@ -1,6 +1,8 @@
 private
 computeTileMetrics
+
 	| o worldExtent |
+	
 	o := tileLoader offsetOf: center zoom: zoom.
 	tileSize := tileSource tileSize.
 	tileOffset := o * tileSize.
@@ -20,4 +22,4 @@ computeTileMetrics
 	worldExtent := bounds extent * self pixelSize.
 	worldBounds := Rectangle origin: center - (worldExtent / 2) extent: worldExtent.
 
-	self tilesDo: [:tile :formPromise | formPromise whenResolved: [ self changed ] ].
+	self tilesDo: [:tile :formPromise | formPromise whenResolved: [ self changed ] ]

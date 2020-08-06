@@ -1,7 +1,8 @@
 private
 tilesDo: aBlock
+
 	| tile formPromise |
-	"Loop through the tiles."
+	
 	(topLeftTile y to: bottomRightTile y) do: [:y |
 		(topLeftTile x to: bottomRightTile x) do: [: x |
 			tile := (x @ y).

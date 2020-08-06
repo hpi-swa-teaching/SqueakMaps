@@ -1,3 +1,4 @@
 as yet unclassified
-zoom: newZoom
-	zoom := newZoom
+zoom: aZoom
+
+	zoom := aZoom

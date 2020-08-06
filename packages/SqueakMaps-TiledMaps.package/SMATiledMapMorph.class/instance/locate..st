@@ -1,7 +1,9 @@
 accessing
-locate: queryString
+locate: aQueryString
+
 	| results result |
-	results := geocoder locate: queryString.
+	
+	results := geocoder locate: aQueryString.
 	results isEmpty ifTrue: [
 		UIManager default inform: 'No results found.'.
 		^ self].
@@ -10,4 +12,4 @@ locate: queryString
 	zoom := tileSource clampZoom: result zoom.
 	pins := Set with: result.
 	self layoutChanged.
-	self changed.
+	self changed

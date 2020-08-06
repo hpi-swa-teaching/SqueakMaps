@@ -1,3 +1,4 @@
 as yet unclassified
-urlForPosition: scaledPos zoom: zoom
-	^ ('http://tile.openstreetmap.org/', zoom asString, '/', scaledPos x asString, '/', scaledPos y asString, '.png') asUrl
+urlForPosition: aScaledPosition zoom: aZoom
+
+	^ ('http://tile.openstreetmap.org/', aZoom asString, '/', aScaledPosition x asString, '/', aScaledPosition y asString, '.png') asUrl

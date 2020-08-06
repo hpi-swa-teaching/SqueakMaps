@@ -1,6 +1,8 @@
 private
 drawTilesOn: aCanvas
+
 	| form |
+	
 	self tilesDo: [:tile :formPromise |
 		form := formPromise isResolved
 			ifFalse: [ self loadingTile ]

@@ -1,3 +1,4 @@
 as yet unclassified
-isValidZoomLevel: zoom
-	^ (zoom >= self zoomMin) and: [zoom <= self zoomMax]
+isValidZoomLevel: aZoom
+
+	^ (aZoom >= self zoomMin) and: [aZoom <= self zoomMax]

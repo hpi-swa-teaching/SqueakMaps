@@ -1,3 +1,4 @@
 viewer
 zoomIn
-	self zoom: zoom + 1.
+
+	self zoom: zoom + 1

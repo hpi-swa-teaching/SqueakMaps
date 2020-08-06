@@ -1,5 +1,6 @@
 accessing
 refreshMap
+
 	self 
 		zoomIn;
-		zoomOut.
+		zoomOut

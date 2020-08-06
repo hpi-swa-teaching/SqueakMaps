@@ -1,3 +1,4 @@
 *SqueakMaps-Core
 defaultZoom
-	^10
+
+	^ 10

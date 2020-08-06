@@ -1,3 +1,4 @@
 *SqueakMaps-Core
 pins
+
 	^ pins

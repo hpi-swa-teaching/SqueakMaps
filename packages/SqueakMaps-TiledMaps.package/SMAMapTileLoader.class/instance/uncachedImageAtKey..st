@@ -1,6 +1,9 @@
 as yet unclassified
-uncachedImageAtKey: key
-	| p |
-	p := Promise new.
-	[ p resolveWith: (key third mapTileAt: key first zoom: key second) ] fork.
-	^ p
+uncachedImageAtKey: aKey
+	
+	| promise |
+	
+	promise := Promise new.
+	
+	[ promise resolveWith: (aKey third mapTileAt: aKey first zoom: aKey second) ] fork.
+	^ promise

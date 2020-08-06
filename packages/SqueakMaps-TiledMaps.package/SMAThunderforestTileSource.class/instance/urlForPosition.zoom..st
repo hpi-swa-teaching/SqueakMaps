@@ -1,6 +1,9 @@
 as yet unclassified
-urlForPosition: scaledPos zoom: zoom
-	| s |
-	s := 'http://tile.thunderforest.com/', layer, '/', zoom asString, '/', scaledPos x asString, '/', scaledPos y asString, '.png'.
-	api apikey ifNotNil: [:k | s := s, '?apikey=', k].
-	^ s asUrl
+urlForPosition: aScaledPosition zoom: aZoom
+
+	| position |
+	
+	position := 'http://tile.thunderforest.com/', layer, '/', aZoom asString, '/', aScaledPosition x asString, '/', aScaledPosition y asString, '.png'.
+	
+	api apikey ifNotNil: [:apikey | position := position, '?apikey=', apikey].
+	^ position asUrl

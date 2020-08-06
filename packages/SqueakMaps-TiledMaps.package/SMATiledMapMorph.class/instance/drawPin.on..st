@@ -1,6 +1,8 @@
 private
 drawPin: aPin on: aCanvas
+
 	| pixelPos font labelSize labelPos |
+	
 	(worldBounds containsPoint: aPin value worldPos) ifFalse: [^ self].
 
 	pixelPos := ((aPin value worldPos - worldBounds topLeft) / self pixelSize) + bounds topLeft.
@@ -12,6 +14,4 @@ drawPin: aPin on: aCanvas
 	aCanvas drawString: aPin value label at: labelPos font: font color: Color black.
 
 	aCanvas drawPolygon: {pixelPos. pixelPos + (-5 @ -20). pixelPos + (5 @ -20)}
-		fillStyle: aPin value color.
-
-"	aCanvas fillOval: (Rectangle center: pixelPos extent: 4@4) color: Color red."
+		fillStyle: aPin value color

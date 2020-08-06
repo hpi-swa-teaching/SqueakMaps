@@ -1,5 +1,6 @@
 initialization
 initialize
+
 	super initialize.
 
 	tileLoader := SMAMapTileLoader new.
@@ -9,4 +10,4 @@ initialize
 	tileSource := SMAOpenStreetMapTileSource new.
 	geocoder := SMANominatimGeocoder new.
 
-	self extent: 320@320.
+	self extent: 320@320

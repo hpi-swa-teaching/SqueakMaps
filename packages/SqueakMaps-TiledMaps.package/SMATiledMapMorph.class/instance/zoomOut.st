@@ -1,3 +1,4 @@
 viewer
 zoomOut
-	self zoom: zoom - 1.
+
+	self zoom: zoom - 1

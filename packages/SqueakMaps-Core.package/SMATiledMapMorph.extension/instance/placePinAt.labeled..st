@@ -1,5 +1,6 @@
 *SqueakMaps-Core
 placePinAt: aLatLong labeled: aLabel
+
 	| pin |
 	
 	pin := SMAMapLocationMarker new.
@@ -10,5 +11,4 @@ placePinAt: aLatLong labeled: aLabel
 	self pins add: pin.
 	self
 		layoutChanged;
-		changed.
-	
+		changed

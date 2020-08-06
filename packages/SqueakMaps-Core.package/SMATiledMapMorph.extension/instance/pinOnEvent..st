@@ -1,5 +1,6 @@
 *SqueakMaps-Core
 pinOnEvent: anEvent
+
 	| position pixelSize |
 
 	pixelSize := self pixelSize.

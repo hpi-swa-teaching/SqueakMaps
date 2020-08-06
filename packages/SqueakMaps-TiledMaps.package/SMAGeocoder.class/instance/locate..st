@@ -1,3 +1,4 @@
 as yet unclassified
-locate: queryString
+locate: aQueryString
+	
 	self subclassResponsibility

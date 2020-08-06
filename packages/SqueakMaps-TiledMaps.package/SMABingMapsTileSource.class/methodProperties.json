@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"imageryMetadata" : "tonyg 2/11/2018 11:25",
-		"initialize" : "cs 8/4/2020 14:04",
-		"quadkeyForX:y:zoom:" : "tonyg 2/10/2018 23:37",
-		"resetCache" : "tonyg 2/11/2018 00:35",
-		"urlForPosition:zoom:" : "cs 8/4/2020 14:07",
-		"zoomMax" : "RS 6/25/2020 16:06",
-		"zoomMin" : "RS 6/25/2020 16:06" } }
+		"imageryMetadata" : "cs 8/6/2020 15:33",
+		"initialize" : "cs 8/6/2020 15:35",
+		"quadkeyForX:y:zoom:" : "cs 8/6/2020 15:37",
+		"resetCache" : "cs 8/6/2020 15:37",
+		"urlForPosition:zoom:" : "cs 8/6/2020 15:39",
+		"zoomMax" : "cs 8/6/2020 15:39",
+		"zoomMin" : "cs 8/6/2020 15:39" } }

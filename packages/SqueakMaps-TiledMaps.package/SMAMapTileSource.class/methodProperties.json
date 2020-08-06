@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clampZoom:" : "tonyg 2/11/2018 16:34",
-		"isValidZoomLevel:" : "tonyg 2/10/2018 23:51",
-		"mapTileAt:zoom:" : "tonyg 2/10/2018 21:47",
-		"tileSize" : "tonyg 2/11/2018 10:49",
-		"urlForPosition:zoom:" : "tonyg 2/10/2018 21:46",
-		"zoomMax" : "tonyg 2/10/2018 23:43",
-		"zoomMin" : "tonyg 2/10/2018 23:43" } }
+		"clampZoom:" : "cs 8/6/2020 15:47",
+		"isValidZoomLevel:" : "cs 8/6/2020 15:48",
+		"mapTileAt:zoom:" : "cs 8/6/2020 15:49",
+		"tileSize" : "cs 8/6/2020 15:49",
+		"urlForPosition:zoom:" : "cs 8/6/2020 15:49",
+		"zoomMax" : "cs 8/6/2020 15:49",
+		"zoomMin" : "cs 8/6/2020 15:49" } }

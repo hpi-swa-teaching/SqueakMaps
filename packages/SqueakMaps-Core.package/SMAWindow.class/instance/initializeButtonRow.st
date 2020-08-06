@@ -1,5 +1,6 @@
 initialization
 initializeButtonRow
+	
 	self 
 		buildSearchBar;
 		buildSearchButton;

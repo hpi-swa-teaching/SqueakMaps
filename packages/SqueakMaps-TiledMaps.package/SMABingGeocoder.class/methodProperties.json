@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"api:" : "tonyg 2/11/2018 11:40",
-		"locate:" : "cs 8/6/2020 13:56",
-		"pointFromArray:xIndex:yIndex:" : "cs 8/6/2020 14:19",
-		"queryUrlFor:" : "tonyg 2/11/2018 11:44",
+		"api:" : "cs 8/6/2020 15:44",
+		"locate:" : "cs 8/6/2020 15:46",
+		"pointFromArray:xIndex:yIndex:" : "cs 8/6/2020 15:44",
+		"queryUrlFor:" : "cs 8/6/2020 15:46",
 		"resultZoom:" : "cs 8/6/2020 14:22" } }
