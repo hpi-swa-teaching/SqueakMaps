@@ -4,6 +4,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![CI][ci-shield]][ci-url]
 
 ## About The Project
 
@@ -103,6 +104,8 @@ Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx) and [Patrick R
 [bing-maps-url]: https://www.bing.com/maps
 [thunderforest-url]: https://www.thunderforest.com
 [metacello-url]: https://github.com/Metacello/metacello
+[ci-shield]: https://github.com/hpi-swa-teaching/SqueakMaps/workflows/CI/badge.svg?branch=dev
+[ci-url]: https://github.com/hpi-swa-teaching/SqueakMaps/actions
 [mtf-url]: https://github.com/hpi-swa-teaching/Morphic-Testing-Framework
 [tiledmaps-url]: http://www.squeaksource.com/TiledMaps.html
 [tony-jones-url]: http://www.squeaksource.com/@ieeBQfgrendEEft9/oZWC2ZTV?13
