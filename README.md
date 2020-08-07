@@ -58,6 +58,9 @@ SMAWindow new openInWorld.
 
 When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved inside the class variables of `SMAWindow`. You can change these using the `manage api keys` button.
 
+**Pins**
+You can place pins on a map by double clicking it or by searching for a location. Manage your pins via the **manage pins** button.
+
 ## Contributing
 
 Browser Categories of interest are:
