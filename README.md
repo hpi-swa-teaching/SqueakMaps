@@ -31,7 +31,7 @@ Be sure to have the following installed:
 
 For development:
 
-Older versions of [Squeak](squeak-url) won't work due to a issue for which we handed in a patch.
+Older versions of [Squeak](squeak-url) won't work due to an issue for which we handed in a patch.
 
 * [Morphic Testing Framework](mtf-url)
 
@@ -40,7 +40,7 @@ Older versions of [Squeak](squeak-url) won't work due to a issue for which we ha
 ```smalltalk
 Metacello new
   baseline: 'SqueakMaps';
-  repository: 'github://hpi-swa-teaching/SqueakMaps/packages';
+  repository: 'github://hpi-swa-teaching/SqueakMaps:dev/packages';
   load.
 ```
 
