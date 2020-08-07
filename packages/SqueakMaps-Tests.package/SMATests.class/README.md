@@ -1,0 +1,1 @@
+SMATests provides tests for SMASqueakMaps.

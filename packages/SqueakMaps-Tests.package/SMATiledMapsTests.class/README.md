@@ -1,0 +1,1 @@
+SMATiledMapsTests provides tests for the SMATiledMap   

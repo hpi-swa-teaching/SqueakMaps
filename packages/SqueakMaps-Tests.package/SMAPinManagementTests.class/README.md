@@ -1,0 +1,1 @@
+SMAPinManagementTests provides tests for the pin handling

@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cs 8/6/2020 15:01",
+	"instvars" : [
+		"apikey",
+		"layers" ],
+	"name" : "SMAMapsApi",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

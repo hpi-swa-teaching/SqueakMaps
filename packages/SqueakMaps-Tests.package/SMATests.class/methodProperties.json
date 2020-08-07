@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"apiTests" : "" },
+	"instance" : {
+		"expectedFailures" : "",
+		"setUp" : "",
+		"squeakMapsWindow" : "",
+		"squeakMapsWindow:" : "",
+		"tearDown" : "",
+		"testBuildBingApi" : "cs 8/4/2020 14:38",
+		"testBuildThunderforestApi" : "cs 8/4/2020 14:38",
+		"testClassInitialization" : "",
+		"testInvalidLocation" : "cs 8/4/2020 14:39",
+		"testLocationSearchingBerghain" : "MK 8/7/2020 13:02",
+		"testLocationSearchingGesundbrunnen" : "MK 8/7/2020 13:02",
+		"testOpenInWorld" : "",
+		"testPlacePin" : "cs 8/4/2020 14:39",
+		"testRefreshMapKeepsCenter" : "",
+		"testRefreshMapKeepsZoom" : "",
+		"testSearchBarIsScrolling" : "",
+		"testSearchBarIsWrapping" : "" } }

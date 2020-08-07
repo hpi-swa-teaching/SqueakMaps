@@ -1,0 +1,1 @@
+A SMATiledMapMorph displays the map and provides the methods to handle UserInput.
