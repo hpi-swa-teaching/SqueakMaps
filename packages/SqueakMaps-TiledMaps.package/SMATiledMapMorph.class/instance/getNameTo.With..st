@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+accessing
 getNameTo: aLatLong With: aZoom
 
 	| queryUrl result |

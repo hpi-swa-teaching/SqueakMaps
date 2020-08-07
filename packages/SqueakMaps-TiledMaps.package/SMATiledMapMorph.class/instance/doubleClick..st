@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+event handling
 doubleClick: anEvent
 
 	self pinOnEvent: anEvent

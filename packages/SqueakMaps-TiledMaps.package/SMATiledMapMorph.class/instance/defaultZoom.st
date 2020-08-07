@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+accessing
 defaultZoom
 
 	^ 10

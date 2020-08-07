@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	self wantsToTest: (SMAWindow new extent: 200@200; fullBounds; yourself).
 	apiButton := self subject findByLabel: 'select api'.

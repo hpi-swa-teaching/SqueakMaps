@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "",
+		"setUp" : "MK 8/7/2020 13:48",
 		"tearDown" : "",
 		"testDeleteASavedPin" : "cs 8/4/2020 14:38",
 		"testPlacePin" : "cs 8/4/2020 14:38",

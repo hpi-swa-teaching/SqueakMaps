@@ -1,1 +1,0 @@
-A SMABingGeocoder is a SMAGeocoder that provides usage of the Bing API

@@ -1,4 +1,0 @@
-*SqueakMaps-Core
-pins
-
-	^ pins

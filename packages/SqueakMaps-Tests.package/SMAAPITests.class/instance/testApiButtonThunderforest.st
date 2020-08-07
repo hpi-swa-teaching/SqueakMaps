@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testApiButtonThunderforest
 	
 	[apiButton click] valueSupplyingAnswers: {{'choose mapmode' . 'Cycling [Thunderforest]'} . {'Please enter your Thunderforest Maps Api Key' . validThunderforestMapsKey}}.

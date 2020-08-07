@@ -4,4 +4,5 @@ buildSearchButton
 	self searchButton: (PluggableButtonMorph new
 							label: 'go!';
 							target: [self searchLocation];
-							actionSelector: #value)
+							actionSelector: #value;
+							yourself)

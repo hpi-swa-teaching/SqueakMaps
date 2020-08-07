@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testWorldPosToLatLong
 
 	| newyorkLatLong newyorkWorldPos computedLatLong precision |

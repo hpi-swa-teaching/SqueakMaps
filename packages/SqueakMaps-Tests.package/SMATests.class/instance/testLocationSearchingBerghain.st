@@ -1,6 +1,8 @@
 searching
 testLocationSearchingBerghain
+
 	| placeName placeLatLong |
+	
 	placeName := 'berghain'.
 	placeLatLong := (13.4430356@52.5111669).
 	self squeakMapsWindow searchBar setText: placeName.

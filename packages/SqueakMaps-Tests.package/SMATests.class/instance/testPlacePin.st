@@ -1,4 +1,4 @@
-classTesting
+searching
 testPlacePin
 	| mapPins latLongMunich |
 	

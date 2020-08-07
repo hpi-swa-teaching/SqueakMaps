@@ -5,4 +5,4 @@ offsetOf: aPosition zoom: aZoom
 	
 	scaledPosition := aPosition * (1 bitShift: aZoom).
 	
-	^ scaledPosition - scaledPosition truncated.
+	^ scaledPosition - scaledPosition truncated

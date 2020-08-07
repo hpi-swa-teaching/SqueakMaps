@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+pin handling
 placeCenteredPinAt: aLatLong
 
 	self 

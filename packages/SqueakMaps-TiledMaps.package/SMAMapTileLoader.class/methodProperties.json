@@ -2,10 +2,10 @@
 	"class" : {
 		"instance" : "tonyg 2/10/2018 21:35",
 		"latLongToWorldPos:" : "tonyg 9/5/2011 18:22",
-		"worldPosToLatLong:" : "RS 8/2/2020 12:48" },
+		"worldPosToLatLong:" : "MK 8/7/2020 12:46" },
 	"instance" : {
 		"imageAt:zoom:source:tile:" : "cs 8/6/2020 14:33",
 		"initialize" : "tonyg 5/3/2016 16:27",
-		"offsetOf:zoom:" : "cs 8/6/2020 15:27",
+		"offsetOf:zoom:" : "MK 8/7/2020 12:44",
 		"resetCache" : "cs 8/6/2020 15:47",
 		"uncachedImageAtKey:" : "cs 8/6/2020 15:28" } }

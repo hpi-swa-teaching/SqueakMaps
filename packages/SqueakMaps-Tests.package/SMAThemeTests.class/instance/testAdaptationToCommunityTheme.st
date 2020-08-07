@@ -1,3 +1,3 @@
-as yet unclassified
+theme testing
 testAdaptationToCommunityTheme
 	self testAdaptationTo: (CommunityTheme new)

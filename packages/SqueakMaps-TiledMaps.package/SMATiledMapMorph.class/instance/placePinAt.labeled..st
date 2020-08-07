@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+pin handling
 placePinAt: aLatLong labeled: aLabel
 
 	| pin |

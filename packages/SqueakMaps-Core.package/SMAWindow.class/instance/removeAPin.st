@@ -1,10 +1,10 @@
 pin management
 removeAPin
 
-	| pinlist index |
+	| pins pinPosition |
 
-	pinlist := self tiledMapMorph pins.
-	index := self requestPinSelectionFrom: pinlist.
-	(index > 0)
-		ifTrue: [	self tiledMapMorph pins remove: (pinlist at: index).
+	pins := self tiledMapMorph pins.
+	pinPosition := self requestPinSelectionFrom: pins.
+	(pinPosition > 0)
+		ifTrue: [	self tiledMapMorph removePin: (pins at: pinPosition).
 				self tiledMapMorph refreshMap]

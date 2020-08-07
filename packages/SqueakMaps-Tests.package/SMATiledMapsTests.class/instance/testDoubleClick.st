@@ -1,7 +1,8 @@
-as yet unclassified
+testing
 testDoubleClick
 
 	| latLongMunich munichPins mouseEvent precision |
+	
 	precision := 0.000001.
 	latLongMunich := 11.576124@48.137154.
 	tiledMapMorph center: (SMAMapTileLoader latLongToWorldPos: latLongMunich).

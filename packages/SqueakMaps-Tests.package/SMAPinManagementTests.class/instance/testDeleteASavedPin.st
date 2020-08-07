@@ -1,4 +1,4 @@
-as yet unclassified
+pin testing
 testDeleteASavedPin
 	| latLongMunich latLongBerlin munichMarker berlinMarker berlinPins munichPins |
 	

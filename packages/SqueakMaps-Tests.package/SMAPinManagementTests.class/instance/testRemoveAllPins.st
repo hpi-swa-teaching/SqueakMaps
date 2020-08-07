@@ -1,4 +1,4 @@
-as yet unclassified
+pin testing
 testRemoveAllPins
 	| latLongMunich latLongBerlin |
 	

@@ -1,11 +1,11 @@
 pin management
 savePin
 
-	| pinlist index |
+	| pins pinPosition |
 
-	pinlist := self tiledMapMorph pins.
-	index := self requestPinSelectionFrom: pinlist.
-	(index > 0)
-		ifTrue: [	(pinlist at: index) label: 
-				(UIManager default request: 'please set the name of the chosen pin' initialAnswer: ((pinlist at: index) label)).
-				self class savedPins add: (pinlist at: index)]
+	pins := self tiledMapMorph pins.
+	pinPosition := self requestPinSelectionFrom: pins.
+	(pinPosition > 0)
+		ifTrue: [	(pins at: pinPosition) label: 
+				(UIManager default request: 'please set the name of the chosen pin' initialAnswer: ((pins at: pinPosition) label)).
+				self class savedPins add: (pins at: pinPosition)]

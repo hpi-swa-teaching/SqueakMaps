@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSetOpenstreetmapsAsApi
 
 	self subject setOpenstreetmapsAsApi.

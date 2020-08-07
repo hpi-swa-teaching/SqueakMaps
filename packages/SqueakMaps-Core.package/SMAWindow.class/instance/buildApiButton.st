@@ -4,4 +4,5 @@ buildApiButton
 	self apiMenuButton: (PluggableButtonMorph new
 							label: 'select api';
 							target: [self requestApiSelection];
-							actionSelector: #value) 
+							actionSelector: #value;
+							yourself) 

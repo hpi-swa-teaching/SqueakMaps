@@ -1,4 +1,4 @@
-*SqueakMaps-Core
+pin handling
 pinOnEvent: anEvent
 
 	| position pixelSize |

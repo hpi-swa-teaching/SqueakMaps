@@ -1,4 +1,4 @@
-user interface adaption
+user interface
 applyUserInterfaceTheme
 
 	super applyUserInterfaceTheme.

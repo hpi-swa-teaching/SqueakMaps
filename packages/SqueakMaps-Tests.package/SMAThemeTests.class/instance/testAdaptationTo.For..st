@@ -1,4 +1,4 @@
-as yet unclassified
+theme testing
 testAdaptationTo: anUserInterfaceTheme For: anObject
 	| expectedColor |
 	anUserInterfaceTheme applyTo: {anObject}.

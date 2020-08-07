@@ -1,3 +1,3 @@
-as yet unclassified
+running
 setUp
 	tiledMapMorph := (SMATiledMapMorph new fullBounds; yourself).
