@@ -5,5 +5,6 @@ buildSearchBar
 						balloonText: 'Enter Search Location';
 						setText: '';
 						wrapFlag: true;
-						name: 'Search Bar').
+						name: 'Search Bar';
+						yourself).
 	self searchBar textMorph crAction: (MessageSend receiver: self selector: #searchLocation)
