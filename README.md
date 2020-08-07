@@ -29,11 +29,11 @@ Be sure to have the following installed:
 * [Squeak 5.3 or later](squeak-url)
 * [Metacello](metacello-url)
 
-For development:
-
 Older versions of [Squeak](squeak-url) won't work due to an issue for which we handed in a patch.
 
+### Dependencies
 * [Morphic Testing Framework](mtf-url)
+is automaticly installed
 
 ### Installation
 
@@ -58,8 +58,7 @@ SMAWindow new openInWorld.
 
 When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved inside the class variables of `SMAWindow`. You can change these using the `manage api keys` button.
 
-**Pins**
-You can place pins on a map by double clicking it or by searching for a location. Manage your pins via the **manage pins** button.
+You can place **pins** on the map by double clicking it or by searching for a location. Manage your pins via the **manage pins** button.
 
 ## Contributing
 
@@ -81,6 +80,10 @@ Check out our [Roadmap][project-url] and [Issues][issues-url].
 ## License
 
 Distributed under the MIT License. See [LICENSE][license-url] for more information.
+
+## CI
+
+Some tests are currently failing in CI, due to it not running on [Squeak 5.3](squeak-url). Updating the CI will fix this problem.
 
 ## Contact
 
