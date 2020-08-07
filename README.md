@@ -31,7 +31,7 @@ Be sure to have the following installed:
 
 For development:
 
-Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed a patch in.
+Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed in a patch.
 
 * [Morphic Testing Framework](mtf-url)
 
