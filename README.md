@@ -31,7 +31,7 @@ Be sure to have the following installed:
 
 For development:
 
-Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed a patch in.
+Older versions of [Squeak](squeak-url) won't work due to a issue for which we handed in a patch.
 
 * [Morphic Testing Framework](mtf-url)
 
@@ -46,7 +46,7 @@ Metacello new
 
 ## Usage
 
-**In order to use _Bing_ and Thunderforest you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url] and [Thunderforest][thunderforest-url]. _OpenStreetMaps_ can be used without a key.**
+**In order to use _Bing_ and _Thunderforest_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url] and [Thunderforest][thunderforest-url]. _OpenStreetMaps_ can be used without a key.**
 
 To open up a new window in your image simply go to _Apps > Squeak Maps_,
 
