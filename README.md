@@ -85,12 +85,6 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 Some tests are currently failing in CI, due to it not running on [Squeak 5.3](squeak-url). Updating the CI will fix this problem.
 
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
-
 ## Acknowledgements
 
 Legacy project by [Tony Garnock-Jones][tony-jones-url].
