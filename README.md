@@ -1,5 +1,4 @@
 # SqueakMaps
-
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -118,3 +117,4 @@ Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx) and [Patrick R
 [stars-url]: https://github.com/hpi-swa-teaching/SqueakMaps/stargazers
 [license-shield]: https://img.shields.io/github/license/hpi-swa-teaching/SqueakMaps
 [license-url]: LICENSE
+

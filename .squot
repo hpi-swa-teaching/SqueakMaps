@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/BaselineOfSqueakMaps.package' : #SquotCypressCodeSerializer,
+  'packages\/BaselineOfSqueakMaps.package' : #SquotCypressCodeSerializer,
 	'packages\/SqueakMaps-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/SqueakMaps-Tests.package' : #SquotCypressCodeSerializer,
 	'packages\/SqueakMaps-TiledMaps.package' : #SquotCypressCodeSerializer
