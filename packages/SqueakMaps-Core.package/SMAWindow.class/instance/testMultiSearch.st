@@ -1,4 +1,4 @@
 test
 testMultiSearch
 
-	self tiledMapMorph zoomWithAnotherPin: self searchBar text asString
+	self tiledMapMorph locate: (self searchBar text asString) and: (self secondSearchBar text asString)

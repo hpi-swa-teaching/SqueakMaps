@@ -1,4 +1,4 @@
-accessing
+locating
 locate: aQueryString
 
 	| results result |

@@ -1,4 +1,4 @@
-event handling
+locating
 zoomWithAnotherPin: aQueryString
 
 	| first_pin second_pin new_box new_zoom results |
