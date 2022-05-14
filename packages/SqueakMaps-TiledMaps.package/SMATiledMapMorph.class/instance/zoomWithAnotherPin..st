@@ -1,7 +1,7 @@
 event handling
 zoomWithAnotherPin: aQueryString
 
-	| first_pin second_pin new_box new_zoom results result |
+	| first_pin second_pin new_box new_zoom results |
 	
 	results := geocoder locate: aQueryString.
 	results isEmpty ifTrue: [
@@ -12,10 +12,11 @@ zoomWithAnotherPin: aQueryString
 
 	new_box := self getBoundingBoxFitting: first_pin and: second_pin.
 	new_zoom := geocoder boundingBoxZoom: new_box.
-
-	center := result worldPos.
 	zoom := tileSource clampZoom: new_zoom.
 
-	pins := Set with: result.
+	center := self calculateMidPoint: (first_pin worldPos) and: (second_pin worldPos).
+
+	pins := Set with: first_pin.
+	pins add: second_pin.
 	self layoutChanged.
 	self changed
