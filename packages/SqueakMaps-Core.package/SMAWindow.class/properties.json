@@ -11,9 +11,11 @@
 		"tiledMapMorph",
 		"searchButton",
 		"searchBar",
+		"secondSearchBar",
 		"apiMenuButton",
 		"apiKeyManagementButton",
-		"pinManagementButton" ],
+		"pinManagementButton",
+		"testButton" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],
