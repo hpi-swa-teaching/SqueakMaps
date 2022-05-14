@@ -12,7 +12,7 @@ locate: aQueryString and: anotherQueryString
 	firstPin := resultOne first.
 	secondPin := resultTwo first.
 
-	newBox := self getBoundingBoxFitting: firstPin and: secondPin.
+	newBox := self getAltBoundingBoxFitting: firstPin and: secondPin.
 	newZoom := geocoder boundingBoxZoom: newBox.
 	zoom := tileSource clampZoom: newZoom.
 
