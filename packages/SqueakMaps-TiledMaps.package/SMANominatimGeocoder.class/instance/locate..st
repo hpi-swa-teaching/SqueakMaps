@@ -11,5 +11,6 @@ locate: queryString
 			label: (result at: 'display_name' ifAbsent: [queryString]);
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			zoom: (self boundingBoxZoom: (result at: 'boundingbox'));
+			boundingBox: (result at: 'boundingbox');
 			yourself) ].
 	^ searches
