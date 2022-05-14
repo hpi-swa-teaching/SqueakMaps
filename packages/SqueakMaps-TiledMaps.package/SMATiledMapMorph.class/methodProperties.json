@@ -16,7 +16,7 @@
 		"drawTilesOn:" : "BCD 8/6/2020 16:01",
 		"geocoder" : "BCD 8/6/2020 16:01",
 		"geocoder:" : "BCD 8/6/2020 16:01",
-		"getBoundingBoxFitting:and:" : "LK 5/14/2022 13:59",
+		"getBoundingBoxFitting:and:" : "LK 5/14/2022 14:24",
 		"getNameTo:With:" : "BCD 8/6/2020 16:01",
 		"handlesMouseDown:" : "BCD 8/6/2020 16:01",
 		"handlesMouseWheel:" : "BCD 8/6/2020 16:01",
@@ -44,4 +44,4 @@
 		"zoom:" : "BCD 8/6/2020 16:03",
 		"zoomIn" : "BCD 8/6/2020 16:03",
 		"zoomOut" : "BCD 8/6/2020 16:03",
-		"zoomWithAnotherPin:" : "LK 5/14/2022 14:05" } }
+		"zoomWithAnotherPin:" : "LK 5/14/2022 14:24" } }

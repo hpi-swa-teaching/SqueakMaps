@@ -16,8 +16,8 @@ getBoundingBoxFitting: aFirstSMAMapLocationMarker and: aSecondSMAMapLocationMark
 		left := secondBoundingBox at: 3.
 		right := firstBoundingBox at: 4.].
 	
-	top := (firstBoundingBox at: 4) asNumber max: (firstBoundingBox at: 4) asNumber.
-	bottom := (firstBoundingBox at: 3) asNumber min: (firstBoundingBox at: 3) asNumber.
+	top := (firstBoundingBox at: 2) asNumber max: (secondBoundingBox at: 2) asNumber.
+	bottom := (firstBoundingBox at: 1) asNumber min: (secondBoundingBox at: 1) asNumber.
 
 	resultBox := Array new: 4.
 	resultBox at: 1 put: (bottom asString).

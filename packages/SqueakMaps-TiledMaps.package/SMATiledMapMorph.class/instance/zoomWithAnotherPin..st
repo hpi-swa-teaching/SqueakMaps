@@ -2,7 +2,7 @@ event handling
 zoomWithAnotherPin: aQueryString
 
 	| first_pin second_pin new_box new_zoom results |
-	
+
 	results := geocoder locate: aQueryString.
 	results isEmpty ifTrue: [
 		UIManager default inform: 'No results found.'.
