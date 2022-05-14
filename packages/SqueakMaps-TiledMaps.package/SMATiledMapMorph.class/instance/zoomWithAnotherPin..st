@@ -8,7 +8,7 @@ zoomWithAnotherPin: aQueryString
 		UIManager default inform: 'No results found.'.
 		^ self].
 	first_pin := results first.
-	second_pin := geocoder locate: 'Paderborn' first.
+	second_pin := (geocoder locate: 'Paderborn') first.
 
 	new_box := self getBoundingBoxFitting: first_pin and: second_pin.
 	new_zoom := geocoder boundingBoxZoom: new_box.

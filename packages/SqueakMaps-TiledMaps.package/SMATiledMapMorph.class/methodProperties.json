@@ -3,6 +3,7 @@
 		"additionsToViewerCategoryMaps" : "tonyg 2/10/2018 22:13" },
 	"instance" : {
 		"addPin:" : "MK 8/7/2020 12:56",
+		"calculateMidPoint:and:" : "os 5/14/2022 13:51",
 		"center" : "BCD 8/6/2020 16:00",
 		"center:" : "BCD 8/6/2020 16:00",
 		"centerOnEvent:around:" : "BCD 8/6/2020 16:00",
@@ -43,4 +44,4 @@
 		"zoom:" : "BCD 8/6/2020 16:03",
 		"zoomIn" : "BCD 8/6/2020 16:03",
 		"zoomOut" : "BCD 8/6/2020 16:03",
-		"zoomWithAnotherPin:" : "LK 5/14/2022 13:18" } }
+		"zoomWithAnotherPin:" : "os 5/14/2022 13:44" } }
