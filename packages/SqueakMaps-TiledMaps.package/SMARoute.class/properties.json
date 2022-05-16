@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"points" ],
+	"name" : "SMARoute",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

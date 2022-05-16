@@ -9,5 +9,6 @@ initialize
 	pins := OrderedCollection new.
 	tileSource := SMAOpenStreetMapTileSource new.
 	geocoder := SMANominatimGeocoder new.
+	route := SMARoute new.
 
 	self extent: 320@320
