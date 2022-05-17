@@ -1,4 +1,3 @@
 theme testing
 testAdaptationToTrimTheme
-
-	self testAdaptationTo: (TrimTheme new)
+	self testAdaptationTo: (UserInterfaceTheme named: 'Trim (dark)')

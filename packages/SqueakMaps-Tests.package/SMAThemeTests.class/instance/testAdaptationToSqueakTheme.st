@@ -1,4 +1,3 @@
 theme testing
 testAdaptationToSqueakTheme
-
-	self testAdaptationTo: (SqueakTheme new)
+	self testAdaptationTo: (UserInterfaceTheme named: 'Squeak')
