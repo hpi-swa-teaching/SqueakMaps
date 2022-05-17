@@ -1,10 +1,12 @@
 testing
 testLocate
 
-	| placeName placeLatLong |
+	| placeName placeLongLat |
+	
 	placeName := 'berghain'.
-	placeLatLong := (13.4430356@52.5111669).
+	placeLongLat := 13.4430356@52.5111669.
 	tiledMapMorph locate: placeName.
-	self assert: tiledMapMorph center equals: (SMAMapTileLoader latLongToWorldPos: placeLatLong)
+	
+	self assert: tiledMapMorph center equals: (SMAMapTileLoader longLatToWorldPos: placeLongLat)
 	
 	

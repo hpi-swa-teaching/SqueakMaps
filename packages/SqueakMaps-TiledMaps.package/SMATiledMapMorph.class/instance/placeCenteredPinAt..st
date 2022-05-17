@@ -1,9 +1,9 @@
 pin handling
-placeCenteredPinAt: aLatLong
+placeCenteredPinAt: aLongLat
 
 	self 
-		placePinAt: aLatLong;
-		center: (SMAMapTileLoader latLongToWorldPos: aLatLong);
+		placePinAt: aLongLat;
+		center: (SMAMapTileLoader longLatToWorldPos: aLongLat);
 		zoom: self defaultZoom;
 		layoutChanged;
 		changed

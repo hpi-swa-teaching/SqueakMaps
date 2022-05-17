@@ -1,10 +1,10 @@
 testing
 testGetNameTo
 
-	| latLongMunich zoom |
+	| longLatMunich zoom |
 	
-	latLongMunich := 11.576124@48.137154.
+	longLatMunich := 11.576124@48.137154.
 	zoom := 10.
 
- 	self assert: 'München' equals: (tiledMapMorph getNameTo: latLongMunich With: zoom)
+ 	self assert: 'München' equals: (tiledMapMorph getNameTo: longLatMunich With: zoom)
 	

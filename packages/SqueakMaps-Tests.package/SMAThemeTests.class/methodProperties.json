@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"runCase" : "",
-		"setUp" : "",
-		"squeakMapsWindow" : "",
-		"squeakMapsWindow:" : "",
-		"testAdaptationTo:" : "",
-		"testAdaptationTo:For:" : "",
-		"testAdaptationToCommunityTheme" : "",
-		"testAdaptationToMonokaiTheme" : "",
-		"testAdaptationToSolarizedTheme" : "",
-		"testAdaptationToSqueakTheme" : "",
-		"testAdaptationToTrimTheme" : "" } }
+		"runCase" : "TR 5/17/2022 10:08",
+		"setUp" : "TR 5/17/2022 10:08",
+		"squeakMapsWindow" : "TR 5/17/2022 10:08",
+		"squeakMapsWindow:" : "TR 5/17/2022 10:09",
+		"testAdaptationTo:" : "TR 5/17/2022 10:09",
+		"testAdaptationTo:For:" : "TR 5/17/2022 10:14",
+		"testAdaptationToCommunityTheme" : "TR 5/17/2022 10:09",
+		"testAdaptationToMonokaiTheme" : "TR 5/17/2022 10:09",
+		"testAdaptationToSolarizedTheme" : "TR 5/17/2022 10:09",
+		"testAdaptationToSqueakTheme" : "TR 5/17/2022 10:09",
+		"testAdaptationToTrimTheme" : "TR 5/17/2022 10:09" } }

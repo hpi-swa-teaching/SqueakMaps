@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"instance" : "tonyg 2/10/2018 21:35",
-		"latLongToWorldPos:" : "tonyg 9/5/2011 18:22",
-		"worldPosToLatLong:" : "MK 8/7/2020 12:46" },
+		"longLatToWorldPos:" : "TR 5/17/2022 09:50",
+		"worldPosToLongLat:" : "TR 5/17/2022 09:50" },
 	"instance" : {
 		"imageAt:zoom:source:tile:" : "cs 8/6/2020 14:33",
 		"initialize" : "tonyg 5/3/2016 16:27",

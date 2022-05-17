@@ -5,7 +5,7 @@ drawRoute: aRoute On: aCanvas
 	
 	aRoute points isEmpty ifTrue: [^ self].
 
-	pixelPosRoute := aRoute points collect:[:point | self worldPosToPixelPos: (SMAMapTileLoader latLongToWorldPos: point) ].
+	pixelPosRoute := aRoute points collect:[:point | self worldPosToPixelPos: (SMAMapTileLoader longLatToWorldPos: point) ].
 
 	polygon := PolygonMorph new.
 	polygon 

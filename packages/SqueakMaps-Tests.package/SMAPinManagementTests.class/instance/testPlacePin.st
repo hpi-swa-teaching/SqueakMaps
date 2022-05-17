@@ -1,12 +1,13 @@
 pin testing
 testPlacePin
-	| munichPins latLongMunich |
+
+	| munichPins longLatMunich |
 	
-	latLongMunich := 11.576124@48.137154.
-	self subject placeCenteredPinAt: latLongMunich.
+	longLatMunich := 11.576124@48.137154.
+	self subject placeCenteredPinAt: longLatMunich.
 	
-	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
+	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin longLat = longLatMunich].
 	
 	self assert: munichPins notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich)  equals: self subject tiledMapMorph center.
+	self assert: (SMAMapTileLoader longLatToWorldPos: longLatMunich)  equals: self subject tiledMapMorph center.
 	self assert: self subject tiledMapMorph defaultZoom equals: self subject tiledMapMorph zoom

@@ -1,5 +1,5 @@
 pin handling
-placePinAt: aLatLong
+placePinAt: aLongLat
 
-	self placePinAt: aLatLong labeled: aLatLong asString
+	self placePinAt: aLongLat labeled: aLongLat asString
 	

@@ -1,3 +1,4 @@
 accessing
-squeakMapsWindow: anObject
-	squeakMapsWindow := anObject
+squeakMapsWindow: aSMAWindow
+
+	squeakMapsWindow := aSMAWindow

@@ -5,4 +5,5 @@ testThunderforestMapsApiKeyIsValidWithInvalidKey
 	
 	invalidKey := 'Test'.
 	SMAWindow thunderforestMapsApiKey: invalidKey.
+	
 	self assert: false equals: self subject thunderforestMapsApiKeyIsValid

@@ -1,11 +1,13 @@
 searching
 testPlacePin
-	| mapPins latLongMunich |
+
+	| mapPins longLatMunich |
 	
-	latLongMunich := 11.576124@48.137154.
-	self squeakMapsWindow placeCenteredPinAt: latLongMunich.
+	longLatMunich := 11.576124@48.137154.
 	
-	mapPins :=  self squeakMapsWindow tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
+	self squeakMapsWindow placeCenteredPinAt: longLatMunich.
+	mapPins :=  self squeakMapsWindow tiledMapMorph pins select: [:pin | pin longLat = longLatMunich].
+	
 	self assert: mapPins notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich) equals: self squeakMapsWindow tiledMapMorph center.
+	self assert: (SMAMapTileLoader longLatToWorldPos: longLatMunich) equals: self squeakMapsWindow tiledMapMorph center.
 	self assert: self squeakMapsWindow tiledMapMorph zoom equals: self squeakMapsWindow tiledMapMorph defaultZoom

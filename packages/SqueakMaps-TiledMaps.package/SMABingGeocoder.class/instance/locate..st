@@ -12,7 +12,7 @@ locate: aQueryString
 		(ressourceSet at: 'resources') do: [:ressource |
 			results add: (SMAMapLocationMarker new
 				label: (ressource at: 'name' ifAbsent: [aQueryString]);
-				latLong: (self pointFromArray: ((ressource at: 'point') at: 'coordinates') xIndex: xIndex yIndex: yIndex);
+				longLat: (self pointFromArray: ((ressource at: 'point') at: 'coordinates') xIndex: xIndex yIndex: yIndex);
 				zoom: (self resultZoom: ressource);
 				yourself) ]].
 	^ results

@@ -5,4 +5,4 @@ pinOnEvent: anEvent
 
 	pixelSize := self pixelSize.
 	position := ((anEvent cursorPoint - bounds topLeft) * pixelSize) + worldBounds topLeft.
-	self placeAutolabeledPinAt: (SMAMapTileLoader worldPosToLatLong: position)
+	self placeAutolabeledPinAt: (SMAMapTileLoader worldPosToLongLat: position)

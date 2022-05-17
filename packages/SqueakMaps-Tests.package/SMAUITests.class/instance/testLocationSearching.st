@@ -1,13 +1,13 @@
 as yet unclassified
 testLocationSearching
 
-	| latlongGesundbrunnen pinsGesundbrunnen |
+	| longLatGesundbrunnen pinsGesundbrunnen |
 	
-	latlongGesundbrunnen := 13.384846@52.5509201.
+	longLatGesundbrunnen := 13.384846@52.5509201.
 	
 	(self subject findByName: 'Search Bar') setText: 'Gesundbrunnen'.
 	(self subject findByLabel: 'go!') click.
+	pinsGesundbrunnen :=  self subject tiledMapMorph pins select: [:pin | pin longLat = longLatGesundbrunnen].
 	
-	pinsGesundbrunnen :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latlongGesundbrunnen].
 	self assert: pinsGesundbrunnen notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latlongGesundbrunnen) equals: self subject tiledMapMorph center
+	self assert: (SMAMapTileLoader longLatToWorldPos: longLatGesundbrunnen) equals: self subject tiledMapMorph center

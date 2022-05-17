@@ -1,4 +1,4 @@
 as yet unclassified
-latLong
+longLat
 
-	^ latLong
+	^ longLat

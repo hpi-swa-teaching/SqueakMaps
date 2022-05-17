@@ -1,3 +1,4 @@
 accessing
-tiledMapMorph: anObject
-	tiledMapMorph := anObject
+tiledMapMorph: aTiledMapMorph
+
+	tiledMapMorph := aTiledMapMorph

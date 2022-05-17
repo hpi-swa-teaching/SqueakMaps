@@ -8,5 +8,5 @@ showASavedPin
 		ifTrue: [pin := (self class savedPins at: index).
 				self tiledMapMorph addPin: pin.
 				self tiledMapMorph center: 
-					(SMAMapTileLoader latLongToWorldPos: pin value latLong)]
+					(SMAMapTileLoader longLatToWorldPos: pin value longLat)]
 			

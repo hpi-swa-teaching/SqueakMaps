@@ -1,5 +1,5 @@
 as yet unclassified
-worldPosToLatLong: aWorldPos
+worldPosToLongLat: aWorldPos
 	
 	| lat long |
 	"Follows the calculation at http://mathworld.wolfram.com/MercatorProjection.html."

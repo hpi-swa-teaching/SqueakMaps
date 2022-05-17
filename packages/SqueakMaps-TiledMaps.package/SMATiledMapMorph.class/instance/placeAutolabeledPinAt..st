@@ -1,5 +1,5 @@
 pin handling
-placeAutolabeledPinAt: aLatLong
+placeAutolabeledPinAt: aLongLat
 	
-	self placePinAt: aLatLong labeled: (self getNameTo: aLatLong With: self zoom)
+	self placePinAt: aLongLat labeled: (self getNameTo: aLongLat With: self zoom)
 	

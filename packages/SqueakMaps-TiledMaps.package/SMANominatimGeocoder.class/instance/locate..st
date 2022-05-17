@@ -9,7 +9,7 @@ locate: queryString
 	json do: [:result |
 		searches add: (SMAMapLocationMarker new
 			label: (result at: 'display_name' ifAbsent: [queryString]);
-			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
+			longLat: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			zoom: (self boundingBoxZoom: (result at: 'boundingbox'));
 			yourself) ].
 	^ searches

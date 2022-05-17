@@ -1,5 +1,5 @@
 initilization
 setUp
-	super setUp.
 
+	super setUp.
 	self squeakMapsWindow: SMAWindow new 

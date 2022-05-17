@@ -1,8 +1,8 @@
 pin management
-placeCenteredPinAt: aLatLong
+placeCenteredPinAt: aLongLat
 	
 	self tiledMapMorph 
-		placeCenteredPinAt: aLatLong;
-		center: (SMAMapTileLoader latLongToWorldPos: aLatLong)
+		placeCenteredPinAt: aLongLat;
+		center: (SMAMapTileLoader longLatToWorldPos: aLongLat)
 
 	
