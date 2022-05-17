@@ -1,6 +1,10 @@
 theme testing
 testAdaptationTo: anUserInterfaceTheme For: anObject
-	| expectedColor |
+	| themeRequest expectedColor |
 	anUserInterfaceTheme applyTo: {anObject}.
-	expectedColor := anObject userInterfaceTheme color.
+	themeRequest := UserInterfaceThemeRequest new
+		target: anObject;
+		theme: anUserInterfaceTheme;
+		yourself.
+	expectedColor := themeRequest color.
 	self assert: expectedColor equals: anObject color

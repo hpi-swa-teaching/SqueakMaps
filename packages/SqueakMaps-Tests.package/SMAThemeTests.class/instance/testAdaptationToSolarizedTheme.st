@@ -1,3 +1,3 @@
 theme testing
 testAdaptationToSolarizedTheme
-	self testAdaptationTo: (SolarizedTheme new)
+	self testAdaptationTo: (UserInterfaceTheme named: 'Solarized (dark)')
