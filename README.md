@@ -9,7 +9,7 @@
 
 ![SqueakMaps GUI][img-dir]
 
-_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT20-11](#Team). It offers satellite imagery, as well as street maps for traveling by foot, car, bicycle and or public transportation for several map services such as [Bing][bing-maps-url] and [Thunderforest][thunderforest-url].
+_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT22-12](#Team). It offers satellite imagery, as well as street maps for traveling by foot, car, bicycle and or public transportation for several map services such as [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url].
 
 The project is based of the legacy project [TiledMaps][tiledmaps-url] by [Tony Garnock-Jones][tony-jones-url].
 
@@ -27,12 +27,9 @@ Be sure to have the following installed:
 
 * [Squeak 5.3 or later](squeak-url)
 * [Metacello](metacello-url)
-
-For development:
+* [Morphic Testing Framework](mtf-url)
 
 Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed a patch in.
-
-* [Morphic Testing Framework](mtf-url)
 
 ### Installation
 
@@ -66,9 +63,7 @@ Browser Categories of interest are:
 * SqueakMaps-TiledMaps
 * (BaselineOfSqueakMaps)
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 ## Roadmap
 
@@ -80,9 +75,7 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/hpi-swa-teaching/SqueakMaps](https://github.com/hpi-swa-teaching/SqueakMaps)
 
 ## Acknowledgements
 
@@ -91,7 +84,15 @@ Legacy project by [Tony Garnock-Jones][tony-jones-url].
 Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx) and [Patrick R (codeZeilen)](https://github.com/codeZeilen) for the support.
 
 ## Team
+SWT22-12:
+* [TimRiedel](https://github.com/TimRiedel)
+* [Durborough](https://github.com/Durborough)
+* [richartkeil](https://github.com/richartkeil)
+* [Glitterrosie](https://github.com/glitterrosie)
+* [JanniRoebbecke](https://github.com/JanniRoebbecke)
+* [LeoKohlenberg](https://github.com/LeoKohlenberg)
 
+SWT20-11:
 * [RichSchulz](https://github.com/RichSchulz)
 * [Dale (C-8)](https://github.com/C-8)
 * [MartenMIK](https://github.com/MartenMIK)
@@ -100,6 +101,7 @@ Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx) and [Patrick R
 
 [img-dir]: img/SqueakMaps_GUI.png
 [squeak-url]: https://squeak.org
+[osm-url]: https://www.openstreetmap.org
 [bing-maps-url]: https://www.bing.com/maps
 [thunderforest-url]: https://www.thunderforest.com
 [metacello-url]: https://github.com/Metacello/metacello
