@@ -1,8 +1,6 @@
 searching
 testInvalidLocation
 
-
-	
 	self squeakMapsWindow searchBar setText: 'berghain'.
 	self squeakMapsWindow searchButton performAction.
 	
