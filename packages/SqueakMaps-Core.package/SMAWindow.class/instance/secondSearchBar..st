@@ -1,3 +1,3 @@
-test
+accessing
 secondSearchBar: anObject
 	secondSearchBar := anObject

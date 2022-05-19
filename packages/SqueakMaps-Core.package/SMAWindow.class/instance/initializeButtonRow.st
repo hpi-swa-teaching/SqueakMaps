@@ -3,7 +3,7 @@ initializeButtonRow
 	
 	self 
 		buildSearchBar;
-		buildSecondSearchBar; "SECON SEARCHBAR"
+		buildSecondSearchBar;
 		buildSearchButton;
 		buildTestButton; "TEST BUTTON"
 		buildApiKeyManagementButton;

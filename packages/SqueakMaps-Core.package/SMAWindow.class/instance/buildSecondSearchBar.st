@@ -1,4 +1,4 @@
-test
+build buttons and input fields
 buildSecondSearchBar
 
 	self secondSearchBar: (PluggableTextMorphPlus new
@@ -7,4 +7,4 @@ buildSecondSearchBar
 						wrapFlag: true;
 						name: 'Second Search Bar';
 						yourself).
-	self secondSearchBar textMorph crAction: (MessageSend receiver: self selector: #testMultiSearch)
+	self secondSearchBar textMorph crAction: (MessageSend receiver: self selector: #searchMultipleLocations)

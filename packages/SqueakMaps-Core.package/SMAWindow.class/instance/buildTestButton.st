@@ -3,6 +3,6 @@ buildTestButton
 
 	self testButton: (PluggableButtonMorph new
 							label: 'test!';
-							target: [self testMultiSearch];
+							target: [self searchMultipleLocations];
 							actionSelector: #value;
 							yourself)
