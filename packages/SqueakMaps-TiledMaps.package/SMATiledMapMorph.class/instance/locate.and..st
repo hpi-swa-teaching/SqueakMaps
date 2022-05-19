@@ -17,7 +17,7 @@ locate: aQueryString and: anotherQueryString
 	zoom := tileSource clampZoom: newZoom.
 
 	center := self calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos).
-
+	
 	pins := Set with: firstPin.
 	pins add: secondPin.
 	self layoutChanged.
