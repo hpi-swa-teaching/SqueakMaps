@@ -1,3 +1,3 @@
 theme testing
 testAdaptationToCommunityTheme
-	self testAdaptationTo: (CommunityTheme new)
+	self testAdaptationTo: (UserInterfaceTheme named: 'Community (dark)')

@@ -1,3 +1,3 @@
 theme testing
 testAdaptationToMonokaiTheme
-	self testAdaptationTo: (MonokaiTheme new)
+	self testAdaptationTo: (UserInterfaceTheme named: 'Monokai (dark)')

@@ -5,7 +5,7 @@ drawPin: aPin on: aCanvas
 	
 	(worldBounds containsPoint: aPin value worldPos) ifFalse: [^ self].
 
-	pixelPos := ((aPin value worldPos - worldBounds topLeft) / self pixelSize) + bounds topLeft.
+	pixelPos := self worldPosToPixelPos: aPin value worldPos.
 
 	font := TextStyle defaultFont.
 	labelSize :=  (font widthOfString: aPin value label) @ font height.
