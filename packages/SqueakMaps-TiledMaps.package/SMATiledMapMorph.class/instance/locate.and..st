@@ -18,7 +18,8 @@ locate: aQueryString and: anotherQueryString
 
 	center := self calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos).
 	
+	self route points: {firstPin latLong . secondPin latLong}.
 	pins := Set with: firstPin.
-	pins add: secondPin.
+	pins add: secondPin.	
 	self layoutChanged.
 	self changed
