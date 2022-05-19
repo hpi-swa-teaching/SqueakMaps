@@ -16,8 +16,7 @@
 		"drawTilesOn:" : "BCD 8/6/2020 16:01",
 		"geocoder" : "BCD 8/6/2020 16:01",
 		"geocoder:" : "BCD 8/6/2020 16:01",
-		"getAltBoundingBoxFitting:and:" : "os 5/14/2022 16:01",
-		"getBoundingBoxFitting:and:" : "LK 5/14/2022 14:24",
+		"getBoundingBoxFitting:and:" : "os 5/19/2022 11:48",
 		"getNameTo:With:" : "BCD 8/6/2020 16:01",
 		"handlesMouseDown:" : "BCD 8/6/2020 16:01",
 		"handlesMouseWheel:" : "BCD 8/6/2020 16:01",
@@ -25,7 +24,7 @@
 		"layoutChanged" : "BCD 8/6/2020 16:01",
 		"loadingTile" : "BCD 8/6/2020 16:01",
 		"locate:" : "BCD 8/6/2020 16:02",
-		"locate:and:" : "os 5/14/2022 15:15",
+		"locate:and:" : "os 5/19/2022 11:48",
 		"mouseDown:" : "BCD 8/6/2020 16:02",
 		"mouseMove:" : "BCD 8/6/2020 16:02",
 		"mouseWheel:" : "BCD 8/6/2020 16:02",
@@ -45,5 +44,4 @@
 		"zoom" : "BCD 8/6/2020 16:03",
 		"zoom:" : "BCD 8/6/2020 16:03",
 		"zoomIn" : "BCD 8/6/2020 16:03",
-		"zoomOut" : "BCD 8/6/2020 16:03",
-		"zoomWithAnotherPin:" : "LK 5/14/2022 14:24" } }
+		"zoomOut" : "BCD 8/6/2020 16:03" } }
