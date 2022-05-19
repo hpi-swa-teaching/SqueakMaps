@@ -7,4 +7,4 @@ buildSearchBar
 						wrapFlag: true;
 						name: 'Search Bar';
 						yourself).
-	self searchBar textMorph crAction: (MessageSend receiver: self selector: #searchLocation)
+	self searchBar textMorph crAction: (MessageSend receiver: self selector: #search)
