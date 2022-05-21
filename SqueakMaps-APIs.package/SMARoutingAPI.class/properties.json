@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-APIs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"apiKey" ],
+	"name" : "SMARoutingAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
