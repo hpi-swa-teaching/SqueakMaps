@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakMaps-TiledMaps",
+	"category" : "SqueakMaps-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"points",
-		"boundingBox" ],
-	"name" : "SMARoute",
+		"mockJson" ],
+	"name" : "SMARoutingAPITests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
