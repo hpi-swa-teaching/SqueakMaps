@@ -6,5 +6,6 @@ buildSearchBar
 						setText: '';
 						wrapFlag: true;
 						name: 'Search Bar';
+						wantsFrameAdornments: false;
 						yourself).
 	self searchBar textMorph crAction: (MessageSend receiver: self selector: #search)
