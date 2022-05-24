@@ -1,7 +1,7 @@
 locating
 locate: aQueryString and: anotherQueryString
 
-	| resultOne resultTwo firstPin secondPin newBox newZoom |
+	| resultOne resultTwo firstPin secondPin |
 
 	resultOne := self geocoder locate: aQueryString.	
 	resultTwo := self geocoder locate: anotherQueryString.	
@@ -9,13 +9,10 @@ locate: aQueryString and: anotherQueryString
 	(resultOne isEmpty or: [resultTwo isEmpty]) ifTrue: [
 		UIManager default inform: 'No results found.'.
 		^ self].
+	
 	firstPin := resultOne first.
 	secondPin := resultTwo first.
-
-	newBox := self getBoundingBoxFitting: firstPin and: secondPin.
-	newZoom := self geocoder boundingBoxZoom: newBox.
-	self zoom: (self tileSource clampZoom: newZoom).
-
+	self zoom: (self getZoomFrom: firstPin and: secondPin).
 	self center: (self calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos)).
 	
 	self route points: {firstPin latLong . secondPin latLong}.
