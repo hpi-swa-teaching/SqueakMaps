@@ -1,4 +1,7 @@
 as yet unclassified
 getBoundingBoxFrom: aJSON
 
-	^ aJSON at: 'bbox'
+	| coordinates |
+	
+	coordinates := aJSON at: 'bbox'.
+	^ {(coordinates first) @ (coordinates second) . (coordinates third) @ (coordinates fourth)}

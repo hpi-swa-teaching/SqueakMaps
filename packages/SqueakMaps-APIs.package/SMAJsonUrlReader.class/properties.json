@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"apiKey",
-		"contentSource" ],
-	"name" : "SMARoutingAPI",
+		 ],
+	"name" : "SMAJsonUrlReader",
 	"pools" : [
 		 ],
 	"super" : "Object",

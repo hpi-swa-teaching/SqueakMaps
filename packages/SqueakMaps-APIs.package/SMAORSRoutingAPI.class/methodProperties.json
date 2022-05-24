@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"defaultTransportationMode" : "TR 5/23/2022 09:11",
-		"getBoundingBoxFrom:" : "TR 5/21/2022 18:24",
-		"getRouteFrom:To:" : "TR 5/23/2022 09:12",
-		"getWaypointsFrom:" : "TR 5/21/2022 18:27",
+		"getBoundingBoxFrom:" : "TR 5/24/2022 20:31",
+		"getRouteFrom:To:" : "TR 5/24/2022 20:29",
+		"getWaypointsFrom:" : "TR 5/24/2022 20:31",
 		"makeRouteFrom:" : "TR 5/21/2022 18:28",
 		"parseCoordinatesToString:" : "TR 5/21/2022 18:28",
 		"queryUrlFrom:To:By:" : "TR 5/21/2022 18:30" } }

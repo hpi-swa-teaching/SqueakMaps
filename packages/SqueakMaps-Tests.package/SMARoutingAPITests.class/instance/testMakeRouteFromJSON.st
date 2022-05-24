@@ -1,12 +1,12 @@
 as yet unclassified
 testMakeRouteFromJSON
 
-	| orsAPI route bbox points |
-	orsAPI := SMAORSRoutingAPI new.
-	route := orsAPI makeRouteFrom: self mockJson.
-	bbox := route boundingBox.
-	points := route points.
+	| route longLatStart longLatEnd |
+	longLatStart := 13.117216@52.388978.
+	longLatEnd := 13.128289@52.393838.
 	
-	self assert: bbox size equals: 4.
-	self assert: points notEmpty.
+	route := self orsAPI getRouteFrom: longLatStart To: longLatEnd.
+	
+	self assert: route boundingBox size equals: 2.
+	self assert: route points notEmpty.
 	

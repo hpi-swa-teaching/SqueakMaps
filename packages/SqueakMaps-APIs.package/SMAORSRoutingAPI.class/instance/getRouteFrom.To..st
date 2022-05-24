@@ -7,6 +7,6 @@ getRouteFrom: aStartLongLat To: anEndLongLat
 		queryUrlFrom: aStartLongLat 
 		To: anEndLongLat 
 		By: self defaultTransportationMode.
-	json := Json readFrom: queryUrl retrieveContents contentStream.
+	json := self contentSource getJsonFrom: queryUrl.
 	
 	^ self makeRouteFrom: json

@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakMaps-APIs",
+	"category" : "SqueakMaps-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"apiKey",
-		"contentSource" ],
-	"name" : "SMARoutingAPI",
+		"expectedReturn" ],
+	"name" : "SMAMockJsonUrlReader",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SMAJsonUrlReader",
 	"type" : "normal" }
