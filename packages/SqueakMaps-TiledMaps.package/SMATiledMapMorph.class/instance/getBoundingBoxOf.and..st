@@ -1,5 +1,5 @@
 helping
-getBoundingBoxFitting: aFirstSMAMapLocationMarker and: aSecondSMAMapLocationMarker
+getBoundingBoxOf: aFirstSMAMapLocationMarker and: aSecondSMAMapLocationMarker
 
 	| location1 location2 padding boundingBox point1 point2 boundingBoxResult |
 	location1 := aFirstSMAMapLocationMarker worldPos.
