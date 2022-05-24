@@ -2,6 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "",
-		"testInvalidLocation" : "cs 8/4/2020 14:40",
-		"testLocationSearching" : "cs 8/4/2020 14:40" } }
+		"apiButton" : "os 5/24/2022 19:48",
+		"apiButton:" : "os 5/24/2022 19:48",
+		"apiKeyManagementButton" : "os 5/24/2022 19:48",
+		"apiKeyManagementButton:" : "os 5/24/2022 19:48",
+		"searchBar" : "os 5/24/2022 19:53",
+		"searchBar:" : "os 5/24/2022 19:53",
+		"searchButton" : "os 5/24/2022 19:48",
+		"searchButton:" : "os 5/24/2022 19:48",
+		"secondSearchBar" : "os 5/24/2022 19:53",
+		"secondSearchBar:" : "os 5/24/2022 19:53",
+		"setUp" : "os 5/24/2022 20:00",
+		"testInvalidLocation" : "os 5/24/2022 20:01",
+		"testSearchbarEmpty" : "os 5/24/2022 19:55",
+		"testSearchbarsBothEmpty" : "os 5/24/2022 19:56",
+		"testSingleLocationSearching" : "os 5/24/2022 20:01",
+		"testTwoLocationSearching" : "os 5/24/2022 20:02",
+		"tiledMap" : "os 5/24/2022 20:00",
+		"tiledMap:" : "os 5/24/2022 20:00" } }

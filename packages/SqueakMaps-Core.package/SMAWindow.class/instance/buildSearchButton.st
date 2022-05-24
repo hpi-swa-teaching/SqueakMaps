@@ -3,6 +3,6 @@ buildSearchButton
 
 	self searchButton: (PluggableButtonMorph new
 							label: 'go!';
-							target: [self searchLocation];
+							target: [self search];
 							actionSelector: #value;
 							yourself)

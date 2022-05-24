@@ -11,6 +11,7 @@
 		"tiledMapMorph",
 		"searchButton",
 		"searchBar",
+		"secondSearchBar",
 		"apiMenuButton",
 		"apiKeyManagementButton",
 		"pinManagementButton" ],

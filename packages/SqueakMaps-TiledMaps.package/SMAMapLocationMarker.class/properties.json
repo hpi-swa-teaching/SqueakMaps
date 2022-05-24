@@ -9,7 +9,8 @@
 		"latLong",
 		"zoom",
 		"label",
-		"color" ],
+		"color",
+		"boundingBox" ],
 	"name" : "SMAMapLocationMarker",
 	"pools" : [
 		 ],
