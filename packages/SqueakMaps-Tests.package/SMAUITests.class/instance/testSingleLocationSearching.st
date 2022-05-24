@@ -5,10 +5,10 @@ testSingleLocationSearching
 	
 	latlongGesundbrunnen := 13.384846@52.5509201.
 	
-	(self subject findByName: 'Search Bar') setText: 'Gesundbrunnen'.
-	(self subject findByName: 'Second Search Bar') setText: ''.
-	(self subject findByLabel: 'go!') click.
+	self searchBar setText: 'Gesundbrunnen'.
+	self secondSearchBar setText: ''.
+	self searchButton click.
 	
-	pinsGesundbrunnen :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latlongGesundbrunnen].
+	pinsGesundbrunnen :=  self tiledMap pins select: [:pin | pin latLong = latlongGesundbrunnen].
 	self assert: pinsGesundbrunnen notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latlongGesundbrunnen) equals: self subject tiledMapMorph center
+	self assert: (SMAMapTileLoader latLongToWorldPos: latlongGesundbrunnen) equals: self tiledMap center

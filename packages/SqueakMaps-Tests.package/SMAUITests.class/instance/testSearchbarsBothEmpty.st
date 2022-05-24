@@ -1,7 +1,7 @@
 as yet unclassified
 testSearchbarsBothEmpty
 
-	(self subject findByName: 'Search Bar') setText: ''.
-	(self subject findByName: 'Second Search Bar') setText: ''.
+	self searchBar setText: ''.
+	self secondSearchBar setText: ''.
 
-	[(self subject findByLabel: 'go!') click.] valueSupplyingAnswer: {'Please enter Search Location.'. #closeDialog}.
+	[self searchButton click.] valueSupplyingAnswer: {'Please enter Search Location.'. #closeDialog}.
