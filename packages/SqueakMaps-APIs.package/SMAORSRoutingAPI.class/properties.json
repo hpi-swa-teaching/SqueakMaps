@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakMaps-TiledMaps",
+	"category" : "SqueakMaps-APIs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"points",
-		"boundingBox" ],
-	"name" : "SMARoute",
+		 ],
+	"name" : "SMAORSRoutingAPI",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SMARoutingAPI",
 	"type" : "normal" }
