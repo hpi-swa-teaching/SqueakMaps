@@ -1,3 +1,3 @@
 accessing
-boundingBox: anObject
-	boundingBox := anObject
+boundingBox: anArray
+	boundingBox := anArray

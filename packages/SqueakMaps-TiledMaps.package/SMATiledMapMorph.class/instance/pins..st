@@ -1,3 +1,3 @@
 accessing
-pins: anObject
-	pins := anObject
+pins: aSet
+	pins := aSet
