@@ -14,7 +14,10 @@
 		"carButton",
 		"bikeButton",
 		"walkButton",
-		"cancelButton" ],
+		"cancelButton",
+		"apiButton",
+		"apiKeyManagementButton",
+		"pinManagementButton" ],
 	"name" : "SMASidebarRouteSearch",
 	"pools" : [
 		 ],
