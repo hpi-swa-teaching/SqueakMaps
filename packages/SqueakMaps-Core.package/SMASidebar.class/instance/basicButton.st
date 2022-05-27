@@ -2,6 +2,6 @@ submorphs - buttons
 basicButton
 
 	^ PluggableButtonMorph new
-		hResizing: #spaceFill;
+		hResizing: #spaceFill; "#shrinkWrap, #rigid, #spaceFill"
 		layoutInset: 4;
 		yourself

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		color: Color blue;
+		color: Color transparent;
 		visible: true;
 		layoutPolicy: TableLayout new;
 		cellGap: 2;

@@ -6,14 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"searchBar",
-		"searchButton",
-		"secondSearchBar",
-		"startLabel",
-		"destinationLabel",
-		"carButton",
-		"bikeButton",
-		"walkButton" ],
+		 ],
 	"name" : "SMASidebar",
 	"pools" : [
 		 ],

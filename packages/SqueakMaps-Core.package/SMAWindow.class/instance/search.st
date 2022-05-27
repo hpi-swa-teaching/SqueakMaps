@@ -2,8 +2,8 @@ search
 search
 
 	| searchBarText secondSearchBarText |
-	searchBarText := self searchBar text asString.
-	secondSearchBarText := self secondSearchBar text asString.
+	searchBarText := self sidebar searchBar text asString.
+	secondSearchBarText := self sidebar secondSearchBar text asString.
 	
 	searchBarText isEmpty ifTrue: [
 		UIManager default inform: 'Please enter Search Location.'.

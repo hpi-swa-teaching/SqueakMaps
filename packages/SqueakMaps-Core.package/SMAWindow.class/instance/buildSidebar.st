@@ -1,4 +1,4 @@
 build buttons and input fields
 buildSidebar
 
-	self sidebar: SMASidebar new.
+	self sidebar: SMASidebarRouteSearch new.
