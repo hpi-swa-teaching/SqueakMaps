@@ -2,9 +2,9 @@ initialization
 initializeButtonRow
 	
 	self 
-		buildSearchBar;
-		buildSecondSearchBar;
-		buildSearchButton;
+		"buildSearchBar;"
+		"buildSecondSearchBar;"
+		"buildSearchButton;"
 		buildApiKeyManagementButton;
 		buildApiButton;
 		buildPinManagementButton

@@ -1,0 +1,21 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchBar",
+		"searchButton",
+		"secondSearchBar",
+		"startLabel",
+		"destinationLabel",
+		"carButton",
+		"bikeButton",
+		"walkButton" ],
+	"name" : "SMASidebar",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelMorph",
+	"type" : "normal" }

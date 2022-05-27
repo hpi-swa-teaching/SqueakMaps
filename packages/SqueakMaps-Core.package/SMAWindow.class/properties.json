@@ -14,7 +14,8 @@
 		"secondSearchBar",
 		"apiMenuButton",
 		"apiKeyManagementButton",
-		"pinManagementButton" ],
+		"pinManagementButton",
+		"sidebar" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],
