@@ -1,16 +1,12 @@
 search
 search
 
-	| searchBarText secondSearchBarText |
-	searchBarText := self sidebar searchBar text asString.
-	secondSearchBarText := self sidebar secondSearchBar text asString.
-	
-	searchBarText isEmpty ifTrue: [
+	self startSearchInput isEmpty ifTrue: [
 		UIManager default inform: 'Please enter Search Location.'.
 		^ self].
-	(searchBarText notEmpty and: [secondSearchBarText notEmpty]) ifTrue:[
+	(self startSearchInput notEmpty and: [self destinationSearchInput notEmpty]) ifTrue:[
 		self searchMultipleLocations.
 		^ self].
-	(searchBarText notEmpty and: [secondSearchBarText isEmpty]) ifTrue:[
+	(self startSearchInput notEmpty and: [self destinationSearchInput isEmpty]) ifTrue:[
 		self searchLocation.
 		^ self]

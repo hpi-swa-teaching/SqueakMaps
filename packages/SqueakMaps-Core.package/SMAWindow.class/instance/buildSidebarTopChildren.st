@@ -1,7 +1,12 @@
 building
 buildSidebarTopChildren
 
-	| builder |
+	| builder isInDirectionsView children |
 	builder := ToolBuilder default.
-	^ (self buildSidebarTopChildrenWith: builder)
-		collect: [:spec | builder build: spec]
+	isInDirectionsView := true.
+
+	children := isInDirectionsView
+		ifTrue: [self buildSidebarDirectionsChildren: builder]
+		ifFalse: [self buildSidebarSearchChildren: builder].
+
+	^ children collect: [:spec | builder build: spec]

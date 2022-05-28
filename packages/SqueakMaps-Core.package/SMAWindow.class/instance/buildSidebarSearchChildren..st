@@ -1,5 +1,5 @@
 building
-buildSidebarTopChildrenWith: aBuilder
+buildSidebarSearchChildren: aBuilder
 
 	| children |
 	children := OrderedCollection new.

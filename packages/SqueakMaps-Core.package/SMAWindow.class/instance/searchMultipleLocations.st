@@ -1,4 +1,4 @@
 search
 searchMultipleLocations
 
-	self tiledMapMorph locate: (self sidebar searchBar text asString) and: (self sidebar secondSearchBar text asString)
+	self tiledMapMorph locate: (self startSearchInput) and: (self destinationSearchInput)

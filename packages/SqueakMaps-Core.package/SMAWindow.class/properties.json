@@ -9,7 +9,10 @@
 	"commentStamp" : "cs 8/4/2020 13:54",
 	"instvars" : [
 		"tiledMapMorph",
-		"sidebar" ],
+		"sidebar",
+		"searchInput",
+		"startSearchInput",
+		"destinationSearchInput" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],
