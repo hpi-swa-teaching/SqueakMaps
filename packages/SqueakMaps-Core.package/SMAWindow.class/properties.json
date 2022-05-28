@@ -9,12 +9,6 @@
 	"commentStamp" : "cs 8/4/2020 13:54",
 	"instvars" : [
 		"tiledMapMorph",
-		"searchButton",
-		"searchBar",
-		"secondSearchBar",
-		"apiMenuButton",
-		"apiKeyManagementButton",
-		"pinManagementButton",
 		"sidebar" ],
 	"name" : "SMAWindow",
 	"pools" : [

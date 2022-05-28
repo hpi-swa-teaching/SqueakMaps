@@ -1,4 +1,4 @@
-build buttons and input fields
+building
 buildSidebar
 
 	self sidebar: SMASidebarRouteSearch new.
