@@ -1,3 +1,0 @@
-accessing
-tiledMapMorph
-	^ tiledMapMorph
