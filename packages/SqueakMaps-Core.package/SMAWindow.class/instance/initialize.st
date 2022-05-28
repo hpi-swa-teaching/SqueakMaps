@@ -7,5 +7,4 @@ initialize
 		setLabel: 'SqueakMaps' asString;
 		tiledMapMorph: SMATiledMapMorph new;
 		buildSidebar;
-		initializeButtonRow;
 		initializeWindow
