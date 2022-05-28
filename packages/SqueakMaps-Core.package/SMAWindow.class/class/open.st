@@ -1,3 +1,3 @@
 accessing
 open
-	self new openInWorld
+	ToolBuilder open: self new
