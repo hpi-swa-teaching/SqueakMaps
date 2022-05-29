@@ -1,4 +1,0 @@
-building
-getSidebarChildren
-
-	^ {self tiledMapMorph}
