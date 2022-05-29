@@ -1,0 +1,3 @@
+accessing
+currentView
+	^ currentView

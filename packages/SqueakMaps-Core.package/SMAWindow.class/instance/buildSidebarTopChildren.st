@@ -1,11 +1,10 @@
 building
 buildSidebarTopChildren
 
-	| builder isInDirectionsView children |
+	| builder children |
 	builder := ToolBuilder default.
-	isInDirectionsView := true.
 
-	children := isInDirectionsView
+	children := self currentView = #directions
 		ifTrue: [self buildSidebarDirectionsChildren: builder]
 		ifFalse: [self buildSidebarSearchChildren: builder].
 
