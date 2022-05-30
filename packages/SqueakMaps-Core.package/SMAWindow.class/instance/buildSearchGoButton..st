@@ -5,7 +5,7 @@ buildSearchGoButton: aBuilder
 			label: 'Search';
 			model: self;
 			action: #searchLocation;
-			padding: 15;
+			padding: 10;
 			horizontalResizing: #shrinkWrap;
 			help: 'Click to start a search.';
 			yourself.
