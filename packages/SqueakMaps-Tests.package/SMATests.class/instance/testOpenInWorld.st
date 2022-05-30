@@ -3,6 +3,5 @@ testOpenInWorld
 
 	| world |
 	world := (PasteUpMorph newWorldForProject: nil).
-	self squeakMapsWindow openInWorld: world.
-	world submorphOfClass: SMAWindow.
-	self assert: (self squeakMapsWindow) equals: (world submorphOfClass: SMAWindow)
+	self squeakMapsWindow build openInWorld: world.
+	self assert: true equals: (world submorphs contains: [:morph | morph label = 'SqueakMaps']).
