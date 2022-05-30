@@ -9,6 +9,6 @@ testShowASavedPin
 	SMAWindow savedPins add: munichMarker.
 	
 	[pinManagementButton click] valueSupplyingAnswers: {{'choose action to perform' . 'show a saved pin'} . {'choose a pin' . 'München (11.576124@48.137154)'}}.
-	mapPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
+	mapPins :=  model tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
 	self assert: mapPins notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich) equals: self subject tiledMapMorph center
+	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich) equals: model tiledMapMorph center
