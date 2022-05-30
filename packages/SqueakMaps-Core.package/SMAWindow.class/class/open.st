@@ -1,3 +1,3 @@
 accessing
 open
-	ToolBuilder open: self new
+	self new build

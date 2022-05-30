@@ -1,5 +1,5 @@
 tests
 testSetOpenstreetmapsAsApi
 
-	self subject setOpenstreetmapsAsApi.
-	self assert: SMAOpenStreetMapTileSource equals: self subject tiledMapMorph tileSource class
+	model setOpenstreetmapsAsApi.
+	self assert: SMAOpenStreetMapTileSource equals: model tiledMapMorph tileSource class
