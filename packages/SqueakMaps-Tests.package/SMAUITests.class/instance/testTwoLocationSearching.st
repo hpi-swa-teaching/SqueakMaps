@@ -7,8 +7,8 @@ testTwoLocationSearching
 	latlongLondon := -0.1276474@51.5073219.
 	worldPosMiddle := 0.5184127758333333@0.3301699148348541.
 	
-	self searchBar setText: 'Gesundbrunnen'.
-	self secondSearchBar setText: 'London'.
+	model startSearchInput: 'Gesundbrunnen'.
+	model destinationSearchInput: 'London'.
 	
 	self searchButton click.
 	

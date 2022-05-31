@@ -1,7 +1,7 @@
 as yet unclassified
 testSearchbarEmpty
 
-	self searchBar setText: ''.
-	self secondSearchBar setText: 'Berlin'.
+	model startSearchInput: ''.
+	model destinationSearchInput: 'Berlin'.
 
 	[self searchButton click.] valueSupplyingAnswer: {'Please enter Search Location.'. #closeDialog}.
