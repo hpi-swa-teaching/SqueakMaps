@@ -4,4 +4,3 @@ initialize
 	super initialize.
 	self tiledMapMorph: SMATiledMapMorph new.
 	self currentView: #directions.
-	"self applyUserInterfaceTheme;"
