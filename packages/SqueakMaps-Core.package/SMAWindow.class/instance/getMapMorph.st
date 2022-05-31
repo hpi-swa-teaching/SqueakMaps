@@ -1,0 +1,4 @@
+building
+getMapMorph
+
+	^ {self tiledMapMorph}

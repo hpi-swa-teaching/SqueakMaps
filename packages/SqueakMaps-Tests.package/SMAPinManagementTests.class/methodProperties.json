@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "MK 8/7/2020 13:48",
+		"setUp" : "RK 5/30/2022 20:47",
 		"tearDown" : "",
 		"testDeleteASavedPin" : "cs 8/4/2020 14:38",
-		"testPlacePin" : "cs 8/4/2020 14:38",
-		"testRemoveAPin" : "",
-		"testRemoveAllPins" : "",
-		"testSaveAPin" : "",
-		"testShowASavedPin" : "cs 8/4/2020 14:38" } }
+		"testPlacePin" : "RK 5/30/2022 20:47",
+		"testRemoveAPin" : "RK 5/30/2022 20:47",
+		"testRemoveAllPins" : "RK 5/30/2022 20:48",
+		"testSaveAPin" : "RK 5/30/2022 20:48",
+		"testShowASavedPin" : "RK 5/30/2022 20:48" } }

@@ -10,6 +10,6 @@ testDeleteRouteOnSearch
 
 	route points: {latLongPotsdam . latLongAhrensfelde}.
 	
-	self squeakMapsWindow searchBar setText: 'Ludwigfelde'.
+	self squeakMapsWindow searchInput: 'Ludwigfelde'.
 	self squeakMapsWindow searchLocation.
 	self assert: route points isEmpty

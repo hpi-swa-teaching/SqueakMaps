@@ -1,3 +1,3 @@
 accessing
 open
-	self new openInWorld
+	self new build

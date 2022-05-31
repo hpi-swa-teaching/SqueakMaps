@@ -1,8 +1,10 @@
 running
 setUp
-	self wantsToTest: (SMAWindow new extent: 200@200; fullBounds; yourself).
-	apiButton := self subject findByLabel: 'select api'.
-	apiKeyManagementButton := self subject findByLabel: 'manage api keys'.
+
+	model := SMAWindow new.
+	self wantsToTest: model build.
+	apiButton := self subject findByLabel: 'Select API'.
+	apiKeyManagementButton := self subject findByLabel: 'API Keys'.
 	
 	validBingMapsKey := 'As0hKwzwtzjektE1tZjvbu9avq4rNTv-912mAwljGQW36mgK5goGLckisoPMZXjx'.
 	validThunderforestMapsKey := 'c7d61f25a9d84521b9e49cad7cc9534f'.
@@ -12,4 +14,4 @@ setUp
 	
 	SMAWindow bingApiKey: nil.
 	SMAWindow thunderforestMapsApiKey: nil.
-	tileSourceBefore := self subject tiledMapMorph tileSource
+	tileSourceBefore := model tiledMapMorph tileSource

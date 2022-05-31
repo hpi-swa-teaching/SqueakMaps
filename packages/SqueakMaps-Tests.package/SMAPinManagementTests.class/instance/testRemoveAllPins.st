@@ -3,9 +3,9 @@ testRemoveAllPins
 	| latLongMunich latLongBerlin |
 	
 	latLongMunich := 11.576124@48.137154.
-	self subject placeCenteredPinAt: latLongMunich.
+	model placeCenteredPinAt: latLongMunich.
 	latLongBerlin := 13.3888599@52.5170365.
-	self subject placeCenteredPinAt: latLongBerlin.
+	model placeCenteredPinAt: latLongBerlin.
 	
 	[pinManagementButton click] valueSupplyingAnswer: {'choose action to perform' . 'remove all pins'}.
-	self assert: self subject tiledMapMorph pins isEmpty
+	self assert: model tiledMapMorph pins isEmpty

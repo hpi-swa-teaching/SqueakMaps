@@ -11,4 +11,4 @@ initialize
 	geocoder := SMANominatimGeocoder new.
 	route := SMARoute new.
 
-	self extent: 320@320
+	self layoutFrame: (LayoutFrame fractions: (0@0 rect: 1@1)).
