@@ -2,22 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiButton" : "os 5/24/2022 19:48",
-		"apiButton:" : "os 5/24/2022 19:48",
-		"apiKeyManagementButton" : "os 5/24/2022 19:48",
-		"apiKeyManagementButton:" : "os 5/24/2022 19:48",
-		"searchBar" : "os 5/24/2022 19:53",
-		"searchBar:" : "os 5/24/2022 19:53",
-		"searchButton" : "os 5/24/2022 19:48",
-		"searchButton:" : "os 5/24/2022 19:48",
-		"secondSearchBar" : "os 5/24/2022 19:53",
-		"secondSearchBar:" : "os 5/24/2022 19:53",
-		"setUp" : "ros 5/31/2022 10:16",
+		"setUp" : "RK 5/31/2022 11:44",
 		"tearDown" : "ros 5/31/2022 10:24",
-		"testInvalidLocation" : "ros 5/31/2022 10:27",
-		"testSearchbarEmpty" : "ros 5/31/2022 10:10",
-		"testSearchbarsBothEmpty" : "ros 5/31/2022 10:10",
-		"testSingleLocationSearching" : "ros 5/31/2022 10:28",
-		"testTwoLocationSearching" : "ros 5/31/2022 10:13",
-		"tiledMap" : "os 5/24/2022 20:00",
-		"tiledMap:" : "os 5/24/2022 20:00" } }
+		"testDirectionLocationsAreNotProvided" : "RK 5/31/2022 11:39",
+		"testDirectionLocationsDoNotExist" : "RK 5/31/2022 11:41",
+		"testSearchLocationDoesNotExist" : "RK 5/31/2022 11:35",
+		"testSearchLocationIsNotProvided" : "RK 5/31/2022 11:35" } }
