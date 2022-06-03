@@ -5,5 +5,4 @@ searchMultipleLocations
 		UIManager default inform: 'Please enter a start and destination location.'.
 		^ self].
 	self tiledMapMorph locate: (self startSearchInput) and: (self destinationSearchInput).
-	self changed: #getDurationLabel.
-	self changed: #getDistanceLabel
+	self changed: #buildSidebarTopChildren
