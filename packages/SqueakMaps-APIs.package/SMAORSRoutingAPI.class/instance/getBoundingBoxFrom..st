@@ -1,7 +1,7 @@
 as yet unclassified
-getBoundingBoxFrom: aJSON
+getBoundingBoxFrom: aJson
 
 	| coordinates |
 	
-	coordinates := aJSON at: 'bbox'.
+	coordinates := aJson at: 'bbox'.
 	^ { (coordinates first) @ (coordinates second) . (coordinates third) @ (coordinates fourth)}

@@ -18,7 +18,7 @@ locate: aQueryString and: anotherQueryString
 	routingAPI := SMAORSRoutingAPI new.
 	routingAPI apiKey: '5b3ce3597851110001cf62480dc81045552b485d90dcd7291f831448'.
 	self route: (routingAPI getRouteFrom: (firstPin latLong)  To: (secondPin latLong)).
-	
+
 	boundingBox := self route boundingBox.
 	zoom := self geocoder boundingBoxZoom: {
 		boundingBox first y .
