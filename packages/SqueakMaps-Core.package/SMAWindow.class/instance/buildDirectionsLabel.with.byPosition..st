@@ -1,8 +1,8 @@
 building
-buildDirectionsLabel: aBuilder with: aLabel
+buildDirectionsLabel: aBuilder with: aLabel byPosition: aFrame
 
 	^ aBuilder pluggablePanelSpec new
 			model: self;
        		children: aLabel;
-       		frame: (0@0 corner: 1@0.5);
+       		frame: aFrame;
        		yourself.

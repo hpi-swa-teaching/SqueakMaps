@@ -5,7 +5,7 @@ locate: queryString
 
 	searches := OrderedCollection new. 
 	json := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
-
+	
 	json do: [:result |
 		searches add: (SMAMapLocationMarker new
 			label: (result at: 'display_name' ifAbsent: [queryString]);
