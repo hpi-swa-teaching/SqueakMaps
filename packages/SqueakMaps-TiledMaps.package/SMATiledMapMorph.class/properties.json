@@ -18,7 +18,8 @@
 		"pins",
 		"tileSource",
 		"geocoder",
-		"route" ],
+		"route",
+		"routingApi" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
 		 ],

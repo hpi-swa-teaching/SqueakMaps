@@ -10,7 +10,7 @@ testORSRequestParamsExceedLimit
 	longLatEnd := -68.323636 @ -54.81924.
 	transportationMode := #car.
 	self orsAPI contentSource expectedReturn: #requestParamsExceedLimit.
-	
+	self halt.
 	self should: [self orsAPI getRouteFrom: longLatStart To: longLatEnd By: transportationMode] 
 		raise: Error
 		whoseDescriptionIncludes: 'Request parameters exceed the server configuration limits.'
