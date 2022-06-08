@@ -12,7 +12,8 @@
 		"currentView",
 		"searchInput",
 		"startSearchInput",
-		"destinationSearchInput" ],
+		"destinationSearchInput",
+		"transportationModeInput" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],

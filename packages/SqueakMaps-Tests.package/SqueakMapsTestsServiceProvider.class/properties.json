@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakMapsTestsServiceProvider",
+	"pools" : [
+		 ],
+	"super" : "ServiceProvider",
+	"type" : "normal" }

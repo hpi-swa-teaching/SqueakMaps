@@ -2,9 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RK 5/31/2022 11:44",
+		"bikeButton" : "os 6/8/2022 21:09",
+		"bikeButton:" : "os 6/8/2022 21:09",
+		"carButton" : "os 6/8/2022 21:09",
+		"carButton:" : "os 6/8/2022 21:09",
+		"model" : "os 6/8/2022 21:05",
+		"model:" : "os 6/8/2022 21:05",
+		"setUp" : "os 6/8/2022 21:12",
 		"tearDown" : "ros 5/31/2022 10:24",
 		"testDirectionLocationsAreNotProvided" : "RK 5/31/2022 11:39",
 		"testDirectionLocationsDoNotExist" : "RK 5/31/2022 11:41",
 		"testSearchLocationDoesNotExist" : "RK 5/31/2022 11:35",
-		"testSearchLocationIsNotProvided" : "RK 5/31/2022 11:35" } }
+		"testSearchLocationIsNotProvided" : "RK 5/31/2022 11:35",
+		"testTransportationModeInput" : "os 6/8/2022 21:15",
+		"walkButton" : "os 6/8/2022 21:09",
+		"walkButton:" : "os 6/8/2022 21:09" } }

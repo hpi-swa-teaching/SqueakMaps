@@ -13,4 +13,5 @@
 		"testORSParseLongLatToStringForUrl" : "TR 5/24/2022 20:42",
 		"testORSRequestParamsExceedLimit" : "TR 5/24/2022 21:35",
 		"testORSTooLongRoute" : "TR 5/24/2022 21:35",
-		"testORSValidRoute" : "TR 6/6/2022 15:28" } }
+		"testORSValidRoute" : "TR 6/6/2022 15:28",
+		"testTransportationModeLookup" : "os 6/8/2022 21:48" } }
