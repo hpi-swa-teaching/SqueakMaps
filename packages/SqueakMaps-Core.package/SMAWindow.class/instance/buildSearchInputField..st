@@ -6,4 +6,4 @@ buildSearchInputField: aBuilder
 			getText: #searchInput;
 			setText: #searchInput:;
 			editText: #searchInput:;
-			yourself.
+			yourself

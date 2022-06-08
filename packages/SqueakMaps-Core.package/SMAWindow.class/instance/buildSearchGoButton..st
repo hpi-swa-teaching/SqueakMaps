@@ -8,4 +8,4 @@ buildSearchGoButton: aBuilder
 			padding: 10;
 			horizontalResizing: #shrinkWrap;
 			help: 'Click to start a search.';
-			yourself.
+			yourself

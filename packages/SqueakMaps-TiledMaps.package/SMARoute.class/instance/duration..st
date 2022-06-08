@@ -1,3 +1,4 @@
 accessing
-duration: anObject
-	duration := anObject
+duration: aSmallInteger
+
+	duration := aSmallInteger

@@ -5,4 +5,4 @@ buildDirectionsCarButton: aBuilder
 			label: 'Car';
 			model: self;
 			help: 'Choose car as mode of transportation for route calculation.';
-			yourself.
+			yourself

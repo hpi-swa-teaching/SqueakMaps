@@ -5,8 +5,8 @@ buildSearchTopRow: aBuilder
 			model: self;
 			layout: #horizontal;
 			children: {
-				self buildSearchInputField: aBuilder.
-				aBuilder pluggableSpacerSpec new.
+				self buildSearchInputField: aBuilder .
+				aBuilder pluggableSpacerSpec new .
 				self buildSearchGoButton: aBuilder};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;

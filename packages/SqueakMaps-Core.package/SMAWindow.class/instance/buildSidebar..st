@@ -4,7 +4,7 @@ buildSidebar: aBuilder
 	^ aBuilder pluggablePanelSpec new
 			model: self;
 			children: {
-				self buildSidebarTop: aBuilder.
+				self buildSidebarTop: aBuilder .
 				self buildSidebarBottom: aBuilder};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;

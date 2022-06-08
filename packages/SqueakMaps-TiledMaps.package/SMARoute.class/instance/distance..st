@@ -1,3 +1,4 @@
 accessing
-distance: anObject
-	distance := anObject
+distance: aSmallInteger
+
+	distance := aSmallInteger

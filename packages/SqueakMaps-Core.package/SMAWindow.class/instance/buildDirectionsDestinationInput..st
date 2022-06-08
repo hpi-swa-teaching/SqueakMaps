@@ -7,7 +7,7 @@ buildDirectionsDestinationInput: aBuilder
 				self 
 					buildDirectionsLabel: aBuilder 
 					with: #getDestinationLabel 
-					byPosition: (0@0 corner: 1@0.5).
+					byPosition: (0 @ 0 corner: 1 @ 0.5) .
 				self buildDirectionsInputField: aBuilder withAccessors: #destinationSearchInput and: #destinationSearchInput:};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;

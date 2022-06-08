@@ -6,10 +6,10 @@ buildDirectionsTopRow: aBuilder
 			spacing: -1;
 			layout: #horizontal;
 			children: {
-				self buildDirectionsCarButton: aBuilder.
-				self buildDirectionsBikeButton: aBuilder.
-				self buildDirectionsWalkButton: aBuilder.
-				aBuilder pluggableSpacerSpec new.
+				self buildDirectionsCarButton: aBuilder .
+				self buildDirectionsBikeButton: aBuilder .
+				self buildDirectionsWalkButton: aBuilder .
+				aBuilder pluggableSpacerSpec new .
 				self buildDirectionsCancelButton: aBuilder};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;

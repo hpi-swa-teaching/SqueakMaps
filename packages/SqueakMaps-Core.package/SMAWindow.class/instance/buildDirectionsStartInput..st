@@ -7,7 +7,7 @@ buildDirectionsStartInput: aBuilder
 			self 
 				buildDirectionsLabel: aBuilder 
 				with: #getStartLabel 
-				byPosition: (0@0 corner: 1@0.5).
+				byPosition: (0 @ 0 corner: 1 @ 0.5) .
 			self buildDirectionsInputField: aBuilder withAccessors: #startSearchInput and: #startSearchInput:};
 		frame: (LayoutFrame new
 			leftFraction: 0 offset: 0;
