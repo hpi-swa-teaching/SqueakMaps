@@ -13,10 +13,8 @@ locate: aQueryString and: anotherQueryString by: aSymbol
 	firstPin := resultOne first.
 	secondPin := resultTwo first.
 	
+	self routingApi apiKey: '5b3ce3597851110001cf62480dc81045552b485d90dcd7291f831448'.
 	self center: (self calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos)).
-
-"	routingAPI := SMAORSRoutingAPI new."
-"	routingAPI apiKey: '5b3ce3597851110001cf62480dc81045552b485d90dcd7291f831448'."
 	self route: (self routingApi getRouteFrom: (firstPin latLong)  To: (secondPin latLong) By: aSymbol).
 
 	boundingBox := self route boundingBox.

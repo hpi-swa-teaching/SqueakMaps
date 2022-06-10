@@ -1,4 +1,4 @@
 as yet unclassified
 getJsonFrom: aQueryUrlString
 
-	^ Json readFrom: aQueryUrlString retrieveContents contentStream
+	^ Json readFrom: (WebClient httpGet: aQueryUrlString asString) content readStream
