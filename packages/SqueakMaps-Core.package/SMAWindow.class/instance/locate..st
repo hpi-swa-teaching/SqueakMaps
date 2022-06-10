@@ -9,7 +9,7 @@ locate: aQueryString
 		^ self].
 	result := results first.
 	
-	self setSelectedPinTo: result latLong labelled: aQueryString.
+	self setSelectedPinTo: result latLong labelled: result label.
 	self tiledMapMorph center: result worldPos.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: result zoom).
 	
