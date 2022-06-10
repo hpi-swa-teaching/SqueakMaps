@@ -1,4 +1,4 @@
-locating
+initialization
 locate: aQueryString and: anotherQueryString
 
 	| resultOne resultTwo firstPin secondPin routingAPI boundingBox zoom |
@@ -13,20 +13,20 @@ locate: aQueryString and: anotherQueryString
 	firstPin := resultOne first.
 	secondPin := resultTwo first.
 	
-	self center: (self calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos)).
+	self tiledMapMorph center: (self tiledMapMorph calculateMidPoint: (firstPin worldPos) and: (secondPin worldPos)).
 
 	routingAPI := SMAORSRoutingAPI new.
 	routingAPI apiKey: '5b3ce3597851110001cf62480dc81045552b485d90dcd7291f831448'.
-	self route: (routingAPI getRouteFrom: (firstPin latLong)  To: (secondPin latLong)).
+	self tiledMapMorph route: (routingAPI getRouteFrom: (firstPin latLong)  To: (secondPin latLong)).
 	
-	boundingBox := self route boundingBox.
+	boundingBox := self tiledMapMorph route boundingBox.
 	zoom := self geocoder boundingBoxZoom: {
 		boundingBox first y .
 		boundingBox second y .
 		boundingBox first x .
 		boundingBox second y}.
 	
-	self zoom: (self tileSource clampZoom: zoom).
-	self pins: (Set newFrom: {firstPin . secondPin}).
-	self layoutChanged.
-	self changed
+	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
+	self tiledMapMorph pins: (Set newFrom: {firstPin . secondPin}).
+	self tiledMapMorph layoutChanged.
+	self tiledMapMorph changed
