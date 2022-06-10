@@ -11,6 +11,7 @@
 		"tiledMapMorph",
 		"geocoder",
 		"currentView",
+		"selectedPin",
 		"searchInput",
 		"startSearchInput",
 		"destinationSearchInput" ],

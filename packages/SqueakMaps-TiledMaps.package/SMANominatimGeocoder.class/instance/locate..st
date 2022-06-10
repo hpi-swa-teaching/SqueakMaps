@@ -7,7 +7,7 @@ locate: queryString
 	json := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
 
 	json do: [:result |
-		searches add: (SMAMapLocationMarker new
+		searches add: (SMAGeocoderResult new
 			label: (result at: 'display_name' ifAbsent: [queryString]);
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			zoom: (self boundingBoxZoom: (result at: 'boundingbox'));

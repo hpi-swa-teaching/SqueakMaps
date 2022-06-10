@@ -1,4 +1,4 @@
-initialization
+search
 locate: aQueryString
 
 	| results result |
@@ -7,9 +7,12 @@ locate: aQueryString
 	results isEmpty ifTrue: [
 		UIManager default inform: 'No results found.'.
 		^ self].
-	result := results first. "TODO: Incorporate the others"
+	result := results first.
+	
+	self setSelectedPinTo: result latLong labelled: aQueryString.
 	self tiledMapMorph center: result worldPos.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: result zoom).
-	self tiledMapMorph pins: (Set with: result).
+	
+	"Is the following actually needed? There seems to be no change without it:"
 	self tiledMapMorph layoutChanged.
 	self tiledMapMorph changed

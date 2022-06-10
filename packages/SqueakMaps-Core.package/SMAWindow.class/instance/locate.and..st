@@ -1,4 +1,4 @@
-initialization
+search
 locate: aQueryString and: anotherQueryString
 
 	| resultOne resultTwo firstPin secondPin routingAPI boundingBox zoom |

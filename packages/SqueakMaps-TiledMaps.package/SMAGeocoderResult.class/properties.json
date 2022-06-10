@@ -11,7 +11,7 @@
 		"label",
 		"color",
 		"boundingBox" ],
-	"name" : "SMAMapLocationMarker",
+	"name" : "SMAGeocoderResult",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -4,9 +4,9 @@
 	"instance" : {
 		"setUp" : "RK 5/30/2022 20:47",
 		"tearDown" : "",
-		"testDeleteASavedPin" : "cs 8/4/2020 14:38",
+		"testDeleteASavedPin" : "RK 6/10/2022 21:05",
 		"testPlacePin" : "RK 5/30/2022 20:47",
 		"testRemoveAPin" : "RK 5/30/2022 20:47",
 		"testRemoveAllPins" : "RK 5/30/2022 20:48",
 		"testSaveAPin" : "RK 5/30/2022 20:48",
-		"testShowASavedPin" : "RK 5/30/2022 20:48" } }
+		"testShowASavedPin" : "RK 6/10/2022 21:05" } }
