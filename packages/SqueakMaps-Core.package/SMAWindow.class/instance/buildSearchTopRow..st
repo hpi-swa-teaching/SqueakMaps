@@ -3,11 +3,11 @@ buildSearchTopRow: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
-		layout: #horizontal;
 		children: {
 			self buildSearchInputField: aBuilder.
 			aBuilder pluggableSpacerSpec new.
-			self buildSearchGoButton: aBuilder};
+			self buildSearchGoButton: aBuilder.
+			self buildSearchGoToDirectionsButton: aBuilder};
 		frame: (LayoutFrame new
 			leftFraction: 0 offset: 0;
 			topFraction: 0 offset: 0;

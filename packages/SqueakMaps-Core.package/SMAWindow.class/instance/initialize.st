@@ -5,4 +5,4 @@ initialize
 	self tiledMapMorph: SMATiledMapMorph new.
 	self tiledMapMorph onDoubleClickAction: [:aLatLong | self setSelectedPinTo: aLatLong].
 	self geocoder: SMANominatimGeocoder new.
-	self currentView: #directions.
+	self currentView: #search.
