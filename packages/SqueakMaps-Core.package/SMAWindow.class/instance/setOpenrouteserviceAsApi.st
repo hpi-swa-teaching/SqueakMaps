@@ -1,6 +1,13 @@
 select api
 setOpenrouteserviceAsApi
 
-	|api|
-	api := SMAORSRoutingAPI new apiKey: self class openrouteserviceApiKey.
-	self tiledMapMorph routingApi: self buildOpenrouteserviceApi.
+	| api |
+	
+	api := self buildOpenrouteserviceApi.
+	api isApiKeyValid
+		ifTrue: [^ self tiledMapMorph routingApi: api]
+		ifFalse: [^ self requestOpenrouteserviceApiKeyInput].
+		
+	
+	
+	
