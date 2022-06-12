@@ -4,9 +4,10 @@ buildSearchGoToDirectionsButton: aBuilder
 	^ aBuilder pluggableButtonSpec new
 			label: 'Directions';
 			model: self;
-			action: #switchToDirectionsView;
 			padding: 10;
+			action: #switchToDirectionsView;
 			horizontalResizing: #shrinkWrap;
-			help: 'Click to switch to directions view.';
-			frame: (0@1 corner: 1@2);
+			help: 'Click on this button to switch to directions view.';
+			frame: (0@1 corner: 1@3);
 			yourself.
+			
