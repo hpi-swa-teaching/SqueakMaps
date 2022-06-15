@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"points",
-		"boundingBox" ],
+		"boundingBox",
+		"duration",
+		"distance" ],
 	"name" : "SMARoute",
 	"pools" : [
 		 ],

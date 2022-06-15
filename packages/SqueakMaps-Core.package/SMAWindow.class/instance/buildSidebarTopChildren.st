@@ -2,6 +2,7 @@ building
 buildSidebarTopChildren
 
 	| builder children |
+	
 	builder := ToolBuilder default.
 
 	children := self currentView = #directions

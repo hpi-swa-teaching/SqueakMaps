@@ -7,8 +7,10 @@
 		"setUp" : "TR 5/24/2022 20:39",
 		"testORSCreateUrl" : "TR 5/24/2022 20:42",
 		"testORSGetBoundingBoxFromJson" : "TR 5/24/2022 21:44",
+		"testORSGetRouteDistanceFromJson" : "TR 6/6/2022 15:26",
+		"testORSGetRouteDurationFromJson" : "TR 6/6/2022 15:26",
 		"testORSGetWaypointsFromJson" : "TR 5/24/2022 21:44",
 		"testORSParseLongLatToStringForUrl" : "TR 5/24/2022 20:42",
 		"testORSRequestParamsExceedLimit" : "TR 5/24/2022 21:35",
 		"testORSTooLongRoute" : "TR 5/24/2022 21:35",
-		"testORSValidRoute" : "TR 5/24/2022 21:36" } }
+		"testORSValidRoute" : "TR 6/6/2022 15:28" } }

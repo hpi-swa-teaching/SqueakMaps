@@ -8,4 +8,4 @@ buildDirectionsCancelButton: aBuilder
 			padding: 10;
 			horizontalResizing: #shrinkWrap;
 			help: 'Click to leave the Route Calculation View.';
-			yourself.
+			yourself

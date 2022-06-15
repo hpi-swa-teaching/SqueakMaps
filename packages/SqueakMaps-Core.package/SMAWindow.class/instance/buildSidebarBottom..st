@@ -4,8 +4,8 @@ buildSidebarBottom: aBuilder
 	^ aBuilder pluggablePanelSpec new
 			model: self;
 			children: {
-				self buildSelectAPIButton: aBuilder.
-				self buildManageAPIKeysButton: aBuilder.
+				self buildSelectAPIButton: aBuilder .
+				self buildManageAPIKeysButton: aBuilder .
 				self buildPinsButton: aBuilder};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;
