@@ -1,8 +1,8 @@
 building
-buildDirectionsLabel: aBuilder with: aLabel
+buildSearchPinPanelLabel: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
-       children: aLabel;
+       children: #getPinLabel;
        frame: (0@0 corner: 1@0.5);
        yourself.

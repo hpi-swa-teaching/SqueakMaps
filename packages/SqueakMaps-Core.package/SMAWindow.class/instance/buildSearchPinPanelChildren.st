@@ -6,8 +6,8 @@ buildSearchPinPanelChildren
 	
 	builder := ToolBuilder default.
 	children := OrderedCollection new.
-	children add: (self buildPinInformationLabel: builder with: #getPinInformationLabel).
+	children add: (self buildSearchPinPanelLabel: builder).
 	children add: builder pluggableSpacerSpec new.
-	children add: (self buildSearchGoToDirectionsButton: builder).
+	children add: (self buildSearchPinPanelDirectionsButton: builder).
 
 	^ children collect: [:spec | builder build: spec]

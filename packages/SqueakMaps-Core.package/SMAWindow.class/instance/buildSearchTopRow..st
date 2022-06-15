@@ -6,10 +6,7 @@ buildSearchTopRow: aBuilder
 		children: {
 			self buildSearchInputField: aBuilder.
 			aBuilder pluggableSpacerSpec new.
-			self buildSearchGoButton: aBuilder.
-			"self buildSearchGoToDirectionsButton: aBuilder"
-			aBuilder pluggableSpacerSpec new.
-			"self buildSearchFurtherInformationRow: aBuilder"};
+			self buildSearchGoButton: aBuilder };
 		frame: (LayoutFrame new
 			leftFraction: 0 offset: 0;
 			topFraction: 0 offset: 0;
