@@ -4,5 +4,5 @@ searchLocation
 	self searchInput isEmpty ifTrue: [
 		UIManager default inform: 'Please enter a location.'.
 		^ self].
-	self tiledMapMorph route points: OrderedCollection new.
+	self clearRoute.
 	self locate: self searchInput
