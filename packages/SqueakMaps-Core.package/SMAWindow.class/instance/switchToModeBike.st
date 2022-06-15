@@ -1,4 +1,6 @@
 user interface
 switchToModeBike
 
-	self transportationModeInput: #bike
+	self transportationModeInput: #bike.
+	self hasSearched
+		ifTrue: [self searchMultipleLocations]
