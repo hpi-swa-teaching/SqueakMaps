@@ -7,5 +7,6 @@ setSelectedPinTo: aLatLong labelled: aString
 		label: aString;
 		yourself.
 	self selectedPin: pin.
+	self changed: #buildSearchPinPanelChildren.
 	self tiledMapMorph removeAllPins.
 	self tiledMapMorph placePinAt: (pin latLong) labeled: (pin label).
