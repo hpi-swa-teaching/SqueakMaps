@@ -15,4 +15,4 @@ drawPin: aPin on: aCanvas
 	aCanvas drawString: aPin value label at: labelPos font: font color: Color black.
 
 	aCanvas drawPolygon: {pixelPos. pixelPos + (-5 @ -20). pixelPos + (5 @ -20)}
-		fillStyle: aPin value color
+		fillStyle: Color red

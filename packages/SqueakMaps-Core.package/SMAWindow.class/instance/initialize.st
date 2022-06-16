@@ -3,4 +3,6 @@ initialize
 
 	super initialize.
 	self tiledMapMorph: SMATiledMapMorph new.
-	self currentView: #directions.
+	self tiledMapMorph onDoubleClickAction: [:aLatLong | self setSelectedPinTo: aLatLong].
+	self geocoder: SMANominatimGeocoder new.
+	self currentView: #search.

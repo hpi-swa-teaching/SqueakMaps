@@ -3,7 +3,7 @@ placePinAt: aLatLong labeled: aLabel
 
 	| pin |
 	
-	pin := SMAMapLocationMarker new.
+	pin := SMAGeocoderResult new.
 	pin 
 		latLong:  aLatLong;
 		label: aLabel;

@@ -3,7 +3,7 @@ testShowASavedPin
 	| latLongMunich munichMarker mapPins |
 	
 	latLongMunich := 11.576124@48.137154.
-	munichMarker := (SMAMapLocationMarker new) label: 'München';
+	munichMarker := (SMAGeocoderResult new) label: 'München';
 		latLong: latLongMunich.
 	
 	SMAWindow savedPins add: munichMarker.
