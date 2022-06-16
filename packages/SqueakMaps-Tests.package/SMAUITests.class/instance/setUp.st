@@ -2,5 +2,5 @@ as yet unclassified
 setUp
 
 	model := SMAWindow new.
-	self wantsToTest: model build.
+	self wantsToTest: model build
 	

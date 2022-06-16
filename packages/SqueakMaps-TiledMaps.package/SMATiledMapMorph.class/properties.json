@@ -17,7 +17,9 @@
 		"worldBounds",
 		"pins",
 		"tileSource",
+		"geocoder",
 		"route",
+		"routingApi",
 		"onDoubleClickAction" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [

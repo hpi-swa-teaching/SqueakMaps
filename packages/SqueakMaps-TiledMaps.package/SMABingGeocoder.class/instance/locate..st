@@ -1,10 +1,11 @@
 as yet unclassified
 locate: aQueryString
 
-	| results json xIndex yIndex |
+	| results queryUrlString json xIndex yIndex |
 
 	results := OrderedCollection new.
-	json := Json readFrom: (self queryUrlFor: aQueryString) retrieveContents contentStream.
+	queryUrlString := self queryUrlFor: aQueryString.
+	json := Json readFrom: (WebClient httpGet: queryUrlString asString) content readStream.
 	xIndex := 2.
 	yIndex := 1.
 

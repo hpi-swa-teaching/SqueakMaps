@@ -1,4 +1,4 @@
 as yet unclassified
-getRouteFrom: aStartLongLat To: anEndLongLat
+defaultTransportationMode
 
 	self subclassResponsibility

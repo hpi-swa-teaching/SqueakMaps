@@ -1,14 +1,15 @@
 as yet unclassified
-locate: queryString
+locate: aQueryString
 
-	| searches json | 
+	| searches queryUrlString json | 
 
 	searches := OrderedCollection new. 
-	json := Json readFrom: (self queryUrlFor: queryString) retrieveContents contentStream.
+	queryUrlString := self queryUrlFor: aQueryString.
+	json := Json readFrom: (WebClient httpGet: queryUrlString asString) content readStream.
 
 	json do: [:result |
 		searches add: (SMAGeocoderResult new
-			label: (result at: 'display_name' ifAbsent: [queryString]);
+			label: (result at: 'display_name' ifAbsent: [aQueryString]);
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			zoom: (self boundingBoxZoom: (result at: 'boundingbox'));
 			boundingBox: (result at: 'boundingbox');
