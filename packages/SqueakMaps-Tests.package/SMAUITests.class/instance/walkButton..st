@@ -1,3 +1,4 @@
 accessing
-walkButton: anObject
-	walkButton := anObject
+walkButton: aMTFMorphWrapper
+
+	walkButton := aMTFMorphWrapper

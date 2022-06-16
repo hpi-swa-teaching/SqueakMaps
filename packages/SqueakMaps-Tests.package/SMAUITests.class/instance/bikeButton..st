@@ -1,3 +1,4 @@
 accessing
-bikeButton: anObject
-	bikeButton := anObject
+bikeButton: aMTFMorphWrapper
+
+	bikeButton := aMTFMorphWrapper

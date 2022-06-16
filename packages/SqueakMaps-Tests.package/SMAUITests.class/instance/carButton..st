@@ -1,3 +1,4 @@
 accessing
-carButton: anObject
-	carButton := anObject
+carButton: aMTFMorphWrapper
+
+	carButton := aMTFMorphWrapper
