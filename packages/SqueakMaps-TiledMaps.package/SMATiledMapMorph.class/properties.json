@@ -19,7 +19,7 @@
 		"tileSource",
 		"geocoder",
 		"route",
-		"routingApi" ],
+		"routingApi",
 		"onDoubleClickAction" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
