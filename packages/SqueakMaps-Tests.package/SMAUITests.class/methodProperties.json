@@ -11,7 +11,7 @@
 		"setUp" : "LK 6/16/2022 16:18",
 		"tearDown" : "ros 5/31/2022 10:24",
 		"testDirectionLocationsAreNotProvided" : "RK 5/31/2022 11:39",
-		"testDirectionLocationsDoNotExist" : "RK 5/31/2022 11:41",
+		"testDirectionLocationsDoNotExist" : "TR 6/16/2022 17:21",
 		"testSearchLocationDoesNotExist" : "RK 5/31/2022 11:35",
 		"testSearchLocationIsNotProvided" : "RK 5/31/2022 11:35",
 		"testTransportationModeInput" : "os 6/8/2022 21:15",
