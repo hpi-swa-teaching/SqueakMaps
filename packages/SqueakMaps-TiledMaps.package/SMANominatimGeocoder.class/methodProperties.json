@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"boundingBoxZoom:" : "MK 8/7/2020 12:43",
-		"locate:" : "TR 6/10/2022 09:49",
-		"queryUrlFor:" : "TR 5/31/2022 15:25" } }
+		"locate:" : "RK 6/10/2022 21:05",
+		"queryUrlFor:" : "TR 5/31/2022 15:25",
+		"reverse:withZoom:" : "RK 6/15/2022 22:10",
+		"reverseUrlFor:withZoom:" : "RK 6/15/2022 22:10" } }

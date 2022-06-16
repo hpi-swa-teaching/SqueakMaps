@@ -4,9 +4,9 @@ testDeleteASavedPin
 	
 	latLongMunich := 11.576124@48.137154.
 	latLongBerlin := 13.3888599@52.5170365.
-	munichMarker := (SMAMapLocationMarker new) label: 'München';
+	munichMarker := (SMAGeocoderResult new) label: 'München';
 		latLong: latLongMunich.
-	berlinMarker := (SMAMapLocationMarker new) label: 'Berlin';
+	berlinMarker := (SMAGeocoderResult new) label: 'Berlin';
 		latLong: latLongBerlin.	
 	
 	SMAWindow savedPins add: munichMarker; 
