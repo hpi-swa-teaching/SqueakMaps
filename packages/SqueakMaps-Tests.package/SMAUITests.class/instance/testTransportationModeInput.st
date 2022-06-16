@@ -7,7 +7,7 @@ testTransportationModeInput
 	transportationModeBike := #bike.
 	transportationModeWalk := #walk.
 	defaultTransportationMode := transportationModeCar.
-	
+	self switchToDirectionsView.
 	
 	self assert: defaultTransportationMode equals: self model transportationModeInput.
 	self carButton click.
