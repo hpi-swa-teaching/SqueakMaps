@@ -10,7 +10,7 @@
 		"getWaypointsFrom:" : "TR 5/24/2022 20:31",
 		"handleErrorWithJson:" : "TR 6/10/2022 09:18",
 		"isApiKeyValid" : "os 6/15/2022 22:08",
-		"makeRouteFrom:" : "TR 6/8/2022 13:23",
+		"makeRouteFrom:" : "TR 6/14/2022 10:50",
 		"parseCoordinatesToString:" : "TR 5/21/2022 18:28",
 		"queryUrlFrom:To:By:" : "TR 5/21/2022 18:30",
 		"transportationModeLookupTable" : "os 6/8/2022 21:37" } }
