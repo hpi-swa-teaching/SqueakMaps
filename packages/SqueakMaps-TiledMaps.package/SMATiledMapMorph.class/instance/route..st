@@ -1,3 +1,4 @@
 accessing
-route: anObject
-	route := anObject
+route: aSMARoute
+
+	route := aSMARoute
