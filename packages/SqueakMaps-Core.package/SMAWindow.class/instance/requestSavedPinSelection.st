@@ -1,9 +1,9 @@
 pin management
 requestSavedPinSelection
 
-	| index |
+	| index pins |
 	
-	index := UIManager default chooseFrom: 
-		(SMAWindow savedPins collect: [:pin | (pin label, ' (', (pin latLong), ')') asString]) title: 'Saved Pins'.
+	pins := SMAWindow savedPins collect: [:pin | (pin label, ' (', (pin latLong), ')') asString].
+	index := UIManager default chooseFrom: pins title: 'Saved Pins'.
 		
 	^ index
