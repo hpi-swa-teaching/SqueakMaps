@@ -2,7 +2,6 @@
 	"class" : {
 		"additionsToViewerCategoryMaps" : "tonyg 2/10/2018 22:13" },
 	"instance" : {
-		"addPin:" : "MK 8/7/2020 12:56",
 		"calculateMidPoint:and:" : "os 5/14/2022 13:51",
 		"center" : "BCD 8/6/2020 16:00",
 		"center:" : "BCD 8/6/2020 16:00",
@@ -38,7 +37,6 @@
 		"placePinAt:labeled:" : "RK 6/10/2022 21:05",
 		"refreshMap" : "BCD 8/6/2020 16:03",
 		"removeAllPins" : "RK 6/10/2022 20:56",
-		"removePin:" : "MK 8/7/2020 12:57",
 		"route" : "TR 6/17/2022 09:42",
 		"route:" : "TR 6/17/2022 09:42",
 		"routingApi" : "TR 6/17/2022 09:43",

@@ -6,8 +6,7 @@ buildSearchPinPanelDirectionsButton: aBuilder
 			model: self;
 			padding: 10;
 			action: #switchToDirectionsView;
-			horizontalResizing: #shrinkWrap;
 			help: 'Click on this button to switch to directions view.';
-			frame: (0@0.5 corner: 1@1);
+			frame: (0@0.4 corner: 1@0.6);
 			yourself.
 			
