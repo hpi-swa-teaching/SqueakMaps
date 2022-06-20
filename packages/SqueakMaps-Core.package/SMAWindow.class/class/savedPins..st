@@ -1,4 +1,4 @@
 accessing
-savedPins: aCollection
+savedPins: aSet
 
-	SavedPins := aCollection
+	SavedPins := aSet

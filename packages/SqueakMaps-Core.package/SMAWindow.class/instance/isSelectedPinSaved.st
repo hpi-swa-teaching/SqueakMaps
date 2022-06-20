@@ -1,4 +1,4 @@
 pin management
 isSelectedPinSaved
 
-	^ SMAWindow savedPins includes: self selectedPin.
+	^ SMAWindow savedPins anySatisfy: [:p | p latLong = self selectedPin latLong].

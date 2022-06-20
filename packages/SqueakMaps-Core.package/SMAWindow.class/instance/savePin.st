@@ -1,5 +1,5 @@
 pin management
 savePin
 
-	SMAWindow savedPins addIfNotPresent: self selectedPin.
+	self isSelectedPinSaved ifFalse: [SMAWindow savedPins addIfNotPresent: self selectedPin].
 	self changed: #buildSearchPinPanelChildren.
