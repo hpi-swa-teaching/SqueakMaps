@@ -1,23 +1,23 @@
-search
+as yet unclassified
 locate: aQueryString and: anotherQueryString by: aSymbol
-
-	"| result |
-	 result := self searchManager locate: aQueryString and: anotherQueryString by: aSymbol.
-	 self mapMorphManager setStuff: result first and: result secon."
 
 	| resultsOne resultsTwo firstResult secondResult boundingBox zoom |
 
 	resultsOne := self geocoder locate: aQueryString.	
 	resultsTwo := self geocoder locate: anotherQueryString.
-		
+
 	(resultsOne isEmpty or: [resultsTwo isEmpty]) ifTrue: [
 		UIManager default inform: 'No results found.'.
 		^ self].
-	
+
 	firstResult := resultsOne first.
 	secondResult := resultsTwo first.
-	
-	self tiledMapMorph center: (self tiledMapMorph calculateMidPoint: (firstResult worldPos) and: (secondResult worldPos)).
+
+	^ self routingApi getRouteFrom: (firstResult latLong) To: (secondResult latLong) By: aSymbol.
+
+
+
+	"self tiledMapMorph center: (self tiledMapMorph calculateMidPoint: (firstResult worldPos) and: (secondResult worldPos)).
 	self tiledMapMorph route: (self tiledMapMorph routingApi getRouteFrom: (firstResult latLong)  To: (secondResult latLong) By: aSymbol).
 
 	boundingBox := self tiledMapMorph route boundingBox.
@@ -34,4 +34,4 @@ locate: aQueryString and: anotherQueryString by: aSymbol
 	self tiledMapMorph placeMarkerAt: secondResult latLong labeled: secondResult label.
 	
 	self tiledMapMorph layoutChanged.
-	self tiledMapMorph changed
+	self tiledMapMorph changed"

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMATileMapMorphWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

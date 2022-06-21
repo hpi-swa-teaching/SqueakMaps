@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"routingAPI" ],
+	"name" : "SMASearchManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

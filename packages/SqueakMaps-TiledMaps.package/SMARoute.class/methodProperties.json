@@ -4,12 +4,18 @@
 	"instance" : {
 		"boundingBox" : "TR 5/21/2022 15:01",
 		"boundingBox:" : "TR 5/21/2022 15:01",
+		"centeredWorldPos" : "LK 6/21/2022 18:05",
+		"destinationLabel" : "LK 6/21/2022 17:58",
+		"destinationLabel:" : "LK 6/21/2022 17:58",
 		"distance" : "TR 6/8/2022 13:42",
 		"distance:" : "TR 6/8/2022 13:42",
 		"duration" : "TR 6/8/2022 13:42",
 		"duration:" : "TR 6/8/2022 13:42",
+		"getCenterLatLong" : "LK 6/21/2022 18:04",
 		"getDistanceAsString" : "TR 6/3/2022 20:16",
 		"getDurationAsString" : "TR 6/3/2022 20:23",
 		"initialize" : "ros 5/16/2022 15:17",
 		"points" : "ros 5/16/2022 14:51",
-		"points:" : "ros 5/16/2022 14:52" } }
+		"points:" : "ros 5/16/2022 14:52",
+		"startLabel" : "LK 6/21/2022 17:57",
+		"startLabel:" : "LK 6/21/2022 17:57" } }

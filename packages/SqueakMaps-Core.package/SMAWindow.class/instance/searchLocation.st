@@ -5,4 +5,4 @@ searchLocation
 		UIManager default inform: 'Please enter a location.'.
 		^ self].
 	self clearRoute.
-	self locate: self searchInput
+	self searchManager locate: self searchInput

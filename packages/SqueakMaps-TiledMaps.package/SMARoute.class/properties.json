@@ -9,7 +9,9 @@
 		"points",
 		"boundingBox",
 		"duration",
-		"distance" ],
+		"distance",
+		"startLabel",
+		"destinationLabel" ],
 	"name" : "SMARoute",
 	"pools" : [
 		 ],

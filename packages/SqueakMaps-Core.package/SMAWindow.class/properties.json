@@ -17,7 +17,8 @@
 		"startSearchInput",
 		"destinationSearchInput",
 		"transportationModeInput",
-		"hasSearched" ],
+		"hasSearched",
+		"searchManager" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],

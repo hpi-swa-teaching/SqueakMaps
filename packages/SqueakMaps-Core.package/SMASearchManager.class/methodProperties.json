@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildOpenrouteserviceApi" : "LK 6/21/2022 18:20",
+		"initialize" : "LK 6/21/2022 18:31",
+		"locate:" : "LK 6/21/2022 18:15",
+		"locate:and:by:" : "LK 6/21/2022 18:15",
+		"routingAPI" : "LK 6/21/2022 18:18",
+		"routingAPI:" : "LK 6/21/2022 18:18",
+		"setOpenrouteserviceAsApi" : "LK 6/21/2022 18:20" } }
