@@ -1,3 +1,4 @@
 accessing
-savedPins: anObject
-	SavedPins := anObject
+savedPins: aSet
+
+	SavedPins := aSet
