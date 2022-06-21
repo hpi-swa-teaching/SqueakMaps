@@ -12,7 +12,7 @@ testSelectSavedPin
 
 	[pinManagementButton click] valueSupplyingAnswers: {{'Saved Pins' . 'Munich (11.576124@48.137154)'}}.
 
-	mapPins :=  model tiledMapMorph pins select: [:p | p latLong = pin latLong].
+	mapPins :=  model tiledMapMorph markers select: [:marker | marker latLong = pin latLong].
 	
 	self assert: mapPins notEmpty.
 	self assert: (SMAMapTileLoader latLongToWorldPos: pin latLong)  equals: model tiledMapMorph center.

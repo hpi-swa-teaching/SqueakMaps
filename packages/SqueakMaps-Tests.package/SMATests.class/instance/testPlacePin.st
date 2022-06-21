@@ -10,7 +10,7 @@ testPlacePin
 		
 	self squeakMapsWindow setSelectedPin: pin.
 	
-	mapPins :=  self squeakMapsWindow tiledMapMorph pins select: [:p | p latLong = pin latLong].
+	mapPins :=  self squeakMapsWindow tiledMapMorph markers select: [:marker | marker latLong = pin latLong].
 	self assert: mapPins notEmpty.
 	self assert: (SMAMapTileLoader latLongToWorldPos: pin latLong) equals: self squeakMapsWindow tiledMapMorph center.
 	self assert: self squeakMapsWindow tiledMapMorph zoom equals: self squeakMapsWindow tiledMapMorph defaultZoom
