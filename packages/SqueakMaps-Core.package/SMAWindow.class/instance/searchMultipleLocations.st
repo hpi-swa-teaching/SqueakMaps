@@ -6,6 +6,6 @@ searchMultipleLocations
 		^ self].
 	self setOpenrouteserviceAsApi.
 	self tiledMapMorph hasRoutingApi 
-		ifTrue:[self tiledMapMorph locate: (self startSearchInput) and: (self destinationSearchInput) by: (self transportationModeInput).
+		ifTrue:[self locate: (self startSearchInput) and: (self destinationSearchInput) by: (self transportationModeInput).
 				self hasSearched: true].
 	self changed: #buildSidebarTopChildren

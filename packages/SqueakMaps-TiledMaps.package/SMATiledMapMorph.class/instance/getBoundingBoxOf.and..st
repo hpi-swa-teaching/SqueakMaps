@@ -1,9 +1,9 @@
 helping
-getBoundingBoxOf: aFirstSMAMapLocationMarker and: aSecondSMAMapLocationMarker
+getBoundingBoxOf: aSMAGeocoderResult1 and: aSMAGeocoderResult2
 
 	| location1 location2 padding boundingBox point1 point2 boundingBoxResult |
-	location1 := aFirstSMAMapLocationMarker worldPos.
-	location2 := aSecondSMAMapLocationMarker worldPos.
+	location1 := aSMAGeocoderResult1 worldPos.
+	location2 := aSMAGeocoderResult2 worldPos.
 	padding := (location1 dist: location2) * 0.0. "TODO: Why does padding not work?"
 	"self halt."
 	boundingBox := Array new: 4.
