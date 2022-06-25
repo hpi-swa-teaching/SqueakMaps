@@ -1,5 +1,5 @@
 search
-locate: aQueryString and: anotherQueryString by: aSymbol
+getRouteFrom: aQueryString To: anotherQueryString By: aSymbol
 
 	"| result |
 	 result := self searchManager locate: aQueryString and: anotherQueryString by: aSymbol.

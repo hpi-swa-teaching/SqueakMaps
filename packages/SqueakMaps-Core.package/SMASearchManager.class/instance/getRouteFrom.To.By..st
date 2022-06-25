@@ -1,19 +1,12 @@
 as yet unclassified
-locate: aQueryString and: anotherQueryString by: aSymbol
+getRouteFrom: aQueryString To: anotherQueryString By: aSymbol
 
-	| resultsOne resultsTwo firstResult secondResult boundingBox zoom |
+	| resultOne resultTwo |
 
-	resultsOne := self geocoder locate: aQueryString.	
-	resultsTwo := self geocoder locate: anotherQueryString.
+	resultOne := self locate: aQueryString.	
+	resultTwo := self locate: anotherQueryString.
 
-	(resultsOne isEmpty or: [resultsTwo isEmpty]) ifTrue: [
-		UIManager default inform: 'No results found.'.
-		^ self].
-
-	firstResult := resultsOne first.
-	secondResult := resultsTwo first.
-
-	^ self routingApi getRouteFrom: (firstResult latLong) To: (secondResult latLong) By: aSymbol.
+	^ self routingApi getRouteFrom: (resultOne latLong) To: (resultTwo latLong) By: aSymbol.
 
 
 

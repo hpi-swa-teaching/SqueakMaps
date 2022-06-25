@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildOpenrouteserviceApi" : "LK 6/21/2022 18:20",
-		"initialize" : "LK 6/21/2022 18:31",
-		"locate:" : "LK 6/21/2022 18:15",
-		"locate:and:by:" : "LK 6/21/2022 18:15",
+		"geocoder" : "TR 6/25/2022 11:06",
+		"geocoder:" : "TR 6/25/2022 11:07",
+		"getRouteFrom:To:By:" : "TR 6/25/2022 11:17",
+		"initialize" : "TR 6/25/2022 11:07",
+		"locate:" : "TR 6/25/2022 11:13",
 		"routingAPI" : "LK 6/21/2022 18:18",
-		"routingAPI:" : "LK 6/21/2022 18:18",
-		"setOpenrouteserviceAsApi" : "LK 6/21/2022 18:20" } }
+		"routingAPI:" : "TR 6/25/2022 11:07" } }

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"routingAPI" ],
+		"routingAPI",
+		"geocoder" ],
 	"name" : "SMASearchManager",
 	"pools" : [
 		 ],

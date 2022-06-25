@@ -1,13 +1,11 @@
 as yet unclassified
 locate: aQueryString
 
-	| results result |
+	| results |
 	
 	results := self geocoder locate: aQueryString.
-	results isEmpty ifTrue: [
-		UIManager default inform: 'No results found.'.
-		^ self].
-	^ result := results first.
+	results isEmpty ifTrue: [Error signal: 'No results found.'].
+	^ results first.
 
 	"self setSelectedPinTo: result latLong labelled: result label.
 	self tiledMapMorph center: result worldPos.

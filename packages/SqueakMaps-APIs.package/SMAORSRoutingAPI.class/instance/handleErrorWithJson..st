@@ -2,6 +2,7 @@ as yet unclassified
 handleErrorWithJson: aJsonObject
 	
 	| errorField message|
+	
 	errorField := aJsonObject at: 'error'.
 	
 	[message := errorField at: 'message']

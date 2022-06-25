@@ -1,3 +1,4 @@
 accessing
-routingAPI: anObject
-	routingAPI := anObject
+routingAPI: aSMARoutingAPI
+
+	routingAPI := aSMARoutingAPI
