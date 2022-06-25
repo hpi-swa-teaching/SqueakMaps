@@ -1,5 +1,5 @@
 pin management
-setSelectedPinTo: aLatLong labelled: aString
+setSelectedPinTo: aLatLong labeled: aString
 
 	self setSelectedPin: (SMAPin new
 		latLong: aLatLong;

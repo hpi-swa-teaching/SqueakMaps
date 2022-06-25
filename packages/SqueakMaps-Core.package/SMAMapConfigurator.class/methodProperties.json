@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"latLongToWorldPos:" : "TR 6/25/2022 13:02",
+		"newWith:" : "TR 6/25/2022 12:53",
+		"worldPosToLatLong:" : "TR 6/25/2022 13:03" },
+	"instance" : {
+		"calculateZoomForBoundingBox:" : "TR 6/25/2022 13:38",
+		"displayLocation:" : "TR 6/25/2022 14:35",
+		"displayRoute:" : "TR 6/25/2022 14:33",
+		"makeAllMarkersOfRoute:" : "TR 6/25/2022 14:41",
+		"makeMarkerOfLocation:" : "TR 6/25/2022 14:37",
+		"tiledMapMorph" : "TR 6/25/2022 12:52",
+		"tiledMapMorph:" : "TR 6/25/2022 12:53",
+		"zoomForRectangle:" : "TR 6/25/2022 13:32" } }

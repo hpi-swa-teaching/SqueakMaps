@@ -1,3 +1,4 @@
 accessing
-searchManager: anObject
-	searchManager := anObject
+searchManager: aSMASearchManager
+
+	searchManager := aSMASearchManager

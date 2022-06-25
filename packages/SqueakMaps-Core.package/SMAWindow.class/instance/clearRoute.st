@@ -1,4 +1,4 @@
 search
 clearRoute
 
-	self tiledMapMorph route points: OrderedCollection new
+	self tiledMapMorph route: SMARoute new

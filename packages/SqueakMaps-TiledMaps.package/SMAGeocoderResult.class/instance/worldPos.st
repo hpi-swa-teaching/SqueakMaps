@@ -1,4 +1,4 @@
 as yet unclassified
 worldPos
 
-	^ SMAMapTileLoader latLongToWorldPos: self latLong
+	^ SMAMapConfigurator latLongToWorldPos: self latLong
