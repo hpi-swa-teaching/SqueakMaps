@@ -11,6 +11,6 @@ locate: aQueryString
 		searches add: (SMAGeocoderResult new
 			label: (result at: 'display_name' ifAbsent: [aQueryString]);
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
-			boundingBox: (result at: 'boundingbox');
+			boundingBox: (self getBoundingBoxFrom: result);
 			yourself) ].
 	^ searches

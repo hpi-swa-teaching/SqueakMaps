@@ -4,7 +4,7 @@
 		"ApiKey:" : "TR 6/25/2022 11:26" },
 	"instance" : {
 		"defaultTransportationMode" : "TR 5/23/2022 09:11",
-		"getBoundingBoxFrom:" : "LK 6/3/2022 19:07",
+		"getBoundingBoxFrom:" : "LK 6/25/2022 15:55",
 		"getRouteDistanceFrom:" : "LK 6/3/2022 19:07",
 		"getRouteDurationFrom:" : "LK 6/3/2022 19:07",
 		"getRouteFrom:To:By:" : "TR 6/10/2022 09:18",

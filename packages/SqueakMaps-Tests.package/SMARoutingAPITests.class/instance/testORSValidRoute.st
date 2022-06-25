@@ -12,7 +12,8 @@ testORSValidRoute
 	
 	route := self orsAPI getRouteFrom: longLatStart To: longLatEnd By: transportationMode.
 	
-	self assert: route boundingBox size equals: 2.
+	self assert: route boundingBox height > 0.
+	self assert: route boundingBox width > 0.
 	self assert: route points notEmpty.
 	self assert: route distance > 0.
 	self assert: route duration > 0.

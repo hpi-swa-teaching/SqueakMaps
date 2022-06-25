@@ -1,4 +1,4 @@
 accessing
-boundingBox: anArray
+boundingBox: aRectangle
 
-	boundingBox := anArray.
+	boundingBox := aRectangle.
