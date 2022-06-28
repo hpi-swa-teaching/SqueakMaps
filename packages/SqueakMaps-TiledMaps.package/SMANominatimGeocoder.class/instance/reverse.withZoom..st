@@ -3,7 +3,7 @@ reverse: aLatLong withZoom: aZoom
 
 	| json queryUrl | 
 	queryUrl := self reverseUrlFor: aLatLong withZoom: aZoom.
-	json := Json readFrom: (WebClient httpGet: queryUrl asString) content readStream.
+	json := self contentSource getJsonFrom: queryUrl.
 
 	^ SMAPin new
 			label: (json at: 'display_name' ifAbsent: ['Nix Display name']);

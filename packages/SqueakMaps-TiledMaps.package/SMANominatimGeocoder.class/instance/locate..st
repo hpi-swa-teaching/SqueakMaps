@@ -5,7 +5,7 @@ locate: aQueryString
 
 	searches := OrderedCollection new. 
 	queryUrlString := self queryUrlFor: aQueryString.
-	json := Json readFrom: (WebClient httpGet: queryUrlString asString) content readStream.
+	json := self contentSource getJsonFrom: queryUrlString.
 
 	json do: [:result |
 		searches add: (SMAPin new

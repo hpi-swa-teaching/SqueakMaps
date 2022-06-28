@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "BCD 8/6/2020 12:09",
 	"instvars" : [
-		 ],
+		"contentSource" ],
 	"name" : "SMAGeocoder",
 	"pools" : [
 		 ],
