@@ -1,16 +1,16 @@
 {
-	"category" : "SqueakMaps-TiledMaps",
+	"category" : "SqueakMaps-APIs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cs 8/6/2020 14:43",
+	"commentStamp" : "",
 	"instvars" : [
 		"latLong",
 		"label",
 		"boundingBox" ],
-	"name" : "SMAGeocoderResult",
+	"name" : "SMAPin",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }
