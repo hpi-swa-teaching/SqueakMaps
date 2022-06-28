@@ -7,5 +7,5 @@ testInvalidLocation
 	self squeakMapsWindow searchInput: 'textMorph'.
 	[self squeakMapsWindow searchLocation] valueSupplyingAnswer: {'No results found.'. #closeDialog}.
 
-	self assert: self squeakMapsWindow tiledMapMorph center equals: (SMAMapTileLoader latLongToWorldPos: (13.4430356@52.5111669))
+	self assert: self squeakMapsWindow tiledMapMorph center equals: (SMAMapConfigurator latLongToWorldPos: (13.4430356@52.5111669))
 	

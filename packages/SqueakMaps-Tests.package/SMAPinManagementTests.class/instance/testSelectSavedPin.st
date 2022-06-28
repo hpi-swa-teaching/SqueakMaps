@@ -16,5 +16,5 @@ testSelectSavedPin
 	mapPins :=  model tiledMapMorph markers select: [:marker | marker latLong = pin latLong].
 	
 	self assert: mapPins notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: pin latLong)  equals: model tiledMapMorph center.
+	self assert: (SMAMapConfigurator latLongToWorldPos: pin latLong)  equals: model tiledMapMorph center.
 	self assert: 9 equals: model tiledMapMorph zoom
