@@ -5,8 +5,10 @@
 		"worldPosToLatLong:" : "TR 6/25/2022 13:03" },
 	"instance" : {
 		"calculateZoomForBoundingBox:" : "LK 6/25/2022 15:50",
-		"displayLocation:" : "LK 6/25/2022 15:46",
+		"clearRoute" : "LK 6/27/2022 12:03",
+		"displayLocation:" : "LK 6/27/2022 12:16",
 		"displayRoute:" : "TR 6/25/2022 14:33",
+		"getCurrentZoom" : "LK 6/27/2022 12:11",
 		"makeAllMarkersOfRoute:" : "LK 6/25/2022 16:01",
 		"makeMarkerOfLocation:" : "LK 6/25/2022 14:53",
 		"tiledMapMorph" : "TR 6/25/2022 12:52",

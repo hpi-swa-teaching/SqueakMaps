@@ -1,13 +1,12 @@
 search
 searchLocation
 
-	| result |
+	| pin |
 
 	self searchInput isEmpty ifTrue: [
 		UIManager default inform: 'Please enter a location.'.
 		^ self].
-	self clearRoute.
-	
-	result := self searchManager locate: self searchInput.
-	self setSelectedPinTo: result latLong labeled: result label.
-	self mapConfigurator displayLocation: result
+
+	pin := self searchManager locate: self searchInput.
+	self setSelectedPin: pin.
+	self mapConfigurator displayLocation: pin

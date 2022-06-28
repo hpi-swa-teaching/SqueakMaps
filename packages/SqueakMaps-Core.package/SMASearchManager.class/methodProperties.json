@@ -4,8 +4,9 @@
 	"instance" : {
 		"geocoder" : "TR 6/25/2022 11:06",
 		"geocoder:" : "TR 6/25/2022 11:07",
-		"getRouteFrom:To:By:" : "LK 6/25/2022 16:01",
+		"getRouteFrom:To:By:" : "LK 6/27/2022 12:23",
 		"initialize" : "TR 6/25/2022 11:07",
-		"locate:" : "TR 6/25/2022 14:23",
+		"locate:" : "LK 6/27/2022 12:23",
+		"reverse:withZoom:" : "LK 6/27/2022 12:14",
 		"routingAPI" : "LK 6/21/2022 18:18",
 		"routingAPI:" : "TR 6/25/2022 11:07" } }

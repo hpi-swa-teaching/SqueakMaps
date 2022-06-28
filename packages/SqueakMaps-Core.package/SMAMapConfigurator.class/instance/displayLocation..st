@@ -1,14 +1,16 @@
 as yet unclassified
-displayLocation: aSMAGeocoderResult
+displayLocation: aSMAPin
 
-	| zoom |
+	| zoom centerWorldPos |
 
-	self tiledMapMorph center: aSMAGeocoderResult worldPos.
+	centerWorldPos := self class latLongToWorldPos: aSMAPin latLong.
+	self tiledMapMorph center: centerWorldPos.
 	
-	zoom := self calculateZoomForBoundingBox: aSMAGeocoderResult boundingBox.
+	zoom := self calculateZoomForBoundingBox: aSMAPin boundingBox.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
 	
-	self makeMarkerOfLocation: aSMAGeocoderResult.
+	self makeMarkerOfLocation: aSMAPin.
+	self clearRoute.
 	
 	self tiledMapMorph layoutChanged.
 	self tiledMapMorph changed

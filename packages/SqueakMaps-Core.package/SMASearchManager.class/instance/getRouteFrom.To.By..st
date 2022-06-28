@@ -1,12 +1,12 @@
-as yet unclassified
+searching
 getRouteFrom: aQueryString To: anotherQueryString By: aSymbol
 
-	| resultOne resultTwo route |
+	| startPin destinationPin route |
 
-	resultOne := self locate: aQueryString.	
-	resultTwo := self locate: anotherQueryString.
+	startPin := self locate: aQueryString.	
+	destinationPin := self locate: anotherQueryString.
 
-	route := self routingAPI getRouteFrom: (resultOne latLong) To: (resultTwo latLong) By: aSymbol.
-	route startLabel: resultOne label.
-	route destinationLabel: resultTwo label.
+	route := self routingAPI getRouteFrom: (startPin latLong) To: (destinationPin latLong) By: aSymbol.
+	route startLabel: startPin label.
+	route destinationLabel: destinationPin label.
 	^ route

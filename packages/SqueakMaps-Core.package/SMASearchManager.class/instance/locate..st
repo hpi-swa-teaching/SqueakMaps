@@ -1,8 +1,8 @@
-as yet unclassified
+searching
 locate: aQueryString
 
-	| results |
+	| pins |
 	
-	results := self geocoder locate: aQueryString.
-	results isEmpty ifTrue: [Error signal: 'No results found.'].
-	^ results first
+	pins := self geocoder locate: aQueryString.
+	pins isEmpty ifTrue: [Error signal: 'No results found.'].
+	^ pins first

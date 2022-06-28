@@ -8,9 +8,9 @@ locate: aQueryString
 	json := Json readFrom: (WebClient httpGet: queryUrlString asString) content readStream.
 
 	json do: [:result |
-		searches add: (SMAGeocoderResult new
+		searches add: (SMAPin new
 			label: (result at: 'display_name' ifAbsent: [aQueryString]);
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			boundingBox: (self getBoundingBoxFrom: result);
-			yourself) ].
+			yourself)].
 	^ searches
