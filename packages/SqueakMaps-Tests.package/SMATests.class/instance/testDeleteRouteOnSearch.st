@@ -1,15 +1,15 @@
 searching
 testDeleteRouteOnSearch
 
-	| route latLongPotsdam latLongAhrensfelde |
+	| tiledMapMorph latLongPotsdam latLongAhrensfelde |
 
-	route := self squeakMapsWindow tiledMapMorph route.
+	tiledMapMorph := self squeakMapsWindow tiledMapMorph.
 	
 	latLongPotsdam := 13.0645@52.3906.
 	latLongAhrensfelde:= 13.5747926@52.5817191.
 
-	route points: {latLongPotsdam . latLongAhrensfelde}.
+	tiledMapMorph route points: {latLongPotsdam . latLongAhrensfelde}.
 	
 	self squeakMapsWindow searchInput: 'Ludwigfelde'.
 	self squeakMapsWindow searchLocation.
-	self assert: route points isEmpty
+	self assert: tiledMapMorph route points isEmpty

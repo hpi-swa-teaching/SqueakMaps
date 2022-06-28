@@ -6,7 +6,7 @@
 		"orsAPI:" : "TR 5/24/2022 20:44",
 		"setUp" : "TR 5/24/2022 20:39",
 		"testORSCreateUrl" : "TR 6/25/2022 12:28",
-		"testORSGetBoundingBoxFromJson" : "TR 5/24/2022 21:44",
+		"testORSGetBoundingBoxFromJson" : "LK 6/28/2022 17:33",
 		"testORSGetRouteDistanceFromJson" : "TR 6/6/2022 15:26",
 		"testORSGetRouteDurationFromJson" : "TR 6/6/2022 15:26",
 		"testORSGetWaypointsFromJson" : "TR 5/24/2022 21:44",

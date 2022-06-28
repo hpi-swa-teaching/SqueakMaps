@@ -10,7 +10,7 @@
 		"testBuildBingApi" : "TR 6/10/2022 09:35",
 		"testBuildThunderforestApi" : "TR 6/16/2022 17:18",
 		"testClassInitialization" : "TR 6/16/2022 17:18",
-		"testDeleteRouteOnSearch" : "RK 5/30/2022 20:52",
+		"testDeleteRouteOnSearch" : "LK 6/28/2022 17:52",
 		"testInvalidLocation" : "RK 5/30/2022 20:53",
 		"testLocationSearchingBerghain" : "RK 5/30/2022 20:53",
 		"testLocationSearchingGesundbrunnen" : "RK 5/30/2022 20:54",
@@ -18,6 +18,6 @@
 		"testMultipleLocationSearchingBerlinSydney" : "RK 5/31/2022 12:30",
 		"testMultipleLocationSearchingShanghaiAlaska" : "RK 5/31/2022 12:29",
 		"testOpenInWorld" : "RK 5/30/2022 21:13",
-		"testPlacePin" : "RK 6/21/2022 13:43",
+		"testPlacePin" : "LK 6/28/2022 17:59",
 		"testRefreshMapKeepsCenter" : "",
 		"testRefreshMapKeepsZoom" : "TR 6/25/2022 13:12" } }

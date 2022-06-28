@@ -11,7 +11,7 @@
 		"setUp" : "TR 6/16/2022 18:56",
 		"switchToDirectionsView" : "TR 6/16/2022 18:58",
 		"tearDown" : "ros 5/31/2022 10:24",
-		"testDirectionLocationsAreNotProvided" : "RK 5/31/2022 11:39",
+		"testDirectionLocationsAreNotProvided" : "LK 6/28/2022 17:16",
 		"testDirectionLocationsDoNotExist" : "TR 6/16/2022 17:21",
 		"testSearchLocationDoesNotExist" : "RK 5/31/2022 11:35",
 		"testSearchLocationIsNotProvided" : "RK 5/31/2022 11:35",

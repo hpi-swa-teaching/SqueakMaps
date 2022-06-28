@@ -1,5 +1,5 @@
 search
-searchMultipleLocations
+searchDirections
 
 	| start destination transportMode route |
 	

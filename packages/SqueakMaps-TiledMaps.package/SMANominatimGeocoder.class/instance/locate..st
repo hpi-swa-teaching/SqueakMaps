@@ -13,4 +13,5 @@ locate: aQueryString
 			latLong: ((result at: 'lon') asNumber) @ ((result at: 'lat') asNumber);
 			boundingBox: (self getBoundingBoxFrom: result);
 			yourself)].
+
 	^ searches
