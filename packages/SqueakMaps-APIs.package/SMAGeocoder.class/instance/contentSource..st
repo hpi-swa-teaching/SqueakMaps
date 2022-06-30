@@ -1,3 +1,4 @@
 accessing
-contentSource: anObject
-	contentSource := anObject
+contentSource: aSMAJsonUrlReader
+
+	contentSource := aSMAJsonUrlReader
