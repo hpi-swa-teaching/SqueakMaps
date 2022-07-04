@@ -1,7 +1,11 @@
 as yet unclassified
 getBoundingBoxFrom: aJson
 
-	| coordinates |
+	| coordinates lowerLeftCorner upperRightCorner |
 	
 	coordinates := aJson at: 'bbox'.
-	^ coordinates first @ coordinates second corner: coordinates third @ coordinates fourth
+
+	lowerLeftCorner := coordinates first @ coordinates second.
+	upperRightCorner := coordinates third @ coordinates fourth.
+
+	^  lowerLeftCorner corner: upperRightCorner

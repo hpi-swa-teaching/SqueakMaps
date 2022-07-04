@@ -15,5 +15,3 @@ testORSTooLongRoute
 		raise: Error
 		whoseDescriptionIncludes: 'Could not find routable point'
 		description: 'Wrong error thrown'.
-		
-	

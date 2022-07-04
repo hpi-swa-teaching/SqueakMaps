@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"apiKey",
 		"contentSource" ],
 	"name" : "SMARoutingAPI",
 	"pools" : [
