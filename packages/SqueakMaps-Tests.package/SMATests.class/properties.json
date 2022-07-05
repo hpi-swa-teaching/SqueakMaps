@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "cs 8/6/2020 15:17",
 	"instvars" : [
-		"squeakMapsWindow" ],
+		"squeakMapsWindow",
+		"validORSKey",
+		"ORSKeyBefore" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],

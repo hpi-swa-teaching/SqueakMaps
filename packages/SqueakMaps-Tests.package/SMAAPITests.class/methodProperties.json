@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "RK 5/30/2022 20:42",
-		"tearDown" : "",
+		"tearDown" : "TR 7/5/2022 14:40",
 		"testApiButtonBing" : "RK 5/30/2022 20:42",
 		"testApiButtonBingInvalidKey" : "RK 5/30/2022 20:42",
 		"testApiButtonThunderforest" : "RK 5/30/2022 20:43",
