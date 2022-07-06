@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 displayRoute: aSMARoute
 
 	| centerWorldPos zoom |

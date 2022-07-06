@@ -1,4 +1,4 @@
-as yet unclassified
+url
 queryUrlFrom: aStartLongLat To: anEndLongLat By: aString
 
 	| formatStart formatEnd |

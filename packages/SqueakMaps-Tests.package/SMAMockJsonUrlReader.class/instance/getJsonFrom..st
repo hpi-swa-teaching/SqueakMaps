@@ -1,4 +1,4 @@
-as yet unclassified
+json retrieval
 getJsonFrom: aQueryUrlString
 
 	^ self perform: self expectedReturn.

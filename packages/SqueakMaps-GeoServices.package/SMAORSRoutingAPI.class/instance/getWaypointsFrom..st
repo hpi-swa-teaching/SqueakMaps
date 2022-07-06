@@ -1,4 +1,4 @@
-as yet unclassified
+json parsing
 getWaypointsFrom: aJson
 
 	| routeCoordinatesJson |

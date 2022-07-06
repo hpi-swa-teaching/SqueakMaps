@@ -1,4 +1,4 @@
-as yet unclassified
+error handling
 handleErrorWithJson: aJsonObject
 	
 	| errorField message|

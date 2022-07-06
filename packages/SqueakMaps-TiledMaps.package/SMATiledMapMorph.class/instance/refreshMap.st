@@ -1,4 +1,4 @@
-accessing
+viewer
 refreshMap
 
 	self 

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 quadkeyForX: aTileX y: aTileY zoom: aZoom
 
 	| mask headX headY tailX tailY digit |

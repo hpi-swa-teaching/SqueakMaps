@@ -1,4 +1,4 @@
-as yet unclassified
+zooming
 zoomMax
 
 	^ self imageryMetadata at: 'zoomMax'

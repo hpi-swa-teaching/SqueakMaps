@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 getRouteFrom: aStartLongLat To: anEndLongLat By: aSymbol
 
 	| queryUrl json route |

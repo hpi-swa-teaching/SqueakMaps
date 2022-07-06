@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 makeAllMarkersOfRoute: aSMARoute
 	
 	| startLocation destinationLocation startMarker destinationMarker markers |

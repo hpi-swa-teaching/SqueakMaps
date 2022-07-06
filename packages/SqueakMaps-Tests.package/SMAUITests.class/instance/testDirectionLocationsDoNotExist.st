@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDirectionLocationsDoNotExist
 	"skip until bug that occurs when running this test is fixed"
 	| worldposMiddle |

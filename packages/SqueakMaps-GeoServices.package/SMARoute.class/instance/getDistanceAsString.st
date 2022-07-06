@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getDistanceAsString
 
 	^ self distance isNil

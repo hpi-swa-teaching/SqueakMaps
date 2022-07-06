@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 switchToDirectionsView
 
 	self model switchToDirectionsView.

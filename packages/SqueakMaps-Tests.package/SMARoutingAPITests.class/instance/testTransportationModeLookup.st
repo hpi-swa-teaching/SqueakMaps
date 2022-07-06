@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTransportationModeLookup
 
 	| modeCar modeBike modeWalk modeDefault carString bikeString walkString |

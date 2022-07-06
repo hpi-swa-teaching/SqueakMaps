@@ -1,4 +1,4 @@
-as yet unclassified
+tile source
 tileSourceForLayer: aLayer
 
 	layers ifNil: [layers := Dictionary new].

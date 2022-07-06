@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 makeMarkerOfLocation: aSMAGeocoderResult
 
 	| markers marker |

@@ -1,4 +1,4 @@
-as yet unclassified
+returned json files
 wrongApiKey
 
 	^ Json readFrom: '{"error": "Access to this API has been disallowed"}' readStream.

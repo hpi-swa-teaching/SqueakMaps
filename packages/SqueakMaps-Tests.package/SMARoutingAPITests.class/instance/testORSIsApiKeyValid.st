@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testORSIsApiKeyValid
 	
 	self orsAPI contentSource expectedReturn: #noApiKey.

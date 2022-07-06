@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 reverse: aLatLong withZoom: aZoom
 
 	| json queryUrl | 

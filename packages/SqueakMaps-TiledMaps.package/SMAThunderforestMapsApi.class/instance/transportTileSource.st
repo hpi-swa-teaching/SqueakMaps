@@ -1,4 +1,4 @@
-as yet unclassified
+tile source
 transportTileSource
 
 	^ self tileSourceForLayer: 'transport'

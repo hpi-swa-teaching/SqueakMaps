@@ -1,4 +1,4 @@
 accessing
-ORSKeyBefore: anObject
+ORSKeyBefore: aString
 
-	ORSKeyBefore := anObject.
+	ORSKeyBefore := aString

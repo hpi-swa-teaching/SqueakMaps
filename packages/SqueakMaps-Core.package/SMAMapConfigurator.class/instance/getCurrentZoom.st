@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 getCurrentZoom
 
 	^ self tiledMapMorph zoom

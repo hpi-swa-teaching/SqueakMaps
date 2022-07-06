@@ -1,4 +1,4 @@
-as yet unclassified
+transportation
 transportationModeLookupTable
 
 	self subclassResponsibility

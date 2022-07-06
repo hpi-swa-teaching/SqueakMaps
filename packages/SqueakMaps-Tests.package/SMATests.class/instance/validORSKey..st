@@ -1,4 +1,4 @@
 accessing
-validORSKey: anObject
+validORSKey: aString
 
-	validORSKey := anObject.
+	validORSKey := aString

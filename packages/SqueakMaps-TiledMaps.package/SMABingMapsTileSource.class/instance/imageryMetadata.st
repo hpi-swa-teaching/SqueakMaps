@@ -1,4 +1,4 @@
-as yet unclassified
+private
 imageryMetadata
 
 	| url json resourceSet |

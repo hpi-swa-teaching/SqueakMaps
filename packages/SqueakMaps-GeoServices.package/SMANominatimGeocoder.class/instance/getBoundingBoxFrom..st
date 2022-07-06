@@ -1,4 +1,4 @@
-as yet unclassified
+private
 getBoundingBoxFrom: aJson
 
 	| coordinates lowerLeftCorner upperRightCorner |

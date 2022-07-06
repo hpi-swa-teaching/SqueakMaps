@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 imageAt: aPosition zoom: aZoom source: aTileSource tile: aOffsetPoint
 
 	| scale scaledPosition |

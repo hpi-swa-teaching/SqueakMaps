@@ -1,4 +1,4 @@
-drawing
+private
 drawRoute: aRoute On: aCanvas
 
 	| polygon pixelPosRoute |

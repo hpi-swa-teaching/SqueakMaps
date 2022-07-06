@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 locate: aQueryString
 	
 	self subclassResponsibility

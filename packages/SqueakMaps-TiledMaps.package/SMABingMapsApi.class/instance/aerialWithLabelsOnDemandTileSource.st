@@ -1,4 +1,4 @@
-as yet unclassified
+tile source
 aerialWithLabelsOnDemandTileSource
 
 	^ self tileSourceForLayer: 'AerialWithLabelsOnDemand'
