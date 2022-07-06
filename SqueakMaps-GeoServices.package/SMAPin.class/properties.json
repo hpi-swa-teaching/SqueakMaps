@@ -1,14 +1,16 @@
 {
-	"category" : "SqueakMaps-APIs",
+	"category" : "SqueakMaps-GeoServices",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SMAJsonUrlReader",
+		"latLong",
+		"label",
+		"boundingBox" ],
+	"name" : "SMAPin",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }

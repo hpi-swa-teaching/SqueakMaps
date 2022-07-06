@@ -1,13 +1,13 @@
 {
-	"category" : "SqueakMaps-APIs",
+	"category" : "SqueakMaps-GeoServices",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "BCD 8/6/2020 12:09",
 	"instvars" : [
 		"contentSource" ],
-	"name" : "SMARoutingAPI",
+	"name" : "SMAGeocoder",
 	"pools" : [
 		 ],
 	"super" : "Object",
