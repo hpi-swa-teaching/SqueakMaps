@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "TR 7/8/2022 09:45",
 		"tearDown" : "",
-		"testPlacePin" : "TR 7/8/2022 09:47",
+		"testPlacePin" : "TR 7/8/2022 10:21",
 		"testRemovePin" : "TR 7/8/2022 09:38",
 		"testSaveIdenticalPins" : "TR 7/8/2022 09:38",
 		"testSavePin" : "TR 7/8/2022 09:38",

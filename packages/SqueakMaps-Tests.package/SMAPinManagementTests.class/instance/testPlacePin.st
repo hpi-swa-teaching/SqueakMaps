@@ -1,7 +1,10 @@
 pin testing
 testPlacePin
 	
-	| mapLocations location |
+	| zoomBefore centerBefore mapLocations location |
+	
+	zoomBefore := model tiledMapMorph zoom.
+	centerBefore := model tiledMapMorph center.
 	
 	location := SMALocation new
 		latLong: 11.576124@48.137154;
@@ -14,5 +17,5 @@ testPlacePin
 	
 	mapLocations :=  model tiledMapMorph markers select: [:marker | marker latLong = location latLong].
 	self assert: mapLocations notEmpty.
-	self assert: (SMAMapConfigurator latLongToWorldPos: location latLong) equals: model tiledMapMorph center.
-	self assert: 9 equals: model tiledMapMorph zoom
+	self assert: centerBefore equals: model tiledMapMorph center.
+	self assert: zoomBefore equals: model tiledMapMorph zoom

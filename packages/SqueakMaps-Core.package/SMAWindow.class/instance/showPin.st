@@ -8,4 +8,5 @@ showPin
 	location := SMAWindow savedPins at: index.
 	self setSelectedPin: location.
 	self mapConfigurator displayLocation: location.
+	self mapConfigurator focusLocation: location.
 	self changed: #buildSearchPinPanelChildren.
