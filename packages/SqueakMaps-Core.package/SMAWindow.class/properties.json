@@ -12,6 +12,7 @@
 		"tiledMapMorph",
 		"currentView",
 		"selectedPin",
+		"route",
 		"searchInput",
 		"startSearchInput",
 		"destinationSearchInput",

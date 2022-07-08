@@ -1,5 +1,5 @@
 helping
-makeAllMarkersOfRoute: aSMARoute
+setAllMarkersFrom: aSMARoute
 	
 	| startLocation destinationLocation startMarker destinationMarker markers |
 	

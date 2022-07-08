@@ -1,3 +1,4 @@
 accessing
-startLabel: anObject
-	startLabel := anObject
+startLabel: aString
+
+	startLabel := aString

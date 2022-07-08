@@ -9,7 +9,7 @@ displayLocation: aSMAPin
 	zoom := self calculateZoomForBoundingBox: aSMAPin boundingBox.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
 	
-	self makeMarkerOfLocation: aSMAPin.
+	self setMarkerFrom: aSMAPin.
 	self clearRoute.
 	
 	self tiledMapMorph layoutChanged.

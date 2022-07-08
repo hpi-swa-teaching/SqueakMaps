@@ -1,3 +1,4 @@
 accessing
-destinationLabel: anObject
-	destinationLabel := anObject
+destinationLabel: aString
+
+	destinationLabel := aString

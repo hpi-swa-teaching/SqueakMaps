@@ -18,5 +18,6 @@ searchDirections
 				^ self].
 
 	self mapConfigurator displayRoute: route.
+	self route: route.
 	self hasSearched: true.
 	self changed: #buildSidebarTopChildren

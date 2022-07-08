@@ -1,4 +1,6 @@
 accessing
 initialize
-
-	points := OrderedCollection new
+	
+	super initialize.
+	self points: OrderedCollection new
+	
