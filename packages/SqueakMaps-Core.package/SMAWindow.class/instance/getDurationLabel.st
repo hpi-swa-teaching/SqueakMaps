@@ -1,4 +1,4 @@
 building
 getDurationLabel
 
-	^{ StringMorph new contents: self tiledMapMorph route getDurationAsString; yourself}
+	^{ StringMorph new contents: self route getDurationAsString; yourself}

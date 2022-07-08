@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RK 5/30/2022 20:47",
+		"setUp" : "TR 7/8/2022 09:45",
 		"tearDown" : "",
-		"testRemovePin" : "RK 6/20/2022 21:01",
-		"testSaveIdenticalPins" : "RK 6/20/2022 21:23",
-		"testSavePin" : "RK 6/20/2022 20:59",
-		"testSelectSavedPin" : "RK 6/21/2022 13:42" } }
+		"testPlacePin" : "TR 7/8/2022 10:21",
+		"testRemovePin" : "TR 7/8/2022 09:38",
+		"testSaveIdenticalPins" : "TR 7/8/2022 09:38",
+		"testSavePin" : "TR 7/8/2022 09:38",
+		"testSelectSavedPin" : "TR 7/8/2022 09:39" } }

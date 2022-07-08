@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tiledMapMorph" ],
+	"name" : "SMAMapConfigurator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

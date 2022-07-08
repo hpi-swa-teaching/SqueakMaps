@@ -1,0 +1,19 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"points",
+		"boundingBox",
+		"duration",
+		"distance",
+		"startLabel",
+		"destinationLabel" ],
+	"name" : "SMARoute",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

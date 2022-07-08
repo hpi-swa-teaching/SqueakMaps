@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"latLong",
+		"label",
+		"boundingBox" ],
+	"name" : "SMALocation",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

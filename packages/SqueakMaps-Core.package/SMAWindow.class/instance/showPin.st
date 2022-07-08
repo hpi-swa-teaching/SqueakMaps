@@ -1,9 +1,12 @@
 pin management
 showPin
 
-	| index pin |
+	| index location |
+	
 	index := self requestSavedPinSelection.
 	index = 0 ifTrue: [^ nil].
-	pin := SMAWindow savedPins at: index.
-	self setSelectedPin: pin.
+	location := SMAWindow savedPins at: index.
+	self setSelectedPin: location.
+	self mapConfigurator displayLocation: location.
+	self mapConfigurator focusLocation: location.
 	self changed: #buildSearchPinPanelChildren.

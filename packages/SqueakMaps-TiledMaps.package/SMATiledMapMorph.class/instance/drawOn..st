@@ -1,4 +1,4 @@
-drawing
+private
 drawOn: aCanvas
 
 	aCanvas clipBy: self bounds during: [ :clippedCanvas |

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTransportationModeInput
 	
 	| 	transportationModeCar 	transportationModeBike 	transportationModeWalk defaultTransportationMode |

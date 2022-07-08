@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contentSource" ],
+	"name" : "SMARoutingAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

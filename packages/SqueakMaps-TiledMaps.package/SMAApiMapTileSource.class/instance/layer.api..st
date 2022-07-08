@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 layer: aString api: aMapsApi
 
 	layer := aString.

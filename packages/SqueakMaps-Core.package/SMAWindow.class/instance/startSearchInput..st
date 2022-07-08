@@ -1,5 +1,5 @@
 accessing
-startSearchInput: anObject
+startSearchInput: aText
 
-	startSearchInput := anObject asString.
+	startSearchInput := aText asString.
 	self changed: #startSearchInput.

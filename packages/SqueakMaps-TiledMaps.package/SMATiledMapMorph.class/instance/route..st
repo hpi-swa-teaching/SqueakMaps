@@ -1,4 +1,4 @@
 accessing
-route: aSMARoute
+route: aSMARouteLine
 
-	route := aSMARoute
+	route := aSMARouteLine

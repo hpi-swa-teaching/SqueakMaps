@@ -1,4 +1,4 @@
 accessing
 orsAPI: aSMAORSRoutingAPI
 
-	orsAPI := aSMAORSRoutingAPI.
+	orsAPI := aSMAORSRoutingAPI

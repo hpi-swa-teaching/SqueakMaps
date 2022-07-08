@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testORSTooLongRoute
 
 	| longLatStart longLatEnd transportationMode |
@@ -15,5 +15,3 @@ testORSTooLongRoute
 		raise: Error
 		whoseDescriptionIncludes: 'Could not find routable point'
 		description: 'Wrong error thrown'.
-		
-	

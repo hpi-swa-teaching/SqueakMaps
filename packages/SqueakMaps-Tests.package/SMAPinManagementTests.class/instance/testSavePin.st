@@ -1,13 +1,13 @@
 pin testing
 testSavePin
 
-	| pin |
+	| location |
 	
-	pin := SMAPin new
+	location := SMALocation new
 		latLong: 11.576124@48.137154;
 		label: 'Munich';
 		yourself.
 
-	model setSelectedPin: pin.
+	model setSelectedPin: location.
 	model savePin.
-	self assert: (model class savedPins includes: pin) equals: true.
+	self assert: (model class savedPins includes: location) equals: true.

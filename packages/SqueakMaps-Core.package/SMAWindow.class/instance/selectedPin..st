@@ -1,4 +1,4 @@
 accessing
-selectedPin: aSMAPin
+selectedPin: aSMALocation
 
-	selectedPin := aSMAPin
+	selectedPin := aSMALocation

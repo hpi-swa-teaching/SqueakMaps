@@ -1,4 +1,4 @@
 building
 getDistanceLabel
 
-	^{ StringMorph new contents: self tiledMapMorph route getDistanceAsString; yourself}
+	^{ StringMorph new contents: self route getDistanceAsString; yourself}

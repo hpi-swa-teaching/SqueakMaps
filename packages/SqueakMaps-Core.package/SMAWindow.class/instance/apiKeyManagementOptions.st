@@ -3,8 +3,8 @@ apiKeyManagementOptions
 
 	^ Dictionary newFrom:
 		{Association key: 'Openrouteservice' 
-			value: [self class openrouteserviceApiKey: 
-				(UIManager default request: 'Your Openrouteservice Api Key' initialAnswer: self class openrouteserviceApiKey)]. 
+			value: [SMAORSRoutingAPI ApiKey: 
+				(UIManager default request: 'Your Openrouteservice Api Key' initialAnswer: SMAORSRoutingAPI ApiKey)]. 
 		Association key: 'Bing Maps' 
 			value: [self class bingApiKey: 
 				(UIManager default request: 'Your Bing Maps Api Key' initialAnswer: self class bingApiKey)]. 

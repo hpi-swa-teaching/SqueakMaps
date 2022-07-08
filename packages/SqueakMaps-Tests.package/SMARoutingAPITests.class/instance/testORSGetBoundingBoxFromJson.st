@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testORSGetBoundingBoxFromJson
 
 	| json bbox |
@@ -6,5 +6,6 @@ testORSGetBoundingBoxFromJson
 	json := self orsAPI contentSource validRoute.
 	bbox := self orsAPI getBoundingBoxFrom: json.
 	
-	self assert: bbox size equals: 2.
-	bbox do: [:longLat | self assert: Point equals: longLat class].
+	self assert: Rectangle equals: bbox class.
+	self assert: bbox height > 0.
+	self assert: bbox width > 0

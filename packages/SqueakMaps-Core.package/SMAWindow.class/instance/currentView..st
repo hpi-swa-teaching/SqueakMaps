@@ -1,5 +1,6 @@
 accessing
-currentView: anObject
+currentView: aSymbol
+
 	"Accepts #search, #directions"
 	
-	currentView := anObject
+	currentView := aSymbol

@@ -1,4 +1,4 @@
 accessing
 worldPos
 
-	^ SMAMapTileLoader latLongToWorldPos: self latLong
+	^ SMAMapConfigurator latLongToWorldPos: self latLong
