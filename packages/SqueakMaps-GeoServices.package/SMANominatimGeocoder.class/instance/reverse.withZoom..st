@@ -5,7 +5,7 @@ reverse: aLatLong withZoom: aZoom
 	queryUrl := self reverseUrlFor: aLatLong withZoom: aZoom.
 	json := self contentSource getJsonFrom: queryUrl.
 
-	^ SMAPin new
+	^ SMALocation new
 			label: (json at: 'display_name' ifAbsent: ['Nix Display name']);
 			latLong: ((json at: 'lon') asNumber) @ ((json at: 'lat') asNumber);
 			boundingBox: (self getBoundingBoxFrom: json);

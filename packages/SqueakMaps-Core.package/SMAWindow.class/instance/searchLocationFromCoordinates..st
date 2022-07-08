@@ -1,8 +1,9 @@
 search
 searchLocationFromCoordinates: aLatLong
 
-	| pin zoom |
+	| location zoom |
+	
 	zoom := self mapConfigurator getCurrentZoom.
-	pin := self searchManager reverse: aLatLong withZoom: zoom.
-	self setSelectedPin: pin.
-	self mapConfigurator displayLocation: pin
+	location := self searchManager reverse: aLatLong withZoom: zoom.
+	self setSelectedPin: location.
+	self mapConfigurator displayLocation: location

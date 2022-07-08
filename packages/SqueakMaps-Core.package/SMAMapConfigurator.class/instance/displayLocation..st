@@ -1,15 +1,15 @@
 displaying
-displayLocation: aSMAPin
+displayLocation: aSMALocation
 
 	| zoom centerWorldPos |
 
-	centerWorldPos := self class latLongToWorldPos: aSMAPin latLong.
+	centerWorldPos := self class latLongToWorldPos: aSMALocation latLong.
 	self tiledMapMorph center: centerWorldPos.
 	
-	zoom := self calculateZoomForBoundingBox: aSMAPin boundingBox.
+	zoom := self calculateZoomForBoundingBox: aSMALocation boundingBox.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
 	
-	self setMarkerFrom: aSMAPin.
+	self setMarkerFrom: aSMALocation.
 	self clearRoute.
 	
 	self tiledMapMorph layoutChanged.

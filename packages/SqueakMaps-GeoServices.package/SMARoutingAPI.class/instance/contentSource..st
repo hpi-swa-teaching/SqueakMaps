@@ -1,4 +1,4 @@
 accessing
 contentSource: aSMAJsonUrlReader
 
-	contentSource := aSMAJsonUrlReader.
+	contentSource := aSMAJsonUrlReader

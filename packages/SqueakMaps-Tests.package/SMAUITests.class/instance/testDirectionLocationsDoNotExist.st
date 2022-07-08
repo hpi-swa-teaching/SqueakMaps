@@ -1,7 +1,8 @@
 testing
 testDirectionLocationsDoNotExist
-	"skip until bug that occurs when running this test is fixed"
+	
 	| worldposMiddle |
+	
 	worldposMiddle := 0.5@0.5.
 
 	"Destination does not exist"

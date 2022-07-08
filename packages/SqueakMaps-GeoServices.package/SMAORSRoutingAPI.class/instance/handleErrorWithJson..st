@@ -8,4 +8,4 @@ handleErrorWithJson: aJsonObject
 	[message := errorField at: 'message']
 		on:	Error 
 		do: [message := errorField].
-	Error signal: message.
+	Error signal: message

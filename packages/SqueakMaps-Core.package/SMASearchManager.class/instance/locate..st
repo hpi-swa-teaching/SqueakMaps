@@ -1,8 +1,8 @@
 searching
 locate: aQueryString
 
-	| pins |
+	| locations |
 	
-	pins := self geocoder locate: aQueryString.
-	pins isEmpty ifTrue: [Error signal: 'No results found.'].
-	^ pins first
+	locations := self geocoder locate: aQueryString.
+	locations isEmpty ifTrue: [Error signal: 'No results found.'].
+	^ locations first

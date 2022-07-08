@@ -1,6 +1,6 @@
 pin management
-setSelectedPin: aSMAPin
+setSelectedPin: aSMALocation
 
-	self selectedPin: aSMAPin.
+	self selectedPin: aSMALocation.
 	self changed: #buildSearchPinPanelChildren.
 	self switchToSearchView

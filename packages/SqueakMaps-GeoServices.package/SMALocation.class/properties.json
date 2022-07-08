@@ -9,7 +9,7 @@
 		"latLong",
 		"label",
 		"boundingBox" ],
-	"name" : "SMAPin",
+	"name" : "SMALocation",
 	"pools" : [
 		 ],
 	"super" : "Model",
