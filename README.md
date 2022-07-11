@@ -9,7 +9,7 @@
 
 ![SqueakMaps GUI][img-dir]
 
-_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT22-12](#Team). It offers satellite imagery, as well as street maps for traveling by foot, car, bicycle and or public transportation for several map services such as [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url]. Route calculations are performed using [OpenRouteService][ors-url].
+_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT22-12](#Team). It offers satellite imagery, as well as various street maps from [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url]. Routes from one location to another are calculated using [OpenRouteService][ors-url], which in addition provides distance and time information for different vehicles.
 
 The project was completely build with [Squeak/Smalltalk][squeak-url] and is based on the legacy project [TiledMaps][tiledmaps-url] by [Tony Garnock-Jones][tony-jones-url].
 
@@ -21,7 +21,7 @@ Be sure to have the following installed:
 * [Metacello](metacello-url)
 * [Morphic Testing Framework](mtf-url) (for development)
 
-Older versions of [Squeak](squeak-url) won't work due to a bug for which we handed a patch in.
+Older versions of [Squeak](squeak-url) won't work due to a bug.
 
 ### Installation
 
@@ -40,7 +40,7 @@ To open up a new window in your image simply go to _Apps > Squeak Maps_, or run 
 SMAWindow open.
 ```
 
-**In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] and [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
+**In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] or [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
 
 When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved inside the class variables of `SMAWindow`. You can change these using the `manage api keys` button.
 
@@ -51,7 +51,7 @@ Browser Categories of interest are:
 * SqueakMaps-Core
 * SqueakMaps-Tests
 * SqueakMaps-TiledMaps
-* SqueakMaps-APIs
+* SqueakMaps-GeoServices
 * (BaselineOfSqueakMaps)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
@@ -108,4 +108,3 @@ SWT20-11:
 [stars-url]: https://github.com/hpi-swa-teaching/SqueakMaps/stargazers
 [license-shield]: https://img.shields.io/github/license/hpi-swa-teaching/SqueakMaps
 [license-url]: LICENSE
-
