@@ -37,7 +37,7 @@ Metacello new
 To open up a new window in your image simply go to _Apps > Squeak Maps_, or run the following command inside a **Workspace**:
 
 ```smalltalk
-SMAWindow new openInWorld.
+SMAWindow open.
 ```
 
 **In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] and [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
