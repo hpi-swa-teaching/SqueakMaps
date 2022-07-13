@@ -5,5 +5,5 @@ searchLocationFromCoordinates: aLatLong
 	
 	zoom := self mapConfigurator getCurrentZoom.
 	location := self searchManager reverse: aLatLong withZoom: zoom.
-	self setSelectedPin: location.
+	self switchToSearchViewWith: location.
 	self mapConfigurator displayLocation: location
