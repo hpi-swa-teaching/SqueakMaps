@@ -13,5 +13,6 @@ searchLocation
 			UIManager default inform: 'No results found.'.
 			^ self].
 	self setSelectedPin: location.
+	self mapConfigurator clear.
 	self mapConfigurator displayLocation: location.
 	self mapConfigurator focusLocation: location
