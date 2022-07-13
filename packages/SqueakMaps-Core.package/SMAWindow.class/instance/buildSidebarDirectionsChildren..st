@@ -6,7 +6,6 @@ buildSidebarDirectionsChildren: aBuilder
 	children add: (self buildDirectionsTopRow: aBuilder).
 	children add: (self buildDirectionsStartInput: aBuilder).
 	children add: (self buildDirectionsDestinationInput: aBuilder).
-	children add: (self buildDirectionsGoButton: aBuilder).
 	self route ifNotNil: [children add: (self buildDirectionsRouteInformation: aBuilder)].
 	
 	^ children
