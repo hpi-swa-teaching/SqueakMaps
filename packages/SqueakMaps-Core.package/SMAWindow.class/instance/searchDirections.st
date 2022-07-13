@@ -11,8 +11,13 @@ searchDirections
 		UIManager default inform: 'Please enter a start and destination location.'.
 		^ self].
 	
-	startLocation := self searchManager locate: start.
-	destinationLocation := self searchManager locate: destination.
+	[startLocation := self searchManager locate: start.
+	destinationLocation := self searchManager locate: destination]
+		on: Error
+		do: [:error |
+			UIManager default inform: error messageText.
+			^ self.
+			].
 	
 	self mapConfigurator clear.
 
