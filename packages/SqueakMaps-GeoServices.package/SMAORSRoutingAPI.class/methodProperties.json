@@ -7,6 +7,7 @@
 		"getBoundingBoxFrom:" : "LK 7/4/2022 12:30",
 		"getRouteDistanceFrom:" : "LK 6/3/2022 19:07",
 		"getRouteDurationFrom:" : "LK 6/3/2022 19:07",
+		"getRouteFrom:To:" : "TR 5/24/2022 21:25",
 		"getRouteFrom:To:By:" : "TR 6/10/2022 09:18",
 		"getWaypointsFrom:" : "TR 5/24/2022 20:31",
 		"handleErrorWithJson:" : "TR 7/8/2022 09:36",

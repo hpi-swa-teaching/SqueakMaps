@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ApiKey" ],
 	"commentStamp" : "cs 8/6/2020 15:02",
 	"instvars" : [
 		 ],

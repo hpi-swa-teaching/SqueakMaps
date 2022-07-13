@@ -1,5 +1,5 @@
 tests
 testThunderforestMapsApiKeyIsValidWithValidKey
 
-	SMAWindow thunderforestMapsApiKey: validThunderforestMapsKey.
-	self assert: true equals: model thunderforestMapsApiKeyIsValid
+	model thunderforestMapsApi class apiKey: validThunderforestMapsKey.
+	self assert: true equals: model thunderforestMapsApi keyIsValid

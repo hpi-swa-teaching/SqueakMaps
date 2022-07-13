@@ -1,6 +1,6 @@
 select api
 checkBingApiKey
 
-	self bingApiKeyIsValid 
+	self bingApi keyIsValid 
 		ifTrue: [^ true]
 		ifFalse: [^ self requestBingApiKeyInput]

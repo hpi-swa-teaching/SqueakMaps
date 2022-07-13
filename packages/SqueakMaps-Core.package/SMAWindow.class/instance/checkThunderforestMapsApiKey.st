@@ -1,6 +1,6 @@
 select api
 checkThunderforestMapsApiKey 
 
-	self thunderforestMapsApiKeyIsValid
+	self thunderforestMapsApi keyIsValid
 		ifTrue: [^ true];
 		ifFalse: [^ self requestThunderforestApiKeyInput]
