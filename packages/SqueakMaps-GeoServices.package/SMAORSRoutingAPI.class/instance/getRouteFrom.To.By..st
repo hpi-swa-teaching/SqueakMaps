@@ -11,5 +11,5 @@ getRouteFrom: aStartLongLat To: anEndLongLat By: aSymbol
 	
 	[route := self makeRouteFrom: json]
 		on:	Error 
-		do: [self handleErrorWithJson: json].
+		do: [:error | self handleErrorWithJson: json].
 	^ route
