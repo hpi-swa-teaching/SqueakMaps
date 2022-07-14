@@ -1,0 +1,1 @@
+This error occurs, when the API Key for a web service is not valid.

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TR 7/12/2022 11:01",
+	"instvars" : [
+		 ],
+	"name" : "SMAInvalidApiKeyError",
+	"pools" : [
+		 ],
+	"super" : "SMAGeoServiceError",
+	"type" : "normal" }

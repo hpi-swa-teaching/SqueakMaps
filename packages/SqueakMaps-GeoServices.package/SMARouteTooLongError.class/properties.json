@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TR 7/12/2022 10:39",
+	"instvars" : [
+		 ],
+	"name" : "SMARouteTooLongError",
+	"pools" : [
+		 ],
+	"super" : "SMAGeoServiceError",
+	"type" : "normal" }

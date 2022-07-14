@@ -13,7 +13,7 @@ searchDirections
 
 	[route := self searchManager getRouteFrom: start To: destination By: transportMode.]
 		on:	Error
-		do: [:error |
+		do: [:error | 
 				UIManager default inform: error messageText.
 				^ self].
 
