@@ -3,9 +3,7 @@ searchLocation
 
 	| location |
 
-	self searchInput isEmpty ifTrue: [
-		UIManager default inform: 'Please enter a location.'.
-		^ self].
+	self searchInput isEmpty ifTrue: [^ self inform: 'Please enter a location.'].
 
 	[location := self searchManager locate: self searchInput.]
 		on: SMALocationNameNotFoundError

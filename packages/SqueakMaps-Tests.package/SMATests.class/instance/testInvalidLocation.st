@@ -6,7 +6,7 @@ testInvalidLocation
 	self squeakMapsWindow searchInput: 'berghain'.
 	self squeakMapsWindow searchLocation.
 	
-	 invalidLocationName := 'textMorph'.
+	invalidLocationName := 'textMorph'.
 	self squeakMapsWindow searchInput: invalidLocationName.
 	[self squeakMapsWindow searchLocation] valueSupplyingAnswer: {'No location with name "' , invalidLocationName , '" found.'. #closeDialog}.
 
