@@ -1,12 +1,8 @@
 searching
-getRouteFrom: aQueryString To: anotherQueryString By: aSymbol
+getRouteFrom: aStartLocation To: aDestinationLocation By: aSymbol
 
-	| startPin destinationPin route |
-
-	startPin := self locate: aQueryString.	
-	destinationPin := self locate: anotherQueryString.
-
-	route := self routingAPI getRouteFrom: (startPin latLong) To: (destinationPin latLong) By: aSymbol.
-	route startLabel: startPin label.
-	route destinationLabel: destinationPin label.
+	| route |
+	route := self routingAPI getRouteFrom: (aStartLocation latLong) To: (aDestinationLocation latLong) By: aSymbol.
+	route startLabel: aStartLocation label.
+	route destinationLabel: aDestinationLocation label.
 	^ route

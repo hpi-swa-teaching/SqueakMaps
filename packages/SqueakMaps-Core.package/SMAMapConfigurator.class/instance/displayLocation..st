@@ -1,8 +1,7 @@
 displaying
 displayLocation: aSMALocation
 	
-	self setMarkerFrom: aSMALocation.
-	self clearRoute.
+	self addMarkerFrom: aSMALocation.
 	
 	self tiledMapMorph layoutChanged.
 	self tiledMapMorph changed
