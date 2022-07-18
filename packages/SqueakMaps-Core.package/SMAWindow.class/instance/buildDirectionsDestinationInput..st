@@ -7,8 +7,15 @@ buildDirectionsDestinationInput: aBuilder
 				self 
 					buildDirectionsLabel: aBuilder 
 					with: #getDestinationLabel 
-					byPosition: (0 @ 0 corner: 1 @ 0.5) .
-				self buildDirectionsInputField: aBuilder withAccessors: #destinationSearchInput and: #destinationSearchInput:};
+					byPosition: (0 @ 0 corner: 1 @ 0.5).
+				aBuilder pluggableInputFieldSpec new
+					model: self;
+					getText: #destinationSearchInput;
+					setText: #submitDestinationSearchInput:;
+					help: 'Destination...';
+					frame: (0 @ 0.5 corner: 1 @ 1);
+					yourself
+			};
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;
 				topFraction: 0.2 offset: 0;

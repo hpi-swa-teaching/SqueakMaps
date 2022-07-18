@@ -4,5 +4,5 @@ testThunderforestMapsApiKeyIsValidWithInvalidKey
 	| invalidKey |
 	
 	invalidKey := 'Test'.
-	SMAWindow thunderforestMapsApiKey: invalidKey.
-	self assert: false equals: model thunderforestMapsApiKeyIsValid
+	model thunderforestMapsApi class apiKey: invalidKey.
+	self assert: false equals: model thunderforestMapsApi keyIsValid

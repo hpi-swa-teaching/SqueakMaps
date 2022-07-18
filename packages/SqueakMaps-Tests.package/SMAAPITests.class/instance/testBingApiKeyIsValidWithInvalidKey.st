@@ -4,5 +4,5 @@ testBingApiKeyIsValidWithInvalidKey
 	| invalidKey |
 	
 	invalidKey := 'Test'.
-	SMAWindow bingApiKey: invalidKey.
-	self assert: false equals: model bingApiKeyIsValid
+	model bingApi class apiKey: invalidKey.
+	self assert: false equals: model bingApi keyIsValid

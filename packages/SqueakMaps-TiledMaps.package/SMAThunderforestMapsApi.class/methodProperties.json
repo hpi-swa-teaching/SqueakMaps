@@ -1,7 +1,9 @@
 {
 	"class" : {
-		 },
+		"apiKey" : "ros 7/13/2022 21:07",
+		"apiKey:" : "ros 7/13/2022 20:25" },
 	"instance" : {
+		"keyCheckURL" : "ros 7/13/2022 21:24",
 		"landscapeTileSource" : "cs 8/6/2020 15:43",
 		"openCycleMapTileSource" : "cs 8/6/2020 15:43",
 		"outdoorsTileSource" : "cs 8/6/2020 15:43",

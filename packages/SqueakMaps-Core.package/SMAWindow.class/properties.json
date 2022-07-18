@@ -3,10 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"BingApiKey",
-		"OpenrouteserviceApiKey",
-		"SavedPins",
-		"ThunderforestMapsApiKey" ],
+		"SavedPins" ],
 	"commentStamp" : "cs 8/4/2020 13:54",
 	"instvars" : [
 		"tiledMapMorph",
@@ -19,7 +16,10 @@
 		"transportationModeInput",
 		"hasSearched",
 		"searchManager",
-		"mapConfigurator" ],
+		"mapConfigurator",
+		"bingApi",
+		"openrouteserviceApi",
+		"thunderforestMapsApi" ],
 	"name" : "SMAWindow",
 	"pools" : [
 		 ],

@@ -1,8 +1,8 @@
 select api
 requestBingApiKeyInput
 
-	self class bingApiKey: (UIManager default request: 'Please enter your Bing Maps Api Key').
-	self bingApiKeyIsValid
+	self bingApi class apiKey: (UIManager default request: 'Please enter your Bing Maps Api Key').
+	self bingApi keyIsValid
 		ifTrue: [^ true];
 		ifFalse: [self informInvalidKey. 
 				^ false]
