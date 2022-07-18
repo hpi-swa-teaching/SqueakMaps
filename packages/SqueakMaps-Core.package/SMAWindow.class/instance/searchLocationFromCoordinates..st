@@ -12,5 +12,6 @@ searchLocationFromCoordinates: aLatLong
 				latLong: aLatLong;
 				yourself].
 	
-	self setSelectedPin: location.
+	self switchToSearchViewWith: location.
+	self mapConfigurator clear.
 	self mapConfigurator displayLocation: location

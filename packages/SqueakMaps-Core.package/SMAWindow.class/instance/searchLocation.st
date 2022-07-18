@@ -10,5 +10,6 @@ searchLocation
 		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
 	
 	self setSelectedPin: location.
+	self mapConfigurator clear.
 	self mapConfigurator displayLocation: location.
 	self mapConfigurator focusLocation: location
