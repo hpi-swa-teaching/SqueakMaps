@@ -1,0 +1,1 @@
+This error will occur, when a destination can not be reached from a start location, e.g. one of them is an island and there is no route between them.

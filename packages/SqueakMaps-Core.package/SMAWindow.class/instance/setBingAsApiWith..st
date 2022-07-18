@@ -5,4 +5,4 @@ setBingAsApiWith: aTileSourceSymbol
 	
 	tileSourceCreationMessage := (Message selector: aTileSourceSymbol).
 	self checkBingApiKey
-		ifTrue: [self tiledMapMorph tileSource: (tileSourceCreationMessage sendTo: (self buildBingApi))]
+		ifTrue: [self tiledMapMorph tileSource: (tileSourceCreationMessage sendTo: (self bingApi))]

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMAGeoServiceError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

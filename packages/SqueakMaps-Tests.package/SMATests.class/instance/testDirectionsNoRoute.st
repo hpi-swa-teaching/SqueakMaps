@@ -5,7 +5,7 @@ testDirectionsNoRoute
 
 	placeName1 := 'Berlin'.
 	placeName2 := 'Sydney'.
-	errorText :=  'Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters.'.
+	errorText :=  'The chosen locations are too far apart from each other.'.
 
 	self squeakMapsWindow startSearchInput: placeName1.
 	self squeakMapsWindow destinationSearchInput: placeName2.

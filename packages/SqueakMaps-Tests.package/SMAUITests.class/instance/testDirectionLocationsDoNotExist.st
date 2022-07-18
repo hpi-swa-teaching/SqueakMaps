@@ -1,24 +1,25 @@
 testing
 testDirectionLocationsDoNotExist
 	
-	| worldposMiddle |
+	| worldposMiddle nonExistingPlace |
 	
+	nonExistingPlace := 'this-place-does-not-exist'.
 	worldposMiddle := 0.5@0.5.
 
 	"Destination does not exist"
 	model startSearchInput: 'Berlin'.
-	model destinationSearchInput: 'this-place-does-not-exist'.
-	[model searchDirections] valueSupplyingAnswer: {'No results found.' . #closeDialog}.
+	model destinationSearchInput: nonExistingPlace.
+	[model searchDirections] valueSupplyingAnswer: {'No location with name "' , nonExistingPlace , '" found.' . #closeDialog}.
 	self assert: worldposMiddle equals: model tiledMapMorph center.
 	
 	"Start does not exist"
-	model startSearchInput: 'this-place-does-not-exist'.
+	model startSearchInput: nonExistingPlace.
 	model destinationSearchInput: 'Berlin'.
-	[model searchDirections] valueSupplyingAnswer: {'No results found.' . #closeDialog}.
+	[model searchDirections] valueSupplyingAnswer: {'No location with name "' , nonExistingPlace , '" found.' . #closeDialog}.
 	self assert: worldposMiddle equals: model tiledMapMorph center.
 	
 	"Both do not exist"
-	model startSearchInput: 'this-place-does-not-exist'.
-	model destinationSearchInput: 'this-place-does-not-exist'.
-	[model searchDirections] valueSupplyingAnswer: {'No results found.' . #closeDialog}.
+	model startSearchInput: nonExistingPlace.
+	model destinationSearchInput: nonExistingPlace.
+	[model searchDirections] valueSupplyingAnswer: {'No location with name "' , nonExistingPlace , '" found.' . #closeDialog}.
 	self assert: worldposMiddle equals: model tiledMapMorph center

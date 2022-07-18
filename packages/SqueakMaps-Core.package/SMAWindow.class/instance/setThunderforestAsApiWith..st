@@ -5,4 +5,4 @@ setThunderforestAsApiWith: aTileSourceSymbol
 	
 	tileSourceCreationMessage := (Message selector: aTileSourceSymbol).
 	self checkThunderforestMapsApiKey
-		ifTrue: [self tiledMapMorph tileSource: (tileSourceCreationMessage sendTo: (self buildThunderforestApi))]
+		ifTrue: [self tiledMapMorph tileSource: (tileSourceCreationMessage sendTo: (self thunderforestMapsApi))]

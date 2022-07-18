@@ -1,6 +1,6 @@
 running
 tearDown
-	SMAWindow
-		bingApiKey: BingMapsKeyBefore;
-		thunderforestMapsApiKey: ThunderforestMapsKeyBefore.
+
+	model bingApi class apiKey: BingMapsKeyBefore.
+	model thunderforestMapsApi class apiKey: ThunderforestMapsKeyBefore.
 	super tearDown

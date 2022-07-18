@@ -1,5 +1,5 @@
 accessing
 layer: aString api: aMapsApi
 
-	layer := aString.
-	api := aMapsApi.
+	self layer: aString.
+	self api: aMapsApi.

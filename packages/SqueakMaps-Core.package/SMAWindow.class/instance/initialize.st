@@ -6,6 +6,8 @@ initialize
 	self mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph).
 	self searchManager: SMASearchManager new.
 	self currentView: #search.
+	self bingApi: SMABingMapsApi new.
+	self thunderforestMapsApi: SMAThunderforestMapsApi new.
 
 	self tiledMapMorph onDoubleClickAction: [:aLatLong | self searchLocationFromCoordinates: aLatLong].
 	
