@@ -1,11 +1,13 @@
 testing
 testSearchLocationDoesNotExist
 
-	| worldposMiddle |
+	| worldposMiddle locationName |
+	
 	worldposMiddle := 0.5@0.5. "worldPos without any zoom"
-
-	model searchInput: 'this-place-does-not-exist'.
-	[model searchLocation] valueSupplyingAnswer: {'No results found.' . #closeDialog}.
+	locationName := 'this-place-does-not-exist'.
+	
+	model searchInput: locationName.
+	[model searchLocation] valueSupplyingAnswer: {'No location with name "' , locationName , '" found.' . #closeDialog}.
 	
 	self assert: worldposMiddle equals: model tiledMapMorph center
 	

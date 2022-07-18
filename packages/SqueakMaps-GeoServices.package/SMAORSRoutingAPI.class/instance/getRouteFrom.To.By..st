@@ -1,7 +1,7 @@
 searching
 getRouteFrom: aStartLongLat To: anEndLongLat By: aSymbol
 
-	| queryUrl json route |
+	| queryUrl json |
 	
 	queryUrl := self 
 		queryUrlFrom: aStartLongLat 
@@ -9,7 +9,6 @@ getRouteFrom: aStartLongLat To: anEndLongLat By: aSymbol
 		By: (self transportationModeLookup: aSymbol).
 	json := self contentSource getJsonFrom: queryUrl.
 	
-	[route := self makeRouteFrom: json]
-		on:	Error 
-		do: [self handleErrorWithJson: json].
-	^ route
+	(json includesKey: 'error') ifTrue: [self handleErrorWithJson: json].
+	
+	^ self makeRouteFrom: json

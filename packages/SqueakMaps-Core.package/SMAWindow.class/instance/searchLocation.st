@@ -3,15 +3,12 @@ searchLocation
 
 	| location |
 
-	self searchInput isEmpty ifTrue: [
-		UIManager default inform: 'Please enter a location.'.
-		^ self].
+	self searchInput isEmpty ifTrue: [^ self inform: 'Please enter a location.'].
 
 	[location := self searchManager locate: self searchInput.]
-		on: Error
-		do: [
-			UIManager default inform: 'No results found.'.
-			^ self].
+		on: SMALocationNameNotFoundError
+		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
+	
 	self setSelectedPin: location.
 	self mapConfigurator displayLocation: location.
 	self mapConfigurator focusLocation: location

@@ -1,0 +1,1 @@
+This error occurs, when reverse geocoding for locations in international waters, antarctica or the Bir Tawil Triangle in Africa, so places that do not have an associated country.

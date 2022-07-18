@@ -1,11 +1,12 @@
 error handling
 handleErrorWithJson: aJsonObject
 	
-	| errorField message|
+	| code message |
 	
-	errorField := aJsonObject at: 'error'.
+	code := ((aJsonObject at: 'error') at: 'code') asNumber.
+	message := (aJsonObject at: 'error') at: 'message'.
 	
-	[message := errorField at: 'message']
-		on:	Error 
-		do: [message := errorField].
+	code = 2004 ifTrue: [SMARouteTooLongError signal: message].
+	code = 2010 ifTrue: [SMAUnreachableDestinationError signal: message].
+	
 	Error signal: message
