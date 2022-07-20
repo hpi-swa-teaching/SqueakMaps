@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"label",
-		"boundingBox",
-		"coordinates" ],
-	"name" : "SMALocation",
+		"lat",
+		"long" ],
+	"name" : "SMAGeoCoordinate",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"points",
 		"boundingBox",
 		"duration",
 		"distance",
 		"startLabel",
-		"destinationLabel" ],
+		"destinationLabel",
+		"points" ],
 	"name" : "SMARoute",
 	"pools" : [
 		 ],

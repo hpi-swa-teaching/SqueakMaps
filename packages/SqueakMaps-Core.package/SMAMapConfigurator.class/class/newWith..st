@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 newWith: aSMATiledMapMorph
 
 	^ self new tiledMapMorph: aSMATiledMapMorph

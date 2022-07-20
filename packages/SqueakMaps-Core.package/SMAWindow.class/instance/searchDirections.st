@@ -8,16 +8,12 @@ searchDirections
 	transportMode := self transportationModeInput.
 	
 	(start isEmpty or: [destination isEmpty]) ifTrue: [
-		UIManager default inform: 'Please enter a start and destination location.'.
-		^ self].
+		^ self inform: 'Please enter a start and destination location.'].
 	
 	[startLocation := self searchManager locate: start.
 	destinationLocation := self searchManager locate: destination]
-		on: Error
-		do: [:error |
-			error class = SMALocationNameNotFoundError ifTrue: [
-				^ self inform: 'No location with name "' , error requestedName , '" found.'].
-			error signal].
+		on: SMALocationNameNotFoundError
+		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
 	
 	self mapConfigurator clear.
 
@@ -36,9 +32,8 @@ searchDirections
 				^ self inform: 'No location with name "' , error requestedName , '" found.'].
 			error class = SMAInvalidApiKeyError ifTrue: [
 				^ self inform: 'Please set a valid API key. This can be done by clicking the Manage API Keys button.'].
-			
 			error signal].
-
+	
 	self mapConfigurator displayRoute: route.
 	self route: route.
 	self hasSearched: true.

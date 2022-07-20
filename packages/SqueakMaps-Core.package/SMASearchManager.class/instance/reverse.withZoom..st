@@ -1,4 +1,4 @@
 searching
-reverse: aLatLong withZoom: aZoom
+reverse: aSMAGeoCoordinate withZoom: aZoom
 
-	^ self geocoder reverse: aLatLong withZoom: aZoom
+	^ self geocoder reverse: aSMAGeoCoordinate withZoom: aZoom

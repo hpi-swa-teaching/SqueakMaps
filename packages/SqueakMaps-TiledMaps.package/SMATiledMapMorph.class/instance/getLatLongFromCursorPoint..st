@@ -4,4 +4,4 @@ getLatLongFromCursorPoint: aPoint
 	| position |
 
 	position := ((aPoint - bounds topLeft) * self pixelSize) + worldBounds topLeft.
-	^ SMAMapConfigurator worldPosToLatLong: position
+	^ SMAMapConfigurator worldPosToGeoCoordinates: position

@@ -1,5 +1,5 @@
-as yet unclassified
-worldPosToLatLong: aWorldPos
+coordinate converting
+worldPosToGeoCoordinates: aWorldPos
 	
 	| lat long |
 	"Follows the calculation at http://mathworld.wolfram.com/MercatorProjection.html."
@@ -8,4 +8,4 @@ worldPosToLatLong: aWorldPos
 	lat := lat sinh arcTan.
 	lat := lat radiansToDegrees negated.
 	
-	^ long @ lat
+	^ SMAGeoCoordinate newLong: long Lat: lat

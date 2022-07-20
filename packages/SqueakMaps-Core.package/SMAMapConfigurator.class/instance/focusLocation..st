@@ -3,7 +3,7 @@ focusLocation: aSMALocation
 
 	| zoom centerWorldPos |
 
-	centerWorldPos := self class latLongToWorldPos: aSMALocation latLong.
+	centerWorldPos := self class geoCoordinatesToWorldPos: aSMALocation coordinates.
 	self tiledMapMorph center: centerWorldPos.
 	
 	zoom := self calculateZoomForBoundingBox: aSMALocation boundingBox.

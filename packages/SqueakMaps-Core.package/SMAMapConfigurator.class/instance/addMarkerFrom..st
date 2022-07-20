@@ -1,4 +1,7 @@
 helping
 addMarkerFrom: aSMALocation
-
-	self tiledMapMorph markers add: (SMAMarker newAt: aSMALocation latLong labeled: aSMALocation label)
+	
+	| point |
+	
+	point := self class geoCoordinatesToWorldPos: aSMALocation coordinates.
+	self tiledMapMorph markers add: (SMAMarker newAt: point labeled: aSMALocation label)

@@ -3,7 +3,7 @@ displayRoute: aSMARoute
 
 	| centerWorldPos zoom |
 	
-	centerWorldPos := self class latLongToWorldPos: aSMARoute getCenterLatLong.
+	centerWorldPos := self class geoCoordinatesToWorldPos: aSMARoute getCenterGeoCoordinates.
 	self tiledMapMorph center: centerWorldPos.
 	self setRouteLineFrom: aSMARoute.
 
