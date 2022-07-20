@@ -1,14 +1,14 @@
 accessing
 getCenterGeoCoordinates
 
-	"Calculates the midpoint on a straight line on a plane between the two given Points."
+	"Calculates the midpoint on a straight line on a plane between the two given Coordinates."
 
-	| firstPoint secondPoint long lat |
+	| firstCoordinates secondCoordinates long lat |
 	
-	firstPoint := self points first.
-	secondPoint := self points last.
+	firstCoordinates := self points first.
+	secondCoordinates := self points last.
 	
-	long := firstPoint long + secondPoint long / 2.
-	lat := firstPoint lat + secondPoint lat / 2.
+	long := firstCoordinates long + secondCoordinates long / 2.
+	lat := firstCoordinates lat + secondCoordinates lat / 2.
 
 	^ SMAGeoCoordinate newLong: long Lat: lat
