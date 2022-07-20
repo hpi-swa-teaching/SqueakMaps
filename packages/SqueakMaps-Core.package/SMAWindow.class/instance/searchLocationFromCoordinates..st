@@ -8,7 +8,7 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 		on: SMALocationUnnameableError 
 		do: [: error |
 			location := SMALocation new
-				label: aSMAGeoCoordinate lat asString, ', ', aSMAGeoCoordinate long asString;
+				label: aSMAGeoCoordinate toStringLatLong;
 				coordinates: aSMAGeoCoordinate;
 				yourself].
 	
