@@ -5,8 +5,8 @@ setAllMarkersFrom: aSMARoute
 	
 	markers := Set new.
 	
-	startPoint := self class geoCoordinatesToWorldPos: aSMARoute points first.
-	destinationPoint := self class geoCoordinatesToWorldPos: aSMARoute points last.
+	startPoint := self class geoCoordinatesToWorldPos: aSMARoute waypoints first.
+	destinationPoint := self class geoCoordinatesToWorldPos: aSMARoute waypoints last.
 	startMarker := SMAMarker newAt: startPoint labeled: aSMARoute startLabel.
 	destinationMarker := SMAMarker newAt: destinationPoint labeled: aSMARoute destinationLabel.
 	

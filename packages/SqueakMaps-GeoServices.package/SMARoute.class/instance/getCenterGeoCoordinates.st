@@ -5,8 +5,8 @@ getCenterGeoCoordinates
 
 	| firstCoordinates secondCoordinates long lat |
 	
-	firstCoordinates := self points first.
-	secondCoordinates := self points last.
+	firstCoordinates := self waypoints first.
+	secondCoordinates := self waypoints last.
 	
 	long := firstCoordinates long + secondCoordinates long / 2.
 	lat := firstCoordinates lat + secondCoordinates lat / 2.

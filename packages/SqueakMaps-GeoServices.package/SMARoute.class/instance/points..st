@@ -1,4 +1,0 @@
-accessing
-points: anOrderedCollectionOfGeoCoordinates
-
-	points := anOrderedCollectionOfGeoCoordinates

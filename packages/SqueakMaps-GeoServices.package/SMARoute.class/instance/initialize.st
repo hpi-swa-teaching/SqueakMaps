@@ -2,5 +2,5 @@ accessing
 initialize
 	
 	super initialize.
-	self points: OrderedCollection new
+	self waypoints: OrderedCollection new
 	

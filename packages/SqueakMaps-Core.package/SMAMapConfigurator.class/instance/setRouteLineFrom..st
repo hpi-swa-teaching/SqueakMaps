@@ -4,7 +4,7 @@ setRouteLineFrom: aSMARoute
 	| routeLine points |
 
 	routeLine := SMARouteLine new.
-	points := aSMARoute points collect: [:point | self class geoCoordinatesToWorldPos: point].
+	points := aSMARoute waypoints collect: [:point | self class geoCoordinatesToWorldPos: point].
 	routeLine
 		points: points;
 		boundingBox: aSMARoute boundingBox.
