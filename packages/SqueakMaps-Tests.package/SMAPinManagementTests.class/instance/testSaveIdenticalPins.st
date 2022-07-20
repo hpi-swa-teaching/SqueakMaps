@@ -4,12 +4,12 @@ testSaveIdenticalPins
 	| location1 location2 |
 	
 	location1 := SMALocation new
-		latLong: 11.576124@48.137154;
+		coordinates: 11.576124@48.137154;
 		label: 'Munich';
 		yourself.
 	
 	location2 := SMALocation new
-		latLong: 11.576124@48.137154;
+		coordinates: 11.576124@48.137154;
 		label: 'Munich';
 		yourself.
 
