@@ -5,7 +5,7 @@ drawRoute: aRouteLine On: aCanvas
 	
 	aRouteLine points isEmpty ifTrue: [^ self].
 
-	pixelPosRoute := aRouteLine points collect:[:point | self worldPosToPixelPos: (SMAMapConfigurator latLongToWorldPos: point) ].
+	pixelPosRoute := aRouteLine points collect: [:point | self worldPosToPixelPos: point].
 
 	polygon := PolygonMorph new.
 	polygon 

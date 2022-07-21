@@ -1,9 +1,9 @@
 testing
 testORSParseLongLatToStringForUrl
 
-	| longLat parsedLongLat |
+	| coordinates parsedCoordinates |
 	
-	longLat := 13.117216@52.388978.
+	coordinates := SMAGeoCoordinate newFrom: 13.117216 @ 52.388978.
 	
-	parsedLongLat := self orsAPI parseCoordinatesToString: longLat.
-	self assert: parsedLongLat equals: '13.117216,52.388978'
+	parsedCoordinates := self orsAPI parseCoordinatesToString: coordinates.
+	self assert: parsedCoordinates equals: '13.117216,52.388978'

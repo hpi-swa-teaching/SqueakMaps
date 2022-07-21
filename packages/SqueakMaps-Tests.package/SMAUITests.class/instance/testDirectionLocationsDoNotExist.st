@@ -4,7 +4,7 @@ testDirectionLocationsDoNotExist
 	| worldposMiddle nonExistingPlace |
 	
 	nonExistingPlace := 'this-place-does-not-exist'.
-	worldposMiddle := 0.5@0.5.
+	worldposMiddle := 0.5 @ 0.5.
 
 	"Destination does not exist"
 	model startSearchInput: 'Berlin'.

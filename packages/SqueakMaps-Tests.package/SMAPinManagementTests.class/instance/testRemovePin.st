@@ -4,7 +4,7 @@ testRemovePin
 	| location |
 	
 	location := SMALocation new
-		latLong: 11.576124@48.137154;
+		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
 		label: 'Munich';
 		yourself.
 

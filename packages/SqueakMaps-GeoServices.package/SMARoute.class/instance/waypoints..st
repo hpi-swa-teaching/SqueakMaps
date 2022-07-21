@@ -1,0 +1,4 @@
+accessing
+waypoints: anOrderedCollectionOfGeoCoordinates
+
+	waypoints := anOrderedCollectionOfGeoCoordinates

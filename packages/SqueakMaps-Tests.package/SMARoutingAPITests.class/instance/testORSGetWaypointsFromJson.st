@@ -1,11 +1,11 @@
 testing
 testORSGetWaypointsFromJson
 
-	| json points |
+	| json waypoints |
 	
 	json := self orsAPI contentSource validRoute.
-	points := self orsAPI getWaypointsFrom: json.
+	waypoints := self orsAPI getWaypointsFrom: json.
 	
-	self assert: points notEmpty.
-	points do: [:longLat | self assert: Point equals: longLat class].
+	self assert: waypoints notEmpty.
+	waypoints do: [:coordinates | self assert: SMAGeoCoordinate equals: coordinates class].
 	

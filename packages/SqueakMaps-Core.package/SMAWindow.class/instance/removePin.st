@@ -1,5 +1,5 @@
 pin management
 removePin
 
-	SMAWindow savedPins removeAllSuchThat: [:p | p latLong = self selectedPin latLong].
+	SMAWindow savedPins removeAllSuchThat: [:p | p coordinates = self selectedPin coordinates].
 	self changed: #buildSearchPinPanelChildren.

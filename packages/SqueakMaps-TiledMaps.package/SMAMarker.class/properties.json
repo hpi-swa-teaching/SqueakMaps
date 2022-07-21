@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"latLong",
 		"label",
-		"color" ],
+		"color",
+		"worldPos" ],
 	"name" : "SMAMarker",
 	"pools" : [
 		 ],

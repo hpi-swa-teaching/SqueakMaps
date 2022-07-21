@@ -10,11 +10,11 @@
 		"distance:" : "TR 6/8/2022 13:42",
 		"duration" : "TR 6/8/2022 13:42",
 		"duration:" : "TR 6/8/2022 13:42",
-		"getCenterLatLong" : "LK 6/21/2022 18:04",
-		"getDistanceAsString" : "RK 6/28/2022 12:06",
-		"getDurationAsString" : "TR 6/3/2022 20:23",
-		"initialize" : "TR 7/8/2022 09:11",
-		"points" : "TR 7/8/2022 09:00",
-		"points:" : "TR 7/8/2022 09:36",
+		"getCenterGeoCoordinates" : "TR 7/20/2022 11:57",
+		"getDistanceAsString" : "TR 7/20/2022 11:12",
+		"getDurationAsString" : "TR 7/20/2022 11:11",
+		"initialize" : "TR 7/20/2022 11:59",
 		"startLabel" : "TR 7/8/2022 09:00",
-		"startLabel:" : "TR 7/8/2022 09:01" } }
+		"startLabel:" : "TR 7/8/2022 09:01",
+		"waypoints" : "TR 7/20/2022 11:56",
+		"waypoints:" : "TR 7/20/2022 11:57" } }
