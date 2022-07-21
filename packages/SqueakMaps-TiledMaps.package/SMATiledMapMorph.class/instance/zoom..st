@@ -1,6 +1,6 @@
 accessing
 zoom: anInteger
 
-	zoom := tileSource clampZoom: anInteger.
+	zoom := self clampZoom: anInteger.
 	self layoutChanged.
 	self changed

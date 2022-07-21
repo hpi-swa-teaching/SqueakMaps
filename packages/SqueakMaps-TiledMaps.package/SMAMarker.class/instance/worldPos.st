@@ -1,4 +1,6 @@
 accessing
 worldPos
 
-	^ SMAMapConfigurator latLongToWorldPos: self latLong
+	(worldPos isNil)
+		ifTrue: [^ SMAMapConfigurator latLongToWorldPos: self latLong]
+		ifFalse: [^ worldPos]

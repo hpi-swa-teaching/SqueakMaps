@@ -1,8 +1,13 @@
 event handling
 mouseMove: anEvent
 
-	| delta |
-	
+	| delta newCenter newX newY |
+
 	delta := anEvent cursorPoint - lastMouse.
 	lastMouse := anEvent cursorPoint.
-	delta isZero ifFalse: [self center: center - (delta * self pixelSize)]
+
+	newCenter := self center - (delta * self pixelSize).
+	newX := self clampCenterX: newCenter x.
+	newY := self clampCenterY: newCenter y.
+
+	self center: newX @ newY
