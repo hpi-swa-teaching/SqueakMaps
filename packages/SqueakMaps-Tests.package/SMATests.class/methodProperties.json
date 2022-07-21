@@ -13,6 +13,7 @@
 		"testDeleteRouteOnSearch" : "TR 7/21/2022 08:41",
 		"testDirectionsLocationsTooFarApart" : "TR 7/20/2022 11:46",
 		"testDirectionsNoRouteExists" : "TR 7/20/2022 11:50",
+		"testDirectionsSameLocationSearch" : "TR 7/21/2022 18:13",
 		"testDirectionsValidRoute" : "TR 7/20/2022 12:03",
 		"testInvalidLocation" : "TR 7/19/2022 16:36",
 		"testLocationSearchingBerghain" : "TR 7/19/2022 16:35",
