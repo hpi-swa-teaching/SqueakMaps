@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 duplicateAndDrawMarker: aMarker On: aCanvas
 
 	| leftDuplicateMarker rightDuplicateMarker |

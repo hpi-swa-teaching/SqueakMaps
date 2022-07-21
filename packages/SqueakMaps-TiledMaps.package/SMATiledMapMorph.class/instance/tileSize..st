@@ -1,3 +1,3 @@
 accessing
-tileSize: anObject
-	tileSize := anObject
+tileSize: aPoint
+	tileSize := aPoint

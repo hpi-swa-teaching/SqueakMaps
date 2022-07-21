@@ -1,6 +1,6 @@
 accessing
 zoom: anInteger
 
-	zoom := self clampZoom: anInteger.
+	zoom := anInteger.
 	self layoutChanged.
 	self changed

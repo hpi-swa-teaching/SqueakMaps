@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 zoomMax
 
 	^ self tileSource zoomMax

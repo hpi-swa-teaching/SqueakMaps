@@ -1,4 +1,4 @@
-private
+helping
 tilesDo: aBlock
 
 	| tile formPromise |

@@ -19,7 +19,7 @@ focusLocations: aCollectionOfSMALocations
 	
 	boundingBox := min corner: max.
 	zoom := self calculateZoomForBoundingBox: boundingBox.
-	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
+	self tiledMapMorph zoom: zoom.
 	
 	self tiledMapMorph layoutChanged.
 	self tiledMapMorph changed

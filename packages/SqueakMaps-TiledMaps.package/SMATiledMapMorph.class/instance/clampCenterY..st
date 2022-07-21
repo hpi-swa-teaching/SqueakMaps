@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 clampCenterY: aNumber
 
 	(aNumber > 0.5)

@@ -8,7 +8,7 @@ displayRoute: aSMARoute
 	self setRouteLineFrom: aSMARoute.
 
 	zoom := self calculateZoomForBoundingBox: aSMARoute boundingBox.
-	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
+	self tiledMapMorph zoom: zoom.
 	
 	self setAllMarkersFrom: aSMARoute.
 	

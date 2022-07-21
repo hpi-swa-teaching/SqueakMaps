@@ -1,4 +1,4 @@
-helping
+event handling
 getLatLongFromCursorPoint: aPoint
 
 	| position |

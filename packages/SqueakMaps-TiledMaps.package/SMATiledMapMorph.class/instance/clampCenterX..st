@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 clampCenterX: aNumber
 
 	| overlapX newX |

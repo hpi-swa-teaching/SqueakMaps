@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 clampZoom: anInteger
 
 	^ (anInteger max: self zoomMin) min: self zoomMax
