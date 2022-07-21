@@ -1,7 +1,7 @@
 testing
 testTransportationModeInput
 	
-	| 	transportationModeCar 	transportationModeBike 	transportationModeWalk defaultTransportationMode |
+	| transportationModeCar transportationModeBike transportationModeWalk defaultTransportationMode |
 	
 	transportationModeCar := #car.
 	transportationModeBike := #bike.

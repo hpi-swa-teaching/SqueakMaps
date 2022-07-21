@@ -2,7 +2,8 @@ testing
 testDirectionLocationsAreNotProvided
 
 	| worldposMiddle |
-	worldposMiddle := 0.5@0.5. "worldPos without any zoom"
+	
+	worldposMiddle := 0.5 @ 0.5. "worldPos without any zoom"
 
 	"Destination not set"
 	model startSearchInput: 'Berlin'.
