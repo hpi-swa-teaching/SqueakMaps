@@ -16,6 +16,11 @@ searchDirections
 		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
 	
 	self mapConfigurator clear.
+	
+	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
+		self mapConfigurator displayLocation: startLocation.
+		self mapConfigurator focusLocation: startLocation.
+		^ self inform: 'Start and Destination Location are the same.'].
 
 	[route := self searchManager getRouteFrom: startLocation To: destinationLocation By: transportMode.]
 		on: Error
