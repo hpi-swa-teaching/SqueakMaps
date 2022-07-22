@@ -1,7 +1,7 @@
 displaying
 focusLocations: aCollectionOfSMALocations
 
-	| centerGeoCoord centerWorldPos boundingBox|
+	| centerGeoCoord centerWorldPos boundingBox |
 	
 	boundingBox := self boundingBoxFor: aCollectionOfSMALocations.
 	centerGeoCoord := SMAGeoCoordinate newFrom: boundingBox center.

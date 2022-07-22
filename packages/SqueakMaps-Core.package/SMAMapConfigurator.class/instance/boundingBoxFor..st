@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 boundingBoxFor: aCollectionOfSMALocations 
 
 	| min max |

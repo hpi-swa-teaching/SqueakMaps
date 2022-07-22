@@ -10,6 +10,7 @@ worldPosToGeoCoordinates: aWorldPos
 	lat := aWorldPos y - 0.5 * (Float pi * 2).
 	"Do transformation"
 	lat := lat sinh arcTan.
+	"Positive latitude is 'up'."
 	lat := lat radiansToDegrees negated.
 	
 	^ SMAGeoCoordinate newLong: long Lat: lat

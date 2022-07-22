@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"geoCoordinatesToWorldPos:" : "ros 7/22/2022 10:52",
+		"geoCoordinatesToWorldPos:" : "os 7/23/2022 01:37",
 		"newWith:" : "TR 6/25/2022 12:53",
-		"worldPosToGeoCoordinates:" : "os 7/22/2022 17:00" },
+		"worldPosToGeoCoordinates:" : "os 7/23/2022 01:36" },
 	"instance" : {
 		"addMarkerFrom:" : "os 7/22/2022 17:09",
 		"boundingBoxFor:" : "JR 7/22/2022 15:48",
@@ -11,10 +11,10 @@
 		"displayLocation:" : "JR 7/22/2022 14:41",
 		"displayRoute:" : "JR 7/22/2022 14:59",
 		"focusLocation:" : "JR 7/22/2022 14:59",
-		"focusLocations:" : "os 7/22/2022 16:56",
+		"focusLocations:" : "os 7/23/2022 00:55",
 		"getCurrentZoom" : "LK 6/27/2022 12:11",
 		"setAllMarkersFrom:" : "JR 7/22/2022 15:13",
-		"setRouteLineFrom:" : "JR 7/22/2022 15:15",
+		"setRouteLineFrom:" : "os 7/23/2022 00:19",
 		"setZoomForBoundingBox:" : "JR 7/22/2022 14:59",
 		"tiledMapMorph" : "TR 6/25/2022 12:52",
 		"tiledMapMorph:" : "TR 6/25/2022 12:53",

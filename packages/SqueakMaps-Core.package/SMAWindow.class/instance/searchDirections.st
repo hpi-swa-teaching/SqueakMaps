@@ -1,11 +1,11 @@
 search
 searchDirections
 
-	| start destination startLocation destinationLocation transportMode route |
+	| start destination startLocation destinationLocation transportationMode newRoute |
 	
 	start := self startSearchInput.
 	destination := self destinationSearchInput.
-	transportMode := self transportationModeInput.
+	transportationMode := self transportationModeInput.
 	
 	(start isEmpty or: [destination isEmpty]) ifTrue: [
 		^ self inform: 'Please enter a start and destination location.'].
@@ -22,16 +22,15 @@ searchDirections
 		self mapConfigurator focusLocation: startLocation.
 		^ self inform: 'Start and Destination Location are the same.'].
 
-	[route := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportMode.]
+	[newRoute := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportationMode]
 		on: Error
 		do: [:error | 
 				self mapConfigurator displayLocation: startLocation;
 					displayLocation: destinationLocation;
 					focusLocations: { startLocation . destinationLocation }.
-					
 				^ self handleError: error].
 	
-	self mapConfigurator displayRoute: route.
-	self route: route;
+	self mapConfigurator displayRoute: newRoute.
+	self route: newRoute;
 		hasSearched: true;
 		changed: #buildSidebarTopChildren
