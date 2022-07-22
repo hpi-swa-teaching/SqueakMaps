@@ -11,7 +11,7 @@ testORSUnreachableDestination
 	transportationMode := #car.
 	self orsAPI contentSource expectedReturn: #unreachableDestination.
 	
-	self should: [self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode] 
+	self should: [self orsAPI getRouteFrom: startCoordinates to: endCoordinates by: transportationMode] 
 		raise: SMAUnreachableDestinationError
 		description: 'Wrong error thrown'
 		

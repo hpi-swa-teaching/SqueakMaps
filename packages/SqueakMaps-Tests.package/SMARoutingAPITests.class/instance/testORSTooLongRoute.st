@@ -11,6 +11,6 @@ testORSTooLongRoute
 	transportationMode := #car.
 	self orsAPI contentSource expectedReturn: #tooLongRoute.
 	
-	self should: [self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode] 
+	self should: [self orsAPI getRouteFrom: startCoordinates to: endCoordinates by: transportationMode] 
 		raise: SMARouteTooLongError
 		description: 'Wrong error thrown'

@@ -22,24 +22,16 @@ searchDirections
 		self mapConfigurator focusLocation: startLocation.
 		^ self inform: 'Start and Destination Location are the same.'].
 
-	[route := self searchManager getRouteFrom: startLocation To: destinationLocation By: transportMode.]
+	[route := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportMode.]
 		on: Error
-		do: [:error |
-			self mapConfigurator displayLocation: startLocation.
-			self mapConfigurator displayLocation: destinationLocation.
-			self mapConfigurator focusLocations: { startLocation . destinationLocation }.
-			
-			error class = SMARouteTooLongError ifTrue: [
-				^ self inform: 'The chosen locations are too far apart from each other.'].
-			error class = SMAUnreachableDestinationError ifTrue: [
-				^ self inform: 'There exists no route between the chosen locations.'].
-			error class = SMALocationNameNotFoundError ifTrue: [
-				^ self inform: 'No location with name "' , error requestedName , '" found.'].
-			error class = SMAInvalidApiKeyError ifTrue: [
-				^ self inform: 'Please set a valid API key. This can be done by clicking the Manage API Keys button.'].
-			error signal].
+		do: [:error | 
+				self mapConfigurator displayLocation: startLocation;
+					displayLocation: destinationLocation;
+					focusLocations: { startLocation . destinationLocation }.
+					
+				^ self handleError: error].
 	
 	self mapConfigurator displayRoute: route.
-	self route: route.
-	self hasSearched: true.
-	self changed: #buildSidebarTopChildren
+	self route: route;
+		hasSearched: true;
+		changed: #buildSidebarTopChildren

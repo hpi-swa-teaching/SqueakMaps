@@ -1,5 +1,5 @@
 searching
-getRouteFrom: aStartGeoCoordinate To: anEndGeoCoordinate By: aSymbol
+getRouteFrom: aStartGeoCoordinate to: anEndGeoCoordinate by: aSymbol
 
 	| queryUrl json |
 	

@@ -2,7 +2,5 @@ accessing
 tileSource: aTileSource
 
 	tileSource := aTileSource.
-	self 
-		layoutChanged;
-		changed;
+	self layoutChanged;
 		refreshMap

@@ -10,5 +10,4 @@ centerOnEvent: anEvent around: aBlock
 	newPixelSize := self pixelSize.
 	delta := delta * (newPixelSize / oldPixelSize).
 	center := p - delta.
-	self layoutChanged.
-	self changed
+	self layoutChanged

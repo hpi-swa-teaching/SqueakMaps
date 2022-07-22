@@ -1,26 +1,12 @@
 displaying
 focusLocations: aCollectionOfSMALocations
 
-	| zoom centerGeoCoord centerWorldPos min max sum boundingBox |
+	| centerGeoCoord centerWorldPos boundingBox|
 	
-	boundingBox := Rectangle new.
-	min := Float infinity @ Float infinity.
-	max := Float negativeInfinity @ Float negativeInfinity.
-	sum := 0 @ 0.
-
-	aCollectionOfSMALocations do: [:location |
-		min := min min: location boundingBox origin.
-		max := max max: location boundingBox corner.
-		sum := sum + location coordinates convertToPoint].
+	boundingBox := self boundingBoxFor: aCollectionOfSMALocations.
 	
-	centerGeoCoord := SMAGeoCoordinate newFrom: sum / aCollectionOfSMALocations size.
+	centerGeoCoord := SMAGeoCoordinate newFrom: boundingBox center.
 	centerWorldPos := self class geoCoordinatesToWorldPos: centerGeoCoord.
 	self tiledMapMorph center: centerWorldPos.
-	
-	boundingBox := min corner: max.
-	zoom := self calculateZoomForBoundingBox: boundingBox.
-	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
-	
-	self tiledMapMorph 
-		layoutChanged;
-		changed
+	self setZoomForBoundingBox: boundingBox.
+	self tiledMapMorph layoutChanged
