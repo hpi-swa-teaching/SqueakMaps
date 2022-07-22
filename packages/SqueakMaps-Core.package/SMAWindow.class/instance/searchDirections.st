@@ -13,7 +13,7 @@ searchDirections
 	[startLocation := self searchManager locate: start.
 	destinationLocation := self searchManager locate: destination]
 		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
+		do: [:error | ^ self informLocationNameNotFound: error requestedName].
 	
 	self mapConfigurator clear.
 	

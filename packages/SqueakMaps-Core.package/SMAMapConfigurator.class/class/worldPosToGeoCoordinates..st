@@ -1,11 +1,14 @@
 coordinate converting
 worldPosToGeoCoordinates: aWorldPos
-	"Follows the calculation at http://mathworld.wolfram.com/MercatorProjection.html."
+	"Mercator Projection. Follows the calculation at 	http://mathworld.wolfram.com/MercatorProjection.html."
 	
 	| lat long |
 	
+	"Shift long to Interval [-180, 180]"
 	long := aWorldPos x * 360  - 180. 
+	"Scale lat to Interval [-PI, +PI] --> Radians"
 	lat := aWorldPos y - 0.5 * (Float pi * 2).
+	"Do transformation"
 	lat := lat sinh arcTan.
 	lat := lat radiansToDegrees negated.
 	
