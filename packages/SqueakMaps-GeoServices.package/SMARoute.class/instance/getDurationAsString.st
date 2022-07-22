@@ -1,4 +1,4 @@
-accessing
+calculating
 getDurationAsString
 
 	^ self duration isNil

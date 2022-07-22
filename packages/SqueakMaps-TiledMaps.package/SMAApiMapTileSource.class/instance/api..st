@@ -1,3 +1,3 @@
 accessing
-api: anObject
-	api := anObject
+api: aMapsApi
+	api := aMapsApi

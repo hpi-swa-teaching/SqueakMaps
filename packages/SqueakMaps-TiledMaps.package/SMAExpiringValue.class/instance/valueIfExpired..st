@@ -1,4 +1,4 @@
-accessing
+initialize-release
 valueIfExpired: aBlock
 
 	| now |

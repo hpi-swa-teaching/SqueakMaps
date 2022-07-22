@@ -16,4 +16,4 @@ drawRoute: aRouteLine On: aCanvas
 			makeOpen;
 			visible: true.
 			
-	aCanvas drawMorph: polygon.
+	aCanvas drawMorph: polygon

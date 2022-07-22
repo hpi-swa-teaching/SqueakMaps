@@ -19,4 +19,4 @@ testSaveIdenticalPins
 	model setSelectedPin: location2.
 	model savePin.
 	
-	self assert: (model class savedPins size) equals: 1.
+	self assert: (model class savedPins size) equals: 1

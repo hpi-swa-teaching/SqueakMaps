@@ -13,8 +13,6 @@ testSelectSavedPin
 
 	[pinManagementButton click] valueSupplyingAnswers: {{'Saved Pins' . 'Munich (48.137154 °N, 11.576124 °E)'}}.
 	
-	"mapLocations :=  model tiledMapMorph markers select: [:marker | self halt. (SMAMapConfigurator worldPosToGeoCoordinates: marker point) =  location coordinates]."
-	
 	self assert: model tiledMapMorph markers size = 1.
 	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates)  equals: model tiledMapMorph center.
 	self assert: 9 equals: model tiledMapMorph zoom

@@ -1,3 +1,4 @@
 accessing
-thunderforestMapsApi: anObject
-	thunderforestMapsApi := anObject
+thunderforestMapsApi: aSMAThunderforestMapsApi
+
+	thunderforestMapsApi := aSMAThunderforestMapsApi

@@ -1,6 +1,7 @@
 coordinate converting
 geoCoordinatesToWorldPos: aSMAGeoCoordinate
 	"Greenwich is at 0.5 x, equator is at 0.5 y. North pole at 0 y, Americas at ~0.25 x."
+	
 	| x y |
 	x := (aSMAGeoCoordinate long + 180 \\ 360 / 360) asFloat.
 	

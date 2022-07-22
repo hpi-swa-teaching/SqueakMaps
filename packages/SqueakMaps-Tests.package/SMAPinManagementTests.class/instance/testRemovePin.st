@@ -11,4 +11,4 @@ testRemovePin
 	model class savedPins add: location.
 	model setSelectedPin: location.
 	model removePin.
-	self assert: (model class savedPins includes: location) equals: false.
+	self assert: (model class savedPins includes: location) equals: false

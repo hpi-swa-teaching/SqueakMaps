@@ -17,6 +17,6 @@ testORSIsApiKeyValid
 	self orsAPI contentSource expectedReturn: #correctApiKey.
 	self should: [self orsAPI getRouteFrom: coordinates To: coordinates By: orsAPI defaultTransportationMode] 
 		raise: SMAUnreachableDestinationError 
-		description: 'Wrong error thrown'.
+		description: 'Wrong error thrown'
 		
 	

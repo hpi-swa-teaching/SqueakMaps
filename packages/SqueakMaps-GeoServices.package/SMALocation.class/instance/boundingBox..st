@@ -1,4 +1,4 @@
 accessing
 boundingBox: aRectangle
 
-	boundingBox := aRectangle.
+	boundingBox := aRectangle

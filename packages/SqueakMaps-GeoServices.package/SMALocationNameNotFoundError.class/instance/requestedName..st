@@ -1,4 +1,4 @@
 accessing
-requestedName: anObject
+requestedName: aQueryString
 
-	requestedName := anObject.
+	requestedName := aQueryString

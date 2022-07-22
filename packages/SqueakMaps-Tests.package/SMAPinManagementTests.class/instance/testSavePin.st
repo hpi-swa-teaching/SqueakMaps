@@ -10,4 +10,4 @@ testSavePin
 
 	model setSelectedPin: location.
 	model savePin.
-	self assert: (model class savedPins includes: location) equals: true.
+	self assert: (model class savedPins includes: location) equals: true

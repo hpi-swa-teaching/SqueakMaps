@@ -7,6 +7,6 @@ testORSGetRouteDistanceFromJson
 	distance := self orsAPI getRouteDistanceFrom: json.
 	
 	self assert: SmallInteger equals: distance class.
-	self assert: distance > 0.
+	self assert: distance > 0
 	
 	
