@@ -15,4 +15,4 @@ testDirectionsNoRouteExists
 	[self squeakMapsWindow searchDirections] valueSupplyingAnswer: {errorText. #closeDialog}.
 	self assert: tiledMapMorph markers size = 2.
 	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Berlin']).
-	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Madeira']).
+	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Madeira'])

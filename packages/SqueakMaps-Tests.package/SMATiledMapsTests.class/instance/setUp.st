@@ -1,3 +1,4 @@
 running
 setUp
-	tiledMapMorph := (SMATiledMapMorph new fullBounds; yourself).
+
+	tiledMapMorph := (SMATiledMapMorph new fullBounds; yourself)

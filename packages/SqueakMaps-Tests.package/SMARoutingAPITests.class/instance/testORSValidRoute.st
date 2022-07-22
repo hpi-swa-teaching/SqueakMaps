@@ -16,5 +16,5 @@ testORSValidRoute
 	self assert: route boundingBox width > 0.
 	self assert: route waypoints notEmpty.
 	self assert: route distance > 0.
-	self assert: route duration > 0.
+	self assert: route duration > 0
 	

@@ -1,4 +1,4 @@
 returned json files
 noApiKey
 
-	SMAInvalidApiKeyError signal.
+	SMAInvalidApiKeyError signal

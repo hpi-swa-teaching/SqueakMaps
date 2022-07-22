@@ -1,3 +1,4 @@
 running
 tearDown
+
 	tiledMapMorph delete

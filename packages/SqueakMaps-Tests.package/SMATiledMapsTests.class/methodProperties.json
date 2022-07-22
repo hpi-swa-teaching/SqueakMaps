@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "cs 8/4/2020 14:39",
-		"tearDown" : "",
+		"setUp" : "ros 7/22/2022 11:33",
+		"tearDown" : "ros 7/22/2022 11:33",
 		"testGeoCoordinateWorldPosConversion" : "TR 7/19/2022 16:43" } }

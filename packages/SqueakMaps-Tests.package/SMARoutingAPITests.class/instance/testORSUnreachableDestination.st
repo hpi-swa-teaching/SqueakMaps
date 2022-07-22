@@ -13,6 +13,6 @@ testORSUnreachableDestination
 	
 	self should: [self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode] 
 		raise: SMAUnreachableDestinationError
-		description: 'Wrong error thrown'.
+		description: 'Wrong error thrown'
 		
 	
