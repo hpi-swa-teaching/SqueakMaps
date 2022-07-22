@@ -7,5 +7,5 @@ buildSearchPinPanelSavePinButton: aBuilder
 			padding: 10;
 			action: #savePin;
 			help: 'Save this pin to access it later.';
-			yourself.
+			yourself
 			

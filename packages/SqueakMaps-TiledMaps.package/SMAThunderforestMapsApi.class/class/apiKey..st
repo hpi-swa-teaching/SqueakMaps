@@ -1,3 +1,4 @@
 accessing
-apiKey: anObject
-	ApiKey := anObject
+apiKey: aString
+
+	ApiKey := aString

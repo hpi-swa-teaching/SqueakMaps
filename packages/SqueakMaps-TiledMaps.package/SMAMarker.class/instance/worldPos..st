@@ -1,4 +1,4 @@
 accessing
-worldPos: anObject
+worldPos: aPoint
 
-	worldPos := anObject.
+	worldPos := aPoint

@@ -1,10 +1,10 @@
 building
-buildWith: builder
+buildWith: aBuilder
 
-	^ builder build: (builder pluggableWindowSpec new
+	^ aBuilder build: (aBuilder pluggableWindowSpec new
 			model: self;
 			label: 'SqueakMaps';
 			extent: 800 @ 500;
 			children: {
-				self buildSidebar: builder .
-				self buildMap: builder})
+				self buildSidebar: aBuilder.
+				self buildMap: aBuilder})

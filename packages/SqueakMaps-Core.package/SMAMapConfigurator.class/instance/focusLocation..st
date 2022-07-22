@@ -9,5 +9,6 @@ focusLocation: aSMALocation
 	zoom := self calculateZoomForBoundingBox: aSMALocation boundingBox.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
 	
-	self tiledMapMorph layoutChanged.
-	self tiledMapMorph changed
+	self tiledMapMorph 
+		layoutChanged;
+		changed

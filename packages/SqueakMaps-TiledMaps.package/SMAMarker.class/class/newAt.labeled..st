@@ -5,4 +5,4 @@ newAt: aPoint labeled: aLabel
 		worldPos: aPoint;
 		label: aLabel;
 		color: Color red;
-		yourself).
+		yourself)

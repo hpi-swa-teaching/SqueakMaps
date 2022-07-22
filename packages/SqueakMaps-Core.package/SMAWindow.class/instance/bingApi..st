@@ -1,3 +1,4 @@
 accessing
-bingApi: anObject
-	bingApi := anObject
+bingApi: aSMABingMapsApi
+
+	bingApi := aSMABingMapsApi

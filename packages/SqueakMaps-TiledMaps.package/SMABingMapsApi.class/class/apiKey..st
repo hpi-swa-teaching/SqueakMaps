@@ -1,3 +1,4 @@
-as yet unclassified
-apiKey: anObject
-	ApiKey := anObject
+accessing
+apiKey: aString
+
+	ApiKey := aString

@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self contentSource: SMAJsonUrlReader new.
+	self contentSource: SMAJsonUrlReader new

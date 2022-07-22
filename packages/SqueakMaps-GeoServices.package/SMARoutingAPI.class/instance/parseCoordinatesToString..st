@@ -1,4 +1,4 @@
-as yet unclassified
+coordinates
 parseCoordinatesToString: aSMAGeoCoordinate
 
 	self subclassResponsibility

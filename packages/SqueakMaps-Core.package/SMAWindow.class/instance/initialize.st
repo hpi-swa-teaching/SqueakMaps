@@ -10,6 +10,6 @@ initialize
 	self thunderforestMapsApi: SMAThunderforestMapsApi new.
 
 	self tiledMapMorph onDoubleClickAction: [:aPoint | 
-		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)].
+		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)]
 	
 	

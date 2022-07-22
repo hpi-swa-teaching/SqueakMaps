@@ -12,5 +12,6 @@ displayRoute: aSMARoute
 	
 	self setAllMarkersFrom: aSMARoute.
 	
-	self tiledMapMorph layoutChanged.
-	self tiledMapMorph changed
+	self tiledMapMorph 
+		layoutChanged;
+		changed

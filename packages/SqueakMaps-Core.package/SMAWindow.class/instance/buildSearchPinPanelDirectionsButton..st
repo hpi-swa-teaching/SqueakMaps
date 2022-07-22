@@ -7,5 +7,5 @@ buildSearchPinPanelDirectionsButton: aBuilder
 			padding: 10;
 			action: #switchToDirectionsView;
 			help: 'Click on this button to switch to directions view.';
-			yourself.
+			yourself
 			

@@ -1,6 +1,5 @@
-accessing
+calculating
 getCenterGeoCoordinates
-
 	"Calculates the midpoint on a straight line on a plane between the two given Coordinates."
 
 	| firstCoordinates secondCoordinates long lat |

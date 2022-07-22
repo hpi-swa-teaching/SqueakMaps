@@ -1,4 +1,4 @@
 accessing
-long: anObject
+long: aNumber
 
-	long := anObject.
+	long := aNumber

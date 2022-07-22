@@ -14,5 +14,6 @@ drawMarker: aMarker on: aCanvas
 	aCanvas fillRectangle: ((labelPos extent: labelSize) expandBy: 2) fillStyle: translucentWhite.
 	aCanvas drawString: aMarker label at: labelPos font: font color: Color black.
 
-	aCanvas drawPolygon: {pixelPos. pixelPos + (-5 @ -20). pixelPos + (5 @ -20)}
+	aCanvas 
+		drawPolygon: { pixelPos. pixelPos + (-5 @ -20). pixelPos + (5 @ -20) }
 		fillStyle: aMarker color
