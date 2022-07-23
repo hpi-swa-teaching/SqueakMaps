@@ -1,5 +1,5 @@
 url
-queryUrlFrom: aStartGeoCoordinate To: anEndGeoCoordinate By: aString
+queryUrlFrom: aStartGeoCoordinate to: anEndGeoCoordinate by: aString
 
 	| formatStart formatEnd |
 	

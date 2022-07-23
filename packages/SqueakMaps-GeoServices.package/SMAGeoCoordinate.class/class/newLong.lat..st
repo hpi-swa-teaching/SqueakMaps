@@ -1,5 +1,5 @@
 initialize-release
-newLong: aNumber Lat: anotherNumber
+newLong: aNumber lat: anotherNumber
 
 	^ self new
 		long: aNumber;

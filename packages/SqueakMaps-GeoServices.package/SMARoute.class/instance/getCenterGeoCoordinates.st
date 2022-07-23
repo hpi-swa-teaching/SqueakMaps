@@ -10,4 +10,4 @@ getCenterGeoCoordinates
 	long := firstCoordinates long + secondCoordinates long / 2.
 	lat := firstCoordinates lat + secondCoordinates lat / 2.
 
-	^ SMAGeoCoordinate newLong: long Lat: lat
+	^ SMAGeoCoordinate newLong: long lat: lat

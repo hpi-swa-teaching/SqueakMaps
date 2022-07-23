@@ -5,10 +5,9 @@ getRouteFrom: aStartGeoCoordinate to: anEndGeoCoordinate by: aSymbol
 	
 	queryUrl := self 
 		queryUrlFrom: aStartGeoCoordinate 
-		To: anEndGeoCoordinate 
-		By: (self transportationModeLookup: aSymbol).
+		to: anEndGeoCoordinate 
+		by: (self transportationModeLookup: aSymbol).
 	json := self contentSource getJsonFrom: queryUrl.
-	
 	(json includesKey: 'error') ifTrue: [self handleErrorWithJson: json].
 	
 	^ self makeRouteFrom: json
