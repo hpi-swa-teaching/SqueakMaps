@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"testConvertCoordinateToStringLatLong" : "os 7/23/2022 02:09",
-		"testConvertCoordinateToStringLongLat" : "os 7/23/2022 02:09",
 		"testRouteCenterCoordinates" : "os 7/23/2022 02:10",
 		"testRouteDistanceAsString" : "TR 7/20/2022 11:12",
 		"testRouteDurationAsString" : "ros 7/22/2022 11:27" } }

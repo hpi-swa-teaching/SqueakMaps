@@ -1,17 +1,12 @@
 calculating
 getDurationAsString
-	"Calculate hours and minutes from seconds."
+	"Calculates hours and minutes from seconds and returns as String."
 	
-	| hourInSeconds hourInMinutes minuteInSeconds |
-	
-	minuteInSeconds := 60.
-	hourInMinutes := 60.
-	hourInSeconds := hourInMinutes * minuteInSeconds.
+	| hours minutes | 
 
 	^ self duration isNil
 		ifTrue: [String empty]
 		ifFalse: [
-			| hours minutes |
-			hours := (self duration / hourInSeconds) floor.
-			minutes := (self duration / minuteInSeconds  - (hours * hourInMinutes)) rounded.
+			hours := (self duration / (60 * 60)) floor.
+			minutes := (self duration / 60 - (hours * 60)) rounded.
 			hours asString , 'h ',  minutes asString, 'min']
