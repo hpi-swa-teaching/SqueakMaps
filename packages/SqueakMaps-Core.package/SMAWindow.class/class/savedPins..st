@@ -1,4 +1,4 @@
 accessing
-savedPins: aSet
+savedPins: anOrderedCollectionOfLocations
 
-	SavedPins := aSet
+	SavedPins := anOrderedCollectionOfLocations

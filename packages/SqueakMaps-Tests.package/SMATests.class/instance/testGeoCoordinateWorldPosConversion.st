@@ -1,4 +1,4 @@
-testing
+converting
 testGeoCoordinateWorldPosConversion
 
 	| newYorkCoordinates newyorkWorldPos computedLong computedLat computedCoordinates precision |

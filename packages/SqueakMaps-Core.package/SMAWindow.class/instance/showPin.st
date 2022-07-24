@@ -4,8 +4,8 @@ showPin
 	| index location |
 	
 	index := self requestSavedPinSelection.
-	index = 0 ifTrue: [^ nil].
-	location := self class savedPins at: index.
+	index = 0 ifTrue: [^ self inform: 'No pins saved.'].
+	location := SMAWindow savedPins at: index.
 	self switchToSearchViewWith: location.
 	self mapConfigurator 
 		clear;
