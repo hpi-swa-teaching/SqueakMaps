@@ -7,7 +7,7 @@ focusLocation: aSMALocation
 	self tiledMapMorph center: centerWorldPos.
 	
 	zoom := self calculateZoomForBoundingBox: aSMALocation boundingBox.
-	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
+	self tiledMapMorph zoom: zoom.
 	
 	self tiledMapMorph 
 		layoutChanged;
