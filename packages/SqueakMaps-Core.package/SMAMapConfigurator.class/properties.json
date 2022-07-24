@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TR 7/24/2022 18:31",
 	"instvars" : [
 		"tiledMapMorph" ],
 	"name" : "SMAMapConfigurator",
