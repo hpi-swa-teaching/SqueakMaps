@@ -1,4 +1,4 @@
 accessing
-points: anOrderedCollection
+points: anOrderedCollectionOfPoints
 
-	points := anOrderedCollection
+	points := anOrderedCollectionOfPoints

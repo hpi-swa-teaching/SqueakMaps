@@ -9,6 +9,7 @@ initialize
 	self bingApi: SMABingMapsApi new.
 	self thunderforestMapsApi: SMAThunderforestMapsApi new.
 
-	self tiledMapMorph onDoubleClickAction: [:aLatLong | self searchLocationFromCoordinates: aLatLong].
+	self tiledMapMorph onDoubleClickAction: [:aPoint | 
+		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)]
 	
 	

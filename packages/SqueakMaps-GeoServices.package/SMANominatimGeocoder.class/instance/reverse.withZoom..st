@@ -1,20 +1,21 @@
 searching
-reverse: aLatLong withZoom: aZoom
+reverse: aSMAGeoCoordinate withZoom: aNumber
 
 	| json queryUrl | 
 	
-	queryUrl := self reverseUrlFor: aLatLong withZoom: aZoom.
+	queryUrl := self reverseUrlFor: aSMAGeoCoordinate withZoom: aNumber.
 	json := self contentSource getJsonFrom: queryUrl.
 	
 	(json includesKey: 'error') ifTrue: [
 		(SMALocationUnnameableError new
-			coordinates: aLatLong;
-			zoomLevel: aZoom;
+			coordinates: aSMAGeoCoordinate;
+			zoomLevel: aNumber;
 			messageText: (json at: 'error');
 			yourself) signal].
 
 	^ SMALocation new
-		label: (json at: 'display_name' ifAbsent: [aLatLong y asString, ', ', aLatLong x asString]);
-		latLong: aLatLong;
+		label: (json at: 'display_name' ifAbsent: [
+			aSMAGeoCoordinate lat asString, ', ', aSMAGeoCoordinate long asString]);
+		coordinates: aSMAGeoCoordinate;
 		boundingBox: (self getBoundingBoxFrom: json);
 		yourself

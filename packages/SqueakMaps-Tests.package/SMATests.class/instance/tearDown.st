@@ -1,4 +1,4 @@
 running
 tearDown
 
-	super tearDown.
+	super tearDown

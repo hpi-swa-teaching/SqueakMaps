@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"latLong",
 		"label",
-		"boundingBox" ],
+		"boundingBox",
+		"coordinates" ],
 	"name" : "SMALocation",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

@@ -8,4 +8,4 @@ switchToDirectionsView
 	self hasSearched: false.
 	self currentView: #directions.
 	self changed: #currentView.
-	self changed: #buildSidebarTopChildren.
+	self changed: #buildSidebarTopChildren

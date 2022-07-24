@@ -1,4 +1,4 @@
 url
-parseCoordinatesToString: aLongLat
+parseCoordinatesToString: aSMAGeoCoordinate
 
-	^ aLongLat x asString, ',', aLongLat y asString
+	^ aSMAGeoCoordinate long asString, ',', aSMAGeoCoordinate lat asString

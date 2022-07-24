@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "cs 8/4/2020 14:39",
-		"tearDown" : "",
-		"testWorldPosToLatLong" : "LK 6/28/2022 18:15" } }

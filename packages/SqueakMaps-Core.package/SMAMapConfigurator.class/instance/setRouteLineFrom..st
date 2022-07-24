@@ -1,10 +1,11 @@
 helping
 setRouteLineFrom: aSMARoute
 
-	| routeLine |
+	| routeLine points |
 
 	routeLine := SMARouteLine new.
+	points := aSMARoute waypoints collect: [:point | self class geoCoordinatesToWorldPos: point].
 	routeLine
-		points: aSMARoute points;
+		points: points;
 		boundingBox: aSMARoute boundingBox.
 	self tiledMapMorph route: routeLine

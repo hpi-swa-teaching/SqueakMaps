@@ -1,4 +1,4 @@
-as yet unclassified
-parseCoordinatesToString: aLongLat
+coordinates
+parseCoordinatesToString: aSMAGeoCoordinate
 
 	self subclassResponsibility

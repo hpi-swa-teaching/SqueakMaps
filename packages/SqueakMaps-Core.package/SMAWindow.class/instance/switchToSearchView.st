@@ -4,4 +4,4 @@ switchToSearchView
 	self currentView: #search.
 	self hasSearched: false.
 	self changed: #currentView.
-	self changed: #buildSidebarTopChildren.
+	self changed: #buildSidebarTopChildren

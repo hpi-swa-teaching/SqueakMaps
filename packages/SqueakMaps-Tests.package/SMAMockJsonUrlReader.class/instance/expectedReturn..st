@@ -1,4 +1,4 @@
 accessing
-expectedReturn: anObject
+expectedReturn: aSymbol
 
-	expectedReturn := anObject.
+	expectedReturn := aSymbol.

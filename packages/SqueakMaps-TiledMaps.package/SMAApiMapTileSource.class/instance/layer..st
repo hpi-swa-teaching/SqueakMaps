@@ -1,3 +1,3 @@
 accessing
-layer: anObject
-	layer := anObject
+layer: aString
+	layer := aString

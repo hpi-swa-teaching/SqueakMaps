@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"setUp" : "TR 7/8/2022 09:45",
-		"tearDown" : "",
-		"testPlacePin" : "TR 7/8/2022 10:21",
-		"testRemovePin" : "TR 7/8/2022 09:38",
-		"testSaveIdenticalPins" : "TR 7/8/2022 09:38",
-		"testSavePin" : "TR 7/8/2022 09:38",
-		"testSelectSavedPin" : "TR 7/8/2022 09:39" } }
+		"tearDown" : "ros 7/22/2022 11:28",
+		"testNoPinsSaved" : "TR 7/24/2022 14:31",
+		"testPlacePin" : "TR 7/20/2022 08:27",
+		"testRemovePin" : "ros 7/22/2022 11:28",
+		"testSaveIdenticalPins" : "ros 7/22/2022 11:28",
+		"testSavePin" : "ros 7/22/2022 11:29",
+		"testSelectSavedPin" : "ros 7/22/2022 11:29" } }

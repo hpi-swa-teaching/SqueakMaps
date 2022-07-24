@@ -3,7 +3,7 @@ testSearchLocationDoesNotExist
 
 	| worldposMiddle locationName |
 	
-	worldposMiddle := 0.5@0.5. "worldPos without any zoom"
+	worldposMiddle := 0.5 @ 0.5. "worldPos without any zoom"
 	locationName := 'this-place-does-not-exist'.
 	
 	model searchInput: locationName.

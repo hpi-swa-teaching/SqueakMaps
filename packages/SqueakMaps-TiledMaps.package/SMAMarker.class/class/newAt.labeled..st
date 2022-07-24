@@ -1,8 +1,8 @@
 as yet unclassified
-newAt: aLatLong labeled: aLabel
+newAt: aPoint labeled: aLabel
 	
 	^ (self new
-		latLong:  aLatLong;
+		worldPos: aPoint;
 		label: aLabel;
 		color: Color red;
-		yourself).
+		yourself)

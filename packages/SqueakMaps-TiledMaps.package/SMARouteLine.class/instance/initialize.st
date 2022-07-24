@@ -2,4 +2,6 @@ initialize-release
 initialize 
 
 	super initialize.
-	self color: Color blue.
+	self boundingBox: Rectangle new.
+	self points: OrderedCollection new.
+	self color: Color blue

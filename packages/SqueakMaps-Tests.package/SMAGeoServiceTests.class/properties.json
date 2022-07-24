@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMAGeoServiceTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

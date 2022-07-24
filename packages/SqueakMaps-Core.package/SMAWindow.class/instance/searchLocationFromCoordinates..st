@@ -1,17 +1,18 @@
 search
-searchLocationFromCoordinates: aLatLong
+searchLocationFromCoordinates: aSMAGeoCoordinate
 
 	| location zoom |
 	
 	zoom := self mapConfigurator getCurrentZoom.
-	[location := self searchManager reverse: aLatLong withZoom: zoom]
+	[location := self searchManager reverse: aSMAGeoCoordinate withZoom: zoom]
 		on: SMALocationUnnameableError 
 		do: [: error |
 			location := SMALocation new
-				label: aLatLong y asString, ', ', aLatLong x asString;
-				latLong: aLatLong;
+				label: aSMAGeoCoordinate toStringLatLong;
+				coordinates: aSMAGeoCoordinate;
 				yourself].
 	
 	self switchToSearchViewWith: location.
-	self mapConfigurator clear.
-	self mapConfigurator displayLocation: location
+	self mapConfigurator 
+		clear;
+		displayLocation: location

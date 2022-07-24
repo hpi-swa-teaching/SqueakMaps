@@ -2,6 +2,7 @@ building
 buildSidebarDirectionsChildren: aBuilder
 
 	| children |
+	
 	children := OrderedCollection new.
 	children add: (self buildDirectionsTopRow: aBuilder).
 	children add: (self buildDirectionsStartInput: aBuilder).

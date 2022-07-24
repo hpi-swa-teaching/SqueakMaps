@@ -2,6 +2,7 @@ building
 buildSearchPinPanelChildren
 	
 	| builder children |
+	
 	self selectedPin ifNil: [^ {}].
 	
 	builder := ToolBuilder default.

@@ -1,11 +1,11 @@
 searching
-getRouteFrom: aStartLongLat To: anEndLongLat By: aSymbol
+getRouteFrom: aStartGeoCoordinate To: anEndGeoCoordinate By: aSymbol
 
 	| queryUrl json |
 	
 	queryUrl := self 
-		queryUrlFrom: aStartLongLat 
-		To: anEndLongLat 
+		queryUrlFrom: aStartGeoCoordinate 
+		To: anEndGeoCoordinate 
 		By: (self transportationModeLookup: aSymbol).
 	json := self contentSource getJsonFrom: queryUrl.
 	

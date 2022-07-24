@@ -1,11 +1,11 @@
-drawing
+private
 drawRoute: aRouteLine On: aCanvas
 
 	| polygon pixelPosRoute |
 	
 	aRouteLine points isEmpty ifTrue: [^ self].
 
-	pixelPosRoute := aRouteLine points collect:[:point | self worldPosToPixelPos: (SMAMapConfigurator latLongToWorldPos: point) ].
+	pixelPosRoute := aRouteLine points collect: [:point | self worldPosToPixelPos: point].
 
 	polygon := PolygonMorph new.
 	polygon 
@@ -16,4 +16,4 @@ drawRoute: aRouteLine On: aCanvas
 			makeOpen;
 			visible: true.
 			
-	aCanvas drawMorph: polygon.
+	aCanvas drawMorph: polygon

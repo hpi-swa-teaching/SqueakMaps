@@ -14,4 +14,4 @@ testTransportationModeLookup
 	self assert: carString equals: (self orsAPI transportationModeLookup: modeCar).
 	self assert: bikeString equals: (self orsAPI transportationModeLookup: modeBike).
 	self assert: walkString equals: (self orsAPI transportationModeLookup: modeWalk).
-	self assert: carString equals: (self orsAPI transportationModeLookup: modeDefault).
+	self assert: carString equals: (self orsAPI transportationModeLookup: modeDefault)
