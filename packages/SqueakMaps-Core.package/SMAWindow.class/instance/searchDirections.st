@@ -18,16 +18,12 @@ searchDirections
 	self mapConfigurator clear.
 	
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
-		self mapConfigurator displayLocation: startLocation.
-		self mapConfigurator focusLocation: startLocation.
-		^ self inform: 'Start and Destination Location are the same.'].
+		^ self informSearchedSameLocation: startLocation].
 
 	[newRoute := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportationMode]
 		on: Error
 		do: [:error | 
-				self mapConfigurator displayLocation: startLocation;
-					displayLocation: destinationLocation;
-					focusLocations: { startLocation . destinationLocation }.
+				self mapConfigurator showLocations: {startLocation . destinationLocation}.
 				^ self handleError: error].
 	
 	self mapConfigurator displayRoute: newRoute.
