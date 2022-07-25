@@ -8,7 +8,7 @@
 	"instvars" : [
 		"model",
 		"validORSKey",
-		"ORSKeyBefore" ],
+		"orsKeyBefore" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],
