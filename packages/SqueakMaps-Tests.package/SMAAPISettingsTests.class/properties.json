@@ -14,7 +14,7 @@
 		"ThunderforestMapsKeyBefore",
 		"BingMapsKeyBefore",
 		"tileSourceBefore" ],
-	"name" : "SMAAPITests",
+	"name" : "SMAAPISettingsTests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",
