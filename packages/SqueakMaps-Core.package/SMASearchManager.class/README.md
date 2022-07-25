@@ -1,0 +1,1 @@
+A SMASearchManager provides functionality to search for locations and directions.

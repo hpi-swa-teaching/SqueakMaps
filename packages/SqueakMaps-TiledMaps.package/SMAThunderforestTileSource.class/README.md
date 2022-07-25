@@ -1,1 +1,1 @@
-A SMAThunderstormMapsTileSource is a class which contains behavior and properties to use the Thunderstorm TileSource
+A SMAThunderforestMapsApi provides functionality to use the Thunderforest TileSource.

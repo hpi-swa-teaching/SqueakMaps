@@ -1,1 +1,1 @@
-A SMAWindow provides a UserInterface for Interactions with the Map and has a tiledMapMorph 
+A SMAWindow serves as the main model and kernel of SqueakMaps. It also provides the specs that are used to build the UI.
