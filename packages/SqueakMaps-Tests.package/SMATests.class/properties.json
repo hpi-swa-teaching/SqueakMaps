@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "RK 7/25/2022 15:30",
 	"instvars" : [
-		"squeakMapsWindow",
+		"model",
 		"validORSKey",
 		"ORSKeyBefore" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

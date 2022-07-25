@@ -8,11 +8,11 @@ testDirectionsValidRoute
 	middleCoordinates := SMAGeoCoordinate newFrom: 6.630626999999976 @ 52.01211349999999.
 	zoom := 6.
 
-	self squeakMapsWindow startSearchInput: placeName1.
-	self squeakMapsWindow destinationSearchInput: placeName2.
-	self squeakMapsWindow searchDirections.
+	self model startSearchInput: placeName1.
+	self model destinationSearchInput: placeName2.
+	self model searchDirections.
 
-	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: middleCoordinates) equals: self squeakMapsWindow tiledMapMorph center.
-	self assert: zoom equals: self squeakMapsWindow tiledMapMorph zoom.
-	self assert: self squeakMapsWindow tiledMapMorph route points notEmpty.
-	self assert: 2 equals: self squeakMapsWindow tiledMapMorph markers size
+	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: middleCoordinates) equals: self model tiledMapMorph center.
+	self assert: zoom equals: self model tiledMapMorph zoom.
+	self assert: self model tiledMapMorph route points notEmpty.
+	self assert: 2 equals: self model tiledMapMorph markers size
