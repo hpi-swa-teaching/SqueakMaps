@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 testReverseSearchUnnameableLocation
 
 	| tiledMapMorph zoomBefore centerBefore coordinatesRioSea |

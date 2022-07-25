@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 testReverseSearch
 
 	| tiledMapMorph zoomBefore centerBefore coordinatesTrainStation |
