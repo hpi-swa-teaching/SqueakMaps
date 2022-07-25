@@ -1,5 +1,6 @@
 helping
 zoomMin
+	"Return the minimum required zoom, so that you can not see more than one world"
 
 	| largerSide tileSizeForSide |
 

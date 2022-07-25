@@ -1,5 +1,6 @@
 drawing
 duplicateAndDrawMarker: aMarker On: aCanvas
+	"Also draw the markers in the neighbouring worlds to the left and right"
 
 	| leftDuplicateMarker rightDuplicateMarker |
 

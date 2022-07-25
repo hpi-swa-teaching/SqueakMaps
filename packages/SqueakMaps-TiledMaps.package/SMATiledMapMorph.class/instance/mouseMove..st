@@ -7,7 +7,7 @@ mouseMove: anEvent
 	lastMouse := anEvent cursorPoint.
 
 	newCenter := self center - (delta * self pixelSize).
-	newX := self clampCenterX: newCenter x.
-	newY := self clampCenterY: newCenter y.
+	newX := self clampCoordinateOverflow: newCenter x.
+	newY := self clampWorldPosHeight: newCenter y.
 
 	self center: newX @ newY
