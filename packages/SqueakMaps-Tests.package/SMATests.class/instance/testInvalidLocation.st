@@ -4,7 +4,7 @@ testInvalidLocation
 	| invalidLocationName centerCoordinates |
 	
 	invalidLocationName := 'textMorph'.
-	centerCoordinates := SMAGeoCoordinate newFrom: 13.4430356@52.5111669.
+	centerCoordinates := SMAGeoCoordinate newFrom: 13.4430356 @ 52.5111669.
 	
 	self squeakMapsWindow searchInput: 'berghain'.
 	self squeakMapsWindow searchLocation.

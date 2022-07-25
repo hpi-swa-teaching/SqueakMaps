@@ -1,4 +1,4 @@
-helping
+calculation
 calculateZoomForBoundingBox: aRectangle
 
 	| highZoom |
