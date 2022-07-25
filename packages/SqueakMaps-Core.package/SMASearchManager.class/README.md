@@ -1,1 +1,1 @@
-The search manager provides easy interfaces for searching location names for coordinates, finding places and routes between locations. It is configurable and extendable with various Geocoders and/or Routing APIs.
+A SMASearchManager provides functionality to search for locations and directions.

@@ -1,0 +1,1 @@
+A SMAJsonUrlReader allows reading json data from an url and throws appropriate SMAGeoServiceErrors.
