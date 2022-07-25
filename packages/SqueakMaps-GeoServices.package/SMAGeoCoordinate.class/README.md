@@ -1,0 +1,1 @@
+A SMAGeoCoordinate represents a geographic coordinate.

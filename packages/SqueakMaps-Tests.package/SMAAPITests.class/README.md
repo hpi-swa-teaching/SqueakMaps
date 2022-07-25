@@ -1,1 +1,1 @@
-SMAAPITests provides tests for the API testing
+SMAAPITests contains tests for the different API functionalities.

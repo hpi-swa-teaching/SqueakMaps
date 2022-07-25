@@ -1,1 +1,1 @@
-A SMAApiMapTileSource is a SMAMapTileSource that bundles extra properties for the Bing and Thunderforest TileSource 
+A SMAApiMapTileSource bundles extra properties for the Bing and Thunderforest TileSource.
