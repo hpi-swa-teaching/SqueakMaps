@@ -1,1 +1,1 @@
-A SMAOpenMapsTileSource is a class which builds the OpenStreetMaps-URL for a giiven position
+A SMAOpenMapsTileSource allows to build the OpenStreetMaps-URL for a given position.

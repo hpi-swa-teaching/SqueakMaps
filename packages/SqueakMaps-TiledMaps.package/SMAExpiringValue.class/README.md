@@ -1,1 +1,1 @@
-A SMAExpiringValue provides a timeToLive for TileSources
+A SMAExpiringValue provides a timeToLive for TileSources.

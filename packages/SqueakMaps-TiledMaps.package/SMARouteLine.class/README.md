@@ -1,0 +1,1 @@
+A SMARouteLine represents a line between multiple points on the map.
