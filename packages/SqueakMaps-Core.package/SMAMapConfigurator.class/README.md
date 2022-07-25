@@ -1,0 +1,1 @@
+The map configurator computes and converts input data in order to configure a TiledMapMorph  for specific purposes like displaying a route or zooming for and displaying locations.
