@@ -1,0 +1,1 @@
+SMAGeoServiceTests contains tests for the different GeoServices.

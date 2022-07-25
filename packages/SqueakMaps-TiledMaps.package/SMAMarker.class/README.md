@@ -1,0 +1,1 @@
+A SMAMarker represents a marker on the map.

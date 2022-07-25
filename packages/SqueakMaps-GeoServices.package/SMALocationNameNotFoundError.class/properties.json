@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TR 7/12/2022 10:49",
+	"commentStamp" : "RK 7/25/2022 15:33",
 	"instvars" : [
 		"requestedName" ],
 	"name" : "SMALocationNameNotFoundError",

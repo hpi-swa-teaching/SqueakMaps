@@ -1,1 +1,1 @@
-SMAUITests provides tests for User Interaction with SMAWindow
+SMAUITests contains tests for user interaction with the different parts of the app.
