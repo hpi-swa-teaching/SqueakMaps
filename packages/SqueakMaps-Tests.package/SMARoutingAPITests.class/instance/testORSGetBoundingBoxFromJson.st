@@ -3,7 +3,7 @@ testORSGetBoundingBoxFromJson
 
 	| json bbox |
 	
-	json := self orsAPI contentSource validRoute.
+	json := self validRouteResponse.
 	bbox := self orsAPI getBoundingBoxFrom: json.
 	
 	self assert: Rectangle equals: bbox class.

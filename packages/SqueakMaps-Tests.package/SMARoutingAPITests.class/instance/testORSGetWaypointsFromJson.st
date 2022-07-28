@@ -3,7 +3,7 @@ testORSGetWaypointsFromJson
 
 	| json waypoints |
 	
-	json := self orsAPI contentSource validRoute.
+	json := self validRouteResponse.
 	waypoints := self orsAPI getWaypointsFrom: json.
 	
 	self assert: waypoints notEmpty.

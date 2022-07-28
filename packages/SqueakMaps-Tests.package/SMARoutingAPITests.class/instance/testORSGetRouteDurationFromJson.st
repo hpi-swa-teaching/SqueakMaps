@@ -3,7 +3,7 @@ testORSGetRouteDurationFromJson
 
 	| json duration |
 	
-	json := self orsAPI contentSource validRoute.
+	json := self validRouteResponse.
 	duration := self orsAPI getRouteDurationFrom: json.
 	
 	self assert: SmallInteger equals: duration class.

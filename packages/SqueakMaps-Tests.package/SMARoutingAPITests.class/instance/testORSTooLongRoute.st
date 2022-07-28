@@ -9,7 +9,7 @@ testORSTooLongRoute
 	startCoordinates := SMAGeoCoordinate newFrom: 179.128471 @ 89.393886.
 	endCoordinates := SMAGeoCoordinate newFrom: 13.129373 @ 52.393876.
 	transportationMode := #car.
-	self orsAPI contentSource expectedReturn: #tooLongRoute.
+	self orsAPI contentSource mockGetJsonFromWith: [^ self tooLongRouteResponse].
 	
 	self should: [self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode] 
 		raise: SMARouteTooLongError

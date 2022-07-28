@@ -3,18 +3,18 @@ testORSIsApiKeyValid
 	
 	| coordinates |
 	
-	self orsAPI contentSource expectedReturn: #noApiKey.
+	self orsAPI contentSource mockGetJsonFromWith: [SMAInvalidApiKeyError signal].
 	coordinates := SMAGeoCoordinate newFrom: 0 @ 0.
 	self should: [self orsAPI getRouteFrom: coordinates To: coordinates By: orsAPI defaultTransportationMode] 
 		raise: SMAInvalidApiKeyError 
 		description: 'Wrong error thrown'.
 		
-	self orsAPI contentSource expectedReturn: #wrongApiKey.
+	self orsAPI contentSource mockGetJsonFromWith: [SMAInvalidApiKeyError signal].
 	self should: [self orsAPI getRouteFrom: coordinates To: coordinates By: orsAPI defaultTransportationMode] 
 		raise: SMAInvalidApiKeyError
 		description: 'Wrong error thrown'.
 		
-	self orsAPI contentSource expectedReturn: #correctApiKey.
+	self orsAPI contentSource mockGetJsonFromWith: [^ self nonRoutableResponse].
 	self should: [self orsAPI getRouteFrom: coordinates To: coordinates By: orsAPI defaultTransportationMode] 
 		raise: SMAUnreachableDestinationError 
 		description: 'Wrong error thrown'

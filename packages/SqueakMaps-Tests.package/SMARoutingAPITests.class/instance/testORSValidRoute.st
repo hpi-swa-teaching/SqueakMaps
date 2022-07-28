@@ -8,7 +8,7 @@ testORSValidRoute
 	startCoordinates := SMAGeoCoordinate newFrom: 13.117216 @ 52.388978.
 	endCoordinates := SMAGeoCoordinate newFrom: 13.128289 @ 52.393838.
 	transportationMode := #car.
-	self orsAPI contentSource expectedReturn: #validRoute.
+	self orsAPI contentSource mockGetJsonFromWith: [^ self validRouteResponse].
 	
 	route := self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode.
 	
