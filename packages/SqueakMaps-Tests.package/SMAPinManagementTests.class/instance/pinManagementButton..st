@@ -1,4 +1,4 @@
 accessing
-pinManagementButton: anObject
+pinManagementButton: aPluggableButtonMorphPlus
 
-	pinManagementButton := anObject.
+	pinManagementButton := aPluggableButtonMorphPlus

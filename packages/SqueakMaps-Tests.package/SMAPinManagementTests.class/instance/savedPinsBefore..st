@@ -1,4 +1,4 @@
 accessing
-savedPinsBefore: anObject
+savedPinsBefore: anOrderedCollectionOfLocations
 
-	savedPinsBefore := anObject.
+	savedPinsBefore := anOrderedCollectionOfLocations

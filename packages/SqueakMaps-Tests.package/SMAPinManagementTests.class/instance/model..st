@@ -1,4 +1,4 @@
 accessing
-model: anObject
+model: aSMAWindow
 
-	model := anObject.
+	model := aSMAWindow
