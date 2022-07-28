@@ -11,8 +11,8 @@ testSelectSavedPin
 		
 	SMAWindow savedPins add: location.
 
-	[pinManagementButton click] valueSupplyingAnswers: {{'Saved Pins' . 'Munich (48.137154 °N, 11.576124 °E)'}}.
+	[self pinManagementButton click] valueSupplyingAnswers: {{'Saved Pins' . 'Munich (48.137154 °N, 11.576124 °E)'}}.
 	
-	self assert: model tiledMapMorph markers size = 1.
-	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates)  equals: model tiledMapMorph center.
-	self assert: 9 equals: model tiledMapMorph zoom
+	self assert: self model tiledMapMorph markers size = 1.
+	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates)  equals: self model tiledMapMorph center.
+	self assert: 9 equals: self model tiledMapMorph zoom

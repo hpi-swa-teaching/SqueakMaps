@@ -13,10 +13,10 @@ testSaveIdenticalPins
 		label: 'Munich';
 		yourself.
 
-	model setSelectedPin: location1.
-	model savePin.
+	self model setSelectedPin: location1.
+	self model savePin.
 	
-	model setSelectedPin: location2.
-	model savePin.
+	self model setSelectedPin: location2.
+	self model savePin.
 	
-	self assert: (model class savedPins size) equals: 1
+	self assert: (self model class savedPins size) equals: 1
