@@ -7,7 +7,7 @@ searchLocation
 
 	[location := self searchManager locate: self searchInput.]
 		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
+		do: [:error | ^ self informLocationNameNotFound: error requestedName].
 	
 	self setSelectedPin: location.
 	self mapConfigurator 

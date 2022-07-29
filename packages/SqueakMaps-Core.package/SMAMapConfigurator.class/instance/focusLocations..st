@@ -1,6 +1,7 @@
 displaying
 focusLocations: aCollectionOfSMALocations
 
+
 	| zoom centerGeoCoord centerWorldPos boundingBox |
 	
 	centerGeoCoord := self calculateCenterGeoCoordinatesFrom: aCollectionOfSMALocations.
@@ -10,7 +11,4 @@ focusLocations: aCollectionOfSMALocations
 	boundingBox := self calculateBoundingBoxFrom: aCollectionOfSMALocations.
 	zoom := self calculateZoomForBoundingBox: boundingBox.
 	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
-	
-	self tiledMapMorph 
-		layoutChanged;
-		changed
+	self tiledMapMorph layoutChanged

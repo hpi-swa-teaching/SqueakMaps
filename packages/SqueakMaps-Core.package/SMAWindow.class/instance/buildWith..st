@@ -7,4 +7,5 @@ buildWith: aBuilder
 			extent: 800 @ 500;
 			children: {
 				self buildSidebar: aBuilder.
-				self buildMap: aBuilder})
+				self buildMap: aBuilder};
+			yourself)

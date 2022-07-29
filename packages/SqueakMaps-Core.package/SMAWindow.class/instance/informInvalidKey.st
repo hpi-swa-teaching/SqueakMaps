@@ -1,4 +1,4 @@
 select api
 informInvalidKey
 
-	UIManager default inform: 'Invalid key, please try again'
+	^ self inform: 'Invalid key, please try again'

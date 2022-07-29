@@ -1,4 +1,4 @@
-as yet unclassified
-ApiKey
+accessing
+apiKey
 
 	^ ApiKey ifNil: [ApiKey := '' asString]
