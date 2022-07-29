@@ -5,5 +5,5 @@ urlForPosition: aScaledPosition zoom: aZoom
 	
 	position := 'http://tile.thunderforest.com/', self layer, '/', aZoom asString, '/', aScaledPosition x asString, '/', aScaledPosition y asString, '.png'.
 	
-	self api class apiKey ifNotNil: [:apikey | position := position, '?apikey=', apikey].
+	position := position, '?apikey=', self api class apiKey.
 	^ position asUrl
