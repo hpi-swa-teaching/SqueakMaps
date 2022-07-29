@@ -15,7 +15,7 @@ testLocateValidName
 	
 	returnedLocations := self geocoder locate: locationName.
 	
-	self assert: returnedLocations class equals: OrderedCollection.
+	self assert: returnedLocations class equals: Array.
 	self assert: returnedLocations notEmpty.
 	
 	returnedLocation := returnedLocations first.

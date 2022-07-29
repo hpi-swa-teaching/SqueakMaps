@@ -12,5 +12,4 @@ testReverseSearchUnnameableLocation
 		raise: SMALocationUnnameableError 
 		withExceptionDo: [:error |
 			self assert: error coordinates equals: coordinates.
-			self assert: error zoomLevel equals: zoom.
 			self assert: error messageText equals: 'Unable to geocode'].

@@ -11,7 +11,7 @@ testORSValidRoute
 	self orsAPI contentSource mockGetJsonFromWith: [^ self validRouteResponse].
 	
 	expectedRoute := self makeValidRoute.
-	actualRoute := self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode.
+	actualRoute := self orsAPI getRouteFrom: startCoordinates to: endCoordinates by: transportationMode.
 	
 	self assert: actualRoute waypoints equals: expectedRoute waypoints.
 	self assert: actualRoute distance equals: expectedRoute distance.
