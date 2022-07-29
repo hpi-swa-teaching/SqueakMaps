@@ -1,11 +1,12 @@
 searching
 locate: aQueryString
 
-	| queryUrlString json | 
+	| queryUrlString json locations | 
 
 	queryUrlString := self queryUrlFor: aQueryString.
 	json := self contentSource getJsonFrom: queryUrlString.
-	^ (json collect: [:result | self createLocationFrom: result with: aQueryString])
-		ifEmpty: [
-		(SMALocationNameNotFoundError new
-			requestedName: aQueryString) signal]
+	locations := json collect: [:result | self createLocationFrom: result with: aQueryString].
+	locations ifEmpty: [
+		(SMALocationNameNotFoundError new			
+			requestedName: aQueryString) signal].
+	^ locations

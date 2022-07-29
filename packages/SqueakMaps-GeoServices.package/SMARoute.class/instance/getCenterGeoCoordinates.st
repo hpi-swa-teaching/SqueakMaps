@@ -3,6 +3,7 @@ getCenterGeoCoordinates
 	"Calculates the midpoint on a straight line on a plane between the two given Coordinates."
 
 	| firstCoordinates secondCoordinates long lat |
+	
 	firstCoordinates := self waypoints first.
 	secondCoordinates := self waypoints last.
 	long := firstCoordinates long + secondCoordinates long / 2.
