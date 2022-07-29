@@ -1,11 +1,17 @@
 searching
 testLocationSearchValid
 
-	| placeName coordinates |
+	| coords |
 	
-	placeName := 'gesundbrunnen'.
-	coordinates := SMAGeoCoordinate newFrom: 13.384846@52.5509201.
-	self model searchInput: placeName.
+	coords := SMAGeoCoordinate newFrom: 1 @ 1.
+	
+	self geocoderMock mockLocateWith: [:query |
+		self assert: query equals: 'berlin search'.
+		{ self berlinLocation }].
+	
+	self model searchInput: 'berlin search'.
 	self model searchLocation.	
 	
-	self assert: self model tiledMapMorph center equals: (SMAMapConfigurator geoCoordinatesToWorldPos: coordinates)
+	self assert: self model tiledMapMorph center equals: (SMAMapConfigurator geoCoordinatesToWorldPos: coords).
+	self assert: self model tiledMapMorph markers size equals: 1.
+	self assert: (self model tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin'])

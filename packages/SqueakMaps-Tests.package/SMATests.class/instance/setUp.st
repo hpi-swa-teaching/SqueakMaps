@@ -1,13 +1,23 @@
 running
 setUp
-
-	| routingAPI |
 	
 	super setUp.
-	self model: SMAWindow new.
-	routingAPI := self model searchManager routingAPI.
-	self orsKeyBefore: routingAPI class ApiKey.
 	
-	self validORSKey: '5b3ce3597851110001cf62480dc81045552b485d90dcd7291f831448'.
-	routingAPI class ApiKey: self validORSKey
+	self routingAPIMock: SMARoutingAPIMock new.
+	self geocoderMock: SMAGeocoderMock new.
+	
+	self berlinLocation: (SMALocation new
+		label: 'Berlin';
+		coordinates: (SMAGeoCoordinate newLong: 1 Lat: 1);
+		boundingBox: (1 @ 1 corner: 2 @ 2);
+		yourself).
+	self londonLocation: (SMALocation new
+		label: 'London';
+		coordinates: (SMAGeoCoordinate newLong: 2 Lat: 2);
+		boundingBox: (2 @ 2 corner: 3 @ 3);
+		yourself).
+	
+	self model: SMAWindow new.
+	self model searchManager routingAPI: self routingAPIMock.
+	self model searchManager geocoder: self geocoderMock
 	

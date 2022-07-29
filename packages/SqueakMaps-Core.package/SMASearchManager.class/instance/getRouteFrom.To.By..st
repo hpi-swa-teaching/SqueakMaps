@@ -7,4 +7,5 @@ getRouteFrom: aStartLocation To: aDestinationLocation By: aSymbol
 	route 
 		startLabel: aStartLocation label;
 		destinationLabel: aDestinationLocation label.
+
 	^ route

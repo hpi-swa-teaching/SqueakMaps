@@ -7,8 +7,10 @@
 	"commentStamp" : "RK 7/25/2022 15:30",
 	"instvars" : [
 		"model",
-		"validORSKey",
-		"orsKeyBefore" ],
+		"routingAPIMock",
+		"geocoderMock",
+		"berlinLocation",
+		"londonLocation" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],

@@ -2,7 +2,7 @@ searching
 getRouteFrom: aStartGeoCoordinate To: anEndGeoCoordinate By: aSymbol
 
 	| queryUrl json |
-	
+
 	queryUrl := self 
 		queryUrlFrom: aStartGeoCoordinate 
 		To: anEndGeoCoordinate 
