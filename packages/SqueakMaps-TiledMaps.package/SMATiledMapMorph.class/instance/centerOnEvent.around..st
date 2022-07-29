@@ -1,13 +1,13 @@
 event handling
 centerOnEvent: anEvent around: aBlock
 
-	| p delta oldPixelSize newPixelSize |
+	| position delta oldPixelSize newPixelSize |
 	
 	oldPixelSize := self pixelSize.
-	p := ((anEvent cursorPoint - bounds topLeft) * oldPixelSize) + worldBounds topLeft.
-	delta := p - center.
+	position := ((anEvent cursorPoint - self bounds topLeft) * oldPixelSize) + self worldBounds topLeft.
+	delta := position - self center.
 	aBlock value.
 	newPixelSize := self pixelSize.
 	delta := delta * (newPixelSize / oldPixelSize).
-	center := p - delta.
-	self layoutChanged
+	self center: position - delta;
+		layoutChanged

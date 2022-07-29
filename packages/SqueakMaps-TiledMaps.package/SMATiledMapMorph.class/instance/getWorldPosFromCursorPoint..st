@@ -1,4 +1,4 @@
 helping
 getWorldPosFromCursorPoint: aPoint
 
-	^ ((aPoint - bounds topLeft) * self pixelSize) + worldBounds topLeft
+	^ ((aPoint - self bounds topLeft) * self pixelSize) + self worldBounds topLeft
