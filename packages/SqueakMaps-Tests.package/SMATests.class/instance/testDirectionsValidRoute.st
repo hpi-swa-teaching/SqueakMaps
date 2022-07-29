@@ -32,6 +32,6 @@ testDirectionsValidRoute
 	self assert: resultingRouteLine points size equals: 2.
 	self assert: resultingRouteLine boundingBox equals: (1 @ 1 corner: 3 @ 3).
 	
-	resultingMarkers := self model tiledMapMorph markers asList.
+	resultingMarkers := self model tiledMapMorph markers.
 	self assert: (resultingMarkers anySatisfy: [:marker | marker label = 'Berlin']).
 	self assert: (resultingMarkers anySatisfy: [:marker | marker label = 'London']).
