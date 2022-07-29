@@ -8,4 +8,4 @@ testCreateCorrectLocateUrl
 	
 	actualUrl := self geocoder queryUrlFor: locationName.
 	
-	self assert: actualUrl equals: expectedUrl.
+	self assert: actualUrl asString equals: expectedUrl asString.

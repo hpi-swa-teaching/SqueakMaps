@@ -9,4 +9,4 @@ testCreateCorrectReverseSearchUrl
 	
 	actualUrl := self geocoder reverseUrlFor: coordinates withZoom: zoom.
 	
-	self assert: actualUrl equals: expectedUrl.
+	self assert: actualUrl asString equals: expectedUrl asString.
