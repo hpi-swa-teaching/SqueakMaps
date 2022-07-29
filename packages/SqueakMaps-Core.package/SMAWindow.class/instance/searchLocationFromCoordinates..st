@@ -7,6 +7,8 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 	[location := self searchManager reverse: aSMAGeoCoordinate withZoom: zoom]
 		on: SMALocationUnnameableError 
 		do: [: error |
+			"When there was no location name found, a location shall be displayed with
+			the label that contains the cordinates of the point"
 			location := SMALocation new
 				label: aSMAGeoCoordinate toStringLatLong;
 				coordinates: aSMAGeoCoordinate;

@@ -1,5 +1,5 @@
 search
 submitSearchInput: aString
 
-	self searchInput: aString.
-	self searchLocation
+	self searchInput: aString;
+		searchLocation

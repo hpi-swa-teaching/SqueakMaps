@@ -10,7 +10,7 @@ testORSValidRoute
 	transportationMode := #car.
 	self orsAPI contentSource expectedReturn: #validRoute.
 	
-	route := self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode.
+	route := self orsAPI getRouteFrom: startCoordinates to: endCoordinates by: transportationMode.
 	
 	self assert: route boundingBox height > 0.
 	self assert: route boundingBox width > 0.

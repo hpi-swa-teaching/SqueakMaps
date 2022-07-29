@@ -1,11 +1,11 @@
 search
 searchDirections
 
-	| start destination startLocation destinationLocation transportMode route |
+	| start destination startLocation destinationLocation transportationMode newRoute |
 	
 	start := self startSearchInput.
 	destination := self destinationSearchInput.
-	transportMode := self transportationModeInput.
+	transportationMode := self transportationModeInput.
 	
 	(start isEmpty or: [destination isEmpty]) ifTrue: [
 		^ self inform: 'Please enter a start and destination location.'].
@@ -13,33 +13,20 @@ searchDirections
 	[startLocation := self searchManager locate: start.
 	destinationLocation := self searchManager locate: destination]
 		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: 'No location with name "' , error requestedName , '" found.'].
+		do: [:error | ^ self informLocationNameNotFound: error requestedName].
 	
 	self mapConfigurator clear.
 	
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
-		self mapConfigurator displayLocation: startLocation.
-		self mapConfigurator focusLocation: startLocation.
-		^ self inform: 'Start and Destination Location are the same.'].
+		^ self informSearchedSameLocation: startLocation].
 
-	[route := self searchManager getRouteFrom: startLocation To: destinationLocation By: transportMode.]
+	[newRoute := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportationMode]
 		on: Error
-		do: [:error |
-			self mapConfigurator displayLocation: startLocation.
-			self mapConfigurator displayLocation: destinationLocation.
-			self mapConfigurator focusLocations: { startLocation . destinationLocation }.
-			
-			error class = SMARouteTooLongError ifTrue: [
-				^ self inform: 'The chosen locations are too far apart from each other.'].
-			error class = SMAUnreachableDestinationError ifTrue: [
-				^ self inform: 'There exists no route between the chosen locations.'].
-			error class = SMALocationNameNotFoundError ifTrue: [
-				^ self inform: 'No location with name "' , error requestedName , '" found.'].
-			error class = SMAInvalidApiKeyError ifTrue: [
-				^ self inform: 'Please set a valid API key. This can be done by clicking the Manage API Keys button.'].
-			error signal].
+		do: [:error | 
+				self mapConfigurator showLocations: {startLocation . destinationLocation}.
+				^ self handleError: error].
 	
-	self mapConfigurator displayRoute: route.
-	self route: route.
-	self hasSearched: true.
-	self changed: #buildSidebarTopChildren
+	self mapConfigurator displayRoute: newRoute.
+	self route: newRoute;
+		hasSearched: true;
+		changed: #buildSidebarTopChildren
