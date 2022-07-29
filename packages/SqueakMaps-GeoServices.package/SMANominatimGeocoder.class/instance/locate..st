@@ -9,4 +9,5 @@ locate: aQueryString
 	locations ifEmpty: [
 		(SMALocationNameNotFoundError new			
 			requestedName: aQueryString) signal].
+
 	^ locations

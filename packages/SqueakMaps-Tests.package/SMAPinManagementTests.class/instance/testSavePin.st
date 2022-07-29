@@ -8,6 +8,6 @@ testSavePin
 		label: 'Munich';
 		yourself.
 
-	model setSelectedPin: location.
-	model savePin.
-	self assert: (model class savedPins includes: location) equals: true
+	self model setSelectedPin: location.
+	self model savePin.
+	self assert: (self model class savedPins includes: location) equals: true

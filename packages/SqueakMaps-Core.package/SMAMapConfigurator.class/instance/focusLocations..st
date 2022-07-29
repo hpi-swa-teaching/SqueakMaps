@@ -1,11 +1,14 @@
 displaying
 focusLocations: aCollectionOfSMALocations
 
-	| centerGeoCoord centerWorldPos boundingBox |
+
+	| zoom centerGeoCoord centerWorldPos boundingBox |
 	
-	boundingBox := self boundingBoxFor: aCollectionOfSMALocations.
-	centerGeoCoord := SMAGeoCoordinate newFrom: boundingBox center.
+	centerGeoCoord := self calculateCenterGeoCoordinatesFrom: aCollectionOfSMALocations.
 	centerWorldPos := self class geoCoordinatesToWorldPos: centerGeoCoord.
 	self tiledMapMorph center: centerWorldPos.
-	self setZoomForBoundingBox: boundingBox.
+	
+	boundingBox := self calculateBoundingBoxFrom: aCollectionOfSMALocations.
+	zoom := self calculateZoomForBoundingBox: boundingBox.
+	self tiledMapMorph zoom: (self tiledMapMorph tileSource clampZoom: zoom).
 	self tiledMapMorph layoutChanged

@@ -1,4 +1,4 @@
-helping
+calculation
 zoomForRectangle: aRectangle
 
 	"Compute using latitude, since its scale remains constant in the projection the tile system

@@ -1,1 +1,0 @@
-SMAAPITests contains tests for the different API functionalities.

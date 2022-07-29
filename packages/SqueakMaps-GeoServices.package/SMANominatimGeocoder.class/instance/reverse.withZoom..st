@@ -11,7 +11,7 @@ reverse: aSMAGeoCoordinate withZoom: aNumber
 			coordinates: aSMAGeoCoordinate;
 			messageText: (json at: 'error');
 			yourself) signal].
-
+	
 	^ SMALocation new
 		label: (json at: 'display_name' ifAbsent: [
 			aSMAGeoCoordinate toStringLatLong]);

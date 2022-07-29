@@ -1,3 +1,4 @@
 as yet unclassified
 apiTests
-	^ #(#testSingleLocationSearching  testInvalidLocation)
+
+	^ #(#testSingleLocationSearching  testLocationSearchInvalid)
