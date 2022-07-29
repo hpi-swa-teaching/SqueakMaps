@@ -9,7 +9,7 @@ testORSUnreachableDestination
 	startCoordinates := SMAGeoCoordinate newFrom: 23.671845 @70.671584.
 	endCoordinates := SMAGeoCoordinate newFrom: -68.323636 @ -54.81924.
 	transportationMode := #car.
-	self orsAPI contentSource mockGetJsonFromWith: [self unreachableDestinationResponse].
+	self orsAPI contentSource mockGetJsonFromWith: [^ self unreachableDestinationResponse].
 	
 	self should: [self orsAPI getRouteFrom: startCoordinates To: endCoordinates By: transportationMode] 
 		raise: SMAUnreachableDestinationError

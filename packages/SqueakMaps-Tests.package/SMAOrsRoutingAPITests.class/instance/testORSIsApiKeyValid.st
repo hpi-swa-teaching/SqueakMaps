@@ -14,7 +14,7 @@ testORSIsApiKeyValid
 		raise: SMAInvalidApiKeyError
 		description: 'Wrong error thrown'.
 		
-	self orsAPI contentSource mockGetJsonFromWith: [self nonRoutableResponse].
+	self orsAPI contentSource mockGetJsonFromWith: [^ self nonRoutableResponse].
 	self should: [self orsAPI getRouteFrom: coordinates To: coordinates By: orsAPI defaultTransportationMode] 
 		raise: SMAUnreachableDestinationError 
 		description: 'Wrong error thrown'

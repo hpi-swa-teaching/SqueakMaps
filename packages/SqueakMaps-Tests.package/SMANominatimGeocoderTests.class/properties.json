@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RK 7/25/2022 15:30",
+	"commentStamp" : "",
 	"instvars" : [
-		"orsAPI" ],
-	"name" : "SMARoutingAPITests",
+		"geocoder" ],
+	"name" : "SMANominatimGeocoderTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
