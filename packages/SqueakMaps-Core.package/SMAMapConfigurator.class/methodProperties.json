@@ -5,7 +5,7 @@
 		"worldPosToGeoCoordinates:" : "ros 7/22/2022 10:53" },
 	"instance" : {
 		"addMarkerFrom:" : "TR 7/19/2022 15:47",
-		"calculateZoomForBoundingBox:" : "LK 6/25/2022 15:50",
+		"calculateZoomForBoundingBox:" : "LK 7/25/2022 18:10",
 		"clear" : "LK 7/25/2022 16:09",
 		"displayLocation:" : "RK 7/13/2022 17:57",
 		"displayRoute:" : "LK 7/24/2022 19:50",
@@ -15,5 +15,4 @@
 		"setAllMarkersFrom:" : "TR 7/20/2022 12:02",
 		"setRouteLineFrom:" : "TR 7/20/2022 11:58",
 		"tiledMapMorph" : "TR 6/25/2022 12:52",
-		"tiledMapMorph:" : "TR 6/25/2022 12:53",
-		"zoomForRectangle:" : "TR 6/25/2022 13:32" } }
+		"tiledMapMorph:" : "TR 6/25/2022 12:53" } }
