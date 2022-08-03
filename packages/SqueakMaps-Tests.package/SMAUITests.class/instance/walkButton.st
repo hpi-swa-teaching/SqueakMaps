@@ -1,4 +1,0 @@
-accessing
-walkButton
-
-	^ walkButton

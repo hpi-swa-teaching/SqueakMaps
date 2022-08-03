@@ -8,7 +8,7 @@ testRemovePin
 		label: 'Munich';
 		yourself.
 
-	model class savedPins add: location.
-	model setSelectedPin: location.
-	model removePin.
-	self assert: (model class savedPins includes: location) equals: false
+	self model class savedPins add: location.
+	self model setSelectedPin: location.
+	self model removePin.
+	self assert: (self model class savedPins includes: location) equals: false

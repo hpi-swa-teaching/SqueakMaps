@@ -1,17 +1,11 @@
 displaying
 displayRoute: aSMARoute
 
-	| centerWorldPos zoom |
-
+	| centerWorldPos |
+	
 	centerWorldPos := self class geoCoordinatesToWorldPos: aSMARoute getCenterGeoCoordinates.
 	self tiledMapMorph center: centerWorldPos.
-	self setRouteLineFrom: aSMARoute.
-
-	zoom := self calculateZoomForBoundingBox: aSMARoute boundingBox.
-	self tiledMapMorph zoom: zoom.
-
-	self setAllMarkersFrom: aSMARoute.
-
-	self tiledMapMorph 
-		layoutChanged;
-		changed
+	self setRouteLineFrom: aSMARoute;
+		setZoomForBoundingBox: aSMARoute boundingBox;
+		setAllMarkersFrom: aSMARoute.
+	self tiledMapMorph layoutChanged

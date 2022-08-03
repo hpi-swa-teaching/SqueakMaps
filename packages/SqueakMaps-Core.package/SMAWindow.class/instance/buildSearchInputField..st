@@ -5,10 +5,13 @@ buildSearchInputField: aBuilder
 			model: self;
 			getText: #searchInput;
 			setText: #submitSearchInput:;
+			editText: #searchInput:;
+			askBeforeDiscardingEdits: false;
 			help: 'Search location...';
 			frame: (LayoutFrame new
 				leftFraction: 0 offset: 0;
 				topFraction: 0 offset: 0;
 				rightFraction: 1 offset: 0;
-				bottomFraction: 0.08 offset: 0)
+				bottomFraction: 0.08 offset: 0;
+				yourself);
 			yourself

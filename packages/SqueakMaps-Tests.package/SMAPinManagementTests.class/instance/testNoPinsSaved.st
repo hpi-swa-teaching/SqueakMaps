@@ -1,6 +1,6 @@
 pin testing
 testNoPinsSaved
 
-	model class savedPins: OrderedCollection new.
-	[model showPin] valueSupplyingAnswer: {'No pins saved.' . #closeDialog}.
-	self assert: model class savedPins isEmpty
+	self model class savedPins: OrderedCollection new.
+	[self model showPin] valueSupplyingAnswer: {'No pins saved.' . #closeDialog}.
+	self assert: self model class savedPins isEmpty

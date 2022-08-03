@@ -18,7 +18,6 @@
 		"searchManager",
 		"mapConfigurator",
 		"bingApi",
-		"openrouteserviceApi",
 		"thunderforestMapsApi" ],
 	"name" : "SMAWindow",
 	"pools" : [
