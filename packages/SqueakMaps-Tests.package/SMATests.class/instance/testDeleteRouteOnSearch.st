@@ -14,7 +14,7 @@ testDeleteRouteOnSearch
 		SMAMapConfigurator geoCoordinatesToWorldPos: coords2}.
 		
 	self geocoderMock mockLocateWith: [:query |
-		{ SMALocation new label: 'A Location'; coordinates: coords3; yourself }].
+		{ SMALocation new label: 'A Location'; coordinates: coords3; boundingBox: (1 @ 1 corner: 2 @ 2); yourself }].
 	
 	self model searchInput: 'something'.
 	self model searchLocation.
