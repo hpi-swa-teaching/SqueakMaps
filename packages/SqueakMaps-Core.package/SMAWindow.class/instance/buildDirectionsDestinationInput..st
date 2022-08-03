@@ -12,6 +12,8 @@ buildDirectionsDestinationInput: aBuilder
 					model: self;
 					getText: #destinationSearchInput;
 					setText: #submitDestinationSearchInput:;
+					editText: #destinationSearchInput:;
+					askBeforeDiscardingEdits: false;
 					help: 'Destination...';
 					frame: (0 @ 0.5 corner: 1 @ 1);
 					yourself

@@ -1,4 +1,4 @@
-private
+layout
 computeTileMetrics
 
 	| o worldExtent |

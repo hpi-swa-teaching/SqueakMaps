@@ -12,6 +12,8 @@ buildDirectionsStartInput: aBuilder
 					model: self;
 					getText: #startSearchInput;
 					setText: #submitStartSearchInput:;
+					editText: #startSearchInput:;
+					askBeforeDiscardingEdits: false;
 					help: 'Start...';
 					frame: (0 @ 0.5 corner: 1 @ 1);
 					yourself
