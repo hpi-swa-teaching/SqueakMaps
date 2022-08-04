@@ -5,7 +5,7 @@ testDirectionsLocationsTooFarApart
 
 	placeName1 := 'Berlin'.
 	placeName2 := 'Sydney'.
-	errorText :=  'The chosen locations are too far apart from each other.'.
+	errorText :=  'The given locations are too far apart from each other.'.
 	
 	tiledMapMorph := self model tiledMapMorph.
 

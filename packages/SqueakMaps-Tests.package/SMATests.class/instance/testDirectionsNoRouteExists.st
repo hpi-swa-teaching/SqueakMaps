@@ -5,7 +5,7 @@ testDirectionsNoRouteExists
 
 	placeName1 := 'Berlin'.
 	placeName2 := 'Madeira'.
-	errorText :=  'There exists no route between the chosen locations.'.
+	errorText :=  'There exists no route between the given locations.'.
 	
 	tiledMapMorph := self model tiledMapMorph.
 
