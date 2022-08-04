@@ -12,7 +12,7 @@
 		"testORSGetRouteDistanceFromJson" : "TR 7/29/2022 05:52",
 		"testORSGetRouteDurationFromJson" : "TR 7/29/2022 05:52",
 		"testORSGetWaypointsFromJson" : "TR 7/29/2022 05:25",
-		"testORSIsApiKeyValid" : "RK 7/29/2022 17:25",
+		"testORSIsApiKeyValid" : "RK 8/4/2022 20:21",
 		"testORSParseLongLatToStringForUrl" : "TR 7/19/2022 16:30",
 		"testORSTooLongRoute" : "RK 7/29/2022 17:25",
 		"testORSUnreachableDestination" : "RK 7/29/2022 17:25",

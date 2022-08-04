@@ -2,5 +2,6 @@ running
 setUp
 
 	super setUp.
-	self geocoder: SMANominatimGeocoder new.
-	self geocoder contentSource: SMAMockJsonUrlReader new
+	self geocoder: (SMANominatimGeocoder new
+		contentSource: SMAMockJsonUrlReader new;
+		yourself)
