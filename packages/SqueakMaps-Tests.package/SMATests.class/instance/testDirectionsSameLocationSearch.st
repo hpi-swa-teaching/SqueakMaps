@@ -1,17 +1,16 @@
 searching
 testDirectionsSameLocationSearch
 
-	| placeName1 placeName2 errorText tiledMapMorph |
-
-	placeName1 := 'Berlin'.
-	placeName2 := 'Berlin'.
-	errorText :=  'Start and Destination Location are the same.'.
+	| tiledMapMorph |
 	
 	tiledMapMorph := self model tiledMapMorph.
+	
+	self geocoderMock mockLocateWith: [:query | { self berlinLocation }].
+	self geocoderMock mockLocateWith: [:query | { self berlinLocation }].
 
-	self model startSearchInput: placeName1.
-	self model destinationSearchInput: placeName2.
+	self model startSearchInput: 'Berlin'.
+	self model destinationSearchInput: 'Berlin'.
+	[self model searchDirections] valueSupplyingAnswer: {'Start and Destination Location are the same.'. #closeDialog}.
 
-	[self model searchDirections] valueSupplyingAnswer: {errorText. #closeDialog}.
 	self assert: tiledMapMorph markers size = 1.
-	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Berlin'])
+	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin'])

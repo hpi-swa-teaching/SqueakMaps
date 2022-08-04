@@ -2,13 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"correctApiKey" : "ros 7/22/2022 11:27",
-		"expectedReturn" : "TR 5/24/2022 20:34",
-		"expectedReturn:" : "ros 7/22/2022 11:27",
-		"getJsonFrom:" : "ros 7/22/2022 11:27",
-		"initialize" : "TR 5/24/2022 20:35",
-		"noApiKey" : "ros 7/22/2022 11:27",
-		"tooLongRoute" : "TR 7/19/2022 16:25",
-		"unreachableDestination" : "ros 7/22/2022 11:28",
-		"validRoute" : "TR 5/24/2022 20:37",
-		"wrongApiKey" : "ros 7/22/2022 11:28" } }
+		"getJsonFrom:" : "RK 7/28/2022 13:44",
+		"getJsonFromMock" : "RK 7/28/2022 13:44",
+		"initialize" : "RK 7/28/2022 13:52",
+		"mockGetJsonFromWith:" : "RK 7/28/2022 13:36" } }

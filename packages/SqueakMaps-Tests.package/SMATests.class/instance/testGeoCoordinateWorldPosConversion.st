@@ -12,6 +12,7 @@ testGeoCoordinateWorldPosConversion
 	computedLong := computedCoordinates long asScaledDecimal.
 	computedLat := computedCoordinates lat asScaledDecimal.
 	computedCoordinates := SMAGeoCoordinate newFrom: ((computedLong @ computedLat) roundTo: precision).
+	
 	self assert: newYorkCoordinates equals: computedCoordinates
 	
 	
