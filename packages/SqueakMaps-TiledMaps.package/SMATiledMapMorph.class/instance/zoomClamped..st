@@ -1,4 +1,4 @@
 accessing
 zoomClamped: anInteger
 
-	self zoom: (self tileSource clampZoom: anInteger)
+	self zoom: (self clampZoom: anInteger)

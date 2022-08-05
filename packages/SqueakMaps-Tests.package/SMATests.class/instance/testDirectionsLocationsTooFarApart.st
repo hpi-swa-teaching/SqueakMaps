@@ -11,7 +11,7 @@ testDirectionsLocationsTooFarApart
 
 	self model startSearchInput: 'Berlin'.
 	self model destinationSearchInput: 'London'.
-	[self model searchDirections] valueSupplyingAnswer: {'The chosen locations are too far apart from each other.'. #closeDialog}.
+	[self model searchDirections] valueSupplyingAnswer: {'The given locations are too far apart from each other.'. #closeDialog}.
 
 	self assert: tiledMapMorph markers size equals: 2.
 	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin']).
