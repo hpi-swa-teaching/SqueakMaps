@@ -1,5 +1,6 @@
 viewer
 zoomIn
 
-	self zoomClamped: self zoom + 1.
-	self layoutChanged
+	self 
+		zoomClamped: self zoom + 1;
+		layoutChanged
