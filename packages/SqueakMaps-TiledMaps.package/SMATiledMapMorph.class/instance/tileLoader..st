@@ -1,4 +1,4 @@
 accessing
-tileLoader: anObject
+tileLoader: aSMAMapTileLoader
 
-	tileLoader := anObject
+	tileLoader := aSMAMapTileLoader
