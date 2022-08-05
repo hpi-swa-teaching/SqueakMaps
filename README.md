@@ -37,12 +37,12 @@ Metacello new
 To open up a new window in your image simply go to _Apps > Squeak Maps_, or run the following command inside a **Workspace**:
 
 ```smalltalk
-SMAWindow open.
+SMAApplication open.
 ```
 
 **In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] or [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
 
-When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved inside the class variables of `SMAWindow`. You can change these using the `manage api keys` button.
+When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved. You can change these using the `manage api keys` button.
 
 ## Contributing
 
@@ -68,7 +68,7 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 Legacy project by [Tony Garnock-Jones][tony-jones-url].
 
-Special thanks to [Paula (Paula-Kli)](https://github.com/phoeinx) and [Patrick R (codeZeilen)](https://github.com/codeZeilen) for the support.
+Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx), [Patrick R (codeZeilen)](https://github.com/codeZeilen) and [Paula (Paula-Kli)](https://github.com/Paula-Kli) for the support.
 
 ## Team
 
