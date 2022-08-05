@@ -1,5 +1,5 @@
 accessing
-layer: aString api: aMapsApi
+layer: aString api: aSMAMapsApi
 
 	self layer: aString.
-	self api: aMapsApi
+	self api: aSMAMapsApi
