@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	timeToLive := 1 hour
+	self timeToLive: 1 hour

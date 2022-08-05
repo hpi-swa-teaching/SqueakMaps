@@ -1,4 +1,6 @@
-helping
+viewer
 zoomIn
 
-	self zoom: zoom + 1
+	self 
+		zoomClamped: self zoom + 1;
+		layoutChanged

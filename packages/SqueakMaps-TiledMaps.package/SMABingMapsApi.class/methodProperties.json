@@ -5,12 +5,10 @@
 	"instance" : {
 		"aerialTileSource" : "cs 8/6/2020 15:42",
 		"aerialWithLabelsOnDemandTileSource" : "cs 8/6/2020 15:42",
-		"aerialWithLabelsTileSource" : "cs 8/6/2020 15:42",
 		"canvasDarkTileSource" : "cs 8/6/2020 15:42",
 		"canvasGrayTileSource" : "cs 8/6/2020 15:42",
 		"canvasLightTileSource" : "cs 8/6/2020 15:43",
 		"keyCheckURL" : "ros 7/13/2022 21:23",
-		"ordnanceSurveyTileSource" : "cs 8/6/2020 15:43",
 		"roadOnDemandTileSource" : "cs 8/6/2020 15:43",
 		"roadTileSource" : "cs 8/6/2020 15:43",
 		"tileSourceClass" : "cs 8/6/2020 15:43" } }

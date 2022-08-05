@@ -1,5 +1,4 @@
 accessing
 tileSource: aTileSource
 
-	tileSource := aTileSource.
-	self layoutChanged
+	tileSource := aTileSource

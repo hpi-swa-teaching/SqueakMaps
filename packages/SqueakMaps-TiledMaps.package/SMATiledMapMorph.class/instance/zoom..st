@@ -1,5 +1,4 @@
 accessing
 zoom: anInteger
 
-	zoom := anInteger.
-	self layoutChanged
+	zoom := anInteger

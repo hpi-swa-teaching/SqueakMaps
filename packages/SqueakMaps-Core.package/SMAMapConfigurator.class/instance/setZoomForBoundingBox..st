@@ -1,4 +1,5 @@
 helping
 setZoomForBoundingBox: aRectangle
 
-	self tiledMapMorph zoom: (self calculateZoomForBoundingBox: aRectangle)
+	self tiledMapMorph zoomClamped: (self calculateZoomForBoundingBox: aRectangle).
+	self tiledMapMorph layoutChanged
