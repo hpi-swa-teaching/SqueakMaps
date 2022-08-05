@@ -11,10 +11,5 @@ buildDirectionsTopRow: aBuilder
 			self buildDirectionsWalkButton: aBuilder .
 			aBuilder pluggableSpacerSpec new .
 			self buildDirectionsCancelButton: aBuilder};
-		frame: (LayoutFrame new
-			leftFraction: 0 offset: 0;
-			topFraction: 0 offset: 0;
-			rightFraction: 1 offset: 0;
-			bottomFraction: 0.08 offset: 0;
-			yourself);
+		frame: (0 @ 0 corner: 1 @ 0.08);
 		yourself

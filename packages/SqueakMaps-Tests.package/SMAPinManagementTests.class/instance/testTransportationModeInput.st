@@ -1,4 +1,4 @@
-as yet unclassified
+pin testing
 testTransportationModeInput
 	
 	| transportModeCar transportModeBike transportModeWalk defaultTransportMode carButton bikeButton walkButton |

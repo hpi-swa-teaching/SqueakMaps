@@ -3,7 +3,7 @@ requestSavedPinSelection
 
 	| index pins |
 	
-	pins := SMAApplication savedPins collect: [:pin | 
+	pins := self class savedPins collect: [:pin | 
 		(pin label, ' (', pin coordinates toStringLatLong , ')') asString].
 	index := UIManager default chooseFrom: pins title: 'Saved Pins'.
 		

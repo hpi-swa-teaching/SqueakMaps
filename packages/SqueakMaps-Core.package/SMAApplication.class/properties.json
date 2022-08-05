@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"SavedPins" ],
-	"commentStamp" : "RK 7/25/2022 15:26",
+	"commentStamp" : "RK 8/5/2022 22:10",
 	"instvars" : [
 		"tiledMapMorph",
 		"currentView",

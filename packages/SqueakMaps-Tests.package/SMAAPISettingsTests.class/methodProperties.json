@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RK 8/5/2022 20:47",
+		"setUp" : "RK 8/5/2022 21:57",
 		"tearDown" : "ros 7/13/2022 21:50",
 		"testApiButtonBing" : "RK 8/5/2022 21:35",
 		"testApiButtonBingInvalidKey" : "RK 8/5/2022 21:35",

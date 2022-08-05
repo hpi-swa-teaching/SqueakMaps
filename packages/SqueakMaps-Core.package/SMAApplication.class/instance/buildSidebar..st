@@ -5,11 +5,6 @@ buildSidebar: aBuilder
 		model: self;
 		children: {
 			self buildSidebarTop: aBuilder.
-			self buildSidebarBottom: aBuilder};
-		frame: (LayoutFrame new
-			leftFraction: 0 offset: 0;
-			topFraction: 0 offset: 0;
-			rightFraction: 0.25 offset: 0;
-			bottomFraction: 1 offset: 0;
-			yourself);
+			self buildSidebarBottom: aBuilder };
+		frame: (0 @ 0 corner: 0.25 @ 1);
 		yourself

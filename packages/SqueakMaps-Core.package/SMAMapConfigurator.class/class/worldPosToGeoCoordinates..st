@@ -7,7 +7,7 @@ worldPosToGeoCoordinates: aWorldPos
 	"Shift long to Interval [-180, 180]"
 	long := aWorldPos x * 360  - 180. 
 	"Scale lat to Interval [-PI, +PI]"
-	lat := aWorldPos y - 0.5 * (Float pi * 2).
+	lat := (aWorldPos y - 0.5) * (Float pi * 2).
 	"Do transformation"
 	lat := lat sinh arcTan.
 	"Positive latitude is 'up'."

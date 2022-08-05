@@ -2,10 +2,9 @@
 	"class" : {
 		"geoCoordinatesToWorldPos:" : "os 7/23/2022 01:37",
 		"newWith:" : "TR 6/25/2022 12:53",
-		"worldPosToGeoCoordinates:" : "JR 7/23/2022 15:26" },
+		"worldPosToGeoCoordinates:" : "RK 8/5/2022 22:00" },
 	"instance" : {
 		"addMarkerFrom:" : "TR 7/19/2022 15:47",
-		"boundingBoxFor:" : "8/2/2022 15:16:28",
 		"calculateBoundingBoxFrom:" : "TR 7/25/2022 14:42",
 		"calculateCenterGeoCoordinatesFrom:" : "RK 8/5/2022 21:54",
 		"calculateZoomForBoundingBox:" : "LK 7/25/2022 18:10",
