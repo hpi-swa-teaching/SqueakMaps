@@ -25,7 +25,7 @@ searchDirections
 		do: [:error |
 			self mapConfigurator showLocations: { startLocation . destinationLocation }.
 			self inform: error userMessage.
-			^ nil].
+			^ self].
 	
 	self mapConfigurator displayRoute: newRoute.
 	self route: newRoute;
