@@ -5,7 +5,6 @@
 		"worldPosToGeoCoordinates:" : "JR 7/23/2022 15:26" },
 	"instance" : {
 		"addMarkerFrom:" : "TR 7/19/2022 15:47",
-		"boundingBoxFor:" : "7/29/2022 13:51:30",
 		"calculateBoundingBoxFrom:" : "TR 7/25/2022 14:42",
 		"calculateCenterGeoCoordinatesFrom:" : "os 8/5/2022 16:37",
 		"calculateZoomForBoundingBox:" : "LK 6/25/2022 15:50",
