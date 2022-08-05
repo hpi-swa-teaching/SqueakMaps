@@ -1,7 +1,4 @@
 helping
 setZoomForBoundingBox: aRectangle
 
-	| zoom |
-	zoom := self calculateZoomForBoundingBox: aRectangle.
-	self tiledMapMorph zoomClamped: zoom.
-	self tiledMapMorph layoutChanged
+	self tiledMapMorph zoom: (self calculateZoomForBoundingBox: aRectangle)

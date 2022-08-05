@@ -5,8 +5,8 @@
 	"instance" : {
 		"defaultTransportationMode" : "TR 5/23/2022 09:11",
 		"getBoundingBoxFrom:" : "JR 7/23/2022 17:38",
-		"getRouteDistanceFrom:" : "os 7/23/2022 02:26",
-		"getRouteDurationFrom:" : "os 7/23/2022 02:26",
+		"getRouteDistanceFrom:" : "TR 7/29/2022 05:10",
+		"getRouteDurationFrom:" : "TR 7/29/2022 05:12",
 		"getRouteFrom:to:by:" : "os 7/23/2022 02:02",
 		"getWaypointsFrom:" : "os 7/23/2022 02:26",
 		"handleErrorWithJson:" : "os 7/23/2022 02:38",

@@ -1,4 +1,5 @@
 json parsing
 getRouteDistanceFrom: aJson
-
-	^ (((((aJson at: 'features') first) at: 'properties') at: 'summary') at: 'distance') rounded
+	"Returns the distance in meters"
+	
+	^ (((((aJson at: 'features') at: 1) at: 'properties') at: 'summary') at: 'distance') rounded

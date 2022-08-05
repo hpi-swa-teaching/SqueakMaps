@@ -1,4 +1,4 @@
-private
+drawing
 drawTilesOn: aCanvas
 
 	| form |

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"geocoder" ],
+	"name" : "SMANominatimGeocoderTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

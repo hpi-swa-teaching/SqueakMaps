@@ -1,4 +1,4 @@
 accessing
-tileSize: aNumber
+tileSize: aPoint
 
-	tileSize := aNumber
+	tileSize := aPoint

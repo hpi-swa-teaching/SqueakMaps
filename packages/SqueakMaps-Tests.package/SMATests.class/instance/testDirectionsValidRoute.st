@@ -1,18 +1,37 @@
 searching
 testDirectionsValidRoute
 
-	| placeName1 placeName2 middleCoordinates zoom |
+	|  expectedMiddle expectedZoom resultingRouteLine resultingMarkers |
 
-	placeName1 := 'Berlin'.
-	placeName2 := 'London'.
-	middleCoordinates := SMAGeoCoordinate newFrom: 6.630626999999976 @ 52.01211349999999.
-	zoom := 6.
-
-	self model startSearchInput: placeName1.
-	self model destinationSearchInput: placeName2.
+	expectedMiddle := SMAGeoCoordinate newFrom: 1.5 @ 1.5.
+	expectedZoom := 6.
+	
+	self geocoderMock mockLocateWith: [:query |
+		self assert: query equals: 'Berlin'.
+		{ self berlinLocation }].
+	self geocoderMock mockLocateWith: [:query | 
+		self assert: query equals: 'London'.
+		{ self londonLocation }].
+	self routingAPIMock mockGetRouteFromToByWith: [:from :to :by |
+		self assert: from equals: self berlinLocation coordinates.
+		self assert: to equals: self londonLocation coordinates.
+		self assert: by equals: #car.
+		SMARoute new
+			waypoints: { self berlinLocation coordinates . self londonLocation coordinates };
+			boundingBox: (1 @ 1 corner: 3 @ 3); "(this will lead to the expected zoom level)"
+			yourself].
+	
+	self model startSearchInput: 'Berlin'.
+	self model destinationSearchInput: 'London'.
 	self model searchDirections.
 
-	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: middleCoordinates) equals: self model tiledMapMorph center.
-	self assert: zoom equals: self model tiledMapMorph zoom.
-	self assert: self model tiledMapMorph route points notEmpty.
-	self assert: 2 equals: self model tiledMapMorph markers size
+	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: expectedMiddle) equals: self model tiledMapMorph center.
+	self assert: expectedZoom equals: self model tiledMapMorph zoom.
+
+	resultingRouteLine := self model tiledMapMorph route.
+	self assert: resultingRouteLine points size equals: 2.
+	self assert: resultingRouteLine boundingBox equals: (1 @ 1 corner: 3 @ 3).
+	
+	resultingMarkers := self model tiledMapMorph markers.
+	self assert: (resultingMarkers anySatisfy: [:marker | marker label = 'Berlin']).
+	self assert: (resultingMarkers anySatisfy: [:marker | marker label = 'London']).

@@ -1,4 +1,8 @@
 helping
 getWorldPosFromCursorPoint: aPoint
 
-	^ ((aPoint - self bounds topLeft) * self pixelSize) + self worldBounds topLeft
+	| position |
+
+	position := ((aPoint - bounds topLeft) * self pixelSize) + worldBounds topLeft.
+
+	^ (self clampCoordinateOverflow: position x) @ (self clampCoordinateOverflow: position y)

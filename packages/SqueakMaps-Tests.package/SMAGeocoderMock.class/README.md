@@ -1,0 +1,2 @@
+SMAGeocoderMock is a mock object that can be used to fake geocoding requests. The object adds each mock implementation for the locate: method to a queue,
+which is emptied step by step when the locate: method is called by code under test.

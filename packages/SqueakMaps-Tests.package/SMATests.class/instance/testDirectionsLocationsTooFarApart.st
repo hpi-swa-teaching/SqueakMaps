@@ -1,18 +1,18 @@
 searching
 testDirectionsLocationsTooFarApart
 
-	| placeName1 placeName2 errorText tiledMapMorph |
-
-	placeName1 := 'Berlin'.
-	placeName2 := 'Sydney'.
-	errorText :=  'The given locations are too far apart from each other.'.
+	| tiledMapMorph |
 	
 	tiledMapMorph := self model tiledMapMorph.
+	
+	self geocoderMock mockLocateWith: [:query | { self berlinLocation }].
+	self geocoderMock mockLocateWith: [:query | { self londonLocation }].
+	self routingAPIMock mockGetRouteFromToByWith: [:from :to :by | (SMARouteTooLongError new) signal].
 
-	self model startSearchInput: placeName1.
-	self model destinationSearchInput: placeName2.
+	self model startSearchInput: 'Berlin'.
+	self model destinationSearchInput: 'London'.
+	[self model searchDirections] valueSupplyingAnswer: {'The chosen locations are too far apart from each other.'. #closeDialog}.
 
-	[self model searchDirections] valueSupplyingAnswer: {errorText. #closeDialog}.
-	self assert: tiledMapMorph markers size = 2.
-	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Berlin']).
-	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label includesSubstring: 'Sydney'])
+	self assert: tiledMapMorph markers size equals: 2.
+	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin']).
+	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'London'])
