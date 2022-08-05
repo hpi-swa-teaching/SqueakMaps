@@ -11,7 +11,7 @@ testDirectionsNoRouteExists
 
 	self model startSearchInput: 'Berlin'.
 	self model destinationSearchInput: 'London'.
-	[self model searchDirections] valueSupplyingAnswer: {'There exists no route between the chosen locations.'. #closeDialog}.
+	[self model searchDirections] valueSupplyingAnswer: {'There exists no route between the given locations.'. #closeDialog}.
 
 	self assert: tiledMapMorph markers size equals: 2.
 	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin']).
