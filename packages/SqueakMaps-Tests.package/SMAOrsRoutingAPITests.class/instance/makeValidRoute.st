@@ -18,4 +18,4 @@ makeValidRoute
 		distance: distance;
 		duration: duration;
 		waypoints: waypoints;
-		yourself.
+		yourself
