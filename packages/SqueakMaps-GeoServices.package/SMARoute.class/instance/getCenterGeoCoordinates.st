@@ -6,7 +6,7 @@ getCenterGeoCoordinates
 	
 	firstCoordinates := self waypoints first.
 	secondCoordinates := self waypoints last.
-	long := firstCoordinates long + secondCoordinates long / 2.
-	lat := firstCoordinates lat + secondCoordinates lat / 2.
+	long := (firstCoordinates long + secondCoordinates long) / 2.
+	lat := (firstCoordinates lat + secondCoordinates lat) / 2.
 
-	^ SMAGeoCoordinate newLong: long lat: lat.
+	^ SMAGeoCoordinate newLong: long lat: lat

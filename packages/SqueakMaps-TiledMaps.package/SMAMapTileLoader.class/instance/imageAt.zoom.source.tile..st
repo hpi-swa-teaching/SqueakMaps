@@ -3,7 +3,6 @@ imageAt: aPosition zoom: aZoom source: aTileSource tile: aOffsetPoint
 
 	| scale scaledPosition |
 
-	
 	scale := 1 bitShift: aZoom.
 	scaledPosition := ((aPosition * scale) floor + aOffsetPoint) \\ scale.
 	

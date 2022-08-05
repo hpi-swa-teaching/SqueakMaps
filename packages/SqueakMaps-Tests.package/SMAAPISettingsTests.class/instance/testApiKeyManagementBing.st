@@ -4,5 +4,7 @@ testApiKeyManagementBing
 	| testBingApiKey |
 	
 	testBingApiKey := 'Test'.
-	[apiKeyManagementButton click] valueSupplyingAnswers: {{'choose key to edit' . 'Bing Maps'} . {'Your Bing Maps Api Key' . testBingApiKey}}.
+	[apiKeyManagementButton click] valueSupplyingAnswers: {
+		{ 'choose key to edit' . 'Bing Maps' } .
+		{ 'Your Bing Maps Api Key' . testBingApiKey } }.
 	self assert: testBingApiKey equals: model bingApi class apiKey

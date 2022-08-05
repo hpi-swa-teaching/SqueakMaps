@@ -9,7 +9,7 @@ testORSGetWaypointsFromJson
 		SMAGeoCoordinate newLong:  13.128613 Lat: 52.393854 .
 		SMAGeoCoordinate newLong:  13.128937 Lat: 52.393864 .
 		SMAGeoCoordinate newLong:  13.129165 Lat: 52.39387 .
-		SMAGeoCoordinate newLong:  13.129373 Lat: 52.393877}.
+		SMAGeoCoordinate newLong:  13.129373 Lat: 52.393877 }.
 		
 	actualWaypoints := self orsAPI getWaypointsFrom: json.
 	

@@ -1,0 +1,4 @@
+messaging
+userMessage
+
+	self subclassResponsibility

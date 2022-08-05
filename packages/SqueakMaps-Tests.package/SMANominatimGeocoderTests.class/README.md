@@ -1,0 +1,1 @@
+SMANominatimGeocoderTests contains tests for the Nominatim Geocoder.

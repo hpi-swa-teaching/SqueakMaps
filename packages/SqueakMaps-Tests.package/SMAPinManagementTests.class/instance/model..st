@@ -1,4 +1,4 @@
 accessing
-model: aSMAWindow
+model: aSMAApplication
 
-	model := aSMAWindow
+	model := aSMAApplication
