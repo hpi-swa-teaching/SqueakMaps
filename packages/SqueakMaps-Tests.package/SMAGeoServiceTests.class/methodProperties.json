@@ -4,6 +4,6 @@
 	"instance" : {
 		"testConvertCoordinateToStringLatLong" : "os 7/23/2022 02:09",
 		"testGeoCoordinateEquality" : "TR 7/24/2022 19:15",
-		"testRouteCenterCoordinates" : "os 7/23/2022 02:10",
+		"testRouteCenterCoordinates" : "RK 8/5/2022 21:37",
 		"testRouteDistanceAsString" : "TR 7/20/2022 11:12",
 		"testRouteDurationAsString" : "ros 7/22/2022 11:27" } }

@@ -9,6 +9,6 @@ testRouteCenterCoordinates
 	centerCoordinates := SMAGeoCoordinate newLong: 0 lat: 0.
 	
 	route := SMARoute new.
-	route waypoints: {startCoordinates . randomCoordinates . endCoordinates}.
+	route waypoints: { startCoordinates . randomCoordinates . endCoordinates }.
 	
 	self assert: centerCoordinates equals: route getCenterGeoCoordinates

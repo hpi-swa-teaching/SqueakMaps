@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"makeValidRoute" : "TR 7/29/2022 05:50",
+		"makeValidRoute" : "RK 8/5/2022 21:39",
 		"nonRoutableResponse" : "RK 7/28/2022 13:55",
 		"orsAPI" : "TR 5/24/2022 20:43",
 		"orsAPI:" : "TR 7/6/2022 11:31",
@@ -11,7 +11,7 @@
 		"testORSGetBoundingBoxFromJson" : "TR 7/29/2022 04:59",
 		"testORSGetRouteDistanceFromJson" : "TR 7/29/2022 05:52",
 		"testORSGetRouteDurationFromJson" : "TR 7/29/2022 05:52",
-		"testORSGetWaypointsFromJson" : "TR 7/29/2022 05:25",
+		"testORSGetWaypointsFromJson" : "RK 8/5/2022 21:39",
 		"testORSIsApiKeyValid" : "RK 8/4/2022 20:21",
 		"testORSParseLongLatToStringForUrl" : "TR 7/19/2022 16:30",
 		"testORSTooLongRoute" : "RK 7/29/2022 17:25",
