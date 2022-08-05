@@ -1,5 +1,5 @@
 private
-drawRoute: aRouteLine On: aCanvas
+drawRoute: aRouteLine on: aCanvas
 
 	| line pixelPosRoute |
 	
