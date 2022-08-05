@@ -4,7 +4,7 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 	| location zoom |
 	
 	zoom := self mapConfigurator getCurrentZoom.
-	[location := self searchManager reverse: aSMAGeoCoordinate withZoom: zoom]
+	[location := self navigator reverse: aSMAGeoCoordinate withZoom: zoom]
 		on: SMALocationUnnameableError 
 		do: [: error |
 			"When there was no location name found, a location shall be displayed with

@@ -18,6 +18,6 @@ setUp
 		yourself).
 	
 	self model: SMAApplication new.
-	self model searchManager routingAPI: self routingAPIMock.
-	self model searchManager geocoder: self geocoderMock
+	self model navigator routingAPI: self routingAPIMock.
+	self model navigator geocoder: self geocoderMock
 	

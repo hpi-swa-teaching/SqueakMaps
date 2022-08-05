@@ -5,7 +5,7 @@ initialize
 	self 
 		tiledMapMorph: SMATiledMapMorph new;
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
-		searchManager: SMASearchManager new;
+		navigator: SMANavigator new;
 		currentView: #search;
 		bingApi: SMABingMapsApi new;
 		thunderforestMapsApi: SMAThunderforestMapsApi new.

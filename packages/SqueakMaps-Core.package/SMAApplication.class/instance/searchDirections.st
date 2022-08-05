@@ -10,8 +10,8 @@ searchDirections
 	(start isEmpty or: [destination isEmpty]) ifTrue: [
 		^ self inform: 'Please enter a start and destination location.'].
 	
-	[startLocation := self searchManager locate: start.
-	destinationLocation := self searchManager locate: destination]
+	[startLocation := self navigator locate: start.
+	destinationLocation := self navigator locate: destination]
 		on: SMALocationNameNotFoundError
 		do: [:error | ^ self informLocationNameNotFound: error requestedName].
 	
@@ -20,7 +20,7 @@ searchDirections
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
 		^ self informSearchedSameLocation: startLocation].
 
-	[newRoute := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportationMode]
+	[newRoute := self navigator getRouteFrom: startLocation to: destinationLocation by: transportationMode]
 		on: Error
 		do: [:error | 
 				self mapConfigurator showLocations: {startLocation . destinationLocation}.

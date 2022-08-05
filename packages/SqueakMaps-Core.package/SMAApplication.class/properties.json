@@ -15,7 +15,7 @@
 		"destinationSearchInput",
 		"transportationModeInput",
 		"hasSearched",
-		"searchManager",
+		"navigator",
 		"mapConfigurator",
 		"bingApi",
 		"thunderforestMapsApi" ],
