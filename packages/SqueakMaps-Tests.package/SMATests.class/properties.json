@@ -4,11 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cs 8/6/2020 15:17",
+	"commentStamp" : "RK 7/25/2022 15:30",
 	"instvars" : [
-		"squeakMapsWindow" ],
+		"model",
+		"routingAPIMock",
+		"geocoderMock",
+		"berlinLocation",
+		"londonLocation" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

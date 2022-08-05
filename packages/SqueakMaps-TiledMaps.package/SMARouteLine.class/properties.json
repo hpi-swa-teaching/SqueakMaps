@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 14:49",
+	"instvars" : [
+		"points",
+		"boundingBox",
+		"color" ],
+	"name" : "SMARouteLine",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

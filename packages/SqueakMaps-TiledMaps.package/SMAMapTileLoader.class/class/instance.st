@@ -1,3 +1,4 @@
 as yet unclassified
 instance
-	^ Instance ifNil: [Instance := MapTileLoader new]
+
+	^ Instance ifNil: [Instance := SMAMapTileLoader new]

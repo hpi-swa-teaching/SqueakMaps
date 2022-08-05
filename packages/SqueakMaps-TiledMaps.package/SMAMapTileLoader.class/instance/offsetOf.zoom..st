@@ -1,4 +1,4 @@
-as yet unclassified
+private
 offsetOf: aPosition zoom: aZoom
 	
 	| scaledPosition |

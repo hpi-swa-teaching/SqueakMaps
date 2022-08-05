@@ -1,0 +1,1 @@
+A SMARoute represents a route between a start and destination location.

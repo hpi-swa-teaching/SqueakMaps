@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"apiKey" : "JR 7/22/2022 13:36",
+		"apiKey:" : "JR 7/22/2022 13:39" },
+	"instance" : {
+		"defaultTransportationMode" : "TR 5/23/2022 09:11",
+		"getBoundingBoxFrom:" : "JR 7/23/2022 17:38",
+		"getRouteDistanceFrom:" : "RK 8/5/2022 22:12",
+		"getRouteDurationFrom:" : "RK 8/5/2022 22:12",
+		"getRouteFrom:to:by:" : "os 7/23/2022 02:02",
+		"getWaypointsFrom:" : "os 7/23/2022 02:26",
+		"handleErrorWithJson:" : "os 7/23/2022 02:38",
+		"makeRouteFrom:" : "TR 7/20/2022 11:59",
+		"parseCoordinatesToString:" : "TR 7/19/2022 16:07",
+		"queryUrlFrom:to:by:" : "os 7/23/2022 02:02",
+		"transportationModeLookupTable" : "ros 7/22/2022 11:05" } }

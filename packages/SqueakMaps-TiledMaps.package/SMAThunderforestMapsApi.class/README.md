@@ -1,1 +1,1 @@
-A SMAThunderforestMapsApi is a class which contains behavior and properties to use theThunderforest TileSource
+A SMAThunderforestMapsApi provides several map types for the Thunderforest API.

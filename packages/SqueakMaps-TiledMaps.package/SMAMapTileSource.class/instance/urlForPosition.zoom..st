@@ -1,4 +1,4 @@
-as yet unclassified
+url
 urlForPosition: aScaledPosition zoom: aZoom
 
 	self subclassResponsibility

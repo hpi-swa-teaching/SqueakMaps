@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 15:33",
+	"instvars" : [
+		"requestedName" ],
+	"name" : "SMALocationNameNotFoundError",
+	"pools" : [
+		 ],
+	"super" : "SMAGeoServiceError",
+	"type" : "normal" }

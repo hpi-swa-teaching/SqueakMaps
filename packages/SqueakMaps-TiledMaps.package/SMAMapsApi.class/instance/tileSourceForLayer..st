@@ -1,5 +1,5 @@
-as yet unclassified
+tile source
 tileSourceForLayer: aLayer
 
-	layers ifNil: [layers := Dictionary new].
-	^ layers at: aLayer ifAbsentPut: [ self tileSourceClass new layer: aLayer api: self ]
+	self layers ifNil: [self layers: Dictionary new].
+	^ self layers at: aLayer ifAbsentPut: [ self tileSourceClass new layer: aLayer api: self ]

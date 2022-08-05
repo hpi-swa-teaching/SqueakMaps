@@ -1,0 +1,1 @@
+SMAInvalidAPIKeyError indicates that the API Key for a web service is not valid.

@@ -1,1 +1,0 @@
-SMAUITests provides tests for User Interaction with SMAWindow

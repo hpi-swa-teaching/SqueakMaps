@@ -1,0 +1,4 @@
+accessing
+mapConfigurator
+
+	^ mapConfigurator

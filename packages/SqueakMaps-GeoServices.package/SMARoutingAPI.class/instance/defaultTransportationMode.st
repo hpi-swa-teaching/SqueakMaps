@@ -1,0 +1,4 @@
+transportation
+defaultTransportationMode
+
+	self subclassResponsibility

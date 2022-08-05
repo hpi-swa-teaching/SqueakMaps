@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 tileSize
 
 	^ 256 @ 256

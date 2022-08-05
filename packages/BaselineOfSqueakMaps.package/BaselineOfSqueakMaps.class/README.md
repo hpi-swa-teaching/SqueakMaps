@@ -1,0 +1,1 @@
+A BaselineOfSqueakMaps provides the baseline for the SqueakMaps application.

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"geocoder" : "TR 7/28/2022 14:49",
+		"geocoder:" : "TR 7/28/2022 14:48",
+		"nameNotFoundResponse" : "TR 7/28/2022 14:45",
+		"setUp" : "RK 8/4/2022 20:20",
+		"testCreateCorrectLocateUrl" : "RK 7/29/2022 17:03",
+		"testCreateCorrectReverseSearchUrl" : "RK 7/29/2022 17:03",
+		"testGetBoundingBoxFromJson" : "TR 7/29/2022 04:41",
+		"testLocateValidName" : "RK 7/29/2022 17:29",
+		"testLocationNameNotFound" : "TR 7/28/2022 15:13",
+		"testReverseSearchLocation" : "TR 7/28/2022 15:52",
+		"testReverseSearchUnnameableLocation" : "RK 7/29/2022 17:28",
+		"unnameableLocationResponse" : "TR 7/28/2022 14:44",
+		"validLocateResponse" : "TR 7/28/2022 14:53",
+		"validReverseSearchResponse" : "TR 7/28/2022 14:43" } }

@@ -1,15 +1,26 @@
 searching
 testDeleteRouteOnSearch
 
-	| route latLongPotsdam latLongAhrensfelde |
+	| tiledMapMorph coords1 coords2 coords3 |
 
-	route := self squeakMapsWindow tiledMapMorph route.
+	tiledMapMorph := self model tiledMapMorph.
 	
-	latLongPotsdam := 13.0645@52.3906.
-	latLongAhrensfelde:= 13.5747926@52.5817191.
-
-	route points: {latLongPotsdam . latLongAhrensfelde}.
+	coords1 := SMAGeoCoordinate newFrom: 1 @ 1.
+	coords2 := SMAGeoCoordinate newFrom: 2 @ 2.
+	coords3 := SMAGeoCoordinate newFrom: 3 @ 3.
 	
-	self squeakMapsWindow searchBar setText: 'Ludwigfelde'.
-	self squeakMapsWindow searchLocation.
-	self assert: route points isEmpty
+	tiledMapMorph route points: {
+		SMAMapConfigurator geoCoordinatesToWorldPos: coords1 . 
+		SMAMapConfigurator geoCoordinatesToWorldPos: coords2}.
+		
+	self geocoderMock mockLocateWith: [:query |
+		{ SMALocation new
+			label: 'A Location';
+			coordinates: coords3;
+			boundingBox: (1 @ 1 corner: 2 @ 2);
+			yourself }].
+	
+	self model searchInput: 'something'.
+	self model searchLocation.
+	
+	self assert: tiledMapMorph route points isEmpty

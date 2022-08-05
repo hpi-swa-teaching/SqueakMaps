@@ -1,1 +1,0 @@
-A SMAWindow provides a UserInterface for Interactions with the Map and has a tiledMapMorph 

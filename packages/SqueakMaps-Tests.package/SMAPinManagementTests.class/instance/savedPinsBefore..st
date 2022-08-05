@@ -1,0 +1,4 @@
+accessing
+savedPinsBefore: anOrderedCollectionOfLocations
+
+	savedPinsBefore := anOrderedCollectionOfLocations

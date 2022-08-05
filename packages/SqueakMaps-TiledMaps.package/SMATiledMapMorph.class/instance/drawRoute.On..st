@@ -1,19 +1,19 @@
-drawing
-drawRoute: aRoute On: aCanvas
+private
+drawRoute: aRouteLine On: aCanvas
 
 	| polygon pixelPosRoute |
 	
-	aRoute points isEmpty ifTrue: [^ self].
+	aRouteLine points isEmpty ifTrue: [^ self].
 
-	pixelPosRoute := aRoute points collect:[:point | self worldPosToPixelPos: (SMAMapTileLoader latLongToWorldPos: point) ].
+	pixelPosRoute := aRouteLine points collect: [:point | self worldPosToPixelPos: point].
 
 	polygon := PolygonMorph new.
 	polygon 
 			vertices: pixelPosRoute
-			color: Color blue 
+			color: aRouteLine color
 			borderWidth: 4 
-			borderColor: Color blue;
+			borderColor: aRouteLine color;
 			makeOpen;
 			visible: true.
 			
-	aCanvas drawMorph: polygon.
+	aCanvas drawMorph: polygon

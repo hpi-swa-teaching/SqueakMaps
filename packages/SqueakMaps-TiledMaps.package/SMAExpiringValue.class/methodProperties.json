@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "cs 8/6/2020 15:43",
+		"initialize" : "ros 7/22/2022 11:06",
+		"refreshTime" : "TR 7/6/2022 11:19",
+		"refreshTime:" : "TR 7/6/2022 11:19",
 		"reset" : "cs 8/6/2020 15:44",
 		"timeToLive" : "cs 8/6/2020 15:44",
 		"timeToLive:" : "cs 8/6/2020 15:44",
+		"value" : "RK 8/5/2022 21:01",
+		"value:" : "TR 7/6/2022 11:20",
 		"valueIfExpired:" : "cs 8/6/2020 13:51" } }

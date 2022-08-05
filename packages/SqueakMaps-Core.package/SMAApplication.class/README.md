@@ -1,0 +1,1 @@
+A SMAApplication serves as the main model and kernel of SqueakMaps. It also provides the specs that are used to build the UI.

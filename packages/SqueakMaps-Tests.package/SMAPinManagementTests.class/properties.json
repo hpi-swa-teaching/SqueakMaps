@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cs 8/6/2020 15:17",
+	"commentStamp" : "RK 7/25/2022 15:29",
 	"instvars" : [
 		"pinManagementButton",
-		"savedPinsBefore" ],
+		"savedPinsBefore",
+		"model" ],
 	"name" : "SMAPinManagementTests",
 	"pools" : [
 		 ],

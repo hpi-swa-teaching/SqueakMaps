@@ -1,0 +1,1 @@
+SMALocationNameNotFoundError indicates that there exists no location with a given name.

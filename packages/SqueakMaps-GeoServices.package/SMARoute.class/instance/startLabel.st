@@ -1,0 +1,4 @@
+accessing
+startLabel
+
+	^ startLabel

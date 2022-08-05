@@ -1,0 +1,26 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SavedPins" ],
+	"commentStamp" : "RK 8/5/2022 22:10",
+	"instvars" : [
+		"tiledMapMorph",
+		"currentView",
+		"selectedPin",
+		"route",
+		"searchInput",
+		"startSearchInput",
+		"destinationSearchInput",
+		"transportationModeInput",
+		"hasSearched",
+		"navigator",
+		"mapConfigurator",
+		"bingApi",
+		"thunderforestMapsApi" ],
+	"name" : "SMAApplication",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

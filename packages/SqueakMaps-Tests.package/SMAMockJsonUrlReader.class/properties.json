@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 15:29",
+	"instvars" : [
+		"getJsonFromMock" ],
+	"name" : "SMAMockJsonUrlReader",
+	"pools" : [
+		 ],
+	"super" : "SMAJsonUrlReader",
+	"type" : "normal" }

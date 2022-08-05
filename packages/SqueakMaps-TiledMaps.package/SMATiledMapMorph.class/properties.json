@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cs 8/6/2020 15:05",
+	"commentStamp" : "RK 7/25/2022 14:50",
 	"instvars" : [
 		"tileLoader",
 		"center",
@@ -15,10 +15,10 @@
 		"bottomRightTile",
 		"lastMouse",
 		"worldBounds",
-		"pins",
+		"markers",
 		"tileSource",
-		"geocoder",
-		"route" ],
+		"route",
+		"onDoubleClickAction" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
 		 ],

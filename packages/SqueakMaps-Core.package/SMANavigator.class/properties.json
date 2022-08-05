@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 8/5/2022 22:10",
+	"instvars" : [
+		"routingAPI",
+		"geocoder" ],
+	"name" : "SMANavigator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

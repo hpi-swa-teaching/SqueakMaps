@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 14:48",
+	"instvars" : [
+		"label",
+		"color",
+		"worldPos" ],
+	"name" : "SMAMarker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

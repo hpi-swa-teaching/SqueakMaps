@@ -1,0 +1,1 @@
+A SMANominatimGeocoder is a SMAGeocoder that implements the OpenStreetMaps API.

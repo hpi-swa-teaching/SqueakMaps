@@ -1,5 +1,5 @@
-as yet unclassified
-layer: aString api: aMapsApi
+accessing
+layer: aString api: aSMAMapsApi
 
-	layer := aString.
-	api := aMapsApi.
+	self layer: aString.
+	self api: aSMAMapsApi

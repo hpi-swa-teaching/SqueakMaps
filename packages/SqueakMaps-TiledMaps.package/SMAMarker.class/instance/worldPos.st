@@ -1,0 +1,4 @@
+accessing
+worldPos
+
+	^ worldPos

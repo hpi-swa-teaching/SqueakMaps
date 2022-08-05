@@ -1,0 +1,1 @@
+SMAUnreachableDestinationError indicates that a destination cannot be reached from a start location (e.g. an island) and there is no route between them.

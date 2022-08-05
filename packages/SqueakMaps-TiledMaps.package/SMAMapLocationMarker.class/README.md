@@ -1,1 +1,0 @@
-A SMAMapLocationMarker which bundles properties of a Marker. A Marker can be used to pin a location in the SMATildedMapMorph 

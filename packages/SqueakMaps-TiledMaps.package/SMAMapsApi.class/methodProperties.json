@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apikey" : "cs 8/6/2020 15:42",
-		"apikey:" : "cs 8/6/2020 15:42",
+		"keyCheckURL" : "ros 7/13/2022 21:35",
+		"keyIsValid" : "ros 7/13/2022 21:33",
+		"layers" : "TR 7/6/2022 11:13",
+		"layers:" : "TR 7/6/2022 11:22",
 		"tileSourceClass" : "cs 8/6/2020 15:42",
-		"tileSourceForLayer:" : "cs 8/6/2020 15:42" } }
+		"tileSourceForLayer:" : "RK 8/5/2022 22:16" } }

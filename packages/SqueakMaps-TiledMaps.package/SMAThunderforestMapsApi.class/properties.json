@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "cs 8/6/2020 15:03",
+		"ApiKey" ],
+	"commentStamp" : "RK 7/25/2022 15:24",
 	"instvars" : [
 		 ],
 	"name" : "SMAThunderforestMapsApi",

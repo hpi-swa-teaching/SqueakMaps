@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 15:39",
+	"instvars" : [
+		"label",
+		"boundingBox",
+		"coordinates" ],
+	"name" : "SMALocation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

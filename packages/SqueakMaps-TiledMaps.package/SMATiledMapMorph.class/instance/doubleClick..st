@@ -1,4 +1,4 @@
 event handling
 doubleClick: anEvent
 
-	self pinOnEvent: anEvent
+	self onDoubleClickAction value: (self getWorldPosFromCursorPoint: anEvent cursorPoint)

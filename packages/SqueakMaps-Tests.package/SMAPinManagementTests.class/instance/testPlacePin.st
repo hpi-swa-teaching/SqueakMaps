@@ -1,12 +1,20 @@
 pin testing
 testPlacePin
-	| munichPins latLongMunich |
 	
-	latLongMunich := 11.576124@48.137154.
-	self subject placeCenteredPinAt: latLongMunich.
+	| zoomBefore centerBefore location |
 	
-	munichPins :=  self subject tiledMapMorph pins select: [:pin | pin latLong = latLongMunich].
+	zoomBefore := self model tiledMapMorph zoom.
+	centerBefore := self model tiledMapMorph center.
 	
-	self assert: munichPins notEmpty.
-	self assert: (SMAMapTileLoader latLongToWorldPos: latLongMunich)  equals: self subject tiledMapMorph center.
-	self assert: self subject tiledMapMorph defaultZoom equals: self subject tiledMapMorph zoom
+	location := SMALocation new
+		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
+		label: 'Munich';
+		boundingBox: (11.360777 @ 48.0616244 corner: 11.7229099 @ 48.2481162);
+		yourself.
+
+	self model setSelectedPin: location.
+	self model mapConfigurator displayLocation: location.
+	
+	self assert: self model tiledMapMorph markers size = 1.
+	self assert: centerBefore equals: self model tiledMapMorph center.
+	self assert: zoomBefore equals: self model tiledMapMorph zoom

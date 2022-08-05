@@ -1,0 +1,1 @@
+A SMAGeocoder allows to locate places by a given name or reverse search them by coordinates.

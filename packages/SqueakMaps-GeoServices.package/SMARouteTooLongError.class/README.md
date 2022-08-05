@@ -1,0 +1,1 @@
+SMARouteTooLongError indicates that the searched route is too long.

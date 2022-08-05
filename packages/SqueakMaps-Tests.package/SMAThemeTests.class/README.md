@@ -1,1 +1,0 @@
-SMAThemeTests  provides tests for the adaption of the SMAWindow to the Squeak image-theme

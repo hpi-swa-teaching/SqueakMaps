@@ -1,6 +1,8 @@
-api setting
+refreshing
 testRefreshMapKeepsZoom
+
 	| zoomBefore |
-	zoomBefore := squeakMapsWindow tiledMapMorph zoom.
-	squeakMapsWindow tiledMapMorph refreshMap.
-	self assert: zoomBefore equals: (squeakMapsWindow tiledMapMorph zoom)
+	
+	zoomBefore := self model tiledMapMorph zoom.
+	self model tiledMapMorph layoutChanged.
+	self assert: zoomBefore equals: (self model tiledMapMorph zoom)

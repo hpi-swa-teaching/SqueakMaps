@@ -1,6 +1,8 @@
-api setting
+refreshing
 testRefreshMapKeepsCenter
+
 	| centerBefore |
-	centerBefore := squeakMapsWindow tiledMapMorph center.
-	squeakMapsWindow tiledMapMorph refreshMap.
-	self assert: centerBefore equals: (squeakMapsWindow tiledMapMorph center)
+	
+	centerBefore := self model tiledMapMorph center.
+	self model tiledMapMorph layoutChanged.
+	self assert: centerBefore equals: (self model tiledMapMorph center)

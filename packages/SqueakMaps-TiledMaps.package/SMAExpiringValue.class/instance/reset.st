@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 reset
 
 	value := refreshTime := nil

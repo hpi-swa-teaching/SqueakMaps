@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"imageryMetadata" : "cs 8/6/2020 15:33",
-		"initialize" : "cs 8/6/2020 15:35",
+		"imageryMetadata" : "ros 7/13/2022 21:17",
+		"initialize" : "RK 8/5/2022 21:03",
 		"quadkeyForX:y:zoom:" : "cs 8/6/2020 15:37",
 		"resetCache" : "cs 8/6/2020 15:37",
 		"urlForPosition:zoom:" : "cs 8/6/2020 15:39",

@@ -1,0 +1,4 @@
+validation
+keyCheckURL
+
+	^ self subclassResponsibility
