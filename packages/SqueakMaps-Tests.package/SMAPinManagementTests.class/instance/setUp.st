@@ -1,9 +1,9 @@
 running
 setUp
 
-	model := SMAWindow new.
+	model := SMAApplication new.
 	self wantsToTest: model build.
 	
 	pinManagementButton := self subject findByLabel: 'Pins'.
-	savedPinsBefore := SMAWindow savedPins.
-	SMAWindow savedPins: nil
+	savedPinsBefore := SMAApplication savedPins.
+	SMAApplication savedPins: nil

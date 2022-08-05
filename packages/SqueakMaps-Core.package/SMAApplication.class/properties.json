@@ -19,7 +19,7 @@
 		"mapConfigurator",
 		"bingApi",
 		"thunderforestMapsApi" ],
-	"name" : "SMAWindow",
+	"name" : "SMAApplication",
 	"pools" : [
 		 ],
 	"super" : "Model",

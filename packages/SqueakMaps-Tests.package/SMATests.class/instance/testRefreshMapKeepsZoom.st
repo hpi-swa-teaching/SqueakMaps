@@ -1,5 +1,5 @@
 refreshing
-testLayoutChangedKeepsZoom
+testRefreshMapKeepsZoom
 
 	| zoomBefore |
 	

@@ -2,7 +2,6 @@ layout
 layoutChanged
 
 	super layoutChanged.
-	self 
-		zoomClamped: self zoom;
-		center: (self center x) @ (self clampWorldPosHeight: (self center y));
-		computeTileMetrics
+	zoom := (self clampZoom: self zoom).
+	center := (self center x) @ (self clampWorldPosHeight: (self center y)).
+	self computeTileMetrics

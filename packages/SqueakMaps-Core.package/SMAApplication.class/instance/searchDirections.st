@@ -13,7 +13,7 @@ searchDirections
 	[startLocation := self searchManager locate: start.
 	destinationLocation := self searchManager locate: destination]
 		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: error userMessage].
+		do: [:error | ^ self informLocationNameNotFound: error requestedName].
 	
 	self mapConfigurator clear.
 	
@@ -21,11 +21,10 @@ searchDirections
 		^ self informSearchedSameLocation: startLocation].
 
 	[newRoute := self searchManager getRouteFrom: startLocation to: destinationLocation by: transportationMode]
-		on: SMAGeoServiceError
-		do: [:error |
-			self mapConfigurator showLocations: { startLocation . destinationLocation }.
-			self inform: error userMessage.
-			^ self].
+		on: Error
+		do: [:error | 
+				self mapConfigurator showLocations: {startLocation . destinationLocation}.
+				^ self handleError: error].
 	
 	self mapConfigurator displayRoute: newRoute.
 	self route: newRoute;

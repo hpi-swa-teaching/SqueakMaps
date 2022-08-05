@@ -1,4 +1,4 @@
-private
+helping
 loadingTile
 
-	^ (Form extent: self tileSize) fillWhite
+	^ (Form extent: tileSize) fillWhite

@@ -9,4 +9,4 @@ getJsonFrom: aQueryUrlString
 	"Forbidden, e.g. API Key is invalid"
 	response code = 403 ifTrue: [SMAInvalidApiKeyError signal: 'Api key is invalid'].
 	
-	^ Json readFrom: response content readStream
+	^ Json readFrom: response content readStream.

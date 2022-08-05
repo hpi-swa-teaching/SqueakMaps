@@ -1,7 +1,7 @@
 running
 setUp
 
-	model := SMAWindow new.
+	model := SMAApplication new.
 	self wantsToTest: model build.
 	apiButton := self subject findByLabel: 'Select API'.
 	apiKeyManagementButton := self subject findByLabel: 'API Keys'.

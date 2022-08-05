@@ -1,5 +1,5 @@
 refreshing
-testLayoutChangedKeepsCenter
+testRefreshMapKeepsCenter
 
 	| centerBefore |
 	

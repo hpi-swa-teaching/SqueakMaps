@@ -1,4 +1,0 @@
-messaging
-userMessage
-
-	self subclassResponsibility

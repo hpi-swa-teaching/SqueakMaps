@@ -1,5 +1,5 @@
 running
 tearDown
 
-	SMAWindow savedPins: savedPinsBefore.
+	SMAApplication savedPins: savedPinsBefore.
 	super tearDown

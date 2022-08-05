@@ -10,5 +10,5 @@ focusLocations: aCollectionOfSMALocations
 	
 	boundingBox := self calculateBoundingBoxFrom: aCollectionOfSMALocations.
 	zoom := self calculateZoomForBoundingBox: boundingBox.
-	self tiledMapMorph zoomClamped: zoom.
+	self tiledMapMorph zoom: zoom.
 	self tiledMapMorph layoutChanged

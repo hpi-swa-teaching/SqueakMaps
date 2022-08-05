@@ -1,5 +1,5 @@
 opening
 testClassInitialization
 
-	SMAWindow initialize.
-	self assert: true equals: (TheWorldMenu registry includes: {'Squeak Maps'. {SMAWindow . #open}})
+	SMAApplication initialize.
+	self assert: true equals: (TheWorldMenu registry includes: { 'Squeak Maps'. { SMAApplication . #open } })

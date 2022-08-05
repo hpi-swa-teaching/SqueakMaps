@@ -17,7 +17,7 @@ setUp
 		boundingBox: (2 @ 2 corner: 3 @ 3);
 		yourself).
 	
-	self model: SMAWindow new.
+	self model: SMAApplication new.
 	self model searchManager routingAPI: self routingAPIMock.
 	self model searchManager geocoder: self geocoderMock
 	

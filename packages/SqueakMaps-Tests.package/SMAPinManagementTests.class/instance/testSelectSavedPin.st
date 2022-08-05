@@ -9,7 +9,7 @@ testSelectSavedPin
 		boundingBox: (11.360777 @ 48.0616244 corner: 11.7229099 @ 48.2481162);
 		yourself.
 		
-	SMAWindow savedPins add: location.
+	SMAApplication savedPins add: location.
 
 	[self pinManagementButton click] valueSupplyingAnswers: {{'Saved Pins' . 'Munich (48.137154 °N, 11.576124 °E)'}}.
 	

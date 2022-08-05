@@ -1,4 +1,4 @@
 helping
 worldPosToPixelPos: aWorldPos
 
-	^ (aWorldPos - self worldBounds topLeft) / self pixelSize + self bounds topLeft
+	^ (aWorldPos - worldBounds topLeft) / self pixelSize + bounds topLeft
