@@ -4,7 +4,7 @@
 	"instance" : {
 		"addMarker:" : "os 7/22/2022 17:08",
 		"center" : "BCD 8/6/2020 16:00",
-		"center:" : "JR 7/22/2022 14:42",
+		"center:" : "os 8/5/2022 15:00",
 		"centerOnEvent:around:" : "JR 7/29/2022 14:28",
 		"computeTileMetrics" : "BCD 8/6/2020 16:00",
 		"defaultZoom" : "BCD 8/6/2020 16:00",
@@ -24,7 +24,7 @@
 		"markers" : "RK 6/21/2022 12:07",
 		"markers:" : "RK 6/21/2022 12:05",
 		"mouseDown:" : "BCD 8/6/2020 16:02",
-		"mouseMove:" : "BCD 8/6/2020 16:02",
+		"mouseMove:" : "os 8/5/2022 15:01",
 		"mouseWheel:" : "BCD 8/6/2020 16:02",
 		"onDoubleClickAction" : "RK 6/2/2022 14:28",
 		"onDoubleClickAction:" : "RK 6/2/2022 14:28",
