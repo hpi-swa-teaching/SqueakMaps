@@ -1,8 +1,8 @@
 refreshing
-testRefreshMapKeepsCenter
+testLayoutChangedKeepsCenter
 
 	| centerBefore |
 	
 	centerBefore := self model tiledMapMorph center.
-	self model tiledMapMorph refreshMap.
+	self model tiledMapMorph layoutChanged.
 	self assert: centerBefore equals: (self model tiledMapMorph center)

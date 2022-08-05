@@ -1,5 +1,5 @@
 viewer
 zoomOut
 
-	self zoom: self zoom - 1.
+	self zoomClamped: self zoom - 1.
 	self layoutChanged

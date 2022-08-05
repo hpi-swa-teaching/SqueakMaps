@@ -4,8 +4,9 @@ initialize
 	super initialize.
 
 	self tileLoader: SMAMapTileLoader new.
-	center := 0.5 @ 0.5.
-	zoom := 0.
-	self route: SMARouteLine new;
-		tileSource: SMAOpenStreetMapTileSource new;
-		layoutFrame: (LayoutFrame fractions: (0 @ 0 rect: 1 @ 1)).
+	self center: 0.5 @ 0.5.
+	self zoom: 0.
+	self route: SMARouteLine new.
+	self tileSource: SMAOpenStreetMapTileSource new.
+	self layoutFrame: (LayoutFrame fractions: (0 @ 0 rect: 1 @ 1)).
+	
