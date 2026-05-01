@@ -7,7 +7,7 @@ setUp
 	apiKeyManagementButton := self subject findByLabel: 'API Keys'.
 	
 	validBingMapsKey := 'As0hKwzwtzjektE1tZjvbu9avq4rNTv-912mAwljGQW36mgK5goGLckisoPMZXjx'.
-	validThunderforestMapsKey := 'c7d61f25a9d84521b9e49cad7cc9534f'.
+	validThunderforestMapsKey := 'd3dff8ca79bd4f19b20683efd1f24e07'.
 	
 	bingMapsKeyBefore := model bingApi class apiKey.
 	thunderforestMapsKeyBefore := model thunderforestMapsApi class apiKey.
