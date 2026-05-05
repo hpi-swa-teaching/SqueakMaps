@@ -2,4 +2,4 @@ user interface
 switchToEmptySearchView
 
 	self switchToSearchViewWith: nil.
-	self clear
+	self clear.
