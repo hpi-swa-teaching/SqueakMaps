@@ -4,5 +4,5 @@ newAt: aPoint labeled: aLabel
 	^ (self new
 		worldPos: aPoint;
 		label: aLabel;
-		color: Color red;
+		color: Color blue;
 		yourself)
