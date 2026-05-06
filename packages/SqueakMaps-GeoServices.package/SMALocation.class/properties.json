@@ -8,7 +8,8 @@
 	"instvars" : [
 		"label",
 		"boundingBox",
-		"coordinates" ],
+		"coordinates",
+		"category" ],
 	"name" : "SMALocation",
 	"pools" : [
 		 ],
