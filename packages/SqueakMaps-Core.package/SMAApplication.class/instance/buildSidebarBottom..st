@@ -6,6 +6,7 @@ buildSidebarBottom: aBuilder
 		children: {
 			self buildSelectAPIButton: aBuilder .
 			self buildManageAPIKeysButton: aBuilder .
-			self buildPinsButton: aBuilder };
+			self buildPinsButton: aBuilder.
+			self buildFilterButton: aBuilder};
 		frame: (0 @ 0.8 corner: 1 @ 1);
 		yourself

@@ -18,7 +18,8 @@
 		"navigator",
 		"mapConfigurator",
 		"bingApi",
-		"thunderforestMapsApi" ],
+		"thunderforestMapsApi",
+		"visiblePinCategories" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

@@ -7,7 +7,8 @@ showPins
 	locations isEmpty ifTrue: [ ^ self inform: 'No pins saved.' ].
 
 	locations do: [ :location |
-		self mapConfigurator displayLocation: location
+		(location category = 'Essen')
+			ifTrue: [ self mapConfigurator displayLocation: location ]
 	].
 
 	self changed: #buildSearchPinPanelChildren
