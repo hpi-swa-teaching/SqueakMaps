@@ -24,17 +24,6 @@ filterPins
 			].
 	].
 
-	(UIManager default confirm: 'Neue Kategorie hinzufügen?')
-		ifTrue: [
-			| newCategory |
-
-			newCategory := UIManager default
-				request: 'Neue Kategorie:'.
-
-			(newCategory notNil and: [ newCategory notEmpty ])
-				ifTrue: [
-					selectedCategories addIfNotPresent: newCategory
-				].
-		].
 
 	self visiblePinCategories: selectedCategories.
+	self clear.

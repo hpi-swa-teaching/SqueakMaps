@@ -7,7 +7,7 @@ showPins
 	locations isEmpty ifTrue: [ ^ self inform: 'No pins saved.' ].
 
 	locations do: [ :location |
-		(location category = 'Essen')
+		(self visiblePinCategories includes: location category)
 			ifTrue: [ self mapConfigurator displayLocation: location ]
 	].
 
