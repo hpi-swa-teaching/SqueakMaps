@@ -17,7 +17,6 @@
 		"hasSearched",
 		"navigator",
 		"mapConfigurator",
-		"bingApi",
 		"thunderforestMapsApi" ],
 	"name" : "SMAApplication",
 	"pools" : [

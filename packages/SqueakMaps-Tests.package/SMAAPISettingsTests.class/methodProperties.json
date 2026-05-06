@@ -2,16 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "TS 5/1/2026 09:52",
-		"tearDown" : "ros 7/13/2022 21:50",
-		"testApiButtonBing" : "RK 8/5/2022 21:35",
-		"testApiButtonBingInvalidKey" : "RK 8/5/2022 21:35",
+		"setUp" : "TS 5/6/2026 11:10",
+		"tearDown" : "TS 5/6/2026 11:13",
 		"testApiButtonThunderforest" : "RK 8/5/2022 21:36",
 		"testApiButtonThunderforestInvalidKey" : "RK 8/5/2022 21:36",
-		"testApiKeyManagementBing" : "RK 8/5/2022 21:36",
 		"testApiKeyManagementThunderforest" : "RK 8/5/2022 21:36",
-		"testBingApiKeyIsValidWithInvalidKey" : "ros 7/13/2022 21:53",
-		"testBingApiKeyIsValidWithValidKey" : "ros 7/13/2022 21:53",
 		"testSetOpenstreetmapsAsApi" : "RK 5/30/2022 20:44",
 		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "ros 7/13/2022 21:52",
 		"testThunderforestMapsApiKeyIsValidWithValidKey" : "ros 7/13/2022 21:53" } }
