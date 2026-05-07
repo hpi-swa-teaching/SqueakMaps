@@ -1,5 +1,4 @@
 building
 isSelected: index put: aBoolean
 
-    selectionList at: index put: aBoolean.
-	Transcript show: selectionList.
+	selectionList at: index put: aBoolean.
