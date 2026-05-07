@@ -1,6 +1,7 @@
 building
 collectSelectedCategories
-	|result|
+
+	| result |
 	result := OrderedCollection new.
 	1 to: (self class savedCategories size) do:[:i |
 			(self isSelected: i ) ifTrue: [

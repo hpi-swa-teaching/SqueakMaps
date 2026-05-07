@@ -4,9 +4,7 @@ savePin
 	
 	categories := self class savedCategories.
 	
-	titleCollection := categories collect: [:p |
-					p title
-		].
+	titleCollection := categories collect: [:p | p title].
 
 	selectedCategory  := UIManager default
 		chooseFrom: titleCollection
@@ -15,8 +13,7 @@ savePin
 	"pressed cancel"
 	selectedCategory = 0 ifTrue: [ ^ self ].
 
-	self selectedPin
-		category: (categories at: selectedCategory).
+	self selectedPin category: (categories at: selectedCategory).
 	
 	self isSelectedPinSaved ifFalse: [
 		self class savedPins addIfNotPresent: self selectedPin

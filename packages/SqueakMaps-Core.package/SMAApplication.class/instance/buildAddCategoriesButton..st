@@ -1,10 +1,10 @@
 building
-buildFilterButton: aBuilder
+buildAddCategoriesButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: 'Add Categories';
 		model: self;
-		action: #filterPins;
+		action: #addCategory;
 		help: 'Filter displayed pins by category.';
-		frame: (0 @ -0.5 corner: 1 @ 0);
+		frame: (0 @ -0.5 corner: 0.5 @ 0);
 		yourself

@@ -1,0 +1,4 @@
+pin management
+removeCategory
+
+	

@@ -1,5 +1,5 @@
 building
 filterPins
 
-	self visiblePinCategories: self collectSelectedCategories.
-	self clear.
+	"self visiblePinCategories: self collectSelectedCategories.
+	self clear."
