@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"SavedCategories",
 		"SavedPins" ],
 	"commentStamp" : "RK 8/5/2022 22:10",
 	"instvars" : [

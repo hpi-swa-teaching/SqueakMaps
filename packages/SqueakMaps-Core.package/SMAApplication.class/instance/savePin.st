@@ -1,19 +1,23 @@
 pin management
 savePin
-	| categories selectedCategory |
+	| categories selectedCategory titleCollection|
+	
+	categories := self class savedCategories.
+	
+	titleCollection := categories collect: [:p |
+					p title
+		].
 
-	categories := #('Freizeit' 'Arbeit' 'Essen').
+	selectedCategory  := UIManager default
+		chooseFrom: titleCollection
+		title: 'Select category'.
 
-	selectedCategory := UIManager default
-		chooseFrom: categories
-		title: 'Kategorie auswählen'.
-
-	"Abbrechen gedrückt"
+	"pressed cancel"
 	selectedCategory = 0 ifTrue: [ ^ self ].
 
 	self selectedPin
 		category: (categories at: selectedCategory).
-
+	
 	self isSelectedPinSaved ifFalse: [
 		self class savedPins addIfNotPresent: self selectedPin
 	].

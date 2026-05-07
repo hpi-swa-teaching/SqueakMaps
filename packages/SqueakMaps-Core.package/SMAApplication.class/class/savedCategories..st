@@ -1,0 +1,4 @@
+accessing
+savedCategories: anOrderedCollectionOfCategories
+
+	SavedPins := anOrderedCollectionOfCategories

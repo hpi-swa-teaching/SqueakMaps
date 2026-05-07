@@ -2,8 +2,7 @@ building
 filterPins
 	| categories selectedCategories done index |
 
-	categories := OrderedCollection withAll:
-		#('Freizeit' 'Arbeit' 'Essen' 'Fertig').
+	categories := self collectSelectedCategories.
 
 	selectedCategories := OrderedCollection new.
 	done := false.
