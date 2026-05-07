@@ -5,5 +5,6 @@ buildSidebarSearchChildren: aBuilder
 	
 	children := OrderedCollection new.
 	children add: (self buildSearchTopRow: aBuilder).
+	children add: (self buildSearchBarMultiSelect: aBuilder).
 	children add: (self buildSearchPinPanel: aBuilder).
 	^ children
