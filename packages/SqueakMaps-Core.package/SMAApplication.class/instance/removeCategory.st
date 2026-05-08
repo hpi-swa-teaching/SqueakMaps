@@ -12,4 +12,5 @@ removeCategory
 	"pressed cancel"
 	selectedCategoryIndex = 0 ifTrue: [ ^ self ].
 	"Remove category"
-	self class removePinCategoryTitle: (titleCollection at: selectedCategoryIndex)
+	self class removePinCategoryTitle: (titleCollection at: selectedCategoryIndex).
+	self changed: #items.
