@@ -73,5 +73,5 @@ To route:
 
 
  [img-start]: img/SqueakMaps_StartGUI.png
- [img-pins]: img/SqueakMaps_SafePins.png
+ [img-pins]: img/SqueakMaps_SavePins.png
  [img-route]: img/SqueakMaps_Routing.png
