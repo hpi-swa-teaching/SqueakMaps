@@ -1,4 +1,4 @@
-pin management
+category management
 removeCategory
 
 	| categories selectedCategoryIndex titleCollection|
@@ -11,6 +11,5 @@ removeCategory
 		
 	"pressed cancel"
 	selectedCategoryIndex = 0 ifTrue: [ ^ self ].
-	"Remove category"
 	self class removePinCategoryTitle: (titleCollection at: selectedCategoryIndex).
 	self changed: #items.

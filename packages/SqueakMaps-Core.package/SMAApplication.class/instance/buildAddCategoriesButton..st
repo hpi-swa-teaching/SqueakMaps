@@ -5,6 +5,6 @@ buildAddCategoriesButton: aBuilder
 		label: 'Add Categories';
 		model: self;
 		action: #addCategory;
-		help: 'Filter displayed pins by category.';
+		help: 'Click to create a new category.';
 		frame: (0 @ -0.5 corner: 0.5 @ 0);
 		yourself

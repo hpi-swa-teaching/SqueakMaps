@@ -1,13 +1,13 @@
-building
+category management
 isSelected: index put: aBoolean
 
-	(selectionList isNil or: [selectionList size ~= self items size]) ifTrue: [
-		selectionList := Array
+	(self selectionList isNil or: [self selectionList size ~= self items size]) ifTrue: [
+		self selectionList: (Array
 		new: self items size
-		withAll: false
+		withAll: false)
 	].
 	
-	selectionList at: index put: aBoolean.
+	self selectionList at: index put: aBoolean.
 	self visiblePinCategories: self collectSelectedCategories.
 	self clear.
 	self changed: #items.

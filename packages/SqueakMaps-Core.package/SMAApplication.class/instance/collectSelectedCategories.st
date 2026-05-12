@@ -1,4 +1,4 @@
-building
+category management
 collectSelectedCategories
 
 	| result |

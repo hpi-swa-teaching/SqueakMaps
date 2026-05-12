@@ -1,11 +1,11 @@
 building
-buildSearchBarMultiSelect: aBuilder
+buildCategoryMultiSelectList: aBuilder
 	
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #items;
 		getSelectionList: #isSelected:;
 		setSelectionList: #isSelected:put:;
-		help: 'pls help me.';
+		help: 'Select categories to show on the map.';
 		frame: (0 @ 0.6 corner: 1 @ 0.87);
 		yourself
