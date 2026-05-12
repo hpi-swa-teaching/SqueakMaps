@@ -9,5 +9,5 @@ isSelected: index put: aBoolean
 	
 	selectionList at: index put: aBoolean.
 	self visiblePinCategories: self collectSelectedCategories.
-
+	self clear.
 	self changed: #items.
