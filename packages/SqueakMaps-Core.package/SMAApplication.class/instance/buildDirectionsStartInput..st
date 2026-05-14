@@ -11,7 +11,6 @@ buildDirectionsStartInput: aBuilder
 			aBuilder pluggableInputFieldSpec new
 				model: self;
 				getText: #startSearchInput;
-				setText: #submitStartSearchInput:;
 				editText: #startSearchInput:;
 				askBeforeDiscardingEdits: false;
 				help: 'Start...';
