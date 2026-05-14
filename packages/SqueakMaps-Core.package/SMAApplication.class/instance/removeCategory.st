@@ -1,9 +1,8 @@
 category management
 removeCategory
 
-	| categories selectedCategoryIndex titleCollection|
+	| categories selectedCategoryIndex|
 	categories := self class savedCategories reject: [:each | each isDefault].
-	titleCollection := categories collect: [:p | p title].
 	
 	selectedCategoryIndex  := UIManager default
 		chooseFrom: (categories collect: [:p | p title])
@@ -11,5 +10,8 @@ removeCategory
 		
 	"pressed cancel"
 	selectedCategoryIndex = 0 ifTrue: [ ^ self ].
-	self class removePinCategoryTitle: (titleCollection at: selectedCategoryIndex).
+	self class removePinCategory: (categories at: selectedCategoryIndex).
+	
+	"Give pins new category"
+	self uncategorizePins: (categories at: selectedCategoryIndex).
 	self changed: #items.

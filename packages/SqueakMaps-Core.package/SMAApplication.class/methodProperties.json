@@ -4,7 +4,6 @@
 		"initialize" : "ros 7/22/2022 10:51",
 		"open" : "ros 7/22/2022 10:52",
 		"removePinCategory:" : "KK 5/14/2026 15:04",
-		"removePinCategoryTitle:" : "KK 5/7/2026 17:35",
 		"savedCategories" : "KK 5/14/2026 15:00",
 		"savedCategories:" : "KK 5/7/2026 11:56",
 		"savedPins" : "RK 6/20/2022 21:30",
@@ -80,7 +79,7 @@
 		"mapConfigurator:" : "TR 6/25/2022 12:48",
 		"navigator" : "RK 8/5/2022 20:53",
 		"navigator:" : "RK 8/5/2022 20:53",
-		"removeCategory" : "KK 5/14/2026 15:13",
+		"removeCategory" : "KK 5/14/2026 15:23",
 		"removePin" : "LJ 5/6/2026 11:02",
 		"requestApiSelection" : "RS 8/2/2020 14:15",
 		"requestBingApiKeyInput" : "RK 8/5/2022 21:30",
@@ -122,5 +121,6 @@
 		"tiledMapMorph:" : "TR 6/25/2022 14:17",
 		"transportationModeInput" : "TR 6/25/2022 14:17",
 		"transportationModeInput:" : "TR 6/25/2022 14:17",
+		"uncategorizePins:" : "KK 5/14/2026 15:22",
 		"visiblePinCategories" : "LJ 5/6/2026 11:41",
 		"visiblePinCategories:" : "KK 5/7/2026 16:19" } }
