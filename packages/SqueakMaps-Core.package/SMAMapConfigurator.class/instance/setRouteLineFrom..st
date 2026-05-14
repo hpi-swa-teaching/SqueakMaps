@@ -8,4 +8,4 @@ setRouteLineFrom: aSMARoute
 		points: points;
 		boundingBox: aSMARoute boundingBox;
 		yourself.
-	self tiledMapMorph route: routeLine.
+	self tiledMapMorph route: routeLine

@@ -17,8 +17,7 @@
 		"hasSearched",
 		"navigator",
 		"mapConfigurator",
-		"thunderforestMapsApi",
-		"addStopSearchInput" ],
+		"thunderforestMapsApi" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
