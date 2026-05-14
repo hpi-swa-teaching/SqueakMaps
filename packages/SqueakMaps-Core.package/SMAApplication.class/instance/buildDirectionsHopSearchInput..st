@@ -17,5 +17,5 @@ buildDirectionsHopSearchInput: aBuilder
 				frame: (0 @ 0.5 corner: 1 @ 1);
 				yourself
 		};
-		frame: (0 @ 0.6 corner: 1 @ 0.7);
+		frame: (0 @ 0.44 corner: 1 @ 0.54);
 		yourself

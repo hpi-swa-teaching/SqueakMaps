@@ -1,4 +1,4 @@
 accessing
 hopSearchInputs
 	
-	^ hopSearchInputs ifNil: [hopSearchInputs := Dictionary new.]
+	^ hopSearchInputs ifNil: [hopSearchInputs := OrderedCollection new.]

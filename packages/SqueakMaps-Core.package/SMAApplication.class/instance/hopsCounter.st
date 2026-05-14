@@ -1,4 +1,4 @@
 accessing
 hopsCounter
 
-	^ hopsCounter ifNil: [hopsCounter := 0]
+	^ hopsCounter ifNil: [hopsCounter := 1]

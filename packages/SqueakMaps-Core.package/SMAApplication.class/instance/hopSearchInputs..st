@@ -1,5 +1,5 @@
 accessing
-hopSearchInputs: aDictionary
+hopSearchInputs: anOrderedCollection
 
-	hopSearchInputs := aDictionary.
+	hopSearchInputs := anOrderedCollection.
 	self changed: #hopSearchInputs
