@@ -8,4 +8,5 @@ addHopSearchInput
 	self hopSearchInput: ''.
 	self changed: #hopSearchInput.
 	self changed: #hopSearchInputs.
+	self searchDirections.
 	Transcript show: self hopSearchInputs; cr.
