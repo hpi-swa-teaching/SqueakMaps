@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title" ],
+		"title",
+		"isDefault" ],
 	"name" : "SMAPinCategory",
 	"pools" : [
 		 ],

@@ -1,4 +1,8 @@
 accessing
 removePinCategory: aCategory
-
-	SavedCategories remove: aCategory
+	
+	aCategory isDefault ifTrue: [
+		self inform: 'Default category cannot be removed'.
+		].
+	
+	SavedCategories remove: aCategory ifAbsent: []

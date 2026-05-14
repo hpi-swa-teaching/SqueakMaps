@@ -2,11 +2,11 @@ category management
 removeCategory
 
 	| categories selectedCategoryIndex titleCollection|
-	categories := self class savedCategories.
+	categories := self class savedCategories reject: [:each | each isDefault].
 	titleCollection := categories collect: [:p | p title].
-
+	
 	selectedCategoryIndex  := UIManager default
-		chooseFrom: titleCollection
+		chooseFrom: (categories collect: [:p | p title])
 		title: 'Select category To Remove'.
 		
 	"pressed cancel"
