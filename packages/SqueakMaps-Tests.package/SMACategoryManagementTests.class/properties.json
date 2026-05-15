@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addCategoryButton",
+		"removeCategoryButton",
+		"savedCategoriesBefore",
+		"model" ],
+	"name" : "SMACategoryManagementTests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }
