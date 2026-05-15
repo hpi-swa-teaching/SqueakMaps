@@ -10,5 +10,5 @@ testSavePin
 		yourself.
 
 	self model setSelectedPin: location.
-	[self model savePin] valueSupplyingAnswer: { 'Uncategorized' . 1 }.
+	[self model savePin] valueSupplyingAnswer: { 'Select category' . 1 }.
 	self assert: (self model class savedPins includes: location) equals: true

@@ -3,8 +3,6 @@ testSaveIdenticalPins
 
 	| location1 location2 |
 	
-	self model class savedPins: OrderedCollection new.
-	
 	location1 := SMALocation new
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
 		label: 'Munich';
@@ -18,9 +16,9 @@ testSaveIdenticalPins
 		yourself.
 
 	self model setSelectedPin: location1.
-	[self model savePin] valueSupplyingAnswer: { 'Uncategorized' . 1 }.
+	[self model savePin] valueSupplyingAnswer: { 'Select category' . 1 }.
 	
 	self model setSelectedPin: location2.
-	[self model savePin] valueSupplyingAnswer: { 'Uncategorized' . 1 }.
+	[self model savePin] valueSupplyingAnswer: { 'Select category' . 1 }.
 	
 	self assert: (self model class savedPins size) equals: 1
