@@ -7,6 +7,7 @@ testSelectSavedPin
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
 		label: 'Munich';
 		boundingBox: (11.360777 @ 48.0616244 corner: 11.7229099 @ 48.2481162);
+		category: SMAPinCategory defaultCategory;
 		yourself.
 		
 	SMAApplication savedPins add: location.
