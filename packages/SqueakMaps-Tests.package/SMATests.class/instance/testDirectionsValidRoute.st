@@ -28,7 +28,7 @@ testDirectionsValidRoute
 	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: expectedMiddle) equals: self model tiledMapMorph center.
 	self assert: expectedZoom equals: self model tiledMapMorph zoom.
 
-	resultingRouteLine := self model tiledMapMorph route.
+	resultingRouteLine := self model tiledMapMorph routes.
 	self assert: resultingRouteLine points size equals: 2.
 	self assert: resultingRouteLine boundingBox equals: (1 @ 1 corner: 3 @ 3).
 	

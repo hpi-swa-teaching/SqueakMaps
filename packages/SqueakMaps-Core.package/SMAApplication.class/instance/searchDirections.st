@@ -28,6 +28,6 @@ searchDirections
 			^ self].
 	
 	self mapConfigurator displayRoute: newRoute.
-	self route: newRoute;
+	self addRoute: newRoute;
 		hasSearched: true;
 		changed: #buildSidebarTopChildren

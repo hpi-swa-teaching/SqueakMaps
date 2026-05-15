@@ -1,4 +1,9 @@
 building
 getDistanceLabel
 
-	^ { StringMorph new contents: self route getDistanceAsString; yourself }
+	| sum |
+	
+	sum := 0.
+	self routes do: [:r | sum := sum + r getDistance].
+
+	^ { StringMorph new contents: sum asString, 'km'; yourself }

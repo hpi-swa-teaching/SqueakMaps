@@ -9,7 +9,7 @@ testDeleteRouteOnSearch
 	coords2 := SMAGeoCoordinate newFrom: 2 @ 2.
 	coords3 := SMAGeoCoordinate newFrom: 3 @ 3.
 	
-	tiledMapMorph route points: {
+	tiledMapMorph routes points: {
 		SMAMapConfigurator geoCoordinatesToWorldPos: coords1 . 
 		SMAMapConfigurator geoCoordinatesToWorldPos: coords2}.
 		
@@ -23,4 +23,4 @@ testDeleteRouteOnSearch
 	self model searchInput: 'something'.
 	self model searchLocation.
 	
-	self assert: tiledMapMorph route points isEmpty
+	self assert: tiledMapMorph routes points isEmpty
