@@ -14,11 +14,10 @@ testSaveIdenticalPins
 		label: 'Munich';
 		category: SMAPinCategory defaultCategory;
 		yourself.
-
 	self model setSelectedPin: location1.
-	[self model savePin] valueSupplyingAnswer: { 'Select category' . 1 }.
-	
+	[self model savePin] valueSupplyingAnswer: { 'Select category' . 'Uncategorized' }.
+
 	self model setSelectedPin: location2.
-	[self model savePin] valueSupplyingAnswer: { 'Select category' . 1 }.
-	
+	[self model savePin] valueSupplyingAnswer: { 'Select category' . 'Uncategorized' }.
+
 	self assert: (self model class savedPins size) equals: 1

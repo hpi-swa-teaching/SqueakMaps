@@ -3,7 +3,6 @@ savePin
 	| categories selectedCategory titleCollection|
 	
 	categories := self class savedCategories.
-	
 	titleCollection := categories collect: [:p | p title].
 
 	selectedCategory  := UIManager default
@@ -11,7 +10,7 @@ savePin
 		title: 'Select category'.
 
 	"pressed cancel"
-	selectedCategory = 0 ifTrue: [ ^ self ].
+	selectedCategory = 0 ifTrue: [^ self ].
 
 	self selectedPin category: (categories at: selectedCategory).
 	

@@ -1,4 +1,4 @@
 accessing
 savedCategories: anOrderedCollectionOfCategories
 
-	SavedPins := anOrderedCollectionOfCategories
+	SavedCategories := anOrderedCollectionOfCategories
