@@ -2,6 +2,7 @@ pin testing
 testSavePin
 
 	| location |
+	self model class savedPins: OrderedCollection new.
 	
 	location := SMALocation new
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124@48.137154);
