@@ -1,8 +1,8 @@
 building
-buildRemoveCategoriesButton: aBuilder
+buildRemoveCategoryButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
-		label: 'Remove Categories';
+		label: 'Remove Category';
 		model: self;
 		action: #removeCategory;
 		help: 'Lets you remove a category.';

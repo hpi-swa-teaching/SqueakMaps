@@ -1,8 +1,8 @@
 building
-buildAddCategoriesButton: aBuilder
+buildAddCategoryButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
-		label: 'Add Categories';
+		label: 'Add Category';
 		model: self;
 		action: #addCategory;
 		help: 'Click to create a new category.';

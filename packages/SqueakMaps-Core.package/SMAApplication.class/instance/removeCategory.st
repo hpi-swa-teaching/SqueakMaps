@@ -3,6 +3,7 @@ removeCategory
 
 	| categories selectedCategoryIndex|
 	categories := self class savedCategories reject: [:each | each isDefault].
+	categories isEmpty ifTrue: [^ self inform: 'No category to remove.'].
 	
 	selectedCategoryIndex  := UIManager default
 		chooseFrom: (categories collect: [:p | p title])

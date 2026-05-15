@@ -7,7 +7,7 @@ buildSidebarBottom: aBuilder
 			self buildSelectAPIButton: aBuilder .
 			self buildManageAPIKeysButton: aBuilder .
 			self buildPinsButton: aBuilder.
-			self buildAddCategoriesButton: aBuilder.
-			self buildRemoveCategoriesButton: aBuilder};
+			self buildAddCategoryButton: aBuilder.
+			self buildRemoveCategoryButton: aBuilder};
 		frame: (0 @ 0.8 corner: 1 @ 1);
 		yourself
