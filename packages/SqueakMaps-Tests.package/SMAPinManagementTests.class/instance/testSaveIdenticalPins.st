@@ -3,7 +3,7 @@ testSaveIdenticalPins
 
 	| location1 location2 |
 	
-	"self model class savedPins: OrderedCollection new."
+	self model class savedPins: OrderedCollection new.
 	
 	location1 := SMALocation new
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
