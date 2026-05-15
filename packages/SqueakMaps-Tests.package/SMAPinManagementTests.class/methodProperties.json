@@ -11,9 +11,9 @@
 		"setUp" : "KK 5/15/2026 11:06",
 		"tearDown" : "RK 8/5/2022 20:47",
 		"testNoPinsSaved" : "KK 5/15/2026 11:04",
-		"testPlacePin" : "KK 5/15/2026 10:37",
+		"testPlacePin" : "KK 5/15/2026 11:19",
 		"testRemovePin" : "KK 5/15/2026 10:38",
 		"testSaveIdenticalPins" : "KK 5/15/2026 10:40",
 		"testSavePin" : "KK 5/15/2026 10:44",
-		"testSelectSavedPin" : "KK 5/15/2026 10:45",
+		"testSelectSavedPin" : "KK 5/15/2026 11:23",
 		"testTransportationModeInput" : "TR 7/25/2022 18:46" } }
