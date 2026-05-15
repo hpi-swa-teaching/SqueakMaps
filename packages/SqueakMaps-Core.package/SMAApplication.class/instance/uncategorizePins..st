@@ -6,6 +6,5 @@ uncategorizePins: aRemovedCategory
 	self class savedPins do:[:pin |
 		pin category = aRemovedCategory ifTrue:[
 			pin category: defaultCategory.
-			Transcript show: pin category.
 			]
 		]

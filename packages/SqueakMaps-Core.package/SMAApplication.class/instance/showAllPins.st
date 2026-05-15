@@ -1,5 +1,5 @@
 pin management
-showPins
+showAllPins
 
 	| locations |
 	
@@ -7,8 +7,7 @@ showPins
 	locations isEmpty ifTrue: [ ^ self.].
 
 	locations do: [ :location |
-		(self visiblePinCategories includes: location category)
-			ifTrue: [ self mapConfigurator displayLocation: location ]
+		 self mapConfigurator displayLocation: location.
 	].
 
 	self changed: #buildSearchPinPanelChildren
