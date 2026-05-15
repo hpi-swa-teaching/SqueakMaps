@@ -18,4 +18,4 @@ testPlacePin
 	
 	self assert: self model tiledMapMorph markers size = 1.
 	self assert: centerBefore equals: self model tiledMapMorph center.
-	self assert: zoomBefore equals: self model tiledMapMorph zoom
+	self assert: zoomBefore equals: self model tiledMapMorph zoom.
