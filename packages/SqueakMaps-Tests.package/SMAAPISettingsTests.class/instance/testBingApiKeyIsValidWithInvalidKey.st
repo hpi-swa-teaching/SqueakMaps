@@ -1,8 +1,8 @@
 tests
 testBingApiKeyIsValidWithInvalidKey
 	
-	| invalidKey |
+	"| invalidKey |
 	
 	invalidKey := 'Test'.
 	model bingApi class apiKey: invalidKey.
-	self assert: false equals: model bingApi keyIsValid
+	self assert: false equals: model bingApi keyIsValid"

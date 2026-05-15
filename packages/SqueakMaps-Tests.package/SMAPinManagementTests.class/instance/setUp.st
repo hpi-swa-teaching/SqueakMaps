@@ -1,6 +1,6 @@
 running
 setUp
-
+	
 	model := SMAApplication new.
 	self wantsToTest: model build.
 	
