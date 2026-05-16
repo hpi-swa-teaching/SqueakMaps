@@ -9,7 +9,8 @@
 		"addCategoryButton",
 		"removeCategoryButton",
 		"savedCategoriesBefore",
-		"model" ],
+		"model",
+		"savedPinsBefore" ],
 	"name" : "SMACategoryManagementTests",
 	"pools" : [
 		 ],
