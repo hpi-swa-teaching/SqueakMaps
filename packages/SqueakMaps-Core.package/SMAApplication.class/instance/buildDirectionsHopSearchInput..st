@@ -1,21 +1,21 @@
 building
-buildDirectionsDestinationInput: aBuilder
+buildDirectionsHopSearchInput: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: {
 			self 
 				buildDirectionsLabel: aBuilder 
-				with: #getDestinationLabel 
+				with: #getAddHopLabel 
 				byPosition: (0 @ 0 corner: 1 @ 0.5).
 			aBuilder pluggableInputFieldSpec new
 				model: self;
-				getText: #destinationSearchInput;
-				editText: #destinationSearchInput:;
+				getText: #hopSearchInput;
+				editText: #hopSearchInput:;
 				askBeforeDiscardingEdits: false;
-				help: 'Destination...';
+				help: 'Add Hop...';
 				frame: (0 @ 0.5 corner: 1 @ 1);
 				yourself
 		};
-		frame: (0 @ 0.2 corner: 1 @ 0.3);
+		frame: (0 @ 0.44 corner: 1 @ 0.54);
 		yourself

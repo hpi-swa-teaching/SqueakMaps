@@ -1,0 +1,4 @@
+accessing
+hopSearchInput
+
+	^ hopSearchInput
