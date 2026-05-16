@@ -10,7 +10,6 @@
 		"tiledMapMorph",
 		"currentView",
 		"selectedPin",
-		"route",
 		"searchInput",
 		"startSearchInput",
 		"destinationSearchInput",
@@ -24,7 +23,8 @@
 		"bingApi",
 		"thunderforestMapsApi",
 		"visiblePinCategories",
-		"selectionList" ],
+		"selectionList",
+		"routes" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

@@ -4,7 +4,7 @@ switchToDirectionsView
 	self setDestinationSearchInput.
 	self startSearchInput: ''.
 	self searchInput: ''.
-	self route: nil.
+	self clearRoutes.
 	self hasSearched: false.
 	self currentView: #directions.
 	self changed: #currentView.
