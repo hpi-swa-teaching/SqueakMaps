@@ -15,8 +15,6 @@ searchDirectionsFrom: aSearchInput to: anotherSearchInput
 		on: SMALocationNameNotFoundError
 		do: [:error | ^ self inform: error userMessage].
 	
-	self clear.
-	
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
 		^ self informSearchedSameLocation: startLocation].
 
@@ -28,6 +26,6 @@ searchDirectionsFrom: aSearchInput to: anotherSearchInput
 			^ self].
 	
 	self mapConfigurator displayRoute: newRoute.
-	self route: newRoute;
-		hasSearched: true;
+	self routes add: newRoute.
+	self hasSearched: true;
 		changed: #buildSidebarTopChildren

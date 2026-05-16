@@ -9,7 +9,6 @@ initialize
 		currentView: #search;
 		bingApi: SMABingMapsApi new;
 		thunderforestMapsApi: SMAThunderforestMapsApi new.
-Transcript show: 'a'; cr.
 	self tiledMapMorph onDoubleClickAction: [:aPoint | 
 		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)].
 	

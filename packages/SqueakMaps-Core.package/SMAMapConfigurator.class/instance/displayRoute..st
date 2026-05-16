@@ -7,5 +7,5 @@ displayRoute: aSMARoute
 	self tiledMapMorph center: centerWorldPos.
 	self setRouteLineFrom: aSMARoute;
 		setZoomForBoundingBox: aSMARoute boundingBox;
-		setAllMarkersFrom: aSMARoute.
+		addAllMarkersFrom: aSMARoute.
 	self tiledMapMorph layoutChanged
