@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"with:model:parent:" : "mt 5/14/2015 18:10" },
+	"instance" : {
+		"asString" : "mt 3/23/2015 17:14",
+		"balloonText" : "tbn 3/8/2010 17:26",
+		"contents" : "mt 5/14/2015 18:10",
+		"hasContents" : "mt 3/23/2015 17:13",
+		"icon" : "ct 3/23/2026 01:18",
+		"item" : "mt 3/23/2015 17:14",
+		"itemName" : "mt 1/27/2023 15:05",
+		"okToChange" : "ct 3/22/2026 17:54",
+		"parent" : "mt 5/14/2015 18:11",
+		"parent:" : "mt 5/14/2015 18:11",
+		"setItem:" : "mt 11/10/2015 15:09",
+		"setItem:model:parent:" : "mt 5/14/2015 18:10",
+		"update:" : "mt 5/14/2015 18:25",
+		"update:with:" : "mt 3/29/2015 14:29" } }
