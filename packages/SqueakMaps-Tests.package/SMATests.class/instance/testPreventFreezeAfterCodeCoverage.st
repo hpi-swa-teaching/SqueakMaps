@@ -7,6 +7,6 @@ testPreventFreezeAfterCodeCoverage
 	
 	self model navigator geocoder: SMANominatimGeocoder new.
 	
-	self model searchInput: 'not-existing'.
-	[self model searchLocation] valueSupplyingAnswer: { 'No location with name "not-existing" found.' . #closeDialog }.
+	self model searchInput: 'not-existing-location'.
+	[self model searchLocation] valueSupplyingAnswer: { 'No location with name "not-existing-location" found.' . #closeDialog }.
 	
