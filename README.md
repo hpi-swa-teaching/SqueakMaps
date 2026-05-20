@@ -87,7 +87,8 @@ SWT20-11:
 * [Schirmchens](https://github.com/Schirmchens)
 * [BennytheBomb](https://github.com/BennytheBomb)
 
-##Google Sheets
+## Google Sheets
+
 https://docs.google.com/spreadsheets/d/1H8KeyrBITCSXGmxg7X0JzUf-dQI6P_TVylMv7TXxXSM/edit?gid=0#gid=0
 
 
