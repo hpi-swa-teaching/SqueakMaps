@@ -1,7 +1,7 @@
 building
 addHopSearchInput
 
-	(self hopSearchInput isEmpty) ifTrue: [
+	self hopSearchInput ifNil: [
 		^ self inform: 'Please enter a hop.'].
 	
 	self hopSearchInputs add: self hopSearchInput.

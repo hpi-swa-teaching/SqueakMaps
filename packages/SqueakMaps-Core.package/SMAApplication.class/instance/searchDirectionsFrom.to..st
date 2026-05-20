@@ -25,7 +25,6 @@ searchDirectionsFrom: aSearchInput to: anotherSearchInput
 			self inform: error userMessage.
 			^ self].
 	
-	self mapConfigurator displayRoute: newRoute.
 	self routes add: newRoute.
 	self hasSearched: true;
 		changed: #buildSidebarTopChildren

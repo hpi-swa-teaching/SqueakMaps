@@ -13,3 +13,5 @@ searchDirections
 		lastQuery := i.
 	].
 	self searchDirectionsFrom: lastQuery to: self destinationSearchInput.
+	
+	self mapConfigurator displayRoutes: self routes.
