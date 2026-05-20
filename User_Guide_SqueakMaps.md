@@ -34,7 +34,7 @@ The following SqueakMaps interface opens:
 ![SqueakMaps Sart GUI][img-start]
 
 
-## Map Funktions -- Use the Map as a Pro :)
+## Map Funktions -- Use the Map like a Pro :)
 
 **Scroll:**\
 Place the cursor in the map area and hold left-click to pan the map.
