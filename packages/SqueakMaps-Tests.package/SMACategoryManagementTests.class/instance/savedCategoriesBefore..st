@@ -1,0 +1,4 @@
+accessing
+savedCategoriesBefore: aCollectionOfSavedCategories
+
+	savedCategoriesBefore := aCollectionOfSavedCategories

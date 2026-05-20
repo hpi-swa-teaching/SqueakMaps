@@ -14,7 +14,7 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 				coordinates: aSMAGeoCoordinate;
 				yourself].
 	
-	self switchToSearchViewWith: location.
-	self mapConfigurator 
-		clear;
+	self switchToSearchViewWith: location;
+	 	clear.
+	self mapConfigurator
 		displayLocation: location

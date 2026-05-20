@@ -6,6 +6,7 @@ testRemovePin
 	location := SMALocation new
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
 		label: 'Munich';
+		category: SMAPinCategory defaultCategory;
 		yourself.
 
 	self model class savedPins add: location.

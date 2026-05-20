@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"isDefault" ],
+	"name" : "SMAPinCategory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -15,7 +15,7 @@ searchDirections
 		on: SMALocationNameNotFoundError
 		do: [:error | ^ self inform: error userMessage].
 	
-	self mapConfigurator clear.
+	self clear.
 	
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
 		^ self informSearchedSameLocation: startLocation].

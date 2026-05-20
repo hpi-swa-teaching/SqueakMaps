@@ -10,6 +10,7 @@ testPlacePin
 		coordinates: (SMAGeoCoordinate newFrom: 11.576124 @ 48.137154);
 		label: 'Munich';
 		boundingBox: (11.360777 @ 48.0616244 corner: 11.7229099 @ 48.2481162);
+		category: SMAPinCategory defaultCategory;
 		yourself.
 
 	self model setSelectedPin: location.
@@ -17,4 +18,4 @@ testPlacePin
 	
 	self assert: self model tiledMapMorph markers size = 1.
 	self assert: centerBefore equals: self model tiledMapMorph center.
-	self assert: zoomBefore equals: self model tiledMapMorph zoom
+	self assert: zoomBefore equals: self model tiledMapMorph zoom.

@@ -9,8 +9,8 @@ searchLocation
 		on: SMALocationNameNotFoundError
 		do: [:error | ^ self inform: error userMessage].
 	
-	self setSelectedPin: location.
+	self setSelectedPin: location;
+		clear.
 	self mapConfigurator 
-		clear;
 		displayLocation: location;
 		focusLocation: location

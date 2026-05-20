@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCategoryButton" : "KK 5/15/2026 14:54",
+		"addCategoryButton:" : "KK 5/15/2026 14:54",
+		"model" : "KK 5/15/2026 14:54",
+		"model:" : "KK 5/15/2026 14:55",
+		"removeCategoryButton" : "KK 5/15/2026 14:55",
+		"removeCategoryButton:" : "KK 5/15/2026 14:55",
+		"savedCategoriesBefore" : "KK 5/15/2026 14:55",
+		"savedCategoriesBefore:" : "KK 5/15/2026 14:55",
+		"savedPinsBefore" : "KK 5/16/2026 17:20",
+		"savedPinsBefore:" : "KK 5/16/2026 17:20",
+		"setUp" : "KK 5/16/2026 17:21",
+		"tearDown" : "KK 5/16/2026 17:21",
+		"testAddCategory" : "KK 5/15/2026 15:09",
+		"testCategorySelection" : "KK 5/16/2026 17:16",
+		"testNoCategoryRemoved" : "KK 5/15/2026 15:33",
+		"testRemoveCategory" : "KK 5/16/2026 16:54" } }

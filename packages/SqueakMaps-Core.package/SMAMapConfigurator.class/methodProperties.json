@@ -4,11 +4,11 @@
 		"newWith:" : "TR 6/25/2022 12:53",
 		"worldPosToGeoCoordinates:" : "RK 8/5/2022 22:00" },
 	"instance" : {
-		"addMarkerFrom:" : "TR 7/19/2022 15:47",
+		"addMarkerFrom:" : "KK 5/16/2026 17:00",
 		"calculateBoundingBoxFrom:" : "TR 7/25/2022 14:42",
 		"calculateCenterGeoCoordinatesFrom:" : "RK 8/5/2022 21:54",
 		"calculateZoomForBoundingBox:" : "LK 7/25/2022 18:10",
-		"clear" : "LK 7/25/2022 16:09",
+		"clear" : "LJ 5/6/2026 10:23",
 		"displayLocation:" : "RK 7/13/2022 17:57",
 		"displayRoute:" : "ros 7/22/2022 10:21",
 		"focusLocation:" : "ros 7/22/2022 10:21",
