@@ -8,7 +8,8 @@
 	"instvars" : [
 		"pinManagementButton",
 		"savedPinsBefore",
-		"model" ],
+		"model",
+		"savedCategories" ],
 	"name" : "SMAPinManagementTests",
 	"pools" : [
 		 ],

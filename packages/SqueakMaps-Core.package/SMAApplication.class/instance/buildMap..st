@@ -1,6 +1,7 @@
 building
 buildMap: aBuilder
 
+	self showAllPins.
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: #getMapMorph;

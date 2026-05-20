@@ -1,6 +1,6 @@
 building
 buildWith: aBuilder
-
+	
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'SqueakMaps';

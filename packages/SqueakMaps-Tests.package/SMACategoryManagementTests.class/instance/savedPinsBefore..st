@@ -1,0 +1,4 @@
+accessing
+savedPinsBefore: anOrderedCollectionOfPins
+
+	savedPinsBefore := anOrderedCollectionOfPins

@@ -2,7 +2,6 @@ running
 setUp
 	
 	super setUp.
-	
 	self routingAPIMock: SMARoutingAPIMock new.
 	self geocoderMock: SMAGeocoderMock new.
 	
