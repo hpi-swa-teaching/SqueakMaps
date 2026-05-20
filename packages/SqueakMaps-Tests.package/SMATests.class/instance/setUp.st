@@ -16,7 +16,12 @@ setUp
 		coordinates: (SMAGeoCoordinate newLong: 2 Lat: 2);
 		boundingBox: (2 @ 2 corner: 3 @ 3);
 		yourself).
-	
+	self parisLocation: (SMALocation new
+		label: 'Paris';
+		coordinates: (SMAGeoCoordinate newLong: 3 Lat: 3);
+		boundingBox: (3 @ 3 corner: 4 @ 4);
+		yourself).
+		
 	self model: SMAApplication new.
 	self model navigator routingAPI: self routingAPIMock.
 	self model navigator geocoder: self geocoderMock

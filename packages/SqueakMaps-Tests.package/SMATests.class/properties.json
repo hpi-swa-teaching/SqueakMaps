@@ -10,7 +10,8 @@
 		"routingAPIMock",
 		"geocoderMock",
 		"berlinLocation",
-		"londonLocation" ],
+		"londonLocation",
+		"parisLocation" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],
