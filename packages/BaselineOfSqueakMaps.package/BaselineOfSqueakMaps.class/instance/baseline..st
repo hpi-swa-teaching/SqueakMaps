@@ -1,57 +1,58 @@
 baseline
 baseline: spec
-    <baseline>
+	<baseline>
 
-    spec for: #common do: [
+	spec for: #common do: [
 
-        spec baseline: 'MorphicTestingFramework' with: [
-            spec
-                repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'
-        ].
+		spec baseline: 'MorphicTestingFramework' with: [
+			spec
+				repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'
+		].
 
-        spec
-            package: 'SqueakMaps-TiledMaps';
+		spec
+			package: 'SqueakMaps-TiledMaps';
 
-            package: 'SqueakMaps-Core' with: [
-                spec requires: #(
-                    'SqueakMaps-TiledMaps'
-                    'MorphicTestingFramework')
-            ];
+			package: 'SqueakMaps-Core' with: [
+				spec requires: #(
+					'SqueakMaps-TiledMaps'
+					'MorphicTestingFramework')
+			];
 
-            package: 'SqueakMaps-GeoServices' with: [
-                spec requires: #(
-                    'SqueakMaps-Core')
-            ];
+			package: 'SqueakMaps-GeoServices' with: [
+				spec requires: #(
+					'SqueakMaps-Core')
+			];
 
-            package: 'SqueakMaps-Tests' with: [
-                spec requires: #(
-                    'SqueakMaps-Core'
-                    'SqueakMaps-GeoServices'
-                    'SqueakMaps-TiledMaps'
-                    'MorphicTestingFramework')
-            ];
+			package: 'SqueakMaps-Tests' with: [
+				spec requires: #(
+					'SqueakMaps-Core'
+					'SqueakMaps-GeoServices'
+					'SqueakMaps-TiledMaps'
+					'MorphicTestingFramework')
+			];
 
-            yourself.
+			yourself.
 
-        spec
-            group: 'default' with: #(
-                'SqueakMaps-Core'
-                'SqueakMaps-GeoServices');
+		spec
+			group: 'default' with: #(
+				'SqueakMaps-Core'
+				'SqueakMaps-GeoServices');
 
-            group: 'tests' with: #(
-                'SqueakMaps-Tests').
-    ].
+			group: 'tests' with: #(
+				'SqueakMaps-Tests').
 
-    spec for: #(#'squeak5.x' #'squeak6.0.x.release') do: [
+	].
 
-        spec
-            package: 'JSON' with: [
-                spec
-                    file: 'JSON-ul.35';
-                    repository: 'http://www.squeaksource.com/JSON'
-            ];
+	spec for: #(#'squeak5.x') do: [
 
-            package: 'SqueakMaps-Core' with: [
-                spec requires: #('JSON')
-            ].
-    ].
+		spec
+			package: 'JSON' with: [
+				spec
+					file: 'JSON-ul.35';
+					repository: 'http://www.squeaksource.com/JSON'
+			];
+
+			package: 'SqueakMaps-Core' with: [
+				spec requires: #('JSON')
+			].
+	].
