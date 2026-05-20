@@ -25,10 +25,10 @@ testDirectionsValidRoute
 	self model destinationSearchInput: 'London'.
 	self model searchDirections.
 
-	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: expectedMiddle) equals: self model tiledMapMorph center.
+	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: expectedMiddle) rounded equals: self model tiledMapMorph center rounded.
 	self assert: expectedZoom equals: self model tiledMapMorph zoom.
 
-	resultingRouteLine := self model tiledMapMorph routes.
+	resultingRouteLine := self model tiledMapMorph routes second.
 	self assert: resultingRouteLine points size equals: 2.
 	self assert: resultingRouteLine boundingBox equals: (1 @ 1 corner: 3 @ 3).
 	

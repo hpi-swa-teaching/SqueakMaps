@@ -1,7 +1,7 @@
 searching
 testDeleteRouteOnSearch
 
-	| tiledMapMorph coords1 coords2 coords3 |
+	| tiledMapMorph route coords1 coords2 coords3 |
 
 	tiledMapMorph := self model tiledMapMorph.
 	
@@ -9,9 +9,11 @@ testDeleteRouteOnSearch
 	coords2 := SMAGeoCoordinate newFrom: 2 @ 2.
 	coords3 := SMAGeoCoordinate newFrom: 3 @ 3.
 	
-	tiledMapMorph routes points: {
+	route := SMARouteLine new.
+	 route points: {
 		SMAMapConfigurator geoCoordinatesToWorldPos: coords1 . 
 		SMAMapConfigurator geoCoordinatesToWorldPos: coords2}.
+	tiledMapMorph addRoute: route.
 		
 	self geocoderMock mockLocateWith: [:query |
 		{ SMALocation new
@@ -23,4 +25,4 @@ testDeleteRouteOnSearch
 	self model searchInput: 'something'.
 	self model searchLocation.
 	
-	self assert: tiledMapMorph routes points isEmpty
+	self assert: tiledMapMorph routes isEmpty.

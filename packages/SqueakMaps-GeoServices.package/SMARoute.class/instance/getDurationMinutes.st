@@ -1,6 +1,6 @@
 calculating
 getDurationMinutes
-	"Calculates hours and minutes from seconds and returns as String."
+	"Calculates minutes from seconds and returns as Number."
 
 	^ self duration isNil
 		ifTrue: [0]
