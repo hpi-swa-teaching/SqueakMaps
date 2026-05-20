@@ -24,7 +24,7 @@
 		"testDirectionsSameLocationSearch" : "RK 8/5/2022 21:41",
 		"testDirectionsValidRoute" : "RK 7/29/2022 16:52",
 		"testGeoCoordinateWorldPosConversion" : "RK 7/29/2022 15:58",
-		"testLocationSearchDoesNotExist" : "seas 5/20/2026 14:11",
+		"testLocationSearchDoesNotExist" : "RK 8/5/2022 21:42",
 		"testLocationSearchValid" : "RK 7/29/2022 15:59",
 		"testOpenInWorld" : "TR 7/25/2022 18:37",
 		"testPreventFreezeAfterCodeCoverage" : "seas 5/20/2026 14:14",
