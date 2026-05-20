@@ -19,8 +19,16 @@ baseline: spec
 				package: 'SqueakMaps-TiledMaps';
 				package: 'SqueakMaps-Core' with: [spec requires: #('JSON' 'SqueakMaps-TiledMaps' 'MorphicTestingFramework')];
 				package: 'SqueakMaps-GeoServices' with: [spec requires: #('SqueakMaps-Core' 'JSON')];
-				package: 'SqueakMaps-Tests' with: [spec requires: #('SqueakMaps-Core' 'SqueakMaps-GeoServices' 'JSON' 'SqueakMaps-TiledMaps' 'MorphicTestingFramework')];
 				yourself.
+			spec for: #(#'squeak5.x' #'squeak6.0.x.release') do: [
+				spec
+					package: 'JSON' with: [
+						spec
+							repository: 'https://www.squeaksource.com/JSON'];
+					package: 'GitS-Compatibility-Squeak60AndEarlier' with: [
+						spec requires: 'JSON'];
+					package: 'GitS-Core' with: [
+						spec requires: 'GitS-Compatibility-Squeak60AndEarlier']].
 			spec
 				group: 'default' with: #('SqueakMaps-Core' 'SqueakMaps-GeoServices');
 				group: 'tests' with: #('SqueakMaps-Tests')]
