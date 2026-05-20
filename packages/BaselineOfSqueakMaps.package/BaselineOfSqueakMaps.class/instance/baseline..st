@@ -10,7 +10,11 @@ baseline: spec
 		].
 
 		spec
-			package: 'SqueakMaps-TiledMaps';
+			package: 'SqueakMaps-TiledMaps' with:[
+				spec requires: #(
+				'SqueakMaps-GeoServices')
+			
+			];
 
 			package: 'SqueakMaps-Core' with: [
 				spec requires: #(
