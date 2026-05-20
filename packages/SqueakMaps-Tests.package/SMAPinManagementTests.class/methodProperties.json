@@ -13,6 +13,8 @@
 		"testNoPinsSaved" : "KK 5/15/2026 12:27",
 		"testPlacePin" : "KK 5/15/2026 13:01",
 		"testRemovePin" : "KK 5/15/2026 10:38",
+		"testRenamePin" : "seas 5/20/2026 03:18",
+		"testRenamePinEmptyString" : "seas 5/20/2026 03:17",
 		"testSaveIdenticalPins" : "KK 5/15/2026 12:47",
 		"testSavePin" : "KK 5/15/2026 12:46",
 		"testSelectSavedPin" : "KK 5/15/2026 13:07",

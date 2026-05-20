@@ -6,6 +6,7 @@ renamePin
 	(answer = '') ifFalse: [ 
 			self selectedPin label: answer.
 			self clear.
+			self mapConfigurator
+				displayLocation: selectedPin;
+				focusLocation: selectedPin.
 		].
-	
-	"self changed: #buildSearchPinPanelChildren."
