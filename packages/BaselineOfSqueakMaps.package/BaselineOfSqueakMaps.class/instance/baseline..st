@@ -10,6 +10,9 @@ baseline: spec
 		].
 
 		spec
+		
+			package: 'SqueakMaps-GeoServices';
+		
 			package: 'SqueakMaps-TiledMaps' with:[
 				spec requires: #(
 				'SqueakMaps-GeoServices')
@@ -20,11 +23,6 @@ baseline: spec
 				spec requires: #(
 					'SqueakMaps-TiledMaps'
 					'MorphicTestingFramework')
-			];
-
-			package: 'SqueakMaps-GeoServices' with: [
-				spec requires: #(
-					'SqueakMaps-Core')
 			];
 
 			package: 'SqueakMaps-Tests' with: [
