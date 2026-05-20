@@ -7,13 +7,6 @@ testPreventFreezeAfterCodeCoverage
 	
 	self model navigator geocoder: SMANominatimGeocoder new.
 	
-	self model searchInput: 'not-existing-location'.
+	self model searchInput: 'not-existing'.
+	[self model searchLocation] valueSupplyingAnswer: { 'No location with name "not-existing" found.' . #closeDialog }.
 	
-	[
-	[self model searchLocation] valueSupplyingAnswer: { 'No location with name "not-existing-location" found.' . #closeDialog }.
-	]  valueWithin: 3 seconds 
-        onTimeout: [ 
-            "If the live API hangs or is blocked in CI, fail gracefully instead of freezing the build pipeline"
-            "self logChanged: 'Warning: Nominatim API call timed out, skipping freeze assertion.'."
-            ^ self 
-        ].
