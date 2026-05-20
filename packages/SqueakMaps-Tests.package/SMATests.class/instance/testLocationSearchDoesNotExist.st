@@ -2,7 +2,7 @@ searching
 testLocationSearchDoesNotExist
 	
 	self geocoderMock mockLocateWith: [:query |
-		self assert: query equals: 'not-existing'.
+		self assert: query equals: 'not-existing-location'.
 		(SMALocationNameNotFoundError new requestedName: 'not-existing-location') signal].
 	
 	self model searchInput: 'not-existing'.
