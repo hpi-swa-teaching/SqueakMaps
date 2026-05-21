@@ -11,6 +11,7 @@ searchLocation
 	
 	self setSelectedPin: location;
 		clear.
+	self tiledMapMorph clearRoutes.
 	self mapConfigurator 
 		displayLocation: location;
 		focusLocation: location

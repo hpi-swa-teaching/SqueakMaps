@@ -2,5 +2,6 @@ displaying
 clear
 
 	self tiledMapMorph markers: Set new.
-	self tiledMapMorph route: SMARouteLine new.
+	self tiledMapMorph clearRoutes.
+	self tiledMapMorph addRoute: SMARouteLine new.
 	self tiledMapMorph layoutChanged

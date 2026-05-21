@@ -12,5 +12,5 @@ buildDirectionsRouteInformation: aBuilder
 				buildDirectionsLabel: aBuilder 
 				with: #getDurationLabel
 				byPosition: (0.5 @ 0 corner: 1 @ 1)};
-		frame: (0 @ 0.44 corner: 1 @ 0.5);
+		frame: (0.33 @ 0.44 corner: 1 @ 0.5);
 		yourself

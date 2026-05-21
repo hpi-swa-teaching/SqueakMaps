@@ -17,8 +17,8 @@
 		"worldBounds",
 		"markers",
 		"tileSource",
-		"route",
-		"onDoubleClickAction" ],
+		"onDoubleClickAction",
+		"routes" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
 		 ],
