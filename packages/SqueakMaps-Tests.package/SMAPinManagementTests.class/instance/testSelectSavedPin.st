@@ -16,5 +16,7 @@ testSelectSavedPin
 "Munich (48.137154 °N, 11.576124 °E)"
 	
 	self assert: self model tiledMapMorph markers size = 1.
+	Transcript show: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates); cr.
+	Transcript show: (self model tiledMapMorph center); cr.
 	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates)  equals: self model tiledMapMorph center.
 	self assert: 9 equals: self model tiledMapMorph zoom
