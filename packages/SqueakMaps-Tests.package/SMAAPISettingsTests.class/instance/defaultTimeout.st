@@ -1,4 +1,4 @@
 tests
 defaultTimeout
 
-	^ 20
+	^ 2

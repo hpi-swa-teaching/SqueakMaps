@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"defaultTimeout" : "seas 5/21/2026 16:40",
+		"defaultTimeout" : "seas 5/21/2026 20:08",
 		"setUp" : "TS 5/1/2026 09:52",
 		"tearDown" : "KK 5/20/2026 23:19",
 		"testApiButtonBing" : "KK 5/15/2026 11:09",
 		"testApiButtonBingInvalidKey" : "KK 5/15/2026 11:10",
-		"testApiButtonThunderforest" : "seas 5/21/2026 16:39",
+		"testApiButtonThunderforest" : "seas 5/21/2026 20:08",
 		"testApiButtonThunderforestInvalidKey" : "RK 8/5/2022 21:36",
 		"testApiKeyManagementBing" : "KK 5/15/2026 11:10",
 		"testApiKeyManagementThunderforest" : "RK 8/5/2022 21:36",
