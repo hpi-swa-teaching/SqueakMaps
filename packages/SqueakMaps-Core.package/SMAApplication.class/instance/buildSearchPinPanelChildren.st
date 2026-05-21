@@ -10,7 +10,10 @@ buildSearchPinPanelChildren
 	
 	children add: (self buildSearchPinPanelLabel: builder).
 	self isSelectedPinSaved
-		ifTrue: [children add: (self buildSearchPinPanelRemovePinButton: builder)]
+		ifTrue: [
+			children add: (self buildSearchPinPanelRemovePinButton: builder).
+			children add: (self buildSearchPinPanelRenamePinButton: builder)]
+		
 		ifFalse: [children add: (self buildSearchPinPanelSavePinButton: builder)].
 	children add: (self buildSearchPinPanelDirectionsButton: builder).
 
