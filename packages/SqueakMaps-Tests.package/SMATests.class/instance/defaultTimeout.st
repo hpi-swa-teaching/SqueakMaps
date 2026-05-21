@@ -1,4 +1,4 @@
 ui
 defaultTimeout
 
-	^ 2
+	^ 20
