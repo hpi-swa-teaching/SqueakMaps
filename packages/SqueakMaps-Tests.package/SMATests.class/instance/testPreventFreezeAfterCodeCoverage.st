@@ -5,7 +5,7 @@ testPreventFreezeAfterCodeCoverage
 	would become unresponsive after going through all tests when clicking 'Run Coverage'. We were not able to find
 	out the reason for this. Discussion: https://hpi-swa-teaching.slack.com/archives/C02GKUS21L4/p1659547617524099"
 	
-	Smalltalk isHeadless ifTrue: [^ self].
+	"Smalltalk isHeadless ifTrue: [^ self]."
 	
 	self model navigator geocoder: SMANominatimGeocoder new.
 	

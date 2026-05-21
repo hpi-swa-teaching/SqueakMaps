@@ -1,0 +1,4 @@
+tests
+defaultTimeout
+
+	^ 20

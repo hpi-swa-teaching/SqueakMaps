@@ -1,7 +1,7 @@
 tests
 testApiButtonThunderforest
 	
-	Smalltalk isHeadless ifTrue: [^ self].
+	"Smalltalk isHeadless ifTrue: [^ self]."
 	
 	[apiButton click] valueSupplyingAnswers: {
 		{ 'choose mapmode' . 'Cycling [Thunderforest]' } .
