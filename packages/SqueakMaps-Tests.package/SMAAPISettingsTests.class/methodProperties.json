@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"defaultTimeout" : "seas 5/21/2026 20:08",
+		"defaultTimeout" : "seas 5/21/2026 20:17",
 		"setUp" : "TS 5/1/2026 09:52",
 		"tearDown" : "KK 5/20/2026 23:19",
 		"testApiButtonBing" : "KK 5/15/2026 11:09",
