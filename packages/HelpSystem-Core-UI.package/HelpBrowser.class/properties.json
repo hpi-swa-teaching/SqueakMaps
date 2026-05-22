@@ -1,0 +1,21 @@
+{
+	"category" : "HelpSystem-Core-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultHelpBrowser" ],
+	"commentStamp" : "ct 3/22/2026 23:45",
+	"instvars" : [
+		"rootTopic",
+		"currentTopic",
+		"currentParentTopic",
+		"searchTopic",
+		"topicPath",
+		"toplevelTopics",
+		"topicContentsSelection",
+		"isUpdating" ],
+	"name" : "HelpBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

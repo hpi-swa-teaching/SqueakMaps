@@ -10,9 +10,7 @@
 		"apiButton",
 		"apiKeyManagementButton",
 		"validThunderforestMapsKey",
-		"validBingMapsKey",
 		"tileSourceBefore",
-		"bingMapsKeyBefore",
 		"thunderforestMapsKeyBefore" ],
 	"name" : "SMAAPISettingsTests",
 	"pools" : [

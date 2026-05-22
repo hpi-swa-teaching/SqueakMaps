@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
@@ -41,6 +41,24 @@ GSMetadata {
 			#version : 1,
 			#package : MCPackage {
 				#name : 'SqueakMaps-GeoServices'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'HelpSystem-Core-UI'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-Help'
 			},
 			#path : FSAbsolutePath [
 				'packages'
