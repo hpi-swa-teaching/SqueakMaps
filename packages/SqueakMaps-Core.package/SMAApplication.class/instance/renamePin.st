@@ -1,4 +1,4 @@
-building
+pin management
 renamePin
 
 	| answer |

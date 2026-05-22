@@ -10,4 +10,5 @@ buildSidebarSearchChildren: aBuilder
 	children add: (self buildSearchPinPanel: aBuilder).
 	children add: (self buildAddCategoryButton: aBuilder).
 	children add: (self buildRemoveCategoryButton: aBuilder).
+	children add: (self buildRenameCategoryButton: aBuilder).
 	^ children
