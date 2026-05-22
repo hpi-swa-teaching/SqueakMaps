@@ -13,8 +13,8 @@ testRemoveCategoryDeleteAllPins
 		category: testCategory;
 		yourself.
 	self model class savedPins add: pin1.
-	[self removeCategoryButton click] valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' }.{'What happens to the pins?'. 'Delete all 	Pins within this category.'}.{'Are you sure?'. true} }.
-
+	[self removeCategoryButton click] valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' }.{'What happens to the pins?'. 'Delete all Pins within this category.'}.{'Are you sure?'. true} }.
+	
 	self deny: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category']).
 	self deny: (self model class savedPins anySatisfy: [:each | each = pin1])
 	
