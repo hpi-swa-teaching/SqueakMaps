@@ -18,4 +18,5 @@
 		"testCategorySelection" : "KK 5/16/2026 17:16",
 		"testNoCategoryRemoved" : "KK 5/15/2026 15:33",
 		"testRemoveCategory" : "KK 5/16/2026 16:54",
-		"testRemoveCategoryDeleteAllPins" : "CMP 5/22/2026 11:35" } }
+		"testRemoveCategoryDeleteAllPins" : "CMP 5/22/2026 12:28",
+		"testRemoveCategoryUncategorizeAllPins" : "CMP 5/22/2026 12:31" } }
