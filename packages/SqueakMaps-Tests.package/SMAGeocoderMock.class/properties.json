@@ -11,5 +11,5 @@
 	"name" : "SMAGeocoderMock",
 	"pools" : [
 		 ],
-	"super" : "SMAGeocoder",
+	"super" : "AnObsoleteSMAGeocoder",
 	"type" : "normal" }
