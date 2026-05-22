@@ -10,7 +10,11 @@ removeCategory
 		
 	"pressed cancel"
 	selectedCategoryIndex = 0 ifTrue: [ ^ self ].
-	self removeCategoryOptions: (categories at: selectedCategoryIndex).
+	(self class savedPins anySatisfy: [:pin | pin category = (categories at: selectedCategoryIndex)])
+		ifTrue: [
+				self removeCategoryOptions: (categories at: selectedCategoryIndex).
+			].
+	
 	self class removePinCategory: (categories at: selectedCategoryIndex).
 	
 	
