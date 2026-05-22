@@ -10,8 +10,8 @@ removeCategory
 		
 	"pressed cancel"
 	selectedCategoryIndex = 0 ifTrue: [ ^ self ].
+	self removeCategoryOptions: (categories at: selectedCategoryIndex).
 	self class removePinCategory: (categories at: selectedCategoryIndex).
 	
-	"Give pins new category"
-	self uncategorizePins: (categories at: selectedCategoryIndex).
+	
 	self changed: #items.
