@@ -1,1 +1,0 @@
-A SMABingMapsApi provides the several map types for the Bing API.

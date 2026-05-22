@@ -1,1 +1,0 @@
-A SMABingMapsApi provides functionality to use the BingMaps TileSource.
