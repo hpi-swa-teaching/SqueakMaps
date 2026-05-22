@@ -26,12 +26,12 @@ baseline: spec
 			];
 			package: 'SqueakMaps-Help' with: [
 				spec requires: #(
-					'SqueakMaps-Core', 
+					'SqueakMaps-Core'
 					'SqueakMaps-GeoServices')
 			];
 		package: 'HelpSystem-Core-UI' with: [
 			spec requires: #(
-			'SqueakMaps-Core', 
+			'SqueakMaps-Core'
 			'SqueakMaps-GeoServices')
 		];
 
