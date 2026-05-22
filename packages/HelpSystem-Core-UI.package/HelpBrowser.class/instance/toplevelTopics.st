@@ -1,0 +1,4 @@
+accessing
+toplevelTopics
+
+	^ toplevelTopics ifNil: [#()]

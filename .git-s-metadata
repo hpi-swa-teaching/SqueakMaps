@@ -45,6 +45,24 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'packages'
 			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'HelpSystem-Core-UI'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-Help'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
 		}
 	],
 	#name : 'SqueakMaps'
