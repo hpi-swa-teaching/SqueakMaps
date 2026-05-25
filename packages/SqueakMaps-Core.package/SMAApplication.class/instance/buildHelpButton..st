@@ -3,7 +3,7 @@ buildHelpButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: '?';
-		color: (Color r: 1.0 g: 0.6 b: 0.55);
+		color: (Color r: 1.0 g: 0.6 b: 0.4);
 		model: self;
 		action: #openHelpArea;
 		help: 'Click to navigate to help section.';
