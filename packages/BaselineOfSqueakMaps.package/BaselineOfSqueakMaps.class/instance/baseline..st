@@ -48,7 +48,8 @@ baseline: spec
 		spec
 			group: 'default' with: #(
 				'SqueakMaps-Core'
-				'SqueakMaps-GeoServices');
+				'SqueakMaps-GeoServices'
+				'SqueakMaps-Help');
 
 			group: 'tests' with: #(
 				'SqueakMaps-Tests').
