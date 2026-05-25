@@ -1,3 +1,4 @@
 visuals
 bookName
+
 	^ 'Squeak Maps'
