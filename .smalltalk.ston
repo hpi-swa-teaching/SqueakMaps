@@ -4,7 +4,7 @@ SmalltalkCISpec {
       #baseline : 'SqueakMaps',
       #directory : 'packages',
       #platforms : [ #squeak ],
-      #load : [ 'tests' ],
+      #load : [ 'default', 'tests' ],
       #useLatestMetacello : true
     }
   ]
