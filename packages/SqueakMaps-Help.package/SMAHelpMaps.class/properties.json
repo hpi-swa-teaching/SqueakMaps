@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Help",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMAHelpMaps",
+	"pools" : [
+		 ],
+	"super" : "CustomHelp",
+	"type" : "normal" }

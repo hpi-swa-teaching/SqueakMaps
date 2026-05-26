@@ -1,4 +1,0 @@
-private
-resetCache
-
-	imageryMetadata reset

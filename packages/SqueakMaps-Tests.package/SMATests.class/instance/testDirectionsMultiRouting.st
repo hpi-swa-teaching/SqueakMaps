@@ -10,13 +10,23 @@ testDirectionsMultiRouting
 		self assert: query equals: 'Paris'.
 		{ self parisLocation }].
 	self geocoderMock mockLocateWith: [:query | 
+		self assert: query equals: 'Paris'.
+		{ self parisLocation }].
+	self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'London'.
 		{ self londonLocation }].
+	
+	
 	self routingAPIMock mockGetRouteFromToByWith: [:from :to :by |
-		SMARoute new
-			waypoints: { self berlinLocation coordinates . self londonLocation coordinates };
-			boundingBox: (1 @ 1 corner: 3 @ 3); "(this will lead to the expected zoom level)"
-			yourself].
+	| currentWaypoints |
+	currentWaypoints := (from = self berlinLocation coordinates)
+		ifTrue: [ { self berlinLocation coordinates . self parisLocation coordinates } ]
+		ifFalse: [ { self parisLocation coordinates . self londonLocation coordinates } ].
+
+	SMARoute new
+		waypoints: currentWaypoints;
+		boundingBox: (1 @ 1 corner: 3 @ 3);
+		yourself].
 	
 	self model startSearchInput: 'Berlin'.
 	self model destinationSearchInput: 'London'.
@@ -25,7 +35,7 @@ testDirectionsMultiRouting
 	self model searchDirections.
 
 	resultingRoutes := self model tiledMapMorph routes.
-	self assert: resultingRoutes size equals: 2.
+	 self assert: resultingRoutes size equals: 3.
 	
 	resultingMarkers := self model tiledMapMorph markers.
 	self assert: (resultingMarkers anySatisfy: [:marker | marker label = 'Berlin']).

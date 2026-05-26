@@ -1,4 +1,0 @@
-accessing
-bingApi
-
-	^ bingApi

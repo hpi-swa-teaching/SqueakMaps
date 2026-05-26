@@ -4,7 +4,25 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
+				#name : 'SqueakMaps-Core'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
 				#name : 'SqueakMaps-Tests'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-GeoServices'
 			},
 			#path : FSAbsolutePath [
 				'packages'
@@ -22,25 +40,25 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
+				#name : 'HelpSystem-Core-UI'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-Help'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
 				#name : 'SqueakMaps-TiledMaps'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-Core'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-GeoServices'
 			},
 			#path : FSAbsolutePath [
 				'packages'

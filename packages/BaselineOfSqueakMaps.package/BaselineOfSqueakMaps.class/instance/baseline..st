@@ -24,6 +24,16 @@ baseline: spec
 					'SqueakMaps-TiledMaps'
 					'MorphicTestingFramework')
 			];
+			package: 'SqueakMaps-Help' with: [
+				spec requires: #(
+					'SqueakMaps-Core'
+					'SqueakMaps-GeoServices')
+			];
+		package: 'HelpSystem-Core-UI' with: [
+			spec requires: #(
+			'SqueakMaps-Core'
+			'SqueakMaps-GeoServices')
+		];
 
 			package: 'SqueakMaps-Tests' with: [
 				spec requires: #(

@@ -1,4 +1,0 @@
-tile source
-tileSourceClass
-
-	^ SMABingMapsTileSource

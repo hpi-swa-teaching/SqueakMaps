@@ -20,7 +20,6 @@
 		"hasSearched",
 		"navigator",
 		"mapConfigurator",
-		"bingApi",
 		"thunderforestMapsApi",
 		"visiblePinCategories",
 		"selectionList",
