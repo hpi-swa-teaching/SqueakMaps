@@ -17,5 +17,5 @@ testRenamePin
 
 	[(self subject findByLabel: 'Rename Pin') click] valueSupplyingAnswers: {{ 'New Name' . 'Test ReName'}}.
 	
-	self assert: (self model class savedPins anySatisfy: [:pin | pin label = 'Test ReName']).
-	self assert: (self model class savedPins noneSatisfy: [:pin | pin label = 'Munich']).
+	self assert: (self model class savedPins anySatisfy: [:pin | pin alias = 'Test ReName']).
+	self assert: (self model class savedPins noneSatisfy: [:pin | pin alias = 'Munich']).

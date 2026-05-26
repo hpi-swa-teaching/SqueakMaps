@@ -9,5 +9,5 @@ setUp
 	savedPinsBefore := SMAApplication savedPins.
 	savedCategories := SMAApplication savedCategories.
 	
-	SMAApplication savedPins: nil.
+	SMAApplication savedPins: OrderedCollection new.
 	SMAApplication savedCategories: (OrderedCollection with: SMAPinCategory defaultCategory).

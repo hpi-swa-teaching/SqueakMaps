@@ -9,7 +9,8 @@
 		"label",
 		"boundingBox",
 		"coordinates",
-		"category" ],
+		"category",
+		"alias" ],
 	"name" : "SMALocation",
 	"pools" : [
 		 ],
