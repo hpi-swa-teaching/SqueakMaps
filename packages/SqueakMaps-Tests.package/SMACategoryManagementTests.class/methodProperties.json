@@ -8,13 +8,16 @@
 		"model:" : "KK 5/15/2026 14:55",
 		"removeCategoryButton" : "KK 5/15/2026 14:55",
 		"removeCategoryButton:" : "KK 5/15/2026 14:55",
+		"renameCategoryButton" : "IA 5/26/2026 14:27",
+		"renameCategoryButton:" : "IA 5/26/2026 14:28",
 		"savedCategoriesBefore" : "KK 5/15/2026 14:55",
 		"savedCategoriesBefore:" : "KK 5/15/2026 14:55",
 		"savedPinsBefore" : "KK 5/16/2026 17:20",
 		"savedPinsBefore:" : "KK 5/16/2026 17:20",
-		"setUp" : "KK 5/16/2026 17:21",
+		"setUp" : "IA 5/26/2026 14:28",
 		"tearDown" : "KK 5/16/2026 17:21",
 		"testAddCategory" : "KK 5/15/2026 15:09",
 		"testCategorySelection" : "KK 5/16/2026 17:16",
 		"testNoCategoryRemoved" : "KK 5/15/2026 15:33",
-		"testRemoveCategory" : "KK 5/16/2026 16:54" } }
+		"testRemoveCategory" : "KK 5/16/2026 16:54",
+		"testRenameCategory" : "IA 5/26/2026 14:35" } }

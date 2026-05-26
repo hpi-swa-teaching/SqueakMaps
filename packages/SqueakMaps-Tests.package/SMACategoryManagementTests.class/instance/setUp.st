@@ -12,4 +12,5 @@ setUp
 	
 	self
 		addCategoryButton: (self subject findByLabel: 'Add Category');
+		renameCategoryButton: (self subject findByLabel: 'Rename Category');
 		removeCategoryButton: (self subject findByLabel: 'Remove Category').
