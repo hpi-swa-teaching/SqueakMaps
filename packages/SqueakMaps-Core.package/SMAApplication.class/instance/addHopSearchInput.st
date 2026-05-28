@@ -3,7 +3,7 @@ addHopSearchInput
 
 	| location |
 	
-	self hopSearchInput ifNil: [
+	(self hopSearchInput isNil or: self hopSearchInput isEmpty) ifTrue: [
 		^ self inform: 'Please enter a hop.'].
 	
 	[location := self navigator locate: self hopSearchInput.]

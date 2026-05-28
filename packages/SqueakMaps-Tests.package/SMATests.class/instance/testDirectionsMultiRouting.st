@@ -9,9 +9,9 @@ testDirectionsMultiRouting
 	self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'Paris'.
 		{ self parisLocation }].
-	self geocoderMock mockLocateWith: [:query | 
+	"self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'Paris'.
-		{ self parisLocation }].
+		{ self parisLocation }]."
 	self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'London'.
 		{ self londonLocation }].
@@ -28,9 +28,11 @@ testDirectionsMultiRouting
 		boundingBox: (1 @ 1 corner: 3 @ 3);
 		yourself].
 	
-	self model startSearchInput: 'Berlin'.
-	self model destinationSearchInput: 'London'.
+	self model hopSearchInput: 'Berlin'.
+	self model addHopSearchInput.
 	self model hopSearchInput: 'Paris'.
+	self model addHopSearchInput.
+	self model hopSearchInput: 'London'.
 	self model addHopSearchInput.
 	self model searchDirections.
 
