@@ -1,4 +1,4 @@
-building
+hop management
 removeHop
 
 	self hopLocations removeAt: self selectedHopIndex.

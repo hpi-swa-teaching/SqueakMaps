@@ -1,4 +1,4 @@
-building
+accessing
 selectedHopIndex: anInteger
 
 	selectedHopIndex := anInteger.
