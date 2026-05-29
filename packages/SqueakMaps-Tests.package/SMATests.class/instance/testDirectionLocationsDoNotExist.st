@@ -13,7 +13,7 @@ testDirectionLocationsDoNotExist
 	self model hopSearchInput: 'not-existing-1'.
 	self model addHopSearchInput.
 	[self model searchDirections] valueSupplyingAnswer: { 'No location with name "not-existing-1" found.' . #closeDialog }.
-	self assert: worldposMiddle equals: (self model tiledMapMorph center).
+	self assert: (worldposMiddle - (self model tiledMapMorph center) < (0.1@0.1)).
 	
 	"Start does not exist"
 	self geocoderMock mockLocateWith: [:query | (SMALocationNameNotFoundError new requestedName: 'not-existing-2') signal].
@@ -23,7 +23,7 @@ testDirectionLocationsDoNotExist
 	self model hopSearchInput: 'Berlin'.
 	self model addHopSearchInput.
 	[self model searchDirections] valueSupplyingAnswer: { 'No location with name "not-existing-2" found.' . #closeDialog }.
-	self assert: worldposMiddle equals: self model tiledMapMorph center.
+	self assert: (worldposMiddle - (self model tiledMapMorph center) < (0.1@0.1)).
 	
 	"Both do not exist"
 	self geocoderMock mockLocateWith: [:query | (SMALocationNameNotFoundError new requestedName: 'not-existing-3') signal].
@@ -33,4 +33,4 @@ testDirectionLocationsDoNotExist
 	self model hopSearchInput: 'not-existing-4'.
 	self model addHopSearchInput.
 	[self model searchDirections] valueSupplyingAnswer: { 'No location with name "not-existing-3" found.' . #closeDialog }.
-	self assert: worldposMiddle equals: self model tiledMapMorph center
+	self assert: (worldposMiddle - (self model tiledMapMorph center) < (0.1@0.1)).

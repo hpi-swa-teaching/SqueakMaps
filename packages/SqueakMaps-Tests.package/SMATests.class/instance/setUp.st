@@ -22,6 +22,6 @@ setUp
 		yourself).
 		
 	self model: SMAApplication new.
+	self wantsToTest: self model build.
 	self model navigator routingAPI: self routingAPIMock.
-	self model navigator geocoder: self geocoderMock
-	
+	self model navigator geocoder: self geocoderMock.
