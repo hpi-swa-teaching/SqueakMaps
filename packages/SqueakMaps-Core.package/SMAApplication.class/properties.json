@@ -21,7 +21,8 @@
 		"visiblePinCategories",
 		"selectionList",
 		"routes",
-		"hopLocations" ],
+		"hopLocations",
+		"selectedHopIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
