@@ -8,6 +8,8 @@ switchToDirectionsView
 	self changed: #currentView.
 	self changed: #buildSidebarTopChildren.
 	self hopLocations: OrderedCollection new.
-	self hopLocations add: selectedPin.
+	self selectedPin ifNotNil: [
+		self hopLocations add: selectedPin.
+	].
 	self changed: #hopLocations.
 	self changed: #hopLocationLabels.

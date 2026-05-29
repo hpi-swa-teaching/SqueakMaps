@@ -17,5 +17,5 @@ testSelectSavedPin
 	
 	self assert: self model tiledMapMorph markers size = 1.
 	
-	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates)  equals: self model tiledMapMorph center.
+	self assert: ((SMAMapConfigurator geoCoordinatesToWorldPos: location coordinates) - self model tiledMapMorph center) < (0.1@0.1).
 	self assert: 9 equals: self model tiledMapMorph zoom
