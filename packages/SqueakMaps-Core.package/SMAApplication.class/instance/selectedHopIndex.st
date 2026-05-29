@@ -1,4 +1,4 @@
 building
 selectedHopIndex
 
-	^ selectedHopIndex.
+	^ selectedHopIndex ifNil: [0].

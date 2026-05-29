@@ -12,6 +12,7 @@ buildSidebarDirectionsChildren: aBuilder
 		add: (self buildDirectionsMoveDownButton: aBuilder);
 		add: (self buildDirectionsHopList: aBuilder);
 		add: (self buildDirectionsAddHopButton: aBuilder);
+		add: (self buildDirectionsRemoveHopButton: aBuilder);
 		add: (self buildDirectionsHopSearchInput: aBuilder).
 	self routes isEmpty ifFalse: [children add: (self buildDirectionsRouteInformation: aBuilder)].
 	
