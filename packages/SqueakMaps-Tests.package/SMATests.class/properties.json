@@ -11,7 +11,8 @@
 		"geocoderMock",
 		"berlinLocation",
 		"londonLocation",
-		"parisLocation" ],
+		"parisLocation",
+		"savedPinsBefore" ],
 	"name" : "SMATests",
 	"pools" : [
 		 ],
