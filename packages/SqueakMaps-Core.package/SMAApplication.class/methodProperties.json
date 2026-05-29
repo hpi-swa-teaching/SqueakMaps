@@ -25,7 +25,7 @@
 		"buildDirectionsCancelButton:" : "RK 8/5/2022 21:10",
 		"buildDirectionsCarButton:" : "RK 8/5/2022 21:10",
 		"buildDirectionsGoButton:" : "TS 5/28/2026 09:52",
-		"buildDirectionsHopList:" : "TS 5/29/2026 10:13",
+		"buildDirectionsHopList:" : "KK 5/29/2026 11:13",
 		"buildDirectionsHopSearchInput:" : "TS 5/28/2026 09:47",
 		"buildDirectionsLabel:with:byPosition:" : "RK 8/5/2022 22:29",
 		"buildDirectionsMoveDownButton:" : "TS 5/29/2026 07:31",
@@ -66,6 +66,9 @@
 		"collectSelectedCategories" : "KK 5/7/2026 16:38",
 		"currentView" : "TR 6/25/2022 14:11",
 		"currentView:" : "RK 8/5/2022 21:29",
+		"dragItem:" : "KK 5/29/2026 11:15",
+		"dragType:" : "KK 5/29/2026 10:57",
+		"dropItem:on:copy:" : "KK 5/29/2026 12:03",
 		"findOptimalRoute" : "TS 5/28/2026 10:42",
 		"getAddHopLabel" : "TS 5/14/2026 13:44",
 		"getCategoryLabel" : "KK 5/16/2026 16:29",
@@ -149,4 +152,5 @@
 		"transportationModeInput:" : "TR 6/25/2022 14:17",
 		"uncategorizePins:" : "KK 5/15/2026 09:26",
 		"visiblePinCategories" : "LJ 5/6/2026 11:41",
-		"visiblePinCategories:" : "KK 5/7/2026 16:19" } }
+		"visiblePinCategories:" : "KK 5/7/2026 16:19",
+		"wantsDrop:type:source:morph:on:" : "KK 5/29/2026 11:12" } }
