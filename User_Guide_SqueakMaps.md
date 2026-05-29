@@ -60,22 +60,25 @@ Search for a location by typing its name in the field in the top left corner.
 ## Pins & Categories
 
 **Manage Categories:**\
-On the left side of the Application the white box shows your pin-categories. If you did not assign a category to a pin, the pin appears in *Uncategorized*. Below the list of your categories you have the option to add and remove categories.
+On the left side of the Application the white box shows your pin-categories. If you did not assign a category to a pin, the pin appears in *Uncategorized*. Below the list of your categories you have the option to <u>*Add Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>.
 When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.
+You can not rename or remove the *Uncategorized* category
 
 **Set Pins:**\
 Double-click on your chosen location in the map area (or search for the loaction). A pin will appear. 
 
-**Safe/ Categorize Pins:**\
-Set a pin an then click on <u>*Save Pin*</u>. Save the pin to one of your categories.
-! Currently, a pin/location can only be part of one category.
+**Save/ Categorize Pins:**\
+Set a pin an then click on <u>*Save Pin*</u>. Save the pin to one of your categories.\
+By selecting a category in the left sidebar, all of its pins show on the map. You can select multiple categories to be shown.\
+!! Currently, a pin/location can only be part of one category.
 By clicking on your categories, all the respective pins will appear on the map.
 
 
 **Remove Pins & Rename Pins:**\
-If a pin has been saved to a category, the left sidebar shows the option to <u>*Remove pin*</u>, <u>*Rname pin*</u> and <u>*Directions*</u>:\
+If a pin has been saved to a category, the left sidebar shows the option to <u>*Remove pin*</u>, <u>*Rename pin*</u> and <u>*Directions*</u>:\
 <u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.\
-<u>*Rename Pin*</u>: By clicking this button, you can give your pin a new name. Note that you cannot search for that personalized name in the search bar (remember the original name).\
+<u>*Rename Pin*</u>: By clicking this button, you can give your pin a new name.\
+!! Note that you cannot search for that personalized name in the search bar (remember the original name).\
 <u>*Directions*</u>: Clicking here will navigate you to the routing option, where you can search for a route with the selected pin as your destination.
 
 ![SqueakMaps Pin GUI][img-pins]
@@ -89,11 +92,17 @@ To be able to route you need to connect to an API.
 * You have to generate an API key via the website of the respective API (note that some APIs are not free to use).
 
 TO ROUTE:
-* First, seach for a pin/location in the search area
-* Then Click on <u>*Directions*</u>
-* A new interface opens, that allos you to enter a *Start* and *Destination*, and select a preferred *mode of transportation* (walk, bike, car) --> click <u>*Go*</u> to route
-* Below the <u>*Go*</u> Button you have the option to add intermediary stops to the route. These stops will appear in the list below. To refresh the new route click again on <u>*Go*</u>. 
-* To close the routing interface, click on the <u>*x*</u> (close-) button in the upper right corner of the left sidebar
+* First, search for a pin/location in the search bar
+* Then click on <u>*Directions*</u>
+* A new interface opens that allows you to specify your route. 
+* You can select a preferred *mode of transportation* (walk, bike, car). 
+* Further, you can add and remove the Hops of your Route. Below the <u>*Add Hop*</u> and <u>*Remove Hop*</u> buttons you see a list of all the added Hops (that define your route).\
+<u>*Add Hop*</u>: Type the name of your hop/location in the *Add Hop* field and click on this button to add the Hop to the list.\
+<u>*Remove Hop*</u>: First click on the Hop in the list and then click on this button to remove the selected Hop.\
+If you only choose two Hops, the first one will be the Start and the second one the Destination of your Route.\
+--> click <u>*Go*</u> to route
+* By adding more than two Hops you can add intermediary stops to the route. These stops will appear in the list in the order you add them. However, by using the <u>*U*</u> and <u>*D*</u> buttons, or by drag-and-drop you can reorder the Hops. Clicking on <u>*Go*</u> will give you the respective routing of that list, but for an optimal route you should click on <u>*Find optimal Route*</u>. 
+* To close the routing interface, click on the <u>*x*</u> (close) button in the upper right corner of the left sidebar.
 
 ![SqueakMaps Routing GUI][img-route]
 
