@@ -1,0 +1,4 @@
+geoguessr
+openGeoGuessr
+
+	GeoGuessrWindow new.
