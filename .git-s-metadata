@@ -1,24 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : OrderedCollection [
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'BaselineOfSqueakMaps'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-Core'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
+	#mappers : [
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
@@ -31,7 +13,7 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'SqueakMaps-TiledMaps'
+				#name : 'BaselineOfSqueakMaps'
 			},
 			#path : FSAbsolutePath [
 				'packages'
@@ -46,12 +28,21 @@ GSMetadata {
 				'packages'
 			]
 		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-Core'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
 		GSPlaintextMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
 				'osm',
-				'hpi-k.osm'
+				'raum_K-E.18_only.osm'
 			],
 			#encoding : 'TXT'
 		},
@@ -63,6 +54,24 @@ GSMetadata {
 				'test.osm'
 			],
 			#encoding : 'TXT'
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'hpi-k.osm'
+			],
+			#encoding : 'TXT'
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-TiledMaps'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
 		}
 	],
 	#name : 'SqueakMaps'
