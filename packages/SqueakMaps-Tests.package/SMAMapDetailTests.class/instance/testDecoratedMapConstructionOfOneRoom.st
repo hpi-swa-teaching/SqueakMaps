@@ -7,6 +7,7 @@ testDecoratedMapConstructionOfOneRoom
 	self assert: decoratedMap rooms size equals: 1.
 	room := decoratedMap rooms at: 1.
 	self assert: room ref equals: 'K-E.18'.
+	self assert: room level equals: 0.
 	points := room points.
 	self assert: points size equals: 6.
 	ids := points collect: [:p | p id.
