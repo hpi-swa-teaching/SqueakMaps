@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ref",
+		"points" ],
+	"name" : "SMARoom",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"lat",
+		"lon" ],
+	"name" : "SMAPoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

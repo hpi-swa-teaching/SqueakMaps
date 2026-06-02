@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tiledMapMorph",
+		"points",
+		"rooms" ],
+	"name" : "SMADecoratedMapMorph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
