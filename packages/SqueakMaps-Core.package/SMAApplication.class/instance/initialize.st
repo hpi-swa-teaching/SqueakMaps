@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		tiledMapMorph: SMATiledMapMorph new;
+		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile: ( (GitAssetLoader for: 'SqueakMaps') loadString: 'assets/osm/raum_K-E.18.osm') contents readStream);
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
 		currentView: #search;
