@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"fromOSMFile:" : "kong 6/2/2026 16:46" },
+		"extractPoints:" : "kong 6/2/2026 16:52",
+		"extractRooms:forPoints:" : "kong 6/2/2026 16:54",
+		"fromOSMFile:" : "kong 6/2/2026 16:55" },
 	"instance" : {
 		"doesNotUnderstand:" : "kong 6/2/2026 16:21",
 		"points" : "kong 6/2/2026 15:05",
