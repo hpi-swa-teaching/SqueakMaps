@@ -4,7 +4,7 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'SqueakMaps-Tests'
+				#name : 'SqueakMaps-Core'
 			},
 			#path : FSAbsolutePath [
 				'packages'
@@ -13,7 +13,7 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'BaselineOfSqueakMaps'
+				#name : 'SqueakMaps-Tests'
 			},
 			#path : FSAbsolutePath [
 				'packages'
@@ -28,10 +28,19 @@ GSMetadata {
 				'packages'
 			]
 		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'test.osm'
+			],
+			#encoding : 'TXT'
+		},
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'SqueakMaps-Core'
+				#name : 'BaselineOfSqueakMaps'
 			},
 			#path : FSAbsolutePath [
 				'packages'
@@ -42,16 +51,7 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'assets',
 				'osm',
-				'raum_K-E.18_only.osm'
-			],
-			#encoding : 'TXT'
-		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'test.osm'
+				'raum_K-E.18.osm'
 			],
 			#encoding : 'TXT'
 		},
