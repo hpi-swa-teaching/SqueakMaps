@@ -1,4 +1,0 @@
-accessing
-geocoderMock
-
-	^ geocoderMock
