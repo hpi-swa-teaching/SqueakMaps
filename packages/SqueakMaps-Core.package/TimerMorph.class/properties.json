@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"remainingSeconds",
-		"label" ],
+		"label",
+		"running" ],
 	"name" : "TimerMorph",
 	"pools" : [
 		 ],
