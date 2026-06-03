@@ -9,6 +9,6 @@ SmalltalkCISpec {
     }
   ],
 	#testing : {
-		#packages : ['SmalltalkCITest-Tests']
+		#packages : ['SqueakMaps-Tests']
 	}
 }
