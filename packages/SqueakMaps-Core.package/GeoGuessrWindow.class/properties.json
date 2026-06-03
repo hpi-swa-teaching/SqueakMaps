@@ -15,7 +15,10 @@
 		"apiKeyManagementButton",
 		"pinManagementButton",
 		"timerMorph",
-		"startButton" ],
+		"startButton",
+		"roundActive",
+		"currentGuess",
+		"mapConfigurator" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],
