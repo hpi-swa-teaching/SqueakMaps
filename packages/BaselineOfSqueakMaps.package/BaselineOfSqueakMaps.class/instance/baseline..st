@@ -3,12 +3,13 @@ baseline: spec
 	<baseline>
 	spec for: #'common'
 		do: [
-			spec baseline: 'MorphicTestingFramework' with: [
-				spec
-					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec baseline: 'GitS' with: [
 				spec 
 					repository: 'github://hpi-swa/git-s:latest-release/src'].
+			spec baseline: 'MorphicTestingFramework' with: [
+				spec
+					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
+			
 			spec   
 				package: 'JSON'
 						with: [
