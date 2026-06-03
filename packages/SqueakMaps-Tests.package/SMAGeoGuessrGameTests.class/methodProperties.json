@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"model" : "JC 6/3/2026 16:15",
+		"model:" : "JC 6/3/2026 16:15",
+		"setUp" : "JC 6/3/2026 16:15",
+		"testCampusLocation" : "JC 6/3/2026 16:15",
+		"testDefaultScreenIsStart" : "JC 6/3/2026 16:15",
+		"testEndRoundReturnsToStart" : "JC 6/3/2026 16:15",
+		"testStartButtonClickStartsGame" : "JC 6/3/2026 16:15",
+		"testStartGameSwitchesToPlaying" : "JC 6/3/2026 16:15" } }

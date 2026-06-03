@@ -1,0 +1,4 @@
+accessing
+currentScreen
+
+	^ currentScreen

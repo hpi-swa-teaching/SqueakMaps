@@ -1,0 +1,4 @@
+geoguessr
+openGeoGuessr
+
+	SMAGeoGuessrGame open

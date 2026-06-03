@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/3/2026 16:15",
+	"instvars" : [
+		"mapMorph",
+		"currentScreen",
+		"roundActive" ],
+	"name" : "SMAGeoGuessrGame",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

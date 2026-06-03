@@ -1,0 +1,1 @@
+A SMAGeoGuessrGame is a self-contained GeoGuessr game window. It owns its own SMATiledMapMorph (no shared state with SMAApplication) and shows a campus-centered map in the background with a welcome box on top. Screens are switched via the currentScreen state variable, mirroring the build...Children update pattern used in SMAApplication.

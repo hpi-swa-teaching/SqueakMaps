@@ -1,0 +1,4 @@
+geoguessr
+campusZoom
+
+	^ 16
