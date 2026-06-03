@@ -13,7 +13,8 @@
 		"searchBar",
 		"apiMenuButton",
 		"apiKeyManagementButton",
-		"pinManagementButton" ],
+		"pinManagementButton",
+		"timerMorph" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],
