@@ -18,6 +18,8 @@ searchDirections
 			lastQuery := i.
 		].
 	].
-
-	self routes isEmpty ifFalse: [
-	self mapConfigurator displayRoutes: self routes.]
+	self routes size = (self hopLocations size - 1) ifTrue: [
+	self mapConfigurator displayRoutes: self routes.]; ifFalse: [
+		self clear.
+		self clearRoutes.
+	].
