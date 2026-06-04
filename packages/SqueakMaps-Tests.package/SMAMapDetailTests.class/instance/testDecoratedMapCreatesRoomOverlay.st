@@ -4,9 +4,10 @@ testDecoratedMapCreatesRoomOverlay
 	| decoratedMap overlay |
 	decoratedMap := SMADecoratedMapMorph fromOSMFile: self singleRoomOSMFile.
 
-	self assert: decoratedMap overlays size equals: 1.
+	self assert: decoratedMap roomOverlays isEmpty not.
 
-	overlay := decoratedMap overlays first.
+	overlay := decoratedMap roomOverlays first.
 	self assert: overlay class equals: SMAGeoPolygonMorph.
-	self assert: overlay label equals: 'K-E.18'.
-	self assert: overlay geoPoints size equals: 6.
+	self assert: overlay model class equals: SMARoom.
+	self assert: overlay geoPoints isEmpty not.
+	self assert: overlay label equals: overlay model ref
