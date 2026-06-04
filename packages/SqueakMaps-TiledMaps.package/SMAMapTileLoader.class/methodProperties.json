@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"instance" : "ros 7/22/2022 11:20",
-		"latLongToWorldPos:" : "tonyg 9/5/2011 18:22",
-		"worldPosToLatLong:" : "MK 8/7/2020 12:46" },
+		"instance" : "ros 7/22/2022 11:20" },
 	"instance" : {
 		"imageAt:zoom:source:tile:" : "RK 8/5/2022 21:02",
 		"initialize" : "RK 8/5/2022 21:02",

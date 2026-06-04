@@ -10,12 +10,12 @@ jobs:
         # Select platform(s)
         os: [ ubuntu-latest, macos-latest]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-6.0 ]
+        smalltalk: [ Squeak64-5.3 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalk-image: ${{ matrix.smalltalk }}
+          smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
