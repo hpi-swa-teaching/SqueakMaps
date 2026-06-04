@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"forBuilding:" : "Samuel Bis 6/4/2026 16:20",
+		"forRoom:" : "Samuel Bis 6/4/2026 16:20" },
+	"instance" : {
+		"centerOfVertices" : "Samuel Bis 6/4/2026 15:34",
+		"drawLabelOn:" : "Samuel Bis 6/4/2026 15:35",
+		"drawOn:forMap:" : "Samuel Bis 6/4/2026 15:34",
+		"fillColor" : "Samuel Bis 6/4/2026 15:33",
+		"fillColor:" : "Samuel Bis 6/4/2026 15:33",
+		"geoPoints" : "Samuel Bis 6/4/2026 15:32",
+		"geoPoints:" : "Samuel Bis 6/4/2026 15:33",
+		"initialize" : "Samuel Bis 6/4/2026 15:32",
+		"label" : "Samuel Bis 6/4/2026 15:33",
+		"label:" : "Samuel Bis 6/4/2026 15:33",
+		"model" : "Samuel Bis 6/4/2026 15:32",
+		"model:" : "Samuel Bis 6/4/2026 15:32",
+		"outlineColor" : "Samuel Bis 6/4/2026 15:33",
+		"outlineColor:" : "Samuel Bis 6/4/2026 15:33",
+		"outlineWidth" : "Samuel Bis 6/4/2026 15:33",
+		"outlineWidth:" : "Samuel Bis 6/4/2026 15:33",
+		"updateVerticesForMap:" : "Samuel Bis 6/4/2026 15:34" } }
