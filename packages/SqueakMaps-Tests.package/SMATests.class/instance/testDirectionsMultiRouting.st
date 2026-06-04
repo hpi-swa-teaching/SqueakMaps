@@ -9,9 +9,6 @@ testDirectionsMultiRouting
 	self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'Paris'.
 		{ self parisLocation }].
-	"self geocoderMock mockLocateWith: [:query | 
-		self assert: query equals: 'Paris'.
-		{ self parisLocation }]."
 	self geocoderMock mockLocateWith: [:query | 
 		self assert: query equals: 'London'.
 		{ self londonLocation }].
