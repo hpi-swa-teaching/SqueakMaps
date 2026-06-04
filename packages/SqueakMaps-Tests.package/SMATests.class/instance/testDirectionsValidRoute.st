@@ -21,8 +21,10 @@ testDirectionsValidRoute
 			boundingBox: (1 @ 1 corner: 3 @ 3); "(this will lead to the expected zoom level)"
 			yourself].
 	
-	self model startSearchInput: 'Berlin'.
-	self model destinationSearchInput: 'London'.
+	self model hopSearchInput: 'Berlin'.
+	self model addHopSearchInput.
+	self model hopSearchInput: 'London'.
+	self model addHopSearchInput.
 	self model searchDirections.
 
 	self assert: (SMAMapConfigurator geoCoordinatesToWorldPos: expectedMiddle) rounded equals: self model tiledMapMorph center rounded.

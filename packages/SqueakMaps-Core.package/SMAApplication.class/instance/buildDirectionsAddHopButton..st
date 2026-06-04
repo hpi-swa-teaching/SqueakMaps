@@ -6,5 +6,5 @@ buildDirectionsAddHopButton: aBuilder
 		model: self;
 		action: #addHopSearchInput;
 		help: 'Click here to add a hop to your route.';
-		frame: (0 @ 0.56 corner: 1 @ 0.66);
+		frame: (0 @ 0.23 corner: 0.5 @ 0.33);
 		yourself

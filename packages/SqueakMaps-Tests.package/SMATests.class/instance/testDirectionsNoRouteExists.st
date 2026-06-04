@@ -9,9 +9,11 @@ testDirectionsNoRouteExists
 	self geocoderMock mockLocateWith: [:query | { self londonLocation }].
 	self routingAPIMock mockGetRouteFromToByWith: [:from :to :by | (SMAUnreachableDestinationError new) signal].
 
-	self model startSearchInput: 'Berlin'.
-	self model destinationSearchInput: 'London'.
-	[self model searchDirectionsFrom: self model startSearchInput to: self model destinationSearchInput] valueSupplyingAnswer: { 'There exists no route between the given locations.' . #closeDialog }.
+	self model hopSearchInput: 'Berlin'.
+	self model addHopSearchInput.
+	self model hopSearchInput: 'London'.
+	self model addHopSearchInput.
+	[self model searchDirections] valueSupplyingAnswer: { 'There exists no route between the given locations.' . #closeDialog }.
 
 	self assert: tiledMapMorph markers size equals: 2.
 	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin']).

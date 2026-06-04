@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"distanceFrom:to:" : "TS 5/28/2026 10:24",
+		"findOptimalRoute:" : "TS 5/28/2026 11:31",
 		"geocoder" : "TR 6/25/2022 11:06",
 		"geocoder:" : "TR 6/25/2022 11:07",
 		"getRouteFrom:to:by:" : "JR 7/22/2022 14:27",

@@ -1,11 +1,15 @@
 user interface
 switchToDirectionsView
 
-	self setDestinationSearchInput.
-	self startSearchInput: ''.
-	self searchInput: ''.
+	self hopSearchInput: ''.
 	self clearRoutes.
 	self hasSearched: false.
 	self currentView: #directions.
 	self changed: #currentView.
-	self changed: #buildSidebarTopChildren
+	self changed: #buildSidebarTopChildren.
+	self hopLocations: OrderedCollection new.
+	self selectedPin ifNotNil: [
+		self hopLocations add: selectedPin.
+	].
+	self changed: #hopLocations.
+	self changed: #hopLocationLabels.

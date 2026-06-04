@@ -1,6 +1,6 @@
 user interface
 switchToEmptySearchView
 
-	self hopSearchInputs: OrderedCollection new.
+	self hopLocations: OrderedCollection new.
 	self switchToSearchViewWith: nil.
 	self clear.
