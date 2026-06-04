@@ -19,7 +19,11 @@
 		"roundActive",
 		"currentGuess",
 		"mapConfigurator",
-		"einloggenButton" ],
+		"einloggenButton",
+		"mapIsLarge",
+		"pictureMorph",
+		"largeFrame",
+		"smallFrame" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],

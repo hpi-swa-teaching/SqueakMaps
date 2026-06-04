@@ -19,7 +19,8 @@
 		"tileSource",
 		"route",
 		"onDoubleClickAction",
-		"onClickAction" ],
+		"onClickAction",
+		"gameHandler" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
 		 ],
