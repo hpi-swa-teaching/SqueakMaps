@@ -3,11 +3,11 @@ swapViews
 
 	mapIsLarge
 		ifTrue: [
-			self 
+			self
 				addMorph: pictureMorph frame: largeFrame;
-				addMorph: tiledMapMorph frame: smallFrame. ]
+				addMorph: tiledMapMorph frame: smallFrame]
 		ifFalse: [
 			self
 				addMorph: tiledMapMorph frame: largeFrame;
-				addMorph: pictureMorph frame: smallFrame. ].
+				addMorph: pictureMorph frame: smallFrame].
 	mapIsLarge := mapIsLarge not

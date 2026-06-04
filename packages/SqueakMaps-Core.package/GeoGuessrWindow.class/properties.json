@@ -23,7 +23,10 @@
 		"mapIsLarge",
 		"pictureMorph",
 		"largeFrame",
-		"smallFrame" ],
+		"smallFrame",
+		"bigContainer",
+		"smallContainer",
+		"bigFrame" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],
