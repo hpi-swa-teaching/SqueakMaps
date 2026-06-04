@@ -1,19 +1,11 @@
 search
-searchDirectionsFrom: aSearchInput to: anotherSearchInput
+searchDirectionsFrom: aLocation to: anotherLocation
 
-	| start destination startLocation destinationLocation transportationMode newRoute |
+	| startLocation destinationLocation transportationMode newRoute |
 	
-	start := aSearchInput.
-	destination := anotherSearchInput.
+	startLocation := aLocation.
+	destinationLocation := anotherLocation.
 	transportationMode := self transportationModeInput.
-	
-	(start isEmpty or: [destination isEmpty]) ifTrue: [
-		^ self inform: 'Please enter a start and destination location.'].
-	
-	[startLocation := self navigator locate: start.
-	destinationLocation := self navigator locate: destination]
-		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: error userMessage].
 	
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
 		^ self informSearchedSameLocation: startLocation].

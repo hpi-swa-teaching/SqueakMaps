@@ -9,9 +9,11 @@ testDirectionsLocationsTooFarApart
 	self geocoderMock mockLocateWith: [:query | { self londonLocation }].
 	self routingAPIMock mockGetRouteFromToByWith: [:from :to :by | (SMARouteTooLongError new) signal].
 
-	self model startSearchInput: 'Berlin'.
-	self model destinationSearchInput: 'London'.
-	[self model searchDirectionsFrom: self model startSearchInput to: self model destinationSearchInput] valueSupplyingAnswer: { 'The given locations are too far apart from each other.' . #closeDialog }.
+	self model hopSearchInput: 'Berlin'.
+	self model addHopSearchInput.
+	self model hopSearchInput: 'London'.
+	self model addHopSearchInput.
+	[self model searchDirections] valueSupplyingAnswer: { 'The given locations are too far apart from each other.' . #closeDialog }.
 
 	self assert: tiledMapMorph markers size equals: 2.
 	self assert: (tiledMapMorph markers anySatisfy: [:marker | marker label = 'Berlin']).
