@@ -6,11 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"points",
-		"rooms",
-		"overlays" ],
-	"name" : "SMADecoratedMapMorph",
+		"geoPoints",
+		"label",
+		"model",
+		"fillColor",
+		"outlineColor",
+		"outlineWidth" ],
+	"name" : "SMAGeoPolygonMorph",
 	"pools" : [
 		 ],
-	"super" : "SMATiledMapMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

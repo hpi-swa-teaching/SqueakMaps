@@ -3,15 +3,23 @@ extractRooms: anXMLRoot forPoints: aDictOfPoints
 
 	| rooms |
 	rooms := OrderedCollection new.
-	
-	anXMLRoot tagsNamed: #way do: [:w | | room |
-		room := SMARoom new
-			ref: ((w firstTagNamed: #tag with: [:el | (el attributeAt: #k) = 'ref']) attributeAt: #v);
-			level: ((w firstTagNamed: #tag with: [:el | (el attributeAt: #k) = 'level']) attributeAt: #v) asNumber;
-			points: OrderedCollection new.
-		w tagsNamed: #nd do: [:nd | | point |
-			point := aDictOfPoints at: (nd attributeAt: #ref) asInteger.
-			room points add: point].
-		rooms add: room].
-	
+
+	anXMLRoot tagsNamed: #way do: [:w |
+		((self tagValueNamed: 'indoor' in: w ifAbsent: [nil]) = 'room')
+			ifTrue: [
+				| room |
+				room := SMARoom new
+					ref: (self tagValueNamed: 'ref' in: w ifAbsent: ['']);
+					level: ((self tagValueNamed: 'level' in: w ifAbsent: ['0']) asNumber);
+					points: OrderedCollection new.
+
+				w tagsNamed: #nd do: [:nd |
+					| pointId |
+					pointId := (nd attributeAt: #ref) asInteger.
+					(aDictOfPoints includesKey: pointId)
+						ifTrue: [room points add: (aDictOfPoints at: pointId)]].
+
+				room points isEmpty
+					ifFalse: [rooms add: room]]].
+
 	^ rooms

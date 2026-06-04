@@ -6,8 +6,9 @@ fromOSMFile: aReadStream
 	root := xmldoc root.
 	points := self extractPoints: root.
 	rooms := self extractRooms: root forPoints: points.
-	
+
 	^ SMADecoratedMapMorph new
 		points: points;
 		rooms: rooms;
-		tiledMapMorph: SMATiledMapMorph new
+		overlays: (self roomOverlaysFrom: rooms);
+		yourself

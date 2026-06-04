@@ -1,14 +1,16 @@
 {
 	"class" : {
 		"extractPoints:" : "kong 6/2/2026 16:52",
-		"extractRooms:forPoints:" : "kong 6/2/2026 16:54",
-		"fromOSMFile:" : "kong 6/2/2026 16:55" },
+		"extractRooms:forPoints:" : "Samuel Bis 6/4/2026 15:59",
+		"fromOSMFile:" : "Samuel Bis 6/4/2026 15:45",
+		"readStreamForOSMAssetNamed:" : "Samuel Bis 6/4/2026 15:58",
+		"roomOverlaysFrom:" : "Samuel Bis 6/4/2026 15:30",
+		"tagValueNamed:in:ifAbsent:" : "Samuel Bis 6/4/2026 15:59" },
 	"instance" : {
-		"doesNotUnderstand:" : "kong 6/2/2026 16:21",
-		"drawOn:" : "kong 6/2/2026 17:38",
+		"drawOn:" : "Samuel Bis 6/4/2026 15:46",
+		"overlays" : "Samuel Bis 6/4/2026 15:48",
+		"overlays:" : "Samuel Bis 6/4/2026 15:48",
 		"points" : "kong 6/2/2026 15:05",
 		"points:" : "kong 6/2/2026 15:05",
 		"rooms" : "kong 6/2/2026 15:05",
-		"rooms:" : "kong 6/2/2026 15:05",
-		"tiledMapMorph" : "kong 6/2/2026 16:29",
-		"tiledMapMorph:" : "kong 6/2/2026 16:29" } }
+		"rooms:" : "kong 6/2/2026 15:05" } }

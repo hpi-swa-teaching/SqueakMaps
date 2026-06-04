@@ -4,5 +4,6 @@
 	"instance" : {
 		"singleRoomOSMFile" : "kong 6/2/2026 14:57",
 		"testDecoratedMapConstructionOfOneRoom" : "kong 6/2/2026 16:41",
+		"testDecoratedMapCreatesRoomOverlay" : "Samuel Bis 6/4/2026 15:35",
 		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
 		"testParsingXMLGitAsset" : "kong 6/1/2026 21:56" } }
