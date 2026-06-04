@@ -1,10 +1,10 @@
 building
-buildSearchPinPanelRemovePinButton: aBuilder
+buildSearchPinPanelPinOptionsButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
-		label: 'Remove Pin';
+		label: 'Pin Options';
 		model: self;
 		padding: 10;
-		action: #removePin;
+		action: #showPinMenu;
 		help: 'Remove this pin from the list of saved pins.';
 		yourself
