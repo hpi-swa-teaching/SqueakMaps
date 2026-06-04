@@ -1,0 +1,5 @@
+building
+changePinCategory
+
+	self savePin.
+	
