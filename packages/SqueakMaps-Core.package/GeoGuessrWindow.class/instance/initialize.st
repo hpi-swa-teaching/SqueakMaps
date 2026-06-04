@@ -5,9 +5,7 @@ initialize
 	self
 		applyUserInterfaceTheme;
 		setLabel: 'GeoGuessr' asString;
-		tiledMapMorph: SMATiledMapMorph new;
-		timerMorph: TimerMorph new;
-		buildStartButton;
+		initializeMorphsAndButtons;
 		focusCampus;
 		initializeGuessing;
 		initializeWindow;
