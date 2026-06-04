@@ -1,5 +1,5 @@
 building
-buildMenuCategoryButton: aBuilder
+buildSidebarSearchChildrenCategoryOptionsButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: 'Category Options';

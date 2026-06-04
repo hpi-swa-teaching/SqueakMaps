@@ -8,5 +8,5 @@ buildSidebarSearchChildren: aBuilder
 	children add: (self buildCategoryLabel: aBuilder).
 	children add: (self buildCategoryMultiSelectList: aBuilder).
 	children add: (self buildSearchPinPanel: aBuilder).
-	children add: (self buildMenuCategoryButton: aBuilder).
+	children add: (self buildSidebarSearchChildrenCategoryOptionsButton: aBuilder).
 	^ children
