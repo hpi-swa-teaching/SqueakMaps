@@ -7,8 +7,8 @@ initialize
 	tileSource := SMAOpenStreetMapTileSource new.
 	self tileSize: self tileSource tileSize.
 
-	center := 0.5364687276112747 @ 0.3285305068851402.
-	zoom := 17.
+	center := 0.5 @ 0.5.
+	zoom := self zoomMin.
 	route := SMARouteLine new.
 
 	self layoutFrame: (LayoutFrame fractions: (0 @ 0 rect: 1 @ 1))

@@ -3,8 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile:
-			(SMADecoratedMapMorph readStreamForOSMAssetNamed: 'assets/osm/hpi-k.osm'));
+		tiledMapMorph: SMATiledMapMorph new;
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
 		currentView: #search;

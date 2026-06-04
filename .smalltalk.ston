@@ -7,8 +7,5 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #useLatestMetacello : true
     }
-  ],
-	#testing : {
-		#packages : ['SqueakMaps-Tests']
-	}
+  ]
 }
