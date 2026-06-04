@@ -1,0 +1,19 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"geoPoints",
+		"label",
+		"model",
+		"fillColor",
+		"outlineColor",
+		"outlineWidth" ],
+	"name" : "SMAGeoPolygonMorph",
+	"pools" : [
+		 ],
+	"super" : "PolygonMorph",
+	"type" : "normal" }

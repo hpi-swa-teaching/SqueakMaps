@@ -1,0 +1,4 @@
+accessing
+overlays
+
+	^ self visibleOverlays

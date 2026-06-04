@@ -1,0 +1,21 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"points",
+		"rooms",
+		"buildings",
+		"overlays",
+		"roomOverlays",
+		"buildingOverlays",
+		"visibleLevel",
+		"indoorOverlayMinZoom" ],
+	"name" : "SMADecoratedMapMorph",
+	"pools" : [
+		 ],
+	"super" : "SMATiledMapMorph",
+	"type" : "normal" }
