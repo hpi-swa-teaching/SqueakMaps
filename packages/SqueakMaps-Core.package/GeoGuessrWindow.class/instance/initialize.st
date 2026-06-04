@@ -9,5 +9,6 @@ initialize
 		timerMorph: TimerMorph new;
 		buildStartButton;
 		focusCampus;
+		initializeGuessing;
 		initializeWindow;
 		openInWorld

@@ -18,7 +18,8 @@
 		"markers",
 		"tileSource",
 		"route",
-		"onDoubleClickAction" ],
+		"onDoubleClickAction",
+		"onClickAction" ],
 	"name" : "SMATiledMapMorph",
 	"pools" : [
 		 ],
