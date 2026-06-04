@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"buildingType",
+		"points" ],
+	"name" : "SMABuilding",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

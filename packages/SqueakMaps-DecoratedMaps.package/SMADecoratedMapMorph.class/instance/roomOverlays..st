@@ -1,4 +1,4 @@
 accessing
-overlays: aCollection
+roomOverlays: aCollection
 
 	roomOverlays := aCollection

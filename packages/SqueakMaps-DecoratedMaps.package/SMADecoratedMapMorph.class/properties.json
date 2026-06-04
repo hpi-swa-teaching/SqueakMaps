@@ -8,7 +8,12 @@
 	"instvars" : [
 		"points",
 		"rooms",
-		"overlays" ],
+		"buildings",
+		"overlays",
+		"roomOverlays",
+		"buildingOverlays",
+		"visibleLevel",
+		"indoorOverlayMinZoom" ],
 	"name" : "SMADecoratedMapMorph",
 	"pools" : [
 		 ],

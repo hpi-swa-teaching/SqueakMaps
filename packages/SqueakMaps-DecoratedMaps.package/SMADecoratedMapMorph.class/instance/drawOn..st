@@ -5,7 +5,7 @@ drawOn: aCanvas
 		self drawTilesOn: clippedCanvas.
 		self drawRoute: self route On: clippedCanvas.
 
-		self overlays do: [:overlay |
+		self visibleOverlays do: [:overlay |
 			overlay drawOn: clippedCanvas forMap: self].
 
 		self markers do: [:marker |

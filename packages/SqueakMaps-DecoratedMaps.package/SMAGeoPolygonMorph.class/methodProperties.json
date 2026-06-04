@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"forRoom:" : "Samuel Bis 6/4/2026 15:32" },
+		"forBuilding:" : "Samuel Bis 6/4/2026 16:20",
+		"forRoom:" : "Samuel Bis 6/4/2026 16:20" },
 	"instance" : {
 		"centerOfVertices" : "Samuel Bis 6/4/2026 15:34",
 		"drawLabelOn:" : "Samuel Bis 6/4/2026 15:35",
