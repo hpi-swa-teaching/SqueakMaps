@@ -8,8 +8,7 @@ buildSidebarDirectionsChildren: aBuilder
 		add: (self buildDirectionsTopRow: aBuilder);
 		add: (self buildDirectionsGoButton: aBuilder);
 		add: (self buildDirectionsOptimalRouteButton: aBuilder);
-		add: (self buildDirectionsMoveUpButton: aBuilder);
-		add: (self buildDirectionsMoveDownButton: aBuilder);
+		add: (self buildSaveRouteButton: aBuilder);
 		add: (self buildDirectionsHopList: aBuilder);
 		add: (self buildDirectionsAddHopButton: aBuilder);
 		add: (self buildDirectionsRemoveHopButton: aBuilder);

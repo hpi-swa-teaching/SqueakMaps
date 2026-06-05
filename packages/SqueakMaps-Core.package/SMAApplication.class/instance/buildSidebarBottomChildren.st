@@ -9,6 +9,7 @@ buildSidebarBottomChildren
 		self buildSelectAPIButton: builder .
 		self buildManageAPIKeysButton: builder .
 		self buildPinsButton: builder .
+		self buildSavedRoutesButton: builder.
 		self buildHelpButton: builder}.
 		
     ^ children collect: [:spec | builder build: spec]
