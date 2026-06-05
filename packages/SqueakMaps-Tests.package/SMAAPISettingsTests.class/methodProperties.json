@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RK 8/5/2022 21:57",
+		"setUp" : "kong 6/5/2026 08:04",
 		"tearDown" : "kong 6/5/2026 08:10",
 		"testApiButtonThunderforest" : "RK 8/5/2022 21:36",
 		"testApiButtonThunderforestInvalidKey" : "RK 8/5/2022 21:36",
