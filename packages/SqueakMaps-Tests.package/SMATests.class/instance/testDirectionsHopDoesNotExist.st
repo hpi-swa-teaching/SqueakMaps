@@ -1,6 +1,6 @@
 ui
-testDirectionHopDoesNotExist
-	
+testDirectionsHopDoesNotExist
+
 	| worldposMiddle |
 	
 	worldposMiddle := 0.5 @ 0.5.

@@ -1,5 +1,5 @@
 ui
-testDirectionLocationsAreNotProvided
+testDirectionsLocationsAreNotProvided
 
 	| worldposMiddle |
 	
