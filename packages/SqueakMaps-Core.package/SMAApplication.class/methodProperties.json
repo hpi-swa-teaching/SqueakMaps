@@ -12,7 +12,7 @@
 	"instance" : {
 		"addCategory" : "KK 5/15/2026 15:06",
 		"addHopSearchInput" : "TS 5/28/2026 11:44",
-		"addRoute:" : "TS 5/15/2026 09:56",
+		"addRoute:" : "TS 6/5/2026 10:06",
 		"apiKeyManagement" : "RS 8/2/2020 14:14",
 		"apiKeyManagementOptions" : "TS 5/6/2026 11:13",
 		"apiSelectionOptions" : "TS 5/6/2026 11:14",
@@ -74,7 +74,7 @@
 		"getDistanceLabel" : "TS 5/16/2026 08:52",
 		"getDurationLabel" : "TS 5/15/2026 10:30",
 		"getMapMorph" : "TR 6/17/2022 09:37",
-		"getPinLabel" : "RK 6/15/2022 21:14",
+		"getPinLabel" : "TS 6/5/2026 10:33",
 		"getStartLabel" : "RK 5/29/2022 12:42",
 		"hasModeBike" : "RK 6/28/2022 11:35",
 		"hasModeCar" : "RK 6/28/2022 11:35",

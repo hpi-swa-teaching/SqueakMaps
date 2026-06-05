@@ -1,0 +1,4 @@
+accessing
+fullLabel
+
+	^ fullLabel
