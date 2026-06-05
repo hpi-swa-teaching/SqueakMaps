@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "RK 8/5/2022 21:57",
+		"tearDown" : "ros 7/13/2022 21:50",
+		"testApiButtonBing" : "RK 8/5/2022 21:35",
+		"testApiButtonBingInvalidKey" : "RK 8/5/2022 21:35",
+		"testApiButtonThunderforest" : "RK 8/5/2022 21:36",
+		"testApiButtonThunderforestInvalidKey" : "RK 8/5/2022 21:36",
+		"testApiKeyManagementBing" : "RK 8/5/2022 21:36",
+		"testApiKeyManagementThunderforest" : "RK 8/5/2022 21:36",
+		"testBingApiKeyIsValidWithInvalidKey" : "ros 7/13/2022 21:53",
+		"testBingApiKeyIsValidWithValidKey" : "ros 7/13/2022 21:53",
+		"testSetOpenstreetmapsAsApi" : "RK 5/30/2022 20:44",
+		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "ros 7/13/2022 21:52",
+		"testThunderforestMapsApiKeyIsValidWithValidKey" : "ros 7/13/2022 21:53" } }

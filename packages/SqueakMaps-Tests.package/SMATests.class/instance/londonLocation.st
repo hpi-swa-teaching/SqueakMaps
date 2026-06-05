@@ -1,0 +1,4 @@
+accessing
+londonLocation
+
+	^ londonLocation
