@@ -4,14 +4,14 @@ findOptimalRouteWithWaitingScreen
 
     mapBounds := tiledMapMorph bounds.
 
-    "Create overlay covering the entire map"
+    "overlay"
     waitingScreen := Morph new
         color: (Color gray alpha: 0.6);
         extent: mapBounds extent;
         position: mapBounds origin;
         yourself.
 
-    "Add centered label on top"
+    "label"
     label := TextMorph new
         contents: 'Calculating route...';
         yourself.
