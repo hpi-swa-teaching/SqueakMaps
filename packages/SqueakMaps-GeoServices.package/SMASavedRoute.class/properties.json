@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"routeTitle",
+		"routeCollection",
+		"hops" ],
+	"name" : "SMASavedRoute",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
