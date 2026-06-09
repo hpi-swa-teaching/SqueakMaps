@@ -1,4 +1,0 @@
-category testing
-renameCategoryButton
-
-	^ renameCategoryButton
