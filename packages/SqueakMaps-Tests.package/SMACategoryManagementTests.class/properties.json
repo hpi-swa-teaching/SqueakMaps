@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "KK 5/22/2026 13:00",
 	"instvars" : [
-		"addCategoryButton",
-		"removeCategoryButton",
 		"savedCategoriesBefore",
 		"model",
 		"savedPinsBefore",
-		"renameCategoryButton" ],
+		"categoryOptionsButton" ],
 	"name" : "SMACategoryManagementTests",
 	"pools" : [
 		 ],
