@@ -1,7 +1,7 @@
 category testing
 testRemoveCategoryUncategorizeAllPins
 	
-	| testCategory pin1 |
+	| testCategory pin1 menu item|
 	
 	testCategory := SMAPinCategory new.
 	testCategory title: 'Test Category'.
@@ -13,7 +13,16 @@ testRemoveCategoryUncategorizeAllPins
 		category: testCategory;
 		yourself.
 	self model class savedPins add: pin1.
-	[self removeCategoryButton click] valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' }.{'What happens to the pins?'. 'Uncategorize all Pins within this category.'}.{'Are you sure?'. true} }.
+	
+	self categoryOptionsButton click. 
+	menu := ActiveWorld submorphs detect: [:m | m isKindOf: MenuMorph].
+	
+	item := menu items detect: [:m | m contents = 'Remove Category'].
+	
+	[ item target perform: item selector withArguments: item arguments.
+	] valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' }.{'What happens to the pins?'. 'Uncategorize all Pins within this category.'}.{'Are you sure?'. true} }.
+
+	menu delete.
 
 	self deny: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category']).
 	self assert: (pin1 category title = 'Uncategorized')
