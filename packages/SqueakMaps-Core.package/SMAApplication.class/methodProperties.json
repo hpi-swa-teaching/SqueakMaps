@@ -38,6 +38,7 @@
 		"buildDirectionsRouteInformation:" : "TS 5/20/2026 11:18",
 		"buildDirectionsTopRow:" : "RK 8/5/2022 22:05",
 		"buildDirectionsWalkButton:" : "RK 8/5/2022 21:10",
+		"buildExportRouteButton:" : "LJ 6/10/2026 21:06",
 		"buildHelpButton:" : "fh 5/25/2026 18:48",
 		"buildManageAPIKeysButton:" : "seas 6/9/2026 03:44",
 		"buildMap:" : "KK 5/15/2026 09:40",
@@ -57,7 +58,7 @@
 		"buildSidebar:" : "RK 8/5/2022 22:07",
 		"buildSidebarBottom:" : "fh 5/25/2026 14:28",
 		"buildSidebarBottomChildren" : "seas 6/9/2026 13:46",
-		"buildSidebarDirectionsChildren:" : "seas 6/5/2026 11:16",
+		"buildSidebarDirectionsChildren:" : "LJ 6/10/2026 21:05",
 		"buildSidebarSearchChildren:" : "seas 6/4/2026 12:14",
 		"buildSidebarSearchChildrenCategoryOptionsButton:" : "seas 6/4/2026 12:14",
 		"buildSidebarTop:" : "RK 8/5/2022 22:07",
@@ -73,6 +74,7 @@
 		"dragItem:" : "KK 5/29/2026 11:15",
 		"dragType:" : "KK 5/29/2026 10:57",
 		"dropItem:on:copy:" : "KK 5/29/2026 12:03",
+		"exportRoute" : "LJ 6/10/2026 21:07",
 		"findOptimalRoute" : "TS 5/28/2026 10:42",
 		"findOptimalRouteWithWaitingScreen" : "CMP 6/7/2026 20:55",
 		"getAddHopLabel" : "TS 5/14/2026 13:44",
@@ -164,4 +166,5 @@
 		"uncategorizePins:" : "KK 5/15/2026 09:26",
 		"visiblePinCategories" : "LJ 5/6/2026 11:41",
 		"visiblePinCategories:" : "KK 5/7/2026 16:19",
-		"wantsDrop:type:source:morph:on:" : "KK 5/29/2026 11:12" } }
+		"wantsDrop:type:source:morph:on:" : "KK 5/29/2026 11:12",
+		"writeFullRouteGpxToFile:" : "LJ 6/10/2026 21:12" } }
