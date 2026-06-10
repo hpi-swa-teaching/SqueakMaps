@@ -6,7 +6,7 @@ testDecoratedMapConstructionOfPOIs
 	pois := decoratedMap pointsOfInterest.
 	self assert: 7 equals: (pois size).
 	poi1 := pois at: 1.
-	self assert: (poi1 isKindOf: SMAPOIWaterPoint).
+	self assert: (poi1 isKindOf: SMAPOIDrinkingWater).
 	self assert: #(0) = poi1 levels.
 	
 	
