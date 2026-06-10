@@ -27,6 +27,7 @@
 		"testDirectionsLocationsAreNotProvided" : "TS 6/5/2026 09:38",
 		"testDirectionsLocationsTooFarApart" : "TS 6/5/2026 09:46",
 		"testDirectionsMultiRouting" : "seas 6/4/2026 11:25",
+		"testDirectionsMultiRoutingColors" : "TS 6/5/2026 11:38",
 		"testDirectionsNoRouteExists" : "TS 6/5/2026 09:47",
 		"testDirectionsOptimalRoute" : "TS 5/29/2026 11:56",
 		"testDirectionsRearrangeHops" : "TS 5/29/2026 11:08",

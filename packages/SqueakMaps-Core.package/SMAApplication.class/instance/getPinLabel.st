@@ -1,4 +1,4 @@
 building
 getPinLabel
 	
-	^ { StringMorph new contents: self selectedPin label; yourself } 
+	^ { StringMorph new contents: self selectedPin fullLabel; yourself } 
