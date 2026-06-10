@@ -11729,6 +11729,33 @@ GSMetadata {
 				'poi.osm'
 			],
 			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'drinking_water_64.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'printer_64.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'poi_64.png'
+			],
+			#encoding : @29
 		}
 	],
 	#name : 'SqueakMaps'
