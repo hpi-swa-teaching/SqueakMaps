@@ -1,4 +1,0 @@
-geoguessr
-openGeoGuessr
-
-	GeoGuessrWindow new
