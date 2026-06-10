@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"poiOSMFile" : "kong 6/10/2026 21:24",
 		"singleRoomOSMFile" : "kong 6/2/2026 14:57",
 		"testDecoratedMapConstructionOfOneRoom" : "kong 6/2/2026 16:41",
+		"testDecoratedMapConstructionOfPOIs" : "kong 6/10/2026 21:35",
 		"testDecoratedMapCreatesBuildingOverlay" : "Samuel Bis 6/4/2026 17:23",
 		"testDecoratedMapCreatesRoomOverlay" : "Samuel Bis 6/4/2026 17:21",
 		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
-		"testParsingXMLGitAsset" : "kong 6/1/2026 21:56" } }
+		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23" } }

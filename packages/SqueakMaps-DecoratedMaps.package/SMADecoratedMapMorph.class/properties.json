@@ -9,6 +9,7 @@
 		"points",
 		"rooms",
 		"buildings",
+		"pointsOfInterest",
 		"overlays",
 		"roomOverlays",
 		"buildingOverlays",

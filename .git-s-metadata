@@ -11719,6 +11719,16 @@ GSMetadata {
 				'344500.png'
 			],
 			#encoding : @29
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tests',
+				'osm',
+				'poi.osm'
+			],
+			#encoding : 'TXT'
 		}
 	],
 	#name : 'SqueakMaps'
