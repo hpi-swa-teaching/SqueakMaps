@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gitLoader",
+		"projectName" ],
+	"name" : "AssetLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
