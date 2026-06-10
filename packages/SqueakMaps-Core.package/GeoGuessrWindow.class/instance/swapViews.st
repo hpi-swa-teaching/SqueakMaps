@@ -10,4 +10,5 @@ swapViews
 			self
 				addMorph: tiledMapMorph frame: largeFrame;
 				addMorph: pictureMorph frame: smallFrame].
+	
 	mapIsLarge := mapIsLarge not
