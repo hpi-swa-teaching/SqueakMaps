@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : OrderedCollection [
+	#mappers : [
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
@@ -46,6 +46,24 @@ GSMetadata {
 				'packages'
 			]
 		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-DecoratedMaps'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'TestPicture.png'
+			],
+			#encoding : Class [ #PNGReadWriter ]
+		},
 		GSPlaintextMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -68,15 +86,6 @@ GSMetadata {
 			#version : 1,
 			#package : MCPackage {
 				#name : 'SqueakMaps-TiledMaps'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-DecoratedMaps'
 			},
 			#path : FSAbsolutePath [
 				'packages'
