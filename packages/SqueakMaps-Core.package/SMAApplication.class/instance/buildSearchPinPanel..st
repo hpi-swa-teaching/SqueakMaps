@@ -5,5 +5,5 @@ buildSearchPinPanel: aBuilder
 		model: self;
 		children: #buildSearchPinPanelChildren;
 		layout: #vertical;
-		frame: (0 @ 0.1 corner: 1 @ 0.4);
+		frame: (0 @ 0.45 corner: 1 @ 0.7);
 		yourself

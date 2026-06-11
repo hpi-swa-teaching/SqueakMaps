@@ -9,4 +9,4 @@ mapClicked: anEvent
         and: [pictureMorph bounds containsPoint: anEvent position])
             ifTrue: [^ self swapViews].
 
-    self placeGuessAt: anEvent
+    self placeGuessAt: anEvent position
