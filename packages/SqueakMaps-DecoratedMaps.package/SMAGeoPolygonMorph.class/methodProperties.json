@@ -4,7 +4,8 @@
 		"forRoom:" : "Samuel Bis 6/4/2026 16:20" },
 	"instance" : {
 		"centerOfVertices" : "Samuel Bis 6/4/2026 15:34",
-		"drawLabelOn:" : "Samuel Bis 6/4/2026 15:35",
+		"containsOverlayPixel:" : "AS 6/8/2026 11:54",
+		"drawLabelOn:" : "AS 6/8/2026 11:57",
 		"drawOn:forMap:" : "Samuel Bis 6/4/2026 15:34",
 		"fillColor" : "Samuel Bis 6/4/2026 15:33",
 		"fillColor:" : "Samuel Bis 6/4/2026 15:33",
@@ -13,6 +14,7 @@
 		"initialize" : "Samuel Bis 6/4/2026 15:32",
 		"label" : "Samuel Bis 6/4/2026 15:33",
 		"label:" : "Samuel Bis 6/4/2026 15:33",
+		"labelBounds" : "AS 6/8/2026 12:00",
 		"model" : "Samuel Bis 6/4/2026 15:32",
 		"model:" : "Samuel Bis 6/4/2026 15:32",
 		"outlineColor" : "Samuel Bis 6/4/2026 15:33",

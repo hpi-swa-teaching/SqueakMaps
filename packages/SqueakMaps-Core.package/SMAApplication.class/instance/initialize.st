@@ -12,6 +12,6 @@ initialize
 		thunderforestMapsApi: SMAThunderforestMapsApi new.
 
 	self tiledMapMorph onDoubleClickAction: [:aPoint | 
-		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)]
-	
-	
+		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)].
+	self tiledMapMorph onOverlayClickAction: [:overlay |
+		self selectCampusDetailTarget: overlay model]
