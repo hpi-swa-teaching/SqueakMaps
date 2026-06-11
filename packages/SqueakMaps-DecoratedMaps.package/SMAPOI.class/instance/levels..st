@@ -2,7 +2,7 @@ accessing
 levels: anObject
 
 	levels := anObject ifNil: [OrderedCollection new] ifNotNil: [
-		(anObject subStrings: $;) collect: [:each | each asInteger]
+		(anObject subStrings: ';' asCharacter) collect: [:each | each asInteger]
 		].
 	
 	Transcript showln: levels.
