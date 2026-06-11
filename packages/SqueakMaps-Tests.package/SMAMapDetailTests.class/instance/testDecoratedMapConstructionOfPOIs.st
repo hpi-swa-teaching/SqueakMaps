@@ -1,14 +1,16 @@
 as yet unclassified
 testDecoratedMapConstructionOfPOIs
 
-	| decoratedMap pois poi1 |
+	| decoratedMap pois poi1 officePOI |
 	decoratedMap := SMADecoratedMapMorph fromOSMFile: self poiOSMFile.
 	pois := decoratedMap pointsOfInterest.
-	self assert: 7 equals: (pois size).
+	self assert: 8 equals: (pois size).
 	poi1 := pois at: 1.
 	self assert: (poi1 isKindOf: SMAPOIDrinkingWater).
 	self assert: #(0) = poi1 levels.
 	
+	officePOI := pois detect: [:each | each isKindOf: SMAPOIOffice].
+	self assert: 'Bernhard Renard' equals: officePOI displayName.
 	
 	"
 	self assert: decoratedMap rooms size equals: 1.

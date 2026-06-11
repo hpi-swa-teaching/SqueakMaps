@@ -11756,6 +11756,76 @@ GSMetadata {
 				'poi_64.png'
 			],
 			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'bernhard_renard_64.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'bernhard_renard_256.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'tobias_friedrich_64.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'holger_karl_64.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'holger_karl_256.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'tobias_friedrich_256.png'
+			],
+			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'default_64.png'
+			],
+			#encoding : @29
 		}
 	],
 	#name : 'SqueakMaps'

@@ -45,4 +45,14 @@
   </node>
 
 
+	<node id='-50' lat='52.39357' lon='13.13031'>
+	  <tag k='indoor' v='room' />
+	  <tag k='room' v='office' />
+	  <tag k='name' v='Bernhard Renard' />
+	  <tag k='ref' v='K-E.11' />
+	  <tag k='level' v='0' />
+	  <tag k='office' v='research' />
+	</node>
+
+
 </osm>

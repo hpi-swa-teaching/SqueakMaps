@@ -1165,15 +1165,15 @@
     <tag k='level' v='0;1;2' />
   </node>
   <node id='-35268' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='drinking_water' />
+    <tag k='amenity' v='water_point' />
     <tag k='level' v='0' />
   </node>
   <node id='-35304' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='drinking_water' />
+    <tag k='amenity' v='water_point' />
     <tag k='level' v='1' />
   </node>
   <node id='-35328' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='drinking_water' />
+    <tag k='amenity' v='water_point' />
     <tag k='level' v='2' />
   </node>
   <node id='-35345' action='modify' lat='52.39334120626' lon='13.13027285568'>
@@ -1192,8 +1192,26 @@
   <node id='-35432' action='modify' lat='52.3933097375' lon='13.13029034501' />
   <node id='-35447' action='modify' lat='52.39330976493' lon='13.1302909499' />
   <node id='-35546' action='modify' lat='52.39355661448' lon='13.13012724947'>
-    <tag k='amenity' v='drinking_water' />
+    <tag k='amenity' v='water_point' />
     <tag k='level' v='0' />
+  </node>
+  <node id='-35562' action='modify' lat='52.39321211851' lon='13.13014760738'>
+    <tag k='indoor' v='room' />
+    <tag k='level' v='0' />
+    <tag k='name' v='Bernhard Renard' />
+    <tag k='room' v='office' />
+  </node>
+  <node id='-35648' action='modify' lat='52.39321212013' lon='13.13014760468'>
+    <tag k='indoor' v='room' />
+    <tag k='level' v='1' />
+    <tag k='name' v='Holger Karl' />
+    <tag k='room' v='office' />
+  </node>
+  <node id='-35667' action='modify' lat='52.3932121197' lon='13.13014760743'>
+    <tag k='indoor' v='room' />
+    <tag k='level' v='2' />
+    <tag k='name' v='Tobias Friedrich' />
+    <tag k='room' v='office' />
   </node>
   <node id='27127275' timestamp='2025-09-24T12:32:07Z' uid='23277257' user='Openminded320' version='4' changeset='172391870' lat='52.4075238' lon='13.1041289' />
   <node id='27127277' timestamp='2021-01-16T18:22:40Z' uid='1468248' user='PantherStrix' version='5' changeset='97615469' lat='52.4066831' lon='13.106812' />
