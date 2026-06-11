@@ -7,6 +7,6 @@ initializeWindow
 		addMorph: self timerMorph frame: (0.46 @ 0 extent: 0.08 @ 0.1);
 		addMorph: self pictureMorph frame: largeFrame;
 		addMorph: self tiledMapMorph frame: smallFrame.
-		
+	
 	tiledMapMorph gameHandler: self.
 	pictureMorph gameHandler: self

@@ -14,7 +14,8 @@
 		"roomOverlays",
 		"buildingOverlays",
 		"visibleLevel",
-		"indoorOverlayMinZoom" ],
+		"indoorOverlayMinZoom",
+		"onOverlayClickAction" ],
 	"name" : "SMADecoratedMapMorph",
 	"pools" : [
 		 ],
