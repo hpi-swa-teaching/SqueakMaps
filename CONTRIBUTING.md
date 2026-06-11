@@ -38,7 +38,7 @@ docs: add setup instructions to README
 - Open a PR for every feature branch into `swt26-g06/develop`
 - Require **at least 1 human reviewer** -> assign one explicitly
 - Add the **bot reviewer** as a second reviewer when possible
-- Merge strategy: **rebase merge** (no merge commits)
+- Merge strategy: **rebase and merge** (no merge commits)
 - Resolve all review comments before merging
 - Delete the branch after merge
 
