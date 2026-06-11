@@ -11826,6 +11826,15 @@ GSMetadata {
 				'default_64.png'
 			],
 			#encoding : @29
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'TestPicture.png'
+			],
+			#encoding : @29
 		}
 	],
 	#name : 'SqueakMaps'

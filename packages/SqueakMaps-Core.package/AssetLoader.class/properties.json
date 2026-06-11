@@ -9,12 +9,10 @@
 		"remainingSeconds",
 		"label",
 		"running",
-		"gameHandler",
-		"picture",
-		"loader",
-		"bild" ],
-	"name" : "PictureMorph",
+		"gitLoader",
+		"projectName" ],
+	"name" : "AssetLoader",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }
