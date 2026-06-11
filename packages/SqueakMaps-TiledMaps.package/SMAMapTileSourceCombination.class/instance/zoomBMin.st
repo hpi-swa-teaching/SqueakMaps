@@ -1,0 +1,4 @@
+zooming
+zoomBMin
+
+	^ 20
