@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RK 7/25/2022 15:30",
+	"instvars" : [
+		"model",
+		"routingAPIMock",
+		"geocoderMock",
+		"berlinLocation",
+		"londonLocation" ],
+	"name" : "SMATests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }
