@@ -1,7 +1,7 @@
 building
 exportRoute
 
-	| fileName |
+	| fileName gpx |
 
 	self routes isEmpty ifTrue: [
 		^ self inform: 'Please create a route first.'
@@ -10,4 +10,7 @@ exportRoute
 	fileName := (UIManager default saveFilenameRequest: 'Save GPX as:' initialAnswer: 'route.gpx').
 	fileName ifNil: [ ^ self ].
 
-	self writeFullRouteGpxToFile: fileName.
+	gpx := self parseToGPXStringFromARoute: self routes.
+	
+	FileStream forceNewFileNamed: fileName do: [:f |
+		f nextPutAll: gpx ].
