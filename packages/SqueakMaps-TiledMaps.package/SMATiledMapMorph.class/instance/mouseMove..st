@@ -10,4 +10,4 @@ mouseMove: anEvent
 	newX := self clampCoordinateOverflow: newCenter x.
 	newY := self clampWorldPosHeight: newCenter y.
 
-	self center: newX @ newY
+	self center: (self clampCenterToCoverage: newX @ newY)
