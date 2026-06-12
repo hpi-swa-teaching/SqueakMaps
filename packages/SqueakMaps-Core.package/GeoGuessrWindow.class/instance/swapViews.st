@@ -6,9 +6,11 @@ swapViews
 
 	mapIsLarge
 		ifTrue: [
+			pictureMorph coverMode: true.
 			self addMorph: self pictureMorph fullFrame: largeFrame.
 			self addMorph: self tiledMapMorph fullFrame: smallFrame.]
 		ifFalse: [
+			pictureMorph coverMode: false.
 			self addMorph: self tiledMapMorph fullFrame: largeFrame.
 			self addMorph: self pictureMorph fullFrame: smallFrame.].
 	
