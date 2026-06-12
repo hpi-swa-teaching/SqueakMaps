@@ -1,6 +1,8 @@
 initialization
 initializeFrames
 
+	self layoutPolicy: ProportionalLayout new.
+	
 	largeFrame := LayoutFrame new
 	      leftFraction: 0   offset: 0;
 	      rightFraction: 1  offset: 0;
@@ -12,6 +14,3 @@ initializeFrames
 	      rightFraction: 1    offset: 0;
 	      topFraction: 0.8    offset: 0;
 	      bottomFraction: 1   offset: 0.
-	
-	self layoutPolicy: ProportionalLayout new.
-	
