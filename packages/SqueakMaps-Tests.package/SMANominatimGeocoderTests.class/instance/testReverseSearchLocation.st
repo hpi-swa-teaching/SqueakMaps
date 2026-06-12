@@ -17,7 +17,7 @@ testReverseSearchLocation
 	returnedLocation := self geocoder reverse: searchCoordinates withZoom: searchZoom.
 	
 	self assert: returnedLocation class equals: SMALocation.
-	self assert: returnedLocation label equals: expectedLocation label.
+	self assert: returnedLocation fullLabel equals: expectedLocation label.
 	self assert: returnedLocation coordinates equals: expectedLocation coordinates.
 	self assert: returnedLocation boundingBox equals: expectedLocation boundingBox
 	

@@ -1,11 +1,7 @@
 searching
 testDirectionsRearrangeHops
 	
-	| upButton downButton |
-	
 	self model switchToDirectionsView.
-	upButton := (self subject findByLabel: 'U').
-	downButton := (self subject findByLabel: 'D').
 	
 	self geocoderMock mockLocateWith: [:query |
 		self assert: query equals: 'Berlin'.
@@ -19,17 +15,14 @@ testDirectionsRearrangeHops
 	self model hopSearchInput: 'Paris'.
 	self model addHopSearchInput.
 	
-	self model selectedHopIndex: 1.
-	downButton click.
+	self model dropItem: (self model dragItem: 1) on: 2 copy: false.
 	
 	self assert: (self model hopLocations at: 1) label = 'Paris'.
 	self assert: (self model hopLocations at: 2) label = 'Berlin'.
-	self assert: self model selectedHopIndex = 2.
 	
-	upButton click.
+	self model dropItem: (self model dragItem: 1) on: 2 copy: false.
 	
 	self assert: (self model hopLocations at: 1) label = 'Berlin'.
 	self assert: (self model hopLocations at: 2) label = 'Paris'.
-	self assert: self model selectedHopIndex = 1.
 	
 	self model switchToEmptySearchView.

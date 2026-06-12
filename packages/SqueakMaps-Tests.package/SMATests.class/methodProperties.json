@@ -30,7 +30,7 @@
 		"testDirectionsMultiRoutingColors" : "TS 6/5/2026 11:38",
 		"testDirectionsNoRouteExists" : "TS 6/5/2026 09:47",
 		"testDirectionsOptimalRoute" : "TS 5/29/2026 11:56",
-		"testDirectionsRearrangeHops" : "TS 5/29/2026 11:08",
+		"testDirectionsRearrangeHops" : "TS 6/12/2026 10:02",
 		"testDirectionsRemoveHop" : "TS 6/5/2026 09:48",
 		"testDirectionsSameLocationSearch" : "TS 6/5/2026 09:47",
 		"testDirectionsValidRoute" : "TS 5/28/2026 11:40",
