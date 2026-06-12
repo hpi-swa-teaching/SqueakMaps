@@ -1165,15 +1165,15 @@
     <tag k='level' v='0;1;2' />
   </node>
   <node id='-35268' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='water_point' />
+    <tag k='amenity' v='drinking_water' />
     <tag k='level' v='0' />
   </node>
   <node id='-35304' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='water_point' />
+    <tag k='amenity' v='drinking_water' />
     <tag k='level' v='1' />
   </node>
   <node id='-35328' action='modify' lat='52.39333455148' lon='13.130287396'>
-    <tag k='amenity' v='water_point' />
+    <tag k='amenity' v='drinking_water' />
     <tag k='level' v='2' />
   </node>
   <node id='-35345' action='modify' lat='52.39334120626' lon='13.13027285568'>
@@ -1192,7 +1192,7 @@
   <node id='-35432' action='modify' lat='52.3933097375' lon='13.13029034501' />
   <node id='-35447' action='modify' lat='52.39330976493' lon='13.1302909499' />
   <node id='-35546' action='modify' lat='52.39355661448' lon='13.13012724947'>
-    <tag k='amenity' v='water_point' />
+    <tag k='amenity' v='drinking_water' />
     <tag k='level' v='0' />
   </node>
   <node id='-35562' action='modify' lat='52.39321211851' lon='13.13014760738'>
