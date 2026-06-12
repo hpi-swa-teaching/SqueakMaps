@@ -6,5 +6,5 @@ initialize
 	picture := ImageMorph new.
 	loader := AssetLoader new. 
 	bild := loader getImage:  '/osm/TestPicture.png'.
-	picture newForm: bild.
-	self addMorph: picture. 
+	self originalImage: bild.
+	self updateScaledImage.

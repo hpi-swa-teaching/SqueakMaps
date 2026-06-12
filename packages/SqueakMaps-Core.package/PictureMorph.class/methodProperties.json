@@ -4,5 +4,9 @@
 	"instance" : {
 		"gameHandler:" : "Helli 6/4/2026 14:17",
 		"handlesMouseDown:" : "Helli 6/4/2026 14:27",
-		"initialize" : "KP 6/10/2026 12:27",
-		"mouseDown:" : "Helli 6/4/2026 14:29" } }
+		"initialize" : "DC 6/12/2026 12:18",
+		"layoutChanged" : "DC 6/12/2026 11:24",
+		"mouseDown:" : "Helli 6/4/2026 14:29",
+		"originalImage" : "DC 6/12/2026 12:15",
+		"originalImage:" : "DC 6/12/2026 11:25",
+		"updateScaledImage" : "DC 6/12/2026 12:17" } }
