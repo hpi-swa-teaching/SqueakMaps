@@ -9,5 +9,6 @@ showSavedRoute
 	selectedRoute := self class savedRoutes at: index.
 	self mapConfigurator displayRoutes: selectedRoute routeCollection.
 	self hopLocations: (selectedRoute hops).
+	self routes: selectedRoute routeCollection.
 	
 	self switchToSavedRouteDirectionsView.
