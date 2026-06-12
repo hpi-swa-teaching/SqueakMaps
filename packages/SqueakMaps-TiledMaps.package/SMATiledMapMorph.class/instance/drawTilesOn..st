@@ -12,4 +12,6 @@ drawTilesOn: aCanvas
 				ifNil: [ anyFailed := true. (Form extent: tileSize) fillGray ]
 				ifNotNil: [:loaded | anyLoaded := true. loaded ] ].
 		aCanvas drawImage: form at: (self tileCorner: tile) ].
-	(anyFailed and: [anyLoaded not]) ifTrue: [ self drawTileLoadErrorOn: aCanvas ]
+	(tileSource usesLocalTilesAt: zoom) ifTrue: [^ anyFailed].
+	(anyFailed and: [anyLoaded not]) ifTrue: [ self drawTileLoadErrorOn: aCanvas ].
+	^ false

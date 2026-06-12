@@ -5,10 +5,11 @@
 		"clampZoom:" : "cs 8/6/2020 15:47",
 		"initialize" : "kong 6/9/2026 18:03",
 		"isValidZoomLevel:" : "cs 8/6/2020 15:48",
-		"mapTileAt:zoom:" : "cs 8/6/2020 15:49",
+		"mapTileAt:zoom:" : "JC 6/12/2026 13:24",
 		"selectTileSource:zoom:" : "kong 6/9/2026 18:01",
 		"tileSize" : "cs 8/6/2020 15:49",
 		"urlForPosition:zoom:" : "kong 6/9/2026 17:56",
+		"usesLocalTilesAt:" : "JC 6/12/2026 13:30",
 		"zoomBMin" : "kong 6/9/2026 18:01",
 		"zoomMax" : "kong 6/9/2026 17:50",
 		"zoomMin" : "cs 8/6/2020 15:49" } }
