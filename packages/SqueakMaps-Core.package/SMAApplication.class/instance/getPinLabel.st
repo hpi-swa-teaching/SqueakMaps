@@ -1,4 +1,5 @@
 building
 getPinLabel
 	
-	^ { StringMorph new contents: self selectedPin label; yourself } 
+	Transcript show: self selectedPin label; cr.
+	^ { StringMorph new contents: self selectedPin fullLabel; yourself } 
