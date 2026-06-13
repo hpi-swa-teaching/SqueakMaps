@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/13/2026 10:15",
+	"instvars" : [
+		"imagePath",
+		"coordinates",
+		"floor" ],
+	"name" : "GGLevel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

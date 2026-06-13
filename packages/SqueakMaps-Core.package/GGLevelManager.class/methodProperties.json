@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultLevels" : "JC 6/13/2026 11:08" },
+	"instance" : {
+		"hasMoreLevels" : "JC 6/13/2026 11:20",
+		"initialize" : "JC 6/13/2026 11:12",
+		"nextLevel" : "JC 6/13/2026 11:18",
+		"remainingCount" : "JC 6/13/2026 11:22",
+		"remainingLevels" : "JC 6/13/2026 11:14",
+		"totalCount" : "JC 6/13/2026 11:24" } }

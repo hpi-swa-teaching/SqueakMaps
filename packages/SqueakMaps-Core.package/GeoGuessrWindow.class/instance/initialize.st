@@ -9,5 +9,7 @@ initialize
 		focusCampus;
 		initializeFrames;
 		initializeGuessing;
+		initializeGame;
 		initializeWindow;
+		refreshForState;
 		openInWorld
