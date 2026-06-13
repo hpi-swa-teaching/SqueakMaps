@@ -8,6 +8,5 @@ showPlayingState
 	self currentGuess: nil.
 	self roundActive: true.
 	self timerMorph reset; start.
-	self startButton label: 'Läuft …'.
-	self einloggenButton label: 'Lösung einloggen'.
-	self infoMorph contents: self playingInfoText
+	self infoMorph contents: self playingInfoText.
+	self refreshControls
