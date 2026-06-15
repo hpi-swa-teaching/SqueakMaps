@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMAPOIDrinkingWater",
+	"pools" : [
+		 ],
+	"super" : "SMAPOI",
+	"type" : "normal" }
