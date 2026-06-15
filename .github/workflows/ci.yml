@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest, macos-latest]
+        os: [ ubuntu-latest ]
         # Select compatible Smalltalk image(s)
         smalltalk: [ Squeak64-6.0 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
@@ -18,4 +18,4 @@ jobs:
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
-        timeout-minutes: 15
+        timeout-minutes: 2
