@@ -4,11 +4,13 @@
 		"forRoom:" : "Samuel Bis 6/4/2026 16:20" },
 	"instance" : {
 		"centerOfVertices" : "Samuel Bis 6/4/2026 15:34",
-		"containsOverlayPixel:" : "AS 6/8/2026 11:54",
+		"containsOverlayPixel:" : "Samuel Bis 6/14/2026 09:10",
 		"drawLabelOn:" : "AS 6/8/2026 11:57",
-		"drawOn:forMap:" : "Samuel Bis 6/4/2026 15:34",
+		"drawOn:forMap:" : "Samuel Bis 6/14/2026 08:57",
 		"fillColor" : "Samuel Bis 6/4/2026 15:33",
 		"fillColor:" : "Samuel Bis 6/4/2026 15:33",
+		"forBuilding:" : "Samuel Bis 6/14/2026 08:56",
+		"forRoom:" : "Samuel Bis 6/14/2026 09:10",
 		"geoPoints" : "Samuel Bis 6/4/2026 15:32",
 		"geoPoints:" : "Samuel Bis 6/4/2026 15:33",
 		"initialize" : "Samuel Bis 6/4/2026 15:32",
@@ -21,4 +23,6 @@
 		"outlineColor:" : "Samuel Bis 6/4/2026 15:33",
 		"outlineWidth" : "Samuel Bis 6/4/2026 15:33",
 		"outlineWidth:" : "Samuel Bis 6/4/2026 15:33",
+		"showsLabel" : "Samuel Bis 6/14/2026 08:57",
+		"showsLabel:" : "Samuel Bis 6/14/2026 08:57",
 		"updateVerticesForMap:" : "Samuel Bis 6/4/2026 15:34" } }
