@@ -11,4 +11,7 @@ initialize
 	buildingOverlays := OrderedCollection new.
 
 	visibleLevel := 0.
-	indoorOverlayMinZoom := 19
+	indoorOverlayMinZoom := 19.
+	hoveredBuildingOverlay := nil.
+	hoveredRoomOverlay := nil.
+	roomOverlayZoomWasActive := false

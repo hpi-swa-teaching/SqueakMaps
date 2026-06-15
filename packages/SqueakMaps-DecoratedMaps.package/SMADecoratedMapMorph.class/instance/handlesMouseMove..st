@@ -1,0 +1,4 @@
+accessing
+handlesMouseMove: anEvent
+
+	^ true
