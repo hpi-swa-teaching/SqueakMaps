@@ -16,6 +16,7 @@
 		"indoorOverlayMinZoom",
 		"onOverlayClickAction",
 		"hoveredRoomOverlay",
+		"hoveredBuildingOverlay",
 		"roomOverlayZoomWasActive" ],
 	"name" : "SMADecoratedMapMorph",
 	"pools" : [

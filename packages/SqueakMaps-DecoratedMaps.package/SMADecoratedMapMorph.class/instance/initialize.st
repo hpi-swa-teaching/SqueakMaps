@@ -11,4 +11,6 @@ initialize
 
 	visibleLevel := 0.
 	indoorOverlayMinZoom := 19.
-	hoveredRoomOverlay := nil
+	hoveredBuildingOverlay := nil.
+	hoveredRoomOverlay := nil.
+	roomOverlayZoomWasActive := false
