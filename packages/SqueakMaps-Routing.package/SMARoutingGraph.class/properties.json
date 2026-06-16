@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"vertices",
+		"adjacencyList",
+		"pointIDToVertexIndex" ],
+	"name" : "SMARoutingGraph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
