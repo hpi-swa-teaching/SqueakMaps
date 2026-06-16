@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"points",
+		"level" ],
+	"name" : "SMARoutingWay",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

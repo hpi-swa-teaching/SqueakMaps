@@ -1,6 +1,17 @@
 {
 	"class" : {
-		"fromOSMFile:" : "kong 6/16/2026 18:26" },
+		"extractPoints:" : "kong 6/16/2026 20:59",
+		"extractPoints:in:" : "kong 6/16/2026 22:05",
+		"extractWays:" : "kong 6/16/2026 21:26",
+		"extractWays:andFillNeededPoints:" : "kong 6/16/2026 22:02",
+		"fromOSMFile:" : "kong 6/16/2026 22:14",
+		"isHighway:" : "kong 6/16/2026 21:12",
+		"tagValueNamed:in:ifAbsent:" : "kong 6/16/2026 21:11" },
 	"instance" : {
+		"incidentEdgesOf:do:" : "kong 6/16/2026 21:51",
+		"neighbors:" : "kong 6/16/2026 21:40",
+		"size" : "kong 6/16/2026 22:07",
 		"vertexOfPoint:" : "kong 6/16/2026 18:15",
+		"vertexOfPointID:" : "kong 6/16/2026 21:28",
+		"vertices" : "kong 6/16/2026 22:15",
 		"withVertices:adjacencyList:andPointToVertexDict:" : "kong 6/16/2026 18:25" } }

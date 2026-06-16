@@ -11853,6 +11853,16 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'packages'
 			]
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tests',
+				'osm',
+				'singleWay.osm'
+			],
+			#encoding : 'TXT'
 		}
 	],
 	#name : 'SqueakMaps'

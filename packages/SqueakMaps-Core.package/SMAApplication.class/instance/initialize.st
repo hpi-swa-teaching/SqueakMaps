@@ -5,6 +5,7 @@ initialize
 	self 
 		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile:
 			(SMADecoratedMapMorph readStreamForOSMAssetNamed: 'assets/osm/hpi-k-campus-only.osm'));
+		routingGraph: (SMARoutingGraph fromOSMFile: (SMADecoratedMapMorph readStreamForOSMAssetNamed: 'assets/osm/hpi-k-campus-only.osm'));
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
 		currentView: #search;
