@@ -2,8 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultSeconds" : "JC 6/13/2026 12:42",
 		"formatTime" : "Helli 6/3/2026 14:05",
-		"initialize" : "JC 6/3/2026 16:40",
+		"initialize" : "JC 6/13/2026 12:55",
+		"onTimeout:" : "JC 6/13/2026 12:48",
+		"reset" : "JC 6/13/2026 12:46",
 		"start" : "JC 6/3/2026 16:33",
-		"step" : "JC 6/3/2026 16:35",
-		"stepTime" : "Helli 6/3/2026 12:00" } }
+		"step" : "JC 6/13/2026 12:52",
+		"stepTime" : "Helli 6/3/2026 12:00",
+		"stop" : "JC 6/13/2026 12:44",
+		"timeOut" : "JC 6/13/2026 12:50" } }

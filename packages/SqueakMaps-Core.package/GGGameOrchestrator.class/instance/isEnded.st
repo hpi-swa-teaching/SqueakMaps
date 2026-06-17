@@ -1,0 +1,4 @@
+testing
+isEnded
+
+	^ state = #ended

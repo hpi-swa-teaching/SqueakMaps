@@ -26,9 +26,12 @@
 		"smallFrame",
 		"bigContainer",
 		"smallContainer",
+		"bigFrame",
 		"pictureStartFrame",
 		"mapStartFrame",
-		"gameContainer" ],
+		"gameContainer",
+		"gameOrchestrator",
+		"infoMorph" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],

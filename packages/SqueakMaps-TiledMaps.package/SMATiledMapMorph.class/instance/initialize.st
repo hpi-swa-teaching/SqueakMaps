@@ -4,7 +4,7 @@ initialize
 	super initialize.
 
 	tileLoader := SMAMapTileLoader new.
-	tileSource := SMAOpenStreetMapTileSource new.
+	tileSource := SMAMapTileSourceCombination new.
 	self tileSize: self tileSource tileSize.
 
 	center := 0.5364687276112747 @ 0.3285305068851402.

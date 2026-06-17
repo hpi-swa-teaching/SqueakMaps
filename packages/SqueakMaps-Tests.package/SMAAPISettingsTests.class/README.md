@@ -1,0 +1,1 @@
+SMAAPITests provides tests for the API testing

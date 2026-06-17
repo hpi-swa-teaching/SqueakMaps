@@ -1,7 +1,9 @@
-event handling
+accessing
 click: anEvent
 
 	| overlay |
+
+	(self handleLevelSelectorClick: anEvent cursorPoint) ifTrue: [^ self].
 
 	overlay := self overlayAtPixel: anEvent cursorPoint.
 	overlay ifNotNil: [
