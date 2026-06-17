@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"extractPoints:" : "kong 6/16/2026 20:59",
 		"extractPoints:in:" : "kong 6/16/2026 22:05",
-		"extractWays:" : "kong 6/16/2026 21:26",
-		"extractWays:andFillNeededPoints:" : "kong 6/16/2026 22:02",
-		"fromOSMFile:" : "kong 6/16/2026 22:14",
+		"extractWays:andFillNeededPoints:" : "kong 6/17/2026 12:17",
+		"fromOSMFile:" : "kong 6/17/2026 12:16",
 		"isHighway:" : "kong 6/16/2026 21:12",
 		"tagValueNamed:in:ifAbsent:" : "kong 6/16/2026 21:11" },
 	"instance" : {

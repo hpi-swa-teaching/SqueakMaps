@@ -22,7 +22,7 @@ fromOSMFile: aReadStream
 			edge := SMARoutingGraphEdge new
 				u: u;
 				v: v;
-				level: way level.
+				levels: way levels.
 			(adjacencyList at: u) add: edge.
 			(adjacencyList at: v) add: edge.
 			]].

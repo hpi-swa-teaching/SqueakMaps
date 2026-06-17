@@ -7,7 +7,7 @@ extractWays: anXMLRoot andFillNeededPoints: aDictionary
 	anXMLRoot tagsNamed: #way do: [:w |
 		(self isHighway: w) ifTrue: [
 			way := SMARoutingWay new.
-			way level: (self tagValueNamed: 'level' in: w ifAbsent: [nil]).
+			way levels: (self tagValueNamed: 'level' in: w ifAbsent: [nil]).
 			w tagsNamed: #nd do: [:nd | | pointId |
 				pointId := (nd attributeAt: #ref) asInteger.
 				way points add: pointId.
