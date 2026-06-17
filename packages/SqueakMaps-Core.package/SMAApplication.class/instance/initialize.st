@@ -9,7 +9,8 @@ initialize
 		navigator: SMANavigator new;
 		currentView: #search;
 		bingApi: SMABingMapsApi new;
-		thunderforestMapsApi: SMAThunderforestMapsApi new.
+		thunderforestMapsApi: SMAThunderforestMapsApi new;
+		mensaMenuAPI: SMAOpenMensaMenuAPI new.
 
 	self tiledMapMorph onDoubleClickAction: [:aPoint | 
 		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)].

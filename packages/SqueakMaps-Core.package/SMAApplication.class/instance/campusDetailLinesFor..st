@@ -8,6 +8,7 @@ campusDetailLinesFor: aCampusDetailTarget
 		ifTrue: [lines add: 'Gebäudetyp' -> aCampusDetailTarget buildingType].
 	(aCampusDetailTarget respondsTo: #level)
 		ifTrue: [lines add: 'Etage' -> aCampusDetailTarget level].
+	lines addAll: (self campusDetailMensaLinesFor: aCampusDetailTarget).
 
 	^ lines reject: [:line |
 		line value isNil or: [line value asString isEmpty]]

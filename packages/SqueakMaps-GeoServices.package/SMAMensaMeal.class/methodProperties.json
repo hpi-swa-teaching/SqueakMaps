@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"category" : "AS 6/11/2026 09:58",
+		"category:" : "AS 6/11/2026 10:01",
+		"employeePrice" : "AS 6/11/2026 10:08",
+		"formattedPrice:" : "AS 6/16/2026 21:35",
+		"hasNotes" : "AS 6/11/2026 10:12",
+		"id" : "AS 6/11/2026 10:15",
+		"id:" : "AS 6/11/2026 10:18",
+		"name" : "AS 6/11/2026 10:22",
+		"name:" : "AS 6/11/2026 10:25",
+		"notes" : "AS 6/11/2026 10:29",
+		"notes:" : "AS 6/11/2026 10:32",
+		"notesText" : "AS 6/11/2026 10:36",
+		"otherPrice" : "AS 6/11/2026 10:39",
+		"priceAt:" : "AS 6/11/2026 10:42",
+		"prices" : "AS 6/11/2026 10:46",
+		"prices:" : "AS 6/11/2026 10:49",
+		"studentPrice" : "AS 6/11/2026 10:53" } }

@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"name",
+		"category",
+		"notes",
+		"prices" ],
+	"name" : "SMAMensaMeal",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -9,8 +9,7 @@ drawOn: aCanvas forMap: aMapMorph
 	
 	pixelPos := aMapMorph worldPosToPixelPos: worldPos.
 	
-	aMapMorph zoom >= 19 ifTrue: [
-		(self levels = aMapMorph visibleLevel or: [self levels includes: aMapMorph visibleLevel]) ifTrue: [
-			aCanvas
-				drawImage: (self image scaledToSize: 32)
-				at: pixelPos - (32 / 2)]]
+	(self shouldDrawOn: aMapMorph) ifTrue: [
+		aCanvas
+			drawImage: (self image scaledToSize: 32)
+			at: pixelPos - (32 / 2)]

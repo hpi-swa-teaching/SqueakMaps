@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"emptyForDate:message:" : "AS 6/16/2026 21:35",
+		"unavailableForDate:" : "AS 6/16/2026 21:35" },
+	"instance" : {
+		"date" : "AS 6/11/2026 11:00",
+		"date:" : "AS 6/11/2026 11:04",
+		"emptyMessage" : "AS 6/11/2026 11:07",
+		"emptyMessage:" : "AS 6/11/2026 11:11",
+		"hasMeals" : "AS 6/11/2026 11:14",
+		"meals" : "AS 6/11/2026 11:18",
+		"meals:" : "AS 6/11/2026 11:21" } }
