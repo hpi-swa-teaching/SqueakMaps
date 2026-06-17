@@ -19,7 +19,9 @@
 		"mapConfigurator",
 		"bingApi",
 		"thunderforestMapsApi",
-		"remainingSeconds" ],
+		"remainingSeconds",
+		"selectedCampusDetailTarget",
+		"mensaMenuAPI" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

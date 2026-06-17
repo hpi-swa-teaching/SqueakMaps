@@ -1,0 +1,4 @@
+zooming
+zoomMax
+
+	^ 20

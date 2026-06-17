@@ -2,9 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"poiOSMFile" : "kong 6/10/2026 21:24",
 		"singleRoomOSMFile" : "kong 6/2/2026 14:57",
+		"testClosingCampusDetailPanelClearsTarget" : "AS 6/8/2026 11:09",
 		"testDecoratedMapConstructionOfOneRoom" : "kong 6/2/2026 16:41",
+		"testDecoratedMapConstructionOfPOIs" : "kong 6/11/2026 16:25",
 		"testDecoratedMapCreatesBuildingOverlay" : "Samuel Bis 6/4/2026 17:23",
 		"testDecoratedMapCreatesRoomOverlay" : "Samuel Bis 6/4/2026 17:21",
 		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
-		"testParsingXMLGitAsset" : "kong 6/1/2026 21:56" } }
+		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23",
+		"testSelectingBuildingSetsCampusDetailTarget" : "AS 6/8/2026 11:12",
+		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15" } }

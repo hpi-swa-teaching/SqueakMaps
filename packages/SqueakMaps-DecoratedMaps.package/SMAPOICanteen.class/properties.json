@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"detailTitle",
+		"detailType",
+		"openMensaCanteenId" ],
+	"name" : "SMAPOICanteen",
+	"pools" : [
+		 ],
+	"super" : "SMAPOI",
+	"type" : "normal" }
