@@ -1,4 +1,7 @@
 as yet unclassified
 contentStream
 
-	^ ((GitAssetLoader for: 'SqueakMaps') loadAssetFile: path) contents readStream
+	| asset |
+	asset := (GitAssetLoader for: 'SqueakMaps') loadAssetFile: path.
+	asset ifNil: [^ nil].
+	^ asset contents readStream

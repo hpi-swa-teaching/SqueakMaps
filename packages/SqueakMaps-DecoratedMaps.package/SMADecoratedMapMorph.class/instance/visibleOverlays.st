@@ -1,7 +1,12 @@
 accessing
 visibleOverlays
 
-	self shouldDrawRoomOverlays
-		ifTrue: [^ self roomOverlaysForVisibleLevel].
+	| visible |
+	self updateRoomOverlayZoomState.
 
-	^ self buildingOverlays
+	self shouldDrawRoomOverlays ifFalse: [^ self buildingOverlays].
+
+	visible := OrderedCollection new.
+	visible addAll: self buildingOverlaysWithoutRoomsForVisibleLevel.
+	visible addAll: self roomOverlaysForVisibleLevel.
+	^ visible
