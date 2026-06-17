@@ -60,7 +60,7 @@ Search for a location by typing its name in the field in the top left corner.
 ## Pins & Categories
 
 **Manage Categories:**\
-On the left side of the Application the white box shows your pin-categories. If you did not assign a category to a pin, the pin appears in *Uncategorized*. Below the list of your categories you have the option to <u>*Add Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>.
+On the left side of the Application the white box shows your pin-categories. If you did not assign a category to a pin, the pin appears in *Uncategorized*. Below the list of your categories you have the option to <u>*Add Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u> by clicking the <u>*Manage Category*</u> button. (Currently, two categories can have the same name — choose wisely)
 When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.
 You can not rename or remove the *Uncategorized* category
 
@@ -96,12 +96,28 @@ TO ROUTE:
 * Then click on <u>*Directions*</u>
 * A new interface opens that allows you to specify your route. 
 * You can select a preferred *mode of transportation* (walk, bike, car). 
-* Further, you can add and remove the Hops of your Route. Below the <u>*Add Hop*</u> and <u>*Remove Hop*</u> buttons you see a list of all the added Hops (that define your route).\
+* Further, you can add and remove the Hops of your Route.  You see a list of all the added Hops in the white window. The order of the Hops in this white window represents the order of your route. If you only chose two Hops, the first one will be the Start and the second one the Destination of your Route.
+ 
 <u>*Add Hop*</u>: Type the name of your hop/location in the *Add Hop* field and click on this button to add the Hop to the list.\
 <u>*Remove Hop*</u>: First click on the Hop in the list and then click on this button to remove the selected Hop.\
-If you only choose two Hops, the first one will be the Start and the second one the Destination of your Route.\
---> click <u>*Go*</u> to route
-* By adding more than two Hops you can add intermediary stops to the route. These stops will appear in the list in the order you add them. However, by using the <u>*U*</u> and <u>*D*</u> buttons, or by drag-and-drop you can reorder the Hops. Clicking on <u>*Go*</u> will give you the respective routing of that list, but for an optimal route you should click on <u>*Find optimal Route*</u>. 
+
+* To reorder the route use drag'n'drop
+* You can only configure routes that are reasonably reachable by car, bike or by walking. If two hops are too far apart, the application will inform you via a pop-up window (after you clicked on <u>*Go*</u>).
+* above the white window you see the length and time of your route
+
+--> click <u>*Go*</u> to route the exact routing that the list shows\
+--> click <u>*Find optimal Route*</u> to get the optimal (shortest) route that covers all your hops (note: the original order of your hosp in the white window does not change)\
+
+* The route will appear on the map. Each section of the route has a different color allowing you to better distinguish them.
+
+TO SAVE ROUTES:
+* To save a route you first have to configure the route, then click on <u>*Go*</u> / <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button.
+* To manage your saved routes click on <u>*Saved Routes*</u>. Here you have the option to *show*, *rename* or *remove* a route.
+
+TO EXPORT ROUTES:
+* By clicking on the <u>*Export*</u> button you can export the route and save it in *.gpx* format on your device.
+
+TO EXIT THE ROUTE INTERFACE:
 * To close the routing interface, click on the <u>*x*</u> (close) button in the upper right corner of the left sidebar.
 
 ![SqueakMaps Routing GUI][img-route]
