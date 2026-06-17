@@ -8,7 +8,8 @@
 	"instvars" : [
 		"ref",
 		"points",
-		"level" ],
+		"level",
+		"poiIds" ],
 	"name" : "SMARoom",
 	"pools" : [
 		 ],
