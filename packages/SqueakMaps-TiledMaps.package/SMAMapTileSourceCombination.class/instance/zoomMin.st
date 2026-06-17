@@ -1,4 +1,0 @@
-zooming
-zoomMin
-
-	^ 0

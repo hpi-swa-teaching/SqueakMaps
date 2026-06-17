@@ -1,4 +1,0 @@
-building
-campusDetailMaximumLineLength
-
-	^ 38

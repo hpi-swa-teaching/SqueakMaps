@@ -3,8 +3,3 @@ initialize
 
 	super initialize.
 	self color: Color gray.
-	picture := ImageMorph new.
-	loader := AssetLoader new. 
-	bild := loader getImage:  '/osm/TestPicture.png'.
-	picture newForm: bild.
-	self addMorph: picture. 

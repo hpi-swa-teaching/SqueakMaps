@@ -1,4 +1,0 @@
-accessing
-detailType
-
-	^ 'Gebäude'
