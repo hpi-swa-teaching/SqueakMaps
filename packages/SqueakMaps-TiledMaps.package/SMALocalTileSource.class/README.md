@@ -1,1 +1,0 @@
-A SMAOpenMapsTileSource allows to build the OpenStreetMaps-URL for a given position.

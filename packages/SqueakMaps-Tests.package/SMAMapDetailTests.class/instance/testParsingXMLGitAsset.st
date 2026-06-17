@@ -8,4 +8,4 @@ testParsingXMLGitAsset
 	root := xmldoc root.
 	numPoints := 0.
 	root tagsNamed: #node do: [:p | (p attributeAt: #id) asNumber < 0 ifTrue: [numPoints := numPoints + 1]].
-	self assert: 8 equals: numPoints
+	self assert: numPoints equals: 8

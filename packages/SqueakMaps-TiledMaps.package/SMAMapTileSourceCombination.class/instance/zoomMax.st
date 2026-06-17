@@ -1,4 +1,0 @@
-zooming
-zoomMax
-
-	^ 20

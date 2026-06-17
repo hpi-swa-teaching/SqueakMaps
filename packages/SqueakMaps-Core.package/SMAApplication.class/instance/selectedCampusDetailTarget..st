@@ -1,4 +1,0 @@
-accessing
-selectedCampusDetailTarget: aCampusDetailTarget
-
-	selectedCampusDetailTarget := aCampusDetailTarget

@@ -9,10 +9,7 @@
 		"remainingSeconds",
 		"label",
 		"running",
-		"gameHandler",
-		"picture",
-		"loader",
-		"bild" ],
+		"gameHandler" ],
 	"name" : "PictureMorph",
 	"pools" : [
 		 ],

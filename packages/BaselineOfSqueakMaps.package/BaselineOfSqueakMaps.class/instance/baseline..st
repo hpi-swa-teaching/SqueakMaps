@@ -20,10 +20,10 @@ baseline: spec
 					
 			spec
 				package: 'SqueakMaps-TiledMaps';
-				package: 'SqueakMaps-DecoratedMaps' with: [spec requires: #('SqueakMaps-TiledMaps' 'GitS')];
+				package: 'SqueakMaps-DecoratedMaps' with: [spec requires: #('SqueakMaps-TiledMaps')];
 				package: 'SqueakMaps-Core' with: [spec requires: #('JSON' 'SqueakMaps-DecoratedMaps' 'MorphicTestingFramework' 'GitS')];
 				package: 'SqueakMaps-GeoServices' with: [spec requires: #('SqueakMaps-Core' 'JSON')];
-				package: 'SqueakMaps-Tests' with: [spec requires: #('default' 'GitS')];
+				package: 'SqueakMaps-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
 				group: 'default' with: #('SqueakMaps-Core' 'SqueakMaps-GeoServices');

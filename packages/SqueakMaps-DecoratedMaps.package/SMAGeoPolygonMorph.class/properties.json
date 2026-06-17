@@ -11,8 +11,7 @@
 		"model",
 		"fillColor",
 		"outlineColor",
-		"outlineWidth",
-		"showsLabel" ],
+		"outlineWidth" ],
 	"name" : "SMAGeoPolygonMorph",
 	"pools" : [
 		 ],
