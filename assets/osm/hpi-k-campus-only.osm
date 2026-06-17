@@ -1799,6 +1799,7 @@
     <tag k="level" v="0" />
     <tag k="name" v="Teeküche" />
     <tag k="ref" v="K-E.01" />
+    <tag k='poi_ids' v='-35546' />
   </way>
   <way id="-943" action="modify">
     <nd ref="-27895" />
@@ -1931,6 +1932,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="0" />
     <tag k="ref" v="K-E.15" />
+    <tag k='poi_ids' v='-35562' />
   </way>
   <way id="-1475" action="modify">
     <nd ref="-26644" />
@@ -2079,6 +2081,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="0" />
     <tag k="ref" v="K-E.32" />
+    <tag k='poi_ids' v='-35345' />
   </way>
   <way id="-2321" action="modify">
     <nd ref="-27895" />
@@ -2233,6 +2236,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="1" />
     <tag k="ref" v="K-1.32" />
+    <tag k='poi_ids' v='-35386' />
   </way>
   <way id="-2788" action="modify">
     <nd ref="-28441" />
@@ -2279,6 +2283,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="1" />
     <tag k="ref" v="K-1.15" />
+    <tag k='poi_ids' v='-35648' />
   </way>
   <way id="-2814" action="modify">
     <nd ref="-28482" />
@@ -2426,6 +2431,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="2" />
     <tag k="ref" v="K-2.15" />
+    <tag k='poi_ids' v='-35667' />
   </way>
   <way id="-4586" action="modify">
     <nd ref="-30387" />
@@ -2514,6 +2520,7 @@
     <tag k="indoor" v="room" />
     <tag k="level" v="2" />
     <tag k="ref" v="K-2.32" />
+    <tag k='poi_ids' v='-35403' />
   </way>
   <way id="-4597" action="modify">
     <nd ref="-30428" />
@@ -3115,6 +3122,7 @@
     <tag k="type" v="building" />
     <tag k="website" v="https://hpi.de" />
     <tag k="wheelchair" v="yes" />
+    <tag k='poi_ids' v='-35268;-35304;-35328;-35345;-35386;-35403;-35546;-35562;-35648;-35667' />
   </way>
   <way id="23133702" timestamp="2025-02-10T16:19:07Z" uid="20888446" user="osm-bd9c0c" version="21" changeset="162357792">
     <nd ref="249783208" />

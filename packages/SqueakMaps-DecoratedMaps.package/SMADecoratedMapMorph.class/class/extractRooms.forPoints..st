@@ -11,6 +11,7 @@ extractRooms: anXMLRoot forPoints: aDictOfPoints
 				room := SMARoom new
 					ref: (self tagValueNamed: 'ref' in: w ifAbsent: ['']);
 					level: ((self tagValueNamed: 'level' in: w ifAbsent: ['0']) asNumber);
+					poiIds: (self extractPOIIdsFrom: w);
 					points: OrderedCollection new.
 
 				w tagsNamed: #nd do: [:nd |
