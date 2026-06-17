@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self color: Color gray.
+	self color: Color transparent.
 	self clipSubmorphs: true.
 	coverMode := true.
 	
