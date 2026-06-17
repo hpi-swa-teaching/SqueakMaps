@@ -13,47 +13,407 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'SqueakMaps-Core'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-Tests'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
 				#name : 'SqueakMaps-GeoServices'
 			},
 			#path : FSAbsolutePath [
 				'packages'
 			]
 		},
-		GSPlaintextMapper {
+		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
-				'osm',
-				'test.osm'
+				'tiles',
+				'20',
+				'562529',
+				'344479.png'
 			],
-			#encoding : 'TXT'
+			#encoding : @5
 		},
-		GSCypressMapper {
+		GSImageMapper {
 			#version : 1,
-			#package : MCPackage {
-				#name : 'BaselineOfSqueakMaps'
-			},
 			#path : FSAbsolutePath [
-				'packages'
-			]
+				'assets',
+				'tiles',
+				'20',
+				'562511',
+				'344490.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562518',
+				'344480.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562545',
+				'344478.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562535',
+				'344489.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562525',
+				'344497.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562510',
+				'344481.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562549',
+				'344495.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562519',
+				'344491.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562508',
+				'344479.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562548',
+				'344500.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562538',
+				'344481.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562526',
+				'344483.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562550',
+				'344498.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562535',
+				'344498.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562510',
+				'344494.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562524',
+				'344479.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562510',
+				'344478.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562549',
+				'344497.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562544',
+				'344485.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562530',
+				'344490.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562507',
+				'344489.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562543',
+				'344478.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562542',
+				'344489.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562512',
+				'344491.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562526',
+				'344489.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562522',
+				'344482.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562520',
+				'344481.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562520',
+				'344484.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562509',
+				'344495.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562508',
+				'344487.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562526',
+				'344491.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562550',
+				'344493.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562520',
+				'344486.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562534',
+				'344484.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tiles',
+				'20',
+				'562522',
+				'344489.png'
+			],
+			#encoding : @5
 		},
 		GSPlaintextMapper {
 			#version : 1,
@@ -84,12 +444,14 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#package : MCPackage {
-				#name : 'SqueakMaps-DecoratedMaps'
-			},
 			#path : FSAbsolutePath [
-				'packages'
-			]
+				'assets',
+				'tiles',
+				'20',
+				'562549',
+				'344489.png'
+			],
+			#encoding : @5
 		},
 		GSImageMapper {
 			#version : 1,
@@ -100,7 +462,7 @@ GSMetadata {
 				'562507',
 				'344481.png'
 			],
-			#encoding : Class [ #PNGReadWriter ]
+			#encoding : @5
 		},
 		GSImageMapper {
 			#version : 1,

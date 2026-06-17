@@ -1,0 +1,4 @@
+scoring
+scoreWeight
+
+	^ 1

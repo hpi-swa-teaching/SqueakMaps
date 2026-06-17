@@ -1,0 +1,4 @@
+testing
+hasFloor
+
+	^ floor notNil

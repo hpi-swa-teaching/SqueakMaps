@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/13/2026 11:30",
+	"instvars" : [
+		"state",
+		"levelManager",
+		"currentLevel",
+		"roundResults",
+		"totalScore" ],
+	"name" : "GGGameOrchestrator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

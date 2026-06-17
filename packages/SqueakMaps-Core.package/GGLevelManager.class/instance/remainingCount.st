@@ -1,0 +1,4 @@
+accessing
+remainingCount
+
+	^ remainingLevels size
