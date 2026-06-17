@@ -1,3 +1,4 @@
 accessing
 apiKey
-	^ ApiKey ifNil: [ApiKey := '' asString]
+
+	^ (ApiKey isNil or: [ApiKey isEmpty]) ifTrue: ['Empty key has annoying response'] ifFalse: [ApiKey]

@@ -1,10 +1,14 @@
 guessing
 swapViews
 
-	| temp |
-	temp := pictureMorph layoutFrame.
-	pictureMorph layoutFrame: tiledMapMorph layoutFrame.
-	tiledMapMorph layoutFrame: temp.
-	self layoutChanged.
-	mapIsLarge := mapIsLarge not.
-	mapIsLarge ifTrue: [pictureMorph comeToFront] ifFalse: [tiledMapMorph comeToFront]
+	mapIsLarge
+		ifTrue: [
+			self
+				addMorph: pictureMorph frame: largeFrame;
+				addMorph: tiledMapMorph frame: smallFrame]
+		ifFalse: [
+			self
+				addMorph: tiledMapMorph frame: largeFrame;
+				addMorph: pictureMorph frame: smallFrame].
+	
+	mapIsLarge := mapIsLarge not
