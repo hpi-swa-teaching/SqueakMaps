@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"advanceRound" : "JC 6/13/2026 12:05",
+		"buildResultFor:" : "JC 6/13/2026 12:00",
+		"currentLevel" : "JC 6/13/2026 12:12",
+		"currentRoundNumber" : "JC 6/13/2026 12:20",
+		"initialize" : "JC 6/13/2026 11:33",
+		"isEnded" : "JC 6/13/2026 11:48",
+		"isEvaluating" : "JC 6/13/2026 11:46",
+		"isPlaying" : "JC 6/13/2026 11:44",
+		"isStart" : "JC 6/13/2026 11:42",
+		"lastResult" : "JC 6/13/2026 12:18",
+		"levelManager" : "JC 6/13/2026 12:14",
+		"maxRoundScore" : "JC 6/13/2026 11:54",
+		"maxScoringDistance" : "JC 6/13/2026 11:55",
+		"reset" : "JC 6/13/2026 11:36",
+		"roundResults" : "JC 6/13/2026 12:16",
+		"scoreForDistance:weight:" : "JC 6/13/2026 11:58",
+		"startGame" : "JC 6/13/2026 11:50",
+		"submitGuess:" : "JC 6/13/2026 12:02",
+		"totalRounds" : "JC 6/13/2026 12:22",
+		"totalScore" : "JC 6/13/2026 12:10" } }

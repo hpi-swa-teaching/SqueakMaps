@@ -8,5 +8,7 @@ initialize
 		initializeMorphsAndButtons;
 		focusCampus;
 		initializeGuessing;
+		initializeGame;
 		initializeWindow;
+		refreshForState;
 		openInWorld

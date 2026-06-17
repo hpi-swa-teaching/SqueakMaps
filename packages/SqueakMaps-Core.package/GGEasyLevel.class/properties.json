@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/13/2026 10:38",
+	"instvars" : [
+		 ],
+	"name" : "GGEasyLevel",
+	"pools" : [
+		 ],
+	"super" : "GGLevel",
+	"type" : "normal" }

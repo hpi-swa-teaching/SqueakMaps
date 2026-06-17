@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/13/2026 10:48",
+	"instvars" : [
+		"level",
+		"guess",
+		"distanceInMeters",
+		"score" ],
+	"name" : "GGRoundResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

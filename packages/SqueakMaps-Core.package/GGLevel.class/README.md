@@ -1,0 +1,1 @@
+A GGLevel is one GeoGuessr round target: an image (imagePath), its real-world coordinates and an optional floor. Difficulty subclasses (GGEasyLevel/GGMediumLevel/GGHardLevel) differ only in scoreWeight.
