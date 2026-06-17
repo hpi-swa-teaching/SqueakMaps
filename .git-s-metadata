@@ -3591,6 +3591,14 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
+				'geoguesser_start_screen.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
 				'tiles',
 				'20',
 				'562511',

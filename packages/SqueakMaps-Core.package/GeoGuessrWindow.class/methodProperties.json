@@ -9,7 +9,7 @@
 		"thunderforestMapsApiKey" : "RS 6/20/2020 17:21",
 		"thunderforestMapsApiKey:" : "RS 5/27/2020 09:33" },
 	"instance" : {
-		"applyFrame:to:" : "DC 6/12/2026 10:38",
+		"applyFrame:to:" : "DC 6/17/2026 17:57",
 		"applyUserInterfaceTheme" : "RS 6/14/2020 12:17",
 		"buildEinloggenButton" : "JC 6/13/2026 13:10",
 		"buildInfoMorph" : "JC 6/13/2026 13:08",
@@ -38,7 +38,7 @@
 		"initializeGame" : "JC 6/13/2026 13:06",
 		"initializeGuessing" : "DC 6/12/2026 11:26",
 		"initializeMorphsAndButtons" : "JC 6/13/2026 13:07",
-		"initializeWindow" : "DC 6/12/2026 10:41",
+		"initializeWindow" : "DC 6/17/2026 17:57",
 		"mapClicked:" : "Helli 6/10/2026 10:47",
 		"mapConfigurator" : "JC 6/3/2026 19:50",
 		"mapConfigurator:" : "JC 6/3/2026 19:52",
