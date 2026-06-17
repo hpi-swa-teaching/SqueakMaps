@@ -2,7 +2,7 @@
 	"class" : {
 		"extractPoints:in:" : "kong 6/16/2026 22:05",
 		"extractWays:andFillNeededPoints:" : "kong 6/17/2026 12:17",
-		"fromOSMFile:" : "kong 6/17/2026 12:16",
+		"fromOSMFile:" : "kong 6/17/2026 22:36",
 		"isHighway:" : "kong 6/16/2026 21:12",
 		"tagValueNamed:in:ifAbsent:" : "kong 6/16/2026 21:11" },
 	"instance" : {

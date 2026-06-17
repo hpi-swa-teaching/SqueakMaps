@@ -8,7 +8,8 @@
 	"instvars" : [
 		"u",
 		"v",
-		"levels" ],
+		"levels",
+		"length" ],
 	"name" : "SMARoutingGraphEdge",
 	"pools" : [
 		 ],

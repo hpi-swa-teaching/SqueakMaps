@@ -17,4 +17,8 @@ testConstructionOfGraph
 	{-34267. -30168. -35447. -30173. -34274} do: [:id | self assert: (graph vertexOfPointID: id) ~= nil].
 	self assert: {2. 4} asOrderedCollection equals: (graph neighbors: 3).
 	self assert: {4} asOrderedCollection equals: (graph neighbors: 5).
-	self assert: (points at: -30168) equals: (graph vertices at: 2)
+	self assert: (points at: -30168) equals: (graph vertices at: 2).
+	
+	graph incidentEdgesOf: 3 do: [:e |
+		self assert: e length < 20.
+		self assert: e length > 0.5]

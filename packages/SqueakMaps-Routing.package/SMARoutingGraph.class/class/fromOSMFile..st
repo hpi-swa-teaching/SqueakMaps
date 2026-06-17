@@ -8,7 +8,6 @@ fromOSMFile: aReadStream
 	points := Dictionary new.
 	ways := self extractWays: root andFillNeededPoints: points.
 	self extractPoints: root in: points.
-
 	
 	vertices := Array new: points size.
 	adjacencyList := Array new: points size.
@@ -22,12 +21,11 @@ fromOSMFile: aReadStream
 			edge := SMARoutingGraphEdge new
 				u: u;
 				v: v;
-				levels: way levels.
+				levels: way levels;
+				length: ((points at: id1) distanceTo: (points at: id2)).
 			(adjacencyList at: u) add: edge.
-			(adjacencyList at: v) add: edge.
-			]].
+			(adjacencyList at: v) add: edge]].
 	
-	pointIDToVertex associationsDo: [:a |
-		vertices at: a value put: (points at: a key)].
+	pointIDToVertex associationsDo: [:a | vertices at: a value put: (points at: a key)].
 	
 	^ self new withVertices: vertices adjacencyList: adjacencyList andPointToVertexDict: pointIDToVertex
