@@ -1,4 +1,4 @@
 building
 buildInfoMorph
 
-	self infoMorph: (StringMorph contents: 'Drücke Start, um zu spielen')
+	self infoMorph: (StringMorph contents: 'Press button to start!')

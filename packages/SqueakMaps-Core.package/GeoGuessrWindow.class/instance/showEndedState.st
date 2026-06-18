@@ -3,5 +3,6 @@ showEndedState
 
 	self roundActive: false.
 	self timerMorph stop.
-	self infoMorph contents: 'Spiel beendet · Gesamtpunkte: ', gameOrchestrator totalScore asString.
+	self infoMorph contents: 'Game ended!'.
+	self infoMorph2 contents: 'Total points: ', gameOrchestrator totalScore asString.
 	self refreshControls

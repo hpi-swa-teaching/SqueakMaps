@@ -1,5 +1,5 @@
 game flow
 showStartControls
 
-	self startButton label: 'Spiel starten'; visible: true.
+	self startButton label: 'Start game'; visible: true.
 	self einloggenButton visible: false

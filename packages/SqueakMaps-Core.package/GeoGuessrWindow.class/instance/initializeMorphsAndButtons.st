@@ -7,4 +7,5 @@ initializeMorphsAndButtons
 		timerMorph: TimerMorph new;
 		buildStartButton;
 		buildEinloggenButton;
-		buildInfoMorph
+		buildInfoMorph;
+		buildInfoMorph2

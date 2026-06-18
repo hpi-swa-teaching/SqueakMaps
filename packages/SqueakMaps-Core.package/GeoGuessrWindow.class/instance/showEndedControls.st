@@ -1,5 +1,5 @@
 game flow
 showEndedControls
 
-	self startButton label: 'Neues Spiel'; visible: true.
+	self startButton label: 'Next game'; visible: true.
 	self einloggenButton visible: false
