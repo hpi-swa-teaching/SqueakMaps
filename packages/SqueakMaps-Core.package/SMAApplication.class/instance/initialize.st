@@ -14,6 +14,7 @@ initialize
 		currentView: #directions;
 		bingApi: SMABingMapsApi new;
 		thunderforestMapsApi: SMAThunderforestMapsApi new;
+		mensaMenuAPI: SMAOpenMensaMenuAPI new;
 		startRouteSelectionIndex: 0;
 		destinationRouteSelectionIndex: 0.
 

@@ -4,6 +4,6 @@ buildCampusDetailPanel: aBuilder
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: #buildCampusDetailPanelChildren;
-		layout: #vertical;
-		frame: (0 @ 0.66 corner: 1 @ 1);
+		layout: #proportional;
+		frame: self campusDetailPanelFrame;
 		yourself

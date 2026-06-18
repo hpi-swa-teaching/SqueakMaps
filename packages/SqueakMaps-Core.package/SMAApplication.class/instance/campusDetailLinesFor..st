@@ -8,6 +8,7 @@ campusDetailLinesFor: aCampusDetailTarget
 		ifTrue: [lines add: 'Gebäudetyp' -> aCampusDetailTarget buildingType].
 	(aCampusDetailTarget respondsTo: #level)
 		ifTrue: [lines add: 'Etage' -> aCampusDetailTarget level].
+	lines addAll: (self campusDetailMensaLinesFor: aCampusDetailTarget).
 
 	poiLine := self campusDetailPOILineFor: aCampusDetailTarget.
 	poiLine ifNotNil: [lines add: poiLine].

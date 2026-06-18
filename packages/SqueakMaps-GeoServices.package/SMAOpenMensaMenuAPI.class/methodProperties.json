@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseUrl" : "AS 6/11/2026 11:33",
+		"canteenId" : "AS 6/11/2026 11:36",
+		"canteenId:" : "AS 6/16/2026 16:30",
+		"contentSource" : "AS 6/11/2026 11:40",
+		"contentSource:" : "AS 6/11/2026 11:44",
+		"dateStringFor:" : "AS 6/16/2026 21:35",
+		"initialize" : "AS 6/11/2026 11:52",
+		"mealFromJson:" : "AS 6/11/2026 11:56",
+		"mealsFromJson:" : "AS 6/16/2026 21:35",
+		"mealsUrlForDate:" : "AS 6/16/2026 16:36",
+		"mealsUrlForDate:canteenId:" : "AS 6/16/2026 16:30",
+		"menuForDate:" : "AS 6/16/2026 16:36",
+		"menuForDate:canteenId:" : "AS 6/17/2026 09:05",
+		"menuFromJson:date:" : "AS 6/17/2026 09:40" } }

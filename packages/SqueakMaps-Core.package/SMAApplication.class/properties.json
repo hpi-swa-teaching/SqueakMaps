@@ -21,6 +21,7 @@
 		"thunderforestMapsApi",
 		"remainingSeconds",
 		"selectedCampusDetailTarget",
+		"mensaMenuAPI",
 		"destinationRouteSelectionIndex",
 		"routingGraph",
 		"startRouteSelectionIndex" ],

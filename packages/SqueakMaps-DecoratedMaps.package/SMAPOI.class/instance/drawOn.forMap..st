@@ -11,13 +11,12 @@ drawOn: aCanvas forMap: aMapMorph
 	markerSize := 38.
 	markerColor := Color r: 247 / 255 g: 187 / 255 b: 61 / 255.
 
-	aMapMorph zoom >= 19 ifTrue: [
-		(self levels isEmpty or: [self levels includes: aMapMorph visibleLevel]) ifTrue: [
-			aCanvas
-				fillOval: (Rectangle center: pixelPos extent: markerSize @ markerSize)
-				color: (Color white alpha: 0.85)
-				borderWidth: 3
-				borderColor: markerColor.
-			aCanvas
-				drawImage: (self image scaledToSize: iconSize)
-				at: pixelPos - (iconSize / 2)]]
+	(self shouldDrawOn: aMapMorph) ifTrue: [
+		aCanvas
+			fillOval: (Rectangle center: pixelPos extent: markerSize @ markerSize)
+			color: (Color white alpha: 0.85)
+			borderWidth: 3
+			borderColor: markerColor.
+		aCanvas
+			drawImage: (self image scaledToSize: iconSize)
+			at: pixelPos - (iconSize / 2)]

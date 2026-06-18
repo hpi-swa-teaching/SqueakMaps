@@ -1,0 +1,4 @@
+accessing
+meals
+
+	^ meals ifNil: [#()]
