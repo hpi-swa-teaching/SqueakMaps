@@ -12,7 +12,7 @@ buildCampusDetailScrollPane: aBuilder
 		layoutInset: 0;
 		cellGap: 0;
 		yourself.
-	self buildCampusDetailContentChildren do: [:morph |
+	(self buildCampusDetailContentChildrenWith: aBuilder) do: [:morph |
 		content addMorphBack: morph].
 
 	scrollPane := aBuilder build: (aBuilder pluggableScrollPaneSpec new

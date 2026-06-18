@@ -13,4 +13,7 @@
 		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
 		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23",
 		"testSelectingBuildingSetsCampusDetailTarget" : "AS 6/8/2026 11:12",
-		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15" } }
+		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15",
+		"testCampusDetailImagePathsForTargetWithoutImages" : "AS 6/18/2026 13:37",
+		"testCampusDetailImageFormFallsBackForMissingAsset" : "AS 6/18/2026 13:40",
+		"testCampusDetailScaledFormPreservesAspectRatio" : "AS 6/18/2026 13:43" } }

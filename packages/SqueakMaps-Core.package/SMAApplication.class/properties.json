@@ -24,7 +24,8 @@
 		"mensaMenuAPI",
 		"destinationRouteSelectionIndex",
 		"routingGraph",
-		"startRouteSelectionIndex" ],
+		"startRouteSelectionIndex",
+		"selectedCampusDetailImageIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
