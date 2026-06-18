@@ -9,7 +9,8 @@
 		"name",
 		"buildingType",
 		"points",
-		"poiIds" ],
+		"poiIds",
+		"timeInfos" ],
 	"name" : "SMABuilding",
 	"pools" : [
 		 ],

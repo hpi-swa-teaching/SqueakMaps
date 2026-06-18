@@ -10,4 +10,8 @@
 		"levels:" : "kong 6/12/2026 08:30",
 		"model" : "AS 6/16/2026 10:50",
 		"shouldDrawOn:" : "AS 6/18/2026 11:20",
-		"typeName" : "Samuel Bis 6/18/2026 06:53" } }
+		"typeName" : "Samuel Bis 6/18/2026 06:53",
+		"addTimeInfo:" : "AS 6/18/2026 12:15",
+		"hasTimeInfos" : "AS 6/18/2026 12:17",
+		"timeInfos" : "AS 6/18/2026 12:19",
+		"timeInfos:" : "AS 6/18/2026 12:21" } }

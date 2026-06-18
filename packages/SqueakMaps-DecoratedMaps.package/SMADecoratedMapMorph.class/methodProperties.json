@@ -1,16 +1,19 @@
 {
 	"class" : {
 		"buildingOverlaysFrom:" : "Samuel Bis 6/4/2026 16:20",
-		"extractBuildings:forPoints:" : "Samuel Bis 6/17/2026 21:59",
+		"extractBuildings:forPoints:" : "AS 6/18/2026 12:34",
 		"extractFirstLevelFrom:" : "Samuel Bis 6/18/2026 06:49",
 		"extractPOIIdsFrom:" : "Samuel Bis 6/17/2026 21:51",
-		"extractPOIs:" : "kong 6/10/2026 21:32",
+		"extractPOIs:" : "AS 6/18/2026 12:36",
 		"extractPoints:" : "kong 6/10/2026 21:12",
 		"extractRooms:forPoints:" : "Samuel Bis 6/18/2026 06:50",
 		"fromOSMFile:" : "kong 6/10/2026 21:13",
 		"readStreamForOSMAssetNamed:" : "AS 6/8/2026 11:21",
 		"roomOverlaysFrom:" : "Samuel Bis 6/4/2026 16:20",
-		"tagValueNamed:in:ifAbsent:" : "Samuel Bis 6/4/2026 15:59" },
+		"tagValueNamed:in:ifAbsent:" : "Samuel Bis 6/4/2026 15:59",
+		"addCustomTimeInfosFrom:to:" : "AS 6/18/2026 12:39",
+		"addTimeInfosFrom:to:" : "AS 6/18/2026 12:41",
+		"timeInfoDefinitions" : "AS 6/18/2026 12:43" },
 	"instance" : {
 		"availableLevels" : "Samuel Bis 6/15/2026 09:00",
 		"buildingHasRoomOnVisibleLevel:" : "Samuel Bis 6/15/2026 09:02",

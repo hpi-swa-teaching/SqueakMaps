@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levels",
-		"timeInfos" ],
-	"name" : "SMAPOI",
+		"label",
+		"value" ],
+	"name" : "SMATimeInfo",
 	"pools" : [
 		 ],
-	"super" : "SMAPoint",
+	"super" : "Object",
 	"type" : "normal" }
