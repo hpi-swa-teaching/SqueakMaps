@@ -2,7 +2,7 @@ building
 buildStartButton
 
 	self startButton: (PluggableButtonMorph new
-		label: 'Spiel starten';
+		label: 'Start game';
 		target: [self handleStartButton];
 		actionSelector: #value;
 		yourself)

@@ -31,7 +31,8 @@
 		"mapStartFrame",
 		"gameContainer",
 		"gameOrchestrator",
-		"infoMorph" ],
+		"infoMorph",
+		"infoMorph2" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],

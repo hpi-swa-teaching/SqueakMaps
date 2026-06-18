@@ -2,8 +2,7 @@ game flow
 evaluationInfoTextFor: aResult
 
 	| distanceText |
-
 	distanceText := aResult distanceInMeters
-		ifNil: ['kein Tipp']
+		ifNil: ['No guess!']
 		ifNotNil: [:meters | meters rounded asString, ' m'].
-	^ 'Distanz: ', distanceText, ' · Punkte: ', aResult score asString, ' · Gesamt: ', gameOrchestrator totalScore asString
+	^ 'Distance: ', distanceText, ' · Points: ', aResult score asString
