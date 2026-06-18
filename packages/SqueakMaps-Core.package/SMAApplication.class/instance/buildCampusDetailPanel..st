@@ -5,5 +5,5 @@ buildCampusDetailPanel: aBuilder
 		model: self;
 		children: #buildCampusDetailPanelChildren;
 		layout: #vertical;
-		frame: (0 @ 0.1 corner: 1 @ 0.45);
+		frame: (0 @ 0.66 corner: 1 @ 1);
 		yourself

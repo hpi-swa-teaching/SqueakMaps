@@ -1,0 +1,4 @@
+building
+selectedDestinationRouteTarget
+
+	^ self selectedRouteTargetAt: self destinationRouteSelectionIndex

@@ -1,16 +1,23 @@
 accessing
 drawOn: aCanvas forMap: aMapMorph
 
-	| pixelPos worldPos |
+	| pixelPos worldPos iconSize markerSize markerColor |
 	worldPos := SMAMapTileLoader latLongToWorldPos: self lon @ self lat.
-	
+
 	(aMapMorph worldBounds containsPoint: worldPos) ifFalse: [^ self].
-	"todo: increase bounds by width of poi to draw partially?"
-	
+
 	pixelPos := aMapMorph worldPosToPixelPos: worldPos.
-	
+	iconSize := 32.
+	markerSize := 38.
+	markerColor := Color r: 247 / 255 g: 187 / 255 b: 61 / 255.
+
 	aMapMorph zoom >= 19 ifTrue: [
-		(self levels = aMapMorph visibleLevel or: [self levels includes: aMapMorph visibleLevel]) ifTrue: [
+		(self levels isEmpty or: [self levels includes: aMapMorph visibleLevel]) ifTrue: [
 			aCanvas
-				drawImage: (self image scaledToSize: 32)
-				at: pixelPos - (32 / 2)]]
+				fillOval: (Rectangle center: pixelPos extent: markerSize @ markerSize)
+				color: (Color white alpha: 0.85)
+				borderWidth: 3
+				borderColor: markerColor.
+			aCanvas
+				drawImage: (self image scaledToSize: iconSize)
+				at: pixelPos - (iconSize / 2)]]

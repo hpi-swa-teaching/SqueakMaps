@@ -5,7 +5,7 @@ forRoom: aRoom
 		model: aRoom;
 		geoPoints: aRoom points;
 		label: aRoom ref;
-		fillColor: (Color r: 1.0 g: 0.8 b: 0.0 alpha: 0.35);
-		outlineColor: Color orange;
+		fillColor: (Color r: 249 / 255 g: 224 / 255 b: 58 / 255 alpha: 0.25);
+		outlineColor: (Color r: 249 / 255 g: 224 / 255 b: 58 / 255);
 		outlineWidth: 2;
 		yourself

@@ -8,4 +8,4 @@ campusDetailPOITextFor: aCollectionOfPOIs
 			first
 				ifTrue: [first := false]
 				ifFalse: [stream nextPutAll: ', '].
-			stream nextPutAll: poi displayName]]
+			stream nextPutAll: (self routeLabelForPOI: poi)]]
