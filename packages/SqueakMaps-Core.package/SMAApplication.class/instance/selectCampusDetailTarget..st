@@ -2,4 +2,8 @@ building
 selectCampusDetailTarget: aCampusDetailTarget
 
 	self selectedCampusDetailTarget: aCampusDetailTarget.
-	self changed: #buildCampusDetailPanelChildren
+	self startRouteSelectionIndex: (self
+		routeSelectionIndexForTarget: aCampusDetailTarget
+		in: self routeTargets).
+	self changed: #buildCampusDetailPanelChildren.
+	self changed: #buildSidebarTopChildren

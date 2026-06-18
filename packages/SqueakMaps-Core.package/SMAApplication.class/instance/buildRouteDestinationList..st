@@ -7,7 +7,7 @@ buildRouteDestinationList: aBuilder
 			self buildDirectionsLabel: aBuilder with: #getDestinationLabel byPosition: (0 @ 0 corner: 1 @ 0.25).
 			aBuilder pluggableListSpec new
 				model: self;
-				list: #routeSelectionLabels;
+				list: #destinationRouteSelectionLabels;
 				getIndex: #destinationRouteSelectionIndex;
 				setIndex: #destinationRouteSelectionIndex:;
 				frame: (0 @ 0.25 corner: 1 @ 1);

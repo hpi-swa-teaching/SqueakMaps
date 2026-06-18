@@ -1,4 +1,4 @@
 as yet unclassified
 displayName
 
-	^ 'Trinkwasser'
+	^ 'Trinkwasserspender'
