@@ -5384,15 +5384,6 @@ GSMetadata {
 			],
 			#encoding : @5
 		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'hpi-k.osm'
-			],
-			#encoding : 'TXT'
-		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -11099,6 +11090,15 @@ GSMetadata {
 				'344497.png'
 			],
 			#encoding : @5
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'SqueakMaps-Routing'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
 		},
 		GSImageMapper {
 			#version : 1,
