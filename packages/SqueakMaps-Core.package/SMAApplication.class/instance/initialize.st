@@ -8,7 +8,7 @@ initialize
 	routingOsmStream := SMADecoratedMapMorph readStreamForOSMAssetNamed: osmAssetName.
 	self
 		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile: osmStream);
-		routingGraph: (SMARoutingGraph fromOSMFile: routingOsmStream forMapMorph: self tiledMapMorph);
+		routingGraph: nil;
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
 		currentView: #directions;
