@@ -4,7 +4,7 @@ testDecoratedMapCreatesBuildingOverlay
 	| decoratedMap overlay |
 	decoratedMap := SMADecoratedMapMorph fromOSMFile:
 		(((GitAssetLoader for: 'SqueakMaps')
-			loadAsset: 'assets/osm/hpi-k.osm') readStream).
+			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
 
 	self assert: decoratedMap buildingOverlays isEmpty not.
 

@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 6/13/2026 11:05",
+	"instvars" : [
+		"remainingLevels",
+		"totalLevelCount" ],
+	"name" : "GGLevelManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

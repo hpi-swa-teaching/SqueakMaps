@@ -1,7 +1,7 @@
 building
 campusDetailLinesFor: aCampusDetailTarget
 
-	| lines |
+	| lines poiLine |
 
 	lines := OrderedCollection new.
 	(aCampusDetailTarget respondsTo: #buildingType)
@@ -9,6 +9,9 @@ campusDetailLinesFor: aCampusDetailTarget
 	(aCampusDetailTarget respondsTo: #level)
 		ifTrue: [lines add: 'Etage' -> aCampusDetailTarget level].
 	lines addAll: (self campusDetailMensaLinesFor: aCampusDetailTarget).
+
+	poiLine := self campusDetailPOILineFor: aCampusDetailTarget.
+	poiLine ifNotNil: [lines add: poiLine].
 
 	^ lines reject: [:line |
 		line value isNil or: [line value asString isEmpty]]

@@ -7,7 +7,9 @@ initialize
 		setLabel: 'GeoGuessr' asString;
 		initializeMorphsAndButtons;
 		focusCampus;
-		initializeFrames;
 		initializeGuessing;
+		initializeGame;
+		initializeFrames;
 		initializeWindow;
+		refreshForState;
 		openInWorld
