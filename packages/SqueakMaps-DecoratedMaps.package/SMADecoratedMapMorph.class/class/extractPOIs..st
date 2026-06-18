@@ -8,7 +8,7 @@ extractPOIs: anXMLRoot
 		SMAPOI subclassesDo: [:each | point ifNil: [point := each fromXMLTag: p]].
 		point ifNotNil: [
 			point levels: (self tagValueNamed: 'level' in: p ifAbsent: [nil]).
-			
+			self addTimeInfosFrom: p to: point.
 			point
 				id: (p attributeAt: #id) asInteger;
 				lat: (p attributeAt: #lat) asNumber;

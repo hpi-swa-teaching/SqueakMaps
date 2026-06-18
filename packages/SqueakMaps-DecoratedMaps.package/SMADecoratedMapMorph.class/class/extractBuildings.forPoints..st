@@ -17,6 +17,8 @@ extractBuildings: anXMLRoot forPoints: aDictOfPoints
 					poiIds: (self extractPOIIdsFrom: w);
 					points: OrderedCollection new.
 
+				self addTimeInfosFrom: w to: building.
+
 				w tagsNamed: #nd do: [:nd |
 					| pointId |
 					pointId := (nd attributeAt: #ref) asInteger.

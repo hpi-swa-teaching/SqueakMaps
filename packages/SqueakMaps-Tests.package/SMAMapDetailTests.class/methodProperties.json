@@ -13,4 +13,9 @@
 		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
 		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23",
 		"testSelectingBuildingSetsCampusDetailTarget" : "AS 6/8/2026 11:12",
-		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15" } }
+		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15",
+		"testCampusDetailTimeLinesForTargetWithTimeInfos" : "AS 6/18/2026 12:52",
+		"testCampusDetailTimeLinesForTargetWithoutTimeInfos" : "AS 6/18/2026 12:55",
+		"testCustomCampusTimeTagsProduceTimeInfos" : "AS 6/18/2026 12:58",
+		"testUlfsCafeHasOpeningHours" : "AS 6/18/2026 13:01",
+		"testUniversitaetsbibliothekHasOpeningHours" : "AS 6/18/2026 13:04" } }
