@@ -1,11 +1,12 @@
 building
 campusDetailTextForMensaMeal: aMensaMeal
 
-	| text |
+	| priceText text |
 
 	text := aMensaMeal name.
-	aMensaMeal studentPrice ifNotNil: [:price |
-		text := text , ' - ' , (aMensaMeal formattedPrice: price)].
+	priceText := self campusDetailPricesForMensaMeal: aMensaMeal.
+	priceText isEmpty ifFalse: [
+		text := text , ' - ' , priceText].
 	aMensaMeal hasNotes ifTrue: [
 		text := text , ' - ' , aMensaMeal notesText].
 	^ text
