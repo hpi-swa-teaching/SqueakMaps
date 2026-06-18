@@ -3,7 +3,7 @@ testMensaDetailTextIncludesAvailablePriceLabels
 
 	| application meal text |
 
-	application := SMAApplication new.
+	application := SMAApplication basicNew.
 	meal := SMAMensaMeal new
 		name: 'Bagel mit Hummus';
 		prices: (Dictionary new
