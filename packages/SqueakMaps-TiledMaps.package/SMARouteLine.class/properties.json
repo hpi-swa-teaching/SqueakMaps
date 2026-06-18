@@ -8,7 +8,8 @@
 	"instvars" : [
 		"points",
 		"boundingBox",
-		"color" ],
+		"color",
+		"segments" ],
 	"name" : "SMARouteLine",
 	"pools" : [
 		 ],

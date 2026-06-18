@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"levels",
+		"u",
+		"v" ],
+	"name" : "SMARoutingGraphEdge",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

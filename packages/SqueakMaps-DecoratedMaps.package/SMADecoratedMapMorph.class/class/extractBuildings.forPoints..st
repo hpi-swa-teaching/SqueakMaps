@@ -14,6 +14,7 @@ extractBuildings: anXMLRoot forPoints: aDictOfPoints
 				building := SMABuilding new
 					name: (self tagValueNamed: 'name' in: w ifAbsent: ['']);
 					buildingType: buildingType;
+					poiIds: (self extractPOIIdsFrom: w);
 					points: OrderedCollection new.
 
 				w tagsNamed: #nd do: [:nd |

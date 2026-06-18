@@ -5,7 +5,7 @@ forBuilding: aBuilding
 		model: aBuilding;
 		geoPoints: aBuilding points;
 		label: aBuilding name;
-		fillColor: (Color r: 0.2 g: 0.45 b: 1.0 alpha: 0.20);
-		outlineColor: Color blue;
+		fillColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255 alpha: 0.18);
+		outlineColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255);
 		outlineWidth: 2;
 		yourself

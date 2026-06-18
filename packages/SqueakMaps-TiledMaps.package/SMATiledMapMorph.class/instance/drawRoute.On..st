@@ -1,19 +1,18 @@
 private
 drawRoute: aRouteLine On: aCanvas
 
-	| polygon pixelPosRoute |
-	
+	| segmentColor |
+	aRouteLine ifNil: [^ self].
 	aRouteLine points isEmpty ifTrue: [^ self].
 
-	pixelPosRoute := aRouteLine points collect: [:point | self worldPosToPixelPos: point].
+	aRouteLine segments isEmpty ifTrue: [
+		^ self drawRoutePoints: aRouteLine points color: aRouteLine visibleColor on: aCanvas].
 
-	polygon := PolygonMorph new.
-	polygon 
-			vertices: pixelPosRoute
-			color: aRouteLine color
-			borderWidth: 4 
-			borderColor: aRouteLine color;
-			makeOpen;
-			visible: true.
-			
-	aCanvas drawMorph: polygon
+	aRouteLine segments do: [:segment |
+		segmentColor := self routeSegmentIsVisible: segment third
+			ifTrue: [aRouteLine visibleColor]
+			ifFalse: [aRouteLine hiddenColor].
+		self
+			drawRoutePoints: {segment first. segment second}
+			color: segmentColor
+			on: aCanvas]

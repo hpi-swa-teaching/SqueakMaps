@@ -20,7 +20,10 @@
 		"bingApi",
 		"thunderforestMapsApi",
 		"remainingSeconds",
-		"selectedCampusDetailTarget" ],
+		"selectedCampusDetailTarget",
+		"destinationRouteSelectionIndex",
+		"routingGraph",
+		"startRouteSelectionIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
