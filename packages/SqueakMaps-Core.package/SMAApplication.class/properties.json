@@ -21,6 +21,8 @@
 		"thunderforestMapsApi",
 		"visiblePinCategories",
 		"selectionList",
+		"routeSelectionList",
+		"visibleRoutes",
 		"routes",
 		"hopLocations",
 		"selectedHopIndex" ],
