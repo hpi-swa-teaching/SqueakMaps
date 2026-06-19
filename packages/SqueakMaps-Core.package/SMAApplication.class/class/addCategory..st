@@ -1,4 +1,10 @@
 accessing
 addCategory: aCategory
 
-	SavedCategories add: aCategory
+	((SavedCategories collect: [:c | c title]) includes: aCategory title) ifFalse: [
+			SavedCategories addIfNotPresent: aCategory.
+			
+		];
+	ifTrue: [
+		self inform: 'No duplicates allowed.'
+		]

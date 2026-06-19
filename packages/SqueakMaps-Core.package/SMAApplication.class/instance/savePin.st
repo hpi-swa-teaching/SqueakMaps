@@ -18,4 +18,5 @@ savePin
 		self class savedPins addIfNotPresent: self selectedPin
 	].
 
-	self changed: #buildSearchPinPanelChildren
+	self changed: #buildSearchPinPanelChildren.
+	self changed: #items.
