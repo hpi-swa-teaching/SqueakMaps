@@ -8,5 +8,5 @@ addAllMarkersFrom: aSMARoute
 	startMarker := SMAMarker newAt: startPoint labeled: aSMARoute startLabel.
 	destinationMarker := SMAMarker newAt: destinationPoint labeled: aSMARoute destinationLabel.
 	
-	self tiledMapMorph markers ifEmpty: [self tiledMapMorph markers add: startMarker].
+	self tiledMapMorph markers add: startMarker.
 	self tiledMapMorph markers add: destinationMarker.
