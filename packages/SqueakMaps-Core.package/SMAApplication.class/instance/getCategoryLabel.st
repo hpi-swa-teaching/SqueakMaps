@@ -1,4 +1,4 @@
 building
 getCategoryLabel
 
-	^ { StringMorph new contents: 'Filter categories'; yourself }
+	^ { StringMorph new contents: 'Select pins'; yourself }

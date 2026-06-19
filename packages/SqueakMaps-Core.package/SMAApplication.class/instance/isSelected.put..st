@@ -8,12 +8,10 @@ isSelected: index put: aBoolean
 	].
 	
 	self selectionList at: index put: aBoolean.
-	(self isSelectedTypePinAt: index) ifTrue:[
-		
-		]
+	(self isSelectedTypePinAt: index)
 	ifFalse:[
 			self toggleAllPinsForCategoryAt: index
 		].
-	self visiblePins: self collectSelectedCategories.
+	self visiblePins: self collectSelectedVisiblePins.
 	self clear.
 	self changed: #items.

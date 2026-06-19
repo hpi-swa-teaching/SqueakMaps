@@ -1,4 +1,4 @@
 accessing
 visiblePins
 
-	^ visiblePins
+	^ visiblePins ifNil: [ visiblePins := OrderedCollection new ]

@@ -14,6 +14,10 @@ savePin
 
 	self selectedPin category: (categories at: selectedCategory).
 	
+	(self class savedPins anySatisfy: [:p | p alias = self selectedPin alias]) ifTrue: [
+		^ self inform: 'No duplicate names allowed.'
+		].
+	
 	self isSelectedPinSaved ifFalse: [
 		self class savedPins addIfNotPresent: self selectedPin
 	].
