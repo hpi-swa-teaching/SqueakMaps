@@ -14,7 +14,12 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 				coordinates: aSMAGeoCoordinate;
 				yourself].
 	
-	self switchToSearchViewWith: location;
-	 	clear.
-	self mapConfigurator
-		displayLocation: location
+	self currentView = #directions ifFalse: [
+		self switchToSearchViewWith: location
+	].
+	self clear.
+	
+	self mapConfigurator displayLocation: location.
+	self routes isEmpty ifFalse: [
+	self mapConfigurator displayRoutes: self routes].
+		
