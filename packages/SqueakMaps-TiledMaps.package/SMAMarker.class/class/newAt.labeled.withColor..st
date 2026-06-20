@@ -1,8 +1,8 @@
 as yet unclassified
-newAt: aPoint labeled: aLabel
+newAt: aPoint labeled: aLabel withColor: aColor
 	
 	^ (self new
 		worldPos: aPoint;
 		label: aLabel;
-		color: Color blue;
+		color: aColor;
 		yourself)
