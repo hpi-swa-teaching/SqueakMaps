@@ -8,7 +8,7 @@ buildCategoryMultiSelectList: aBuilder
 		getSelectionList: #isSelected:;
 		setSelectionList: #isSelected:put:;
 		help: 'Select categories to show on the map.';
-		frame: (0 @ 0.58 corner: 1 @ 0.87);
+		frame: (0 @ 0.35 corner: 1 @ 0.70);
 		yourself
 	
 	

@@ -19,7 +19,7 @@
 		"navigator",
 		"mapConfigurator",
 		"thunderforestMapsApi",
-		"visiblePinCategories",
+		"visiblePins",
 		"selectionList",
 		"routeSelectionList",
 		"visibleRoutes",

@@ -8,7 +8,7 @@ buildSavedRoutesList: aBuilder
 		setSelectionList: #isRouteSelected:put:;
 		help: 'Select routes to show on the map.';
 		menu: #showSavedRouteMenu:;
-		frame: (0 @ 0.58 corner: 1 @ 0.87);
+		frame: (0 @ 0.75 corner: 1 @ 1);
 		yourself
 	
 	
