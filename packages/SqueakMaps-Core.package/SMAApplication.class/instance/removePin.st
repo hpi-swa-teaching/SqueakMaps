@@ -3,4 +3,5 @@ removePin
 
 	self class savedPins removeAllSuchThat: [:p | p coordinates = self selectedPin coordinates].
 	self clear.
-	self changed: #buildSearchPinPanelChildren
+	self changed: #buildSearchPinPanelChildren.
+	self changed: #items.

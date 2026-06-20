@@ -1,5 +1,5 @@
-pin management
-savePin
+category management
+changePinCategory: aPin
 	| categories selectedCategory titleCollection|
 	
 	categories := self class savedCategories.
@@ -12,15 +12,6 @@ savePin
 	"pressed cancel"
 	selectedCategory = 0 ifTrue: [^ self ].
 
-	self selectedPin category: (categories at: selectedCategory).
-	
-	(self class savedPins anySatisfy: [:p | p alias = self selectedPin alias]) ifTrue: [
-		^ self inform: 'No duplicate names allowed.'
-		].
-	
-	self isSelectedPinSaved ifFalse: [
-		self class savedPins addIfNotPresent: self selectedPin
-	].
-
+	aPin category: (categories at: selectedCategory).
 	self changed: #buildSearchPinPanelChildren.
 	self changed: #items.
