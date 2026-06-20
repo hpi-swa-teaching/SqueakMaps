@@ -4,6 +4,7 @@ buildCategoryMultiSelectList: aBuilder
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #items;
+		menu: #getMenu:;
 		getSelectionList: #isSelected:;
 		setSelectionList: #isSelected:put:;
 		help: 'Select categories to show on the map.';

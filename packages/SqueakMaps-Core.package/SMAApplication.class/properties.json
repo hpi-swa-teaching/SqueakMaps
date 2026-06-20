@@ -19,11 +19,11 @@
 		"navigator",
 		"mapConfigurator",
 		"thunderforestMapsApi",
-		"visiblePinCategories",
 		"selectionList",
 		"routes",
 		"hopLocations",
-		"selectedHopIndex" ],
+		"selectedHopIndex",
+		"visiblePins" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

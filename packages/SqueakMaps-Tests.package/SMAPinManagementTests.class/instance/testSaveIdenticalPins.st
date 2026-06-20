@@ -18,6 +18,6 @@ testSaveIdenticalPins
 	[self model savePin] valueSupplyingAnswer: { 'Select category' . 'Uncategorized' }.
 
 	self model setSelectedPin: location2.
-	[self model savePin] valueSupplyingAnswer: { 'Select category' . 'Uncategorized' }.
+	[self model savePin] valueSupplyingAnswers: {{ 'Select category' . 'Uncategorized' }. { 'No duplicate names allowed.' . #closeDialog }}.
 
 	self assert: (self model class savedPins size) equals: 1

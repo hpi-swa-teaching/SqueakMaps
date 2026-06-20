@@ -14,12 +14,13 @@ renamePinCategory: aCategory
 				title: answer;
 				isDefault: false;
 				yourself.
-			self addCategory: aNewCategory.
-			self savedPins do:[:pin |
-			pin category = aCategory ifTrue:[
-			pin category: aNewCategory.
-			]
-		].
+			(self addCategory: aNewCategory) ifTrue: [.
+				self savedPins do:[:pin |
+				pin category = aCategory ifTrue:[
+					pin category: aNewCategory.
+				]
+			].
 			SavedCategories remove: aCategory ifAbsent: [].
 		].
+	].
 	

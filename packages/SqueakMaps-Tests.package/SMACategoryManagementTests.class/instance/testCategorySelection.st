@@ -25,17 +25,17 @@ testCategorySelection
 	"Test only uncategorized"
 	self model isSelected: 1 put: true.
 	self assert: self model tiledMapMorph markers size = 1.
-	self assert: self model visiblePinCategories size = 1.
+	self assert: self model visiblePins size = 1.
 	
 	"Both categories"
-	self model isSelected: 2 put: true.
+	self model isSelected: 3 put: true.
 	self assert: self model tiledMapMorph markers size = 2.
-	self assert: self model visiblePinCategories size = 2.
+	self assert: self model visiblePins size = 2.
 	
 	"Deselect uncategorized"
 	self model isSelected: 1 put: false.
 	self assert: self model tiledMapMorph markers size = 1.
-	self assert: self model visiblePinCategories size = 1.
+	self assert: self model visiblePins size = 1.
 	
 	
 	
