@@ -32,7 +32,8 @@
 		"gameContainer",
 		"gameOrchestrator",
 		"infoMorph",
-		"infoMorph2" ],
+		"infoMorph2",
+		"quitButton" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],
