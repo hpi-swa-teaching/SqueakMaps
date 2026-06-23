@@ -3,6 +3,6 @@ buildMultiplayerButton
 
 	self multiplayerButton: (PluggableButtonMorph new
 		label: 'Multiplayer';
-		target: [self handleStartButton];
+		target: [];
 		actionSelector: #value;
 		yourself)

@@ -2,6 +2,7 @@ initialization
 initialize
 
 	super initialize.
+	leaderboard := Leaderboard current.
 	self
 		applyUserInterfaceTheme;
 		setLabel: 'GeoGuessr' asString;
