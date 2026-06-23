@@ -7,16 +7,15 @@ testRemoveCategory
 	testCategory title: 'Test Category'.
 	self model class addCategory: testCategory.
 	
-	self categoryOptionsButton click. 
-	menu := ActiveWorld submorphs detect: [:m | m isKindOf: MenuMorph].
+	"Select new category and open menu"
+	self model isSelected: 2 put: true.
+	menu := MenuMorph new.
+	menu := self model getMenu: menu.
 	
-	item := menu items detect: [:m | m contents = 'Remove Category'].
+	item := menu items detect: [:m | m contents = 'Remove'].
 	
-	[ item target perform: item selector withArguments: item arguments.]
-		valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' } }.
+	item target perform: item selector withArguments: item arguments.
 		
-		menu delete.
-
 	self deny: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category'])
 	
 	

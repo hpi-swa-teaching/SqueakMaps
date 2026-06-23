@@ -2,20 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"categoryOptionsButton" : "seas 6/9/2026 01:38",
-		"categoryOptionsButton:" : "seas 6/9/2026 01:38",
 		"model" : "KK 5/15/2026 14:54",
 		"model:" : "KK 5/15/2026 14:55",
 		"savedCategoriesBefore" : "KK 5/15/2026 14:55",
 		"savedCategoriesBefore:" : "KK 5/15/2026 14:55",
 		"savedPinsBefore" : "KK 5/16/2026 17:20",
 		"savedPinsBefore:" : "KK 5/16/2026 17:20",
-		"setUp" : "seas 6/9/2026 02:22",
+		"setUp" : "KK 6/23/2026 13:39",
 		"tearDown" : "KK 5/16/2026 17:21",
-		"testAddCategory" : "seas 6/9/2026 01:58",
+		"testAddCategory" : "KK 6/23/2026 13:50",
 		"testCategorySelection" : "KK 6/19/2026 11:47",
-		"testNoCategoryRemoved" : "seas 6/9/2026 02:21",
-		"testRemoveCategory" : "seas 6/9/2026 02:13",
+		"testRemoveCategory" : "KK 6/23/2026 13:46",
 		"testRemoveCategoryDeleteAllPins" : "seas 6/9/2026 02:17",
 		"testRemoveCategoryUncategorizeAllPins" : "seas 6/9/2026 02:18",
 		"testRenameCategory" : "seas 6/9/2026 02:20" } }

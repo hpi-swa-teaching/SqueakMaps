@@ -12,7 +12,7 @@ buildCategoryMenu: aMenu for: aCategory
 		selector: #removeCategory:
 		argumentList: (Array with: aCategory).
 	aMenu
-		add: 'Add new Category'
+		add: 'Add new category'
 		target: self
 		selector: #addCategory.
 		

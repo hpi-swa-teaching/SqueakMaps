@@ -9,6 +9,3 @@ setUp
 	
 	self savedPinsBefore: SMAApplication savedPins.	
 	SMAApplication savedPins: OrderedCollection new.
-	
-	self
-		categoryOptionsButton: (self subject findByLabel: 'Category Options').
