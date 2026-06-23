@@ -8,4 +8,4 @@ buildResultFor: aGuessCoordinate
 		^ GGRoundResult newLevel: currentLevel guess: nil distance: nil score: 0].
 	distance := aGuessCoordinate distanceInMetersTo: currentLevel coordinates.
 	score := self scoreForDistance: distance weight: currentLevel scoreWeight.
-	^ GGRoundResult newLevel: currentLevel guess: aGuessCoordinate distance: distance score: score
+	 ^ GGRoundResult newLevel: currentLevel guess: aGuessCoordinate distance: distance score: score

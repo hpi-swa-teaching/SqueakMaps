@@ -5,5 +5,8 @@ advanceRound
 	levelManager hasMoreLevels
 		ifTrue: [
 			currentLevel := levelManager nextLevel.
-			state := #playing]
+			state := #playing.
+			currentPlayer 
+				ifFalse: [currentPlayer := true]
+				ifTrue: [currentPlayer := false]]
 		ifFalse: [state := #ended]

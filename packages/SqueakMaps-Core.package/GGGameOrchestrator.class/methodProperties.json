@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"advanceRound" : "JC 6/13/2026 12:05",
-		"buildResultFor:" : "JC 6/13/2026 12:00",
+		"advanceRound" : "KP 6/23/2026 15:18",
+		"buildResultFor:" : "KP 6/23/2026 17:44",
 		"currentLevel" : "JC 6/13/2026 12:12",
+		"currentPlayer" : "KP 6/23/2026 14:59",
 		"currentRoundNumber" : "JC 6/13/2026 12:20",
 		"initialize" : "JC 6/13/2026 11:33",
 		"isEnded" : "JC 6/13/2026 11:48",
@@ -15,10 +16,11 @@
 		"levelManager" : "JC 6/13/2026 12:14",
 		"maxRoundScore" : "JC 6/13/2026 11:54",
 		"maxScoringDistance" : "JC 6/13/2026 11:55",
-		"reset" : "JC 6/13/2026 11:36",
+		"reset" : "KP 6/23/2026 17:37",
 		"roundResults" : "JC 6/13/2026 12:16",
 		"scoreForDistance:weight:" : "JC 6/13/2026 11:58",
-		"startGame" : "JC 6/13/2026 11:50",
-		"submitGuess:" : "JC 6/13/2026 12:02",
+		"startGame" : "KP 6/23/2026 15:04",
+		"submitGuess:" : "KP 6/23/2026 15:14",
 		"totalRounds" : "JC 6/13/2026 12:22",
-		"totalScore" : "JC 6/13/2026 12:10" } }
+		"totalScorep0" : "KP 6/23/2026 14:59",
+		"totalScorep1" : "KP 6/23/2026 14:59" } }

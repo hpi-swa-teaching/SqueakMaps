@@ -5,4 +5,6 @@ reset
 	levelManager := GGLevelManager new.
 	currentLevel := nil.
 	roundResults := OrderedCollection new.
-	totalScore := 0
+	totalScorep0 := 0.
+	totalScorep1 := 0.
+	
