@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Helli 6/23/2026 15:58",
+	"instvars" : [
+		"playerName",
+		"score" ],
+	"name" : "LeaderboardEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
