@@ -12,7 +12,7 @@ buildPinMenu: aMenu for: aPin
 		selector: #removePin:
 		argumentList: (Array with: aPin).
 	aMenu
-		add: 'Change Pin Category'
+		add: 'Change pin category'
 		target: self
 		selector: #changePinCategory:
 		argumentList: (Array with: aPin).

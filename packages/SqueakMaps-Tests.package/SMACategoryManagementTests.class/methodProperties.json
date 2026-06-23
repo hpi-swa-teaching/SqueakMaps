@@ -15,4 +15,5 @@
 		"testRemoveCategory" : "KK 6/23/2026 13:55",
 		"testRemoveCategoryDeleteAllPins" : "KK 6/23/2026 13:56",
 		"testRemoveCategoryUncategorizeAllPins" : "KK 6/23/2026 13:58",
-		"testRenameCategory" : "KK 6/23/2026 14:01" } }
+		"testRenameCategory" : "KK 6/23/2026 14:01",
+		"testRenameCategoryNoDuplicate" : "KK 6/23/2026 15:07" } }

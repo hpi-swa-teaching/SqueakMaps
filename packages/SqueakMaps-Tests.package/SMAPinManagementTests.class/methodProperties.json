@@ -8,6 +8,7 @@
 		"savedPinsBefore:" : "TR 7/28/2022 13:11",
 		"setUp" : "KK 6/23/2026 14:04",
 		"tearDown" : "KK 5/15/2026 11:55",
+		"testChangePinCategory" : "KK 6/23/2026 15:16",
 		"testNoPinsSaved" : "KK 5/15/2026 12:27",
 		"testPlacePin" : "KK 5/15/2026 13:01",
 		"testRemovePin" : "KK 5/15/2026 10:38",
