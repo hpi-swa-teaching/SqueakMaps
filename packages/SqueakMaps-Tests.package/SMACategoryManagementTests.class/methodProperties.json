@@ -10,9 +10,9 @@
 		"savedPinsBefore:" : "KK 5/16/2026 17:20",
 		"setUp" : "KK 6/23/2026 13:39",
 		"tearDown" : "KK 5/16/2026 17:21",
-		"testAddCategory" : "KK 6/23/2026 13:50",
+		"testAddCategory" : "KK 6/23/2026 13:55",
 		"testCategorySelection" : "KK 6/19/2026 11:47",
-		"testRemoveCategory" : "KK 6/23/2026 13:46",
-		"testRemoveCategoryDeleteAllPins" : "seas 6/9/2026 02:17",
-		"testRemoveCategoryUncategorizeAllPins" : "seas 6/9/2026 02:18",
-		"testRenameCategory" : "seas 6/9/2026 02:20" } }
+		"testRemoveCategory" : "KK 6/23/2026 13:55",
+		"testRemoveCategoryDeleteAllPins" : "KK 6/23/2026 13:56",
+		"testRemoveCategoryUncategorizeAllPins" : "KK 6/23/2026 13:58",
+		"testRenameCategory" : "KK 6/23/2026 14:01" } }

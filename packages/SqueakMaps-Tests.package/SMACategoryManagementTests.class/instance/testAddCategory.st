@@ -13,4 +13,6 @@ testAddCategory
 	[ item target perform: item selector withArguments: item arguments.]
 		valueSupplyingAnswers: { { 'Category Title' . 'Test Category' } }.
 		
+	menu delete.
+		
 	self assert: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category'])

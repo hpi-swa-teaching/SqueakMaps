@@ -15,6 +15,8 @@ testRemoveCategory
 	item := menu items detect: [:m | m contents = 'Remove'].
 	
 	item target perform: item selector withArguments: item arguments.
+	
+	menu delete.
 		
 	self deny: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category'])
 	
