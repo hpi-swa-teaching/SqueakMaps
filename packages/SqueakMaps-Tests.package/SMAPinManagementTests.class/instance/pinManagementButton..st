@@ -1,4 +1,0 @@
-accessing
-pinManagementButton: aPluggableButtonMorphPlus
-
-	pinManagementButton := aPluggableButtonMorphPlus
