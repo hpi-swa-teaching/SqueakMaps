@@ -14,12 +14,16 @@ testRemoveCategoryDeleteAllPins
 		yourself.
 	self model class savedPins add: pin1.
 	
-	self categoryOptionsButton click. 
-	menu := ActiveWorld submorphs detect: [:m | m isKindOf: MenuMorph].
-	item := menu items detect: [:m | m contents = 'Remove Category'].
+	self model changed: #items.
+	"Select category and deselect pin"
+	self model isSelected: 2 put: true.
+	self model isSelected: 3 put: false.
+	menu := MenuMorph new.
+	menu := self model getMenu: menu.
+	item := menu items detect: [:m | m contents = 'Remove'].
 	
 	[ item target perform: item selector withArguments: item arguments.
-	] valueSupplyingAnswers: { { 'Select category to remove.' . 'Test Category' }.{'What happens to the pins?'. 'Delete all Pins within this category.'}.{'Are you sure?'. true} }.
+	] valueSupplyingAnswers: {{'What happens to the pins?'. 'Delete all Pins within this category.'}.{'Are you sure?'. true} }.
 	
 	menu delete.
 	

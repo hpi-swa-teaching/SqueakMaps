@@ -1,5 +1,5 @@
 running
-testRenameCategory
+testRenameCategoryNoDuplicate
 
 	| testCategory menu item |
 	
@@ -14,9 +14,8 @@ testRenameCategory
 	item := menu items detect: [:m | m contents = 'Rename'].
 	
 	[ item target perform: item selector withArguments: item arguments.] 
-	valueSupplyingAnswers: { { 'New Name' . 'Renamed Category' } }.
+	valueSupplyingAnswers: { { 'New Name' . 'Uncategorized' }. { 'No duplicates allowed.' . #closeDialog} }.
 	
 	menu delete.
 		
-	self assert: (self model class savedCategories anySatisfy: [:each | each title = 'Renamed Category']).
-	self deny: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category'])
+	self assert: (self model class savedCategories anySatisfy: [:each | each title = 'Test Category']).
