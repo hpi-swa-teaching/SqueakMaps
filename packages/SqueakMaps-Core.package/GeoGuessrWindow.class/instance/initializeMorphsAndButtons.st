@@ -12,4 +12,5 @@ initializeMorphsAndButtons
 		buildQuitButton;
 		buildSingleplayerButton;
 		buildMultiplayerButton;
-		buildLeaderboardButton
+		buildLeaderboardButton;
+		buildCloseButton
