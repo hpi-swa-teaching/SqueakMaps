@@ -2,7 +2,7 @@ leaderboard
 addLeaderboardEntries
 
 	| y |
-	y := 70.
+	y := 80.
 	leaderboard entries doWithIndex: [:entry :index | | text |
 		text := StringMorph contents: index asString, '. ', entry playerName, ' - ', entry score asString.
 		text position: 20 @ y.
