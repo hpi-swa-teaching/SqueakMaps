@@ -2,7 +2,7 @@ leaderboard
 endGame
 
 	| score |
-	score := gameOrchestrator totalScore.
+	score := gameOrchestrator totalScorep0.
 	
 	(leaderboard isHighscore: score)
 		ifTrue: [self askForNameAndAddScore: score]
