@@ -40,7 +40,8 @@
 		"leaderboard",
 		"y",
 		"closeButton",
-		"leaderboardBackground" ],
+		"leaderboardBackground",
+		"closeLeaderboard" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],

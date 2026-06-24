@@ -1,5 +1,4 @@
 leaderboard
 closeLeaderboard
 
-	leaderboardBackground delete.
-	closeButton delete
+	leaderboardBackground delete

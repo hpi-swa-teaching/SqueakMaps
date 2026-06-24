@@ -1,10 +1,15 @@
 leaderboard
 addLeaderboardEntries
 
-	| y |
-	y := 80.
+	| y spacing |
+	y := leaderboardBackground height * 1.8.
+	spacing := leaderboardBackground height * 1.3.
+	
 	leaderboard entries doWithIndex: [:entry :index | | text |
 		text := StringMorph contents: index asString, '. ', entry playerName, ' - ', entry score asString.
-		text position: 20 @ y.
+		
+		text position: leaderboardBackground width * 0.4 @ y.
+		
 		leaderboardBackground addMorph: text.
-		y := y + 45]
+		
+		y := y + spacing]
