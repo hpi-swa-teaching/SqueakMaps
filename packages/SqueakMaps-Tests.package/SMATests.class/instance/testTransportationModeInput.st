@@ -9,7 +9,6 @@ testTransportationModeInput
 	defaultTransportMode := transportModeCar.
 	
 	self model switchToDirectionsView.
-	self wantsToTest: self model build.
 	carButton := (self subject findByLabel: 'Car').
 	bikeButton := (self subject findByLabel: 'Bike').
 	walkButton := (self subject findByLabel: 'Walk').
