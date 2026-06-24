@@ -1,0 +1,4 @@
+accessing
+currentPlayer
+
+	^currentPlayer
