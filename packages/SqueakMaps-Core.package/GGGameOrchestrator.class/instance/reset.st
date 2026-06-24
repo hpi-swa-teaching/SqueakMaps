@@ -7,4 +7,5 @@ reset
 	roundResults := OrderedCollection new.
 	totalScorep0 := 0.
 	totalScorep1 := 0.
+	isMultiplayer := false.
 	

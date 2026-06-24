@@ -13,7 +13,8 @@
 		"totalScore",
 		"totalScorep1",
 		"currentPlayer",
-		"totalScorep0" ],
+		"totalScorep0",
+		"isMultiplayer" ],
 	"name" : "GGGameOrchestrator",
 	"pools" : [
 		 ],

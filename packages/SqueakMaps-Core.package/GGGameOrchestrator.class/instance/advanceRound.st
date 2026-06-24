@@ -6,7 +6,5 @@ advanceRound
 		ifTrue: [
 			currentLevel := levelManager nextLevel.
 			state := #playing.
-			currentPlayer 
-				ifFalse: [currentPlayer := true]
-				ifTrue: [currentPlayer := false]]
+			isMultiplayer ifTrue:[currentPlayer := currentPlayer not]]
 		ifFalse: [state := #ended]

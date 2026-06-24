@@ -3,6 +3,7 @@ buildMultiplayerButton
 
 	self multiplayerButton: (PluggableButtonMorph new
 		label: 'Multiplayer';
-		target: [self handleStartButton];
+		target: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: true];
 		actionSelector: #value;
-		yourself)
+		yourself).
+	
