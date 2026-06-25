@@ -3591,6 +3591,14 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
+				'geoguesser_start_screen.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
 				'tiles',
 				'20',
 				'562511',
@@ -8354,6 +8362,15 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
+				'levels',
+				'2.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
 				'tiles',
 				'20',
 				'562535',
@@ -9036,6 +9053,15 @@ GSMetadata {
 				'20',
 				'562508',
 				'344484.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'levels',
+				'1.png'
 			],
 			#encoding : @5
 		},
@@ -11033,6 +11059,15 @@ GSMetadata {
 				'20',
 				'562519',
 				'344498.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'levels',
+				'3.png'
 			],
 			#encoding : @5
 		},

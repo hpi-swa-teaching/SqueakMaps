@@ -1,8 +1,9 @@
 event handling
 mouseMove: anEvent
 
-	| delta newCenter newX newY |
+	| delta newCenter newX newY lastPos |
 
+	lastPos := lastMouse ifNil: 0@0.
 	delta := anEvent cursorPoint - lastMouse.
 	lastMouse := anEvent cursorPoint.
 

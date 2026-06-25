@@ -2,4 +2,6 @@ displaying
 showImage: aFilePath
 
 	bild := loader getImage: aFilePath.
-	picture newForm: bild
+	self unscaledImage: bild.
+	picture newForm: bild.
+	self updateScaledImage
