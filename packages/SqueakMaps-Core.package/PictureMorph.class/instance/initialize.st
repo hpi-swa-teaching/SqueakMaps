@@ -3,8 +3,10 @@ initialize
 
 	super initialize.
 	self color: Color gray.
+	self clipSubmorphs: true.
+	coverMode := true.
 	picture := ImageMorph new.
-	loader := AssetLoader new. 
+	self addMorph: picture.
+	loader := AssetLoader new.
 	bild := loader getImage:  '/osm/TestPicture.png'.
-	picture newForm: bild.
-	self addMorph: picture. 
+	self originalImage: bild.

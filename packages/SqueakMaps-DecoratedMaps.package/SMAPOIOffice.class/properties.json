@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"displayName",
+		"internalName" ],
+	"name" : "SMAPOIOffice",
+	"pools" : [
+		 ],
+	"super" : "SMAPOI",
+	"type" : "normal" }

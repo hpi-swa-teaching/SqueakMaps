@@ -12,7 +12,9 @@
 		"gameHandler",
 		"picture",
 		"loader",
-		"bild" ],
+		"bild",
+		"originalImage",
+		"coverMode" ],
 	"name" : "PictureMorph",
 	"pools" : [
 		 ],

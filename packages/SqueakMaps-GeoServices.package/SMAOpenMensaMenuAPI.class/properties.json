@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-GeoServices",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contentSource",
+		"canteenId" ],
+	"name" : "SMAOpenMensaMenuAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,33 +1,23 @@
-search
+building
 searchDirections
 
-	| start destination startLocation destinationLocation transportationMode newRoute |
-	
-	start := self startSearchInput.
-	destination := self destinationSearchInput.
-	transportationMode := self transportationModeInput.
-	
-	(start isEmpty or: [destination isEmpty]) ifTrue: [
-		^ self inform: 'Please enter a start and destination location.'].
-	
-	[startLocation := self navigator locate: start.
-	destinationLocation := self navigator locate: destination]
-		on: SMALocationNameNotFoundError
-		do: [:error | ^ self inform: error userMessage].
-	
-	self mapConfigurator clear.
-	
-	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
-		^ self informSearchedSameLocation: startLocation].
+	| startTarget destinationTarget routeLine |
+	startTarget := self selectedStartRouteTarget.
+	destinationTarget := self selectedDestinationRouteTarget.
 
-	[newRoute := self navigator getRouteFrom: startLocation to: destinationLocation by: transportationMode]
-		on: SMAGeoServiceError
-		do: [:error |
-			self mapConfigurator showLocations: { startLocation . destinationLocation }.
-			self inform: error userMessage.
-			^ self].
-	
-	self mapConfigurator displayRoute: newRoute.
-	self route: newRoute;
-		hasSearched: true;
-		changed: #buildSidebarTopChildren
+	(startTarget isNil or: [destinationTarget isNil]) ifTrue: [
+		^ self inform: 'Bitte Start und Destination auswählen.'].
+	startTarget = destinationTarget ifTrue: [
+		^ self inform: 'Start und Destination sind identisch.'].
+
+	routeLine := self routingGraph
+		routeFrom: startTarget
+		to: destinationTarget
+		inMap: self tiledMapMorph.
+	routeLine ifNil: [^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
+
+	self tiledMapMorph route: routeLine.
+	self route: routeLine.
+	self hasSearched: true.
+	self tiledMapMorph changed.
+	self changed: #buildSidebarTopChildren

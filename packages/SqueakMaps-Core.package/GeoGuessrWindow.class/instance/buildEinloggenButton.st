@@ -2,7 +2,7 @@ building
 buildEinloggenButton
 
 	self einloggenButton: (PluggableButtonMorph new
-		label: 'Lösung einloggen';
-		target: [self stopTimer];
+		label: 'Log in guess';
+		target: [self handleEinloggenButton];
 		actionSelector: #value;
 		yourself)

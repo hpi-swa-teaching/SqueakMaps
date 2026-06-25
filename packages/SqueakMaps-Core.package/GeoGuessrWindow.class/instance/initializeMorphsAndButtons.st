@@ -6,4 +6,11 @@ initializeMorphsAndButtons
 		pictureMorph: PictureMorph new;
 		timerMorph: TimerMorph new;
 		buildStartButton;
-		buildEinloggenButton
+		buildEinloggenButton;
+		buildInfoMorph;
+		buildInfoMorph2;
+		buildQuitButton;
+		buildSingleplayerButton;
+		buildMultiplayerButton;
+		buildLeaderboardButton;
+		buildCloseButton

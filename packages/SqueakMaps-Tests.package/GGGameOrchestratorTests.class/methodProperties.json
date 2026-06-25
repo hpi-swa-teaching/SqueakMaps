@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JC 6/13/2026 13:52",
+		"testAdvanceThroughAllRoundsEndsGame" : "JC 6/13/2026 13:58",
+		"testCloserGuessScoresHigher" : "JC 6/13/2026 13:55",
+		"testInitialStateIsStart" : "JC 6/13/2026 13:53",
+		"testStartGameEntersPlaying" : "JC 6/13/2026 13:54",
+		"testSubmitExactGuessGivesMaxScore" : "JC 6/13/2026 13:55",
+		"testTotalScoreAccumulates" : "KP 6/23/2026 16:00",
+		"testWeightIncreasesScore" : "JC 6/13/2026 13:56",
+		"testZeroScoreBeyondMaxDistance" : "JC 6/13/2026 13:57" } }

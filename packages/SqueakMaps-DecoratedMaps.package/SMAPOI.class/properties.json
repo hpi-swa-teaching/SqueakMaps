@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"levels",
+		"timeInfos" ],
+	"name" : "SMAPOI",
+	"pools" : [
+		 ],
+	"super" : "SMAPoint",
+	"type" : "normal" }

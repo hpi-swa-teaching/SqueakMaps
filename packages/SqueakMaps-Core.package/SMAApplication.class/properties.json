@@ -19,7 +19,12 @@
 		"mapConfigurator",
 		"bingApi",
 		"thunderforestMapsApi",
-		"remainingSeconds" ],
+		"remainingSeconds",
+		"selectedCampusDetailTarget",
+		"mensaMenuAPI",
+		"destinationRouteSelectionIndex",
+		"routingGraph",
+		"startRouteSelectionIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

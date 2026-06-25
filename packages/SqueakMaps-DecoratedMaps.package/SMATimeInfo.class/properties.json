@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"value" ],
+	"name" : "SMATimeInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

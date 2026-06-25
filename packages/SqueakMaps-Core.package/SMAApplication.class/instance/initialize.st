@@ -1,17 +1,24 @@
-initialize-release
+building
 initialize
 
+	| osmAssetName osmStream routingOsmStream |
 	super initialize.
-	self 
-		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile:
-			(SMADecoratedMapMorph readStreamForOSMAssetNamed: 'assets/osm/hpi-k.osm'));
+	osmAssetName := 'assets/osm/hpi-k-campus-only.osm'.
+	osmStream := SMADecoratedMapMorph readStreamForOSMAssetNamed: osmAssetName.
+	routingOsmStream := SMADecoratedMapMorph readStreamForOSMAssetNamed: osmAssetName.
+	self
+		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile: osmStream);
+		routingGraph: nil;
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
-		currentView: #search;
+		currentView: #directions;
 		bingApi: SMABingMapsApi new;
-		thunderforestMapsApi: SMAThunderforestMapsApi new.
+		thunderforestMapsApi: SMAThunderforestMapsApi new;
+		mensaMenuAPI: SMAOpenMensaMenuAPI new;
+		startRouteSelectionIndex: 0;
+		destinationRouteSelectionIndex: 0.
 
-	self tiledMapMorph onDoubleClickAction: [:aPoint | 
-		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)]
-	
-	
+	self tiledMapMorph onDoubleClickAction: [:aPoint |
+		self searchLocationFromCoordinates: (SMAMapConfigurator worldPosToGeoCoordinates: aPoint)].
+	self tiledMapMorph onOverlayClickAction: [:overlay |
+		self selectCampusDetailTarget: overlay model]

@@ -1,0 +1,1 @@
+Represents one OpenMensa meal with display helpers for campus detail panels.

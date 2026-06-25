@@ -1,9 +1,8 @@
 as yet unclassified
 extractPoints: anXMLRoot
 
-	| points rooms |
+	| points |
 	points := Dictionary new.
-	rooms := OrderedCollection new.
 	anXMLRoot tagsNamed: #node do: [:p | | point |
 		point := SMAPoint new
 			id: (p attributeAt: #id) asInteger;

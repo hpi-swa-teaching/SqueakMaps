@@ -2,12 +2,15 @@ initialization
 initialize
 
 	super initialize.
+	leaderboard := Leaderboard current.
 	self
 		applyUserInterfaceTheme;
 		setLabel: 'GeoGuessr' asString;
 		initializeMorphsAndButtons;
 		focusCampus;
-		initializeFrames;
 		initializeGuessing;
+		initializeGame;
+		initializeFrames;
 		initializeWindow;
+		refreshForState;
 		openInWorld

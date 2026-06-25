@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-TiledMaps",
+	"classinstvars" : [
+		"Instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SMALocalTileSource",
+	"pools" : [
+		 ],
+	"super" : "SMAMapTileSource",
+	"type" : "normal" }

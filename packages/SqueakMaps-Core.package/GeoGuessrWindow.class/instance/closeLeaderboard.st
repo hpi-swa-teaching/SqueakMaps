@@ -1,0 +1,4 @@
+leaderboard
+closeLeaderboard
+
+	leaderboardBackground delete

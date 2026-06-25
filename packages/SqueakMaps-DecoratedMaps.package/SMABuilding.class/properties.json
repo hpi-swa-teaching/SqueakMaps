@@ -8,7 +8,9 @@
 	"instvars" : [
 		"name",
 		"buildingType",
-		"points" ],
+		"points",
+		"poiIds",
+		"timeInfos" ],
 	"name" : "SMABuilding",
 	"pools" : [
 		 ],
