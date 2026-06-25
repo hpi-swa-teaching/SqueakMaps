@@ -14,7 +14,6 @@
 		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23",
 		"testSelectingBuildingSetsCampusDetailTarget" : "AS 6/8/2026 11:12",
 		"testSelectingCampusDetailTargetKeepsRouteStart" : "AS 6/25/2026 18:02",
-		"testSelectingSearchSuggestionOpensDetail" : "AS 6/20/2026 13:54",
 		"testUseSelectedDetailTargetAsStart" : "AS 6/25/2026 18:06",
 		"testSelectingRoomReplacesCampusDetailTarget" : "AS 6/8/2026 11:15",
 		"testSearchSuggestionFiltering" : "AS 6/20/2026 13:59",
