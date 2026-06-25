@@ -1,9 +1,7 @@
 as yet unclassified
 isRoutingWay: anXMLElement
 
-	| indoor highway routing area |
-	routing := self tagValueNamed: 'sma:routing' in: anXMLElement ifAbsent: [nil].
-	routing = 'yes' ifTrue: [^ true].
+	| indoor highway area |
 	area := self tagValueNamed: 'area' in: anXMLElement ifAbsent: [nil].
 	area = 'yes' ifTrue: [^ false].
 	highway := self tagValueNamed: 'highway' in: anXMLElement ifAbsent: [nil].

@@ -1,0 +1,4 @@
+building
+defaultStartRouteTarget
+
+	^ self defaultStartPoint

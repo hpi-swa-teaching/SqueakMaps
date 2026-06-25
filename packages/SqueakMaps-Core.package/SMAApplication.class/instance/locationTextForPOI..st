@@ -6,4 +6,4 @@ locationTextForPOI: aPOI
 	room ifNotNil: [^ room ref, ' / Etage ', room level asString].
 	building := self buildingForPOI: aPOI.
 	building ifNotNil: [^ building detailTitle].
-	^ 'unbekannter Standort'
+	^ nil
