@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"advanceRound" : "KP 6/23/2026 22:21",
+		"advanceRound" : "JC 6/25/2026 14:08",
 		"buildResultFor:" : "KP 6/23/2026 17:44",
 		"currentLevel" : "JC 6/13/2026 12:12",
 		"currentPlayer" : "KP 6/23/2026 14:59",
-		"currentRoundNumber" : "KP 6/24/2026 10:32",
+		"currentRoundNumber" : "JC 6/25/2026 14:21",
 		"initialize" : "JC 6/13/2026 11:33",
 		"isEnded" : "JC 6/13/2026 11:48",
+		"isLastTurn" : "JC 6/25/2026 14:37",
 		"isEvaluating" : "JC 6/13/2026 11:46",
 		"isMultiplayer" : "KP 6/24/2026 09:40",
 		"isMultiplayer:" : "KP 6/24/2026 09:40",

@@ -5,7 +5,7 @@ showEvaluatingControls
 	self startButton visible: false.
 	self quitButton visible: false.
 	self einloggenButton
-		label: (gameOrchestrator levelManager hasMoreLevels
-			ifTrue: ['Next round']
-			ifFalse: ['End game']);
+		label: (gameOrchestrator isLastTurn
+			ifTrue: ['End game']
+			ifFalse: ['Next round']);
 		visible: true
