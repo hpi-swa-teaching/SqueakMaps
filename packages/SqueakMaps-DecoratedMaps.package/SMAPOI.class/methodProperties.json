@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addTimeInfo:" : "AS 6/18/2026 12:15",
 		"containsPixel:forMap:" : "AS 6/16/2026 10:50",
 		"displayName" : "Samuel Bis 6/17/2026 21:58",
 		"drawOn:forMap:" : "AS 6/18/2026 11:20",
+		"hasTimeInfos" : "AS 6/18/2026 12:17",
 		"image" : "kong 6/10/2026 23:07",
 		"levels" : "kong 6/10/2026 21:34",
 		"levels:" : "kong 6/12/2026 08:30",
 		"model" : "AS 6/16/2026 10:50",
 		"shouldDrawOn:" : "AS 6/18/2026 11:20",
-		"typeName" : "Samuel Bis 6/18/2026 06:53",
-		"addTimeInfo:" : "AS 6/18/2026 12:15",
-		"hasTimeInfos" : "AS 6/18/2026 12:17",
 		"timeInfos" : "AS 6/18/2026 12:19",
-		"timeInfos:" : "AS 6/18/2026 12:21" } }
+		"timeInfos:" : "AS 6/18/2026 12:21",
+		"typeName" : "Samuel Bis 6/18/2026 06:53" } }
