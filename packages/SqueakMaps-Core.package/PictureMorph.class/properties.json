@@ -13,7 +13,7 @@
 		"picture",
 		"loader",
 		"bild",
-		"originalImage",
+		"unscaledImage",
 		"coverMode" ],
 	"name" : "PictureMorph",
 	"pools" : [

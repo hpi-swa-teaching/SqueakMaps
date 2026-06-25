@@ -9,9 +9,20 @@
 
 ![SqueakMaps GUI][img-dir]
 
-_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT22-12](#Team). It offers satellite imagery, as well as various street maps from [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url]. Routes from one location to another are calculated using [OpenRouteService][ors-url], which in addition provides distance and time information for different vehicles.
+_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT26-G06](#Team), focused on the **HPI campus**. It is built on top of the legacy [SqueakMaps][legacy-url] project by SWT22-12 and SWT20-11, which provides the foundational map infrastructure including satellite imagery, street maps from [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url], and routing via [OpenRouteService][ors-url].
 
-The project was completely build with [Squeak/Smalltalk][squeak-url] and is based on the legacy project [TiledMaps][tiledmaps-url] by [Tony Garnock-Jones][tony-jones-url].
+The current development effort adds HPI-specific functionality on top of that foundation. **Scope is intentionally limited to the development of features**; not exhaustive cataloguing of the entire campus.
+
+### Features
+
+- **Buildings & Rooms** -> HPI buildings drawn as polygons with room-level detail at higher zoom; floor selection via global floor variable; accessibility-aware color palette
+- **GeoGuesser** -> HPI campus edition (Campus 1, 2, 3); timer, pin-based guesses, scoring by time and accuracy; multiplayer via pass-and-play (no network server required)
+- **Find Nearest** -> locate nearest room, person, or point of interest
+- **Opening Hours** -> rooms, persons, and facilities
+- **Mensa Widget** -> canteen information embedded in the map view
+- **Routing** -> routes calculated via [OpenRouteService][ors-url]
+
+> **Focus area:** Haus K for building/room mapping; ABC building for POIs (e.g. Studiref). Campus 1, 2, 3 for GeoGuesser.
 
 ### Prerequisites
 
@@ -40,13 +51,15 @@ To open up a new window in your image simply go to _Apps > Squeak Maps_, or run 
 SMAApplication open.
 ```
 
-**In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire you're own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] or [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
+**In order to use _Bing_, _Thunderforest_ and _OpenRouteServices_ you have to aquire your own API-keys either from [Bing-Maps][bing-maps-url], [Thunderforest][thunderforest-url] or [OpenRouteServices][ors-url]. [OpenStreetMaps](osm_url) can be used without a key.**
 
 When using an API for the first time a window will popup requesting the corresponding key. After that your key will be saved. You can change these using the `manage api keys` button.
 
 ## Contributing
 
-Browser Categories of interest are:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, PR rules, and rebase setup.
+
+Browser Categories of interest:
 
 * SqueakMaps-Core
 * SqueakMaps-Tests
@@ -54,9 +67,9 @@ Browser Categories of interest are:
 * SqueakMaps-GeoServices
 * (BaselineOfSqueakMaps)
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
-
 ## Roadmap
+
+Feature freeze: **29.06.2026** — bug fixes only after that date.
 
 Check out our [Roadmap][project-url] and [Issues][issues-url].
 
@@ -66,11 +79,23 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 
 ## Acknowledgements
 
-Legacy project by [Tony Garnock-Jones][tony-jones-url].
+Legacy project originally by [Tony Garnock-Jones][tony-jones-url], extended by SWT22-12 and SWT20-11 (see [legacy project][legacy-url]).
 
 Special thanks to [Theresa (phoeinx)](https://github.com/phoeinx), [Patrick R (codeZeilen)](https://github.com/codeZeilen) and [Paula (Paula-Kli)](https://github.com/Paula-Kli) for the support.
 
 ## Team
+
+SWT26-G06:
+* [KerenPi](https://github.com/KerenPi)
+* [alexzanco](https://github.com/alexzanco)
+* [Helena2006](https://github.com/Helena2006)
+* [DanielC04](https://github.com/DanielC04)
+* [JostClausen](https://github.com/JostClausen)
+* [samuelbiasgit](https://github.com/samuelbiasgit)
+* [kong-35](https://github.com/kong-35)
+
+<details>
+<summary>Legacy teams</summary>
 
 SWT22-12:
 * [TimRiedel](https://github.com/TimRiedel)
@@ -86,6 +111,8 @@ SWT20-11:
 * [MartenMIK](https://github.com/MartenMIK)
 * [Schirmchens](https://github.com/Schirmchens)
 * [BennytheBomb](https://github.com/BennytheBomb)
+
+</details>
 
 ## Google Sheets
 
@@ -104,7 +131,8 @@ https://docs.google.com/spreadsheets/d/1H8KeyrBITCSXGmxg7X0JzUf-dQI6P_TVylMv7TXx
 [mtf-url]: https://github.com/hpi-swa-teaching/Morphic-Testing-Framework
 [tiledmaps-url]: http://www.squeaksource.com/TiledMaps.html
 [tony-jones-url]: http://www.squeaksource.com/@ieeBQfgrendEEft9/oZWC2ZTV?13
-[project-url]: https://github.com/hpi-swa-teaching/SqueakMaps/projects
+[legacy-url]: https://github.com/hpi-swa-teaching/SqueakMaps
+[project-url]: https://github.com/orgs/hpi-swa-teaching/projects/75
 [issues-url]: https://github.com/hpi-swa-teaching/SqueakMaps/issues
 [issues-shield]: https://img.shields.io/github/issues/hpi-swa-teaching/SqueakMaps
 [forks-shield]: https://img.shields.io/github/forks/hpi-swa-teaching/SqueakMaps
