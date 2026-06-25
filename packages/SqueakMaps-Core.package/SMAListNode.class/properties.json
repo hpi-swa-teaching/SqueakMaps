@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"target",
+		"children" ],
+	"name" : "SMAListNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
