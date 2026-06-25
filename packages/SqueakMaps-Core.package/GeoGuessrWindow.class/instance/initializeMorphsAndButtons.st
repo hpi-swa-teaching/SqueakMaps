@@ -8,4 +8,9 @@ initializeMorphsAndButtons
 		buildStartButton;
 		buildEinloggenButton;
 		buildInfoMorph;
-		buildInfoMorph2
+		buildInfoMorph2;
+		buildQuitButton;
+		buildSingleplayerButton;
+		buildMultiplayerButton;
+		buildLeaderboardButton;
+		buildCloseButton

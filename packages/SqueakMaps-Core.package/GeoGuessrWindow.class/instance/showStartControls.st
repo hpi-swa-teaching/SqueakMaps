@@ -2,4 +2,6 @@ game flow
 showStartControls
 
 	self startButton label: 'Start game'; visible: true.
-	self einloggenButton visible: false
+	self einloggenButton visible: false.
+	self quitButton visible: false
+	

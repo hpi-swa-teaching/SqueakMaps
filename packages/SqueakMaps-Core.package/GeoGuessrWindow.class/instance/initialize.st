@@ -2,6 +2,7 @@ initialization
 initialize
 
 	super initialize.
+	leaderboard := Leaderboard current.
 	self
 		applyUserInterfaceTheme;
 		setLabel: 'GeoGuessr' asString;
@@ -12,4 +13,6 @@ initialize
 		initializeFrames;
 		initializeWindow;
 		refreshForState;
-		openInWorld
+		openInWorld;
+		extent: 2100 @ 1200;
+		position: 700 @ 300.
