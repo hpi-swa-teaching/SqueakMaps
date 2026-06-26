@@ -64,9 +64,9 @@ Double-click on a location in the map area (or search for a loaction). A red pin
 **Manage Categories:**\
 On the left side of the Application the upper white box shows a list of your pin-categories. \
 By right-clicking on a category or in the box area a drop-down menue appears with the options to <u>*Add new Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>. Make sure that only one category is selected (highlighted in blue); if multiple rows are selected (highlighted in blue), the drop-down menu will not appear.\
-* <u>*Add new Category*</u>: Choose a name for your new category. It is not possible to have two categories with the same name.\
-* <u>*Rename Category*</u>: You can not rename or remove the *Uncategorized* category.\ 
-* <u>*Remove Category*</u>: When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.\
+* <u>*Add new Category*</u>: Choose a name for your new category. It is not possible to have two categories with the same name.
+* <u>*Rename Category*</u>: You can not rename or remove the *Uncategorized* category.
+* <u>*Remove Category*</u>: When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.
 
 
 **Save/ Categorize Pins:**\
@@ -76,7 +76,7 @@ By left-clicking on a category in the upper white box you select the respective 
 
 **Remove Pins & Rename Pins:**\
 If a pin has been saved to a category, it appears below its category in the upper white box.\
-By right-clicking on a pin a drop-down menue appears with the options to <u>*Change Pin Category*</u>, <u>*Rename Pin*</u>, <u>*Remove Pin*</u>.\
+By right-clicking on a pin a drop-down menue appears with the options to <u>*Change Pin Category*</u>, <u>*Rename Pin*</u>, <u>*Remove Pin*</u>.
 * <u>*Change Pin Category*</u>: Choose the category to which you want to move the pin.
 * <u>*Rename Pin*</u>: You cannot rename a pin to an already existing city name or alias. Note that personalized names are not searchable via the search bar — you will need to remember the original name.\
 * <u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.\
@@ -91,11 +91,12 @@ Once you searched for a location the <u>*Directions*</u> button appears below th
 
 **Routing Set Up:**\
 To be able to route you need to connect to an API.\
-In the lower left corner click on <u>*Manage APIs*</u>. A drop-down menue opens with the buttons <u>*Select API*</u> and <u>*API Key*</u>.\
+In the lower left corner click on <u>*Manage APIs*</u>. A drop-down menue opens with the buttons <u>*Select API*</u> and <u>*API Key*</u>.
 * <u>*Select API*</u>: Choose one of the APIs available (recommended *OpenStreetMaps*).
 * <u>*API Key*</u>: Add an API key for the API you selected. You have to generate an API key via the website of the respective API (note that some APIs are not free to use).
 
 **Route (Routing Interface - Editing Window):**\
+Option 1:
 * First, search for a hop/location in the search bar or double-click in the map to select a pin.
 * Then click on <u>*Directions*</u>.
 * A new interface opens that allows you to specify your route. 
@@ -113,8 +114,11 @@ In the lower left corner click on <u>*Manage APIs*</u>. A drop-down menue opens 
 
 * The route will appear on the map. Each section of the route has a different color allowing you to better distinguish them.
 
+Option 2:\
+From the Start Interface select from your saved pins those that shall be part of a route. Make zure all these pins are highlighted in blue. Right-click and find the option to <u>*Route Selected Pins*</u>.
+
 **Export and Save Routes:**\
-Configure the route, then click on <u>*Go*</u> or <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button in the lower-right corner of the white box. A drop-down menue appears where you can select <u>*Export*</u> or <u>*Save*</u>.\
+Configure the route, then click on <u>*Go*</u> or <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button in the lower-right corner of the white box. A drop-down menue appears where you can select <u>*Export*</u> or <u>*Save*</u>.
 * <u>*Export*</u>: Click here to export the route and save it in *.gpx* format on your device.
 * <u>*Save*</u>: Click here to save the route. Name your route as desired. When you save a route with an existing name, the respective route will be updated. You cannot have two routes with the same name.
 Saved routes appear in the lower white box in the first UI window of the application.
@@ -136,6 +140,6 @@ By left-clicking on a route in the lower white box you select the respective rou
 ![SqueakMaps Routing GUI][img-route]
 
 
- [img-start]: img/SqueakMaps_StartGUI.png
- [img-pins]: img/SqueakMaps_SafePins.png
- [img-route]: img/SqueakMaps_Routing2.png
+ [img-start]: img/SqueakMaps_Start-UI.png
+ [img-pins]: img/SqueakMaps_PinsandCategories.png
+ [img-route]: img/SqueakMaps_Routing.png
