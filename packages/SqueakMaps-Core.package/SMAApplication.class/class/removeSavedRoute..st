@@ -1,5 +1,5 @@
 accessing
 removeSavedRoute: aCollectionOfRoutes
-
-	SavedRoutes remove: aCollectionOfRoutes ifAbsent: []
+	
+		SavedRoutes remove: aCollectionOfRoutes ifAbsent: []
 	

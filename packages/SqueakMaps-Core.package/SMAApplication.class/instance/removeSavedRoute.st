@@ -2,5 +2,7 @@ category management
 removeSavedRoute
 
 	| selectedRoute |
-	selectedRoute := (self routeSelectionList) first.	
-	self class removeSavedRoute: (self getSelectedSavedRoute first).
+	selectedRoute := SavedRoutes detect: [:elem | elem routeTitle = self getSelectedSavedRoute first].
+	self class removeSavedRoute: selectedRoute.
+	self changed: #savedRoutes.
+	

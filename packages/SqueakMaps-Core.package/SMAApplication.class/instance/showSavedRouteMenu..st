@@ -1,12 +1,14 @@
 building
 showSavedRouteMenu: aMenu
 
-	"check if any index is selected doesnt work yet"
-	(self routeSelectionList isEmpty) ifTrue: [^ nil].
+	
+	(self getSelectedSavedRoute isEmpty) ifTrue: [^nil].
+	(self getSelectedSavedRoute size >= 2) ifTrue: [self inform: 'Please only select one route'. ^nil].
 
 	aMenu
 		 addTitle: 'Route Options';
-		 add: 'Remove Route' target: self selector: #removeSavedRoute;
-		 add: 'Rename Route' target: self selector: #renameSavedRoute.
+		 add: 'Load Route' target: self selector: #showSavedRoute;
+		 add: 'Rename Route' target: self selector: #renameSavedRoute;
+		 add: 'Remove Route' target: self selector: #removeSavedRoute.
 	
 	^ aMenu
