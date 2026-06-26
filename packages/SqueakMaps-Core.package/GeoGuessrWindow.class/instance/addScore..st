@@ -1,5 +1,5 @@
 leaderboard
-askForNameAndAddScore: aScore
+addScore: aScore
 
 	| name entry |
 	name := UIManager default request: 'Name eingeben:'.
@@ -10,5 +10,4 @@ askForNameAndAddScore: aScore
 	entry playerName: name.
 	entry score: aScore.
 	
-	leaderboard addEntry: entry.
-	self showLeaderboard
+	leaderboard addEntry: entry
