@@ -14,5 +14,4 @@ addSelectedPin
 	self routes isEmpty ifFalse: [
 	self mapConfigurator displayRoutes: self routes].
 
-	"self changed: #hopSearchInput."
 	self changed: #hopLocationLabels.
