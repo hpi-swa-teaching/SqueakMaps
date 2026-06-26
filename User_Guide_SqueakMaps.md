@@ -63,13 +63,13 @@ Double-click on a location in the map area (or search for a loaction). A red pin
 
 **Manage Categories:**\
 On the left side of the Application the upper white box shows a list of your pin-categories. \
-By right-clicking on a category or in the box area a drop-down menue appears with the options to <u>*Add new Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>. Make sure that only one category is selected (highlighted in blue); if multiple rows are selected (highlighted in blue), the drop-down menu will not appear.\
+By right-clicking on a category or in the box area a drop-down menue appears with the options to <u>*Add new Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>. Make sure that only one category is selected (highlighted in blue); if multiple rows are selected (highlighted in blue), the drop-down menu will not appear.
 * <u>*Add new Category*</u>: Choose a name for your new category. It is not possible to have two categories with the same name.
 * <u>*Rename Category*</u>: You can not rename or remove the *Uncategorized* category.
 * <u>*Remove Category*</u>: When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.
 
 
-**Save/ Categorize Pins:**\
+**Save & Categorize Pins:**\
 To save a pin set a pin an click on <u>*Save Pin*</u>. Save the pin to one of your categories or the default *Uncategorized* category. A pin/location can only be part of one category.\
 By left-clicking on a category in the upper white box you select the respective category and all of its pins will appear on the map. You can select multiple categories to be shown simultaneously. You can also select individual pins only to show.
 
@@ -78,8 +78,8 @@ By left-clicking on a category in the upper white box you select the respective 
 If a pin has been saved to a category, it appears below its category in the upper white box.\
 By right-clicking on a pin a drop-down menue appears with the options to <u>*Change Pin Category*</u>, <u>*Rename Pin*</u>, <u>*Remove Pin*</u>.
 * <u>*Change Pin Category*</u>: Choose the category to which you want to move the pin.
-* <u>*Rename Pin*</u>: You cannot rename a pin to an already existing city name or alias. Note that personalized names are not searchable via the search bar — you will need to remember the original name.\
-* <u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.\
+* <u>*Rename Pin*</u>: You cannot rename a pin to an already existing city name or alias. Note that personalized names are not searchable via the search bar — you will need to remember the original name.
+* <u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.
 
 **Directions:**\
 Once you searched for a location the <u>*Directions*</u> button appears below the search bar.
