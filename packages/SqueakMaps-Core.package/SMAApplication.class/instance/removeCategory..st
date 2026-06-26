@@ -9,4 +9,5 @@ removeCategory: aCategory
 				self showRemoveCategoryMenu: aCategory.
 				^self.
 			].
+	self class removePinCategory: aCategory.
 	self changed: #items.
