@@ -7,7 +7,7 @@ showSavedRoute
 	
 	
 	self mapConfigurator displayRoutes: selectedRoute routeCollection.
-	self hopLocations: (selectedRoute hops).
+	self hopLocations: (selectedRoute hops collect: [:h | h copy]).
 	self routes: selectedRoute routeCollection.
 	
 	self switchToSavedRouteDirectionsView.
