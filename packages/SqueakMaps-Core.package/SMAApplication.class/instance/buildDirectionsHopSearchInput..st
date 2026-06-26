@@ -11,6 +11,7 @@ buildDirectionsHopSearchInput: aBuilder
 			aBuilder pluggableInputFieldSpec new
 				model: self;
 				getText: #hopSearchInput;
+				setText: #submitHopSearchInput:;
 				editText: #hopSearchInput:;
 				askBeforeDiscardingEdits: false;
 				help: 'Add Hop...';

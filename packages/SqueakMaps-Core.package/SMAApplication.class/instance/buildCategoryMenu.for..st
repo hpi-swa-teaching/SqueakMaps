@@ -4,7 +4,7 @@ buildCategoryMenu: aMenu for: aCategory
 	aMenu
 		addTitle: 'Category Options'.
 	aMenu
-		add: 'Add new category'
+		add: 'Add new Category'
 		target: self
 		selector: #addCategory.
 	aMenu 
