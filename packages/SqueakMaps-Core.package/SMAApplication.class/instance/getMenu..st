@@ -15,5 +15,7 @@ getMenu: aMenu
 				selectedItem := self class savedCategories detect: [:c | c title = (self items at: index)].
 				self buildCategoryMenu: aMenu for: selectedItem
 				]
+		]
+	ifFalse: [
 		].	
 	^ aMenu
