@@ -7,4 +7,6 @@ uncategorizePins: aRemovedCategory
 		pin category = aRemovedCategory ifTrue:[
 			pin category: defaultCategory.
 			]
-		]
+		].
+	self class removePinCategory: aRemovedCategory.
+	self changed: #items.
