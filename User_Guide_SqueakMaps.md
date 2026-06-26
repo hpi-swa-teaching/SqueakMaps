@@ -3,7 +3,7 @@
 Squeak Maps displays the world map to users. It is an interactive application that allows users to:
 - zoom
 - set and categorize pin
-- route between locations
+- route between multiple locations
 - and much more...
 
 ## First Time Installation -- Make the Map Work :)
@@ -36,11 +36,9 @@ Squeak Maps displays the world map to users. It is an interactive application th
 To use the Application, proceed as follows:
 1. Open the Squeak Image
 2. In the top navigation bar click on <u>*Apps*</u> and choose <u>*SqueakMaps*</u>
-3. The App informs you about pins saved, confirm by clicking <u>*OK*</u>
-
-The following SqueakMaps interface opens:
-
-![SqueakMaps Sart GUI][img-start]
+3. The following SqueakMaps Application interface opens in an extra window:
+    ![SqueakMaps Sart GUI][img-start]
+    (you can resize the window if needed)
 
 
 # Map Funktions -- Use the Map as a Pro :)
@@ -52,73 +50,88 @@ Place the cursor in the map area and hold left-click to pan the map.
 
 **Zoom:**\
 Place the cursor in the map area and scroll to zoom.\
-Alternatively place the cursor in the map area and use the keyboard keys <u>+</u> and <u>-</u> to zoom.
+Alternatively, you can place the cursor in the map area and use the <u>+</u> and <u>-</u> keys to zoom in on the area the cursor is pointing to. To zoom in on the center of the current map view, place the cursor outside the map area and press the <u>+</u> and <u>-</u> keys.
 
 **Search:**\
-Search for a location by typing its name in the field in the top left corner.
+To search for a location, enter its name in the search bar in the upper-left corner and click the <u>*Search*</u> button right next to it, or press the <u>Enter</u> key. Below the search bar a detailed name or address appears. \
+You can search for any location, city, lake, or address you like.
 
 ## Pins & Categories
 
-**Manage Categories:**\
-On the left side of the Application the white box shows your pin-categories. If you did not assign a category to a pin, the pin appears in *Uncategorized*. Below the list of your categories you have the option to <u>*Add Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u> by clicking the <u>*Manage Category*</u> button. (Currently, two categories can have the same name — choose wisely)
-When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.
-You can not rename or remove the *Uncategorized* category
-
 **Set Pins:**\
-Double-click on your chosen location in the map area (or search for the loaction). A pin will appear. 
+Double-click on a location in the map area (or search for a loaction). A red pin will appear.
+
+**Manage Categories:**\
+On the left side of the Application the upper white box shows a list of your pin-categories. \
+By right-clicking on a category or in the box area a drop-down menue appears with the options to <u>*Add new Category*</u>, <u>*Rename Category*</u> and <u>*Remove Category*</u>. Make sure that only one category is selected (highlighted in blue); if multiple rows are selected (highlighted in blue), the drop-down menu will not appear.\
+* <u>*Add new Category*</u>: Choose a name for your new category. It is not possible to have two categories with the same name.\
+* <u>*Rename Category*</u>: You can not rename or remove the *Uncategorized* category.\ 
+* <u>*Remove Category*</u>: When removing a category, you will be asked whether the pins in that category should be deleted or uncategorized.\
+
 
 **Save/ Categorize Pins:**\
-Set a pin an then click on <u>*Save Pin*</u>. Save the pin to one of your categories.\
-By selecting a category in the left sidebar, all of its pins show on the map. You can select multiple categories to be shown.\
-!! Currently, a pin/location can only be part of one category.
-By clicking on your categories, all the respective pins will appear on the map.
+To save a pin set a pin an click on <u>*Save Pin*</u>. Save the pin to one of your categories or the default *Uncategorized* category. A pin/location can only be part of one category.\
+By left-clicking on a category in the upper white box you select the respective category and all of its pins will appear on the map. You can select multiple categories to be shown simultaneously. You can also select individual pins only to show.
 
 
 **Remove Pins & Rename Pins:**\
-If a pin has been saved to a category, the left sidebar shows the option to <u>*Remove pin*</u>, <u>*Rename pin*</u> and <u>*Directions*</u>:\
-<u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.\
-<u>*Rename Pin*</u>: By clicking this button, you can give your pin a new name.\
-!! Note that you cannot search for that personalized name in the search bar (remember the original name).\
-<u>*Directions*</u>: Clicking here will navigate you to the routing option, where you can search for a route with the selected pin as your destination.
+If a pin has been saved to a category, it appears below its category in the upper white box.\
+By right-clicking on a pin a drop-down menue appears with the options to <u>*Change Pin Category*</u>, <u>*Rename Pin*</u>, <u>*Remove Pin*</u>.\
+* <u>*Change Pin Category*</u>: Choose the category to which you want to move the pin.
+* <u>*Rename Pin*</u>: You cannot rename a pin to an already existing city name or alias. Note that personalized names are not searchable via the search bar — you will need to remember the original name.\
+* <u>*Remove pin*</u>: By clicking this button, the pin will be removed from its category. Be careful.\
+
+**Directions:**\
+Once you searched for a location the <u>*Directions*</u> button appears below the search bar.
+<u>*Directions*</u>: Clicking here will navigate you to the routing option, where you can search for a route.
 
 ![SqueakMaps Pin GUI][img-pins]
 
 ## Routing
 
-**Routing:**\
-To be able to route you need to connect to an API.
-* In the lower left corner click on <u>*select API*</u> and choose one of those available (recommended *OpenStreetMaps*).
-* Next to the <u>*select API*</u> button is an <u>*API key*</u> button, where you need to add an API key for the API you selected.
-* You have to generate an API key via the website of the respective API (note that some APIs are not free to use).
+**Routing Set Up:**\
+To be able to route you need to connect to an API.\
+In the lower left corner click on <u>*Manage APIs*</u>. A drop-down menue opens with the buttons <u>*Select API*</u> and <u>*API Key*</u>.\
+* <u>*Select API*</u>: Choose one of the APIs available (recommended *OpenStreetMaps*).
+* <u>*API Key*</u>: Add an API key for the API you selected. You have to generate an API key via the website of the respective API (note that some APIs are not free to use).
 
-TO ROUTE:
-* First, search for a pin/location in the search bar
-* Then click on <u>*Directions*</u>
+**Route (Routing Interface - Editing Window):**\
+* First, search for a hop/location in the search bar or double-click in the map to select a pin.
+* Then click on <u>*Directions*</u>.
 * A new interface opens that allows you to specify your route. 
-* You can select a preferred *mode of transportation* (walk, bike, car). 
-* Further, you can add and remove the Hops of your Route.  You see a list of all the added Hops in the white window. The order of the Hops in this white window represents the order of your route. If you only chose two Hops, the first one will be the Start and the second one the Destination of your Route.
- 
-<u>*Add Hop*</u>: Type the name of your hop/location in the *Add Hop* field and click on this button to add the Hop to the list.\
-<u>*Remove Hop*</u>: First click on the Hop in the list and then click on this button to remove the selected Hop.\
+* You can select a preferred *mode of transportation* (Car, Bike, Walk). 
+* Further, you can add hops and pins, and remove the hops of your route. You see a list of all the added hops and pins in the white box. The order of the hops in this white window represents the order of your route. If you only choose two hops, the first one will be the Start and the second one the Destination of your Route.
+    * <u>*Add Hop*</u>: Type the name of your hop/location in the *Add Hop* field and click on this   button, or press the <u>Enter</u> key to add the hop to the list.
+    * <u>*Add Pin*</u>: Select the pin/location on the map and click on this button to add the pin to the list.
+    * <u>*Remove Hop*</u>: Click on the hop in the list and then click on this button to remove the selected Hop.
 
-* To reorder the route use drag'n'drop
+* To reorder the route Hops use drag'n'drop.
 * You can only configure routes that are reasonably reachable by car, bike or by walking. If two hops are too far apart, the application will inform you via a pop-up window (after you clicked on <u>*Go*</u>).
-* above the white window you see the length and time of your route
-
---> click <u>*Go*</u> to route the exact routing that the list shows\
---> click <u>*Find optimal Route*</u> to get the optimal (shortest) route that covers all your hops (note: the original order of your hosp in the white window does not change)\
+* <u>*Go*</u>: Click here to route the exact routing that the list shows.
+* <u>*Find optimal Route*</u>: click here to get the optimal (shortest) route that covers all your hops (note: the original order of your hosp in the white window does not change)
+* Above the white box you see the length and time of your route.
 
 * The route will appear on the map. Each section of the route has a different color allowing you to better distinguish them.
 
-TO SAVE ROUTES:
-* To save a route you first have to configure the route, then click on <u>*Go*</u> / <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button.
-* To manage your saved routes click on <u>*Saved Routes*</u>. Here you have the option to *show*, *rename* or *remove* a route.
+**Export and Save Routes:**\
+Configure the route, then click on <u>*Go*</u> or <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button in the lower-right corner of the white box. A drop-down menue appears where you can select <u>*Export*</u> or <u>*Save*</u>.\
+* <u>*Export*</u>: Click here to export the route and save it in *.gpx* format on your device.
+* <u>*Save*</u>: Click here to save the route. Name your route as desired. When you save a route with an existing name, the respective route will be updated. You cannot have two routes with the same name.
+Saved routes appear in the lower white box in the first UI window of the application.
 
-TO EXPORT ROUTES:
-* By clicking on the <u>*Export*</u> button you can export the route and save it in *.gpx* format on your device.
+**Exit the Routing Interface to see Saved Routes:**\
+To close the routing interface (editing window), click on the <u>*x*</u> (close) button in the upper right corner of the left sidebar.
 
-TO EXIT THE ROUTE INTERFACE:
-* To close the routing interface, click on the <u>*x*</u> (close) button in the upper right corner of the left sidebar.
+**Manage Save Routes:**\
+On the left side of the Application the lower white box shows a list of your saved Routes (Filter Routes).\
+By right-clicking on a route or in the box area a drop-down menue appears with the options to <u>*Load Route*</u>, <u>*Rename Route*</u> and <u>*Remove Route*</u>.
+* <u>*Load*</u>: Clicking here will take you back to the editing window.
+* <u>*Rename Route*</u>: You cannot have two routes with the same name.
+* <u>*Remove Route*</u>: Be careful there will be no warning before deletion.
+
+By left-clicking on a route in the lower white box you select the respective route to appear on the map. You can select multiple routes to be shown simultaneously.
+
+
 
 ![SqueakMaps Routing GUI][img-route]
 

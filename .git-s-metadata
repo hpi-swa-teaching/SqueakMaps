@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
