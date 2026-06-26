@@ -1,8 +1,7 @@
 pin management
 routeSelectedPins
 	
-	self hopLocations: (self collectSelectedVisiblePins).
 	self switchToDirectionsView.
-	
-	
-	
+	self hopLocations: (self collectSelectedVisiblePins).
+	self changed: #hopLocationLabels.
+	self changed: #hopLocations

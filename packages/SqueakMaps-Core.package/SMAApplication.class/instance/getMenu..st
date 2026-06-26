@@ -17,5 +17,6 @@ getMenu: aMenu
 				]
 		]
 	ifFalse: [
+		self buildPinRouteMenu: aMenu
 		].	
 	^ aMenu
