@@ -2,7 +2,7 @@ leaderboard
 addLeaderboardEntries
 
 	| y spacing |
-	y := leaderboardBackground height * 1.8.
+	y := leaderboardBackground height * 1.5.
 	spacing := leaderboardBackground height * 1.3.
 	
 	leaderboard entries doWithIndex: [:entry :index | | text |
