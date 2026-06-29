@@ -10,5 +10,3 @@ buildCategoryMultiSelectList: aBuilder
 		help: 'Select categories to show on the map.';
 		frame: (0 @ 0.35 corner: 1 @ 0.70);
 		yourself
-	
-	
