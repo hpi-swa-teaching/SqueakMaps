@@ -12,9 +12,9 @@
 		"testNoPinsSaved" : "KK 5/15/2026 12:27",
 		"testPlacePin" : "KK 5/15/2026 13:01",
 		"testRemovePin" : "KK 5/15/2026 10:38",
-		"testRenamePin" : "KK 6/23/2026 14:29",
-		"testRenamePinDuplicateAlias" : "KK 6/23/2026 14:46",
-		"testRenamePinEmptyString" : "KK 6/23/2026 14:30",
+		"testRenamePin" : "KK 6/29/2026 11:59",
+		"testRenamePinDuplicateAlias" : "KK 6/29/2026 12:08",
+		"testRenamePinEmptyString" : "KK 6/29/2026 12:08",
 		"testSaveIdenticalPins" : "KK 6/19/2026 12:04",
 		"testSavePin" : "KK 5/15/2026 12:46",
 		"testTransportationModeInput" : "TR 7/25/2022 18:46" } }

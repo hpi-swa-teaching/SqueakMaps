@@ -22,7 +22,7 @@ testRemoveCategoryUncategorizeAllPins
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
 	
-	item := menu items detect: [:m | m contents = 'Remove'].
+	item := menu items detect: [:m | m contents = 'Remove Category'].
 	
 	[ item target perform: item selector withArguments: item arguments.
 	] valueSupplyingAnswers: {{'What happens to the pins?'. 'Uncategorize all Pins within this category.'}.{'Are you sure?'. true} }.
