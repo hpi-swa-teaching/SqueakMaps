@@ -11,7 +11,7 @@ testRenameCategoryNoDuplicate
 	self model isSelected: 2 put: true.
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
-	item := menu items detect: [:m | m contents = 'Rename'].
+	item := menu items detect: [:m | m contents = 'Rename Category'].
 	
 	[ item target perform: item selector withArguments: item arguments.] 
 	valueSupplyingAnswers: { { 'New Name' . 'Uncategorized' }. { 'No duplicates allowed.' . #closeDialog} }.
