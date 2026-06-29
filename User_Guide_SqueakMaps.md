@@ -70,7 +70,7 @@ By right-clicking on a category or in the box area a drop-down menue appears wit
 
 
 **Save & Categorize Pins:**\
-To save a pin set a pin an click on <u>*Save Pin*</u>. Save the pin to one of your categories or the default *Uncategorized* category. A pin/location can only be part of one category.\
+To save a pin, set a pin and click on <u>*Save Pin*</u>. Save the pin to one of your categories or the default *Uncategorized* category. A pin/location can only be part of one category.\
 By left-clicking on a category in the upper white box you select the respective category and all of its pins will appear on the map. You can select multiple categories to be shown simultaneously. You can also select individual pins only to show.
 
 
@@ -115,7 +115,7 @@ Option 1:
 * The route will appear on the map. Each section of the route has a different color allowing you to better distinguish them.
 
 Option 2:\
-From the Start Interface select from your saved pins those that shall be part of a route. Make zure all these pins are highlighted in blue. Right-click and find the option to <u>*Route Selected Pins*</u>.
+From the Start Interface select from your saved pins those that shall be part of a route. Make sure all these pins are highlighted in blue. Right-click and find the option to <u>*Route Selected Pins*</u>.
 
 **Export and Save Routes:**\
 Configure the route, then click on <u>*Go*</u> or <u>*Find optimal Route*</u> and subsequently click the <u>*Save*</u> button in the lower-right corner of the white box. A drop-down menue appears where you can select <u>*Export*</u> or <u>*Save*</u>.
