@@ -22,7 +22,7 @@ testRenamePinDuplicateAlias
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
 	
-	item := menu items detect: [:m | m contents = 'Rename'].
+	item := menu items detect: [:m | m contents = 'Rename Pin'].
 
 	[ item target perform: item selector withArguments: item arguments.
 	] valueSupplyingAnswers: {{ 'New Name' . 'Berlin'}. { 'Can not rename to an existing alias.' . #closeDialog}}.
