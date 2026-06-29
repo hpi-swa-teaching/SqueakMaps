@@ -1,6 +1,6 @@
 category management
 toggleAllPinsForCategoryAt: anIndex
-	"Find category with title -> one to one mapping"
+
 	| selectedCategoryTitle selectedCategory |
 	selectedCategoryTitle := self items at: anIndex.
 	

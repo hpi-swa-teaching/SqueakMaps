@@ -2,7 +2,7 @@ building
 findOptimalRouteWithWaitingScreen
     | waitingScreen label mapBounds |
 
-    mapBounds := tiledMapMorph bounds.
+    mapBounds := self tiledMapMorph bounds.
 
     "overlay"
     waitingScreen := Morph new
@@ -11,7 +11,6 @@ findOptimalRouteWithWaitingScreen
         position: mapBounds origin;
         yourself.
 
-    "label"
     label := TextMorph new
         contents: 'Calculating route...';
         yourself.

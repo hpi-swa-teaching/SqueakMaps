@@ -1,4 +1,4 @@
 route management
 clearRoutes
 
-	routes := OrderedCollection new.
+	self routes: OrderedCollection new.

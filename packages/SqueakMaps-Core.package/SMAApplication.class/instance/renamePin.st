@@ -7,6 +7,6 @@ renamePin
 			self selectedPin alias: answer.
 			self clear.
 			self mapConfigurator
-				displayLocation: selectedPin;
-				focusLocation: selectedPin.
+				displayLocation: self selectedPin;
+				focusLocation: self selectedPin.
 		].
