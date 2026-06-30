@@ -6,6 +6,9 @@ returnToStartScreen
 	self currentGuess: nil.
 	gameOrchestrator reset.
 	self backButton visible: false.
+
+	"The end-of-game leaderboard overlay must not linger on the home screen."
+	leaderboardBackground ifNotNil: [leaderboardBackground delete].
 	self
 		removeMorph: self backButton;
 		removeMorph: self startButton;
