@@ -1,13 +1,12 @@
 leaderboard
 addScore: aScore
+	"Add a leaderboard entry for the score. Skips silently if the player declines to enter a name."
 
-	| name entry |
-	name := UIManager default request: 'Name eingeben:'.
-	
-	[name notNil and: [name size > 0 and: [name size <= 10]]] whileFalse: [name := UIManager default request: 'Name (1-10 Zeichen):'].
-	
-	entry := LeaderboardEntry new.
-	entry playerName: name.
-	entry score: aScore.
-	
-	leaderboard addEntry: entry
+	| name |
+
+	name := self promptPlayerName.
+	name ifNil: [^ self].
+	leaderboard addEntry: (LeaderboardEntry new
+		playerName: name;
+		score: aScore;
+		yourself)

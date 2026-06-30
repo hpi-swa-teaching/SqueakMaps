@@ -15,4 +15,7 @@ initializeWindowOnClick
 
 	tiledMapMorph gameHandler: self.
 	pictureMorph gameHandler: self.
-	self pictureMorph showImage: gameOrchestrator levelManager remainingLevels first imagePath
+	self pictureMorph showImage: gameOrchestrator levelManager remainingLevels first imagePath.
+
+	"Re-entering after a 'Back' must show the start controls (Start button) and a fresh timer again."
+	self refreshForState
