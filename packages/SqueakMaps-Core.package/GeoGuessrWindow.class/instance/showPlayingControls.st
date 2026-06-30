@@ -4,6 +4,7 @@ showPlayingControls
 
 	self startButton visible: false.
 	self quitButton visible: false.
+	self backButton visible: true.
 	self currentGuess
 		ifNil: [self einloggenButton visible: false]
 		ifNotNil: [self einloggenButton label: 'Log in guess'; visible: true]

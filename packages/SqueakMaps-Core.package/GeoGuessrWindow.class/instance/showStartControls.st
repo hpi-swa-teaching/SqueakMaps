@@ -3,5 +3,6 @@ showStartControls
 
 	self startButton label: 'Start game'; visible: true.
 	self einloggenButton visible: false.
-	self quitButton visible: false
+	self quitButton visible: false.
+	self backButton visible: false
 	
