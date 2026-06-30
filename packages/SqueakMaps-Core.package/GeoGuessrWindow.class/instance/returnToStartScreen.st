@@ -7,6 +7,12 @@ returnToStartScreen
 	gameOrchestrator reset.
 	self backButton visible: false.
 
+	"Restore the large 'cover' picture view. Otherwise the evaluation phase leaves the picture in
+	the shrunken 'contain' mode (mapIsLarge true), so the background keeps wide borders until the
+	next swapViews on game start."
+	self pictureMorph coverMode: true.
+	mapIsLarge := false.
+
 	"The end-of-game leaderboard overlay must not linger on the home screen."
 	leaderboardBackground ifNotNil: [leaderboardBackground delete].
 	self
