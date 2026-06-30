@@ -7,5 +7,4 @@ addCategory
 			category := SMAPinCategory new.
 			category title: answer.
 			self class addCategory: category.
-			self changed: #items.
-		]
+			self changed: #items.]
