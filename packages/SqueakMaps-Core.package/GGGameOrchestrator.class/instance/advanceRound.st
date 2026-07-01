@@ -2,9 +2,14 @@ game flow
 advanceRound
 
 	self isEvaluating ifFalse: [^ self].
-	levelManager hasMoreLevels
-		ifTrue: [
-			self currentPlayer ifTrue:[currentLevel := levelManager nextLevel.].
-			state := #playing.
-			isMultiplayer ifTrue:[currentPlayer := currentPlayer not]]
-		ifFalse: [state := #ended]
+	isMultiplayer ifTrue: [
+		state := #playing.
+	    self currentPlayer ifTrue:[
+	        levelManager hasMoreLevels 
+	            ifTrue: [currentLevel := levelManager nextLevel]
+	            ifFalse: [state := #ended]].
+	    currentPlayer := currentPlayer not]
+	ifFalse: [
+	    levelManager hasMoreLevels 
+	        ifTrue: [currentLevel := levelManager nextLevel. state := #playing]
+	        ifFalse: [state := #ended]].
