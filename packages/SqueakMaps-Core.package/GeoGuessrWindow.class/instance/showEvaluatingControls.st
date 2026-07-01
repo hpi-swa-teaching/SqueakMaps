@@ -8,5 +8,6 @@ showEvaluatingControls
 	self einloggenButton
 		label: (gameOrchestrator levelManager hasMoreLevels
 			ifTrue: ['Next round']
-			ifFalse: ['End game']);
+			ifFalse: ['End game'])
+		font: self geoGuessrButtonFont;
 		visible: true
