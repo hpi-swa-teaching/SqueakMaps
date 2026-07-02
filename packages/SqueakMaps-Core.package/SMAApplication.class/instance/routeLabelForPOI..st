@@ -6,5 +6,6 @@ routeLabelForPOI: aPOI
 	type := aPOI typeName.
 	suffix := aPOI displayName = type
 		ifTrue: ['']
-		ifFalse: [' – ', aPOI displayName].
-	^ 'POI: ', type, suffix, ' – ', location
+		ifFalse: [' - ', aPOI displayName].
+	location ifNotNil: [suffix := suffix, ' - ', location].
+	^ 'POI: ', type, suffix

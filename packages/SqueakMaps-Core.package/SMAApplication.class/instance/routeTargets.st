@@ -10,4 +10,5 @@ routeTargets
 		targets add: (self routeLabelForRoom: room) -> room].
 	self tiledMapMorph pointsOfInterest do: [:poi |
 		targets add: (self routeLabelForPOI: poi) -> poi].
+	targets add: 'Bahnhof Griebnitzsee' -> self defaultStartPoint.
 	^ targets

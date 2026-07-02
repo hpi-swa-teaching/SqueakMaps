@@ -1,0 +1,1 @@
+A lightweight node for the hierarchical (expandable) sidebar search list.

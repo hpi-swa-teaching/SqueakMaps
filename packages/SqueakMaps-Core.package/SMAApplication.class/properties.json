@@ -24,7 +24,9 @@
 		"mensaMenuAPI",
 		"destinationRouteSelectionIndex",
 		"routingGraph",
-		"startRouteSelectionIndex" ],
+		"startRouteSelectionIndex",
+		"searchSuggestionIndex",
+		"defaultStartPoint" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
