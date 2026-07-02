@@ -25,5 +25,10 @@ drawOn: aCanvas
 
 		self markers do: [:marker |
 			self duplicateAndDrawMarker: marker On: clippedCanvas].
+		
+		self shouldDrawRoomOverlays
+			ifTrue: [
+				self roomOverlaysForVisibleLevel do: [:overlay |
+					overlay drawLabelOn: clippedCanvas]].
 
 		self drawLevelSelectorOn: clippedCanvas]
