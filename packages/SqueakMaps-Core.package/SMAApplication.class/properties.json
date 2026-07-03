@@ -23,7 +23,6 @@
 		"selectedCampusDetailTarget",
 		"mensaMenuAPI",
 		"destinationRouteSelectionIndex",
-		"routingGraph",
 		"startRouteSelectionIndex",
 		"searchSuggestionIndex",
 		"defaultStartPoint",
