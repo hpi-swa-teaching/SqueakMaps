@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"builder" ],
+	"name" : "SMAApplicationBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

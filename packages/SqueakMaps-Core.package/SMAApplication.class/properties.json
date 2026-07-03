@@ -25,7 +25,8 @@
 		"visibleRoutes",
 		"routes",
 		"hopLocations",
-		"selectedHopIndex" ],
+		"selectedHopIndex",
+		"applicationBuilder" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
