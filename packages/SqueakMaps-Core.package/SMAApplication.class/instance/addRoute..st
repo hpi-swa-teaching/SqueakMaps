@@ -1,4 +1,4 @@
 accessing
 addRoute: aSMARoute
 
-	routes add: aSMARoute.
+	self routes add: aSMARoute.
