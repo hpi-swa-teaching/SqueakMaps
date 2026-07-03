@@ -1,4 +1,4 @@
-accessing
+category management
 savedCategories
 
 	SavedCategories ifNil: [SavedCategories := OrderedCollection new].

@@ -5,7 +5,8 @@ openAppPage
 		icon: (HelpIcons iconNamed: #mapPinIcon)
 		contents: 'OPEN THE APPLICATION
 ----------------------------------------------
+To use the Application, proceed as follows:
 
 1. Open the Squeak Image
 2. In the top navigation bar click on Apps and choose SqueakMaps
-3. The app informs you about saved pins, confirm by clicking OK'
+3. The SqueakMaps Application interface opens in an extra window.'

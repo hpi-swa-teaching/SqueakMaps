@@ -1,4 +1,4 @@
-accessing
+category management
 savedCategories: anOrderedCollectionOfCategories
 
 	SavedCategories := anOrderedCollectionOfCategories

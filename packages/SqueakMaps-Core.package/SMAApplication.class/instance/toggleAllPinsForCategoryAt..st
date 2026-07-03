@@ -1,12 +1,8 @@
 category management
 toggleAllPinsForCategoryAt: anIndex
-
-	| selectedCategoryTitle selectedCategory |
-	selectedCategoryTitle := self items at: anIndex.
 	
-	selectedCategory := self class savedCategories detect: [:cat | cat title = selectedCategoryTitle].
+	| selectedCategory |	
+	selectedCategory := self class savedCategories detect: [:cat | cat title = (self items at: anIndex)].
 	
 	1 to: ((self selectPinsForCategory: selectedCategory) size) do: [:i |
-		self isSelected: anIndex + i put: (self isSelected: anIndex)
-		]
-	
+		self isSelected: anIndex + i put: (self isSelected: anIndex)]

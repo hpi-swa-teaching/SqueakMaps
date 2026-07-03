@@ -1,26 +1,13 @@
-accessing
+category management
 renamePinCategory: aCategory
 	
 	| answer aNewCategory |
-	
-	aCategory isDefault ifTrue: [
-		self inform: 'Default category cannot be renamed'.
-		^self.
-		]. 
-			
+	aCategory isDefault ifTrue: [^ self inform: 'Default category cannot be renamed'.]. 
 	answer := UIManager default request: 'New Name'.
 	(answer = '') ifFalse: [ 
-			aNewCategory := SMAPinCategory new
-				title: answer;
-				isDefault: false;
-				yourself.
+			aNewCategory := self createNewCategory: answer.
 			(self addCategory: aNewCategory) ifTrue: [.
-				self savedPins do:[:pin |
-				pin category = aCategory ifTrue:[
-					pin category: aNewCategory.
-				]
-			].
-			SavedCategories remove: aCategory ifAbsent: [].
+				self categorizePinsFor: aCategory to: aNewCategory.
+			SavedCategories remove: aCategory ifAbsent: []
 		].
-	].
-	
+	]
