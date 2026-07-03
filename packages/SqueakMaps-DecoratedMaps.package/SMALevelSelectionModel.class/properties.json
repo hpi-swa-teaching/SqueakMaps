@@ -11,5 +11,5 @@
 	"name" : "SMALevelSelectionModel",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }

@@ -7,10 +7,9 @@
 	"commentStamp" : "Samuel Bis 7/3/2026 18:24",
 	"instvars" : [
 		"ways",
-		"points",
-		"pointIDToVertexIndex" ],
+		"points" ],
 	"name" : "SMAOSMRoutingGraphBuilder",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SMARoutingGraphBuilder",
 	"type" : "normal" }
