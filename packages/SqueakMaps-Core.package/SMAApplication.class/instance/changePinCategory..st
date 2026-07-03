@@ -1,17 +1,12 @@
 category management
 changePinCategory: aPin
-	| categories selectedCategory titleCollection|
-	
-	categories := self class savedCategories.
-	titleCollection := categories collect: [:p | p title].
 
-	selectedCategory  := UIManager default
-		chooseFrom: titleCollection
-		title: 'Select category'.
+	| selectedCategory titleCollection|	
+	titleCollection := self class savedCategories collect: [:p | p title].
 
-	"pressed cancel"
+	selectedCategory  := UIManager default chooseFrom: titleCollection title: 'Select category'.
 	selectedCategory = 0 ifTrue: [^ self ].
 
-	aPin category: (categories at: selectedCategory).
+	aPin category: (self class savedCategories at: selectedCategory).
 	self changed: #buildSearchPinPanelChildren.
 	self changed: #items.
