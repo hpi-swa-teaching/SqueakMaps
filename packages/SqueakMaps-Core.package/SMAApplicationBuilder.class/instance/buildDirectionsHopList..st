@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsHopList: aBuilder
 	
 	^ aBuilder pluggableListSpec new

@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsCancelButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

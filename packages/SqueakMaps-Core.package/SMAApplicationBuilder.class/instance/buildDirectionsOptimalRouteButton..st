@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsOptimalRouteButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

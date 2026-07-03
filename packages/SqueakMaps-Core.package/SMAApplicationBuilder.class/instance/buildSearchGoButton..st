@@ -1,4 +1,4 @@
-building
+building search bar
 buildSearchGoButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsTopRow: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

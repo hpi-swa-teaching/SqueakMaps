@@ -1,4 +1,4 @@
-building
+building search bar
 buildSearchPinPanelChildren
 
 	| children row |

@@ -1,4 +1,4 @@
-building
+building search bar
 buildSearchPinPanel: aBuilder
 	
 	^ aBuilder pluggablePanelSpec new

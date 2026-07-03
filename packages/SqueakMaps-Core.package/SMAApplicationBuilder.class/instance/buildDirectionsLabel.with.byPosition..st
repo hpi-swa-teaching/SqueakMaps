@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsLabel: aBuilder with: aLabel byPosition: aFrame
 
 	^ aBuilder pluggablePanelSpec new

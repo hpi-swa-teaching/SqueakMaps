@@ -1,4 +1,4 @@
-building
+building directions bar
 buildSidebarDirectionsChildren: aBuilder
 
 	| children |

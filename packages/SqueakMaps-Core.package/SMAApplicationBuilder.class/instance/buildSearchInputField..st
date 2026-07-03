@@ -1,4 +1,4 @@
-building
+building search bar
 buildSearchInputField: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new

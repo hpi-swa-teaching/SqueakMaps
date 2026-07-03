@@ -1,4 +1,4 @@
-building
+building search bar
 buildDirectionsHopSearchInput: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

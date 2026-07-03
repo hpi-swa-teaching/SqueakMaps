@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsWalkButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

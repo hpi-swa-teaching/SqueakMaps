@@ -1,4 +1,4 @@
-building
+building directions bar
 buildDirectionsRouteInformation: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
