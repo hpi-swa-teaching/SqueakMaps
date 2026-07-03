@@ -1,14 +1,13 @@
 building
 initialize
 
-	| osmAssetName osmStream routingOsmStream |
+	| osmAssetName osmStream |
 	super initialize.
 	osmAssetName := 'assets/osm/hpi-k-campus-only.osm'.
-	osmStream := SMADecoratedMapMorph readStreamForOSMAssetNamed: osmAssetName.
-	routingOsmStream := SMADecoratedMapMorph readStreamForOSMAssetNamed: osmAssetName.
+	osmStream := self readStreamForOSMAssetNamed: osmAssetName.
 	self
-		tiledMapMorph: (SMADecoratedMapMorph fromOSMFile: osmStream);
-		routingGraph: nil;
+		tiledMapMorph: (SMAOSMMapBuilder fromOSMFile: osmStream);
+		routingFacade: nil;
 		mapConfigurator: (SMAMapConfigurator newWith: self tiledMapMorph);
 		navigator: SMANavigator new;
 		currentView: #search;

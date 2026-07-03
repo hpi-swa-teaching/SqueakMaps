@@ -1,0 +1,1 @@
+Shared step-by-step graph assembly. Concrete builders decide where vertices and edges come from.

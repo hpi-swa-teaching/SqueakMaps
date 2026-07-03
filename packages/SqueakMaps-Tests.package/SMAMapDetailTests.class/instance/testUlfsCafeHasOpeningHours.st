@@ -2,7 +2,7 @@ as yet unclassified
 testUlfsCafeHasOpeningHours
 
 	| decoratedMap poi |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile:
+	decoratedMap := SMAOSMMapBuilder fromOSMFile:
 		(((GitAssetLoader for: 'SqueakMaps')
 			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
 

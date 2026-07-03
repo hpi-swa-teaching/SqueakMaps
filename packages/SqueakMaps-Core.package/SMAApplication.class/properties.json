@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"SavedPins" ],
-	"commentStamp" : "RK 8/5/2022 22:10",
+	"commentStamp" : "Samuel Bis 7/3/2026 17:58",
 	"instvars" : [
 		"tiledMapMorph",
 		"currentView",
@@ -26,7 +26,8 @@
 		"routingGraph",
 		"startRouteSelectionIndex",
 		"searchSuggestionIndex",
-		"defaultStartPoint" ],
+		"defaultStartPoint",
+		"routingFacade" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"fromOSMFile:" : "Samuel Bis 7/3/2026 18:05",
+		"fromXMLRoot:" : "Samuel Bis 7/3/2026 18:06" },
+	"instance" : {
+		"addCustomTimeInfosFrom:to:" : "Samuel Bis 7/3/2026 18:06",
+		"addTimeInfosFrom:to:" : "Samuel Bis 7/3/2026 18:06",
+		"build" : "Samuel Bis 7/3/2026 18:06",
+		"buildFromOSMFile:" : "Samuel Bis 7/3/2026 18:07",
+		"buildFromXMLRoot:" : "Samuel Bis 7/3/2026 18:07",
+		"buildingOverlaysFrom:" : "Samuel Bis 7/3/2026 18:07",
+		"extractBuildings:forPoints:" : "Samuel Bis 7/3/2026 18:07",
+		"extractFirstLevelFrom:" : "Samuel Bis 7/3/2026 18:07",
+		"extractPOIIdsFrom:" : "Samuel Bis 7/3/2026 18:08",
+		"extractPOIs:" : "Samuel Bis 7/3/2026 18:08",
+		"extractPoints:" : "Samuel Bis 7/3/2026 18:08",
+		"extractRooms:forPoints:" : "Samuel Bis 7/3/2026 18:08",
+		"initialize" : "Samuel Bis 7/3/2026 18:08",
+		"reset" : "Samuel Bis 7/3/2026 18:08",
+		"roomOverlaysFrom:" : "Samuel Bis 7/3/2026 18:08",
+		"tagValueNamed:in:ifAbsent:" : "Samuel Bis 7/3/2026 18:08",
+		"timeInfoDefinitions" : "Samuel Bis 7/3/2026 18:09" } }

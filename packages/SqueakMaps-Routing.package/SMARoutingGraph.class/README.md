@@ -1,0 +1,1 @@
+Graph data structure with a deliberately narrow query protocol. Construction, OSM parsing, target resolution, path algorithms, and route presentation live in dedicated collaborators.

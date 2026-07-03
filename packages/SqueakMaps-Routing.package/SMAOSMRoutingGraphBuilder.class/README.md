@@ -1,0 +1,1 @@
+Builder that parses routable OSM ways and incrementally assembles an SMARoutingGraph.

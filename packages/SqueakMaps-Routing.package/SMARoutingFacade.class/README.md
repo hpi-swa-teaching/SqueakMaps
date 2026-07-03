@@ -1,0 +1,1 @@
+Task-oriented entry point for routing. It coordinates target resolution, a path strategy, and route-line construction.
