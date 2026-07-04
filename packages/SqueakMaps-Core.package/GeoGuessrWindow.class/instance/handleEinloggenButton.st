@@ -2,8 +2,8 @@ game flow
 handleEinloggenButton
 
 	gameOrchestrator isPlaying ifTrue: [
-		self currentGuess ifNil: [^ self].
-		gameOrchestrator submitGuess: self currentGuess.
+		self currentGuess isPresent ifFalse: [^ self].
+		gameOrchestrator submitGuess: self currentGuess coordinates.
 		^ self refreshForState].
 	gameOrchestrator isEvaluating ifTrue: [
 		gameOrchestrator advanceRound.

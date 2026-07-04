@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/4/2026 18:15",
+	"instvars" : [
+		 ],
+	"name" : "GGGuessTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

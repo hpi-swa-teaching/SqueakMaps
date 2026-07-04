@@ -3,7 +3,7 @@ returnToStartScreen
 	"Abort the running game, tear down the game layout and rebuild the home screen with the mode buttons."
 
 	self timerMorph stop; reset.
-	self currentGuess: nil.
+	self currentGuess: GGNoGuess new.
 	gameOrchestrator reset.
 	self backButton visible: false.
 
