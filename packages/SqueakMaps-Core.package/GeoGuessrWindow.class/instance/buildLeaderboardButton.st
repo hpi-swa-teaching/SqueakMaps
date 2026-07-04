@@ -1,8 +1,4 @@
 building
 buildLeaderboardButton
 
-	self leaderboardButton: (PluggableButtonMorph new
-		label: 'Leaderboard' font: self geoGuessrButtonFont;
-		target: [self showLeaderboard];
-		actionSelector: #value;
-		yourself)
+	self leaderboardButton: (self buttonLabeled: 'Leaderboard' action: [self showLeaderboard])

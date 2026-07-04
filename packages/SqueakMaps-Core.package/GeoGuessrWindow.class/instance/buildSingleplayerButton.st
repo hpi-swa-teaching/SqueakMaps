@@ -1,9 +1,4 @@
 building
 buildSingleplayerButton
 
-	self singleplayerButton: (PluggableButtonMorph new
-		label: 'Singleplayer' font: self geoGuessrButtonFont;
-		target: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: false];
-		actionSelector: #value;
-		yourself).
-	
+	self singleplayerButton: (self buttonLabeled: 'Singleplayer' action: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: false])
