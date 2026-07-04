@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -11879,6 +11879,35 @@ GSMetadata {
 				'344485.png'
 			],
 			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'robert_hirschfeld_64.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'robert_hirschfeld_256.png'
+			],
+			#encoding : @5
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'hpi-k-pois-abc_filtered-buildings.osm'
+			],
+			#encoding : 'TXT'
 		}
 	],
 	#name : 'SqueakMaps'
