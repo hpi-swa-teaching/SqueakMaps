@@ -10,7 +10,6 @@
 		"levelManager",
 		"currentLevel",
 		"roundResults",
-		"totalScore",
 		"totalScorep1",
 		"currentPlayer",
 		"totalScorep0",
