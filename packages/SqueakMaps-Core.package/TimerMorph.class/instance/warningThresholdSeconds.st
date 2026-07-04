@@ -1,0 +1,4 @@
+constants
+warningThresholdSeconds
+
+	^30
