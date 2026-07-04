@@ -10813,15 +10813,6 @@ GSMetadata {
 			],
 			#encoding : @5
 		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'hpi-k-campus-only.osm'
-			],
-			#encoding : 'TXT'
-		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
