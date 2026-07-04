@@ -9,7 +9,5 @@ showPin
 	location := self class savedPins at: index.
 	self switchToSearchViewWith: location;
 		clear.
-	self mapConfigurator
-		displayLocation: location;
-		focusLocation: location.
+	self displayPin: location.
 	self changed: #buildSearchPinPanelChildren

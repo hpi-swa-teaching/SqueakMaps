@@ -1,4 +1,4 @@
 accessing
 selectedHopIndex
 
-	^ selectedHopIndex ifNil: [0].
+	^ selectedHopIndex ifNil: [0]

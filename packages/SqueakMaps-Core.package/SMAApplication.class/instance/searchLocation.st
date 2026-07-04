@@ -2,7 +2,6 @@ search
 searchLocation
 
 	| location |
-
 	self searchInput isEmpty ifTrue: [^ self inform: 'Please enter a location.'].
 
 	[location := self navigator locate: self searchInput.]
@@ -10,6 +9,4 @@ searchLocation
 		do: [:error | ^ self inform: error userMessage].
 	
 	self setSelectedPin: location.
-	self mapConfigurator 
-		displayLocation: location;
-		focusLocation: location
+	self displayPin: location
