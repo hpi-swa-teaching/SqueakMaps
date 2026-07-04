@@ -1,4 +1,4 @@
-accessing
+route management
 renameSavedRoute: aSavedRoute
 
 	| answer existing |
@@ -6,9 +6,5 @@ renameSavedRoute: aSavedRoute
 	
 	existing := SavedRoutes anySatisfy: [:r | r routeTitle = answer].
 	existing ifTrue: [ ^ self inform: 'A route with that name already exists.' ].
-	
 	(answer = '') ifFalse: [ 
-			aSavedRoute routeTitle: answer.
-		].		
-	
-	"self changed: #items."
+		aSavedRoute routeTitle: answer.]
