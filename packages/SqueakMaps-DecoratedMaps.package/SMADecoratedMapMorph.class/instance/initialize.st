@@ -1,4 +1,4 @@
-accessing
+initialization
 initialize
 
 	super initialize.
@@ -8,7 +8,7 @@ initialize
 	pointsOfInterest := OrderedCollection new.
 	roomOverlays := OrderedCollection new.
 	buildingOverlays := OrderedCollection new.
-	levelSelectionModel ifNil: [self levelSelectionModel: SMALevelSelectionModel new].
+	self levelSelectionModel: SMALevelSelectionModel new.
 	self synchronizeAvailableLevels.
 	indoorOverlayMinZoom := self class defaultIndoorOverlayMinZoom.
 	hoveredBuildingOverlay := nil.
