@@ -6,5 +6,5 @@ buildDirectionsClearButton: aBuilder
 		model: self;
 		action: #clearRoute;
 		help: 'Aktuelle Route entfernen.';
-		frame: (0 @ 0.57 corner: 1 @ 0.65);
+		frame: (0 @ 0.78 corner: 1 @ 0.86);
 		yourself

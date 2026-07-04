@@ -15,4 +15,6 @@ drawRoute: aRouteLine On: aCanvas
 		self
 			drawRoutePoints: {segment first. segment second}
 			color: segmentColor
-			on: aCanvas]
+			on: aCanvas].
+
+	self drawFloorChangeLabelsFor: aRouteLine on: aCanvas

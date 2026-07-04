@@ -1,0 +1,1 @@
+Regression tests for the final Builder, Strategy, Facade and Observer architecture.

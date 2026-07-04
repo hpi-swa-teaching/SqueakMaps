@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 labelBounds
 
 	| font labelPosition labelSize |

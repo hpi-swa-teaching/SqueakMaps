@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"advanceRound" : "JC 6/30/2026 09:12",
+		"advanceMultiplayerRound" : "Samuel Bis 7/4/2026 11:41",
+		"advanceRound" : "Samuel Bis 7/4/2026 11:41",
+		"advanceSingleplayerRound" : "Samuel Bis 7/4/2026 11:41",
 		"buildResultFor:" : "KP 6/23/2026 17:44",
 		"currentLevel" : "JC 6/13/2026 12:12",
 		"currentPlayer" : "KP 6/23/2026 14:59",

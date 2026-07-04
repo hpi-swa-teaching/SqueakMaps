@@ -2,7 +2,7 @@ as yet unclassified
 testDecoratedMapCreatesRoomOverlay
 
 	| decoratedMap overlay |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile: self singleRoomOSMFile.
+	decoratedMap := SMAOSMMapBuilder fromOSMFile: self singleRoomOSMFile.
 
 	self assert: decoratedMap roomOverlays isEmpty not.
 

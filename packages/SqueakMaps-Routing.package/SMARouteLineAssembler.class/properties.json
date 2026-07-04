@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/4/2026 09:01",
+	"instvars" : [
+		"graph" ],
+	"name" : "SMARouteLineAssembler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

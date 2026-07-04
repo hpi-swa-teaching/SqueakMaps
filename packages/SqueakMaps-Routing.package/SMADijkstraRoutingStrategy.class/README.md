@@ -1,0 +1,1 @@
+Default routing strategy. Implements Dijkstra without adding algorithm state to SMARoutingGraph.

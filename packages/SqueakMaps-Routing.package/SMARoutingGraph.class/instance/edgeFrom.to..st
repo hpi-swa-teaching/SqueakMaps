@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 edgeFrom: u to: v
 
 	^ (adjacencyList at: u)

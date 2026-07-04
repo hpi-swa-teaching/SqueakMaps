@@ -1,0 +1,1 @@
+Strategy protocol for interchangeable shortest-path algorithms.

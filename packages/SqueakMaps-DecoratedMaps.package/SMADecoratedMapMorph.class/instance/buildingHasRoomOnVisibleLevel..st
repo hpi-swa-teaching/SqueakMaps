@@ -3,8 +3,6 @@ buildingHasRoomOnVisibleLevel: aBuildingOverlay
 
 	aBuildingOverlay updateVerticesForMap: self.
 
-	^ (self roomOverlaysForVisibleLevel
-		detect: [:roomOverlay |
-			roomOverlay updateVerticesForMap: self.
-			aBuildingOverlay containsPoint: roomOverlay centerOfVertices]
-		ifNone: [nil]) notNil
+	^ self roomOverlaysForVisibleLevel anySatisfy: [:each |
+		each updateVerticesForMap: self.
+		aBuildingOverlay containsPoint: each centerOfVertices]

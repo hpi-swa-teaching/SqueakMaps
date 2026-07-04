@@ -1,0 +1,1 @@
+Single OSM tag lookup abstraction shared by map builders and POI factories.

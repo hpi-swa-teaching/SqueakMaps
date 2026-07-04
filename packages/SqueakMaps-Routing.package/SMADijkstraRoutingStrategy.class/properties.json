@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 18:20",
+	"instvars" : [
+		 ],
+	"name" : "SMADijkstraRoutingStrategy",
+	"pools" : [
+		 ],
+	"super" : "SMARoutingStrategy",
+	"type" : "normal" }

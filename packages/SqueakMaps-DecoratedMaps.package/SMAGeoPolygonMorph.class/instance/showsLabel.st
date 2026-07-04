@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 showsLabel
 
 	^ showsLabel ifNil: [showsLabel := true]

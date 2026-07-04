@@ -4,7 +4,7 @@ buildSearchInputField: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #searchInput;
-		setText: #submitSearchInput:;
+		setText: #searchInput:;
 		editText: #searchInput:;
 		askBeforeDiscardingEdits: false;
 		help: 'Search location...';

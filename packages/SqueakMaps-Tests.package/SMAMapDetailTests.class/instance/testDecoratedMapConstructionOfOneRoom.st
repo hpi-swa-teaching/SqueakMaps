@@ -2,7 +2,7 @@ as yet unclassified
 testDecoratedMapConstructionOfOneRoom
 
 	| decoratedMap room points ids expectedIds |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile: self singleRoomOSMFile.
+	decoratedMap := SMAOSMMapBuilder fromOSMFile: self singleRoomOSMFile.
 	
 	self assert: decoratedMap rooms size equals: 1.
 	room := decoratedMap rooms at: 1.

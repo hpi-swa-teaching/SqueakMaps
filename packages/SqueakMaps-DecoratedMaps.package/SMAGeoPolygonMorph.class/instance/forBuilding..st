@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 forBuilding: aBuilding
 
 	^ self new
@@ -6,7 +6,7 @@ forBuilding: aBuilding
 		geoPoints: aBuilding points;
 		label: aBuilding name;
 		showsLabel: true;
-		fillColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255 alpha: 0.18);
-		outlineColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255);
-		outlineWidth: 2;
+		fillColor: self class buildingFillColor;
+		outlineColor: self class buildingOutlineColor;
+		outlineWidth: self class defaultOutlineWidth;
 		yourself
