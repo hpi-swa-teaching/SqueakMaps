@@ -5,4 +5,4 @@ addEntry: anEntry
 	
 	entries := (entries asSortedCollection: [:a :b | a score > b score]) asOrderedCollection.
 	
-	entries size > 5 ifTrue: [entries removeLast]
+	entries size > self capacity ifTrue: [entries removeLast]
