@@ -1,4 +1,4 @@
-category management
+pin management
 deleteAllPinsIn: aCategory
 
 	self class savedPins do:[:pin |

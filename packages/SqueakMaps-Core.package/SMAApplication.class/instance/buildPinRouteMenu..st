@@ -1,4 +1,4 @@
-category management
+pin management
 buildPinRouteMenu: aMenu
 
 	aMenu

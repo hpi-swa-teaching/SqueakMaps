@@ -24,7 +24,7 @@ testRemoveCategoryDeleteAllPins
 	
 	item target perform: item selector withArguments: item arguments.
 	menu2 := ActiveWorld submorphs detect: [:m | m isKindOf: MenuMorph].
-	item2 := menu2 items detect: [:m | m contents = 'Delete all pins'].
+	item2 := menu2 items detect: [:m | m contents = self model deleteAllPinsMenuLabel].
 	[ item2 target perform: item2 selector withArguments: item2 arguments.
 	] valueSupplyingAnswers: {{ 'Are you sure?' . true}}.
 	

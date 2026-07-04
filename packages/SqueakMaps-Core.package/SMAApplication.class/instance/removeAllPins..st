@@ -1,4 +1,4 @@
-category management
+pin management
 removeAllPins: aRemovedCategory
 
 	(UIManager default confirm: 'Are you sure?')

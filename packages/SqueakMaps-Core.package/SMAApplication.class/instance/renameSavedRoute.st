@@ -1,4 +1,4 @@
-category management
+route management
 renameSavedRoute
 
 	| savedRoutes selectedRoute |

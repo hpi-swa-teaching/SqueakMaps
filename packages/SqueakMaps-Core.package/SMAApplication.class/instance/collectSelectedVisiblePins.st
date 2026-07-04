@@ -1,4 +1,4 @@
-category management
+pin management
 collectSelectedVisiblePins
 
 	| result |
