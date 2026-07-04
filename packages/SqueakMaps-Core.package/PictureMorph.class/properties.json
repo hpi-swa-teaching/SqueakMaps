@@ -6,9 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"remainingSeconds",
-		"label",
-		"running",
 		"gameHandler",
 		"picture",
 		"loader",
