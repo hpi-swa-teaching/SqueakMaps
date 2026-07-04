@@ -2,9 +2,7 @@ pin management
 addSelectedPin
 
 	self selectedPin ifNil: [
-		UIManager default inform: 'Please select a pin.'.
-		^self
-	].
+		^self inform: 'Please select a pin.'.].
 
 	self hopLocations add: self selectedPin.
 	self selectedPin: nil.
@@ -12,6 +10,5 @@ addSelectedPin
 	self clear.
 
 	self routes isEmpty ifFalse: [
-	self mapConfigurator displayRoutes: self routes].
-
+		self mapConfigurator displayRoutes: self routes].
 	self changed: #hopLocationLabels.

@@ -1,16 +1,15 @@
-category management
+pin management
 buildPinMenu: aMenu for: aPin
 
 	aMenu
-		addTitle: 'Pin Options'.
+		addTitle: self pinOptionsMenuTitle.
 	aMenu
-		add: 'Change pin category' target: self selector: #changePinCategory:
+		add: self changePinCategoryMenuLabel target: self selector: #changePinCategory:
 		argumentList: (Array with: aPin).
 	aMenu 
-		add: 'Rename Pin' target: self selector: #renamePin:
+		add: self renamePinMenuLabel target: self selector: #renamePin:
 		argumentList: (Array with: aPin).
 	aMenu 
-		add: 'Remove Pin' target: self selector: #removePin:
+		add: self removePinMenuLabel target: self selector: #removePin:
 		argumentList: (Array with: aPin).
-		
 	^ aMenu

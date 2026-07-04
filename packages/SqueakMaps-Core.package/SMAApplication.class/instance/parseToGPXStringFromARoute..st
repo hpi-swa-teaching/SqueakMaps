@@ -30,4 +30,3 @@ parseToGPXStringFromARoute: aRoute
 	].
 	
 	^ gpx
-

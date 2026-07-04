@@ -8,7 +8,7 @@ testAddCategory
 	menu := self model getMenu: menu.
 		
 		
-	item := menu items detect: [:m | m contents = 'Add new Category'].
+	item := menu items detect: [:m | m contents = self model addCategoryMenuLabel].
 		
 	[ item target perform: item selector withArguments: item arguments.]
 		valueSupplyingAnswers: { { 'Category Title' . 'Test Category' } }.

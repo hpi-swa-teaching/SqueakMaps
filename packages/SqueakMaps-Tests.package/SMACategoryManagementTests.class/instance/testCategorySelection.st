@@ -36,6 +36,3 @@ testCategorySelection
 	self model isSelected: 1 put: false.
 	self assert: self model tiledMapMorph markers size = 1.
 	self assert: self model visiblePins size = 1.
-	
-	
-	
