@@ -1,17 +1,13 @@
 leaderboard
 endGame
+	"Offer to record the score(s) on the leaderboard, then reveal it. Multiplayer always prompts both
+	players (labelled Player 0 / Player 1); single-player asks once, only when the score makes the board."
 
-	| score0 score1 |
-	score0 := gameOrchestrator totalScorep0.
-	score1 := gameOrchestrator totalScorep1.
-	
 	gameOrchestrator isMultiplayer
-		ifFalse: [
-			(leaderboard isHighscore: score0)
-				ifTrue: [self addScoreAndShow: score0]
-				ifFalse: [self showLeaderboard]]
 		ifTrue: [
-			(leaderboard isHighscore: score0) ifTrue: [self addScore: score0].
-			(leaderboard isHighscore: score1)
-				ifTrue: [self addScoreAndShow: score1]
-				ifFalse: [self showLeaderboard]]
+			self addScore: gameOrchestrator totalScorep0 for: 'Player 0'.
+			self addScore: gameOrchestrator totalScorep1 for: 'Player 1']
+		ifFalse: [
+			(leaderboard isHighscore: gameOrchestrator totalScorep0)
+				ifTrue: [self addScore: gameOrchestrator totalScorep0 for: nil]].
+	self showLeaderboard
