@@ -12,7 +12,7 @@ testCustomCampusTimeTagsProduceTimeInfos
     <tag k=''squeakmaps:time:Clubtreffen'' v=''Mi 18:00-20:00'' />
   </node>
 </osm>'.
-	decoratedMap := SMADecoratedMapMorph fromOSMFile: xml readStream.
+	decoratedMap := SMAOSMMapBuilder fromOSMFile: xml readStream.
 	poi := decoratedMap pointsOfInterest first.
 
 	self assert: poi hasTimeInfos.

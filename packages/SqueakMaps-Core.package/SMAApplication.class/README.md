@@ -1,1 +1,1 @@
-A SMAApplication serves as the main model and kernel of SqueakMaps. It also provides the specs that are used to build the UI.
+Main application model and composition root. It wires OSM builders, the routing facade, map configuration, APIs, and UI specifications.

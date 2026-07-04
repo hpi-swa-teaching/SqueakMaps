@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 19:17",
+	"instvars" : [
+		"wasCalled",
+		"path" ],
+	"name" : "SMATestRoutingStrategy",
+	"pools" : [
+		 ],
+	"super" : "SMARoutingStrategy",
+	"type" : "normal" }

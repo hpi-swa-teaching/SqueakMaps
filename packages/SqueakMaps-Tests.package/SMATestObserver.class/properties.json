@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 19:15",
+	"instvars" : [
+		"aspects" ],
+	"name" : "SMATestObserver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

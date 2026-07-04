@@ -5,7 +5,7 @@ drawLevelSelectorOn: aCanvas
 
 	aCanvas
 		fillRectangle: self levelSelectorBounds
-		fillStyle: (Color white alpha: 0.85).
+		fillStyle: self class levelSelectorFillColor.
 
 	aCanvas
 		frameRectangle: self levelSelectorBounds

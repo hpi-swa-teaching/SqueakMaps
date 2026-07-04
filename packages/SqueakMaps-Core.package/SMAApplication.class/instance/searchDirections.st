@@ -10,21 +10,19 @@ searchDirections
 	(self routeTarget: startTarget equals: destinationTarget) ifTrue: [
 		^ self inform: 'Start und Destination sind identisch.'].
 
-	routeLine := self routingGraph
+	routeLine := self routingFacade
 		routeFrom: startTarget
-		to: destinationTarget
-		inMap: self tiledMapMorph.
+		to: destinationTarget.
 	routeLine ifNil: [^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
 
 	self route: routeLine.
 	self hasSearched: true.
 	routeLocations := {
-		self locationForRouteTarget: startTarget .
+		self locationForRouteTarget: startTarget.
 		self locationForRouteTarget: destinationTarget } select: [:location | location notNil].
 	self mapConfigurator clear.
 	routeLocations do: [:location | self mapConfigurator displayLocation: location].
 	self tiledMapMorph route: routeLine.
 	routeLocations ifNotEmpty: [
 		self mapConfigurator focusLocations: routeLocations atZoom: self routeFocusZoom].
-	self tiledMapMorph changed.
 	self changed: #buildSidebarTopChildren

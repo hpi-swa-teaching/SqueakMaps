@@ -2,7 +2,7 @@ as yet unclassified
 testUniversitaetsbibliothekHasOpeningHours
 
 	| decoratedMap building |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile:
+	decoratedMap := SMAOSMMapBuilder fromOSMFile:
 		(((GitAssetLoader for: 'SqueakMaps')
 			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
 

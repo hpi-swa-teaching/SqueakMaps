@@ -1,4 +1,4 @@
 accessing
 visibleLevel: aNumber
 
-	visibleLevel := aNumber
+	self levelSelectionModel visibleLevel: aNumber

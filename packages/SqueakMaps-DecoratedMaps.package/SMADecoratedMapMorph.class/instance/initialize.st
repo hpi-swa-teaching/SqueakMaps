@@ -1,17 +1,16 @@
-accessing
+initialization
 initialize
 
 	super initialize.
-
 	points := Dictionary new.
 	rooms := OrderedCollection new.
 	buildings := OrderedCollection new.
 	pointsOfInterest := OrderedCollection new.
 	roomOverlays := OrderedCollection new.
 	buildingOverlays := OrderedCollection new.
-
-	visibleLevel := 0.
-	indoorOverlayMinZoom := 19.
+	self levelSelectionModel: SMALevelSelectionModel new.
+	self synchronizeAvailableLevels.
+	indoorOverlayMinZoom := self class defaultIndoorOverlayMinZoom.
 	hoveredBuildingOverlay := nil.
 	hoveredRoomOverlay := nil.
 	roomOverlayZoomWasActive := false

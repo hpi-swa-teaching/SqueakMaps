@@ -3,8 +3,8 @@ fromXMLTag: anXMLTag
 
 	| definition name |
 
-	name := SMADecoratedMapMorph
-		tagValueNamed: 'name'
+	name := SMAOSMTagReader
+		valueNamed: 'name'
 		in: anXMLTag
 		ifAbsent: [nil].
 	name ifNil: [^ nil].

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 model: anObject
 
 	model := anObject
