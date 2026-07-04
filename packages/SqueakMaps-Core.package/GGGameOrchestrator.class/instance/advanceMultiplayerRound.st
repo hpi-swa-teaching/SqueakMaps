@@ -1,8 +1,8 @@
 game flow
 advanceMultiplayerRound
 
-	currentPlayer ifFalse: [
-		currentPlayer := true.
+	currentPlayerIndex = 0 ifTrue: [
+		currentPlayerIndex := 1.
 		state := #playing.
 		^ self].
 

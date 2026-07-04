@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/4/2026 19:17",
+	"instvars" : [
+		"label",
+		"score" ],
+	"name" : "GGPlayer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

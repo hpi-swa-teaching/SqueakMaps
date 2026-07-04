@@ -10,9 +10,8 @@
 		"levelManager",
 		"currentLevel",
 		"roundResults",
-		"totalScorep1",
-		"currentPlayer",
-		"totalScorep0",
+		"players",
+		"currentPlayerIndex",
 		"isMultiplayer" ],
 	"name" : "GGGameOrchestrator",
 	"pools" : [
