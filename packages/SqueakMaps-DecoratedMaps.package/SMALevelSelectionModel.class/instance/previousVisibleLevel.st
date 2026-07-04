@@ -1,4 +1,4 @@
-as yet unclassified
+navigation
 previousVisibleLevel
 
 	self availableLevels isEmpty ifTrue: [^ self visibleLevel].

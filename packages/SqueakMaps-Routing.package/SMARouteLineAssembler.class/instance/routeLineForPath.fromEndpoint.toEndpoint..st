@@ -1,4 +1,4 @@
-as yet unclassified
+building
 routeLineForPath: aCollectionOfVertices fromEndpoint: startEndpoint toEndpoint: destinationEndpoint
 
 	^ self

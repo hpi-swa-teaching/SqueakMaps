@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 centerPointOf: aCollectionOfPoints
 
 	| lat lon |

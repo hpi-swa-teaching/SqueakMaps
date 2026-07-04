@@ -1,4 +1,4 @@
-as yet unclassified
+navigation
 selectPreviousLevel
 
 	self visibleLevel: self previousVisibleLevel

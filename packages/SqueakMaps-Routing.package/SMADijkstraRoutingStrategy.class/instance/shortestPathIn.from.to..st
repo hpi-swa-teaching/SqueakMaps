@@ -1,8 +1,8 @@
-as yet unclassified
+routing
 shortestPathIn: aRoutingGraph from: startVertex to: destinationVertex
 
 	| distances previous visited current alternative neighbor path |
-	distances := Array new: aRoutingGraph size withAll: 1.0e100.
+	distances := Array new: aRoutingGraph size withAll: Float infinity.
 	previous := Array new: aRoutingGraph size withAll: nil.
 	visited := Array new: aRoutingGraph size withAll: false.
 	distances at: startVertex put: 0.

@@ -1,6 +1,6 @@
-as yet unclassified
+initialization
 graph: aRoutingGraph
 
 	graph := aRoutingGraph.
 	targetResolver := SMARouteTargetResolver forGraph: graph.
-	routeLineBuilder := SMARouteLineBuilder forGraph: graph
+	routeLineBuilder := SMARouteLineAssembler forGraph: graph

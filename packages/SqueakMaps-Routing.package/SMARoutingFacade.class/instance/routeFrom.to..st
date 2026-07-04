@@ -1,9 +1,9 @@
-as yet unclassified
-routeFrom: startTarget to: destinationTarget inMap: aMapMorph
+routing
+routeFrom: startTarget to: destinationTarget
 
 	| startEndpoint destinationEndpoint path |
-	startEndpoint := targetResolver resolve: startTarget inMap: aMapMorph.
-	destinationEndpoint := targetResolver resolve: destinationTarget inMap: aMapMorph.
+	startEndpoint := targetResolver resolve: startTarget.
+	destinationEndpoint := targetResolver resolve: destinationTarget.
 	(startEndpoint isNil or: [destinationEndpoint isNil]) ifTrue: [^ nil].
 	path := strategy
 		shortestPathIn: graph

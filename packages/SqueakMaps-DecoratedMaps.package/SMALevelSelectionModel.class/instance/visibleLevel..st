@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 visibleLevel: aNumber
 
 	aNumber = self visibleLevel ifTrue: [^ self].

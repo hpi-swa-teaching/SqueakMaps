@@ -1,4 +1,4 @@
-as yet unclassified
+building
 addEdgeFrom: u to: v levels: levels
 
 	u = v ifTrue: [^ self].

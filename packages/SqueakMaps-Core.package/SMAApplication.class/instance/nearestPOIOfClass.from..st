@@ -11,8 +11,7 @@ nearestPOIOfClass: aPOIClass from: aStartTarget
 	candidates do: [:poi |
 		distance := self routingFacade
 			routeDistanceFrom: aStartTarget
-			to: poi
-			inMap: self tiledMapMorph.
+			to: poi.
 		distance ifNotNil: [
 			(nearestDistance isNil or: [distance < nearestDistance]) ifTrue: [
 				nearestDistance := distance.

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 addTimeInfosFrom: anXMLTag to: aCampusDetailTarget
 
 	self timeInfoDefinitions do: [:definition |

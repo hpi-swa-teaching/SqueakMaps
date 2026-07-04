@@ -1,4 +1,4 @@
-as yet unclassified
+private
 extractPoints: anXMLRoot in: aDictionary
 
 	anXMLRoot tagsNamed: #node do: [:element |

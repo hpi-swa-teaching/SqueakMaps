@@ -1,11 +1,11 @@
-as yet unclassified
+private
 unvisitedVertexWithSmallestDistance: distances visited: visited
 
 	| bestVertex bestDistance |
 	bestVertex := nil.
-	bestDistance := 1.0e100.
-	1 to: distances size do: [:index |
-		((visited at: index) not and: [(distances at: index) < bestDistance]) ifTrue: [
+	bestDistance := Float infinity.
+	distances keysAndValuesDo: [:index :dist |
+		((visited at: index) not and: [dist < bestDistance]) ifTrue: [
 			bestVertex := index.
-			bestDistance := distances at: index]].
+			bestDistance := dist]].
 	^ bestVertex

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 extractBuildings: anXMLRoot forPoints: aDictionaryOfPoints
 
 	| extractedBuildings |

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 valueNamed: aKey in: anElement ifAbsent: aBlock
 
 	| tag |

@@ -3,8 +3,7 @@ locationForRouteTarget: aRouteTarget
 
 	| point coordinate label delta |
 	point := self routingFacade
-		pointForTarget: aRouteTarget
-		inMap: self tiledMapMorph.
+		pointForTarget: aRouteTarget.
 	point ifNil: [^ nil].
 	coordinate := SMAGeoCoordinate newLong: point lon lat: point lat.
 	label := (self routeTargets

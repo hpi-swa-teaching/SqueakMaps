@@ -1,4 +1,4 @@
-as yet unclassified
+private
 extractWays: anXMLRoot andFillNeededPoints: aDictionary
 
 	| extractedWays |

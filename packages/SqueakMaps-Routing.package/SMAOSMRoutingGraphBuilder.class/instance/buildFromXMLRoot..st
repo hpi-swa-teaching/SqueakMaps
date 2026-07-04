@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildFromXMLRoot: anXMLRoot
 
 	self reset.

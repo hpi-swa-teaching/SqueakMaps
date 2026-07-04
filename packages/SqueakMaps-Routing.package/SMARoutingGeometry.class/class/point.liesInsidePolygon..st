@@ -1,17 +1,16 @@
-as yet unclassified
+geometry
 point: aPoint liesInsidePolygon: aCollectionOfPoints
 
-	| inside j xi yi xj yj intersect |
+	| inside wrapped |
 	aCollectionOfPoints isEmpty ifTrue: [^ false].
 	inside := false.
-	j := aCollectionOfPoints size.
-	1 to: aCollectionOfPoints size do: [:i |
-		xi := (aCollectionOfPoints at: i) lon.
-		yi := (aCollectionOfPoints at: i) lat.
-		xj := (aCollectionOfPoints at: j) lon.
-		yj := (aCollectionOfPoints at: j) lat.
+	wrapped := OrderedCollection with: aCollectionOfPoints last.
+	wrapped addAllLast: aCollectionOfPoints.
+	wrapped overlappingPairsDo: [:prev :curr |
+		| xi yi xj yj intersect |
+		xi := curr lon. yi := curr lat.
+		xj := prev lon. yj := prev lat.
 		intersect := ((yi > aPoint lat) ~= (yj > aPoint lat))
-			and: [aPoint lon < ((xj - xi) * (aPoint lat - yi) / (yj - yi + 0.000000001) + xi)].
-		intersect ifTrue: [inside := inside not].
-		j := i].
+			and: [aPoint lon < ((xj - xi) * (aPoint lat - yi) / (yj - yi + self epsilon) + xi)].
+		intersect ifTrue: [inside := inside not]].
 	^ inside

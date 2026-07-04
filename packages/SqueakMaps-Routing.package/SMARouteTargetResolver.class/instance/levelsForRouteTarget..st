@@ -1,4 +1,4 @@
-as yet unclassified
+private
 levelsForRouteTarget: aTarget
 
 	(aTarget respondsTo: #levels) ifTrue: [^ aTarget levels ifNil: [OrderedCollection new]].

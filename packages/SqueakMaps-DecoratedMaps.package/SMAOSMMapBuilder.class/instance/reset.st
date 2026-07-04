@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 reset
 
 	points := Dictionary new.

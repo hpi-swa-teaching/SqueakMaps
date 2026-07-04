@@ -1,4 +1,4 @@
-as yet unclassified
+private
 nearestVertexToPoint: aPoint levels: targetLevels
 
 	| nearestVertex nearestDistance |

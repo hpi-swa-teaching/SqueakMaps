@@ -1,9 +1,9 @@
-as yet unclassified
+building
 build
 
 	^ SMARoutingGraph new
 		withVertices: vertices asArray
 		adjacencyList: adjacencyList asArray
-		pointToVertexDict: pointIDToVertexIndex
+		pointToVertexDict: pointIDToVertexIndex copy
 		vertexLevels: vertexLevels asArray;
 		yourself

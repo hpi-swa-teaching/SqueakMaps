@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 fromXMLRoot: anXMLRoot
 
 	^ self new buildFromXMLRoot: anXMLRoot

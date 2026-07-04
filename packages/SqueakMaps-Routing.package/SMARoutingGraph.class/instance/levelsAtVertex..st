@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 levelsAtVertex: aVertex
 
 	^ vertexLevels at: aVertex

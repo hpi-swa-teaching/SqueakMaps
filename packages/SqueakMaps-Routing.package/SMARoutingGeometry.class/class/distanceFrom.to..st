@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 distanceFrom: aPoint to: anotherPoint
 
 	| dLat dLon |

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 vertexForPointID: aPointID
 
 	| point |

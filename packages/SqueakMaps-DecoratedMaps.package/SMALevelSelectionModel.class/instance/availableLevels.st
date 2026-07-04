@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 availableLevels
 
 	^ availableLevels ifNil: [availableLevels := SortedCollection new]

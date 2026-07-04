@@ -1,4 +1,4 @@
-as yet unclassified
+building
 addVertex: aPoint levels: levels
 
 	vertices add: aPoint.

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 isRoutingWay: anXMLElement
 
 	| indoor highway area |

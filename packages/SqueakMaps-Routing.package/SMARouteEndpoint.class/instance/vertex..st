@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 vertex: anInteger
 
 	vertex := anInteger

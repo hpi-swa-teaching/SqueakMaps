@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 pointAtVertex: aVertex
 
 	^ vertices at: aVertex

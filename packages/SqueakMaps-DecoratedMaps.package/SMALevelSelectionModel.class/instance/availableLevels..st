@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 availableLevels: aCollection
 
 	availableLevels := aCollection asSet asSortedCollection.

@@ -12,8 +12,7 @@ searchDirections
 
 	routeLine := self routingFacade
 		routeFrom: startTarget
-		to: destinationTarget
-		inMap: self tiledMapMorph.
+		to: destinationTarget.
 	routeLine ifNil: [^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
 
 	self route: routeLine.

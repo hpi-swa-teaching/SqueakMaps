@@ -12,7 +12,6 @@ testFacadeUsesInjectedStrategy
 	facade strategy: strategy.
 	route := facade
 		routeFrom: (graph pointAtVertex: (graph vertexOfPointID: 1))
-		to: (graph pointAtVertex: (graph vertexOfPointID: 3))
-		inMap: nil.
+		to: (graph pointAtVertex: (graph vertexOfPointID: 3)).
 	self assert: strategy wasCalled.
 	self assert: route notNil

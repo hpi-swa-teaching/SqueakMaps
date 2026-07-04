@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Samuel Bis 7/3/2026 18:31",
+	"commentStamp" : "Samuel Bis 7/4/2026 09:01",
 	"instvars" : [
 		"graph" ],
-	"name" : "SMARouteLineBuilder",
+	"name" : "SMARouteLineAssembler",
 	"pools" : [
 		 ],
 	"super" : "Object",

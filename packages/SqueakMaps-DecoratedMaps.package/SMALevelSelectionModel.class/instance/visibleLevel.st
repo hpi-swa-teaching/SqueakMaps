@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 visibleLevel
 
 	^ visibleLevel ifNil: [visibleLevel := 0]

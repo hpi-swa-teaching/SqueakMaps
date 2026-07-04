@@ -1,11 +1,11 @@
-as yet unclassified
+initialization
 forBuilding: aBuilding
 
 	^ self new
 		model: aBuilding;
 		geoPoints: aBuilding points;
 		label: aBuilding name;
-		fillColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255 alpha: 0.18);
-		outlineColor: (Color r: 120 / 255 g: 15 / 255 b: 45 / 255);
-		outlineWidth: 2;
+		fillColor: self buildingFillColor;
+		outlineColor: self buildingOutlineColor;
+		outlineWidth: self defaultOutlineWidth;
 		yourself

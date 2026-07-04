@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 point: aPoint levels: aCollectionOfLevels vertex: aVertex
 
 	^ self new

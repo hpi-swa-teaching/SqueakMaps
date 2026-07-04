@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: anAspect
 
 	anAspect = #visibleLevel ifTrue: [

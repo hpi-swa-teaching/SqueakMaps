@@ -1,7 +1,13 @@
 {
 	"class" : {
+		"buildingFillColor" : "Samuel Bis 7/4/2026 09:23",
+		"buildingOutlineColor" : "Samuel Bis 7/4/2026 09:23",
+		"defaultOutlineWidth" : "Samuel Bis 7/4/2026 09:23",
 		"forBuilding:" : "Samuel Bis 6/18/2026 06:51",
-		"forRoom:" : "Samuel Bis 6/18/2026 06:50" },
+		"forRoom:" : "Samuel Bis 6/18/2026 06:50",
+		"labelBackgroundColor" : "Samuel Bis 7/4/2026 09:23",
+		"roomFillColor" : "Samuel Bis 7/4/2026 09:23",
+		"roomOutlineColor" : "Samuel Bis 7/4/2026 09:23" },
 	"instance" : {
 		"centerOfVertices" : "Samuel Bis 6/4/2026 15:34",
 		"containsOverlayPixel:" : "Samuel Bis 6/15/2026 09:05",

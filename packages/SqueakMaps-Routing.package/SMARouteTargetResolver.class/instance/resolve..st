@@ -1,8 +1,8 @@
-as yet unclassified
-resolve: aTarget inMap: aMapMorph
+routing
+resolve: aTarget
 
 	| point levels vertex |
-	point := self pointForRouteTarget: aTarget inMap: aMapMorph.
+	point := self pointForRouteTarget: aTarget.
 	point ifNil: [^ nil].
 	levels := self levelsForRouteTarget: aTarget.
 	vertex := self nearestVertexToPoint: point levels: levels.

@@ -1,4 +1,4 @@
-as yet unclassified
+routing
 shortestPathIn: aRoutingGraph from: startVertex to: destinationVertex
 
 	self subclassResponsibility

@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"defaultIndoorOverlayMinZoom" : "Samuel Bis 7/4/2026 09:23",
+		"levelSelectorFillColor" : "Samuel Bis 7/4/2026 09:23",
+		"unavailableBuildingFillColor" : "Samuel Bis 7/4/2026 09:23" },
 	"instance" : {
 		"availableLevels" : "Samuel Bis 7/3/2026 18:10",
 		"buildingHasRoomOnVisibleLevel:" : "Samuel Bis 6/15/2026 09:02",
@@ -11,6 +13,7 @@
 		"buildings" : "Samuel Bis 6/4/2026 16:17",
 		"buildings:" : "Samuel Bis 6/4/2026 16:17",
 		"click:" : "AS 6/17/2026 10:05",
+		"delete" : "Samuel Bis 7/4/2026 09:01",
 		"drawCenteredString:in:on:" : "6/17/2026 14:44:41",
 		"drawLevelSelectorOn:" : "6/17/2026 14:44:41",
 		"drawOn:" : "kong 6/10/2026 22:35",

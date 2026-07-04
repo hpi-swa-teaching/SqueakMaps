@@ -1,4 +1,4 @@
-as yet unclassified
+private
 levelsMatch: targetLevels with: candidateLevels
 
 	(targetLevels isNil or: [targetLevels isEmpty]) ifTrue: [^ true].

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 fromOSMFile: aReadStream
 
 	^ self new buildFromOSMFile: aReadStream

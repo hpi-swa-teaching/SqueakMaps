@@ -1,4 +1,4 @@
-as yet unclassified
+private
 addWay: aRoutingWay
 
 	aRoutingWay points overlappingPairsDo: [:firstId :secondId |

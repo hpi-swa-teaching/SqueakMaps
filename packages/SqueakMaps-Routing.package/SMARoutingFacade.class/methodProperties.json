@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"forGraph:" : "Samuel Bis 7/3/2026 18:35",
+		"forGraph:using:" : "Samuel Bis 7/4/2026 09:01",
 		"fromOSMFile:" : "Samuel Bis 7/3/2026 18:35" },
 	"instance" : {
 		"graph:" : "Samuel Bis 7/3/2026 18:36",
 		"initialize" : "Samuel Bis 7/3/2026 18:36",
-		"pointForTarget:inMap:" : "Samuel Bis 7/3/2026 18:36",
-		"routeDistanceFrom:to:inMap:" : "Samuel Bis 7/3/2026 18:36",
-		"routeFrom:to:inMap:" : "Samuel Bis 7/3/2026 18:36",
+		"pointForTarget:" : "Samuel Bis 7/4/2026 09:01",
+		"routeDistanceFrom:to:" : "Samuel Bis 7/4/2026 09:01",
+		"routeFrom:to:" : "Samuel Bis 7/4/2026 09:01",
 		"strategy:" : "Samuel Bis 7/3/2026 18:36" } }
