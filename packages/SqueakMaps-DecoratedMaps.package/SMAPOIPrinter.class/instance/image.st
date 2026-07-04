@@ -1,4 +1,4 @@
 drawing
 image
 
-	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/printer_64.png'
+	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/icon-printer.png'

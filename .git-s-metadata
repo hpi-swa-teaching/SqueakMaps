@@ -5178,15 +5178,6 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
-				'img',
-				'poi_64.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
 				'tiles',
 				'20',
 				'562543',
@@ -5664,15 +5655,6 @@ GSMetadata {
 				'20',
 				'562512',
 				'344492.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'img',
-				'drinking_water_64.png'
 			],
 			#encoding : @5
 		},
@@ -11426,15 +11408,6 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
-				'img',
-				'printer_64.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
 				'tiles',
 				'20',
 				'562550',
@@ -11899,6 +11872,42 @@ GSMetadata {
 				'hpi-k-pois-abc_filtered-buildings.osm'
 			],
 			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-poi.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-printer.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-drinking_water.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-lunch.png'
+			],
+			#encoding : @5
 		}
 	],
 	#name : 'SqueakMaps'

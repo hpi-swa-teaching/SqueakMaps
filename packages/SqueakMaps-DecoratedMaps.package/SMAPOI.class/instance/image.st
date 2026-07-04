@@ -1,4 +1,4 @@
 accessing
 image
 
-	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/poi_64.png'
+	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/icon-poi.png'
