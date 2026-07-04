@@ -3,8 +3,7 @@ testUniversitaetsbibliothekHasOpeningHours
 
 	| decoratedMap building |
 	decoratedMap := SMAOSMMapBuilder fromOSMFile:
-		(((GitAssetLoader for: 'SqueakMaps')
-			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
+		self fullOSMFile.
 
 	building := decoratedMap buildings
 		detect: [:each | each name = 'Universitätsbibliothek Potsdam'].
