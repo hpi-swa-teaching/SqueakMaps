@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 19:07",
+	"instvars" : [
+		 ],
+	"name" : "SMARoutingStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

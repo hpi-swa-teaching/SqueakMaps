@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 levels: anObject
 
 	levels := anObject ifNil: [OrderedCollection new] ifNotNil: [

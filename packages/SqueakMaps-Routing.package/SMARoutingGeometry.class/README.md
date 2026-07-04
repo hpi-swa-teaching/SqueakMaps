@@ -1,0 +1,1 @@
+Pure routing geometry helpers. This class contains no graph construction, path search, or UI orchestration.

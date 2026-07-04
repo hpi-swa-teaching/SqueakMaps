@@ -2,7 +2,7 @@ as yet unclassified
 testDecoratedMapConstructionOfPOIs
 
 	| decoratedMap pois poi1 officePOI |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile: self poiOSMFile.
+	decoratedMap := SMAOSMMapBuilder fromOSMFile: self poiOSMFile.
 	pois := decoratedMap pointsOfInterest.
 	self assert: 8 equals: (pois size).
 	poi1 := pois at: 1.

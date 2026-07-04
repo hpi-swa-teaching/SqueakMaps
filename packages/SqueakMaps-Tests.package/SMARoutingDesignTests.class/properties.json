@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 19:13",
+	"instvars" : [
+		 ],
+	"name" : "SMARoutingDesignTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
