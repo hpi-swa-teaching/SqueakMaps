@@ -1,6 +1,6 @@
 game flow
 advanceToNextLevel
 
-	currentLevel := levelManager nextLevel.
-	currentPlayerIndex := 0.
-	state := #playing
+	self currentLevel: self levelManager nextLevel.
+	self currentPlayerIndex: 0.
+	self state: #playing

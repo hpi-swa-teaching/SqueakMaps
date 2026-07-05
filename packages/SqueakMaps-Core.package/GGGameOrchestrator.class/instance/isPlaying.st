@@ -1,4 +1,4 @@
 testing
 isPlaying
 
-	^ state = #playing
+	^ self state = #playing

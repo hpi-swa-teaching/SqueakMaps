@@ -1,0 +1,4 @@
+accessing
+totalLevelCount
+
+	^ totalLevelCount

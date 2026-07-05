@@ -1,0 +1,36 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BingApiKey",
+		"SavedPins",
+		"ThunderforestMapsApiKey" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tiledMapMorph",
+		"timerMorph",
+		"startButton",
+		"roundActive",
+		"currentGuess",
+		"mapConfigurator",
+		"einloggenButton",
+		"mapIsLarge",
+		"pictureMorph",
+		"largeFrame",
+		"smallFrame",
+		"gameOrchestrator",
+		"infoMorph",
+		"infoMorph2",
+		"quitButton",
+		"singleplayerButton",
+		"multiplayerButton",
+		"leaderboardButton",
+		"leaderboardView",
+		"backButton",
+		"homeQuitButton" ],
+	"name" : "GGWindow",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

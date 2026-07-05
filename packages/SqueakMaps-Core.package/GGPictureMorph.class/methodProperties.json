@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bild" : "JC 7/5/2026 21:19",
+		"bild:" : "JC 7/5/2026 21:19",
+		"coverMode" : "JC 7/5/2026 21:19",
+		"coverMode:" : "JC 7/5/2026 21:20",
+		"gameHandler" : "JC 7/5/2026 21:18",
+		"gameHandler:" : "Helli 6/4/2026 14:17",
+		"handlesMouseDown:" : "Helli 6/4/2026 14:27",
+		"initialize" : "JC 7/5/2026 21:21",
+		"layoutChanged" : "DC 6/12/2026 11:24",
+		"loader" : "JC 7/5/2026 21:19",
+		"loader:" : "JC 7/5/2026 21:19",
+		"mouseDown:" : "JC 7/5/2026 21:22",
+		"picture" : "JC 7/5/2026 21:18",
+		"picture:" : "JC 7/5/2026 21:18",
+		"showImage:" : "JC 7/5/2026 21:22",
+		"unscaledImage" : "DC 6/17/2026 17:49",
+		"unscaledImage:" : "JC 7/5/2026 21:45",
+		"updateScaledImage" : "JC 7/5/2026 21:22" } }

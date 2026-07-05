@@ -1,4 +1,4 @@
 testing
 isEvaluating
 
-	^ state = #evaluating
+	^ self state = #evaluating

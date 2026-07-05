@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEntries" : "JC 7/5/2026 20:05",
-		"addScore:for:" : "JC 7/5/2026 20:02",
+		"addEntries" : "JC 7/5/2026 21:11",
+		"addScore:for:" : "JC 7/5/2026 21:11",
 		"addTitle" : "JC 7/5/2026 20:05",
 		"close" : "JC 7/5/2026 20:04",
-		"initialize" : "JC 7/5/2026 20:06",
+		"initialize" : "JC 7/5/2026 21:11",
+		"leaderboard" : "JC 7/5/2026 21:09",
+		"leaderboard:" : "JC 7/5/2026 21:10",
 		"maxNameLength" : "JC 7/5/2026 20:00",
 		"promptPlayerNameFor:" : "JC 7/5/2026 20:02",
-		"recordFrom:" : "JC 7/5/2026 20:03",
+		"recordFrom:" : "JC 7/5/2026 21:12",
 		"recordFrom:thenShowIn:" : "JC 7/5/2026 20:04",
 		"showIn:" : "JC 7/5/2026 20:05" } }

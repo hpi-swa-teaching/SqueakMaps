@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	leaderboard := Leaderboard current
+	self leaderboard: GGLeaderboard current

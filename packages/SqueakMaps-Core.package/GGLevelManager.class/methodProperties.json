@@ -1,11 +1,13 @@
 {
 	"class" : {
-		"defaultLevels" : "DC 6/17/2026 18:09" },
+		"defaultLevels" : "JC 7/5/2026 21:16" },
 	"instance" : {
-		"hasMoreLevels" : "JC 6/13/2026 11:20",
-		"initialize" : "JC 6/13/2026 18:08",
-		"nextLevel" : "JC 6/13/2026 11:18",
-		"remainingCount" : "JC 6/13/2026 11:22",
+		"hasMoreLevels" : "JC 7/5/2026 21:13",
+		"initialize" : "JC 7/5/2026 22:11",
+		"nextLevel" : "JC 7/5/2026 21:14",
+		"remainingCount" : "JC 7/5/2026 21:14",
 		"remainingLevels" : "JC 6/13/2026 11:14",
+		"remainingLevels:" : "JC 7/5/2026 22:05",
 		"roundsPerGame" : "KP 6/24/2026 19:45",
-		"totalCount" : "JC 6/13/2026 11:24" } }
+		"totalLevelCount" : "JC 7/5/2026 21:15",
+		"totalLevelCount:" : "JC 7/5/2026 22:02" } }

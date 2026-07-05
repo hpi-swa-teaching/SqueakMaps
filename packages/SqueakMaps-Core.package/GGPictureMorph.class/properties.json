@@ -1,0 +1,19 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/5/2026 21:53",
+	"instvars" : [
+		"gameHandler",
+		"picture",
+		"loader",
+		"bild",
+		"unscaledImage",
+		"coverMode" ],
+	"name" : "GGPictureMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

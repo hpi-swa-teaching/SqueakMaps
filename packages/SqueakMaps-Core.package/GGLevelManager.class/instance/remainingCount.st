@@ -1,4 +1,4 @@
 accessing
 remainingCount
 
-	^ remainingLevels size
+	^ self remainingLevels size

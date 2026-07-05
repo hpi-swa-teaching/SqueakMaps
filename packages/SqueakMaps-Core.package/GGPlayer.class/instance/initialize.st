@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	score := 0
+	self score: 0

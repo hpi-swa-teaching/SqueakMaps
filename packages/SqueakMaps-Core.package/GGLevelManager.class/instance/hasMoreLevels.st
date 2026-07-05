@@ -1,4 +1,4 @@
 testing
 hasMoreLevels
 
-	^ remainingLevels notEmpty
+	^ self remainingLevels notEmpty
