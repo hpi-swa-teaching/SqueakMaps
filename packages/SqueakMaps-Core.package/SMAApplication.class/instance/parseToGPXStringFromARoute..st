@@ -1,4 +1,4 @@
-building
+route management
 parseToGPXStringFromARoute: aRoute
 	| gpx allCoordinates |
 
@@ -30,4 +30,3 @@ parseToGPXStringFromARoute: aRoute
 	].
 	
 	^ gpx
-

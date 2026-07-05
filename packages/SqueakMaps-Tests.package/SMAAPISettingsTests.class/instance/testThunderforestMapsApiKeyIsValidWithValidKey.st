@@ -1,5 +1,5 @@
 tests
 testThunderforestMapsApiKeyIsValidWithValidKey
 
-	model thunderforestMapsApi class apiKey: validThunderforestMapsKey.
-	self assert: true equals: model thunderforestMapsApi keyIsValid
+	self model thunderforestMapsApi class apiKey: self validThunderforestMapsKey.
+	self assert: true equals: self model thunderforestMapsApi keyIsValid

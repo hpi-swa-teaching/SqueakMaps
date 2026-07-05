@@ -1,4 +1,4 @@
-category management
+pin management
 buildPinRouteMenu: aMenu
 
 	aMenu
@@ -7,5 +7,4 @@ buildPinRouteMenu: aMenu
 		add: 'Go'
 		target: self
 		selector: #routeSelectedPins.
-		
 	^ aMenu

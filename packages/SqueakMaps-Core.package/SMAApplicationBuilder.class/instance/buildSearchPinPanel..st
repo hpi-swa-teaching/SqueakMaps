@@ -1,0 +1,9 @@
+building search bar
+buildSearchPinPanel: aBuilder
+	
+	^ aBuilder pluggablePanelSpec new
+		model: self model;
+		children: #buildSearchPinPanelChildren;
+		layout: #vertical;
+		frame: (0 @ 0.1 corner: 1 @ 0.25);
+		yourself

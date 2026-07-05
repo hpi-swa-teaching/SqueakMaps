@@ -4,7 +4,7 @@ testApiKeyManagementThunderforest
 	| testThunderforestApiKey menu item |
 	
 	testThunderforestApiKey := 'Test'.
-	apiButton click. 
+	self apiButton click. 
 	menu := ActiveWorld submorphs detect: [:m | m isKindOf: MenuMorph].
 	item := menu items detect: [:m | m contents = 'API Keys'].
 	
@@ -12,6 +12,6 @@ testApiKeyManagementThunderforest
 	] valueSupplyingAnswers: {
 		{ 'choose key to edit' . 'Thunderforest Maps' } . 
 		{ 'Your Thunderforest Maps Api Key' . testThunderforestApiKey } }.
-	self assert: testThunderforestApiKey equals: model thunderforestMapsApi class apiKey.
+	self assert: testThunderforestApiKey equals: self model thunderforestMapsApi class apiKey.
 	
 	menu delete.

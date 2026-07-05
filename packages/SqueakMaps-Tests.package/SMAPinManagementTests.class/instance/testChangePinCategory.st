@@ -19,7 +19,7 @@ testChangePinCategory
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
 	
-	item := menu items detect: [:m | m contents = 'Change pin category'].
+	item := menu items detect: [:m | m contents = self model changePinCategoryMenuLabel].
 
 	[ item target perform: item selector withArguments: item arguments.
 	] valueSupplyingAnswers: {{ 'Select category' . 'Test Category'}}.

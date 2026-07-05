@@ -2,7 +2,7 @@ category management
 renamePinCategory: aCategory
 	
 	| answer aNewCategory |
-	aCategory isDefault ifTrue: [^ self inform: 'Default category cannot be renamed'.]. 
+	aCategory isDefault ifTrue: [^ self inform: 'Default category cannot be renamed']. 
 	answer := UIManager default request: 'New Name'.
 	(answer = '') ifFalse: [ 
 			aNewCategory := self createNewCategory: answer.

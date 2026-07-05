@@ -13,7 +13,6 @@
 		"selectedPin",
 		"searchInput",
 		"hopSearchInput",
-		"hopsCounter",
 		"transportationModeInput",
 		"hasSearched",
 		"navigator",
@@ -25,7 +24,8 @@
 		"visibleRoutes",
 		"routes",
 		"hopLocations",
-		"selectedHopIndex" ],
+		"selectedHopIndex",
+		"applicationBuilder" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
 routes
 
-	^ routes ifNil: [routes := OrderedCollection new.].
+	^ routes ifNil: [routes := OrderedCollection new.]

@@ -1,4 +1,4 @@
 hop management
 hopLocationLabels
 	
-	^ self hopLocations collect: [:l | l label asString].
+	^ self hopLocations collect: [:l | l label asString]

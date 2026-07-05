@@ -11,7 +11,7 @@ testRenameCategory
 	self model isSelected: 2 put: true.
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
-	item := menu items detect: [:m | m contents = 'Rename Category'].
+	item := menu items detect: [:m | m contents = self model renameCategoryMenuLabel].
 	
 	[ item target perform: item selector withArguments: item arguments.] 
 	valueSupplyingAnswers: { { 'New Name' . 'Renamed Category' } }.

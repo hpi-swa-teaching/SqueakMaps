@@ -1,4 +1,4 @@
-category management
+route management
 removeSavedRoute
 
 	| selectedRoute |

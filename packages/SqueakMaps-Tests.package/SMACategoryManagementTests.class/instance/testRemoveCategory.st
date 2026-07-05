@@ -12,7 +12,7 @@ testRemoveCategory
 	menu := MenuMorph new.
 	menu := self model getMenu: menu.
 	
-	item := menu items detect: [:m | m contents = 'Remove Category'].
+	item := menu items detect: [:m | m contents = self model removeCategoryMenuLabel].
 	
 	item target perform: item selector withArguments: item arguments.
 	

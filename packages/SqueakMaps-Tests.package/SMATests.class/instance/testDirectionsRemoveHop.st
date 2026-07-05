@@ -1,10 +1,6 @@
 ui
 testDirectionsRemoveHop
 
-	| worldposMiddle |
-	
-	worldposMiddle := 0.5 @ 0.5.
-
 	self geocoderMock mockLocateWith: [:query | { self berlinLocation }].
 	self geocoderMock mockLocateWith: [:query | (SMALocationNameNotFoundError new requestedName: 'not-existing-1') signal].
 	self model hopSearchInput: 'Berlin'.

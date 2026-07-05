@@ -1,22 +1,13 @@
 search
-searchDirectionsFrom: aLocation to: anotherLocation
+searchDirectionsFrom: startLocation to: destinationLocation
 
-	| startLocation destinationLocation transportationMode newRoute |
-	
-	startLocation := aLocation.
-	destinationLocation := anotherLocation.
-	transportationMode := self transportationModeInput.
-	
+	| newRoute |
 	(startLocation coordinates = destinationLocation coordinates) ifTrue: [
 		^ self informSearchedSameLocation: startLocation].
 
-	[newRoute := self navigator getRouteFrom: startLocation to: destinationLocation by: transportationMode]
+	[newRoute :=self navigator getRouteFrom: startLocation to: destinationLocation by: self transportationModeInput]
 		on: SMAGeoServiceError
 		do: [:error |
 			self mapConfigurator showLocations: { startLocation . destinationLocation }.
-			self inform: error userMessage.
-			^ self].
-	
-	self routes add: newRoute.
-	self hasSearched: true;
-		changed: #buildSidebarTopChildren
+			^ self inform: error userMessage].
+	self addRoute: newRoute

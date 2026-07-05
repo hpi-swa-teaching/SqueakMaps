@@ -2,14 +2,13 @@ category management
 buildCategoryMenu: aMenu for: aCategory
 	
 	aMenu
-		addTitle: 'Category Options'.
+		addTitle: self categoryOptionsMenuTitle.
 	aMenu
-		add: 'Add new Category' target: self selector: #addCategory.
+		add: self addCategoryMenuLabel target: self selector: #addCategory.
 	aMenu 
-		add: 'Rename Category' target: self selector: #renameCategory: 
+		add: self renameCategoryMenuLabel target: self selector: #renameCategory: 
 		argumentList: (Array with: aCategory).
 	aMenu 
-		add: 'Remove Category' target: self selector: #removeCategory:
+		add: self removeCategoryMenuLabel target: self selector: #removeCategory:
 		argumentList: (Array with: aCategory).
-		
 	^ aMenu

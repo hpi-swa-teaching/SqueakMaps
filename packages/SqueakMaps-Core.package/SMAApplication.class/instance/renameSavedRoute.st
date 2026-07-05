@@ -1,4 +1,4 @@
-category management
+route management
 renameSavedRoute
 
 	| savedRoutes selectedRoute |
@@ -8,6 +8,3 @@ renameSavedRoute
 	selectedRoute := SavedRoutes detect: [:elem | elem routeTitle = self getSelectedSavedRoute first].
 	self class renameSavedRoute: selectedRoute.
 	self changed: #savedRoutes.
-		
-		
-		
