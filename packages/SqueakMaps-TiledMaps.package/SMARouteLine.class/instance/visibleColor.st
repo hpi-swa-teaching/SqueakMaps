@@ -1,4 +1,4 @@
 accessing
 visibleColor
 
-	^ Color r: 128 / 255 g: 205 / 255 b: 236 / 255
+	^ Color r: 9 g: 26 b: 150 range: 255
