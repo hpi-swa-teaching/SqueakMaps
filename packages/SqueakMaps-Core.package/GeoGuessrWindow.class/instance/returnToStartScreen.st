@@ -14,7 +14,7 @@ returnToStartScreen
 	mapIsLarge := false.
 
 	"The end-of-game leaderboard overlay must not linger on the home screen."
-	leaderboardBackground ifNotNil: [leaderboardBackground delete].
+	leaderboardView ifNotNil: [leaderboardView close].
 	self
 		removeMorph: self backButton;
 		removeMorph: self startButton;

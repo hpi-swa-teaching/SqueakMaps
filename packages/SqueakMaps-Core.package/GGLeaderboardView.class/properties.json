@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"leaderboard" ],
+	"name" : "GGLeaderboardView",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

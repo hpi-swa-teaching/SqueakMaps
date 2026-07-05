@@ -1,4 +1,0 @@
-accessing
-maxNameLength
-
-	^ 10

@@ -1,0 +1,4 @@
+constants
+maxNameLength 
+
+	^ 10
