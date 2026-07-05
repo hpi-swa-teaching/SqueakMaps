@@ -29,7 +29,8 @@
 		"selectedStartPinRouteTarget",
 		"selectedDestinationPinRouteTarget",
 		"routingFacade",
-		"activeCategoryFilterLabel" ],
+		"activeCategoryFilterLabel",
+		"selectedCampusDetailImageIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],
