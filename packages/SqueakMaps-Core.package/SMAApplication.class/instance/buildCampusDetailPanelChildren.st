@@ -1,16 +1,13 @@
 building
 buildCampusDetailPanelChildren
 
-	| builder children |
+	(self selectedCampusDetailTarget isNil and: [self selectedPin isNil])
+		ifTrue: [^ {}].
+	self selectedCampusDetailTarget ifNil: [^ self buildSearchPinPanelChildren].
 
-	self selectedCampusDetailTarget ifNil: [^ {}].
-
-	builder := ToolBuilder default.
-	children := OrderedCollection new.
-
-	children add: (self buildCampusDetailScrollPane: builder).
-	children add: (builder build: (self buildCampusDetailCloseButton: builder)).
-	children add: (builder build: (self buildCampusDetailUseAsStartButton: builder)).
-	children add: (builder build: (self buildCampusDetailRouteButton: builder)).
-
-	^ children
+	^ self buildDetailActionRowChildren: ToolBuilder default
+		start: #useSelectedDetailTargetAsStart
+		startHelp: 'Diesen Ort als Startpunkt verwenden.'
+		route: #routeToSelectedDetailTarget
+		routeHelp: 'Route zu diesem Ort berechnen.'
+		top: -60 bottom: 0

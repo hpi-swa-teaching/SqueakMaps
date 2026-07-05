@@ -1,20 +1,14 @@
 accessing
 click: anEvent
 
-	| overlay pointOfInterest |
+	| target |
 
 	(self handleLevelSelectorClick: anEvent cursorPoint) ifTrue: [^ self].
 
-	pointOfInterest := self pointOfInterestAtPixel: anEvent cursorPoint.
-	pointOfInterest ifNotNil: [
+	target := self clickTargetAtPixel: anEvent cursorPoint.
+	target ifNotNil: [
 		self onOverlayClickAction ifNotNil: [
-			self onOverlayClickAction value: pointOfInterest].
-		^ self].
-
-	overlay := self overlayAtPixel: anEvent cursorPoint.
-	overlay ifNotNil: [
-		self onOverlayClickAction ifNotNil: [
-			self onOverlayClickAction value: overlay].
+			self onOverlayClickAction value: target].
 		^ self].
 
 	super click: anEvent

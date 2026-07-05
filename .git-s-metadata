@@ -11908,6 +11908,26 @@ GSMetadata {
 				'icon-lunch.png'
 			],
 			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'buildings',
+				'hpi_hauptgebaeude_atrium.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'buildings',
+				'hpi_hauptgebaeude_foyer.png'
+			],
+			#encoding : @5
 		}
 	],
 	#name : 'SqueakMaps'

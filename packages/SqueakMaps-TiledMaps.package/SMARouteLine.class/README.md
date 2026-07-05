@@ -1,1 +1,1 @@
-Route presentation model. It observes floor selection and exposes level-aware segment visibility without knowing a map 
+Route presentation model. It observes floor selection and exposes level-aware segment visibility without knowing a map
