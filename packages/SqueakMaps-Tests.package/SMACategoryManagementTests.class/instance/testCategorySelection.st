@@ -17,7 +17,7 @@ testCategorySelection
 	pin2 := SMALocation new 
 		coordinates: (SMAGeoCoordinate newFrom:  13.404954 @ 52.520008);
 		label: 'Berlin';
-		category: testCategory
+		category: testCategory;
 		yourself.
 	self model class savedPins add: pin1.
 	self model class savedPins add: pin2.

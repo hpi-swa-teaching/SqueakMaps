@@ -7,5 +7,4 @@ buildPinRouteMenu: aMenu
 		add: 'Go'
 		target: self
 		selector: #routeSelectedPins.
-		
 	^ aMenu

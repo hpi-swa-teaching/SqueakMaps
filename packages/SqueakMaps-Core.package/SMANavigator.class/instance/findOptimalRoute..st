@@ -23,7 +23,4 @@ findOptimalRoute: aCollectionOfSMALocations
 		].
 	].
 
-	^ solution.
-	
-	
-	
+	^ solution

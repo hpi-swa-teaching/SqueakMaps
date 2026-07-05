@@ -9,5 +9,5 @@ searchDirectionsFrom: startLocation to: destinationLocation
 		on: SMAGeoServiceError
 		do: [:error |
 			self mapConfigurator showLocations: { startLocation . destinationLocation }.
-			^ self inform: error userMessage.].
+			^ self inform: error userMessage].
 	self addRoute: newRoute
