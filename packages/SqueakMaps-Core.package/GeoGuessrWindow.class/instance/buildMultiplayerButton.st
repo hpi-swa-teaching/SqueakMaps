@@ -6,4 +6,3 @@ buildMultiplayerButton
 		target: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: true];
 		actionSelector: #value;
 		yourself).
-	

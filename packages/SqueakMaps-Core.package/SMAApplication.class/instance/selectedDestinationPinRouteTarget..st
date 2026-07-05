@@ -1,0 +1,4 @@
+accessing
+selectedDestinationPinRouteTarget: aSMALocation
+
+	selectedDestinationPinRouteTarget := aSMALocation

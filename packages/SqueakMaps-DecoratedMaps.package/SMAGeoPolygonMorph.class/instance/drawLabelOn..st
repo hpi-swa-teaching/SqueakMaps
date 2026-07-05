@@ -20,4 +20,3 @@ drawLabelOn: aCanvas
 		at: labelBounds topLeft + 2
 		font: font
 		color: Color black
-		

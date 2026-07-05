@@ -18,7 +18,8 @@
 		"hoveredRoomOverlay",
 		"hoveredBuildingOverlay",
 		"roomOverlayZoomWasActive",
-		"levelSelectionModel" ],
+		"levelSelectionModel",
+		"categoryFilter" ],
 	"name" : "SMADecoratedMapMorph",
 	"pools" : [
 		 ],
