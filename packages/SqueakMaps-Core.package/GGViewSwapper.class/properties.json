@@ -1,0 +1,19 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/6/2026 00:08",
+	"instvars" : [
+		"window",
+		"picture",
+		"map",
+		"mapIsLarge",
+		"largeFrame",
+		"smallFrame" ],
+	"name" : "GGViewSwapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

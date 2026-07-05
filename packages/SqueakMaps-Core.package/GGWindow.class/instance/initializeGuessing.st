@@ -1,7 +1,6 @@
 initialization
 initializeGuessing
 
-	mapIsLarge := false.
 	self
 		roundActive: false;
 		currentGuess: GGNoGuess new;

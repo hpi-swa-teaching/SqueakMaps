@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/6/2026 01:20",
+	"instvars" : [
+		"window",
+		"startButton",
+		"backButton",
+		"einloggenButton",
+		"quitButton" ],
+	"name" : "GGControlBar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

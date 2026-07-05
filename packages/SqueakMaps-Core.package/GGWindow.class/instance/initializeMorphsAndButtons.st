@@ -5,13 +5,10 @@ initializeMorphsAndButtons
 		tiledMapMorph: SMATiledMapMorph new;
 		pictureMorph: GGPictureMorph new;
 		timerMorph: GGTimerMorph new;
-		buildStartButton;
-		buildBackButton;
-		buildEinloggenButton;
 		buildInfoMorph;
 		buildInfoMorph2;
-		buildQuitButton;
 		buildSingleplayerButton;
 		buildMultiplayerButton;
 		buildLeaderboardButton;
-		buildHomeQuitButton
+		buildHomeQuitButton.
+	self controlBar: (GGControlBar new setWindow: self)

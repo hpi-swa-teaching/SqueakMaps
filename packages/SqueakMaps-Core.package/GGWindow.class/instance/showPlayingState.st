@@ -1,7 +1,7 @@
 game flow
 showPlayingState
 
-	self ensurePictureLarge.
+	self viewSwapper showPictureLarge.
 	self pictureMorph showImage: gameOrchestrator currentLevel imagePath.
 	self mapConfigurator clear.
 	self focusCampus.

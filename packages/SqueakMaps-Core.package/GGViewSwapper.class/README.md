@@ -1,0 +1,1 @@
+A GGViewSwapper arranges the two GeoGuessr views (location picture and map) as the one large panel and one small inset, and swaps which of them is large.

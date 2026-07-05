@@ -1,0 +1,1 @@
+A GGControlBar is the game-screen button strip. It builds the buttons through the window and shows/labels the right ones for each game phase.

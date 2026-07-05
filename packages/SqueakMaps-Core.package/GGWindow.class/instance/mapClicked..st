@@ -1,12 +1,12 @@
 guessing
 mapClicked: anEvent
 
-    (mapIsLarge not
+    (self viewSwapper isMapLarge not
         and: [tiledMapMorph bounds containsPoint: anEvent position])
-            ifTrue: [^ self swapViews].
+            ifTrue: [^ self viewSwapper toggle].
 
-    (mapIsLarge
+    (self viewSwapper isMapLarge
         and: [pictureMorph bounds containsPoint: anEvent position])
-            ifTrue: [^ self swapViews].
+            ifTrue: [^ self viewSwapper toggle].
 
     self placeGuessAt: anEvent position

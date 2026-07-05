@@ -5,21 +5,16 @@ returnToStartScreen
 	self timerMorph stop; reset.
 	self currentGuess: GGNoGuess new.
 	gameOrchestrator reset.
-	self backButton visible: false.
 
 	"Restore the large 'cover' picture view. Otherwise the evaluation phase leaves the picture in
 	the shrunken 'contain' mode (mapIsLarge true), so the background keeps wide borders until the
 	next swapViews on game start."
-	self pictureMorph coverMode: true.
-	mapIsLarge := false.
+	self viewSwapper reset.
 
 	"The end-of-game leaderboard overlay must not linger on the home screen."
 	leaderboardView ifNotNil: [leaderboardView close].
+	self controlBar tearDown.
 	self
-		removeMorph: self backButton;
-		removeMorph: self startButton;
-		removeMorph: self einloggenButton;
-		removeMorph: self quitButton;
 		removeMorph: self infoMorph;
 		removeMorph: self infoMorph2;
 		removeMorph: self timerMorph;
