@@ -376,10 +376,6 @@
   </node>
   <node id="-39103" action="modify" lat="52.39325394612" lon="13.1302135577" />
   <node id="-39104" action="modify" lat="52.39325852403" lon="13.13031309276" />
-  <node id="-39105" action="modify" lat="52.39335589706" lon="13.13030093351">
-    <tag k="door" v="hinged" />
-    <tag k="indoor" v="door" />
-  </node>
   <node id="-39106" action="modify" lat="52.39344386594" lon="13.13025878357" />
   <node id="-39107" action="modify" lat="52.39344471945" lon="13.13027948">
     <tag k="door" v="hinged" />
@@ -402,10 +398,6 @@
   <node id="-39116" action="modify" lat="52.39346951043" lon="13.13024193641" />
   <node id="-39117" action="modify" lat="52.39336020935" lon="13.13025115041" />
   <node id="-39118" action="modify" lat="52.39336256225" lon="13.1303001012" />
-  <node id="-39119" action="modify" lat="52.39335589706" lon="13.13030093351">
-    <tag k="door" v="hinged" />
-    <tag k="indoor" v="door" />
-  </node>
   <node id="-39120" action="modify" lat="52.39333903756" lon="13.1303030388" />
   <node id="-39121" action="modify" lat="52.39333673173" lon="13.1302541679" />
   <node id="-39122" action="modify" lat="52.39330090335" lon="13.13020839997" />
@@ -634,10 +626,6 @@
     <tag k="indoor" v="door" />
   </node>
   <node id="-39234" action="modify" lat="52.39333903756" lon="13.1303030388" />
-  <node id="-39235" action="modify" lat="52.39335589706" lon="13.13030093351">
-    <tag k="door" v="hinged" />
-    <tag k="indoor" v="door" />
-  </node>
   <node id="-39236" action="modify" lat="52.39336256225" lon="13.1303001012" />
   <node id="-39237" action="modify" lat="52.39338548442" lon="13.13029723884">
     <tag k="door" v="hinged" />
@@ -750,10 +738,6 @@
   <node id="-39288" action="modify" lat="52.39325394612" lon="13.1302135577" />
   <node id="-39289" action="modify" lat="52.39336020935" lon="13.13025115041" />
   <node id="-39290" action="modify" lat="52.39336256225" lon="13.1303001012" />
-  <node id="-39291" action="modify" lat="52.39335589706" lon="13.13030093351">
-    <tag k="door" v="hinged" />
-    <tag k="indoor" v="door" />
-  </node>
   <node id="-39292" action="modify" lat="52.39333903756" lon="13.1303030388" />
   <node id="-39293" action="modify" lat="52.39333673173" lon="13.1302541679" />
   <node id="-39294" action="modify" lat="52.39335825474" lon="13.13020210054" />
@@ -1000,7 +984,6 @@
   <node id="-39440" action="modify" lat="52.39339582989" lon="13.13031031269" />
   <node id="-39441" action="modify" lat="52.39344002069" lon="13.13030501959" />
   <node id="-39442" action="modify" lat="52.39338604549" lon="13.13031148465" />
-  <node id="-39443" action="modify" lat="52.39335658395" lon="13.1303150135" />
   <node id="-39444" action="modify" lat="52.3933110299" lon="13.13032046988" />
   <node id="-39445" action="modify" lat="52.39330549648" lon="13.13019413969" />
   <node id="-39446" action="modify" lat="52.39335026138" lon="13.13018888241" />
@@ -1039,7 +1022,6 @@
   <node id="-39473" action="modify" lat="52.39331089464" lon="13.13031411636" />
   <node id="-39474" action="modify" lat="52.3933297628" lon="13.13031175493" />
   <node id="-39475" action="modify" lat="52.39335086248" lon="13.13030911422" />
-  <node id="-39476" action="modify" lat="52.39335622741" lon="13.13030844277" />
   <node id="-39477" action="modify" lat="52.39338576883" lon="13.13030474553" />
   <node id="-39478" action="modify" lat="52.39339544509" lon="13.13030353451" />
   <node id="-39479" action="modify" lat="52.3934396573" lon="13.13029800115" />
@@ -1667,6 +1649,16 @@
     <tag k="indoor" v="door" />
   </node>
   <node id="-39854" action="modify" lat="52.39356764683" lon="13.13195294399" />
+  <node id="-39865" action="modify" lat="52.39335473603" lon="13.13030114711">
+    <tag k="door" v="hinged" />
+    <tag k="indoor" v="door" />
+  </node>
+  <node id="-39866" action="modify" lat="52.39335530663" lon="13.13031516649" />
+  <node id="-39907" action="modify" lat="52.39335346963" lon="13.13030129023">
+    <tag k="door" v="hinged" />
+    <tag k="indoor" v="door" />
+  </node>
+  <node id="-39908" action="modify" lat="52.3933537761" lon="13.13030874956" />
   <node id="27127275" timestamp="2025-09-24T12:32:07Z" uid="23277257" user="Openminded320" version="4" changeset="172391870" lat="52.4075238" lon="13.1041289" />
   <node id="27127277" timestamp="2021-01-16T18:22:40Z" uid="1468248" user="PantherStrix" version="5" changeset="97615469" lat="52.4066831" lon="13.106812" />
   <node id="27127278" timestamp="2021-01-16T18:22:40Z" uid="1468248" user="PantherStrix" version="5" changeset="97615469" lat="52.4065822" lon="13.1072417" />
@@ -17534,7 +17526,7 @@
     <nd ref="-39066" />
     <nd ref="-39065" />
     <nd ref="-39064" />
-    <nd ref="-39105" />
+    <nd ref="-39865" />
     <nd ref="-39060" />
     <nd ref="-39059" />
     <nd ref="-39058" />
@@ -17575,7 +17567,7 @@
   <way id="-23200" action="modify">
     <nd ref="-39117" />
     <nd ref="-39118" />
-    <nd ref="-39119" />
+    <nd ref="-39865" />
     <nd ref="-39120" />
     <nd ref="-39121" />
     <nd ref="-39117" />
@@ -17948,7 +17940,7 @@
     <nd ref="-39232" />
     <nd ref="-39233" />
     <nd ref="-39234" />
-    <nd ref="-39235" />
+    <nd ref="-39907" />
     <nd ref="-39236" />
     <nd ref="-39237" />
     <nd ref="-39238" />
@@ -18155,7 +18147,7 @@
   <way id="-23243" action="modify">
     <nd ref="-39289" />
     <nd ref="-39290" />
-    <nd ref="-39291" />
+    <nd ref="-39907" />
     <nd ref="-39292" />
     <nd ref="-39293" />
     <nd ref="-39289" />
@@ -18879,7 +18871,7 @@
     <nd ref="-39444" />
     <nd ref="-39438" />
     <nd ref="-39439" />
-    <nd ref="-39443" />
+    <nd ref="-39866" />
     <nd ref="-39442" />
     <nd ref="-39440" />
     <nd ref="-39441" />
@@ -18911,7 +18903,7 @@
     <nd ref="-39473" />
     <nd ref="-39474" />
     <nd ref="-39475" />
-    <nd ref="-39476" />
+    <nd ref="-39908" />
     <nd ref="-39477" />
     <nd ref="-39478" />
     <nd ref="-39479" />
@@ -19028,12 +19020,6 @@
   <way id="-23320" action="modify">
     <nd ref="-39059" />
     <nd ref="-39442" />
-    <tag k="highway" v="footway" />
-    <tag k="level" v="1" />
-  </way>
-  <way id="-23321" action="modify">
-    <nd ref="-39119" />
-    <nd ref="-39443" />
     <tag k="highway" v="footway" />
     <tag k="level" v="1" />
   </way>
@@ -19193,12 +19179,6 @@
   <way id="-23345" action="modify">
     <nd ref="-39279" />
     <nd ref="-39475" />
-    <tag k="highway" v="footway" />
-    <tag k="level" v="2" />
-  </way>
-  <way id="-23346" action="modify">
-    <nd ref="-39291" />
-    <nd ref="-39476" />
     <tag k="highway" v="footway" />
     <tag k="level" v="2" />
   </way>
@@ -19538,18 +19518,6 @@
     <nd ref="-39556" />
     <nd ref="-39557" />
     <nd ref="-39573" />
-    <tag k="highway" v="footway" />
-    <tag k="level" v="2" />
-  </way>
-  <way id="-23395" action="modify">
-    <nd ref="-39105" />
-    <nd ref="-39562" />
-    <tag k="highway" v="footway" />
-    <tag k="level" v="1" />
-  </way>
-  <way id="-23396" action="modify">
-    <nd ref="-39235" />
-    <nd ref="-39563" />
     <tag k="highway" v="footway" />
     <tag k="level" v="2" />
   </way>
@@ -20980,6 +20948,20 @@
     <nd ref="-39826" />
     <tag k="highway" v="footway" />
     <tag k="level" v="0" />
+  </way>
+  <way id="-23754" action="modify">
+    <nd ref="-39562" />
+    <nd ref="-39865" />
+    <nd ref="-39866" />
+    <tag k="highway" v="footway" />
+    <tag k="level" v="1" />
+  </way>
+  <way id="-23792" action="modify">
+    <nd ref="-39563" />
+    <nd ref="-39907" />
+    <nd ref="-39908" />
+    <tag k="highway" v="footway" />
+    <tag k="level" v="2" />
   </way>
   <way id="4469442" timestamp="2025-09-28T07:19:46Z" uid="1468043" user="jengelh" version="22" changeset="172553771">
     <nd ref="11185382927" />
