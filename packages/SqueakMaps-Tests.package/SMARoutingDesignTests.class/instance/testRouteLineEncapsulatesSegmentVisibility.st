@@ -1,11 +1,12 @@
 as yet unclassified
 testRouteLineEncapsulatesSegmentVisibility
 
-	| model route |
-	model := SMALevelSelectionModel new.
-	model visibleLevel: 1.
+	| map route |
+	map := SMADecoratedMapMorph new zoom: 20.
+	map levelSelectionModel visibleLevel: 1.
 	route := SMARouteLine new.
-	route levelSelectionModel: model.
-	self assert: (route isSegmentVisible: #(1) whenLevelFiltering: true).
-	self deny: (route isSegmentVisible: #(0) whenLevelFiltering: true).
-	self assert: (route isSegmentVisible: #(0) whenLevelFiltering: false)
+
+	self assert: (map routeSegmentIsVisible: #(1)).
+	self deny: (map routeSegmentIsVisible: #(0)).
+	map zoom: 17.
+	self assert: (map routeSegmentIsVisible: #(0)).

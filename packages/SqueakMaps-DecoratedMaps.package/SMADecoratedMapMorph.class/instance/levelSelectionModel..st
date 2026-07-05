@@ -5,5 +5,4 @@ levelSelectionModel: aLevelSelectionModel
 	levelSelectionModel := aLevelSelectionModel.
 	levelSelectionModel ifNotNil: [
 		levelSelectionModel addDependent: self.
-		self synchronizeAvailableLevels].
-	self route ifNotNil: [self route levelSelectionModel: levelSelectionModel]
+		self synchronizeAvailableLevels]

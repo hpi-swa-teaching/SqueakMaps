@@ -9,8 +9,7 @@
 		"points",
 		"boundingBox",
 		"color",
-		"segments",
-		"levelSelectionModel" ],
+		"segments" ],
 	"name" : "SMARouteLine",
 	"pools" : [
 		 ],
