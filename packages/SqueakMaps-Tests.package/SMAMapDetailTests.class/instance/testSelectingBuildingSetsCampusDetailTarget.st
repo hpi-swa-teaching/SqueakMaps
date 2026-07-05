@@ -3,7 +3,7 @@ testSelectingBuildingSetsCampusDetailTarget
 
 	| application building |
 
-	application := SMAApplication new.
+	application := SMAApplication new initializeMap.
 	building := SMABuilding new
 		name: 'Haus K';
 		yourself.
