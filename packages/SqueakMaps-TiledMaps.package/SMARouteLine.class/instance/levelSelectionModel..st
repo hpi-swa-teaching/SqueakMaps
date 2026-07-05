@@ -1,4 +1,4 @@
-as yet unclassified
+level-selection
 levelSelectionModel: aLevelSelectionModel
 
 	levelSelectionModel ifNotNil: [levelSelectionModel removeDependent: self].

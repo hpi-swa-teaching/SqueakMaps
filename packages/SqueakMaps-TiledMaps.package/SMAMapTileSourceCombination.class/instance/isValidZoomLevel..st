@@ -1,4 +1,4 @@
 zooming
 isValidZoomLevel: aZoom
 
-	^ (aZoom >= self zoomMin) and: [aZoom <= self zoomMax]
+	^ (self selectTileSource: aZoom) isValidZoomLevel: aZoom

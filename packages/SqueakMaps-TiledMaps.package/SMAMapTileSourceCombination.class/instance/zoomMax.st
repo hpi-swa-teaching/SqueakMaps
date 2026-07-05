@@ -1,4 +1,4 @@
 zooming
 zoomMax
 
-	^ 20
+	^ tileSourceB zoomMax

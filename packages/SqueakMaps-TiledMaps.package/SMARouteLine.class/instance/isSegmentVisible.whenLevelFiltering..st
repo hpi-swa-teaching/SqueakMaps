@@ -1,4 +1,4 @@
-as yet unclassified
+level-selection
 isSegmentVisible: aCollectionOfLevels whenLevelFiltering: shouldFilterByLevel
 
 	shouldFilterByLevel ifFalse: [^ true].

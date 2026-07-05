@@ -1,4 +1,4 @@
 markers
-addMarker: aSMAMarker
+addMarker: anSMAMarker
 
-	self markers add: aSMAMarker
+	self markers add: anSMAMarker

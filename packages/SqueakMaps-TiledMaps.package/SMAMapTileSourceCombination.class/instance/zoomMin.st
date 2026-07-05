@@ -1,4 +1,4 @@
 zooming
 zoomMin
 
-	^ 0
+	^ tileSourceA zoomMin

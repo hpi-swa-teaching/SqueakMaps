@@ -4,11 +4,10 @@
 	"instance" : {
 		"clampZoom:" : "cs 8/6/2020 15:47",
 		"initialize" : "kong 6/9/2026 18:03",
-		"isValidZoomLevel:" : "cs 8/6/2020 15:48",
-		"mapTileAt:zoom:" : "Samuel Bis 6/14/2026 09:03",
-		"selectTileSource:zoom:" : "kong 6/9/2026 18:01",
+		"isValidZoomLevel:" : "kong 7/5/2026 16:19",
+		"mapTileAt:zoom:" : "kong 7/5/2026 16:11",
+		"selectTileSource:" : "kong 7/5/2026 16:21",
 		"tileSize" : "cs 8/6/2020 15:49",
-		"urlForPosition:zoom:" : "kong 6/9/2026 17:56",
-		"zoomBMin" : "kong 6/9/2026 18:01",
-		"zoomMax" : "kong 6/9/2026 17:50",
-		"zoomMin" : "cs 8/6/2020 15:49" } }
+		"urlForPosition:zoom:" : "kong 7/5/2026 16:18",
+		"zoomMax" : "kong 7/5/2026 16:20",
+		"zoomMin" : "kong 7/5/2026 16:20" } }

@@ -1,4 +1,4 @@
 zooming
-zoomBMin
+zoomMin
 
 	^ 20
