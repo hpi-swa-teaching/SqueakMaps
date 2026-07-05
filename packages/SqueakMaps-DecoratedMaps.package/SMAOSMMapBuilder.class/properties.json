@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 18:05",
+	"instvars" : [
+		"points",
+		"rooms",
+		"buildings",
+		"pointsOfInterest" ],
+	"name" : "SMAOSMMapBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

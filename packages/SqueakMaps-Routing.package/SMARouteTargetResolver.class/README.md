@@ -1,0 +1,1 @@
+Resolves heterogeneous map targets into graph endpoints. It owns entrance, level, and nearest-vertex decisions.

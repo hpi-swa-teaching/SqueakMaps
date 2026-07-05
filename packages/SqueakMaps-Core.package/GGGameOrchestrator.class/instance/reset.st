@@ -5,7 +5,7 @@ reset
 	levelManager := GGLevelManager new.
 	currentLevel := nil.
 	roundResults := OrderedCollection new.
-	totalScorep0 := 0.
-	totalScorep1 := 0.
+	players := { GGPlayer label: 'Player 0'. GGPlayer label: 'Player 1' }.
+	currentPlayerIndex := 0.
 	isMultiplayer := false.
 	

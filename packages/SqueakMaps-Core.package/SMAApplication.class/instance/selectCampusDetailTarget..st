@@ -1,9 +1,8 @@
 building
 selectCampusDetailTarget: aCampusDetailTarget
 
+	self mapConfigurator clear.
 	self selectedCampusDetailTarget: aCampusDetailTarget.
-	self startRouteSelectionIndex: (self
-		routeSelectionIndexForTarget: aCampusDetailTarget
-		in: self routeTargets).
+	self selectedCampusDetailImageIndex: 1.
 	self changed: #buildCampusDetailPanelChildren.
 	self changed: #buildSidebarTopChildren

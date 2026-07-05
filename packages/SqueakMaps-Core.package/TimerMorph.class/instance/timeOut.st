@@ -1,4 +1,4 @@
-as yet unclassified
+private
 timeOut
 
 	self stop.

@@ -1,9 +1,4 @@
 building
 buildMultiplayerButton
 
-	self multiplayerButton: (PluggableButtonMorph new
-		label: 'Multiplayer';
-		target: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: true];
-		actionSelector: #value;
-		yourself).
-	
+	self multiplayerButton: (self buttonLabeled: 'Multiplayer' action: [self initializeWindowOnClick. gameOrchestrator isMultiplayer: true])

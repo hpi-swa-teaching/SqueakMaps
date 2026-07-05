@@ -1,4 +1,5 @@
 accessing
 segments: aCollection
 
-	segments := aCollection
+	segments := aCollection.
+	self changed: #route

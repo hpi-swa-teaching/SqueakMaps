@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -3591,6 +3591,14 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
+				'geoguesser_start_screen.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
 				'tiles',
 				'20',
 				'562511',
@@ -5170,15 +5178,6 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
-				'img',
-				'poi_64.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
 				'tiles',
 				'20',
 				'562543',
@@ -5656,15 +5655,6 @@ GSMetadata {
 				'20',
 				'562512',
 				'344492.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'img',
-				'drinking_water_64.png'
 			],
 			#encoding : @5
 		},
@@ -8354,6 +8344,15 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
+				'levels',
+				'2.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
 				'tiles',
 				'20',
 				'562535',
@@ -9036,6 +9035,15 @@ GSMetadata {
 				'20',
 				'562508',
 				'344484.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'levels',
+				'1.png'
 			],
 			#encoding : @5
 		},
@@ -10787,15 +10795,6 @@ GSMetadata {
 			],
 			#encoding : @5
 		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'hpi-k-campus-only.osm'
-			],
-			#encoding : 'TXT'
-		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -11033,6 +11032,15 @@ GSMetadata {
 				'20',
 				'562519',
 				'344498.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'levels',
+				'3.png'
 			],
 			#encoding : @5
 		},
@@ -11400,15 +11408,6 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'assets',
-				'img',
-				'printer_64.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
 				'tiles',
 				'20',
 				'562550',
@@ -11842,6 +11841,91 @@ GSMetadata {
 				'20',
 				'562519',
 				'344485.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'robert_hirschfeld_64.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'robert_hirschfeld_256.png'
+			],
+			#encoding : @5
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'hpi-k-pois-abc_filtered-buildings.osm'
+			],
+			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-poi.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-printer.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-drinking_water.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'icon-lunch.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'buildings',
+				'hpi_hauptgebaeude_atrium.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'buildings',
+				'hpi_hauptgebaeude_foyer.png'
 			],
 			#encoding : @5
 		}

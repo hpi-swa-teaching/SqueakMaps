@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 edgeWeight: anEdge
 
-	^ self
+	^ SMARoutingGeometry
 		distanceFrom: (vertices at: anEdge u)
 		to: (vertices at: anEdge v)

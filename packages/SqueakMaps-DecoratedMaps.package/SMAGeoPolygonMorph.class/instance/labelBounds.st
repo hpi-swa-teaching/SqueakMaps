@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 labelBounds
 
 	| font labelPosition labelSize |
@@ -6,6 +6,6 @@ labelBounds
 	self vertices isEmpty ifTrue: [^ nil].
 
 	font := TextStyle defaultFont.
-	labelPosition := self centerOfVertices.
-	labelSize := (font widthOfString: label) @ font height.
-	^ (labelPosition extent: labelSize) expandBy: 2
+	labelPosition := self center - (0@ self bounds height // 5).
+	labelSize := (font widthOfString: label) @ font height + 2.
+	^ Rectangle center: labelPosition extent: labelSize

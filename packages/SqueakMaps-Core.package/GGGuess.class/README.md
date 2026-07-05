@@ -1,0 +1,1 @@
+A GGGuess is a guess the player placed on the map: it wraps the guessed coordinates. GGNoGuess is its null object for a round where no pin was placed, so clients can send isPresent/coordinates without checking for nil.

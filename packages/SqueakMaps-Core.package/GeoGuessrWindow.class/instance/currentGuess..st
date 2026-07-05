@@ -1,4 +1,4 @@
 accessing
-currentGuess: aSMAGeoCoordinate
+currentGuess: aGuess
 
-	currentGuess := aSMAGeoCoordinate
+	currentGuess := aGuess

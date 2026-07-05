@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 onTimeout: aBlock
 
 	onTimeout := aBlock

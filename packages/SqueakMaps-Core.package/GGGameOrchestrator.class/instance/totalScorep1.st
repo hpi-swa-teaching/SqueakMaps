@@ -1,4 +1,4 @@
 accessing
 totalScorep1
 
-	^totalScorep1
+	^ (players at: 2) score

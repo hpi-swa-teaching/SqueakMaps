@@ -1,0 +1,4 @@
+accessing
+categoryFilter
+
+	^ categoryFilter

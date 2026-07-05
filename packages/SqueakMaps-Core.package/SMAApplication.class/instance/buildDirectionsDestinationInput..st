@@ -15,8 +15,9 @@ buildDirectionsDestinationInput: aBuilder
 				editText: #destinationSearchInput:;
 				askBeforeDiscardingEdits: false;
 				help: 'Destination...';
-				frame: (0 @ 0.5 corner: 1 @ 1);
-				yourself
+				frame: (0 @ 0.5 corner: 0.86 @ 1);
+				yourself.
+			self buildDirectionsDestinationClearButton: aBuilder
 		};
 		frame: (0 @ 0.2 corner: 1 @ 0.3);
 		yourself

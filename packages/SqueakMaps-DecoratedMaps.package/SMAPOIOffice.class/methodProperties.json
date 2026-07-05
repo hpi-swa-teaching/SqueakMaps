@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"extractPOIIdsFrom:" : "Samuel Bis 6/17/2026 21:59",
-		"fromXMLTag:" : "Samuel Bis 6/17/2026 21:46" },
+		"fromXMLTag:" : "Samuel Bis 7/3/2026 18:13" },
 	"instance" : {
 		"detailTitle" : "AS 6/16/2026 17:30",
 		"detailType" : "AS 6/16/2026 17:30",
 		"displayName" : "kong 6/11/2026 16:24",
-		"image" : "kong 6/11/2026 15:01",
+		"image" : "kong 7/4/2026 14:30",
 		"setName:" : "kong 6/11/2026 14:59",
-		"typeName" : "Samuel Bis 6/18/2026 06:54" } }
+		"typeName" : "Samuel Bis 6/18/2026 06:54",
+		"detailImagePaths" : "AS 6/18/2026 13:02" } }

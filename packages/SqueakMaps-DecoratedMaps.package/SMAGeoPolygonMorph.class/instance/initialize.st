@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
@@ -7,4 +7,6 @@ initialize
 	label := ''.
 	fillColor := Color yellow muchLighter.
 	outlineColor := Color orange.
-	outlineWidth := 2
+	outlineWidth := self class defaultOutlineWidth.
+	model := nil.
+	showsLabel := false

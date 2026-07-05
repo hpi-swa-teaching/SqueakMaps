@@ -6,14 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"remainingSeconds",
-		"label",
-		"running",
 		"gameHandler",
 		"picture",
 		"loader",
 		"bild",
-		"originalImage",
+		"unscaledImage",
 		"coverMode" ],
 	"name" : "PictureMorph",
 	"pools" : [

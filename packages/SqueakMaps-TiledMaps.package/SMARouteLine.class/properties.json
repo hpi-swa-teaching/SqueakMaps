@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RK 7/25/2022 14:49",
+	"commentStamp" : "Samuel Bis 7/3/2026 19:10",
 	"instvars" : [
 		"points",
 		"boundingBox",
 		"color",
-		"segments" ],
+		"segments",
+		"levelSelectionModel" ],
 	"name" : "SMARouteLine",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
-cellGap 
+cellGap
 
 	^ 0

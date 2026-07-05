@@ -1,8 +1,4 @@
 building
 buildEinloggenButton
 
-	self einloggenButton: (PluggableButtonMorph new
-		label: 'Log in guess';
-		target: [self handleEinloggenButton];
-		actionSelector: #value;
-		yourself)
+	self einloggenButton: (self buttonLabeled: 'Log in guess' action: [self handleEinloggenButton])

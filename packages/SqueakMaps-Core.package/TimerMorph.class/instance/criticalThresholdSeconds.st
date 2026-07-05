@@ -1,0 +1,4 @@
+constants
+criticalThresholdSeconds
+
+	^15

@@ -15,8 +15,9 @@ buildDirectionsStartInput: aBuilder
 				editText: #startSearchInput:;
 				askBeforeDiscardingEdits: false;
 				help: 'Start...';
-				frame: (0 @ 0.5 corner: 1 @ 1);
-				yourself
+				frame: (0 @ 0.5 corner: 0.86 @ 1);
+				yourself.
+			self buildDirectionsStartClearButton: aBuilder
 		};
 		frame: (0 @ 0.1 corner: 1 @ 0.2);
 		yourself

@@ -1,6 +1,6 @@
 as yet unclassified
 isHighscore: aScore
 
-	entries size < 5 ifTrue: [^ true].
+	entries size < self capacity ifTrue: [^ true].
 	
 	^ (aScore > entries last score)

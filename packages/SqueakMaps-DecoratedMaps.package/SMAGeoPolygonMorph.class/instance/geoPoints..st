@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 geoPoints: aCollection
 
 	geoPoints := aCollection

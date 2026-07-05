@@ -2,14 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"criticalThresholdSeconds" : "JC 7/4/2026 22:39",
 		"defaultSeconds" : "JC 6/13/2026 12:42",
 		"formatTime" : "Helli 6/3/2026 14:05",
 		"initialize" : "JC 6/13/2026 12:55",
 		"onTimeout:" : "JC 6/13/2026 12:48",
-		"reset" : "JC 6/13/2026 12:46",
+		"reset" : "JC 6/30/2026 15:39",
 		"start" : "JC 6/3/2026 16:33",
 		"step" : "Helli 6/23/2026 13:06",
 		"stepTime" : "Helli 6/3/2026 12:00",
 		"stop" : "JC 6/13/2026 12:44",
 		"timeOut" : "JC 6/13/2026 12:50",
-		"updateColor" : "KP 6/24/2026 18:31" } }
+		"updateColor" : "JC 7/4/2026 22:41",
+		"warningThresholdSeconds" : "JC 7/4/2026 22:39" } }

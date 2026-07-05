@@ -1,4 +1,4 @@
 accessing
 indoorOverlayMinZoom
 
-	^ indoorOverlayMinZoom ifNil: [indoorOverlayMinZoom := 19]
+	^ indoorOverlayMinZoom ifNil: [indoorOverlayMinZoom := self class defaultIndoorOverlayMinZoom]

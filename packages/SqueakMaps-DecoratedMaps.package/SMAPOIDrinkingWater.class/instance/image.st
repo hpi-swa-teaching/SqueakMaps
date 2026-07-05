@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 image
 
-	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/drinking_water_64.png'
+	^ (GitAssetLoader for: 'SqueakMaps') loadForm: 'assets/img/icon-drinking_water.png'

@@ -5,7 +5,7 @@ showPlayingState
 	self pictureMorph showImage: gameOrchestrator currentLevel imagePath.
 	self mapConfigurator clear.
 	self focusCampus.
-	self currentGuess: nil.
+	self currentGuess: GGNoGuess new.
 	self roundActive: true.
 	self timerMorph reset; start.
 	self infoMorph contents: self playingInfoText.

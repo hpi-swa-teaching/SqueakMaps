@@ -1,10 +1,9 @@
-as yet unclassified
+initialization
 fromXMLTag: anXMLTag
 
 	| room personName |
-	room := SMADecoratedMapMorph tagValueNamed: 'room' in: anXMLTag ifAbsent: [nil].
-	personName := SMADecoratedMapMorph tagValueNamed: 'name' in: anXMLTag ifAbsent: [nil].
-
+	room := SMAOSMTagReader valueNamed: 'room' in: anXMLTag ifAbsent: [nil].
+	personName := SMAOSMTagReader valueNamed: 'name' in: anXMLTag ifAbsent: [nil].
 	^ (room = 'office' and: [personName isNil not])
 		ifTrue: [self new setName: personName]
 		ifFalse: [nil]

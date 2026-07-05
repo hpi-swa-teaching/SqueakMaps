@@ -2,9 +2,8 @@ as yet unclassified
 testUlfsCafeHasOpeningHours
 
 	| decoratedMap poi |
-	decoratedMap := SMADecoratedMapMorph fromOSMFile:
-		(((GitAssetLoader for: 'SqueakMaps')
-			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
+	decoratedMap := SMAOSMMapBuilder fromOSMFile:
+		self fullOSMFile.
 
 	poi := decoratedMap pointsOfInterest
 		detect: [:each |
