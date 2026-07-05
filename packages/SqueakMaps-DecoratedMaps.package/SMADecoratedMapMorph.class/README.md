@@ -1,0 +1,1 @@
+Map Morph for rendering and interaction. It receives already constructed map data; OSM construction belongs to SMAOSMMapBuilder and floor state to SMALevelSelectionModel.

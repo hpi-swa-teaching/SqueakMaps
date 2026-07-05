@@ -1,10 +1,11 @@
-as yet unclassified
+routing
 pathDistance: aPath
 
-	| distance edge |
+	| distance |
 	distance := 0.
-	1 to: aPath size - 1 do: [:index |
-		edge := self edgeFrom: (aPath at: index) to: (aPath at: index + 1).
+	aPath overlappingPairsDo: [:from :to |
+		| edge |
+		edge := self edgeFrom: from to: to.
 		edge ifNil: [^ nil].
 		distance := distance + (self edgeWeight: edge)].
 	^ distance

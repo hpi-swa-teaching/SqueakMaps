@@ -1,0 +1,1 @@
+Observable floor-selection state. The selector, map overlays, and route presentation depend on this model rather than each other.

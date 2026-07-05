@@ -1,1 +1,1 @@
-A SMARouteLine represents a line between multiple points on the map.
+Route presentation model. It observes floor selection and exposes level-aware segment visibility without knowing a map

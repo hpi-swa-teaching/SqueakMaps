@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 18:09",
+	"instvars" : [
+		 ],
+	"name" : "SMAOSMTagReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "Samuel Bis 7/3/2026 18:10",
 	"instvars" : [
 		"points",
 		"rooms",
@@ -13,12 +13,12 @@
 		"overlays",
 		"roomOverlays",
 		"buildingOverlays",
-		"visibleLevel",
 		"indoorOverlayMinZoom",
 		"onOverlayClickAction",
 		"hoveredRoomOverlay",
 		"hoveredBuildingOverlay",
-		"roomOverlayZoomWasActive" ],
+		"roomOverlayZoomWasActive",
+		"levelSelectionModel" ],
 	"name" : "SMADecoratedMapMorph",
 	"pools" : [
 		 ],

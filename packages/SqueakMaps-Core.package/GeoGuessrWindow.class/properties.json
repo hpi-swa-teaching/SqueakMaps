@@ -41,7 +41,9 @@
 		"y",
 		"closeButton",
 		"leaderboardBackground",
-		"closeLeaderboard" ],
+		"closeLeaderboard",
+		"backButton",
+		"homeQuitButton" ],
 	"name" : "GeoGuessrWindow",
 	"pools" : [
 		 ],

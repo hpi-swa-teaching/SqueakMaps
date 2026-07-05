@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 withVertices: v adjacencyList: adj pointToVertexDict: aDictionary vertexLevels: levels
 
 	vertices := v.

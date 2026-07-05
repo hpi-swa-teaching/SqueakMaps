@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"fromOSMFile:" : "Samuel Bis 7/3/2026 18:25" },
+	"instance" : {
+		"addWay:" : "Samuel Bis 7/3/2026 18:25",
+		"buildFromOSMFile:" : "Samuel Bis 7/3/2026 18:25",
+		"buildFromXMLRoot:" : "Samuel Bis 7/3/2026 18:25",
+		"extractPoints:in:" : "Samuel Bis 7/3/2026 18:25",
+		"extractWays:andFillNeededPoints:" : "Samuel Bis 7/3/2026 18:25",
+		"isRoutingWay:" : "kong 7/4/2026 14:17",
+		"reset" : "Samuel Bis 7/3/2026 18:26",
+		"vertexForPointID:" : "Samuel Bis 7/3/2026 18:28" } }

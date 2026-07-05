@@ -4,8 +4,10 @@ showEvaluatingControls
 
 	self startButton visible: false.
 	self quitButton visible: false.
+	self backButton visible: true.
 	self einloggenButton
-		label: (gameOrchestrator levelManager hasMoreLevels
+		label: (gameOrchestrator hasNextRound
 			ifTrue: ['Next round']
-			ifFalse: ['End game']);
+			ifFalse: ['End game'])
+		font: self geoGuessrButtonFont;
 		visible: true

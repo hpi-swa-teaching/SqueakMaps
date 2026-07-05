@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-DecoratedMaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Samuel Bis 7/3/2026 18:03",
+	"instvars" : [
+		"availableLevels",
+		"visibleLevel" ],
+	"name" : "SMALevelSelectionModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

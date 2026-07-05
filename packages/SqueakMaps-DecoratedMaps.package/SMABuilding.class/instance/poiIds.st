@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 poiIds
 
 	^ poiIds ifNil: [poiIds := OrderedCollection new]

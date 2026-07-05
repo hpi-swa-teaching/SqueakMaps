@@ -8,9 +8,9 @@ drawUnavailableBuildingOverlay: anOverlay on: aCanvas
 	oldShowsLabel := anOverlay showsLabel.
 
 	anOverlay
-		fillColor: (Color white alpha: 0.65);
+		fillColor: self class unavailableBuildingFillColor;
 		outlineColor: Color gray;
-		outlineWidth: 2;
+		outlineWidth: SMAGeoPolygonMorph defaultOutlineWidth;
 		showsLabel: anOverlay == self hoveredBuildingOverlay.
 	anOverlay drawOn: aCanvas forMap: self.
 

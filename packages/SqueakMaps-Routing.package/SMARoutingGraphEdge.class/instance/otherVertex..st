@@ -1,4 +1,4 @@
-as yet unclassified
+routing
 otherVertex: aVertex
 
 	^ aVertex = u ifTrue: [v] ifFalse: [u]

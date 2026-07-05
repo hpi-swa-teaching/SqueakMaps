@@ -1,4 +1,4 @@
 accessing
 visibleLevel
 
-	^ visibleLevel ifNil: [visibleLevel := 0]
+	^ self levelSelectionModel visibleLevel

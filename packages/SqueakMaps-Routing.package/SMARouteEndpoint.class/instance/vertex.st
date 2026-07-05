@@ -1,0 +1,4 @@
+accessing
+vertex
+
+	^ vertex
