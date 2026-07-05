@@ -10795,15 +10795,6 @@ GSMetadata {
 			],
 			#encoding : @5
 		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'hpi-k-campus-only.osm'
-			],
-			#encoding : 'TXT'
-		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -11858,6 +11849,35 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'assets',
 				'img',
+				'people',
+				'robert_hirschfeld_64.png'
+			],
+			#encoding : @5
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
+				'people',
+				'robert_hirschfeld_256.png'
+			],
+			#encoding : @5
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'osm',
+				'hpi-k-pois-abc_filtered-buildings.osm'
+			],
+			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'img',
 				'icon-poi.png'
 			],
 			#encoding : @5
@@ -11867,7 +11887,7 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'assets',
 				'img',
-				'icon-drinking_water.png'
+				'icon-printer.png'
 			],
 			#encoding : @5
 		},
@@ -11876,7 +11896,7 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'assets',
 				'img',
-				'icon-printer.png'
+				'icon-drinking_water.png'
 			],
 			#encoding : @5
 		},
