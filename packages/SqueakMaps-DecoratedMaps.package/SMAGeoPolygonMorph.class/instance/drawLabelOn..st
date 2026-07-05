@@ -1,12 +1,12 @@
 drawing
 drawLabelOn: aCanvas
 
-	| font labelPosition labelBounds background |
+	| font labelBounds background |
+	self showsLabel ifFalse: [^ self].
 	(label isNil or: [label isEmpty]) ifTrue: [^ self].
 	self vertices isEmpty ifTrue: [^ self].
 
 	font := TextStyle defaultFont.
-	labelPosition := self centerOfVertices.
 	labelBounds := self labelBounds.
 	labelBounds ifNil: [^ self].
 	background := self class labelBackgroundColor.
@@ -17,6 +17,6 @@ drawLabelOn: aCanvas
 
 	aCanvas
 		drawString: label
-		at: labelPosition
+		at: labelBounds topLeft + 2
 		font: font
 		color: Color black

@@ -3,8 +3,7 @@ testUlfsCafeHasOpeningHours
 
 	| decoratedMap poi |
 	decoratedMap := SMAOSMMapBuilder fromOSMFile:
-		(((GitAssetLoader for: 'SqueakMaps')
-			loadAsset: 'assets/osm/hpi-k-campus-only.osm') readStream).
+		self fullOSMFile.
 
 	poi := decoratedMap pointsOfInterest
 		detect: [:each |

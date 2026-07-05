@@ -2,6 +2,7 @@ building
 locationForRouteTarget: aRouteTarget
 
 	| point coordinate label delta |
+	(aRouteTarget isKindOf: SMALocation) ifTrue: [^ aRouteTarget].
 	point := self routingFacade
 		pointForTarget: aRouteTarget.
 	point ifNil: [^ nil].

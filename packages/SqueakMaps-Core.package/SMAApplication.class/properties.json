@@ -26,7 +26,11 @@
 		"startRouteSelectionIndex",
 		"searchSuggestionIndex",
 		"defaultStartPoint",
-		"routingFacade" ],
+		"selectedStartPinRouteTarget",
+		"selectedDestinationPinRouteTarget",
+		"routingFacade",
+		"activeCategoryFilterLabel",
+		"selectedCampusDetailImageIndex" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

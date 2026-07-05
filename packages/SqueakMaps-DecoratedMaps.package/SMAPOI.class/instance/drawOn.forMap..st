@@ -18,5 +18,5 @@ drawOn: aCanvas forMap: aMapMorph
 			borderWidth: self class markerBorderWidth
 			borderColor: markerColor.
 		aCanvas
-			drawImage: (self image scaledToSize: iconSize)
+			paintImage: (self image scaledToSize: iconSize)
 			at: pixelPos - (iconSize / 2)]

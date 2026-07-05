@@ -1,0 +1,4 @@
+accessing
+activeCategoryFilterLabel
+
+	^ activeCategoryFilterLabel

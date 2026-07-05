@@ -11,4 +11,4 @@ showPin
 		clear;
 		displayLocation: location;
 		focusLocation: location.
-	self changed: #buildSearchPinPanelChildren
+	self changed: #buildCampusDetailPanelChildren

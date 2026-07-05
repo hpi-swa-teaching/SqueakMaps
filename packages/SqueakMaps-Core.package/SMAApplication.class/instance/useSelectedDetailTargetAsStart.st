@@ -12,9 +12,7 @@ useSelectedDetailTargetAsStart
 	destinationIndex := self destinationRouteSelectionIndex.
 	destinationLabel := self destinationSearchInput.
 	self selectedCampusDetailTarget: nil.
-	self switchToDirectionsView.
-	self startRouteSelectionIndex: startIndex.
-	self startSearchInput: (self routeSelectionLabels at: startIndex ifAbsent: ['']).
+	self applyStartRouteTargetIndex: startIndex.
 	destinationIndex = 0 ifFalse: [
 		self destinationRouteSelectionIndex: destinationIndex.
 		self destinationSearchInput: destinationLabel]

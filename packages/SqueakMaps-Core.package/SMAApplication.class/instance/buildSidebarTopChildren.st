@@ -8,6 +8,9 @@ buildSidebarTopChildren
 	self selectedCampusDetailTarget ifNotNil: [
 		children add: (self buildCampusDetailPanel: builder).
 		^ children collect: [:spec | builder build: spec]].
+	(self currentView = #search and: [self selectedPin notNil]) ifTrue: [
+		children add: (self buildCampusDetailPanel: builder).
+		^ children collect: [:spec | builder build: spec]].
 
 	self currentView = #directions
 		ifTrue: [children addAll: (self buildSidebarCampusDirectionsChildren: builder)]
