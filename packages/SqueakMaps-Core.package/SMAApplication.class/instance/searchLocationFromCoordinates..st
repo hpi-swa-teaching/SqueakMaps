@@ -14,6 +14,7 @@ searchLocationFromCoordinates: aSMAGeoCoordinate
 				coordinates: aSMAGeoCoordinate;
 				yourself].
 	
+	self selectedCampusDetailTarget: nil.
 	self switchToSearchViewWith: location.
 	self mapConfigurator 
 		clear;

@@ -19,7 +19,9 @@ buildCampusDetailScrollPane: aBuilder
 		model: self;
 		morph: content;
 		frame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)
-			offsets: (0 @ 36 corner: 0 @ -64));
+			offsets: (0 @ 36 corner: 0 @ (self selectedCampusDetailTarget
+				ifNil: [-104]
+				ifNotNil: [-64])));
 		hScrollBarPolicy: #never;
 		vScrollBarPolicy: #whenNeeded;
 		yourself).

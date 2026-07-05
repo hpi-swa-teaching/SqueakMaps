@@ -2,6 +2,7 @@ building
 locationForRouteTarget: aRouteTarget
 
 	| point coordinate label delta |
+	(aRouteTarget isKindOf: SMALocation) ifTrue: [^ aRouteTarget].
 	point := self routingGraph
 		pointForRouteTarget: aRouteTarget
 		inMap: self tiledMapMorph.

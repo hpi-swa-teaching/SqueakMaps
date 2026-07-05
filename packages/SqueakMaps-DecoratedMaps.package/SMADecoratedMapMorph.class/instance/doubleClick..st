@@ -1,9 +1,7 @@
-accessing
-click: anEvent
+event handling
+doubleClick: anEvent
 
 	| target |
-
-	(self handleLevelSelectorClick: anEvent cursorPoint) ifTrue: [^ self].
 
 	target := self clickTargetAtPixel: anEvent cursorPoint.
 	target ifNotNil: [
@@ -11,4 +9,4 @@ click: anEvent
 			self onOverlayClickAction value: target].
 		^ self].
 
-	super click: anEvent
+	super doubleClick: anEvent
