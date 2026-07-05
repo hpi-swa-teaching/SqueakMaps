@@ -1,0 +1,1 @@
+A GGPlayer holds one player's label (e.g. 'Player 0') and the score accumulated across the rounds of a game. GGGameOrchestrator keeps one GGPlayer per participant and adds each round's points via addScore:.

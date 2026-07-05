@@ -10,6 +10,4 @@ startGame
 	wasMultiplayer := isMultiplayer.
 	self isEnded ifTrue: [self reset].
 	isMultiplayer := wasMultiplayer.
-	currentLevel := levelManager nextLevel.
-	currentPlayer := false.
-	state := #playing
+	self advanceToNextLevel

@@ -7,8 +7,6 @@ submitGuess: aGuessCoordinate
 	self isPlaying ifFalse: [^ nil].
 	result := self buildResultFor: aGuessCoordinate.
 	roundResults add: result.
-	currentPlayer 
-		ifFalse: [totalScorep0 := totalScorep0 + result score.]
-		ifTrue: [totalScorep1 := totalScorep1 + result score.].
+	self currentPlayer addScore: result score.
 	state := #evaluating.
 	^ result

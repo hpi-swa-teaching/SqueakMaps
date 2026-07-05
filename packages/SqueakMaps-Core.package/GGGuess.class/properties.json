@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JC 7/4/2026 17:30",
+	"instvars" : [
+		"coordinates" ],
+	"name" : "GGGuess",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+maxNameLength
+
+	^ 10

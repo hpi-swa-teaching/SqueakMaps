@@ -5,9 +5,9 @@ showPlayingControls
 	self startButton visible: false.
 	self quitButton visible: false.
 	self backButton visible: true.
-	self currentGuess
-		ifNil: [self einloggenButton visible: false]
-		ifNotNil: [
+	self currentGuess isPresent
+		ifTrue: [
 			self einloggenButton
 				label: 'Log in guess' font: self geoGuessrButtonFont;
 				visible: true]
+		ifFalse: [self einloggenButton visible: false]

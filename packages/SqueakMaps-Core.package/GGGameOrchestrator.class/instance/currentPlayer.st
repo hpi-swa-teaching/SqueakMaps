@@ -1,4 +1,4 @@
 accessing
 currentPlayer
 
-	^currentPlayer
+	^ players at: currentPlayerIndex + 1

@@ -10,6 +10,6 @@ promptPlayerNameFor: aLabel
 		ifNotNil: [:label | label, ' - Name eingeben (optional):'].
 	name := UIManager default request: prompt.
 	(name isNil or: [name isEmpty]) ifTrue: [^ nil].
-	^ name size > 10
-		ifTrue: [name first: 10]
+	^ name size > self maxNameLength
+		ifTrue: [name first: self maxNameLength]
 		ifFalse: [name]
