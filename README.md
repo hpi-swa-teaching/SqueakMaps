@@ -24,7 +24,7 @@ The current development effort adds HPI-specific functionality on top of that fo
 - **Find Nearest** -> locate nearest room, person, or point of interest
 - **Opening Hours** -> rooms, persons, and facilities
 - **Mensa Widget** -> canteen information embedded in the map view
-- **Routing** -> routes calculated via [OpenRouteService][ors-url]
+- **Routing** -> routes calculated via RoutingStrategies (e.g. Dijkstra's algorithm) on a custom graph
 <img src="img/RoomRouting.gif" alt="CampusGuesser" width="600" />
 
 
