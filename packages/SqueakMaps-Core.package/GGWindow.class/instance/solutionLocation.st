@@ -2,6 +2,6 @@ guessing
 solutionLocation
 
 	^ SMALocation new
-		coordinates: gameOrchestrator currentLevel coordinates;
+		coordinates: self gameOrchestrator currentLevel coordinates;
 		label: 'Lösung';
 		yourself

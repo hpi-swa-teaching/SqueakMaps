@@ -1,4 +1,4 @@
 accessing
-timerMorph: anObject
+timerMorph: aGGTimerMorph
 
-	timerMorph := anObject
+	timerMorph := aGGTimerMorph

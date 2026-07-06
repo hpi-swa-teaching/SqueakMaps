@@ -1,3 +1,4 @@
 accessing
-currentPlayerIndex: anObject
-	currentPlayerIndex := anObject
+currentPlayerIndex: anInteger
+	
+	currentPlayerIndex := anInteger

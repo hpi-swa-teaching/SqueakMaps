@@ -1,3 +1,4 @@
 accessing
-roundResults: anObject
-	roundResults := anObject
+roundResults: anOrderedCollection
+
+	roundResults := anOrderedCollection

@@ -1,4 +1,4 @@
 accessing
-score: aNumber
+score: anInteger
 
-	score := aNumber
+	score := anInteger

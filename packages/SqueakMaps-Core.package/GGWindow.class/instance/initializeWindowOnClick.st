@@ -9,9 +9,9 @@ initializeWindowOnClick
 		addMorph: self timerMorph frame: (0.46 @ 0.025 extent: 0.08 @ 0.1).
 	self viewSwapper layOut.
 
-	tiledMapMorph gameHandler: self.
-	pictureMorph gameHandler: self.
-	self pictureMorph showImage: gameOrchestrator levelManager remainingLevels first imagePath.
+	self tiledMapMorph gameHandler: self.
+	self pictureMorph gameHandler: self.
+	self pictureMorph showImage: self gameOrchestrator levelManager remainingLevels first imagePath.
 
 	"Re-entering after a 'Back' must show the start controls (Start button) and a fresh timer again."
 	self refreshForState

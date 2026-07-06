@@ -1,3 +1,4 @@
 accessing
-coverMode: anObject
-	coverMode := anObject
+coverMode: aBoolean
+
+	coverMode := aBoolean

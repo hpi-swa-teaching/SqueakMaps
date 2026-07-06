@@ -4,7 +4,7 @@ returnToStartScreen
 
 	self timerMorph stop; reset.
 	self currentGuess: GGNoGuess new.
-	gameOrchestrator reset.
+	self gameOrchestrator reset.
 
 	"Restore the large 'cover' picture view. Otherwise the evaluation phase leaves the picture in
 	the shrunken 'contain' mode (mapIsLarge true), so the background keeps wide borders until the
@@ -12,7 +12,7 @@ returnToStartScreen
 	self viewSwapper reset.
 
 	"The end-of-game leaderboard overlay must not linger on the home screen."
-	leaderboardView ifNotNil: [leaderboardView close].
+	self leaderboardView ifNotNil: [self leaderboardView close].
 	self controlBar tearDown.
 	self
 		removeMorph: self infoMorph;

@@ -1,3 +1,4 @@
 accessing
-bild
+image
+
 	^ bild

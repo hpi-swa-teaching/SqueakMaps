@@ -9,7 +9,7 @@
 		"gameHandler",
 		"picture",
 		"loader",
-		"bild",
+		"image",
 		"unscaledImage",
 		"coverMode" ],
 	"name" : "GGPictureMorph",

@@ -4,7 +4,7 @@ startGame
 	| wasMultiplayer |
 
 	(self isStart or: [self isEnded]) ifFalse: [^ self].
-	wasMultiplayer := isMultiplayer.
+	wasMultiplayer := self isMultiplayer.
 	self isEnded ifTrue: [self reset].
 	self isMultiplayer: wasMultiplayer.
 	self advanceToNextLevel

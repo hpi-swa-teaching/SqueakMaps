@@ -1,3 +1,4 @@
 accessing
-viewSwapper: anObject
-	viewSwapper := anObject
+viewSwapper: aGGViewSwapper
+
+	viewSwapper := aGGViewSwapper

@@ -1,3 +1,4 @@
 accessing
-levelManager: anObject
-	levelManager := anObject
+levelManager: aGGLevelManager
+
+	levelManager := aGGLevelManager

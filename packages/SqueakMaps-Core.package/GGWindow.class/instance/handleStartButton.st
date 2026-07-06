@@ -1,6 +1,6 @@
 game flow
 handleStartButton
 
-	(gameOrchestrator isStart or: [gameOrchestrator isEnded]) ifFalse: [^ self].
-	gameOrchestrator startGame.
+	(self gameOrchestrator isStart or: [self gameOrchestrator isEnded]) ifFalse: [^ self].
+	self gameOrchestrator startGame.
 	self refreshForState

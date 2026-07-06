@@ -1,5 +1,5 @@
 leaderboard
 endGame
 
-	leaderboardView := GGLeaderboardView new.
-	leaderboardView recordFrom: gameOrchestrator thenShowIn: self
+	self leaderboardView: GGLeaderboardView new.
+	self leaderboardView recordFrom: self gameOrchestrator thenShowIn: self

@@ -1,3 +1,4 @@
 accessing
-currentLevel: anObject
-	currentLevel := anObject
+currentLevel: aGGLevel
+
+	currentLevel := aGGLevel

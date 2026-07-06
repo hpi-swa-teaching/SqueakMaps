@@ -1,3 +1,4 @@
 accessing
-mapIsLarge: anObject
-	mapIsLarge := anObject
+mapIsLarge: aBoolean
+
+	mapIsLarge := aBoolean

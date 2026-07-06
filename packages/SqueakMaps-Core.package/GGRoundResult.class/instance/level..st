@@ -1,4 +1,4 @@
 accessing
-level: aLevel
+level: aGGLevel
 
-	level := aLevel
+	level := aGGLevel

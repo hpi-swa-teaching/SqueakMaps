@@ -1,4 +1,4 @@
 accessing
-pictureMorph: anObject
+pictureMorph: aGGPictureMorph
 
-	 pictureMorph := anObject
+	 pictureMorph := aGGPictureMorph

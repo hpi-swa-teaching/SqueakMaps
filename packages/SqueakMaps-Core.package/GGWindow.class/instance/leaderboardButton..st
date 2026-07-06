@@ -1,4 +1,4 @@
 accessing
-leaderboardButton: anObject
+leaderboardButton: aButton
 
-	leaderboardButton := anObject
+	leaderboardButton := aButton

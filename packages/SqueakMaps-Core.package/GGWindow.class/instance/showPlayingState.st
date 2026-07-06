@@ -2,7 +2,7 @@ game flow
 showPlayingState
 
 	self viewSwapper showPictureLarge.
-	self pictureMorph showImage: gameOrchestrator currentLevel imagePath.
+	self pictureMorph showImage: self gameOrchestrator currentLevel imagePath.
 	self mapConfigurator clear.
 	self focusCampus.
 	self currentGuess: GGNoGuess new.

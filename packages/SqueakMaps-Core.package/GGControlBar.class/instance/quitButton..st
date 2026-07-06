@@ -1,3 +1,4 @@
 accessing
-quitButton: anObject
-	quitButton := anObject
+quitButton: aButtonMorph
+
+	quitButton := aButtonMorph

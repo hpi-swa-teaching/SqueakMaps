@@ -1,4 +1,4 @@
 accessing
-singleplayerButton: anObject
+singleplayerButton: aButton
 
-	singleplayerButton := anObject
+	singleplayerButton := aButton

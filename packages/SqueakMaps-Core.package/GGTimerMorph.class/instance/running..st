@@ -1,3 +1,4 @@
 accessing
-running: anObject
-	running := anObject
+running: aBoolean
+
+	running := aBoolean

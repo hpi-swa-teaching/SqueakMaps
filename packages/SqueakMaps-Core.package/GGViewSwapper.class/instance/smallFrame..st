@@ -1,3 +1,4 @@
 accessing
-smallFrame: anObject
-	smallFrame := anObject
+smallFrame: aLayoutFrame
+
+	smallFrame := aLayoutFrame

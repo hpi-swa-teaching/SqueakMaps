@@ -11,4 +11,4 @@ initializeMorphsAndButtons
 		buildMultiplayerButton;
 		buildLeaderboardButton;
 		buildHomeQuitButton.
-	self controlBar: (GGControlBar new setWindow: self)
+	self controlBar: (GGControlBar new setWindow: self with: self gameOrchestrator)

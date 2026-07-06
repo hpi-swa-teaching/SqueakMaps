@@ -1,4 +1,4 @@
 accessing
-multiplayerButton: anObject
+multiplayerButton: aButton
 
-	multiplayerButton := anObject
+	multiplayerButton := aButton

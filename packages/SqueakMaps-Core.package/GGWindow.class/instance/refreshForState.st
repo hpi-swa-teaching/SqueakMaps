@@ -1,7 +1,7 @@
 game flow
 refreshForState
 
-	gameOrchestrator isPlaying ifTrue: [^ self showPlayingState].
-	gameOrchestrator isEvaluating ifTrue: [^ self showEvaluatingState].
-	gameOrchestrator isEnded ifTrue: [^ self showEndedState].
+	self gameOrchestrator isPlaying ifTrue: [^ self showPlayingState].
+	self gameOrchestrator isEvaluating ifTrue: [^ self showEvaluatingState].
+	self gameOrchestrator isEnded ifTrue: [^ self showEndedState].
 	self showStartState

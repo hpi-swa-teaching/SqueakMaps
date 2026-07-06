@@ -1,3 +1,4 @@
 accessing
-picture: anObject
-	picture := anObject
+picture: anImageMorph
+
+	picture := anImageMorph

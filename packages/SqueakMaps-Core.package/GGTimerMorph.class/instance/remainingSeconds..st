@@ -1,3 +1,4 @@
 accessing
-remainingSeconds: anObject
-	remainingSeconds := anObject
+remainingSeconds: anInteger
+
+	remainingSeconds := anInteger

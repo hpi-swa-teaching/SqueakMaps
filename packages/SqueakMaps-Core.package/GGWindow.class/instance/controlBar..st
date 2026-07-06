@@ -1,3 +1,4 @@
 accessing
-controlBar: anObject
-	controlBar := anObject
+controlBar: aGGControlBar
+
+	controlBar := aGGControlBar

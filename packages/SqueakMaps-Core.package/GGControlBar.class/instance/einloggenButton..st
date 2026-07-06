@@ -1,3 +1,4 @@
 accessing
-einloggenButton: anObject
-	einloggenButton := anObject
+einloggenButton: aButtonMorph
+
+	einloggenButton := aButtonMorph

@@ -9,6 +9,6 @@ initialize
 	self picture: ImageMorph new.
 	self addMorph: self picture.
 	self loader: AssetLoader new.
-	self bild: (self loader getImage:  '/geoguesser_start_screen.png').
-	self unscaledImage: self bild.
+	self image: (self loader getImage:  '/geoguesser_start_screen.png').
+	self unscaledImage: self image.
 	

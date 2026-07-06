@@ -1,6 +1,6 @@
 game flow
 handleTimeout
 
-	gameOrchestrator isPlaying ifFalse: [^ self].
-	gameOrchestrator submitGuess: self currentGuess coordinates.
+	self gameOrchestrator isPlaying ifFalse: [^ self].
+	self gameOrchestrator submitGuess: self currentGuess coordinates.
 	self refreshForState

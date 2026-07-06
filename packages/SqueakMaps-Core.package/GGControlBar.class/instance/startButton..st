@@ -1,3 +1,4 @@
 accessing
-startButton: anObject
-	startButton := anObject
+startButton: aButtonMorph
+
+	startButton := aButtonMorph

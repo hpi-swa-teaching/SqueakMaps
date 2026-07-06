@@ -1,7 +1,7 @@
 displaying
 showImage: aFilePath
 
-	self bild: (self loader getImage: aFilePath).
-	self unscaledImage: self bild.
-	self picture newForm: self bild.
+	self image: (self loader getImage: aFilePath).
+	self unscaledImage: self image.
+	self picture newForm: self image.
 	self updateScaledImage

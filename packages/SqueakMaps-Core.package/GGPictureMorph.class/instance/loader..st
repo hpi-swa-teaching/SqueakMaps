@@ -1,3 +1,4 @@
 accessing
-loader: anObject
-	loader := anObject
+loader: anAssetLoader
+
+	loader := anAssetLoader

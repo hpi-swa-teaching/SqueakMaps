@@ -1,5 +1,5 @@
 leaderboard
 showLeaderboard
 
-	leaderboardView := GGLeaderboardView new.
-	leaderboardView showIn:  self
+	self leaderboardView: GGLeaderboardView new.
+	self leaderboardView showIn:  self

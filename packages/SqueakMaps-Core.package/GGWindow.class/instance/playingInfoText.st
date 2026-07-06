@@ -1,6 +1,6 @@
 game flow
 playingInfoText
 
-	gameOrchestrator isMultiplayer ifTrue: [
-		^ gameOrchestrator currentPlayer label, ':  ', 'Round ', gameOrchestrator currentRoundNumber asString, ' / ', gameOrchestrator totalRounds asString].
-	^ 'Round ', gameOrchestrator currentRoundNumber asString, ' / ', gameOrchestrator totalRounds asString
+	self gameOrchestrator isMultiplayer ifTrue: [
+		^ self gameOrchestrator currentPlayer label, ':  ', 'Round ', self gameOrchestrator currentRoundNumber asString, ' / ', self gameOrchestrator totalRounds asString].
+	^ 'Round ', self gameOrchestrator currentRoundNumber asString, ' / ', self gameOrchestrator totalRounds asString
