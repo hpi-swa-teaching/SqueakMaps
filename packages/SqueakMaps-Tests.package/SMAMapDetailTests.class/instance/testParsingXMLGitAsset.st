@@ -3,7 +3,7 @@ testParsingXMLGitAsset
 
 	| asset assetLoader numPoints root xmldoc |
 	assetLoader := GitAssetLoader for: 'SqueakMaps'.
-	asset := (assetLoader loadString: 'assets/osm/test.osm') contents readStream.
+	asset := (assetLoader loadString: self OSMTestFileName) contents readStream.
 	xmldoc := XMLDOMParser parseDocumentFrom: asset.
 	root := xmldoc root.
 	numPoints := 0.
