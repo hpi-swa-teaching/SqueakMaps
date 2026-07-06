@@ -1,4 +1,4 @@
-# SqueakMaps
+# CampusExplorer and CampusGuesser
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -7,9 +7,11 @@
 
 ## About The Project
 
-![SqueakMaps GUI][img-dir]
+![Campus_Explorer_CampusGuesser][img-dir]
 
-_SqueakMaps_ is a [Squeak][squeak-url] map client developed by the [SqueakMaps dev team SWT26-G06](#Team), focused on the **HPI campus**. It is built on top of the legacy [SqueakMaps][legacy-url] project by SWT22-12 and SWT20-11, which provides the foundational map infrastructure including satellite imagery, street maps from [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url], and routing via [OpenRouteService][ors-url].
+
+
+_CampusExplorer and CampusGuesser_ is a [Squeak][squeak-url]-based tool developed for people new at our **HPI campus** by the [SqueakMaps dev team SWT26-G06](#Team). It is built on top of the legacy [SqueakMaps][legacy-url] project by SWT22-12 and SWT20-11, which provides the foundational map infrastructure including satellite imagery, street maps from [OpenStreetMaps][osm-url], [Bing][bing-maps-url] and [Thunderforest][thunderforest-url], and routing via [OpenRouteService][ors-url].
 
 The current development effort adds HPI-specific functionality on top of that foundation. **Scope is intentionally limited to the development of features**; not exhaustive cataloguing of the entire campus.
 
@@ -17,6 +19,8 @@ The current development effort adds HPI-specific functionality on top of that fo
 
 - **Buildings & Rooms** -> HPI buildings drawn as polygons with room-level detail at higher zoom; floor selection via global floor variable; accessibility-aware color palette
 - **GeoGuesser** -> HPI campus edition (Campus 1, 2, 3); timer, pin-based guesses, scoring by time and accuracy; multiplayer via pass-and-play (no network server required)
+<img src="img/CampusGuesser.gif" alt="CampusGuesser" width="600" />
+
 - **Find Nearest** -> locate nearest room, person, or point of interest
 - **Opening Hours** -> rooms, persons, and facilities
 - **Mensa Widget** -> canteen information embedded in the map view
@@ -42,6 +46,8 @@ Metacello new
   repository: 'github://hpi-swa-teaching/SqueakMaps/packages';
   load.
 ```
+
+Then make sure to checkout our groups [main branchswt26-g06/main](https://github.com/hpi-swa-teaching/SqueakMaps/tree/swt26-g06/main).
 
 ## Usage
 
@@ -119,7 +125,7 @@ SWT20-11:
 https://docs.google.com/spreadsheets/d/1H8KeyrBITCSXGmxg7X0JzUf-dQI6P_TVylMv7TXxXSM/edit?gid=0#gid=0
 
 
-[img-dir]: img/SqueakMaps_GUI.png
+[img-dir]: img/CampusExplorer_CampusGuesser_GUI.png
 [squeak-url]: https://squeak.org
 [bing-maps-url]: https://www.bing.com/maps
 [osm-url]: https://www.openstreetmap.org
