@@ -21,6 +21,7 @@ setUp
 			yourself).
 
 	self model: SMAApplication new.
+	self model assetLoader: SMANullGitLoader new.
 	self model initializeMap.
 
 	self model navigator routingAPI: self routingAPIMock.

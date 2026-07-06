@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getImage: aFilePath
 
 	^self gitLoader loadForm: aFilePath

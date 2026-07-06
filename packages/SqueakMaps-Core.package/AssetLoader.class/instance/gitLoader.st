@@ -1,4 +1,7 @@
-as yet unclassified
+accessing
 gitLoader
 
-	^gitLoader 
+	gitLoader isNil ifTrue: [
+		gitLoader := self newGitLoader.
+		gitLoader basePath: 'assets'].
+	^ gitLoader

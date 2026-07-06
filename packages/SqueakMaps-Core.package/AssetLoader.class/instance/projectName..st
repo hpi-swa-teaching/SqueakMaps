@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 projectName: aProjectName
 
 	projectName := aProjectName.

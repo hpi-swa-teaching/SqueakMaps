@@ -1,7 +1,5 @@
-as yet unclassified
-initialize 
+initialization
+initialize
 
 	super initialize.
 	self projectName: 'SqueakMaps'.
-	self gitLoader: self newGitLoader.
-	self gitLoader basePath: 'assets'.
