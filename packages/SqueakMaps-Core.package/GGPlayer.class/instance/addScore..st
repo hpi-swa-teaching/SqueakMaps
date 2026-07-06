@@ -1,4 +1,4 @@
 scoring
 addScore: anAmount
 
-	score := score + anAmount
+	self score: self score + anAmount

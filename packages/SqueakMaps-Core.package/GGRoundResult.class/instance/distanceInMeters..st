@@ -1,4 +1,4 @@
 accessing
-distanceInMeters: aDistance
+distanceInMeters: anInteger
 
-	distanceInMeters := aDistance
+	distanceInMeters := anInteger

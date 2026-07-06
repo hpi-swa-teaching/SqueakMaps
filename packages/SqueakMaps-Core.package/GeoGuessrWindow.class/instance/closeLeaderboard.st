@@ -1,4 +1,0 @@
-leaderboard
-closeLeaderboard
-
-	leaderboardBackground delete

@@ -1,0 +1,4 @@
+accessing
+controlBar
+
+	^ controlBar

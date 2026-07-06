@@ -1,4 +1,4 @@
 accessing
 isMultiplayer 
 
-	^isMultiplayer.
+	^ isMultiplayer

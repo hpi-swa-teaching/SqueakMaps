@@ -1,4 +1,4 @@
 accessing
 currentPlayer
 
-	^ players at: currentPlayerIndex + 1
+	^ self players at: self currentPlayerIndex + 1

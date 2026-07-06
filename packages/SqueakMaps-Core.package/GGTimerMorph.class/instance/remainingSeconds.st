@@ -1,0 +1,4 @@
+accessing
+remainingSeconds
+
+	^ remainingSeconds

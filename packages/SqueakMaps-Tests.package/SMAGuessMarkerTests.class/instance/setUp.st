@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self window: GeoGuessrWindow new
+	self window: GGWindow new

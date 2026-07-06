@@ -1,4 +1,4 @@
 accessing
 totalScorep0
 
-	^ (players at: 1) score
+	^ (self players first) score

@@ -1,4 +1,4 @@
 accessing
 totalRounds
 
-	^ levelManager totalCount
+	^ self levelManager totalLevelCount

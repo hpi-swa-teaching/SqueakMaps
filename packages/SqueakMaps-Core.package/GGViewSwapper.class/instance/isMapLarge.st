@@ -1,0 +1,4 @@
+testing
+isMapLarge
+
+	^ self mapIsLarge

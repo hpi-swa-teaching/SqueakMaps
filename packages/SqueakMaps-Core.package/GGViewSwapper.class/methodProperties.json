@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isMapLarge" : "JC 7/6/2026 00:07",
+		"largeFrame" : "JC 7/6/2026 02:12",
+		"largeFrame:" : "JC 7/6/2026 02:12",
+		"layOut" : "JC 7/6/2026 00:05",
+		"map" : "JC 7/6/2026 02:12",
+		"map:" : "JC 7/6/2026 02:13",
+		"mapIsLarge" : "JC 7/6/2026 02:13",
+		"mapIsLarge:" : "JC 7/6/2026 02:13",
+		"picture" : "JC 7/6/2026 02:13",
+		"picture:" : "JC 7/6/2026 02:13",
+		"reset" : "JC 7/5/2026 23:58",
+		"setWindow:picture:map:" : "JC 7/6/2026 00:22",
+		"showMapLarge" : "JC 7/6/2026 00:06",
+		"showPictureLarge" : "JC 7/6/2026 00:06",
+		"smallFrame" : "JC 7/6/2026 02:13",
+		"smallFrame:" : "JC 7/6/2026 02:14",
+		"toggle" : "JC 7/6/2026 00:04",
+		"window" : "JC 7/6/2026 02:14",
+		"window:" : "JC 7/6/2026 02:14" } }

@@ -5,7 +5,7 @@ testCoordinateExtraction
 
 	expected := SMAMapConfigurator worldPosToGeoCoordinates: 0.5 @ 0.5.
 	self window startTimer.
-	self window swapViews.
+	self window viewSwapper toggle.
 	self window placeGuessAt: 0.5 @ 0.5.
 	self assert: expected long equals: self window currentGuess coordinates long.
 	self assert: expected lat equals: self window currentGuess coordinates lat

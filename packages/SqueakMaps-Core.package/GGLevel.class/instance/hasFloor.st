@@ -1,4 +1,4 @@
 testing
 hasFloor
 
-	^ floor notNil
+	^ self floor notNil

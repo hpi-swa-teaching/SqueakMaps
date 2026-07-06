@@ -1,4 +1,4 @@
 accessing
 lastResult
 
-	^ roundResults last
+	^ self roundResults last

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"criticalThresholdSeconds" : "JC 7/4/2026 22:39",
+		"defaultSeconds" : "JC 6/13/2026 12:42",
+		"formatTime" : "JC 7/5/2026 21:26",
+		"initialize" : "JC 7/5/2026 21:26",
+		"label" : "JC 7/6/2026 02:11",
+		"label:" : "JC 7/6/2026 02:11",
+		"onTimeout" : "JC 7/6/2026 02:11",
+		"onTimeout:" : "JC 6/13/2026 12:48",
+		"remainingSeconds" : "JC 7/6/2026 02:11",
+		"remainingSeconds:" : "JC 7/6/2026 02:11",
+		"reset" : "JC 7/5/2026 21:27",
+		"running" : "JC 7/6/2026 02:11",
+		"running:" : "JC 7/6/2026 02:12",
+		"start" : "JC 7/5/2026 21:27",
+		"step" : "JC 7/5/2026 21:27",
+		"stepTime" : "Helli 6/3/2026 12:00",
+		"stop" : "JC 7/5/2026 21:28",
+		"timeOut" : "JC 7/5/2026 21:28",
+		"updateColor" : "JC 7/5/2026 21:28",
+		"warningThresholdSeconds" : "JC 7/4/2026 22:39" } }

@@ -1,1 +1,1 @@
-A GGGameOrchestrator drives one GeoGuessr game: it holds the game state (#start/#playing/#evaluating/#ended), a GGLevelManager, the current level, the per-round results and the total score. One instance per game window; it is a pure model (no UI references) so it can be unit-tested.
+A GGGameOrchestrator drives one GeoGuessr game: it holds the game state (#start/#playing/#evaluating/#ended), a GGLevelManager, the current level, the per-round results and the total score. One instance per game window.

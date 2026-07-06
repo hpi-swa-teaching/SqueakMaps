@@ -1,7 +1,6 @@
 instance creation
 defaultLevels
-	"Placeholder levels: the existing TestPicture plus distinct HPI coordinates and difficulties.
-	Replace the image paths and coordinates here with real level data later."
+	"Add levels for GeoGuessr here"
 
 	^ OrderedCollection new
 		add: (GGEasyLevel newImagePath: 'levels/1.png' coordinates: (SMAGeoCoordinate newLong: 13.1326191 lat: 52.3932905));

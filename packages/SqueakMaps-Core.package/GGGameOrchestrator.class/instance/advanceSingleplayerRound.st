@@ -1,9 +1,9 @@
 game flow
 advanceSingleplayerRound
 
-	levelManager hasMoreLevels ifFalse: [
-		state := #ended.
+	self levelManager hasMoreLevels ifFalse: [
+		self state: #ended.
 		^ self].
 
-	currentLevel := levelManager nextLevel.
-	state := #playing
+	self currentLevel: self levelManager nextLevel.
+	self state: #playing

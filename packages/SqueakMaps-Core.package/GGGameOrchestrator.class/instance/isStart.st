@@ -1,4 +1,4 @@
 testing
 isStart
 
-	^ state = #start
+	^ self state = #start

@@ -1,4 +1,4 @@
 testing
 isEnded
 
-	^ state = #ended
+	^ self state = #ended
