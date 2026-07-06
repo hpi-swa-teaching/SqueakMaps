@@ -1,13 +1,19 @@
 testing
 testAdvanceThroughAllRoundsEndsGame
 
-	| steps |
-
+	| expectedRounds |
+	expectedRounds := orchestrator totalRounds.
 	orchestrator startGame.
-	steps := 0.
-	[orchestrator isEnded] whileFalse: [
-		orchestrator isPlaying ifTrue: [orchestrator submitGuess: orchestrator currentLevel coordinates].
-		orchestrator isEvaluating ifTrue: [orchestrator advanceRound].
-		steps := steps + 1.
-		steps > 100 ifTrue: [^ self assert: false description: 'Game did not end']].
-	self assert: orchestrator isEnded
+
+	1 to: expectedRounds do: [:round |
+		self assert: orchestrator isPlaying.
+		self assert: orchestrator currentRoundNumber equals: round.
+		self assert: (orchestrator submitGuess: orchestrator currentLevel coordinates) notNil.
+		self assert: orchestrator isEvaluating.
+		round < expectedRounds
+			ifTrue: [self assert: orchestrator hasNextRound]
+			ifFalse: [self deny: orchestrator hasNextRound].
+		orchestrator advanceRound].
+
+	self assert: orchestrator isEnded.
+	self assert: orchestrator roundResults size equals: expectedRounds

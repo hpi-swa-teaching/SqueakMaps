@@ -5,7 +5,11 @@
 		"menuAPI" : "AS 6/11/2026 12:42",
 		"menuAPI:" : "AS 6/11/2026 12:46",
 		"setUp" : "AS 6/11/2026 12:50",
+		"testCustomCanteenIdIsUsed" : "Samuel Bis 7/6/2026",
+		"testEmptyResponseCreatesEmptyMenuMessage" : "Samuel Bis 7/6/2026",
 		"testFallbackWhenContentSourceFails" : "AS 6/17/2026 09:40",
+		"testInvalidMealsResponseIsRejected" : "Samuel Bis 7/6/2026",
+		"testMissingMealFieldsUseDefaults" : "Samuel Bis 7/6/2026",
 		"testParsingValidMealResponse" : "AS 6/17/2026 09:40",
 		"testUrlCreationForFixedDate" : "AS 6/11/2026 13:10",
 		"validMealResponse" : "AS 6/11/2026 13:14" } }

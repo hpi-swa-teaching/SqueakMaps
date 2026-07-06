@@ -1,0 +1,3 @@
+ui testing
+lastInformation
+	^ lastInformation

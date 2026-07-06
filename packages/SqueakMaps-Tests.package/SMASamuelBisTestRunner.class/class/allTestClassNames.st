@@ -1,0 +1,11 @@
+test lists
+allTestClassNames
+
+	^ #(
+		GGGameOrchestratorTests GGGuessTests GGLevelManagerTests GGLevelTests GGPlayerTests
+		GGRoundResultTests GGLeaderboardTests GGLeaderboardEntryTests
+		SMAGeoServiceTests SMANominatimGeocoderTests SMAOpenMensaMenuAPITests SMAOrsRoutingAPITests
+		SMARoutingDesignTests SMANavigatorTests
+		SMAAPISettingsTests SMAGuessMarkerTests SMAMapDetailTests SMAPinManagementTests SMATests
+		SMAApiAndTileSourceTests GGViewComponentTests GGWindowBehaviorTests
+		SMADecoratedMapBehaviorTests SMATiledMapBehaviorTests SMAApplicationBehaviorTests)

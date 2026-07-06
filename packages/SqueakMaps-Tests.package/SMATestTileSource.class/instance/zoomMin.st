@@ -1,0 +1,3 @@
+accessing
+zoomMin
+	^ 0

@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"leaderboard",
+		"previousEntries" ],
+	"name" : "GGLeaderboardTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"route",
+		"distance",
+		"point" ],
+	"name" : "SMATestRoutingFacade",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

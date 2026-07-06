@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"entryNamed:score:" : "Samuel Bis 7/6/2026",
+		"setUp" : "Samuel Bis 7/6/2026",
+		"tearDown" : "Samuel Bis 7/6/2026",
+		"testAddEntrySortsDescending" : "Samuel Bis 7/6/2026",
+		"testCapacityKeepsOnlyBestEntries" : "Samuel Bis 7/6/2026",
+		"testClearRemovesAllEntries" : "Samuel Bis 7/6/2026",
+		"testCurrentReturnsSingleton" : "Samuel Bis 7/6/2026",
+		"testHighscoreDecision" : "Samuel Bis 7/6/2026" } }
