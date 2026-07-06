@@ -30,7 +30,8 @@
 		"selectedDestinationPinRouteTarget",
 		"routingFacade",
 		"activeCategoryFilterLabel",
-		"selectedCampusDetailImageIndex" ],
+		"selectedCampusDetailImageIndex",
+		"assetLoader" ],
 	"name" : "SMAApplication",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+stub
+basePath: aPath
+
+	^ self

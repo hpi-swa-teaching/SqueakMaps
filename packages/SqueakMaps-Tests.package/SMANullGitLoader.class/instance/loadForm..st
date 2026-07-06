@@ -1,0 +1,4 @@
+stub
+loadForm: aPath
+
+	^ nil

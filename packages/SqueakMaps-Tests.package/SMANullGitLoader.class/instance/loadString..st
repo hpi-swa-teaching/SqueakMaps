@@ -1,0 +1,4 @@
+stub
+loadString: aName
+
+	^ ''

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMANullAssetLoader",
+	"pools" : [
+		 ],
+	"super" : "AssetLoader",
+	"type" : "normal" }

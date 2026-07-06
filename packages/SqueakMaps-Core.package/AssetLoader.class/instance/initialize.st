@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self projectName: 'SqueakMaps'.
-	self gitLoader: (GitAssetLoader for: self projectName).
+	self gitLoader: self newGitLoader.
 	self gitLoader basePath: 'assets'.

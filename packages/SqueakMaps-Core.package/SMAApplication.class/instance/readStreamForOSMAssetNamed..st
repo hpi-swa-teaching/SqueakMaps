@@ -1,5 +1,4 @@
 select api
 readStreamForOSMAssetNamed: anAssetName
 
-	^ ((GitAssetLoader for: 'SqueakMaps')
-		loadAsset: anAssetName) readStream
+	^ (self assetLoader loadAsset: anAssetName) readStream

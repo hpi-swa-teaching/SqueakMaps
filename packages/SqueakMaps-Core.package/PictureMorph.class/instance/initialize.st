@@ -9,6 +9,4 @@ initialize
 	picture := ImageMorph new.
 	self addMorph: picture.
 	loader := AssetLoader new.
-	bild := loader getImage:  '/geoguesser_start_screen.png'.
-	self unscaledImage: bild.
 	

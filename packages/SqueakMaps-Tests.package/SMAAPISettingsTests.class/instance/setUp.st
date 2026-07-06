@@ -2,6 +2,7 @@ running
 setUp
 
 	model := SMAApplication new.
+	model assetLoader: SMANullGitLoader new.
 	model initializeMap.
 
 	self wantsToTest: model build.

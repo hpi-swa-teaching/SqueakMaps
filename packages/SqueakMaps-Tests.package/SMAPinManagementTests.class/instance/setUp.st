@@ -2,6 +2,7 @@ running
 setUp
 
 	model := SMAApplication new.
+	model assetLoader: SMANullGitLoader new.
 	self wantsToTest: model build.
 	
 	pinManagementButton := self subject findByLabel: 'Pins'.

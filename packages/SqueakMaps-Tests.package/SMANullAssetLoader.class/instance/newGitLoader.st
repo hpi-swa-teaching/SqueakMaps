@@ -1,0 +1,4 @@
+initialization
+newGitLoader
+
+	^ SMANullGitLoader new
