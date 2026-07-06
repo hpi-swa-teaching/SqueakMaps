@@ -1,4 +1,4 @@
 accessing
 selectedCampusDetailImageIndex: anInteger
 
-	selectedCampusDetailImageIndex := anInteger
+	self campusDetailModel selectedImageIndex: anInteger

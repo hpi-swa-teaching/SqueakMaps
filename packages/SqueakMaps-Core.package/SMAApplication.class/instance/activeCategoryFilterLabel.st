@@ -1,4 +1,4 @@
 accessing
 activeCategoryFilterLabel
 
-	^ activeCategoryFilterLabel
+	^ self directoryModel activeCategoryFilterLabel

@@ -1,4 +1,4 @@
 accessing
 selectedCampusDetailTarget
 
-	^ selectedCampusDetailTarget
+	^ self campusDetailModel selectedTarget

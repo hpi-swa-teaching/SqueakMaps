@@ -1,4 +1,5 @@
 building
 locationForRouteTarget: aRouteTarget
 
-	^ aRouteTarget displayLocationUsing: self routingFacade
+	self routingFacade.
+	^ self routingUiModel locationForRouteTarget: aRouteTarget

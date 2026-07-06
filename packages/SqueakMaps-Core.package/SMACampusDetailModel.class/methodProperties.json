@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"detailLinesFor:" : "AS 7/5/2026 20:12",
+		"imageFormFor:" : "AS 7/5/2026 20:13",
+		"imageMaxExtent" : "AS 7/5/2026 20:15",
+		"imagePathsFor:" : "AS 7/5/2026 20:16",
+		"hasImagesFor:" : "AS 7/5/2026 20:18",
+		"mensaProvider" : "AS 7/5/2026 20:20",
+		"mensaProvider:" : "AS 7/5/2026 20:21",
+		"nextImage" : "AS 7/5/2026 20:22",
+		"placeholderImageForm" : "AS 7/5/2026 20:24",
+		"poiSource" : "AS 7/5/2026 20:25",
+		"poiSource:" : "AS 7/5/2026 20:27",
+		"previousImage" : "AS 7/5/2026 20:28",
+		"scaledFormFor:" : "AS 7/5/2026 20:29",
+		"selectTarget:" : "AS 7/5/2026 20:30",
+		"selectedImageIndex" : "AS 7/5/2026 20:31",
+		"selectedImageIndex:" : "AS 7/5/2026 20:32",
+		"selectedImagePathFor:" : "AS 7/5/2026 20:34",
+		"selectedTarget" : "AS 7/5/2026 20:36",
+		"selectedTarget:" : "AS 7/5/2026 20:37",
+		"timeLinesFor:" : "AS 7/5/2026 20:39" } }

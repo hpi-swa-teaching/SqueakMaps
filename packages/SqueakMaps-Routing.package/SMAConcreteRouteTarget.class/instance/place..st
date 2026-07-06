@@ -1,4 +1,4 @@
 accessing
-place: anObject
+place: aPlace
 
-	place := anObject
+	place := aPlace

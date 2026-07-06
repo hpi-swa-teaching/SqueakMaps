@@ -1,7 +1,7 @@
 building
 startRouteSelectionIndex: anInteger
 
-	startRouteSelectionIndex := anInteger.
+	self routingUiModel startRouteSelectionIndex: anInteger.
 	self changed: #startRouteSelectionIndex.
 	((self currentView = #directions
 		and: [self selectedStartRouteTarget notNil])

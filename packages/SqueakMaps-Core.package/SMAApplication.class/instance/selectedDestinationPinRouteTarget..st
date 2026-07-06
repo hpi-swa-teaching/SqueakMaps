@@ -1,9 +1,4 @@
 accessing
 selectedDestinationPinRouteTarget: aSMALocation
 
-	selectedDestinationPinRouteTarget := aSMALocation
-		ifNil: [nil]
-		ifNotNil: [
-			SMAConcreteRouteTarget
-				on: aSMALocation
-				label: aSMALocation label]
+	self routingUiModel selectedDestinationPinRouteTarget: aSMALocation

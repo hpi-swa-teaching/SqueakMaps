@@ -1,4 +1,4 @@
 building
 startRouteSelectionIndex
 
-	^ startRouteSelectionIndex ifNil: [startRouteSelectionIndex := 0]
+	^ self routingUiModel startRouteSelectionIndex

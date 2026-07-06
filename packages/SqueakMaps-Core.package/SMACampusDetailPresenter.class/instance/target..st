@@ -1,4 +1,4 @@
 accessing
-target: anObject
+target: aCampusDetailTarget
 
-	target := anObject
+	target := aCampusDetailTarget

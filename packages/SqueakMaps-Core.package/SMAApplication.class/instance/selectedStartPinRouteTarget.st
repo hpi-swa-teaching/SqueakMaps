@@ -1,4 +1,4 @@
 accessing
 selectedStartPinRouteTarget
 
-	^ selectedStartPinRouteTarget
+	^ self routingUiModel selectedStartPinRouteTarget

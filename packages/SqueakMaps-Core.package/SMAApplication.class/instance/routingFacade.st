@@ -1,5 +1,7 @@
 accessing
 routingFacade
 
-	routingFacade ifNil: [routingFacade := SMARoutingFacade fromOSMFile: (self readStreamForOSMAssetNamed: self defaultCampusOSMAssetName)].
-	^ routingFacade
+	self routingUiModel routingFacade ifNil: [
+		self routingUiModel routingFacade: (SMARoutingFacade
+			fromOSMFile: (self readStreamForOSMAssetNamed: self defaultCampusOSMAssetName))].
+	^ self routingUiModel routingFacade

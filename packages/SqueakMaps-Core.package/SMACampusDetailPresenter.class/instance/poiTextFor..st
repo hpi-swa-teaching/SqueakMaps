@@ -3,5 +3,5 @@ poiTextFor: aCollectionOfPOIs
 
 	^ String streamContents: [:stream |
 		aCollectionOfPOIs
-			do: [:poi | stream nextPutAll: (self routeLabelForPOI: poi)]
+			do: [:poi | stream nextPutAll: (self campusLookup routeLabelForPOI: poi)]
 			separatedBy: [stream nextPutAll: ', ']]

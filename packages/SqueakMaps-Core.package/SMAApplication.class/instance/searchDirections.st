@@ -1,7 +1,7 @@
 building
 searchDirections
 
-	| startTarget destinationTarget routeLine routeLocations |
+	| startTarget destinationTarget result routeLine routeLocations |
 
 	startTarget := self selectedStartRouteTarget.
 	destinationTarget := self selectedDestinationRouteTarget.
@@ -11,16 +11,17 @@ searchDirections
 	(self routeTarget: startTarget equals: destinationTarget) ifTrue: [
 		^ self inform: 'Start und Destination sind identisch.'].
 
-	routeLine := self routingFacade
-		routeFrom: startTarget place
-		to: destinationTarget place.
-	routeLine ifNil: [^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
+	self routingFacade.
+	result := self routingUiModel
+		routeResultFrom: startTarget
+		to: destinationTarget.
+	result ifNil: [
+		^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
 
+	routeLine := result first.
+	routeLocations := result second.
 	self route: routeLine.
 	self hasSearched: true.
-	routeLocations := {
-		self locationForRouteTarget: startTarget.
-		self locationForRouteTarget: destinationTarget } select: [:location | location notNil].
 	self mapConfigurator clear.
 	routeLocations do: [:location | self mapConfigurator displayLocation: location].
 	self tiledMapMorph route: routeLine.

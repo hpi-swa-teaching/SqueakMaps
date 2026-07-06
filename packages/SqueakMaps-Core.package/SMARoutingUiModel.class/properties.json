@@ -1,0 +1,22 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"route",
+		"startRouteSelectionIndex",
+		"destinationRouteSelectionIndex",
+		"selectedStartPinRouteTarget",
+		"selectedDestinationPinRouteTarget",
+		"defaultStartPoint",
+		"routingFacade",
+		"targetSource",
+		"campusLookup" ],
+	"name" : "SMARoutingUiModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

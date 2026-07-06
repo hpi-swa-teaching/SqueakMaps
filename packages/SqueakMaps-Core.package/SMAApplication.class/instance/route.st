@@ -1,4 +1,4 @@
 accessing
 route
 
-	^ route
+	^ self routingUiModel route

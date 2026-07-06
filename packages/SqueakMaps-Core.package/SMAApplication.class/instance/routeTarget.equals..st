@@ -1,4 +1,6 @@
 building
 routeTarget: aRouteTarget equals: anotherRouteTarget
 
-	^ aRouteTarget = anotherRouteTarget
+	^ self routingUiModel
+		routeTarget: aRouteTarget
+		equals: anotherRouteTarget

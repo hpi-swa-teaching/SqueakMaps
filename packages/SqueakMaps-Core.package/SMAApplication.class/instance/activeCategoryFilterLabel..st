@@ -1,4 +1,4 @@
 accessing
 activeCategoryFilterLabel: aString
 
-	activeCategoryFilterLabel := aString
+	self directoryModel activeCategoryFilterLabel: aString

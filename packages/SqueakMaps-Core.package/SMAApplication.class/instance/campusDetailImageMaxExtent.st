@@ -1,4 +1,4 @@
 accessing
 campusDetailImageMaxExtent
 
-	^ 220 @ 180
+	^ self campusDetailModel imageMaxExtent

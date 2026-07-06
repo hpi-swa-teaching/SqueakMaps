@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"on:" : "AS 7/5/2026 20:45" },
+	"instance" : {
+		"buildingForPOI:" : "AS 7/5/2026 20:46",
+		"locationTextForPOI:" : "AS 7/5/2026 20:47",
+		"roomForPOI:" : "AS 7/5/2026 20:48",
+		"routeLabelForBuilding:" : "AS 7/5/2026 20:50",
+		"routeLabelForPOI:" : "AS 7/5/2026 20:51",
+		"routeLabelForRoom:" : "AS 7/5/2026 20:53",
+		"source" : "AS 7/5/2026 20:54",
+		"source:" : "AS 7/5/2026 20:55" } }

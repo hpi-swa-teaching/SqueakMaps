@@ -1,4 +1,4 @@
 accessing
 routingFacade: aRoutingFacade
 
-	routingFacade := aRoutingFacade
+	self routingUiModel routingFacade: aRoutingFacade
