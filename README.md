@@ -25,6 +25,8 @@ The current development effort adds HPI-specific functionality on top of that fo
 - **Opening Hours** -> rooms, persons, and facilities
 - **Mensa Widget** -> canteen information embedded in the map view
 - **Routing** -> routes calculated via [OpenRouteService][ors-url]
+<img src="img/RoomRouting.gif" alt="CampusGuesser" width="600" />
+
 
 > **Focus area:** Haus K for building/room mapping; ABC building for POIs (e.g. Studiref). Campus 1, 2, 3 for GeoGuesser.
 
