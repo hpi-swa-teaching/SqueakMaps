@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"configuredMap" : "Samuel Bis 7/6/2026",
+		"pointId:lat:lon:" : "Samuel Bis 7/6/2026",
+		"testBuildingsAndRoomsChooseUsefulRoutingEntrances" : "Samuel Bis 7/6/2026",
+		"testDecoratedMapSelectsOverlayAndFiltersByLevel" : "Samuel Bis 7/6/2026",
+		"testLevelSelectionSortsLevelsAndNavigates" : "Samuel Bis 7/6/2026",
+		"testPOIVisibilityDependsOnLevelAndZoom" : "Samuel Bis 7/6/2026",
+		"testPolygonFactoryComputesVerticesAndHitArea" : "Samuel Bis 7/6/2026" } }

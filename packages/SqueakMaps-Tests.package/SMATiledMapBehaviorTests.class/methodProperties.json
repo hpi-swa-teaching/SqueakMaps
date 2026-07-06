@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"configuredMap" : "Samuel Bis 7/6/2026",
+		"testMapClickDoubleClickDragAndZoom" : "Samuel Bis 7/6/2026",
+		"testTileLoaderCoordinateRoundTripAndMarkerFactory" : "Samuel Bis 7/6/2026",
+		"testTileSourceSelectionUrlsAndBingMetadataCache" : "Samuel Bis 7/6/2026" } }

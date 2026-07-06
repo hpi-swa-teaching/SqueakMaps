@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Samuel Bis 7/6/2026",
+		"tearDown" : "Samuel Bis 7/6/2026",
+		"testEndedStateStopsRoundAndShowsLeaderboard" : "Samuel Bis 7/6/2026",
+		"testInitialWindowProvidesGameComponents" : "Samuel Bis 7/6/2026",
+		"testMapClickFirstExpandsMapThenPlacesGuess" : "Samuel Bis 7/6/2026",
+		"testSingleplayerRoundMovesFromPlayingToEvaluation" : "Samuel Bis 7/6/2026" } }

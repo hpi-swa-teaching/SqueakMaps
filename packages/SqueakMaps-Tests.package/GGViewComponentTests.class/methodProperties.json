@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Samuel Bis 7/6/2026",
+		"tearDown" : "Samuel Bis 7/6/2026",
+		"testControlBarReflectsAllGameStates" : "Samuel Bis 7/6/2026",
+		"testLeaderboardViewRecordsNamesAndBuildsOverlay" : "Samuel Bis 7/6/2026",
+		"testPictureMorphScalingAndMouseDelegation" : "Samuel Bis 7/6/2026",
+		"testTimerCountsDownChangesColorAndTimesOut" : "Samuel Bis 7/6/2026",
+		"testViewSwapperLayoutToggleAndReset" : "Samuel Bis 7/6/2026" } }

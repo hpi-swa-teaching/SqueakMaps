@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window" ],
+	"name" : "GGViewComponentTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

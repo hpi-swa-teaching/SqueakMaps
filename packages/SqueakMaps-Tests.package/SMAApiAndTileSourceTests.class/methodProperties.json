@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Samuel Bis 7/6/2026",
+		"tearDown" : "Samuel Bis 7/6/2026",
+		"testApiMapTileSourceAccessors" : "Samuel Bis 7/6/2026",
+		"testBingApiCreatesAllConfiguredSources" : "Samuel Bis 7/6/2026",
+		"testBingQuadkeyCalculation" : "Samuel Bis 7/6/2026",
+		"testExpiringValueCachesAndResets" : "Samuel Bis 7/6/2026",
+		"testMapLocationMarkerAccessorsAndWorldPosition" : "Samuel Bis 7/6/2026",
+		"testMapsApiCachesSourcesPerLayer" : "Samuel Bis 7/6/2026",
+		"testThunderforestUrlContainsLayerCoordinatesAndKey" : "Samuel Bis 7/6/2026",
+		"testTiledMapPureInteractionState" : "Samuel Bis 7/6/2026" } }

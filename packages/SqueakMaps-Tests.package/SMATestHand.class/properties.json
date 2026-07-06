@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"event" ],
+	"name" : "SMATestHand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
