@@ -1,4 +1,4 @@
 building
 startRouteSuggestionLabels
 
-	^ self startRouteSuggestionTargets collect: [:association | association key]
+	^ self startRouteSuggestionTargets collect: [:target | target label]

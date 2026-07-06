@@ -1,4 +1,4 @@
 building
 searchSuggestionLabels
 
-	^ self searchSuggestionTargets collect: [:association | association key]
+	^ self searchSuggestionTargets collect: [:target | target label]

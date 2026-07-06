@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"activeCategoryFilterLabel",
+		"source",
+		"campusLookup" ],
+	"name" : "SMADirectoryModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

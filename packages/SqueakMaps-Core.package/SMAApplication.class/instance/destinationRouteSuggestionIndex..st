@@ -1,12 +1,15 @@
 building
 destinationRouteSuggestionIndex: anInteger
 
-	| association |
+	| target |
+
 	anInteger = 0 ifTrue: [
 		self destinationRouteSelectionIndex: 0.
 		^ self].
-	association := self destinationRouteSuggestionTargets at: anInteger ifAbsent: [^ self].
+	target := self destinationRouteSuggestionTargets
+		at: anInteger
+		ifAbsent: [^ self].
 	self destinationRouteSelectionIndex: (self
-		routeSelectionIndexForTarget: association value
+		routeSelectionIndexForTarget: target
 		in: self destinationRouteTargets).
-	self destinationSearchInput: association key
+	self destinationSearchInput: target label

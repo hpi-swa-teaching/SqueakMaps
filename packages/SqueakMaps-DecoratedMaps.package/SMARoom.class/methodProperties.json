@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"attributes" : "AS 7/5/2026 19:33",
+		"detailImagePaths" : "AS 7/5/2026 17:39",
 		"detailTitle" : "AS 6/8/2026 11:00",
 		"detailType" : "AS 6/8/2026 11:03",
 		"isDirectRoutingPoint" : "Samuel Bis 7/4/2026 09:23",
+		"isMensa" : "AS 7/5/2026 19:36",
+		"isPOI" : "AS 7/5/2026 22:20",
 		"level" : "kong 6/2/2026 16:41",
 		"level:" : "kong 6/2/2026 16:41",
 		"poiIds" : "Samuel Bis 6/17/2026 21:57",
@@ -13,4 +17,5 @@
 		"points:" : "kong 6/2/2026 15:26",
 		"ref" : "kong 6/2/2026 15:12",
 		"ref:" : "kong 6/2/2026 15:12",
-		"routingEntranceCandidates" : "Samuel Bis 7/4/2026 09:23" } }
+		"routingEntranceCandidates" : "Samuel Bis 7/4/2026 09:23",
+		"timeInfos" : "AS 7/5/2026 19:39" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poiClass" ],
+	"name" : "SMANearestPOIRouteTarget",
+	"pools" : [
+		 ],
+	"super" : "SMARouteTarget",
+	"type" : "normal" }

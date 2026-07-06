@@ -1,7 +1,6 @@
 building
 resolveDestinationRouteTarget: aRouteTarget
 
-	(self isPOITypeRouteTarget: aRouteTarget) ifFalse: [^ aRouteTarget].
-	^ self
-		nearestPOIOfClass: (aRouteTarget at: 2)
+	^ self routingUiModel
+		resolveRouteTarget: aRouteTarget
 		from: self selectedStartRouteTarget

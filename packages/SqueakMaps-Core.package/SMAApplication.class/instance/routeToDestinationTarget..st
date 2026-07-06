@@ -1,10 +1,13 @@
 building
 routeToDestinationTarget: aRouteTarget
 
-	| destinationIndex startIndex |
+	| destinationIndex startIndex target |
 
+	target := self
+		routeTargetFor: aRouteTarget
+		in: self destinationRouteTargets.
 	destinationIndex := self
-		routeSelectionIndexForTarget: aRouteTarget
+		routeSelectionIndexForTarget: target
 		in: self destinationRouteTargets.
 	startIndex := self startRouteSelectionIndex = 0
 		ifTrue: [self defaultStartRouteIndex]

@@ -1,4 +1,4 @@
 accessing
 selectedCampusDetailTarget: aCampusDetailTarget
 
-	selectedCampusDetailTarget := aCampusDetailTarget
+	self campusDetailModel selectedTarget: aCampusDetailTarget

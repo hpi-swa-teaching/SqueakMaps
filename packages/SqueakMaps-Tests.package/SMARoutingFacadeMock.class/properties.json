@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"routeLine",
+		"startTarget",
+		"destinationTarget" ],
+	"name" : "SMARoutingFacadeMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

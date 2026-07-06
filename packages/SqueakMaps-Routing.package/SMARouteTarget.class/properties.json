@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SMARouteTarget",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

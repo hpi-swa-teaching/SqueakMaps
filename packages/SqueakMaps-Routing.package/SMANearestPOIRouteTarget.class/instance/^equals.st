@@ -1,0 +1,5 @@
+comparing
+= aRouteTarget
+
+	^ self class = aRouteTarget class
+		and: [self poiClass = aRouteTarget poiClass]

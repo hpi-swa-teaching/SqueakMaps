@@ -1,10 +1,13 @@
 {
 	"class" : {
 		"emptyForDate:message:" : "AS 6/16/2026 21:35",
+		"nextServingDate" : "AS 7/5/2026 15:57",
+		"nextServingDateFrom:" : "AS 7/5/2026 16:00",
 		"unavailableForDate:" : "AS 6/16/2026 21:35" },
 	"instance" : {
 		"date" : "AS 6/11/2026 11:00",
 		"date:" : "AS 6/11/2026 11:04",
+		"detailLinesOnDate:" : "AS 7/5/2026 16:03",
 		"emptyMessage" : "AS 6/11/2026 11:07",
 		"emptyMessage:" : "AS 6/11/2026 11:11",
 		"hasMeals" : "AS 6/11/2026 11:14",

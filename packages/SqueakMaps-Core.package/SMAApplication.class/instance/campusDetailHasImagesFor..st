@@ -1,4 +1,4 @@
 accessing
 campusDetailHasImagesFor: aCampusDetailTarget
 
-	^ (self campusDetailImagePathsFor: aCampusDetailTarget) isEmpty not
+	^ self campusDetailModel hasImagesFor: aCampusDetailTarget

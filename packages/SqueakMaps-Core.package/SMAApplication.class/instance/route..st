@@ -1,4 +1,4 @@
 accessing
 route: aSMARoute
 
-	route := aSMARoute
+	self routingUiModel route: aSMARoute

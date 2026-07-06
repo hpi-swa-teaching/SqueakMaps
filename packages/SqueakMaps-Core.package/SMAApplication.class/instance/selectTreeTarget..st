@@ -2,11 +2,12 @@ building
 selectTreeTarget: aRouteTarget
 
 	| target location |
-	target := aRouteTarget.
-	(self isPOITypeRouteTarget: target) ifTrue: [
-		target := self
-			nearestPOIOfClass: (target at: 2)
-			from: self defaultStartRouteTarget].
+
+	target := self routeTargetFor: aRouteTarget in: self destinationRouteTargets.
+	target ifNil: [^ self].
+	target := target
+		resolveFrom: self defaultStartRouteTarget
+		among: self tiledMapMorph pointsOfInterest.
 	target ifNil: [^ self].
 	location := self locationForRouteTarget: target.
 	location ifNil: [^ self].
@@ -14,4 +15,4 @@ selectTreeTarget: aRouteTarget
 		clear;
 		displayLocation: location;
 		focusLocation: location.
-	self selectCampusDetailTarget: target
+	self selectCampusDetailTarget: target place

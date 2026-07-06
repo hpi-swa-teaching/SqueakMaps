@@ -1,4 +1,4 @@
 building
 defaultStartRouteTarget
 
-	^ self defaultStartPoint
+	^ self routingUiModel defaultStartRouteTarget

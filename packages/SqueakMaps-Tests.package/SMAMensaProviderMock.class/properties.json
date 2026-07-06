@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"menu",
+		"requestedDate",
+		"requestedCanteenId" ],
+	"name" : "SMAMensaProviderMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,6 +1,5 @@
 building
 clearCategoryFilter
 
-	self activeCategoryFilterLabel: nil.
-	self tiledMapMorph categoryFilter: nil.
+	self tiledMapMorph categoryFilter: self directoryModel clearFilter.
 	self changed: #searchTreeRoots

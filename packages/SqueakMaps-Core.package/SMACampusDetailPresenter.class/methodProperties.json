@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"on:mensaProvider:poiSource:" : "AS 7/5/2026 18:03" },
+	"instance" : {
+		"campusLookup" : "AS 7/5/2026 20:41",
+		"detailLines" : "AS 7/5/2026 18:06",
+		"intrinsicLines" : "AS 7/5/2026 18:09",
+		"labelFor:" : "AS 7/5/2026 18:12",
+		"mensaLines" : "AS 7/5/2026 18:15",
+		"mensaProvider" : "AS 7/5/2026 18:18",
+		"mensaProvider:" : "AS 7/5/2026 18:21",
+		"poiLine" : "AS 7/5/2026 18:24",
+		"poiSource" : "AS 7/5/2026 18:27",
+		"poiSource:" : "AS 7/5/2026 18:30",
+		"poiTextFor:" : "AS 7/5/2026 20:42",
+		"target" : "AS 7/5/2026 18:36",
+		"target:" : "AS 7/5/2026 20:44",
+		"timeLines" : "AS 7/5/2026 18:42" } }

@@ -8,6 +8,7 @@
 		"testCustomCanteenIdIsUsed" : "Samuel Bis 7/6/2026",
 		"testEmptyResponseCreatesEmptyMenuMessage" : "Samuel Bis 7/6/2026",
 		"testFallbackWhenContentSourceFails" : "AS 6/17/2026 09:40",
+		"testNextServingDateSkipsWeekend" : "AS 7/5/2026 17:24",
 		"testInvalidMealsResponseIsRejected" : "Samuel Bis 7/6/2026",
 		"testMissingMealFieldsUseDefaults" : "Samuel Bis 7/6/2026",
 		"testParsingValidMealResponse" : "AS 6/17/2026 09:40",

@@ -1,4 +1,4 @@
 accessing
 selectedDestinationPinRouteTarget: aSMALocation
 
-	selectedDestinationPinRouteTarget := aSMALocation
+	self routingUiModel selectedDestinationPinRouteTarget: aSMALocation

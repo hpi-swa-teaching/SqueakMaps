@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakMaps-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"mensaProvider",
+		"poiSource",
+		"campusLookup" ],
+	"name" : "SMACampusDetailPresenter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
