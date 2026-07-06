@@ -1,0 +1,3 @@
+events
+lastEvent
+	^ lastEvent

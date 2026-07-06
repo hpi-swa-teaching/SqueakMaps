@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lastInformation" ],
+	"name" : "SMATestApplication",
+	"pools" : [
+		 ],
+	"super" : "SMAApplication",
+	"type" : "normal" }

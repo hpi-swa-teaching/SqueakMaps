@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form" ],
+	"name" : "SMATestTileSource",
+	"pools" : [
+		 ],
+	"super" : "SMAMapTileSource",
+	"type" : "normal" }

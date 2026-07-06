@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Samuel Bis 7/6/2026",
+		"tearDown" : "Samuel Bis 7/6/2026",
+		"testCategoryFilterCanBeToggled" : "Samuel Bis 7/6/2026",
+		"testMapConfiguratorDisplaysLocationsAndRoute" : "Samuel Bis 7/6/2026",
+		"testRouteSearchUsesSelectedTargetsAndCanBeCleared" : "Samuel Bis 7/6/2026",
+		"testSavingAndRemovingSelectedPin" : "Samuel Bis 7/6/2026",
+		"testTextAndCoordinateSearchUseInjectedGeocoder" : "Samuel Bis 7/6/2026",
+		"testTransportationModeSwitching" : "Samuel Bis 7/6/2026" } }

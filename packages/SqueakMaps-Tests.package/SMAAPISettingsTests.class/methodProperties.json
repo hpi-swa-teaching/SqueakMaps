@@ -4,9 +4,5 @@
 	"instance" : {
 		"setUp" : "Samuel Bis 7/4/2026 12:01",
 		"tearDown" : "kong 6/14/2026 14:11",
-		"testApiButtonThunderforest" : "RK 8/5/2022 21:36",
-		"testApiButtonThunderforestInvalidKey" : "RK 8/5/2022 21:36",
 		"testApiKeyManagementThunderforest" : "RK 8/5/2022 21:36",
-		"testSetOpenstreetmapsAsApi" : "RK 5/30/2022 20:44",
-		"testThunderforestMapsApiKeyIsValidWithInvalidKey" : "ros 7/13/2022 21:52",
-		"testThunderforestMapsApiKeyIsValidWithValidKey" : "ros 7/13/2022 21:53" } }
+		"testSetOpenstreetmapsAsApi" : "RK 5/30/2022 20:44" } }

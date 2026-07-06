@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testAccessors" : "JC 6/13/2026 13:51",
+		"testBaseLevelDefaultScoreWeight" : "Samuel Bis 7/6/2026",
 		"testFloorIsOptional" : "JC 6/13/2026 13:50",
 		"testScoreWeightsIncreaseWithDifficulty" : "JC 6/13/2026 13:49" } }

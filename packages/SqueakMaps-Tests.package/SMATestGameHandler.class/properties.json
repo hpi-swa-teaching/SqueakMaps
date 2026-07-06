@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakMaps-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lastEvent" ],
+	"name" : "SMATestGameHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
