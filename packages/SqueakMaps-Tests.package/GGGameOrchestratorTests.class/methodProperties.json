@@ -15,4 +15,8 @@
 		"testSubmitExactGuessGivesMaxScore" : "JC 6/13/2026 13:55",
 		"testTotalScoreAccumulates" : "KP 6/23/2026 16:00",
 		"testWeightIncreasesScore" : "JC 6/13/2026 13:56",
-		"testZeroScoreBeyondMaxDistance" : "JC 6/13/2026 13:57" } }
+		"testZeroScoreBeyondMaxDistance" : "JC 6/13/2026 13:57",
+		"testCurrentRoundNumberStartsAtOne" : "DC 7/6/2026 11:34",
+		"testCurrentRoundNumberIncrementsAfterAdvance" : "DC 7/6/2026 11:37",
+		"testLastResultAfterSubmit" : "DC 7/6/2026 11:41",
+		"testRoundResultsAccumulate" : "DC 7/6/2026 11:45" } }

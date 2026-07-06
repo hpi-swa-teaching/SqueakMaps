@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBuilderSetsAllFields" : "DC 7/6/2026 11:14",
+		"testNilGuessAndDistanceAllowed" : "DC 7/6/2026 11:17",
+		"testAccessors" : "DC 7/6/2026 11:21" } }
