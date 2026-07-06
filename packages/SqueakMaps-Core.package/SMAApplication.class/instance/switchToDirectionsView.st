@@ -11,5 +11,7 @@ switchToDirectionsView
 	self selectedPin ifNotNil: [
 		self hopLocations add: self selectedPin.
 	].
+	self selectedPin: nil.
+	self mapConfigurator clearAllMarkers.
 	self changed: #hopLocations.
 	self changed: #hopLocationLabels.
