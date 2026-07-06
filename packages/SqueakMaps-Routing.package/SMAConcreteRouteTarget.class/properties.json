@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakMaps-Routing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"place",
+		"label" ],
+	"name" : "SMAConcreteRouteTarget",
+	"pools" : [
+		 ],
+	"super" : "SMARouteTarget",
+	"type" : "normal" }

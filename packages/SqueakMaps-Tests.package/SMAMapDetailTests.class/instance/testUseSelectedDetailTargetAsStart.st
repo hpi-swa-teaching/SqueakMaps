@@ -6,12 +6,12 @@ testUseSelectedDetailTargetAsStart
 	application := SMAApplication new.
 	application initializeMap.
 
-	target := application routeTargets first value.
+	target := application routeTargets first.
 	startIndex := application
 		routeSelectionIndexForTarget: target
 		in: application routeTargets.
 
-	application selectCampusDetailTarget: target.
+	application selectCampusDetailTarget: target place.
 	application useSelectedDetailTargetAsStart.
 
 	self assert: application currentView equals: #directions.

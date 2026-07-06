@@ -1,4 +1,6 @@
 building
 defaultStartRouteTarget
 
-	^ self defaultStartPoint
+	^ SMAConcreteRouteTarget
+		on: self defaultStartPoint
+		label: 'Bahnhof Griebnitzsee'

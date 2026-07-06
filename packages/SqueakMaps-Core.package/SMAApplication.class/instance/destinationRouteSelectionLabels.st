@@ -1,4 +1,4 @@
 building
 destinationRouteSelectionLabels
 
-	^ self destinationRouteTargets collect: [:association | association key]
+	^ self destinationRouteTargets collect: [:target | target label]

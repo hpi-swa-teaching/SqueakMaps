@@ -1,0 +1,4 @@
+accessing
+place
+
+	^ self subclassResponsibility

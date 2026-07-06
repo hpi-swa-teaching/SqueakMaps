@@ -1,8 +1,8 @@
 building
 searchResultTreeNodes
 
-	^ self searchSuggestionTargets collect: [:association |
+	^ self searchSuggestionTargets collect: [:target |
 		SMAListNode new
-			label: association key;
-			target: association value;
+			label: target label;
+			target: target;
 			yourself]

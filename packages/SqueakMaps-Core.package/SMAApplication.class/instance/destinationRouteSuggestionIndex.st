@@ -1,11 +1,12 @@
 building
 destinationRouteSuggestionIndex
 
-	| association |
+	| target |
+
 	self destinationRouteSelectionIndex = 0 ifTrue: [^ 0].
-	association := self destinationRouteTargets
+	target := self destinationRouteTargets
 		at: self destinationRouteSelectionIndex
 		ifAbsent: [^ 0].
 	^ self
-		routeSelectionIndexForTarget: association value
+		routeSelectionIndexForTarget: target
 		in: self destinationRouteSuggestionTargets

@@ -6,6 +6,7 @@
 		"menuAPI:" : "AS 6/11/2026 12:46",
 		"setUp" : "AS 6/11/2026 12:50",
 		"testFallbackWhenContentSourceFails" : "AS 6/17/2026 09:40",
+		"testNextServingDateSkipsWeekend" : "AS 7/5/2026 17:24",
 		"testParsingValidMealResponse" : "AS 6/17/2026 09:40",
 		"testUrlCreationForFixedDate" : "AS 6/11/2026 13:10",
 		"validMealResponse" : "AS 6/11/2026 13:14" } }

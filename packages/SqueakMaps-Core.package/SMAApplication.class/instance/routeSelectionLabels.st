@@ -1,4 +1,4 @@
 building
 routeSelectionLabels
 
-	^ self routeTargets collect: [:association | association key]
+	^ self routeTargets collect: [:target | target label]

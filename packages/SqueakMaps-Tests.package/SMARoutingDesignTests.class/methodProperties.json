@@ -5,10 +5,12 @@
 		"pointIdsForPath:in:" : "Samuel Bis 7/3/2026 19:13",
 		"routingGraph" : "Samuel Bis 7/3/2026 19:13",
 		"simpleRoutingOSM" : "Samuel Bis 7/3/2026 19:13",
+		"testConcreteRouteTargetsCompareByPlace" : "AS 7/5/2026 21:57",
 		"testDijkstraStrategyFindsShortestPath" : "Samuel Bis 7/3/2026 19:14",
 		"testFacadeBuildsRouteLine" : "Samuel Bis 7/3/2026 19:14",
 		"testFacadeUsesInjectedStrategy" : "Samuel Bis 7/3/2026 19:14",
 		"testLevelSelectionModelOwnsFloorNavigation" : "Samuel Bis 7/3/2026 19:14",
+		"testNearestPOIRouteTargetResolvesClosestPOI" : "AS 7/5/2026 22:00",
 		"testOSMBuilderBuildsGraph" : "Samuel Bis 7/3/2026 19:14",
 		"testRouteLineEncapsulatesSegmentVisibility" : "kong 7/5/2026 20:58",
 		"testRouteMutationNotifiesObservers" : "Samuel Bis 7/3/2026 19:15" } }

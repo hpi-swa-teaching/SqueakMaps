@@ -6,8 +6,8 @@ testSelectingCampusDetailTargetKeepsRouteStart
 	application := SMAApplication new.
 	application initializeMap.
 
-	target := application routeTargets first value.
+	target := application routeTargets first.
 	application startRouteSelectionIndex: 0.
-	application selectCampusDetailTarget: target.
+	application selectCampusDetailTarget: target place.
 
 	self assert: application startRouteSelectionIndex equals: 0

@@ -2,6 +2,7 @@ building
 searchDirections
 
 	| startTarget destinationTarget routeLine routeLocations |
+
 	startTarget := self selectedStartRouteTarget.
 	destinationTarget := self selectedDestinationRouteTarget.
 
@@ -11,8 +12,8 @@ searchDirections
 		^ self inform: 'Start und Destination sind identisch.'].
 
 	routeLine := self routingFacade
-		routeFrom: startTarget
-		to: destinationTarget.
+		routeFrom: startTarget place
+		to: destinationTarget place.
 	routeLine ifNil: [^ self inform: 'Für diese Auswahl konnte keine Route gefunden werden.'].
 
 	self route: routeLine.

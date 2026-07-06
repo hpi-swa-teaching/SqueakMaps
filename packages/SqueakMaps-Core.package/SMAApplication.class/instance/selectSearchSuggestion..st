@@ -2,12 +2,12 @@ building
 selectSearchSuggestion: anInteger
 
 	| target location |
+
 	anInteger = 0 ifTrue: [^ self].
-	target := (self searchSuggestionTargets at: anInteger ifAbsent: [^ self]) value.
-	(self isPOITypeRouteTarget: target) ifTrue: [
-		target := self
-			nearestPOIOfClass: (target at: 2)
-			from: self defaultStartRouteTarget].
+	target := self searchSuggestionTargets at: anInteger ifAbsent: [^ self].
+	target := target
+		resolveFrom: self defaultStartRouteTarget
+		among: self tiledMapMorph pointsOfInterest.
 	target ifNil: [^ self].
 	location := self locationForRouteTarget: target.
 	location ifNil: [^ self].
@@ -15,4 +15,4 @@ selectSearchSuggestion: anInteger
 		clear;
 		displayLocation: location;
 		focusLocation: location.
-	self selectCampusDetailTarget: target
+	self selectCampusDetailTarget: target place

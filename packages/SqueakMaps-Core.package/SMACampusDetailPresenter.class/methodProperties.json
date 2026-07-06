@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:mensaProvider:poiSource:" : "AS 7/5/2026 18:03" },
+	"instance" : {
+		"buildingForPOI:" : "AS 7/5/2026 18:45",
+		"detailLines" : "AS 7/5/2026 18:06",
+		"intrinsicLines" : "AS 7/5/2026 18:09",
+		"labelFor:" : "AS 7/5/2026 18:12",
+		"locationTextForPOI:" : "AS 7/5/2026 18:48",
+		"mensaLines" : "AS 7/5/2026 18:15",
+		"mensaProvider" : "AS 7/5/2026 18:18",
+		"mensaProvider:" : "AS 7/5/2026 18:21",
+		"poiLine" : "AS 7/5/2026 18:24",
+		"poiSource" : "AS 7/5/2026 18:27",
+		"poiSource:" : "AS 7/5/2026 18:30",
+		"poiTextFor:" : "AS 7/5/2026 18:57",
+		"roomForPOI:" : "AS 7/5/2026 18:51",
+		"routeLabelForPOI:" : "AS 7/5/2026 18:54",
+		"target" : "AS 7/5/2026 18:36",
+		"target:" : "AS 7/5/2026 18:39",
+		"timeLines" : "AS 7/5/2026 18:42" } }
