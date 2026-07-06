@@ -4,8 +4,8 @@
 		"latLongToWorldPos:" : "tonyg 9/5/2011 18:22",
 		"worldPosToLatLong:" : "MK 8/7/2020 12:46" },
 	"instance" : {
-		"imageAt:zoom:source:tile:" : "RK 8/5/2022 21:02",
+		"imageAt:zoom:source:tile:" : "kong 7/5/2026 16:05",
 		"initialize" : "RK 8/5/2022 21:02",
-		"offsetOf:zoom:" : "MK 8/7/2020 12:44",
+		"offsetOf:zoom:" : "kong 7/5/2026 16:05",
 		"resetCache" : "RK 8/5/2022 21:02",
-		"uncachedImageAtKey:" : "cs 8/6/2020 15:28" } }
+		"uncachedImageAtKey:" : "kong 7/5/2026 16:05" } }

@@ -1,0 +1,1 @@
+A SMAGitAssetURL loads files using the GitAssetLoader and has the same interface as the URL and MIMEDocument classes
