@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"OSMTestFileName" : "kong 7/6/2026 11:48",
 		"fullOSMFile" : "kong 7/5/2026 00:37",
 		"poiOSMFile" : "kong 6/10/2026 21:24",
-		"singleRoomOSMFile" : "kong 6/2/2026 14:57",
+		"singleRoomOSMFile" : "kong 7/6/2026 11:46",
 		"testBuildingDetailProtocolAnswersIntrinsicAndTimeLines" : "AS 7/5/2026 21:48",
 		"testCampusDetailTimeLinesForTargetWithTimeInfos" : "AS 6/18/2026 12:52",
 		"testCampusDetailTimeLinesForTargetWithoutTimeInfos" : "AS 6/18/2026 12:55",
@@ -18,8 +19,8 @@
 		"testDirectoryModelGroupsAndTogglesPOIFilter" : "AS 7/5/2026 22:23",
 		"testMensaDetailTextIncludesAvailablePriceLabels" : "AS 6/18/2026 10:30",
 		"testMensaMealFormatsPriceSummaryAndDisplayLine" : "AS 7/5/2026 17:18",
-		"testOpeningGitAsset" : "kong 6/1/2026 21:44",
-		"testParsingXMLGitAsset" : "kong 6/10/2026 21:23",
+		"testOpeningGitAsset" : "kong 7/6/2026 11:48",
+		"testParsingXMLGitAsset" : "kong 7/6/2026 11:48",
 		"testSearchSuggestionFiltering" : "Samuel Bis 7/4/2026 12:07",
 		"testSelectingBuildingSetsCampusDetailTarget" : "kong 7/5/2026 21:19",
 		"testSelectingCampusDetailTargetKeepsRouteStart" : "AS 7/5/2026 21:51",

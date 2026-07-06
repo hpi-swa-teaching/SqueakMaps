@@ -2441,15 +2441,6 @@ GSMetadata {
 			],
 			#encoding : @5
 		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'raum_K-E.18.osm'
-			],
-			#encoding : 'TXT'
-		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -2996,15 +2987,6 @@ GSMetadata {
 				'344481.png'
 			],
 			#encoding : @5
-		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'test.osm'
-			],
-			#encoding : 'TXT'
 		},
 		GSImageMapper {
 			#version : 1,
@@ -6711,15 +6693,6 @@ GSMetadata {
 				'20',
 				'562542',
 				'344488.png'
-			],
-			#encoding : @5
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'assets',
-				'osm',
-				'TestPicture.png'
 			],
 			#encoding : @5
 		},
@@ -11926,6 +11899,36 @@ GSMetadata {
 				'img',
 				'buildings',
 				'hpi_hauptgebaeude_foyer.png'
+			],
+			#encoding : @5
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tests',
+				'osm',
+				'test.osm'
+			],
+			#encoding : 'TXT'
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tests',
+				'osm',
+				'raum_K-E.18.osm'
+			],
+			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'assets',
+				'tests',
+				'img',
+				'TestPicture.png'
 			],
 			#encoding : @5
 		}
